@@ -1,0 +1,190 @@
+composition:
+  _name: Content Card
+  _id: 47860557-b902-4b05-9f6a-d57d5814a4fc
+  type: container
+  variant: fluidContent
+  parameters:
+    title:
+      type: text
+      locales:
+        en-US: Generic Content Card
+    marginTop:
+      type: select
+      value: None
+    paddingTop:
+      type: select
+      value: None
+    marginBottom:
+      type: select
+      value: None
+    paddingBottom:
+      type: select
+      value: None
+  slots:
+    container-inner:
+      - _id: 84f3d5df-e4b8-464d-80e9-53f14c2c8ac5
+        type: heroContainer
+        slots:
+          buttonsSection:
+            - _id: a2d41c7b-3d70-4757-9939-8927f6866961
+              type: button
+              parameters:
+                $viz:
+                  type: $viz
+                  value:
+                    criteria:
+                      clauses:
+                        - op: has
+                          rule: $dt
+                          value: hero
+                          source: ${#jptr:/Content/entry/type}
+                copy:
+                  type: text
+                  locales:
+                    en-US: View
+              _overridability:
+                parameters:
+                  copy: 'yes'
+                  link: 'yes'
+                hideLockedParameters: true
+            - _id: 11dc3b6b-a957-43ab-ae93-4c9f75fae673
+              type: button
+              parameters:
+                $viz:
+                  type: $viz
+                  value:
+                    criteria:
+                      clauses:
+                        - op: is
+                          rule: $dt
+                          value: product
+                          source: ${#jptr:/Content/entry/type}
+                copy:
+                  type: text
+                  locales:
+                    en-US: View Product
+                link:
+                  type: link
+                  value:
+                    path: /${locale}/products/:product-slug
+                    type: projectMapNode
+                    nodeId: fb657541-0488-4c22-bce4-64c9cd71bdde
+                    projectMapId: 62588085-7894-4810-84b6-eaaf0cb5213c
+                    dynamicInputValues:
+                      locale: ${locale}
+              _overridability:
+                hideLockedParameters: true
+            - _id: be5064b4-a6d9-44d3-af40-0f671f2fa953
+              type: button
+              parameters:
+                $viz:
+                  type: $viz
+                  value:
+                    criteria:
+                      clauses:
+                        - op: is
+                          rule: $dt
+                          value: article
+                          source: ${#jptr:/Content/entry/type}
+                copy:
+                  type: text
+                  locales:
+                    en-US: View Article
+                link:
+                  type: link
+                  value:
+                    path: /${locale}/articles/${#jptr:/Content/entry/_slug}
+                    type: projectMapNode
+                    nodeId: 9ccb607b-5e39-45c0-83f8-ed31fbaf61a1
+                    projectMapId: 62588085-7894-4810-84b6-eaaf0cb5213c
+                    dynamicInputValues:
+                      locale: ${locale}
+                      article-slug: ${#jptr:/Content/entry/_slug}
+              _overridability:
+                hideLockedParameters: true
+            - _id: 8ecedc10-8a23-4006-843c-a6521d27663f
+              type: button
+              parameters:
+                $viz:
+                  type: $viz
+                  value:
+                    criteria:
+                      clauses:
+                        - op: is
+                          rule: $dt
+                          value: recipe
+                          source: ${#jptr:/Content/entry/type}
+                copy:
+                  type: text
+                  locales:
+                    en-US: View Recipe
+                link:
+                  type: link
+                  value:
+                    path: /${locale}/about-us/recipes/${#jptr:/Content/entry/_slug}
+                    type: projectMapNode
+                    nodeId: 836a6692-9686-4fc9-82ed-d9dc121a398e
+                    projectMapId: 62588085-7894-4810-84b6-eaaf0cb5213c
+                    dynamicInputValues:
+                      locale: ${locale}
+                      recipe: ${#jptr:/Content/entry/_slug}
+              _overridability:
+                hideLockedParameters: true
+        variant: backgroundImage
+        parameters:
+          image:
+            type: asset
+            value: ${#jptr:/Content/entry/fields/thumbnail/value}
+          title:
+            type: text
+            locales:
+              en-US: ${#jptr:/Content/entry/_name}
+          objectFit:
+            type: select
+            value: cover
+          textColor:
+            type: tp-color-palette-parameter
+            value: primary-content
+          titleStyle:
+            type: tp-title-style-parameter
+            value: h4
+          overlayColor:
+            type: tp-color-palette-parameter
+            value: primary
+          overlayOpacity:
+            type: tp-slider-parameter
+            value: 40%
+        _overridability:
+          parameters:
+            description: 'yes'
+            eyebrowText: 'yes'
+          hideLockedParameters: true
+  _dataResources:
+    Content:
+      type: anyContent
+      variables:
+        locale: ${locale}
+        entryId: bc35eb41-f1f5-49fa-a06f-8cbaf4dfd475
+        entryIds: c8a997fc-4410-44eb-856f-dd4e559fedbd
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
+  _overridability:
+    variants: true
+    parameters:
+      $viz: 'yes'
+      title: 'yes'
+      marginTop: 'yes'
+      paddingTop: 'yes'
+      marginBottom: 'yes'
+      paddingBottom: 'yes'
+      backgroundType: 'yes'
+    hideLockedParameters: true
+  _locales:
+    - en-US
+created: '2024-10-10T19:02:16.805487+00:00'
+modified: '2024-10-10T19:45:43.128292+00:00'
+pattern: true
+description: Single Product content card inside a container
+previewImageUrl: >-
+  https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/AFZ53R5ZQM2Etnj-oEOw4g-Product-Card.png
+categoryId: 2da8c924-14d5-470b-9fe4-1e56521551e5

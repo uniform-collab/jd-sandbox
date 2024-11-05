@@ -1,0 +1,12 @@
+id: c0373aeb-9e58-4c72-83fe-31b74cb79990
+integrationType: openai-0925a081-67a6-4415-b892-69f3223ceffc
+name: Shorten Description parameter
+text: Make a shorter version of ${parameter:description}
+data:
+  arguments:
+    parameter:description:
+      default: ''
+enabled: true
+builtIn: null
+parameterTypes:
+  - text

@@ -1,0 +1,182 @@
+created: '2024-08-12T13:06:57.06943+00:00'
+modified: '2024-09-24T18:55:38.827533+00:00'
+pattern: false
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+entry:
+  _id: e86f566a-9ec3-484b-9524-3f662d7b5fd2
+  _name: Pour-Over
+  _slug: pour-over
+  type: productCategory
+  fields:
+    logo:
+      type: asset
+      locales:
+        en-US:
+          - _id: 1ba2f584-bfbc-412a-93cf-b09cbb2b610e
+            type: image
+            fields:
+              id:
+                type: text
+                value: 7a10f043-aac6-4b4a-b711-8b56282f6bec
+              url:
+                value: >-
+                  https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/-EXaJsIhQQaLB8orxAnjpg-Image-7.webp
+                type: text
+              file:
+                type: file
+                value: 4dd69301-171f-4469-9ac4-57d449f5259a
+              size:
+                value: 120562
+                type: number
+              title:
+                type: text
+                value: Image-7.webp
+              width:
+                value: 1024
+                type: number
+              height:
+                value: 1024
+                type: number
+              mediaType:
+                value: image/webp
+                type: text
+            _source: uniform-assets
+        es-US:
+          - _id: 1ba2f584-bfbc-412a-93cf-b09cbb2b610e
+            type: image
+            fields:
+              id:
+                type: text
+                value: 7a10f043-aac6-4b4a-b711-8b56282f6bec
+              url:
+                value: >-
+                  https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/-EXaJsIhQQaLB8orxAnjpg-Image-7.webp
+                type: text
+              file:
+                type: file
+                value: 4dd69301-171f-4469-9ac4-57d449f5259a
+              size:
+                value: 120562
+                type: number
+              title:
+                type: text
+                value: Image-7.webp
+              width:
+                value: 1024
+                type: number
+              height:
+                value: 1024
+                type: number
+              mediaType:
+                value: image/webp
+                type: text
+            _source: uniform-assets
+        fr-CA:
+          - _id: 1ba2f584-bfbc-412a-93cf-b09cbb2b610e
+            type: image
+            fields:
+              id:
+                type: text
+                value: 7a10f043-aac6-4b4a-b711-8b56282f6bec
+              url:
+                value: >-
+                  https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/-EXaJsIhQQaLB8orxAnjpg-Image-7.webp
+                type: text
+              file:
+                type: file
+                value: 4dd69301-171f-4469-9ac4-57d449f5259a
+              size:
+                value: 120562
+                type: number
+              title:
+                type: text
+                value: Image-7.webp
+              width:
+                value: 1024
+                type: number
+              height:
+                value: 1024
+                type: number
+              mediaType:
+                value: image/webp
+                type: text
+            _source: uniform-assets
+        nl-NL:
+          - _id: 1ba2f584-bfbc-412a-93cf-b09cbb2b610e
+            type: image
+            fields:
+              id:
+                type: text
+                value: 7a10f043-aac6-4b4a-b711-8b56282f6bec
+              url:
+                value: >-
+                  https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/-EXaJsIhQQaLB8orxAnjpg-Image-7.webp
+                type: text
+              file:
+                type: file
+                value: 4dd69301-171f-4469-9ac4-57d449f5259a
+              size:
+                value: 120562
+                type: number
+              title:
+                type: text
+                value: Image-7.webp
+              width:
+                value: 1024
+                type: number
+              height:
+                value: 1024
+                type: number
+              mediaType:
+                value: image/webp
+                type: text
+            _source: uniform-assets
+    title:
+      type: text
+      locales:
+        en-US: Pour-Over
+        es-US: Verter
+        fr-CA: Pour-Over
+        nl-NL: Pour-Over
+    description:
+      type: text
+      locales:
+        en-US: >-
+          Explore the art of manual coffee brewing with our selection of
+          pour-over coffee makers. Known for their precision and ability to
+          bring out the nuanced flavors of coffee, pour-over methods offer a
+          hands-on brewing experience. Our collection includes high-quality
+          drippers, filters, and carafes, perfect for any coffee enthusiast.
+          Enjoy the delicate and complex flavors that only a pour-over can
+          provide, and elevate your coffee routine to an art form.
+        es-US: >-
+          Explore el arte de la elaboración de café manual con nuestra selección
+          de cafeteras de vertidos.Conocido por su precisión y capacidad de
+          sacar los sabores matizados del café, los métodos de vertido ofrecen
+          una experiencia de elaboración práctica.Nuestra colección incluye
+          goteos de alta calidad, filtros y jarras, perfectas para cualquier
+          entusiasta del café.Disfrute de los delicados y complejos sabores que
+          solo un vertido puede proporcionar y eleva su rutina de café a una
+          forma de arte.
+        fr-CA: >-
+          Explorez l’art de l’infusion manuelle avec notre sélection de
+          cafetières pour la méthode du filtre manuel. Réputées pour leur
+          précision et leur capacité à révéler les saveurs nuancées du café, les
+          méthodes de filtre manuel offrent une expérience d’infusion pratique.
+          Notre collection comprend des verseurs, filtres et carafes de haute
+          qualité, parfaits pour tout amateur de café. Savourez les saveurs
+          délicates et complexes qu’une infusion manuelle peut offrir et élevez
+          votre routine café à un véritable art.
+        nl-NL: >-
+          Ontdek de kunst van handmatig koffiezetten met onze selectie van
+          pour-over koffiemakers. Bekend om hun precisie en het vermogen om de
+          subtiele smaken van koffie naar voren te brengen, bieden pour-over
+          methoden een hands-on zetervaring. Onze collectie omvat hoogwaardige
+          drippers, filters en karaffen, perfect voor elke koffieliefhebber.
+          Geniet van de delicate en complexe smaken die alleen een pour-over kan
+          bieden, en til uw koffieroutine naar een kunstvorm.
+  _locales:
+    - en-US
+    - es-US
+    - fr-CA
+    - nl-NL

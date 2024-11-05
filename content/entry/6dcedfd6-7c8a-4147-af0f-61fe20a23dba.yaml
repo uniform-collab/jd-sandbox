@@ -1,0 +1,71 @@
+created: '2023-11-20T09:34:28.141792+00:00'
+modified: '2024-09-24T18:55:38.827533+00:00'
+pattern: false
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+entry:
+  _id: 6dcedfd6-7c8a-4147-af0f-61fe20a23dba
+  _name: Request?
+  _slug: request
+  _thumbnail: >-
+    https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/7_yZh07oTymIMXrOuisWWQ-cervello_smart_landing_hero4.jpg
+  type: callToAction
+  fields:
+    image:
+      type: asset
+      value:
+        - _id: e3ada32e-ce04-4ea6-8b32-e3ce4b6c0eef
+          type: image
+          fields:
+            id:
+              type: text
+              value: 257965d2-25e9-41fb-92b2-fc22ca5b10e2
+            url:
+              value: >-
+                https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/7_yZh07oTymIMXrOuisWWQ-cervello_smart_landing_hero4.jpg
+              type: text
+            file:
+              type: file
+              value: 086a6410-2dbc-4c2a-a4e8-ef55cec5de80
+            size:
+              value: 945417
+              type: number
+            title:
+              type: text
+              value: cervello_smart_landing_hero4.jpg
+            width:
+              value: 2600
+              type: number
+            height:
+              value: 1300
+              type: number
+            mediaType:
+              value: image/jpeg
+              type: text
+          _source: uniform-assets
+    title:
+      type: text
+      locales:
+        en-US: Request?
+        es-US: ¿Pedido?
+        fr-CA: Demande?
+        nl-NL: Verzoek?
+    description:
+      type: text
+      locales:
+        en-US: >-
+          Have a request for a new bean or coffee machine you can't find?
+          Contact us
+        es-US: >-
+          ¿Tiene una solicitud de un nuevo frijol o cafetera que no puede
+          encontrar?Contáctenos
+        fr-CA: >-
+          Vous avez une demande pour une nouvelle machine à grains ou à café que
+          vous ne pouvez pas trouver?Contactez-nous
+        nl-NL: >-
+          Heb je een verzoek om een nieuwe bonen- of koffiezetapparaat die je
+          niet kunt vinden?Neem contact met ons op
+  _locales:
+    - en-US
+    - es-US
+    - fr-CA
+    - nl-NL

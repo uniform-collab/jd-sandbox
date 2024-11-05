@@ -1,0 +1,61 @@
+created: '2024-09-05T08:09:36.30157+00:00'
+modified: '2024-09-24T18:55:38.827533+00:00'
+pattern: false
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+entry:
+  _id: 059615df-5702-40b2-ad1e-f420f76b9c4b
+  _name: Tech
+  _slug: tech
+  _thumbnail: >-
+    https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/AggvgA9eTaKvU6tsH8z9Qw-Image.webp
+  type: tag
+  fields:
+    logo:
+      type: asset
+      locales:
+        en-US:
+          - _id: 80399214-3a82-4d90-a1a3-688711669a09
+            type: image
+            fields:
+              id:
+                type: text
+                value: 6a324222-7f62-4582-8c8d-76d1db89d36e
+              url:
+                value: >-
+                  https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/AggvgA9eTaKvU6tsH8z9Qw-Image.webp
+                type: text
+              file:
+                type: file
+                value: 7adfcc44-fb3e-495f-b7ad-77d516feee44
+              size:
+                value: 166366
+                type: number
+              title:
+                type: text
+                value: Image.webp
+              width:
+                value: 1024
+                type: number
+              height:
+                value: 1024
+                type: number
+              mediaType:
+                value: image/webp
+                type: text
+            _source: uniform-assets
+    title:
+      type: text
+      locales:
+        en-US: Tech
+    description:
+      type: text
+      locales:
+        en-US: >-
+          Your gateway to the latest innovations, trends, and insights in the
+          world of technology. From cutting-edge gadgets to groundbreaking
+          software, this tag brings together articles that explore the
+          ever-evolving tech landscape. Whether you’re a tech enthusiast or a
+          professional in the field, this tag is your go-to source for staying
+          informed and inspired.
+  _locales:
+    - en-US

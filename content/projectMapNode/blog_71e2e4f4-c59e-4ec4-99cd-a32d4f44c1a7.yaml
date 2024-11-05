@@ -1,0 +1,9 @@
+id: 71e2e4f4-c59e-4ec4-99cd-a32d4f44c1a7
+name: Blog
+order: 800
+path: /:locale/about-us/blog
+type: composition
+pathSegment: blog
+data: {}
+compositionId: bd8523ca-9ac4-46c2-b51b-957feb2c5dfa
+projectMapId: 62588085-7894-4810-84b6-eaaf0cb5213c

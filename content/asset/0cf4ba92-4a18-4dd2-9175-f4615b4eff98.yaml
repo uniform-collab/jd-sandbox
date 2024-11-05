@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 0cf4ba92-4a18-4dd2-9175-f4615b4eff98
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: hero_15.png
+    file:
+      type: file
+      value: a1c1fab1-abed-4e1a-b20e-ad55b9bfec24
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/h69mt1tXTJSUOBXyBrHlVA-hero_15.png
+      type: text
+    size:
+      value: 2064940
+      type: number
+    width:
+      value: 3000
+      type: number
+    height:
+      value: 2000
+      type: number
+    custom: {}
+created: '2023-12-12T16:27:26.345892+00:00'
+modified: '2023-12-12T16:27:26.345892+00:00'

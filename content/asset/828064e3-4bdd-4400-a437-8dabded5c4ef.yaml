@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 828064e3-4bdd-4400-a437-8dabded5c4ef
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: gtXRZIgMQmCBbTIIGiO-TQ-JavaDrip_Specialty_1_ijla9c_ymbqor.avif
+    file:
+      type: file
+      value: b6e6900f-f9af-45a1-97d3-d3b912988eb0
+    mediaType:
+      value: image/avif
+      type: text
+    url:
+      value: >-
+        https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/YZufomUxR1m3dmeX64y_eA-gtXRZIgMQmCBbTIIGiO-TQ-JavaDrip_Specialty_1_ijla9c_ymbqor.avif
+      type: text
+    size:
+      value: 28226
+      type: number
+    width:
+      value: 1000
+      type: number
+    height:
+      value: 1000
+      type: number
+    custom: {}
+created: '2024-02-01T08:26:24.743966+00:00'
+modified: '2024-02-01T08:26:24.743966+00:00'

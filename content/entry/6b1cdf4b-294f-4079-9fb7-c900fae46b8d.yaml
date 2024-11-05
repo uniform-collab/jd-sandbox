@@ -1,0 +1,60 @@
+created: '2024-09-05T08:11:33.132098+00:00'
+modified: '2024-09-24T18:55:38.827533+00:00'
+pattern: false
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+entry:
+  _id: 6b1cdf4b-294f-4079-9fb7-c900fae46b8d
+  _name: Coffee Makers
+  _slug: coffee-makers
+  _thumbnail: >-
+    https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/QJHTz7VSRQ-gOIS5y0MAEQ-Image-4.webp
+  type: tag
+  fields:
+    logo:
+      type: asset
+      locales:
+        en-US:
+          - _id: dc9fbe05-8212-4ec5-a79b-99f1d04e8811
+            type: image
+            fields:
+              id:
+                type: text
+                value: ac2a0e47-81da-40a6-a447-0727a2d56f3d
+              url:
+                value: >-
+                  https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/QJHTz7VSRQ-gOIS5y0MAEQ-Image-4.webp
+                type: text
+              file:
+                type: file
+                value: e602156b-ccfb-46fc-a011-8cc0adcf01d5
+              size:
+                value: 211374
+                type: number
+              title:
+                type: text
+                value: Image-4.webp
+              width:
+                value: 1024
+                type: number
+              height:
+                value: 1024
+                type: number
+              mediaType:
+                value: image/webp
+                type: text
+            _source: uniform-assets
+    title:
+      type: text
+      locales:
+        en-US: Coffee Makers
+    description:
+      type: text
+      locales:
+        en-US: >-
+          Dedicated to everything about brewing the perfect cup of coffee. From
+          in-depth reviews of the latest machines to tips and tricks for getting
+          the most out of your equipment, this tag covers all aspects of
+          coffee-making technology. Whether you’re a seasoned barista or a
+          homebrewer, you’ll find valuable insights here.
+  _locales:
+    - en-US

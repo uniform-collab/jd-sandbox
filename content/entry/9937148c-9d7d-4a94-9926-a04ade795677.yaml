@@ -1,0 +1,2106 @@
+created: '2024-09-26T14:44:46.332267+00:00'
+modified: '2024-10-03T18:14:15.702384+00:00'
+pattern: false
+entry:
+  _id: 9937148c-9d7d-4a94-9926-a04ade795677
+  _name: Bittersweet Chocolate Soufflés
+  _slug: bittersweet-chocolate-souffles
+  _thumbnail: >-
+    https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/ReNGIiW5S0mZQ4WI3BEvUA-bittersweet-chocolate-souffles.webp
+  type: recipe
+  fields:
+    name:
+      type: text
+      locales:
+        en-CA: Bittersweet Chocolate Soufflés
+        en-GB: Bittersweet Chocolate Soufflés
+        en-NL: Bittersweet Chocolate Soufflés
+        en-US: Bittersweet Chocolate Soufflés
+        es-US: Soufflés de chocolate agridulce
+        fr-CA: Soufflés au chocolat doux-amer
+        nl-NL: Bitterzoete chocoladesoufflés
+    yield:
+      type: text
+      locales:
+        en-CA: makes 4
+        en-GB: makes 4
+        en-NL: makes 4
+        en-US: makes 4
+        es-US: Rinde 4
+        fr-CA: fait 4
+        nl-NL: maakt 4
+    overview:
+      type: text
+      locales:
+        en-CA: >-
+          The secret ingredient in this recipe isn't the 2 tablespoons of brewed
+          coffee—it's the melted ice cream that we use in place of crème
+          anglaise.
+        en-GB: >-
+          The secret ingredient in this recipe isn't the 2 tablespoons of brewed
+          coffee—it's the melted ice cream that we use in place of crème
+          anglaise.
+        en-NL: >-
+          The secret ingredient in this recipe isn't the 2 tablespoons of brewed
+          coffee—it's the melted ice cream that we use in place of crème
+          anglaise.
+        en-US: >-
+          The secret ingredient in this recipe isn't the 2 tablespoons of brewed
+          coffee—it's the melted ice cream that we use in place of crème
+          anglaise.
+        es-US: >-
+          El ingrediente secreto de esta receta no son las 2 cucharadas de café
+          preparado, es el helado derretido que usamos en lugar de crema
+          inglesa.
+        fr-CA: >-
+          L'ingrédient secret de cette recette n'est pas les deux cuillères à
+          soupe de café infusé, mais la crème glacée fondue que nous utilisons à
+          la place de la crème anglaise.
+        nl-NL: >-
+          Het geheime ingrediënt in dit recept is niet de 2 eetlepels gezette
+          koffie, maar het gesmolten ijs dat we gebruiken in plaats van crème
+          anglaise.
+    subtitle:
+      type: text
+      locales:
+        en-CA: By Claire Saffitz
+        en-GB: By Claire Saffitz
+        en-NL: By Claire Saffitz
+        en-US: By Claire Saffitz
+        es-US: Por Claire Saffitz
+        fr-CA: Par Claire Saffitz
+        nl-NL: Door Claire Saffitz
+    recipeType:
+      type: contentReference
+      value: ${#jptr:/ref-9937148c-9d7d-4a94-9926-a04ade795677-recipeType/entries/0}
+    description:
+      type: richText
+      locales:
+        en-CA:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Instead of making our own crème anglaise for this soufflé
+                      recipe, we use melted vanilla ice cream (it’s basically
+                      the same thing!). For the best texture, check the carton’s
+                      ingredient label and choose a brand that is free of
+                      stabilizers.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+            direction: ltr
+        en-GB:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Instead of making our own crème anglaise for this soufflé
+                      recipe, we use melted vanilla ice cream (it’s basically
+                      the same thing!). For the best texture, check the carton’s
+                      ingredient label and choose a brand that is free of
+                      stabilizers.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+            direction: ltr
+        en-NL:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Instead of making our own crème anglaise for this soufflé
+                      recipe, we use melted vanilla ice cream (it’s basically
+                      the same thing!). For the best texture, check the carton’s
+                      ingredient label and choose a brand that is free of
+                      stabilizers.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+            direction: ltr
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Instead of making our own crème anglaise for this soufflé
+                      recipe, we use melted vanilla ice cream (it’s basically
+                      the same thing!). For the best texture, check the carton’s
+                      ingredient label and choose a brand that is free of
+                      stabilizers.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+            direction: ltr
+        es-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      En lugar de hacer nuestra propia crema inglesa para esta
+                      receta de soufflé, usamos helado de vainilla derretida
+                      (¡es básicamente lo mismo!). Para obtener la mejor
+                      textura, revise la etiqueta de ingredientes de la caja y
+                      elija una marca que no contenga estabilizantes.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+            direction: ltr
+        fr-CA:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Au lieu de préparer notre propre crème anglaise pour cette
+                      recette de soufflé, nous utilisons de la crème glacée à la
+                      vanille fondue (c'est à peu près la même chose!). Pour
+                      obtenir la meilleure texture possible, vérifiez la liste
+                      des ingrédients sur le carton et choisissez une marque
+                      sans stabilisants.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+            direction: ltr
+        nl-NL:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      In plaats van onze eigen crème anglaise te maken voor dit
+                      soufflérecept, gebruiken we gesmolten vanille-ijs (het is
+                      eigenlijk hetzelfde!). Controleer voor de beste textuur
+                      het ingrediëntenetiket van de doos en kies een merk dat
+                      vrij is van stabilisatoren.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+            direction: ltr
+    ingredients:
+      type: $block
+      value:
+        - _id: 684eb540-cf01-44c9-a356-81c72ede8e3e
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-CA: unsalted butter
+                en-GB: unsalted butter
+                en-NL: unsalted butter
+                en-US: unsalted butter
+                es-US: mantequilla sin sal
+                fr-CA: beurre non salé
+                nl-NL: ongezouten boter
+            unit:
+              type: select
+              value: tbsp
+            amount:
+              type: number
+              value: '1'
+        - _id: fa3d3f97-5525-47ef-b377-af79a834e70c
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-CA: sugar
+                en-GB: sugar
+                en-NL: sugar
+                en-US: sugar
+                es-US: azúcar
+                fr-CA: sucre
+                nl-NL: suiker
+            unit:
+              type: select
+              value: c
+            amount:
+              type: number
+              value: '.25'
+            amountText:
+              type: text
+              locales:
+                en-CA: plus 3 tablespoons
+                en-GB: plus 3 tablespoons
+                en-NL: plus 3 tablespoons
+                en-US: plus 3 tablespoons
+                es-US: más 3 cucharadas
+                fr-CA: plus 3 cuillères à soupe
+                nl-NL: plus 3 eetlepels
+        - _id: ec7c69ea-9182-4020-8ac8-4a4f07f0224c
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-CA: bittersweet chocolate
+                en-GB: bittersweet chocolate
+                en-NL: bittersweet chocolate
+                en-US: bittersweet chocolate
+                es-US: Chocolate agridulce
+                fr-CA: chocolat doux-amer
+                nl-NL: bitterzoete chocolade
+            unit:
+              type: select
+              value: oz
+            amount:
+              type: number
+              value: '6'
+            amountText:
+              type: text
+              locales:
+                en-CA: (70% cacao), coarsely chopped
+                en-GB: (70% cacao), coarsely chopped
+                en-NL: (70% cacao), coarsely chopped
+                en-US: (70% cacao), coarsely chopped
+                es-US: (70% cacao), picado en trozos grandes
+                fr-CA: (70% cacao), grossièrement haché
+                nl-NL: (70% cacao), grof gehakt
+        - _id: bde399e8-6b90-4d0c-a029-3507251a3258
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-CA: brewed coffee
+                en-GB: brewed coffee
+                en-NL: brewed coffee
+                en-US: brewed coffee
+                es-US: Café preparado
+                fr-CA: café infusé
+                nl-NL: Gebrouwen koffie
+            unit:
+              type: select
+              value: tbsp
+            amount:
+              type: number
+              value: '2'
+        - _id: 46cc8e90-bca1-4755-9c05-c1072fef1104
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-CA: large egg yolks
+                en-GB: large egg yolks
+                en-NL: large egg yolks
+                en-US: large egg yolks
+                es-US: yemas de huevo grandes
+                fr-CA: gros jaunes d'œuf
+                nl-NL: grote eidooiers
+            amount:
+              type: number
+              value: '1.99'
+        - _id: 640a9711-0f43-4858-bb5e-e56735c21089
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-CA: vanilla extract
+                en-GB: vanilla extract
+                en-NL: vanilla extract
+                en-US: vanilla extract
+                es-US: extracto de vainilla
+                fr-CA: extrait de vanille
+                nl-NL: vanille-extract
+            unit:
+              type: select
+              value: tsp
+            amount:
+              type: number
+              value: '2'
+        - _id: f24d64de-4fe6-4bd6-bbd2-c6e4858bfff1
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-CA: large egg whites
+                en-GB: large egg whites
+                en-NL: large egg whites
+                en-US: large egg whites
+                es-US: claras de huevo grandes
+                fr-CA: gros blancs d'œufs
+                nl-NL: grote eiwitten
+            amount:
+              type: number
+              value: '5'
+            amountText:
+              type: text
+              locales:
+                en-CA: room temperature
+                en-GB: room temperature
+                en-NL: room temperature
+                en-US: room temperature
+                es-US: Temperatura ambiente
+                fr-CA: température ambiante
+                nl-NL: kamertemperatuur
+        - _id: bebc6140-5ea7-49cf-b073-6c3a12e030e6
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-CA: kosher salt
+                en-GB: kosher salt
+                en-NL: kosher salt
+                en-US: kosher salt
+                es-US: Sal kosher
+                fr-CA: sel casher
+                nl-NL: koosjer zout
+            unit:
+              type: select
+              value: tsp
+            amount:
+              type: number
+              value: '1'
+        - _id: d61b63a2-1364-49dd-8f47-8e57a6a52db4
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-CA: vanilla ice cream
+                en-GB: vanilla ice cream
+                en-NL: vanilla ice cream
+                en-US: vanilla ice cream
+                es-US: Helado de vainilla
+                fr-CA: glace à la vanille
+                nl-NL: vanille-ijs
+            unit:
+              type: select
+              value: c
+            amount:
+              type: number
+              value: '1'
+            amountText:
+              type: text
+              locales:
+                en-CA: best-quality, melted
+                en-GB: best-quality, melted
+                en-NL: best-quality, melted
+                en-US: best-quality, melted
+                es-US: de la mejor calidad, fundido
+                fr-CA: de la meilleure qualité, fondu
+                nl-NL: Beste kwaliteit, gesmolten
+        - _id: 1c58c8c9-c36e-4266-8170-164635f2ddb4
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-CA: ramekins
+                en-GB: ramekins
+                en-NL: ramekins
+                en-US: ramekins
+                es-US: Moldes
+                fr-CA: ramequins
+                nl-NL: Ramekins
+            unit:
+              type: select
+              value: oz
+            amount:
+              type: number
+              value: '4'
+            amountText:
+              type: text
+              locales:
+                en-CA: 6–7
+                en-GB: 6–7
+                en-NL: 6–7
+                en-US: 6–7
+                es-US: 6–7
+                fr-CA: 6-7
+                nl-NL: 6–7
+    publishDate:
+      type: date
+      value: '2017-02-08'
+    instructions:
+      type: $block
+      value:
+        - _id: 1189bd64-0dea-4203-ac38-b384690297af
+          type: howtoSection
+          fields:
+            name:
+              type: text
+              locales:
+                en-CA: Preparation
+                en-GB: Preparation
+                en-NL: Preparation
+                en-US: Preparation
+                es-US: Preparación
+                fr-CA: Préparation
+                nl-NL: Voorbereiding
+            steps:
+              type: $block
+              value:
+                - _id: c56988d5-4fdb-47a6-9ee0-5e8f6d25ed64
+                  type: howtoStep
+                  fields:
+                    name:
+                      type: text
+                      locales:
+                        en-CA: Step 1
+                        en-GB: Step 1
+                        en-NL: Step 1
+                        en-US: Step 1
+                        es-US: Paso 1
+                        fr-CA: Étape 1
+                        nl-NL: Stap 1
+                    description:
+                      type: richText
+                      locales:
+                        en-CA:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Preheat oven to 425°. Brush insides and
+                                      rims of ramekins with butter, using
+                                      straight upward strokes all the way around
+                                      sides. Sprinkle with sugar and tap out
+                                      excess (the upward strokes and sugar will
+                                      give batter something to cling to as it
+                                      rise up above tops of ramekins); set
+                                      aside.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        en-GB:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Preheat oven to 425°. Brush insides and
+                                      rims of ramekins with butter, using
+                                      straight upward strokes all the way around
+                                      sides. Sprinkle with sugar and tap out
+                                      excess (the upward strokes and sugar will
+                                      give batter something to cling to as it
+                                      rise up above tops of ramekins); set
+                                      aside.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        en-NL:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Preheat oven to 425°. Brush insides and
+                                      rims of ramekins with butter, using
+                                      straight upward strokes all the way around
+                                      sides. Sprinkle with sugar and tap out
+                                      excess (the upward strokes and sugar will
+                                      give batter something to cling to as it
+                                      rise up above tops of ramekins); set
+                                      aside.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        en-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Preheat oven to 425°. Brush insides and
+                                      rims of ramekins with butter, using
+                                      straight upward strokes all the way around
+                                      sides. Sprinkle with sugar and tap out
+                                      excess (the upward strokes and sugar will
+                                      give batter something to cling to as it
+                                      rise up above tops of ramekins); set
+                                      aside.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        es-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Precaliente el horno a 425 °. Cepille el
+                                      interior y los bordes de los moldes con
+                                      mantequilla, usando movimientos rectos
+                                      hacia arriba alrededor de los lados.
+                                      Espolvoree con azúcar y elimine el exceso
+                                      (los movimientos ascendentes y el azúcar
+                                      le darán a la masa algo a lo que aferrarse
+                                      a medida que se eleva por encima de la
+                                      parte superior de los moldes); reservar.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        fr-CA:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Préchauffer le four à 425°. Badigeonner
+                                      l'intérieur et le bord des ramequins avec
+                                      du beurre, en effectuant des mouvements
+                                      droits vers le haut sur tout le pourtour.
+                                      Saupoudrer de sucre et enlever l'excédent
+                                      en tapotant (les mouvements vers le haut
+                                      et le sucre donneront à la pâte quelque
+                                      chose à quoi s'accrocher lorsqu'elle
+                                      s'élèvera au-dessus des ramequins); mettre
+                                      de côté.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        nl-NL:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Verwarm de oven voor op 425°. Bestrijk de
+                                      binnenkant en randen van de vormpjes met
+                                      boter en gebruik rechte opwaartse
+                                      bewegingen helemaal rond de zijkanten.
+                                      Bestrooi met suiker en tik het overtollige
+                                      weg (de opwaartse bewegingen en suiker
+                                      geven het beslag iets om zich aan vast te
+                                      klampen als het boven de toppen van de
+                                      vormpjes uitkomt); Gereserveerd.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                - _id: 87ea4770-13c0-4fef-91cc-68a32eca669a
+                  type: howtoStep
+                  fields:
+                    name:
+                      type: text
+                      locales:
+                        en-CA: Step 2
+                        en-GB: Step 2
+                        en-NL: Step 2
+                        en-US: Step 2
+                        es-US: Paso 2
+                        fr-CA: Étape 2
+                        nl-NL: Stap 2
+                    description:
+                      type: richText
+                      locales:
+                        en-CA:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Heat chocolate, coffee, and remaining 1
+                                      Tbsp. butter in a large heatproof bowl set
+                                      over a large saucepan of barely simmering
+                                      water (do not let bowl touch water),
+                                      stirring, until chocolate is melted and
+                                      mixture is smooth. Let cool slightly.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        en-GB:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Heat chocolate, coffee, and remaining 1
+                                      Tbsp. butter in a large heatproof bowl set
+                                      over a large saucepan of barely simmering
+                                      water (do not let bowl touch water),
+                                      stirring, until chocolate is melted and
+                                      mixture is smooth. Let cool slightly.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        en-NL:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Heat chocolate, coffee, and remaining 1
+                                      Tbsp. butter in a large heatproof bowl set
+                                      over a large saucepan of barely simmering
+                                      water (do not let bowl touch water),
+                                      stirring, until chocolate is melted and
+                                      mixture is smooth. Let cool slightly.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        en-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Heat chocolate, coffee, and remaining 1
+                                      Tbsp. butter in a large heatproof bowl set
+                                      over a large saucepan of barely simmering
+                                      water (do not let bowl touch water),
+                                      stirring, until chocolate is melted and
+                                      mixture is smooth. Let cool slightly.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        es-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Caliente el chocolate, el café y la 1
+                                      cucharada de mantequilla restante en un
+                                      tazón grande resistente al calor colocado
+                                      sobre una cacerola grande con agua apenas
+                                      hirviendo (no deje que el tazón toque el
+                                      agua), revolviendo, hasta que el chocolate
+                                      se derrita y la mezcla esté suave. Deje
+                                      enfriar un poco.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        fr-CA:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Chauffer le chocolat, le café et la
+                                      cuillère à soupe de beurre restante dans
+                                      un grand bol résistant à la chaleur placé
+                                      au-dessus d'une grande casserole d'eau à
+                                      peine frémissante (ne pas laisser le bol
+                                      toucher l'eau), en remuant, jusqu'à ce que
+                                      le chocolat soit fondu et que le mélange
+                                      soit lisse. Laisser refroidir légèrement.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        nl-NL:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Verwarm chocolade, koffie en de resterende
+                                      1 eetlepel boter in een grote
+                                      hittebestendige kom boven een grote pan
+                                      met nauwelijks kokend water (laat de kom
+                                      niet in aanraking komen met water), al
+                                      roerend, tot de chocolade is gesmolten en
+                                      het mengsel glad is. Laat iets afkoelen.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                - _id: 8b77db7c-d4a2-4316-aedc-a3fb0775bd82
+                  type: howtoStep
+                  fields:
+                    name:
+                      type: text
+                      locales:
+                        en-CA: Step 3
+                        en-GB: Step 3
+                        en-NL: Step 3
+                        en-US: Step 3
+                        es-US: Paso 3
+                        fr-CA: Étape 3
+                        nl-NL: Stap 3
+                    description:
+                      type: richText
+                      locales:
+                        en-CA:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Whisk egg yolks and vanilla extract into
+                                      chocolate mixture. It will look grainy;
+                                      whisk in 2 tsp. water and the mixture will
+                                      become smooth and glossy again.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        en-GB:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Whisk egg yolks and vanilla extract into
+                                      chocolate mixture. It will look grainy;
+                                      whisk in 2 tsp. water and the mixture will
+                                      become smooth and glossy again.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        en-NL:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Whisk egg yolks and vanilla extract into
+                                      chocolate mixture. It will look grainy;
+                                      whisk in 2 tsp. water and the mixture will
+                                      become smooth and glossy again.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        en-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Whisk egg yolks and vanilla extract into
+                                      chocolate mixture. It will look grainy;
+                                      whisk in 2 tsp. water and the mixture will
+                                      become smooth and glossy again.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        es-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Batir las yemas de huevo y el extracto de
+                                      vainilla en la mezcla de chocolate. Se
+                                      verá granulado; Batir 2 cucharaditas de
+                                      agua y la mezcla volverá a ser suave y
+                                      brillante.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        fr-CA:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Incorporer les jaunes d'œufs et l'extrait
+                                      de vanille au mélange de chocolat en
+                                      fouettant. Le mélange aura l'air
+                                      granuleux; ajoutez 2 cuillères à café
+                                      d'eau en fouettant et le mélange
+                                      redeviendra lisse et brillant.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        nl-NL:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Klop de eidooiers en het vanille-extract
+                                      door het chocolademengsel. Het ziet er
+                                      korrelig uit; Klop er 2 theelepels water
+                                      door en het mengsel wordt weer glad en
+                                      glanzend.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                - _id: 04ce6657-8fb2-4857-abc7-d152afea257c
+                  type: howtoStep
+                  fields:
+                    name:
+                      type: text
+                      locales:
+                        en-CA: Step 4
+                        en-GB: Step 4
+                        en-NL: Step 4
+                        en-US: Step 4
+                        es-US: Paso 4
+                        fr-CA: Étape 4
+                        nl-NL: Stap 4
+                    description:
+                      type: richText
+                      locales:
+                        en-CA:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Beat egg whites in the very clean bowl of
+                                      a stand mixer fitted with the whisk
+                                      attachment on medium speed until frothy,
+                                      about 30 seconds (you can also use a
+                                      hand-held beater, or do this by hand with
+                                      a balloon whisk). Add salt, increase speed
+                                      to medium-high, and beat until soft,
+                                      creamy peaks form, about 2 minutes. Slowly
+                                      sprinkle in remaining ¼ cup plus 3 Tbsp.
+                                      sugar and continue to beat until firm,
+                                      shiny, glossy peaks form (if they look dry
+                                      or clumpy, you’ve gone too far).
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        en-GB:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Beat egg whites in the very clean bowl of
+                                      a stand mixer fitted with the whisk
+                                      attachment on medium speed until frothy,
+                                      about 30 seconds (you can also use a
+                                      hand-held beater, or do this by hand with
+                                      a balloon whisk). Add salt, increase speed
+                                      to medium-high, and beat until soft,
+                                      creamy peaks form, about 2 minutes. Slowly
+                                      sprinkle in remaining ¼ cup plus 3 Tbsp.
+                                      sugar and continue to beat until firm,
+                                      shiny, glossy peaks form (if they look dry
+                                      or clumpy, you’ve gone too far).
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        en-NL:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Beat egg whites in the very clean bowl of
+                                      a stand mixer fitted with the whisk
+                                      attachment on medium speed until frothy,
+                                      about 30 seconds (you can also use a
+                                      hand-held beater, or do this by hand with
+                                      a balloon whisk). Add salt, increase speed
+                                      to medium-high, and beat until soft,
+                                      creamy peaks form, about 2 minutes. Slowly
+                                      sprinkle in remaining ¼ cup plus 3 Tbsp.
+                                      sugar and continue to beat until firm,
+                                      shiny, glossy peaks form (if they look dry
+                                      or clumpy, you’ve gone too far).
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        en-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Beat egg whites in the very clean bowl of
+                                      a stand mixer fitted with the whisk
+                                      attachment on medium speed until frothy,
+                                      about 30 seconds (you can also use a
+                                      hand-held beater, or do this by hand with
+                                      a balloon whisk). Add salt, increase speed
+                                      to medium-high, and beat until soft,
+                                      creamy peaks form, about 2 minutes. Slowly
+                                      sprinkle in remaining ¼ cup plus 3 Tbsp.
+                                      sugar and continue to beat until firm,
+                                      shiny, glossy peaks form (if they look dry
+                                      or clumpy, you’ve gone too far).
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        es-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Batir las claras de huevo en el tazón muy
+                                      limpio de una batidora de pie equipada con
+                                      el accesorio de batidor a velocidad media
+                                      hasta que estén espumosas, aproximadamente
+                                      30 segundos (también puede usar un batidor
+                                      de mano o hacerlo a mano con un batidor de
+                                      globo). Agregue sal, aumente la velocidad
+                                      a media-alta y bata hasta que se formen
+                                      picos suaves y cremosos, aproximadamente 2
+                                      minutos. Espolvoree lentamente el 1/4 de
+                                      taza restante más 3 cucharadas de azúcar y
+                                      continúe batiendo hasta que se formen
+                                      picos firmes, brillantes y brillantes (si
+                                      se ven secos o grumosos, ha ido demasiado
+                                      lejos).
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        fr-CA:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Battre les blancs d'œufs dans le bol très
+                                      propre d'un batteur sur socle équipé de
+                                      l'accessoire fouet à vitesse moyenne
+                                      jusqu'à ce qu'ils soient mousseux, environ
+                                      30 secondes (vous pouvez également
+                                      utiliser un batteur manuel, ou le faire à
+                                      la main avec un fouet ballon). Ajouter le
+                                      sel, augmenter la vitesse à moyenne-élevée
+                                      et battre jusqu'à l'obtention de pics mous
+                                      et crémeux, environ 2 minutes. Incorporer
+                                      lentement le reste du sucre (¼ tasse plus
+                                      3 cuillères à soupe) et continuer à battre
+                                      jusqu'à la formation de pics fermes,
+                                      brillants et luisants (s'ils ont l'air
+                                      secs ou agglutinés, c'est que vous êtes
+                                      allé trop loin).
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        nl-NL:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Klop de eiwitten in de zeer schone kom van
+                                      een keukenmixer met garde op gemiddelde
+                                      snelheid tot ze schuimig zijn, ongeveer 30
+                                      seconden (je kunt ook een handklopper
+                                      gebruiken, of dit met de hand doen met een
+                                      ballongarde). Voeg zout toe, verhoog de
+                                      snelheid tot middelhoog en klop tot er
+                                      zachte, romige pieken ontstaan, ongeveer 2
+                                      minuten. Strooi langzaam de resterende 1/4
+                                      kop plus 3 eetlepels suiker erdoor en
+                                      blijf kloppen tot er stevige, glanzende,
+                                      glanzende pieken ontstaan (als ze er droog
+                                      of klonterig uitzien, ben je te ver
+                                      gegaan).
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                - _id: e49d6971-5f67-489e-80d3-51754f76bb02
+                  type: howtoStep
+                  fields:
+                    name:
+                      type: text
+                      locales:
+                        en-CA: Step 5
+                        en-GB: Step 5
+                        en-NL: Step 5
+                        en-US: Step 5
+                        es-US: Paso 5
+                        fr-CA: Étape 5
+                        nl-NL: Stap 5
+                    description:
+                      type: richText
+                      locales:
+                        en-CA:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Using a large spatula, fold one-third of
+                                      egg whites into chocolate mixture to
+                                      lighten. Fold in remaining egg whites in 2
+                                      additions, using large, deliberate strokes
+                                      all the way to the bottom of the mixture
+                                      to incorporate whites without deflating,
+                                      until barely any streaks remain. Spoon
+                                      into prepared ramekins, mounding batter
+                                      over rim. Using a large offset spatula,
+                                      bench scraper, or back of a chef’s knife,
+                                      scrape across tops of ramekins to make
+                                      batter level, which will encourage a nice
+                                      flat top on the finished soufflés. Discard
+                                      excess batter, or scrape into another dish
+                                      and bake separately. Tap ramekins lightly
+                                      on counter to help settle batter. Sprinkle
+                                      surface of batter with sugar, then gently
+                                      run your thumb inside rim of ramekin just
+                                      around lip to create a small circular
+                                      indentation (this will help the soufflés
+                                      rise with straight sides; be careful not
+                                      to rub off butter coating underneath).
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        en-GB:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Using a large spatula, fold one-third of
+                                      egg whites into chocolate mixture to
+                                      lighten. Fold in remaining egg whites in 2
+                                      additions, using large, deliberate strokes
+                                      all the way to the bottom of the mixture
+                                      to incorporate whites without deflating,
+                                      until barely any streaks remain. Spoon
+                                      into prepared ramekins, mounding batter
+                                      over rim. Using a large offset spatula,
+                                      bench scraper, or back of a chef’s knife,
+                                      scrape across tops of ramekins to make
+                                      batter level, which will encourage a nice
+                                      flat top on the finished soufflés. Discard
+                                      excess batter, or scrape into another dish
+                                      and bake separately. Tap ramekins lightly
+                                      on counter to help settle batter. Sprinkle
+                                      surface of batter with sugar, then gently
+                                      run your thumb inside rim of ramekin just
+                                      around lip to create a small circular
+                                      indentation (this will help the soufflés
+                                      rise with straight sides; be careful not
+                                      to rub off butter coating underneath).
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        en-NL:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Using a large spatula, fold one-third of
+                                      egg whites into chocolate mixture to
+                                      lighten. Fold in remaining egg whites in 2
+                                      additions, using large, deliberate strokes
+                                      all the way to the bottom of the mixture
+                                      to incorporate whites without deflating,
+                                      until barely any streaks remain. Spoon
+                                      into prepared ramekins, mounding batter
+                                      over rim. Using a large offset spatula,
+                                      bench scraper, or back of a chef’s knife,
+                                      scrape across tops of ramekins to make
+                                      batter level, which will encourage a nice
+                                      flat top on the finished soufflés. Discard
+                                      excess batter, or scrape into another dish
+                                      and bake separately. Tap ramekins lightly
+                                      on counter to help settle batter. Sprinkle
+                                      surface of batter with sugar, then gently
+                                      run your thumb inside rim of ramekin just
+                                      around lip to create a small circular
+                                      indentation (this will help the soufflés
+                                      rise with straight sides; be careful not
+                                      to rub off butter coating underneath).
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        en-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Using a large spatula, fold one-third of
+                                      egg whites into chocolate mixture to
+                                      lighten. Fold in remaining egg whites in 2
+                                      additions, using large, deliberate strokes
+                                      all the way to the bottom of the mixture
+                                      to incorporate whites without deflating,
+                                      until barely any streaks remain. Spoon
+                                      into prepared ramekins, mounding batter
+                                      over rim. Using a large offset spatula,
+                                      bench scraper, or back of a chef’s knife,
+                                      scrape across tops of ramekins to make
+                                      batter level, which will encourage a nice
+                                      flat top on the finished soufflés. Discard
+                                      excess batter, or scrape into another dish
+                                      and bake separately. Tap ramekins lightly
+                                      on counter to help settle batter. Sprinkle
+                                      surface of batter with sugar, then gently
+                                      run your thumb inside rim of ramekin just
+                                      around lip to create a small circular
+                                      indentation (this will help the soufflés
+                                      rise with straight sides; be careful not
+                                      to rub off butter coating underneath).
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        es-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Con una espátula grande, incorpore un
+                                      tercio de las claras de huevo a la mezcla
+                                      de chocolate para aclarar. Incorpore las
+                                      claras de huevo restantes en 2 adiciones,
+                                      usando trazos grandes y deliberados hasta
+                                      el fondo de la mezcla para incorporar las
+                                      claras sin desinflarse, hasta que apenas
+                                      queden rayas. Vierta los moldes
+                                      preparados, amontonando la masa sobre el
+                                      borde. Con una espátula grande desplazada,
+                                      un raspador de banco o el dorso de un
+                                      cuchillo de chef, raspe la parte superior
+                                      de los moldes para nivelar la masa, lo que
+                                      fomentará una parte superior plana y
+                                      agradable en los soufflés terminados.
+                                      Deseche el exceso de masa o raspe en otro
+                                      plato y hornee por separado. Golpee
+                                      ligeramente los moldes en la encimera para
+                                      ayudar a asentar la masa. Espolvoree la
+                                      superficie de la masa con azúcar, luego
+                                      pase suavemente el pulgar dentro del borde
+                                      del molde justo alrededor del labio para
+                                      crear una pequeña hendidura circular (esto
+                                      ayudará a que los soufflés se eleven con
+                                      lados rectos; tenga cuidado de no frotar
+                                      la capa de mantequilla que se encuentra
+                                      debajo).
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        fr-CA:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      À l'aide d'une grande spatule, incorporer
+                                      un tiers des blancs d'œufs au mélange de
+                                      chocolat pour l'éclaircir. Incorporer le
+                                      reste des blancs d'œufs en deux fois, en
+                                      donnant de grands coups de spatule
+                                      jusqu'au fond du mélange pour incorporer
+                                      les blancs sans les faire gonfler, jusqu'à
+                                      ce qu'il ne reste presque plus de traces.
+                                      Répartir à la cuillère dans les ramequins
+                                      préparés, en formant un monticule de pâte
+                                      sur le bord. À l'aide d'une grande spatule
+                                      décalée, d'un grattoir ou du dos d'un
+                                      couteau de chef, racler le dessus des
+                                      ramequins pour niveler la pâte, ce qui
+                                      permettra d'obtenir un beau dessus plat
+                                      pour les soufflés finis. Jeter l'excédent
+                                      de pâte ou le verser dans un autre plat et
+                                      le faire cuire séparément. Tapoter
+                                      légèrement les ramequins sur le comptoir
+                                      pour aider à stabiliser la pâte.
+                                      Saupoudrer la surface de la pâte avec du
+                                      sucre, puis passer délicatement le pouce à
+                                      l'intérieur du ramequin, juste autour du
+                                      rebord, pour créer une petite indentation
+                                      circulaire (cela aidera les soufflés à
+                                      monter avec des côtés droits; attention à
+                                      ne pas frotter la couche de beurre en
+                                      dessous).
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        nl-NL:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Spatel met een grote spatel een derde van
+                                      het eiwit door het chocolademengsel om het
+                                      lichter te maken. Spatel de resterende
+                                      eiwitten er in 2 toevoegingen door,
+                                      gebruik grote, opzettelijke bewegingen
+                                      helemaal tot aan de bodem van het mengsel
+                                      om het eiwit op te nemen zonder leeg te
+                                      lopen, totdat er nauwelijks strepen
+                                      overblijven. Schep in de voorbereide
+                                      vormpjes en verdeel het beslag over de
+                                      rand. Gebruik een grote offset-spatel,
+                                      bankschraper of de achterkant van een
+                                      koksmes om over de bovenkant van de
+                                      vormpjes te schrapen om het beslag
+                                      waterpas te maken, wat een mooie platte
+                                      bovenkant op de afgewerkte soufflés zal
+                                      bevorderen. Gooi overtollig beslag weg of
+                                      schraap het in een andere schaal en bak
+                                      apart. Tik lichtjes op het aanrecht om het
+                                      beslag te laten bezinken. Bestrooi het
+                                      oppervlak van het beslag met suiker en ga
+                                      dan voorzichtig met je duim in de rand van
+                                      de ramekin net rond de lip om een kleine
+                                      cirkelvormige inkeping te maken (dit helpt
+                                      de soufflés met rechte kanten te rijzen;
+                                      pas op dat je de boterlaag eronder niet
+                                      afwrijft).
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                - _id: b86b006d-dbef-4c3d-aa96-a7616c5564b7
+                  type: howtoStep
+                  fields:
+                    name:
+                      type: text
+                      locales:
+                        en-CA: Step 6
+                        en-GB: Step 6
+                        en-NL: Step 6
+                        en-US: Step 6
+                        es-US: Paso 6
+                        fr-CA: Étape 6
+                        nl-NL: Stap 6
+                    description:
+                      type: richText
+                      locales:
+                        en-CA:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Place ramekins on a rimmed baking sheet
+                                      and transfer immediately to oven. Reduce
+                                      temperature to 400° and bake soufflés
+                                      until they have risen and wobble slightly
+                                      when jostled, 12–15 minutes. Immediately
+                                      break a spoon into centers and pour some
+                                      melted ice cream into each one.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        en-GB:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Place ramekins on a rimmed baking sheet
+                                      and transfer immediately to oven. Reduce
+                                      temperature to 400° and bake soufflés
+                                      until they have risen and wobble slightly
+                                      when jostled, 12–15 minutes. Immediately
+                                      break a spoon into centers and pour some
+                                      melted ice cream into each one.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        en-NL:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Place ramekins on a rimmed baking sheet
+                                      and transfer immediately to oven. Reduce
+                                      temperature to 400° and bake soufflés
+                                      until they have risen and wobble slightly
+                                      when jostled, 12–15 minutes. Immediately
+                                      break a spoon into centers and pour some
+                                      melted ice cream into each one.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        en-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Place ramekins on a rimmed baking sheet
+                                      and transfer immediately to oven. Reduce
+                                      temperature to 400° and bake soufflés
+                                      until they have risen and wobble slightly
+                                      when jostled, 12–15 minutes. Immediately
+                                      break a spoon into centers and pour some
+                                      melted ice cream into each one.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        es-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Coloque los moldes en una bandeja para
+                                      hornear con borde y transfiéralos
+                                      inmediatamente al horno. Reduzca la
+                                      temperatura a 400 ° y hornee los soufflés
+                                      hasta que hayan subido y se tambaleen
+                                      ligeramente cuando se empujen, de 12 a 15
+                                      minutos. Inmediatamente rompe una cuchara
+                                      en el centro y vierte un poco de helado
+                                      derretido en cada uno.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        fr-CA:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Placer les ramequins sur une plaque à
+                                      pâtisserie à rebord et les transférer
+                                      immédiatement au four. Réduire la
+                                      température à 400° et cuire les soufflés
+                                      jusqu'à ce qu'ils aient levé et qu'ils
+                                      vacillent légèrement lorsqu'on les secoue,
+                                      soit 12 à 15 minutes. Casser immédiatement
+                                      une cuillère au centre et verser un peu de
+                                      glace fondue dans chaque soufflé.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        nl-NL:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Leg de vormpjes op een omrande bakplaat en
+                                      zet ze onmiddellijk in de oven. Verlaag de
+                                      temperatuur tot 400° en bak de soufflés
+                                      tot ze gerezen zijn en lichtjes wiebelen
+                                      als ze worden geduwd, 12-15 minuten. Breek
+                                      onmiddellijk een lepel in het midden en
+                                      giet er wat gesmolten ijs in.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+    featuredImage:
+      type: asset
+      value:
+        - _id: 6b522686-6678-404f-b1e1-f0b62a67704d
+          type: image
+          fields:
+            id:
+              type: text
+              value: 92aea7d0-d298-4f8b-9345-00328f26fcce
+            url:
+              value: >-
+                https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/ReNGIiW5S0mZQ4WI3BEvUA-bittersweet-chocolate-souffles.webp
+              type: text
+            file:
+              type: file
+              value: bacd345e-2a02-4fca-aa67-219d3745eed9
+            size:
+              value: 118630
+              type: number
+            title:
+              type: text
+              value: bittersweet-chocolate-souffles.webp
+            width:
+              value: 1600
+              type: number
+            height:
+              value: 1600
+              type: number
+            mediaType:
+              value: image/webp
+              type: text
+          _source: uniform-assets
+    mainIngredient:
+      type: contentReference
+      value: >-
+        ${#jptr:/ref-9937148c-9d7d-4a94-9926-a04ade795677-mainIngredient/entries/0}
+  _dataResources:
+    ref-9937148c-9d7d-4a94-9926-a04ade795677-recipeType:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: 15c4e9a0-d725-46fc-9392-ee4e3bee163e
+    ref-9937148c-9d7d-4a94-9926-a04ade795677-mainIngredient:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: 8609a1fb-f630-4501-b72d-b7c66516a286
+  _locales:
+    - en-US
+    - fr-CA
+    - nl-NL
+    - es-US
+    - en-CA
+    - en-NL
+    - en-GB

@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 92aea7d0-d298-4f8b-9345-00328f26fcce
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: bittersweet-chocolate-souffles.webp
+    file:
+      type: file
+      value: bacd345e-2a02-4fca-aa67-219d3745eed9
+    mediaType:
+      value: image/webp
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/ReNGIiW5S0mZQ4WI3BEvUA-bittersweet-chocolate-souffles.webp
+      type: text
+    size:
+      value: 118630
+      type: number
+    width:
+      value: 1600
+      type: number
+    height:
+      value: 1600
+      type: number
+    custom: {}
+created: '2024-09-26T14:37:00.370197+00:00'
+modified: '2024-09-26T14:37:00.370197+00:00'

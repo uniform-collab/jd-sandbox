@@ -1,0 +1,97 @@
+created: '2024-08-12T13:05:36.349634+00:00'
+modified: '2024-09-24T18:55:38.827533+00:00'
+pattern: false
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+entry:
+  _id: 8f1962d5-5237-4baf-a522-6f7f3b7d1266
+  _name: Black Mountain
+  _slug: black-mountain
+  type: brand
+  fields:
+    logo:
+      type: asset
+      locales:
+        en-US:
+          - _id: df55e625-6186-4e93-927e-c42c4a4b28f0
+            type: image
+            fields:
+              id:
+                type: text
+                value: 1b4c543b-36a6-4772-87ed-a85b2545597e
+              url:
+                value: >-
+                  https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/D_TFYaXfSNOlrb6SqxhV5A-Image.webp
+                type: text
+              file:
+                type: file
+                value: 3a90a02b-d23f-4cc6-9523-a4f522c5cb96
+              size:
+                value: 118328
+                type: number
+              title:
+                type: text
+                value: Image.webp
+              width:
+                value: 1024
+                type: number
+              height:
+                value: 1024
+                type: number
+              mediaType:
+                value: image/webp
+                type: text
+            _source: uniform-assets
+    title:
+      type: text
+      locales:
+        en-US: Black Mountain
+        es-US: Black Mountain
+        fr-CA: Black Mountain
+        nl-NL: Black Mountain
+    description:
+      type: text
+      locales:
+        en-US: >-
+          Black Mountain is dedicated to enhancing your coffee experience with
+          premium coffee makers and a wide range of coffee products. Our mission
+          is to blend modern technology with traditional coffee craftsmanship to
+          deliver exceptional taste and convenience. From state-of-the-art
+          espresso machines to meticulously crafted coffee beans, Black Mountain
+          is your partner in every step of your coffee journey. Discover the
+          perfect brew with our innovative and reliable coffee solutions,
+          designed for both enthusiasts and professionals.
+        es-US: >-
+          Black Mountain se dedica a mejorar su experiencia en café con
+          cafeteras premium y una amplia gama de productos de café.Nuestra
+          misión es combinar la tecnología moderna con la artesanía tradicional
+          de café para ofrecer un sabor y conveniencia excepcionales.Desde
+          máquinas de café espresso de última generación hasta granos de café
+          meticulosamente elaborados, Black Mountain es su compañero en cada
+          paso de su viaje de café.Descubra la cerveza perfecta con nuestras
+          soluciones de café innovadoras y confiables, diseñadas tanto para
+          entusiastas como para profesionales.
+        fr-CA: >-
+          Black Mountain se consacre à améliorer votre expérience de café avec
+          des cafetières haut de gamme et une large gamme de produits de
+          café.Notre mission est de mélanger la technologie moderne avec
+          l'artisanat traditionnel du café pour offrir un goût et une commodité
+          exceptionnels.Des machines à expresso de pointe aux grains de café
+          méticuleusement conçus, Black Mountain est votre partenaire à chaque
+          étape de votre voyage de café.Découvrez la bière parfaite avec nos
+          solutions de café innovantes et fiables, conçues pour les amateurs et
+          les professionnels.
+        nl-NL: >-
+          Black Mountain is gewijd aan het verbeteren van uw koffie -ervaring
+          met premium koffiezetapparaten en een breed scala aan
+          koffieproducten.Onze missie is om moderne technologie te combineren
+          met traditioneel koffie -vakmanschap om uitzonderlijke smaak en gemak
+          te bieden.Van state-of-the-art espressomachines tot zorgvuldig
+          vervaardigde koffiebonen, Black Mountain is je partner in elke stap
+          van je koffiereis.Ontdek het perfecte brouwsel met onze innovatieve en
+          betrouwbare koffieoplossingen, ontworpen voor zowel enthousiastelingen
+          als professionals.
+  _locales:
+    - en-US
+    - es-US
+    - fr-CA
+    - nl-NL

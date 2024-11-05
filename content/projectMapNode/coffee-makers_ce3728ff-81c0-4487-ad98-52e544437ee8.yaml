@@ -1,0 +1,9 @@
+id: ce3728ff-81c0-4487-ad98-52e544437ee8
+name: Coffee Makers
+order: -82
+path: /:locale/coffee-makers
+type: composition
+pathSegment: coffee-makers
+data: {}
+compositionId: 162066c3-dd1e-4b4a-b4c3-29bc34f4209f
+projectMapId: 62588085-7894-4810-84b6-eaaf0cb5213c

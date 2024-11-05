@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: e63bd7fa-6a3d-43dd-8874-caeac7f5a792
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: house-blend-coffee-131-1_yfylm0_f6i5cj.jpg
+    file:
+      type: file
+      value: e9aee7db-2222-473f-8b19-ac813c9d8e19
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/TzR1_WCKTQiaZF1jd4KBvQ-house-blend-coffee-131-1_yfylm0_f6i5cj.jpg
+      type: text
+    size:
+      value: 108944
+      type: number
+    width:
+      value: 1280
+      type: number
+    height:
+      value: 1280
+      type: number
+    custom: {}
+created: '2024-02-01T09:50:47.515448+00:00'
+modified: '2024-02-01T09:50:47.515448+00:00'

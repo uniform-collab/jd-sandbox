@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 9059c663-bc03-495c-aa38-98ee9e3a6a54
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: ember-turkish-arabic-hammered-copper-coffee-pot-136-1_y1b60j_emgynu.jpg
+    file:
+      type: file
+      value: fbc4d93a-5af0-4ced-90c1-adad45d834c8
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/7H_Z4risSYaXbqOS4MjbBw-ember-turkish-arabic-hammered-copper-coffee-pot-136-1_y1b60j_emgynu.jpg
+      type: text
+    size:
+      value: 112029
+      type: number
+    width:
+      value: 1280
+      type: number
+    height:
+      value: 1280
+      type: number
+    custom: {}
+created: '2024-01-30T06:34:34.903366+00:00'
+modified: '2024-01-30T06:34:34.903366+00:00'

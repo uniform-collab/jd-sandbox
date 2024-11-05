@@ -1,0 +1,69 @@
+composition:
+  _name: Call to Action (ka)
+  _id: b5f57501-ce43-41b5-9ec4-47a05acc6a19
+  type: callToAction
+  parameters:
+    title:
+      type: text
+      locales:
+        en-CA: ${#jptr:/Call to Action Content/item/elements/title/value}
+        en-GB: ${#jptr:/Call to Action Content/item/elements/title/value}
+        en-NL: ${#jptr:/Call to Action Content/item/elements/title/value}
+        en-US: ${#jptr:/Call to Action Content/item/elements/title/value}
+        es-US: ${#jptr:/Call to Action Content/item/elements/title/value}
+        fr-CA: ${#jptr:/Call to Action Content/item/elements/title/value}
+        nl-NL: ${#jptr:/Call to Action Content/item/elements/title/value}
+    titleStyle:
+      type: tp-title-style-parameter
+      value: h1
+    description:
+      type: text
+      locales:
+        en-CA: ${#jptr:/Call to Action Content/item/elements/description/value}
+        en-GB: ${#jptr:/Call to Action Content/item/elements/description/value}
+        en-NL: ${#jptr:/Call to Action Content/item/elements/description/value}
+        en-US: ${#jptr:/Call to Action Content/item/elements/description/value}
+        es-US: ${#jptr:/Call to Action Content/item/elements/description/value}
+        fr-CA: ${#jptr:/Call to Action Content/item/elements/description/value}
+        nl-NL: ${#jptr:/Call to Action Content/item/elements/description/value}
+  _dataResources:
+    Call to Action Content:
+      type: kontentAiCallToAction
+      variables:
+        language: ${locale}
+        itemsCodenames: request_
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
+  _overridability:
+    variants: true
+    parameters:
+      title: 'yes'
+      titleStyle: 'yes'
+      description: 'yes'
+      eyebrowText: 'yes'
+      group_content: 'yes'
+      group_primaryCta: 'yes'
+      primaryButtonCopy: 'yes'
+      primaryButtonLink: 'yes'
+      group_secondaryCta: 'yes'
+      primaryButtonStyle: 'yes'
+      secondaryButtonCopy: 'yes'
+      secondaryButtonLink: 'yes'
+      secondaryButtonStyle: 'yes'
+      primaryButtonAnimationType: 'yes'
+      secondaryButtonAnimationType: 'yes'
+  _locales:
+    - es-US
+    - en-US
+    - en-CA
+    - en-GB
+    - en-NL
+    - fr-CA
+    - nl-NL
+created: '2023-12-11T14:29:56.539733+00:00'
+modified: '2024-09-24T18:55:38.827533+00:00'
+pattern: true
+previewImageUrl: >-
+  https://res.cloudinary.com/uniform-demos/image/upload/v1/preview-images/NewJavaDripTheme/SalesDemo/Patterns/Call_to_action_preview_image
+categoryId: ea001653-1f96-4f07-9187-a1626a4965e5
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5

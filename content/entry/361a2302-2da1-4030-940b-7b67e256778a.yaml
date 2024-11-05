@@ -1,0 +1,96 @@
+created: '2024-08-12T13:04:04.191431+00:00'
+modified: '2024-09-24T18:55:38.827533+00:00'
+pattern: false
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+entry:
+  _id: 361a2302-2da1-4030-940b-7b67e256778a
+  _name: Turkish
+  _slug: turkish
+  type: productCategory
+  fields:
+    logo:
+      type: asset
+      locales:
+        en-US:
+          - _id: 13e50b2d-bfb3-4694-9dce-0ab9f9633b26
+            type: image
+            fields:
+              id:
+                type: text
+                value: dce7ecf4-a89d-4df8-9131-5f3ab26e8a5b
+              url:
+                value: >-
+                  https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/hcSERS1_RKWwe5aiNtWzlQ-Image-4.webp
+                type: text
+              file:
+                type: file
+                value: 91faecf4-f04e-4597-8751-aa72ebb791bb
+              size:
+                value: 82622
+                type: number
+              title:
+                type: text
+                value: Image-4.webp
+              width:
+                value: 1024
+                type: number
+              height:
+                value: 1024
+                type: number
+              mediaType:
+                value: image/webp
+                type: text
+            _source: uniform-assets
+    title:
+      type: text
+      locales:
+        en-US: Turkish
+        es-US: Turca
+        fr-CA: Turque
+        nl-NL: Turks
+    description:
+      type: text
+      locales:
+        en-US: >-
+          Indulge in the rich, aromatic experience of traditional Turkish
+          coffee. Our collection includes high-quality Turkish coffee beans and
+          finely crafted cezves (Turkish coffee pots) that bring out the
+          authentic flavors and textures of this ancient brewing method. Turkish
+          coffee is known for its unique preparation process and bold, robust
+          flavor, creating a truly distinctive coffee experience. Explore our
+          selection and enjoy the cultural richness and deep, satisfying taste
+          of Turkish coffee in your own home.
+        es-US: >-
+          Disfrute de la rica experiencia aromática del café turco
+          tradicional.Nuestra colección incluye granos de café turco de alta
+          calidad y cezves finamente hechos (cafeteras turcas) que sacan los
+          sabores y texturas auténticos de este antiguo método de elaboración de
+          cerveza.El café turco es conocido por su proceso de preparación único
+          y su sabor audaz y robusto, creando una experiencia de café
+          verdaderamente distintiva.Explore nuestra selección y disfrute de la
+          riqueza cultural y el sabor profundo y satisfactorio del café turco en
+          su propia casa.
+        fr-CA: >-
+          Offrez-vous à l'expérience riche et aromatique du café turc
+          traditionnel.Notre collection comprend des grains de café turcs de
+          haute qualité et des cezves finement fabriqués (cafés turcs) qui font
+          ressortir les saveurs et les textures authentiques de cette ancienne
+          méthode de brassage.Le café turc est connu pour son processus de
+          préparation unique et sa saveur audacieuse et robuste, créant une
+          expérience de café vraiment distinctive.Explorez notre sélection et
+          profitez de la richesse culturelle et du goût profond et satisfaisant
+          du café turc dans votre propre maison.
+        nl-NL: >-
+          Geniet van de rijke, aromatische ervaring van traditionele Turkse
+          koffie.Onze collectie omvat hoogwaardige Turkse koffiebonen en
+          fijngemaakte cezves (Turkse koffiepotten) die de authentieke smaken en
+          texturen van deze oude brouwmethode naar voren brengen.Turkse koffie
+          staat bekend om zijn unieke bereidingsproces en gedurfde, robuuste
+          smaak, waardoor een echt onderscheidende koffie -ervaring
+          ontstaat.Verken onze selectie en geniet van de culturele rijkdom en
+          diepe, bevredigende smaak van Turkse koffie in uw eigen huis.
+  _locales:
+    - en-US
+    - es-US
+    - fr-CA
+    - nl-NL

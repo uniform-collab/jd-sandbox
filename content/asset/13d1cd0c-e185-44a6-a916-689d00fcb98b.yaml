@@ -1,0 +1,24 @@
+asset:
+  type: image
+  _id: 13d1cd0c-e185-44a6-a916-689d00fcb98b
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: cake_batter.avif
+    file:
+      type: file
+      value: a6fb4895-e971-4633-aff7-b08a1639bd4d
+    mediaType:
+      value: image/avif
+      type: text
+    url:
+      value: >-
+        https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/eLN1-yEcTC6AUE2bW44zVA-cake_batter.avif
+      type: text
+    size:
+      value: 10225
+      type: number
+    custom: {}
+created: '2023-12-13T13:08:03.763282+00:00'
+modified: '2024-09-05T09:53:29.047655+00:00'

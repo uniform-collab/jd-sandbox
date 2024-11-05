@@ -1,0 +1,29 @@
+id: testimonials
+displayName: Testimonials
+ttl: 30
+path: /query
+custom:
+  proposedName: Query Testimonial
+  allowedContentTypes:
+    - testimonial
+method: GET
+purgeKey: 7b8cb728-058e-49ce-8338-1a5d464ce6ab
+archetype: queryEntries
+variables:
+  limit:
+    type: text
+    default: '20'
+  offset:
+    type: text
+    default: '0'
+  filters:
+    type: text
+    default: '{}'
+  orderBy:
+    type: text
+    default: ''
+  contentTypes:
+    type: text
+    default: ''
+dataSourceId: uniformContent
+allowedOnComponents: []

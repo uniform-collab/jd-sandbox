@@ -1,0 +1,13 @@
+id: d1163415-64ff-4820-a666-0a03301e8290
+name: Tabs
+order: 500
+path: /:locale/Layouts/tabs
+type: composition
+pathSegment: tabs
+data:
+  queryStrings:
+    - name: topic
+      value: Specialty
+      helpText: ''
+compositionId: ca08fbc9-00eb-4e87-82be-89e957bd4f97
+projectMapId: 62588085-7894-4810-84b6-eaaf0cb5213c

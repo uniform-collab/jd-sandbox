@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 2170494c-6886-4377-9476-e9cf49709deb
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: luis_villasmil.jpg
+    file:
+      type: file
+      value: eb36a57c-f5db-4238-9f94-b18e28449a96
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/wU4W27-fT5KyqOcCkDo7Wg-luis_villasmil.jpg
+      type: text
+    size:
+      value: 1297815
+      type: number
+    width:
+      value: 2592
+      type: number
+    height:
+      value: 3872
+      type: number
+    custom: {}
+created: '2023-12-12T16:41:59.74335+00:00'
+modified: '2023-12-12T16:41:59.74335+00:00'

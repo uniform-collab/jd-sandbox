@@ -1,0 +1,106 @@
+created: '2024-09-05T08:11:22.927719+00:00'
+modified: '2024-09-24T18:55:38.827533+00:00'
+pattern: false
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+entry:
+  _id: 68349071-2d06-479f-bd1e-f491ec411fc5
+  _name: Royale Brew Bundle
+  _slug: royale-brew-bundle
+  type: productBundle
+  fields:
+    logo:
+      type: asset
+      locales:
+        en-US:
+          - _id: 9bbd3859-863a-4c1c-8ef0-f43ae4aaae3e
+            type: image
+            fields:
+              id:
+                type: text
+                value: 71c37ce0-6170-48a9-a7d9-ee41382f1966
+              url:
+                value: >-
+                  https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/Yr1CFy-mTyaNvndl71YDPw-Image-6.webp
+                type: text
+              file:
+                type: file
+                value: 87323798-ae28-41fe-83f6-c1c7d8b6615a
+              size:
+                value: 193016
+                type: number
+              title:
+                type: text
+                value: Image-6.webp
+              width:
+                value: 1024
+                type: number
+              height:
+                value: 1024
+                type: number
+              mediaType:
+                value: image/webp
+                type: text
+            _source: uniform-assets
+    title:
+      type: text
+      locales:
+        en-US: Royale Brew Bundle
+        es-US: Paquete de brebaje Royale
+        fr-CA: Offre groupée Royale Brew
+        nl-NL: Royale Brew Bundel
+    discount:
+      type: number
+      value: '7'
+    products:
+      type: contentReference
+      value: ${#jptr:/ref-68349071-2d06-479f-bd1e-f491ec411fc5-products/entries}
+    description:
+      type: text
+      locales:
+        en-US: >-
+          Indulge in the ultimate coffee experience with our Royale Brew Bundle.
+          This exclusive bundle includes the state-of-the-art Royale iQ Espresso
+          Machine, designed to bring out the barista in you. Paired with two
+          distinct coffee bean options—our rich and robust House Blend Coffee
+          and the smooth, aromatic Organic Blend Coffee—this bundle offers
+          everything you need to craft the perfect cup of coffee at home.
+          Elevate your mornings with a touch of luxury and the finest quality
+          brews.
+        es-US: >-
+          Disfruta de la mejor experiencia de café con nuestro paquete Royale
+          Brew. Este paquete exclusivo incluye la máquina de espresso Royale iQ
+          de última generación, diseñada para sacar al barista que llevas
+          dentro. Junto con dos opciones distintas de granos de café, nuestro
+          rico y robusto House Blend Coffee y el suave y aromático Organic Blend
+          Coffee, este paquete ofrece todo lo que necesita para preparar la taza
+          de café perfecta en casa. Eleva tus mañanas con un toque de lujo y
+          cervezas de la mejor calidad.
+        fr-CA: >-
+          Offrez-vous l'expérience ultime du café avec notre Royale Brew Bundle.
+          Cette offre exclusive comprend la machine à espresso Royale iQ, conçue
+          pour faire ressortir le barista qui sommeille en vous. Associé à deux
+          options de grains de café distinctes - notre mélange de café maison
+          riche et robuste et le mélange de café biologique doux et aromatique -
+          cet ensemble offre tout ce dont vous avez besoin pour préparer la
+          tasse de café parfaite à la maison. Améliorez vos matins avec une
+          touche de luxe et des boissons de la plus haute qualité.
+        nl-NL: >-
+          Geniet van de ultieme koffie-ervaring met onze Royale Brew Bundle.
+          Deze exclusieve bundel bevat de state-of-the-art Royale iQ Espresso
+          Machine, ontworpen om de barista in je naar boven te halen. In
+          combinatie met twee verschillende opties voor koffiebonen - onze rijke
+          en robuuste House Blend Coffee en de zachte, aromatische Organic Blend
+          Coffee - biedt deze bundel alles wat je nodig hebt om thuis de
+          perfecte kop koffie te zetten. Til uw ochtenden naar een hoger niveau
+          met een vleugje luxe en brouwsels van de beste kwaliteit.
+  _dataResources:
+    ref-68349071-2d06-479f-bd1e-f491ec411fc5-products:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: >-
+          b5760778-6966-4fd6-911f-40f081e2a26d,8ad35da9-07b6-4532-8e13-47ab158e30ef,82b84782-4236-4b06-a994-59f088896b91
+  _locales:
+    - en-US
+    - es-US
+    - fr-CA
+    - nl-NL

@@ -1,0 +1,68 @@
+created: '2024-09-18T17:58:30.218634+00:00'
+modified: '2024-09-24T18:55:38.827533+00:00'
+pattern: false
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+entry:
+  _id: 649c89da-7a24-473c-ab3d-c35b4b0b924e
+  _name: International Beans Bundle
+  _slug: international-beans-bundle
+  _thumbnail: >-
+    https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/MljFb0lqTQCQmgZS5iJWtg-AI-generated-image-for-Logo
+  type: productBundle
+  fields:
+    logo:
+      type: asset
+      locales:
+        en-US:
+          - _id: ee5b5967-7380-4aa8-83c4-eca0c29a529b
+            type: image
+            fields:
+              id:
+                type: text
+                value: 81156e40-025d-486d-9606-5d4aa17cf9d4
+              url:
+                value: >-
+                  https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/MljFb0lqTQCQmgZS5iJWtg-AI-generated-image-for-Logo
+                type: text
+              file:
+                type: file
+                value: 61b8d803-ca52-4634-b538-d7ff25d7d3e0
+              size:
+                value: 1858341
+                type: number
+              title:
+                type: text
+                value: AI-generated-image-for-Logo
+              width:
+                value: 1024
+                type: number
+              height:
+                value: 1024
+                type: number
+              mediaType:
+                value: image/png
+                type: text
+            _source: uniform-assets
+    title:
+      type: text
+      locales:
+        en-US: International Beans Bundle
+    discount:
+      type: number
+      value: '8'
+    products:
+      type: contentReference
+      value: ${#jptr:/ref-649c89da-7a24-473c-ab3d-c35b4b0b924e-products/entries}
+    description:
+      type: text
+      locales:
+        en-US: Our favorite international beans selected for VIP customers
+  _dataResources:
+    ref-649c89da-7a24-473c-ab3d-c35b4b0b924e-products:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: >-
+          d4e5eec7-6670-42ef-adcb-71645e05e836,778c1de0-9119-4617-8fde-4cbff7da8031,3b15349b-aac2-4a0f-9d62-a30fc016a704,04d9514e-ad86-4df4-867d-855af7b70b52
+  _locales:
+    - en-US

@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: a3189b8b-52a3-4b48-9c18-2378d8eddbc0
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: icon_beans.avif
+    file:
+      type: file
+      value: a7477811-b3fb-4a95-af76-0c946def5936
+    mediaType:
+      value: image/avif
+      type: text
+    url:
+      value: >-
+        https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/KL_dGIm3Q9So4PM4cyLPMg-icon_beans.avif
+      type: text
+    size:
+      value: 1844
+      type: number
+    width:
+      value: 60
+      type: number
+    height:
+      value: 60
+      type: number
+    custom: {}
+created: '2024-06-03T12:04:59.39203+00:00'
+modified: '2024-06-03T12:04:59.39203+00:00'

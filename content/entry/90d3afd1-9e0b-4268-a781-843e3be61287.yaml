@@ -1,0 +1,198 @@
+created: '2024-06-04T20:23:53.827334+00:00'
+modified: '2024-08-15T12:19:42.895162+00:00'
+pattern: false
+workflowId: 784fa239-ae8a-4ab1-ba68-9806d0fe406a
+workflowStageId: 73608d81-f8b0-4ee3-897b-c976d2dc6670
+entry:
+  _id: 90d3afd1-9e0b-4268-a781-843e3be61287
+  _name: Water filter
+  _slug: water-filter-143
+  _thumbnail: >-
+    https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/GIG93T52RtyumqjPZTqvGQ-waterfilter__90850.1662555459.386.513_escu6x.jpg
+  type: product
+  fields:
+    body:
+      type: richText
+      locales:
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      This filter is utilizing ion-exchange resin and organic
+                      coconut granular activated carbon to efficiently eliminate
+                      odors, diminish rust, chlorine, and other contaminants;
+                      Additionally, it helps prevent the build-up of scale in
+                      coffee machines, extending their longevity and overall
+                      performance.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+            direction: ltr
+    name:
+      type: text
+      value: Water filter
+    brand:
+      type: contentReference
+      value: ${#jptr:/ref-90d3afd1-9e0b-4268-a781-843e3be61287-brand/entries/0}
+    title:
+      type: text
+      value: Water filter
+    category:
+      type: contentReference
+      value: ${#jptr:/ref-90d3afd1-9e0b-4268-a781-843e3be61287-category/entries}
+    variants:
+      type: $block
+      value:
+        - _id: 5510eb31-09ca-41c8-907a-74825f5fb40c
+          type: variant
+          fields:
+            code:
+              type: text
+              value: '143'
+            price:
+              type: number
+              locales:
+                en-US: '65'
+                fr-CA: '60.04'
+                nl-NL: '60.04'
+                es-US: '65'
+            title:
+              type: text
+              locales:
+                en-US: Water filter
+                es-US: Water filter
+                fr-CA: Water filter
+                nl-NL: Water filter
+            currency:
+              type: text
+              locales:
+                en-US: $
+                es-US: $
+                fr-CA: €
+                nl-NL: €
+            imageGallery:
+              type: asset
+              value:
+                - _id: 1d245941-74f1-4084-a364-d06e638286d4
+                  type: image
+                  fields:
+                    id:
+                      type: text
+                      value: 57ca367f-baa4-4731-8071-dc5970441d98
+                    url:
+                      value: >-
+                        https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/9DLut9qKRg2AVjjK-8wMGA-waterfilter__90850.1662555459.386.513_escu6x.jpg
+                      type: text
+                    file:
+                      type: file
+                      value: 6f38ae44-eff4-43c0-963b-ff2a824822a4
+                    size:
+                      value: 8046
+                      type: number
+                    title:
+                      type: text
+                      value: waterfilter__90850.1662555459.386.513_escu6x.jpg
+                    width:
+                      value: 386
+                      type: number
+                    height:
+                      value: 386
+                      type: number
+                    mediaType:
+                      value: image/jpeg
+                      type: text
+                  _source: uniform-assets
+    primaryImage:
+      type: asset
+      value:
+        - _id: de542412-3f6c-4e9f-bcae-b8cabc484ca7
+          type: image
+          fields:
+            id:
+              type: text
+              value: b7146c60-2180-4878-9524-544d38552f2a
+            url:
+              value: >-
+                https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/GIG93T52RtyumqjPZTqvGQ-waterfilter__90850.1662555459.386.513_escu6x.jpg
+              type: text
+            file:
+              type: file
+              value: eac732ba-489d-4fdd-b744-08215baa7d2f
+            size:
+              value: 8046
+              type: number
+            title:
+              type: text
+              value: waterfilter__90850.1662555459.386.513_escu6x.jpg
+            width:
+              value: 386
+              type: number
+            height:
+              value: 386
+              type: number
+            mediaType:
+              value: image/jpeg
+              type: text
+          _source: uniform-assets
+    recommendations:
+      type: contentReference
+      value: >-
+        ${#jptr:/ref-90d3afd1-9e0b-4268-a781-843e3be61287-recommendations/entries}
+    shortDescription:
+      type: text
+      locales:
+        en-US: >-
+          This filter is using ion-exchange resin and natural coconut granular
+          activated carbon, effectively remove odor, reduce rust, chlorine and
+          other pollutants; Coffee machine can prevent the formation of scale,
+          prolong the service life of the coffee machine.
+        es-US: >-
+          Este filtro está utilizando resina de intercambio de iones y carbono
+          granular de coco natural activado, eliminar efectivamente el olor,
+          reducir el óxido, el cloro y otros contaminantes;La máquina de café
+          puede evitar la formación de la escala, prolongar la vida útil de la
+          cafetera.
+        fr-CA: >-
+          Ce filtre utilise la résine échangeuse d'ions et le carbone naturel
+          activé granulaire de la noix de coco, élimine efficacement les odeurs,
+          réduisez la rouille, le chlore et d'autres polluants;La machine à café
+          peut empêcher la formation de l'échelle, prolongez la durée de vie de
+          la machine à café.
+        nl-NL: >-
+          Dit filter gebruikt ionenuitwisselinghars en natuurlijke kokosnoot
+          korrelige geactiveerde koolstof, verwijder effectief geur, verminderen
+          roest, chloor en andere verontreinigende stoffen;Coffee Machine kan de
+          vorming van schaal voorkomen, de levensduur van het koffiezetapparaat
+          verlengen.
+  _dataResources:
+    ref-90d3afd1-9e0b-4268-a781-843e3be61287-brand:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: de5d95bc-f87f-4503-a635-fec03d9f06a1
+    ref-90d3afd1-9e0b-4268-a781-843e3be61287-category:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: 4fb71159-ddac-4bca-9004-0405ed43c2d8
+    ref-90d3afd1-9e0b-4268-a781-843e3be61287-recommendations:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: >-
+          df7a5d21-9a3c-49db-92d2-662b0fecce21,82b84782-4236-4b06-a994-59f088896b91,72b49ac2-bbf3-48a7-b522-0947483e9131,dd9a7e4d-56a3-4a0b-9679-345d19e6da49,d4e5eec7-6670-42ef-adcb-71645e05e836
+  _locales:
+    - en-US
+    - es-US
+    - fr-CA
+    - nl-NL

@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: f9b2cc95-e8bf-4278-b0b0-bd4b7abce811
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: Ice-cube-tray.webp
+    file:
+      type: file
+      value: 49e3db7b-f44b-4c4b-90c8-6ff647ffac02
+    mediaType:
+      value: image/webp
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/C-FrLFkISZees03_DjqUsQ-Ice-cube-tray.webp
+      type: text
+    size:
+      value: 19372
+      type: number
+    width:
+      value: 640
+      type: number
+    height:
+      value: 640
+      type: number
+    custom: {}
+created: '2024-09-26T20:10:31.235413+00:00'
+modified: '2024-09-26T20:10:31.235413+00:00'

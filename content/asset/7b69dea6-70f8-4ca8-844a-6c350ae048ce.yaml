@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 7b69dea6-70f8-4ca8-844a-6c350ae048ce
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: columbian-blend-coffee-129-1_wbaola_fyrqsh.jpg
+    file:
+      type: file
+      value: 88560667-52dd-4c77-b644-1991830bd375
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/a45I0P8wRrqXmnM4ytuMZg-columbian-blend-coffee-129-1_wbaola_fyrqsh.jpg
+      type: text
+    size:
+      value: 99722
+      type: number
+    width:
+      value: 1280
+      type: number
+    height:
+      value: 1280
+      type: number
+    custom: {}
+created: '2024-01-29T16:27:23.478205+00:00'
+modified: '2024-01-29T16:27:23.478205+00:00'

@@ -1,0 +1,27 @@
+id: productBundleList
+displayName: Product Bundle List
+path: /query
+custom:
+  allowedContentTypes:
+    - productBundle
+method: GET
+purgeKey: 76e80e72-e8a8-4577-94d9-bfb26aa319a3
+archetype: queryEntries
+variables:
+  limit:
+    type: text
+    default: '20'
+  offset:
+    type: text
+    default: '0'
+  filters:
+    type: text
+    default: '{}'
+  orderBy:
+    type: text
+    default: ''
+  contentTypes:
+    type: text
+    default: ''
+dataSourceId: uniformContent
+allowedOnComponents: []

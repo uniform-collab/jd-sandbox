@@ -1,0 +1,87 @@
+created: '2024-08-12T13:04:22.356205+00:00'
+modified: '2024-09-24T18:55:38.827533+00:00'
+pattern: false
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+entry:
+  _id: 4d719df6-dbeb-40ca-80c6-57042ab40eb9
+  _name: Kontent.ai
+  _slug: kontentai
+  _thumbnail: >-
+    https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/41AI-O85TgS5Ftu6EeomqQ-Kontent.ai-Primary-Logo-Black-RGB.png
+  type: contentSource
+  fields:
+    logo:
+      type: asset
+      value:
+        - _id: d4fc5fb4-54e3-409b-9305-80cf6ff7a589
+          type: image
+          fields:
+            id:
+              type: text
+              value: 7437ced1-c5ae-49c0-ba96-93895de23b2c
+            url:
+              value: >-
+                https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/41AI-O85TgS5Ftu6EeomqQ-Kontent.ai-Primary-Logo-Black-RGB.png
+              type: text
+            file:
+              type: file
+              value: 670686ed-1d07-474f-a94c-cc5142f174b6
+            size:
+              value: 20109
+              type: number
+            title:
+              type: text
+              value: Kontent.ai
+            width:
+              value: 2296
+              type: number
+            height:
+              value: 264
+              type: number
+            mediaType:
+              value: image/png
+              type: text
+          _source: uniform-assets
+    title:
+      type: text
+      locales:
+        en-US: Kontent.ai
+        es-US: Kontent.ai
+        fr-CA: Kontent.ai
+        nl-NL: Kontent.ai
+    value:
+      type: text
+      locales:
+        en-US: kontent.ai
+        es-US: kontent.ai
+        fr-CA: kontent.ai
+        nl-NL: kontent.ai
+    description:
+      type: text
+      locales:
+        en-US: >-
+          A modern headless CMS with a focus on content collaboration and
+          flexibility. Kontent.ai enables teams to create, manage, and deliver
+          content efficiently across multiple channels with a user-friendly
+          interface and powerful API integrations.
+        es-US: >-
+          Un CMS sin cabeza moderno con un enfoque en la colaboración y
+          flexibilidad de contenido.Kontent.ai permite a los equipos crear,
+          administrar y entregar contenido de manera eficiente a través de
+          múltiples canales con una interfaz fácil de usar e potentes
+          integraciones de API.
+        fr-CA: >-
+          Un CMS sans tête moderne axé sur la collaboration de contenu et la
+          flexibilité. Kontent.ai permet aux équipes de créer, gérer et livrer
+          du contenu efficacement sur plusieurs canaux avec une interface
+          conviviale et des intégrations API puissantes.
+        nl-NL: >-
+          Een modern headless CMS met een focus op content samenwerking en
+          flexibiliteit. Kontent.ai stelt teams in staat om content efficiënt te
+          creëren, beheren en leveren via meerdere kanalen met een
+          gebruiksvriendelijke interface en krachtige API-integraties.
+  _locales:
+    - en-US
+    - es-US
+    - fr-CA
+    - nl-NL

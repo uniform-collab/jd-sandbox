@@ -1,0 +1,334 @@
+created: '2024-06-04T20:24:04.63228+00:00'
+modified: '2024-08-15T12:21:32.191203+00:00'
+pattern: false
+workflowId: 784fa239-ae8a-4ab1-ba68-9806d0fe406a
+workflowStageId: 73608d81-f8b0-4ee3-897b-c976d2dc6670
+entry:
+  _id: f44e1f60-a032-48d4-8786-15be35c6df1d
+  _name: Royale Coffee Pour-Over Vintage Drip Coffeemaker
+  _slug: royale-coffee-pour-over-vintage-drip-coffeemaker-88
+  _thumbnail: >-
+    https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/hDJxsYq0T6y7CoJNsg75Sg-royale-coffee-pour-over-vintage-drip-coffeemaker-88-1_kyccyy_doemgq.jpg
+  type: product
+  fields:
+    body:
+      type: richText
+      locales:
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      HEMEX - simple, easy to use with timeless, elegant design
+                      All CHEMEX Coffeemakers are made of the highest quality,
+                      non-porous Borosilicate glass which will not absorb odors
+                      or chemical residues The patented CHEMEX pour-over design
+                      allows coffee to be covered and refrigerated for reheating
+                      without losing flavor All CHEMEX Coffeemakers are measured
+                      using 5 oz. as 1 cup Use CHEMEX Bonded Filters FP-1,
+                      FC-100, FS-100, FSU-100
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+            direction: ltr
+        fr-CA:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      HEMEX - simple, facile à utiliser avec un design
+                      intemporel et élégant Toutes les cafetières CHEMEX sont
+                      fabriquées en verre borosilicate non poreux de la plus
+                      haute qualité qui n'absorbe pas les odeurs ni les résidus
+                      chimiques. La conception brevetée du verseur CHEMEX permet
+                      de couvrir et de réfrigérer le café pendant réchauffer
+                      sans perdre de saveur Toutes les cafetières CHEMEX sont
+                      mesurées à l'aide de 5 oz. pour 1 tasse Utilisez les
+                      filtres agglomérés CHEMEX FP-1, FC-100, FS-100, FSU-100
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+            direction: ltr
+        nl-NL:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      HEMEX - eenvoudig, gemakkelijk te gebruiken met een
+                      tijdloos, elegant ontwerp Alle CHEMEX-koffiezetapparaten
+                      zijn gemaakt van de hoogste kwaliteit, niet-poreus
+                      borosilicaatglas dat geen geuren of chemische resten
+                      absorbeert. Dankzij het gepatenteerde
+                      CHEMEX-overschenkontwerp kan koffie worden afgedekt en
+                      gekoeld voor opwarmen zonder smaak te verliezen Alle
+                      CHEMEX-koffiezetapparaten worden gemeten met behulp van 5
+                      oz. als 1 kopje Gebruik CHEMEX Bonded Filters FP-1,
+                      FC-100, FS-100, FSU-100
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+            direction: ltr
+    name:
+      type: text
+      value: Royale Coffee Pour-Over Vintage Drip Coffeemaker
+    brand:
+      type: contentReference
+      value: ${#jptr:/ref-f44e1f60-a032-48d4-8786-15be35c6df1d-brand/entries/0}
+    title:
+      type: text
+      value: Royale Coffee Pour-Over Vintage Drip Coffeemaker
+    category:
+      type: contentReference
+      value: ${#jptr:/ref-f44e1f60-a032-48d4-8786-15be35c6df1d-category/entries}
+    variants:
+      type: $block
+      value:
+        - _id: 0f190777-ce0c-4e66-ae52-16c301c5357d
+          type: variant
+          fields:
+            code:
+              type: text
+              value: '88'
+            price:
+              type: number
+              locales:
+                en-US: '44.63'
+                fr-CA: '41.22'
+                nl-NL: '41.22'
+                es-US: '44.63'
+            title:
+              type: text
+              locales:
+                en-US: Royale Coffee Pour-Over Vintage Drip Coffeemaker
+                es-US: Royale Coffee Pour-Over Vintage Drip Coffeemaker
+                fr-CA: Royale Coffee Pour-Over Vintage Drip Coffeemaker
+                nl-NL: Royale Coffee Pour-Over Vintage Drip Coffeemaker
+            currency:
+              type: text
+              locales:
+                en-US: $
+                es-US: $
+                fr-CA: €
+                nl-NL: €
+            imageGallery:
+              type: asset
+              value:
+                - _id: 4058cf9f-5418-4877-84a1-0a4c9fed067f
+                  type: image
+                  fields:
+                    id:
+                      type: text
+                      value: 0197bb69-9074-4a47-a1cf-e5a06928a355
+                    url:
+                      value: >-
+                        https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/egExPE3FSQak0tHf_t9k6g-royale-coffee-pour-over-vintage-drip-coffeemaker-88-3_jnsrnp_rwqplj.jpg
+                      type: text
+                    file:
+                      type: file
+                      value: 353e654a-c27d-46e0-93fa-b3bb54349776
+                    size:
+                      value: 381408
+                      type: number
+                    title:
+                      type: text
+                      value: >-
+                        royale-coffee-pour-over-vintage-drip-coffeemaker-88-3_jnsrnp_rwqplj.jpg
+                    width:
+                      value: 1280
+                      type: number
+                    height:
+                      value: 1280
+                      type: number
+                    mediaType:
+                      value: image/jpeg
+                      type: text
+                  _source: uniform-assets
+                - _id: 2a32a63a-616b-4b46-aee8-010f9500d296
+                  type: image
+                  fields:
+                    id:
+                      type: text
+                      value: 4f57b3ed-813a-47e2-bd57-0ab2d6b2cee3
+                    url:
+                      value: >-
+                        https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/v9oEEviQTCitzwAAnpMJlA-royale-coffee-pour-over-vintage-drip-coffeemaker-88-2_xcbqbm_jhbmth.jpg
+                      type: text
+                    file:
+                      type: file
+                      value: 11b15337-d066-43f2-aead-c5dd4c3d66f5
+                    size:
+                      value: 303397
+                      type: number
+                    title:
+                      type: text
+                      value: >-
+                        royale-coffee-pour-over-vintage-drip-coffeemaker-88-2_xcbqbm_jhbmth.jpg
+                    width:
+                      value: 1280
+                      type: number
+                    height:
+                      value: 1280
+                      type: number
+                    mediaType:
+                      value: image/jpeg
+                      type: text
+                  _source: uniform-assets
+                - _id: acd3298d-b7e6-4aed-a81b-f795a2a6ad90
+                  type: image
+                  fields:
+                    id:
+                      type: text
+                      value: ff8d5ef9-9f68-4a43-8c44-b2e2bcc6d7ac
+                    url:
+                      value: >-
+                        https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/XqZLnqsZQBCBeO3WFO-jsg-royale-coffee-pour-over-vintage-drip-coffeemaker-88-1_kyccyy_doemgq.jpg
+                      type: text
+                    file:
+                      type: file
+                      value: 3c88bb92-cbd6-4b29-b44c-640de371a5c9
+                    size:
+                      value: 145893
+                      type: number
+                    title:
+                      type: text
+                      value: >-
+                        royale-coffee-pour-over-vintage-drip-coffeemaker-88-1_kyccyy_doemgq.jpg
+                    width:
+                      value: 1280
+                      type: number
+                    height:
+                      value: 1280
+                      type: number
+                    mediaType:
+                      value: image/jpeg
+                      type: text
+                  _source: uniform-assets
+    primaryImage:
+      type: asset
+      value:
+        - _id: 15640e78-4768-44a1-968e-cc8df3737028
+          type: image
+          fields:
+            id:
+              type: text
+              value: 33024209-3b35-4b9d-b6e2-d481cba78b15
+            url:
+              value: >-
+                https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/hDJxsYq0T6y7CoJNsg75Sg-royale-coffee-pour-over-vintage-drip-coffeemaker-88-1_kyccyy_doemgq.jpg
+              type: text
+            file:
+              type: file
+              value: 22004367-bb89-413c-b586-e9eeca8f9de1
+            size:
+              value: 145893
+              type: number
+            title:
+              type: text
+              value: >-
+                royale-coffee-pour-over-vintage-drip-coffeemaker-88-1_kyccyy_doemgq.jpg
+            width:
+              value: 1280
+              type: number
+            height:
+              value: 1280
+              type: number
+            mediaType:
+              value: image/jpeg
+              type: text
+          _source: uniform-assets
+    recommendations:
+      type: contentReference
+      value: >-
+        ${#jptr:/ref-f44e1f60-a032-48d4-8786-15be35c6df1d-recommendations/entries}
+    shortDescription:
+      type: text
+      locales:
+        en-US: >-
+          HEMEX - simple, easy to use with timeless, elegant design All CHEMEX
+          Coffeemakers are made of the highest quality, non-porous Borosilicate
+          glass which will not absorb odors or chemical residues The patented
+          CHEMEX pour-over design allows coffee to be covered and refrigerated
+          for reheating without losing flavor All CHEMEX Coffeemakers are
+          measured using 5 oz. as 1 cup Use CHEMEX Bonded Filters FP-1, FC-100,
+          FS-100, FSU-100
+        es-US: >-
+          HEMEX-Simple, fácil de usar con un diseño atemporal y elegante Todos
+          los cafeteros de Chemex están hechos de los vidrios de borosilicato no
+          porosos de la más alta calidad que no absorben olores o residuos
+          químicos.Recalentamiento sin perder sabor Todos los cafeteros Chemex
+          se miden usando 5 oz.Como 1 taza, use Filtros Bonded Chemex FP-1,
+          FC-100, FS-100, FSU-100
+        fr-CA: >-
+          HEMEX - simple, facile à utiliser avec un design intemporel et élégant
+          Toutes les cafetières CHEMEX sont fabriquées en verre borosilicate non
+          poreux de la plus haute qualité qui n'absorbe pas les odeurs ni les
+          résidus chimiques. La conception brevetée du verseur CHEMEX permet de
+          couvrir et de réfrigérer le café pendant réchauffer sans perdre de
+          saveur Toutes les cafetières CHEMEX sont mesurées à l'aide de 5 oz.
+          pour 1 tasse Utilisez les filtres agglomérés CHEMEX FP-1, FC-100,
+          FS-100, FSU-100
+        nl-NL: >-
+          HEMEX - eenvoudig, gemakkelijk te gebruiken met een tijdloos, elegant
+          ontwerp Alle CHEMEX-koffiezetapparaten zijn gemaakt van de hoogste
+          kwaliteit, niet-poreus borosilicaatglas dat geen geuren of chemische
+          resten absorbeert. Dankzij het gepatenteerde CHEMEX-overschenkontwerp
+          kan koffie worden afgedekt en gekoeld voor opwarmen zonder smaak te
+          verliezen Alle CHEMEX-koffiezetapparaten worden gemeten met behulp van
+          5 oz. als 1 kopje Gebruik CHEMEX Bonded Filters FP-1, FC-100, FS-100,
+          FSU-100
+  _dataResources:
+    ref-f44e1f60-a032-48d4-8786-15be35c6df1d-brand:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: c4abae59-51f7-4493-ad46-628acc96d45f
+    ref-f44e1f60-a032-48d4-8786-15be35c6df1d-category:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: >-
+          e86f566a-9ec3-484b-9524-3f662d7b5fd2,64d19761-b85e-4e33-8438-e4296de791e2
+    ref-f44e1f60-a032-48d4-8786-15be35c6df1d-recommendations:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: >-
+          82b84782-4236-4b06-a994-59f088896b91,72b49ac2-bbf3-48a7-b522-0947483e9131,8ad35da9-07b6-4532-8e13-47ab158e30ef,d4e5eec7-6670-42ef-adcb-71645e05e836,778c1de0-9119-4617-8fde-4cbff7da8031
+  _locales:
+    - en-US
+    - es-US
+    - fr-CA
+    - nl-NL

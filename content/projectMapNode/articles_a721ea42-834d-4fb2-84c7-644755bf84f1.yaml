@@ -1,0 +1,9 @@
+id: a721ea42-834d-4fb2-84c7-644755bf84f1
+name: Articles
+type: composition
+data: {}
+order: 175
+path: /:locale/articles
+compositionId: acede6be-b28c-4097-aadb-fc457c61f555
+pathSegment: articles
+projectMapId: 62588085-7894-4810-84b6-eaaf0cb5213c

@@ -1,0 +1,69 @@
+composition:
+  _name: Product Bundle (Independent)
+  _id: 4045561e-b985-49bc-8b73-8b5918952b8f
+  type: productBundle
+  parameters:
+    title:
+      type: text
+      locales:
+        en-CA: Buy Together & Save
+        en-GB: Buy Together & Save
+        en-NL: Buy Together & Save
+        en-US: Buy Together & Save
+        es-US: Compra juntos y ahorra
+        fr-CA: Achetez ensemble et économisez
+        nl-NL: Koop samen en bespaar
+    bundle:
+      type: json
+      value: ${#jptr:/Product Bundle Content}
+    buttonText:
+      type: text
+      locales:
+        en-CA: Buy Together
+        en-GB: Buy Together
+        en-NL: Buy Together
+        en-US: Buy Together
+        es-US: Comprar juntos
+        fr-CA: Acheter ensemble
+        nl-NL: Samen kopen
+    buttonStyle:
+      type: tp-button-style-parameter
+      value: secondary
+    primaryTextColor:
+      type: tp-color-palette-parameter
+      value: primary-content
+    secondaryTextColor:
+      type: tp-color-palette-parameter
+      value: secondary
+  _dataResources:
+    Product Bundle Content:
+      type: productBundle
+      variables:
+        locale: ${locale}
+        entryId: 161bf310-99fe-46fc-aaa8-8fdc8cd9a70f
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
+  _overridability:
+    parameters:
+      $viz: 'yes'
+      title: 'yes'
+      buttonText: 'yes'
+      buttonStyle: 'yes'
+      hideDescription: 'yes'
+      primaryTextColor: 'yes'
+      secondaryTextColor: 'yes'
+    hideLockedParameters: true
+  _locales:
+    - es-US
+    - en-US
+    - en-CA
+    - en-GB
+    - en-NL
+    - fr-CA
+    - nl-NL
+created: '2024-09-05T09:55:46.844133+00:00'
+modified: '2024-10-02T20:32:08.65032+00:00'
+pattern: true
+categoryId: 2da8c924-14d5-470b-9fe4-1e56521551e5
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+workflowStageId: 73608d81-f8b0-4ee3-897b-c976d2dc6670

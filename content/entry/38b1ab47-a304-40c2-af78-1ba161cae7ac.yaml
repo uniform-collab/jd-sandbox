@@ -1,0 +1,87 @@
+created: '2023-11-20T09:34:26.251124+00:00'
+modified: '2024-09-24T18:55:38.827533+00:00'
+pattern: false
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+entry:
+  _id: 38b1ab47-a304-40c2-af78-1ba161cae7ac
+  _name: Ever since I laid my hands on the EspressoGPT
+  _slug: ever-since-i-laid-my-hands-on-the-espressogpt
+  type: testimonial
+  fields:
+    date:
+      type: text
+      locales:
+        en-US: '2023-07-02'
+        es-US: '2023-07-02'
+        fr-CA: '2023-07-02'
+        nl-NL: '2023-07-02'
+    stars:
+      type: text
+      value: '5'
+    title:
+      type: text
+      locales:
+        en-US: Ever since I laid my hands on the EspressoGPT
+        es-US: Desde que puse mis manos sobre el espressogpt
+        fr-CA: Depuis que j'ai posé mes mains sur l'espressogpt
+        nl-NL: Sinds ik de espressogpt in handen heb gegeven
+    picture:
+      type: asset
+      value: []
+    product:
+      type: contentReference
+      value: ${#jptr:/ref-38b1ab47-a304-40c2-af78-1ba161cae7ac-product/entries/0}
+    lastName:
+      type: text
+      locales:
+        en-US: Gibbons
+        es-US: Gibones
+        fr-CA: Gibbons
+        nl-NL: Gibbons
+    firstName:
+      type: text
+      locales:
+        en-US: Hector
+        es-US: Héctor
+        fr-CA: Hector
+        nl-NL: Hector
+    experience:
+      type: text
+      locales:
+        en-US: >
+          Ever since I laid my hands on the EspressoGPT, my mornings have never
+          been the same. This isn't just an espresso machine; it's a marvel of
+          modern technology. From its instant quantum heating to the way it
+          intuitively knows just how I want my coffee, the EspressoGPT has
+          transformed my daily ritual into a luxurious experience.
+        es-US: >-
+          Desde que puse mis manos sobre el espressogpt, mis mañanas nunca han
+          sido las mismas.Esta no es solo una máquina de café espresso;Es una
+          maravilla de la tecnología moderna.Desde su calefacción cuántica
+          instantánea hasta la forma en que intuitivamente sabe cómo quiero mi
+          café, el espressogpt ha transformado mi ritual diario en una
+          experiencia lujosa.
+        fr-CA: >-
+          Depuis que j'ai posé mes mains sur l'espressogpt, mes matins n'ont
+          jamais été les mêmes.Ce n'est pas seulement une machine à
+          expresso;C'est une merveille de la technologie moderne.De son
+          chauffage quantique instantané à la façon dont il sait intuitivement
+          comment je veux mon café, l'espressogpt a transformé mon rituel
+          quotidien en une expérience luxueuse.
+        nl-NL: >-
+          Sinds ik het espressogpt in handen had, zijn mijn ochtenden nooit meer
+          hetzelfde geweest.Dit is niet alleen een espressomachine;Het is een
+          wonder van moderne technologie.Van zijn onmiddellijke
+          kwantumverwarming tot de manier waarop het intuïtief weet hoe ik mijn
+          koffie wil, de Espressogpt heeft mijn dagelijkse ritueel omgezet in
+          een luxe ervaring.
+  _dataResources:
+    ref-38b1ab47-a304-40c2-af78-1ba161cae7ac-product:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: c7e72a37-47db-4202-800d-09540a4b9181
+  _locales:
+    - en-US
+    - es-US
+    - fr-CA
+    - nl-NL

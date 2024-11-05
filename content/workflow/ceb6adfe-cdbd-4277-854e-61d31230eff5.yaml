@@ -1,0 +1,55 @@
+id: ceb6adfe-cdbd-4277-854e-61d31230eff5
+name: Standard Editorial Review
+initialStage: 73608d81-f8b0-4ee3-897b-c976d2dc6670
+stages:
+  73608d81-f8b0-4ee3-897b-c976d2dc6670:
+    name: Editing
+    permissions:
+      developer:
+        write: true
+      editor:
+        write: true
+    transitions:
+      - name: Submit for approval
+        to: 1d57220e-ee8b-4dee-901a-8996e5792504
+        permissions:
+          developer:
+            execute: true
+          editor:
+            execute: true
+    icon: pen
+    order: 0
+  1d57220e-ee8b-4dee-901a-8996e5792504:
+    name: Approval
+    requireValidity: true
+    permissions:
+      developer:
+        publish: true
+        write: true
+      editor:
+        write: true
+    transitions:
+      - name: Reject
+        to: 73608d81-f8b0-4ee3-897b-c976d2dc6670
+        permissions: {}
+      - name: Approve
+        to: f188fe82-9a74-4fdd-bbfb-a63837ba71d2
+        permissions:
+          developer:
+            execute: true
+          editor:
+            execute: true
+    icon: flag
+    order: 1
+  f188fe82-9a74-4fdd-bbfb-a63837ba71d2:
+    name: Approved
+    autoPublish: true
+    permissions:
+      developer:
+        write: true
+    transitions:
+      - name: Edit
+        to: 73608d81-f8b0-4ee3-897b-c976d2dc6670
+        permissions: {}
+    icon: lock
+    order: 2

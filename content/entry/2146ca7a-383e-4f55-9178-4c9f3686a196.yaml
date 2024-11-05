@@ -1,0 +1,890 @@
+created: '2024-09-26T16:47:30.713128+00:00'
+modified: '2024-10-03T18:12:18.928056+00:00'
+pattern: false
+entry:
+  _id: 2146ca7a-383e-4f55-9178-4c9f3686a196
+  _name: Coffee-Flavored Belgian Waffles
+  _slug: coffee-flavored-belgian-waffles
+  _thumbnail: >-
+    https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/coNW4qAVTvab1Km-6ARXyg-coffee-flavored-belgian-waffles.webp
+  type: recipe
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: Coffee-Flavored Belgian Waffles
+        es-US: Gofres belgas con sabor a café
+        fr-CA: Gaufres belges au café
+        nl-NL: Belgische wafels met koffiesmaak
+    yield:
+      type: text
+      locales:
+        en-US: 4 servings
+        es-US: 4 porciones
+        fr-CA: 4 portions
+        nl-NL: 4 porties
+    overview:
+      type: text
+      locales:
+        en-US: >-
+          For an extra boost of AM caffeine, mix espresso powder into the
+          batter, then sprinkle more on top.
+        es-US: >-
+          Para un impulso adicional de cafeína AM, mezcle espresso en polvo en
+          la masa, luego espolvoree más encima.
+        fr-CA: >-
+          Pour une dose supplémentaire de caféine, mélangez de la poudre
+          d'expresso à la pâte, puis saupoudrez-la sur le dessus.
+        nl-NL: >-
+          Voor een extra boost van AM-cafeïne, meng je espressopoeder door het
+          beslag en strooi je er meer over.
+    subtitle:
+      type: text
+      locales:
+        en-US: By Kapnos, Washington, DC
+        es-US: Por Kapnos, Washington, DC
+        fr-CA: Par Kapnos, Washington, DC
+        nl-NL: Door Kapnos, Washington, DC
+    recipeType:
+      type: contentReference
+      value: ${#jptr:/ref-2146ca7a-383e-4f55-9178-4c9f3686a196-recipeType/entries/0}
+    description:
+      type: richText
+      locales:
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      If you don’t have a Belgian waffle iron, use a regular
+                      one, but you probably won’t need as much batter.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+            direction: ltr
+        es-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Si no tiene una plancha para gofres belga, use una normal,
+                      pero probablemente no necesitará tanta masa.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+            direction: ltr
+        fr-CA:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Si vous n'avez pas de gaufrier belge, utilisez un gaufrier
+                      ordinaire, mais vous n'aurez probablement pas besoin
+                      d'autant de pâte.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+            direction: ltr
+        nl-NL:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Als je geen Belgisch wafelijzer hebt, gebruik dan een
+                      gewoon ijzer, maar dan heb je waarschijnlijk niet zoveel
+                      beslag nodig.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+            direction: ltr
+    ingredients:
+      type: $block
+      value:
+        - _id: d766026e-b4a5-45bb-a70a-7f0ea7c97708
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-US: all-purpose flour
+                es-US: harina para todo uso
+                fr-CA: farine tout usage
+                nl-NL: Meel voor alle doeleinden
+            unit:
+              type: select
+              value: c
+            amount:
+              type: number
+              value: '1.5'
+        - _id: 9dc4a198-b9ff-4b50-8134-ef8cebbc35de
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-US: granulated sugar
+                es-US: azúcar granulada
+                fr-CA: sucre cristallisé
+                nl-NL: kristalsuiker
+            unit:
+              type: select
+              value: c
+            amount:
+              type: number
+              value: '.25'
+        - _id: 14e5c3e1-5572-4014-bb55-299c3404fef5
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-US: light brown sugar
+                es-US: azúcar moreno claro
+                fr-CA: sucre brun léger
+                nl-NL: lichtbruine suiker
+            unit:
+              type: select
+              value: c
+            amount:
+              type: number
+              value: '.25'
+            amountText:
+              type: text
+              locales:
+                en-US: packed
+                es-US: compacto
+                fr-CA: emballé
+                nl-NL: stampvol
+        - _id: d11c212f-1ca8-4111-92dd-d4731f31c53f
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-US: baking powder
+                es-US: Polvo de hornear
+                fr-CA: poudre à lever
+                nl-NL: bakpoeder
+            unit:
+              type: select
+              value: tsp
+            amount:
+              type: number
+              value: '2'
+        - _id: 54417c9b-3f2b-43e5-bf52-4d3915b69de5
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-US: kosher salt
+                es-US: Sal kosher
+                fr-CA: sel casher
+                nl-NL: koosjer zout
+            unit:
+              type: select
+              value: tsp
+            amount:
+              type: number
+              value: '.5'
+        - _id: b1406041-3015-4f0a-bcd8-fdec960475c4
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-US: baking soda
+                es-US: Bicarbonato
+                fr-CA: bicarbonate de soude
+                nl-NL: zuiveringszout
+            unit:
+              type: select
+              value: tsp
+            amount:
+              type: number
+              value: '.25'
+        - _id: 89fb11b7-0297-4ff5-9ab0-1af337a75ab6
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-US: large eggs
+                es-US: Huevos grandes
+                fr-CA: gros œufs
+                nl-NL: grote eieren
+            amount:
+              type: number
+              value: '2'
+            amountText:
+              type: text
+              locales:
+                en-US: room temperature, beaten to blend
+                es-US: temperatura ambiente, batido para mezclar
+                fr-CA: température ambiante, battue pour mélanger
+                nl-NL: kamertemperatuur, geslagen om te mengen
+        - _id: 7a29dd03-ddbf-44b7-b14a-179474ecd79c
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-US: whole-milk ricotta
+                es-US: ricotta de leche entera
+                fr-CA: ricotta au lait entier
+                nl-NL: ricotta met volle melk
+            unit:
+              type: select
+              value: tbsp
+            amount:
+              type: number
+              value: '2'
+            amountText:
+              type: text
+              locales:
+                en-US: ' room temperature'
+                es-US: ' Temperatura ambiente'
+                fr-CA: ' température ambiante'
+                nl-NL: ' kamertemperatuur'
+        - _id: 22c2fe56-529c-4eec-ab2f-14a6e1985f85
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-US: buttermilk
+                es-US: suero de leche
+                fr-CA: babeurre
+                nl-NL: karnemelk
+            unit:
+              type: select
+              value: c
+            amount:
+              type: number
+              value: '1.25'
+        - _id: f4708ca4-9fb9-4684-8964-93cf41d996ab
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-US: instant espresso powder
+                es-US: espresso instantáneo en polvo
+                fr-CA: poudre d'espresso instantané
+                nl-NL: instant espresso poeder
+            unit:
+              type: select
+              value: tbsp
+            amount:
+              type: number
+              value: '2'
+        - _id: 1f9ea68c-78c8-4535-a470-b7534667afb1
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-US: unsalted butter
+                es-US: mantequilla sin sal
+                fr-CA: beurre non salé
+                nl-NL: ongezouten boter
+            unit:
+              type: select
+              value: tbsp
+            amount:
+              type: number
+              value: '5'
+            amountText:
+              type: text
+              locales:
+                en-US: melted
+                es-US: derretido
+                fr-CA: fondu
+                nl-NL: gesmolten
+        - _id: c88f850b-fa72-4e90-bb52-4c7402975fb2
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-US: 'Pure maple syrup and whipped cream '
+                es-US: 'Jarabe puro de arce y crema batida '
+                fr-CA: 'Sirop d''érable pur et crème fouettée '
+                nl-NL: 'Pure ahornsiroop en slagroom '
+            amountText:
+              type: text
+              locales:
+                en-US: (for serving)
+                es-US: (para servir)
+                fr-CA: (pour le service)
+                nl-NL: (om te serveren)
+        - _id: 5f7cc316-adf5-40d5-a40b-a17913062f6f
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-US: A Belgian waffle iron
+                es-US: Una gofrera belga
+                fr-CA: Un gaufrier belge
+                nl-NL: Een Belgisch wafelijzer
+    publishDate:
+      type: date
+      value: '2017-02-14'
+    instructions:
+      type: $block
+      value:
+        - _id: 36991271-58c1-4d2f-be31-ca8b21a8f6c4
+          type: howtoSection
+          fields:
+            name:
+              type: text
+              locales:
+                en-US: Preparation
+                es-US: Preparación
+                fr-CA: Préparation
+                nl-NL: Voorbereiding
+            steps:
+              type: $block
+              value:
+                - _id: 16fa7cfb-ea01-4c1a-a8f8-697a0fa8eb05
+                  type: howtoStep
+                  fields:
+                    name:
+                      type: text
+                      locales:
+                        en-US: Step 1
+                        es-US: Paso 1
+                        fr-CA: Étape 1
+                        nl-NL: Stap 1
+                    description:
+                      type: richText
+                      locales:
+                        en-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Whisk flour, granulated sugar, brown
+                                      sugar, baking powder, salt, and baking
+                                      soda in a medium bowl to combine. Whisk
+                                      eggs and ricotta in a large bowl just to
+                                      incorporate, then add buttermilk and 2
+                                      Tbsp. espresso powder; whisk until smooth.
+                                      Whisk in 5 Tbsp. melted butter, then fold
+                                      in dry ingredients with a rubber spatula,
+                                      being careful not to overmix (some lumps
+                                      are okay). Let batter sit uncovered at
+                                      room temperature 30 minutes to allow the
+                                      flour to hydrate.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        es-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Batir la harina, el azúcar granulada, el
+                                      azúcar morena, el polvo de hornear, la sal
+                                      y el bicarbonato de sodio en un tazón
+                                      mediano para combinar. Batir los huevos y
+                                      la ricota en un tazón grande solo para
+                                      incorporar, luego agregue el suero de
+                                      leche y 2 cucharadas de espresso en polvo;
+                                      batir hasta que quede suave. Batir 5
+                                      cucharadas de mantequilla derretida, luego
+                                      incorporar los ingredientes secos con una
+                                      espátula de goma, teniendo cuidado de no
+                                      mezclar demasiado (algunos grumos están
+                                      bien). Deje reposar la masa sin tapar a
+                                      temperatura ambiente durante 30 minutos
+                                      para permitir que la harina se hidrate.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        fr-CA:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Mélanger la farine, le sucre cristallisé,
+                                      la cassonade, la levure chimique, le sel
+                                      et le bicarbonate de soude dans un bol
+                                      moyen. Dans un grand bol, fouetter les
+                                      œufs et la ricotta pour les incorporer,
+                                      puis ajouter le babeurre et 2 cuillères à
+                                      soupe de poudre d'espresso; fouetter
+                                      jusqu'à ce que le mélange soit homogène.
+                                      Incorporer 5 c. à soupe de beurre fondu en
+                                      fouettant, puis incorporer les ingrédients
+                                      secs à l'aide d'une spatule en caoutchouc,
+                                      en veillant à ne pas trop mélanger
+                                      (quelques grumeaux sont acceptables).
+                                      Laisser reposer la pâte à découvert à
+                                      température ambiante pendant 30 minutes
+                                      pour permettre à la farine de s'hydrater.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        nl-NL:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Klop bloem, kristalsuiker, bruine suiker,
+                                      bakpoeder, zout en bakpoeder in een
+                                      middelgrote kom om te combineren. Klop de
+                                      eieren en ricotta in een grote kom om op
+                                      te nemen en voeg dan karnemelk en 2
+                                      eetlepels toe. Klop tot een gladde massa.
+                                      Klop er 5 eetlepels gesmolten boter door
+                                      en spatel de droge ingrediënten erdoor met
+                                      een rubberen spatel, zorg ervoor dat u
+                                      niet te lang mengt (sommige klontjes zijn
+                                      oké). Laat het beslag 30 minuten
+                                      onafgedekt op kamertemperatuur staan om de
+                                      bloem te laten hydrateren.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                - _id: d7447253-4606-46d7-b204-5b10139154ed
+                  type: howtoStep
+                  fields:
+                    name:
+                      type: text
+                      locales:
+                        en-US: Step 2
+                        es-US: Paso 2
+                        fr-CA: Étape 2
+                        nl-NL: Stap 2
+                    description:
+                      type: richText
+                      locales:
+                        en-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Preheat oven to 200°. Set a wire rack
+                                      inside a rimmed baking sheet and place in
+                                      oven. Heat waffle iron and brush with
+                                      butter. Pour 1 cup batter onto iron and
+                                      cook until waffle is golden brown and
+                                      cooked through, 5–7 minutes. Transfer to
+                                      wire rack in oven. Repeat with remaining
+                                      batter, brushing iron with more butter as
+                                      needed. (Waffles will be limp at first but
+                                      will crisp up as they sit.)
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        es-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Precaliente el horno a 200 °. Coloque una
+                                      rejilla de alambre dentro de una bandeja
+                                      para hornear con borde y colóquela en el
+                                      horno. Caliente la plancha para gofres y
+                                      unte con mantequilla. Vierta 1 taza de
+                                      masa en la plancha y cocine hasta que el
+                                      waffle esté dorado y bien cocido, de 5 a 7
+                                      minutos. Transfiera a una rejilla de
+                                      alambre en el horno. Repita con la masa
+                                      restante, untando el hierro con más
+                                      mantequilla según sea necesario. (Los
+                                      waffles estarán flácidos al principio,
+                                      pero se pondrán crujientes a medida que se
+                                      asienten).
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        fr-CA:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Préchauffer le four à 200°. Placer une
+                                      grille à l'intérieur d'une plaque à
+                                      pâtisserie à rebord et l'enfourner.
+                                      Chauffer le gaufrier et le badigeonner de
+                                      beurre. Verser 1 tasse de pâte sur le
+                                      gaufrier et cuire jusqu'à ce que les
+                                      gaufres soient dorées et bien cuites, de 5
+                                      à 7 minutes. Transférer sur le quadrillage
+                                      du four. Répéter l'opération avec le reste
+                                      de la pâte, en badigeonnant le gaufrier de
+                                      beurre si nécessaire. (Les gaufres seront
+                                      d'abord molles, mais elles deviendront
+                                      croustillantes au fur et à mesure qu'elles
+                                      reposeront).
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        nl-NL:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Verwarm de oven voor op 200°. Plaats een
+                                      rooster in een omrande bakplaat en plaats
+                                      deze in de oven. Verwarm het wafelijzer en
+                                      bestrijk het met boter. Giet 1 kopje
+                                      beslag op het ijzer en kook tot de wafel
+                                      goudbruin en gaar is, 5-7 minuten. Breng
+                                      over naar een rooster in de oven. Herhaal
+                                      met het resterende beslag, borstel de
+                                      strijkijzer indien nodig met meer boter.
+                                      (Wafels zullen in het begin slap zijn,
+                                      maar zullen knapperig worden als ze
+                                      zitten.)
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                - _id: 3df92e60-9665-4892-9936-71654a4cff8b
+                  type: howtoStep
+                  fields:
+                    name:
+                      type: text
+                      locales:
+                        en-US: Step 3
+                        es-US: Paso 3
+                        fr-CA: Étape 3
+                        nl-NL: Stap 3
+                    description:
+                      type: richText
+                      locales:
+                        en-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Serve waffles topped with whipped cream,
+                                      drizzled with maple syrup, and sprinkled
+                                      with more espresso powder.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        es-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Sirva los waffles cubiertos con crema
+                                      batida, rociados con jarabe de arce y
+                                      espolvoreados con más espresso en polvo.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        fr-CA:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Servir les gaufres garnies de crème
+                                      fouettée, arrosées de sirop d'érable et
+                                      saupoudrées de poudre d'espresso.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        nl-NL:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Serveer wafels gegarneerd met slagroom,
+                                      besprenkeld met ahornsiroop en bestrooid
+                                      met meer espressopoeder.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+    featuredImage:
+      type: asset
+      value:
+        - _id: f5b95087-f4d1-434a-a093-bb6b34ee3c04
+          type: image
+          fields:
+            id:
+              type: text
+              value: d0fe3df3-6379-4f6d-836b-f1a784cd83e5
+            url:
+              value: >-
+                https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/coNW4qAVTvab1Km-6ARXyg-coffee-flavored-belgian-waffles.webp
+              type: text
+            file:
+              type: file
+              value: aed620f2-e2ab-43ca-bd1b-726671127ca2
+            size:
+              value: 63484
+              type: number
+            title:
+              type: text
+              value: coffee-flavored-belgian-waffles.webp
+            width:
+              value: 1280
+              type: number
+            height:
+              value: 853
+              type: number
+            mediaType:
+              value: image/webp
+              type: text
+          _source: uniform-assets
+    mainIngredient:
+      type: contentReference
+      value: >-
+        ${#jptr:/ref-2146ca7a-383e-4f55-9178-4c9f3686a196-mainIngredient/entries/0}
+  _dataResources:
+    ref-2146ca7a-383e-4f55-9178-4c9f3686a196-recipeType:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: e19bc739-5bb0-4a1b-80d4-d88fd57e5e79
+    ref-2146ca7a-383e-4f55-9178-4c9f3686a196-mainIngredient:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: f695a090-8bde-43e4-8085-0a7f9b48b45a
+  _locales:
+    - en-US
+    - fr-CA
+    - nl-NL
+    - es-US

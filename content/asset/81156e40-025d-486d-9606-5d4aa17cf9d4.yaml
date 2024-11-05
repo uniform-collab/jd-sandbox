@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 81156e40-025d-486d-9606-5d4aa17cf9d4
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: AI-generated-image-for-Logo
+    file:
+      type: file
+      value: 61b8d803-ca52-4634-b538-d7ff25d7d3e0
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/MljFb0lqTQCQmgZS5iJWtg-AI-generated-image-for-Logo
+      type: text
+    size:
+      value: 1858341
+      type: number
+    width:
+      value: 1024
+      type: number
+    height:
+      value: 1024
+      type: number
+    custom: {}
+created: '2024-09-18T18:02:34.888208+00:00'
+modified: '2024-09-18T18:02:34.888208+00:00'

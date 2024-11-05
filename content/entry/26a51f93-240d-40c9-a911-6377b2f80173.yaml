@@ -1,0 +1,34 @@
+created: '2024-08-12T13:03:51.069013+00:00'
+modified: '2024-09-24T18:55:38.827533+00:00'
+pattern: false
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+entry:
+  _id: 26a51f93-240d-40c9-a911-6377b2f80173
+  _name: Is the slow drip coffee maker for you?
+  _slug: is-the-slow-drip-coffee-maker-for-you
+  type: article
+  fields: {}
+  _dataResources:
+    Article by Slug Content:
+      type: contentstackArticleBySlug
+      variables:
+        query: '{ "slug": "is-the-slow-drip-coffee-maker-for-you" }'
+        locale: ${locale}
+        entriesValue: is-the-slow-drip-coffee-maker-for-you
+        contentTypeUid: article
+    ref-26a51f93-240d-40c9-a911-6377b2f80173-tag:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: 059615df-5702-40b2-ad1e-f420f76b9c4b
+  _locales:
+    - en-US
+    - es-US
+    - fr-CA
+    - nl-NL
+  _overrides:
+    26a51f93-240d-40c9-a911-6377b2f80173:
+      parameters:
+        tag:
+          type: contentReference
+          value: ${#jptr:/ref-26a51f93-240d-40c9-a911-6377b2f80173-tag/entries}
+  _pattern: e49d7864-d51e-4eed-994f-2edabae6ff16

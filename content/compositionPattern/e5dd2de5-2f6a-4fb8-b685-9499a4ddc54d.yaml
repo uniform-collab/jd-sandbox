@@ -1,0 +1,301 @@
+composition:
+  _name: Custom Product Details Page
+  _id: e5dd2de5-2f6a-4fb8-b685-9499a4ddc54d
+  type: productDetailsPage
+  parameters:
+    pageTitle:
+      type: text
+      locales:
+        en-US: ${#jptr:/Product Content/entry/_name}
+  slots:
+    pageFooter:
+      - _id: 63d2d114-274c-4ef8-8967-d80c6115c4fe
+        type: footer
+        _pattern: 319639e9-4bac-4fb3-8f0b-19088c969fcb
+    pageHeader:
+      - _id: 219f1c70-3329-40af-9d09-ce6f54b163de
+        type: header
+        _pattern: e46c8336-acfd-43e8-ac59-8be8f4c33b7d
+    pageContent:
+      - _id: faa0b6b5-f643-4745-af84-1eb157d4679c
+        type: $slotSection
+        parameters:
+          max:
+            type: text
+            value: 1
+          name:
+            type: text
+            value: Above Product Info
+          specific:
+            type: array
+            value:
+              - $p:ac6f9c69-0108-44b4-bf67-ef13c59ed67a
+              - $p:daaf620c-8067-496f-9894-d6dea651a3a3
+          groupType:
+            type: text
+            value: specific
+        _overridability:
+          hideLockedParameters: true
+      - _id: 81ac8079-a0c6-40e6-86b0-31c875ad5c55
+        type: productInfo
+        parameters:
+          image:
+            type: asset
+            value: ${#jptr:/Product Content/entry/fields/primaryImage/value}
+          title:
+            type: text
+            locales:
+              en-US: ${#jptr:/Product Content/entry/fields/name/value}
+              fr-CA: ${#jptr:/Product Content/entry/fields/name/value}
+              nl-NL: ${#jptr:/Product Content/entry/fields/name/value}
+          fullHeight:
+            type: checkbox
+            value: true
+          productKey:
+            type: text
+            value: ${#jptr:/Product Content/entry/_id}
+          titleStyle:
+            type: tp-title-style-parameter
+            value: h1
+          description:
+            type: text
+            locales:
+              en-US: ${#jptr:/Product Content/entry/fields/shortDescription/value}
+              fr-CA: ${#jptr:/Product Content/entry/fields/shortDescription/value}
+              nl-NL: ${#jptr:/Product Content/entry/fields/shortDescription/value}
+          overlayColor:
+            type: tp-color-style-parameter
+            value: primary
+          highlightText:
+            type: text
+            locales:
+              en-US: >-
+                ${#jptr:/Product
+                Content/entry/fields/variants/value/0/fields/currency/value}
+                ${#jptr:/Product
+                Content/entry/fields/variants/value/0/fields/price/value}
+              fr-CA: >-
+                ${#jptr:/Product
+                Content/entry/fields/variants/value/0/fields/currency/value}
+                ${#jptr:/Product
+                Content/entry/fields/variants/value/0/fields/price/value}
+              nl-NL: >-
+                ${#jptr:/Product
+                Content/entry/fields/variants/value/0/fields/currency/value}
+                ${#jptr:/Product
+                Content/entry/fields/variants/value/0/fields/price/value}
+          overlayOpacity:
+            type: tp-slider-parameter
+            value: 50%
+          primaryButtonCopy:
+            type: text
+            locales:
+              en-US: Buy now
+              fr-CA: Acheter maintenant
+              nl-NL: Koop nu
+          primaryButtonStyle:
+            type: tp-button-style-parameter
+            value: secondary
+          secondaryButtonCopy:
+            type: text
+            locales:
+              en-US: Taste the future
+              fr-CA: Goûtez le futur
+              nl-NL: Proef de toekomst
+          secondaryButtonLink:
+            type: link
+            value:
+              path: /${locale}/external/coffee-makers
+              type: projectMapNode
+              nodeId: ea684346-109c-4b11-82a5-2a982d2dd795
+              projectMapId: 62588085-7894-4810-84b6-eaaf0cb5213c
+              dynamicInputValues:
+                locale: ${locale}
+        _overridability:
+          parameters:
+            delay: 'yes'
+            image: 'yes'
+            title: 'no'
+            product: 'yes'
+            duration: 'yes'
+            features: 'yes'
+            subTitle: 'no'
+            objectFit: 'yes'
+            fullHeight: 'yes'
+            titleStyle: 'yes'
+            description: 'yes'
+            eyebrowText: 'yes'
+            overlayColor: 'yes'
+            animationType: 'yes'
+            highlightText: 'no'
+            animationOrder: 'yes'
+            overlayOpacity: 'yes'
+            animationPreview: 'yes'
+            primaryButtonCopy: 'yes'
+            primaryButtonLink: 'yes'
+            primaryButtonStyle: 'yes'
+            secondaryButtonCopy: 'yes'
+            secondaryButtonLink: 'yes'
+            secondaryButtonStyle: 'yes'
+            primaryButtonAnimationType: 'yes'
+            secondaryButtonAnimationType: 'yes'
+      - _id: 775cef5f-9f81-42fb-8b24-5635172ec95e
+        type: $slotSection
+        parameters:
+          max:
+            type: text
+            value: 3
+          name:
+            type: text
+            value: Middle Page
+          specific:
+            type: array
+            value:
+              - hotspots
+              - $p:c68e8149-1780-4272-ad03-6664f8037c3b
+              - $p:c93696ab-56f6-43df-90b9-bf4a610f202e
+              - $p:733c3ec0-4eca-4e7a-bf35-532ccf918b66
+              - $p:c4c25933-d434-4838-9ab9-08f9c05295b6
+              - $p:4045561e-b985-49bc-8b73-8b5918952b8f
+          groupType:
+            type: text
+            value: specific
+        _overridability:
+          hideLockedParameters: true
+      - _id: 2460b089-8d17-4f22-bd42-d49a15e08b6b
+        type: imageGallery
+        variant: fluidContent
+        parameters:
+          items:
+            type: asset
+            value: >-
+              ${#jptr:/Product
+              Content/entry/fields/variants/value/0/fields/imageGallery/value}
+          title:
+            type: text
+            locales:
+              en-US: Image Gallery
+              fr-CA: Galerie d'images
+              nl-NL: Afbeeldingen Galerij
+          duration:
+            type: select
+            value: slow
+          maxItems:
+            type: number
+            value: '5'
+          paddingTop:
+            type: select
+            value: Small
+          titleStyle:
+            type: tp-title-style-parameter
+            value: h4
+          animationType:
+            type: select
+            value: flyIn
+          paddingBottom:
+            type: select
+            value: Small
+          animationOrder:
+            type: select
+            value: oneByOne
+          backgroundType:
+            type: tp-background-type-parameter
+            value: Dark
+        _overridability:
+          variants: true
+          parameters:
+            delay: 'yes'
+            title: 'yes'
+            duration: 'yes'
+            maxItems: 'yes'
+            marginTop: 'no'
+            paddingTop: 'no'
+            titleStyle: 'yes'
+            description: 'yes'
+            marginBottom: 'no'
+            animationType: 'yes'
+            paddingBottom: 'no'
+            animationOrder: 'yes'
+            backgroundType: 'yes'
+            animationPreview: 'yes'
+      - _id: b71b31b9-1283-49fd-857f-234a39b8f5ec
+        type: container
+        slots:
+          container-inner:
+            - _id: f2b07403-bd3a-445a-ba34-cfc52e94477f
+              type: $slotSection
+              parameters:
+                max:
+                  type: text
+                  value: 4
+                name:
+                  type: text
+                  value: Bottom Page
+                specific:
+                  type: array
+                  value:
+                    - hotspots
+                    - $p:c68e8149-1780-4272-ad03-6664f8037c3b
+                    - $p:c93696ab-56f6-43df-90b9-bf4a610f202e
+                    - $p:733c3ec0-4eca-4e7a-bf35-532ccf918b66
+                    - $p:9f1d715b-16aa-4f0f-807d-036beb0ff67f
+                    - $p:fe2cba31-e7a3-49f4-8f95-6221b4dee99a
+                    - $p:c4c25933-d434-4838-9ab9-08f9c05295b6
+                    - $p:4045561e-b985-49bc-8b73-8b5918952b8f
+                groupType:
+                  type: text
+                  value: specific
+              _overridability:
+                hideLockedParameters: true
+        parameters:
+          marginTop:
+            type: select
+            value: None
+          paddingTop:
+            type: select
+            value: None
+          marginBottom:
+            type: select
+            value: None
+          paddingBottom:
+            type: select
+            value: None
+          backgroundType:
+            type: tp-background-type-parameter
+            value: Dark
+        _overridability:
+          hideLockedParameters: true
+  _dataResources:
+    Product Content:
+      type: product-single
+      variables:
+        slug: espresso-gpt-145
+        locale: ${locale}
+        entryId: c7e72a37-47db-4202-800d-09540a4b9181
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
+  _overridability:
+    parameters:
+      $viz: 'yes'
+      pageTitle: 'yes'
+      twitterCard: 'yes'
+      pageKeywords: 'yes'
+      twitterImage: 'yes'
+      twitterTitle: 'yes'
+      openGraphType: 'yes'
+      openGraphImage: 'yes'
+      openGraphTitle: 'yes'
+      pageSubcategories: 'yes'
+      twitterDescription: 'yes'
+      pageMetaDescription: 'yes'
+      openGraphDescription: 'yes'
+      overlayTitleToOgImage: 'yes'
+      overlayTitleToTwitterImage: 'yes'
+    hideLockedParameters: true
+  _locales:
+    - en-US
+    - nl-NL
+    - fr-CA
+created: '2024-10-09T20:09:58.423028+00:00'
+modified: '2024-10-09T20:44:07.213113+00:00'
+pattern: true

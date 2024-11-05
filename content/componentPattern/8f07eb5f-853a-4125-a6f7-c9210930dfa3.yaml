@@ -1,0 +1,67 @@
+composition:
+  _name: Coffee Beans Filter Box
+  _id: 8f07eb5f-853a-4125-a6f7-c9210930dfa3
+  type: entryFilterBox
+  parameters:
+    title:
+      type: text
+      locales:
+        en-CA: Categories
+        en-GB: Categories
+        en-NL: Categories
+        en-US: Categories
+        es-US: Categories
+        fr-CA: Categories
+        nl-NL: Categories
+    filterBy:
+      type: $block
+      value:
+        - _id: 2ce5cf24-a9c1-43a1-8fa3-6e460ce555a8
+          type: filterBy
+          fields:
+            exclude:
+              type: text
+              locales:
+                en-CA: 09b62b8c-1d09-443b-bba5-95fadbf37f80
+                en-GB: 09b62b8c-1d09-443b-bba5-95fadbf37f80
+                en-NL: 09b62b8c-1d09-443b-bba5-95fadbf37f80
+                en-US: 09b62b8c-1d09-443b-bba5-95fadbf37f80
+                es-US: 09b62b8c-1d09-443b-bba5-95fadbf37f80
+                fr-CA: 09b62b8c-1d09-443b-bba5-95fadbf37f80
+                nl-NL: 09b62b8c-1d09-443b-bba5-95fadbf37f80
+            fieldName:
+              type: text
+              locales:
+                en-CA: category
+                en-GB: category
+                en-NL: category
+                en-US: category
+                es-US: category
+                fr-CA: category
+                nl-NL: category
+            labelField:
+              type: text
+              locales:
+                en-CA: title
+                en-GB: title
+                en-NL: title
+                en-US: title
+                es-US: title
+                fr-CA: title
+                nl-NL: title
+  _overridability:
+    hideLockedParameters: true
+  _locales:
+    - es-US
+    - en-US
+    - en-CA
+    - en-GB
+    - en-NL
+    - fr-CA
+    - nl-NL
+created: '2024-09-05T09:55:49.633401+00:00'
+modified: '2024-10-02T20:31:14.07725+00:00'
+pattern: true
+categoryId: d2f175b2-abf7-4cc6-8458-6be68b421ced
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+workflowStageId: 73608d81-f8b0-4ee3-897b-c976d2dc6670

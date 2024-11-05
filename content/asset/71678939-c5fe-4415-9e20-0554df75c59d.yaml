@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 71678939-c5fe-4415-9e20-0554df75c59d
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: hotspot.png
+    file:
+      type: file
+      value: 29ea196f-3c2f-4733-9f48-e27b3cda2507
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/sUug4BuVRWKpzGYFIA-DJw/s9mAgy3DR8agV_t99cuo8w-hotspot.png
+      type: text
+    size:
+      value: 1155
+      type: number
+    width:
+      value: 60
+      type: number
+    height:
+      value: 60
+      type: number
+    custom: {}
+created: '2024-06-18T17:49:59.872205+00:00'
+modified: '2024-06-18T17:49:59.872205+00:00'

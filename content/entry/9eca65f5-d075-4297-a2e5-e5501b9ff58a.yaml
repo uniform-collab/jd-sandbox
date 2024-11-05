@@ -1,0 +1,84 @@
+created: '2024-09-26T20:05:41.709267+00:00'
+modified: '2024-09-26T20:08:21.153505+00:00'
+pattern: false
+workflowId: 784fa239-ae8a-4ab1-ba68-9806d0fe406a
+workflowStageId: 73608d81-f8b0-4ee3-897b-c976d2dc6670
+entry:
+  _id: 9eca65f5-d075-4297-a2e5-e5501b9ff58a
+  _name: Cocktail Shaker
+  _slug: cocktail-shaker
+  _thumbnail: >-
+    https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/Uobozxq3Qm63Q_CPdFIL3A-Cocktail-Shaker.webp
+  type: product
+  fields:
+    name:
+      type: text
+      value: Cocktail Shaker
+    title:
+      type: text
+      value: Cocktail Shaker
+    category:
+      type: contentReference
+      value: ${#jptr:/ref-9eca65f5-d075-4297-a2e5-e5501b9ff58a-category/entries}
+    variants:
+      type: $block
+      value:
+        - _id: 213797c0-6c00-4d20-8278-b705a35662e3
+          type: variant
+          fields:
+            price:
+              type: number
+              locales:
+                en-US: '20'
+            title:
+              type: text
+              locales:
+                en-US: Cocktail Shaker
+            currency:
+              type: text
+              locales:
+                en-US: $
+    primaryImage:
+      type: asset
+      value:
+        - _id: 93e259de-fdd3-4e96-9793-51d52bb35c14
+          type: image
+          fields:
+            id:
+              type: text
+              value: 6d907e7d-5fe0-41fe-af02-22aeb8b1d9e3
+            url:
+              value: >-
+                https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/Uobozxq3Qm63Q_CPdFIL3A-Cocktail-Shaker.webp
+              type: text
+            file:
+              type: file
+              value: c186029f-0df6-4c35-b02a-a57f36dbfaa3
+            size:
+              value: 5218
+              type: number
+            title:
+              type: text
+              value: Cocktail-Shaker.webp
+            width:
+              value: 640
+              type: number
+            height:
+              value: 640
+              type: number
+            mediaType:
+              value: image/webp
+              type: text
+          _source: uniform-assets
+    shortDescription:
+      type: text
+      locales:
+        en-US: For making great adult drinks featuring coffee
+  _dataResources:
+    ref-9eca65f5-d075-4297-a2e5-e5501b9ff58a-category:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: 4fb71159-ddac-4bca-9004-0405ed43c2d8
+  _locales:
+    - en-US

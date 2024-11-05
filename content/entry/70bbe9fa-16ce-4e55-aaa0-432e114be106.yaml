@@ -1,0 +1,63 @@
+created: '2023-12-13T13:09:04.32688+00:00'
+modified: '2024-09-24T18:55:38.827533+00:00'
+pattern: false
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+entry:
+  _id: 70bbe9fa-16ce-4e55-aaa0-432e114be106
+  _name: Hello, stranger!
+  _slug: hello-stranger
+  _thumbnail: >-
+    https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/kREjk1uxQxCBx77Hlda-DA-hero_15.png
+  type: hero
+  fields:
+    image:
+      type: asset
+      value:
+        - _id: 89d8f9c2-bea6-4dd2-bec4-bfaaab0736c4
+          type: image
+          fields:
+            id:
+              type: text
+              value: 0cf4ba92-4a18-4dd2-9175-f4615b4eff98
+            url:
+              value: >-
+                https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/kREjk1uxQxCBx77Hlda-DA-hero_15.png
+              type: text
+            file:
+              type: file
+              value: bd5603df-bc18-495a-9254-081d7facf02a
+            size:
+              value: 2064940
+              type: number
+            title:
+              type: text
+              value: hero_15.png
+            width:
+              value: 3000
+              type: number
+            height:
+              value: 2000
+              type: number
+            mediaType:
+              value: image/png
+              type: text
+          _source: uniform-assets
+    title:
+      type: text
+      locales:
+        en-US: Hello, stranger!
+        es-US: ¡Hola, extraño!
+        fr-CA: Bonjour étranger!
+        nl-NL: Hallo onbekende!
+    description:
+      type: text
+      locales:
+        en-US: we got awesome coffee beans and amazing coffee machine
+        es-US: Tenemos increíbles granos de café y una increíble cafetera
+        fr-CA: Nous avons des grains de café géniaux et une machine à café incroyable
+        nl-NL: We hebben geweldige koffiebonen en een geweldige koffiemachine
+  _locales:
+    - en-US
+    - es-US
+    - fr-CA
+    - nl-NL

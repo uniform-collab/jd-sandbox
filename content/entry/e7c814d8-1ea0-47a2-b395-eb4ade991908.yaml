@@ -1,0 +1,183 @@
+created: '2024-08-12T13:06:55.469363+00:00'
+modified: '2024-09-24T18:55:38.827533+00:00'
+pattern: false
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+entry:
+  _id: e7c814d8-1ea0-47a2-b395-eb4ade991908
+  _name: Percolators
+  _slug: percolators
+  type: productCategory
+  fields:
+    logo:
+      type: asset
+      locales:
+        en-US:
+          - _id: 7aab5eca-24d0-40ef-a914-055074f7d3bb
+            type: image
+            fields:
+              id:
+                type: text
+                value: 9da52e9e-fda2-4de0-aebd-a40cd6b98620
+              url:
+                value: >-
+                  https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/DUeTbgzqTPukfgsqIekR5w-Image-6.webp
+                type: text
+              file:
+                type: file
+                value: 70baec97-b1dc-40cf-b332-92f3ae12e435
+              size:
+                value: 114210
+                type: number
+              title:
+                type: text
+                value: Image-6.webp
+              width:
+                value: 1024
+                type: number
+              height:
+                value: 1024
+                type: number
+              mediaType:
+                value: image/webp
+                type: text
+            _source: uniform-assets
+        es-US:
+          - _id: 7aab5eca-24d0-40ef-a914-055074f7d3bb
+            type: image
+            fields:
+              id:
+                type: text
+                value: 9da52e9e-fda2-4de0-aebd-a40cd6b98620
+              url:
+                value: >-
+                  https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/DUeTbgzqTPukfgsqIekR5w-Image-6.webp
+                type: text
+              file:
+                type: file
+                value: 70baec97-b1dc-40cf-b332-92f3ae12e435
+              size:
+                value: 114210
+                type: number
+              title:
+                type: text
+                value: Image-6.webp
+              width:
+                value: 1024
+                type: number
+              height:
+                value: 1024
+                type: number
+              mediaType:
+                value: image/webp
+                type: text
+            _source: uniform-assets
+        fr-CA:
+          - _id: 7aab5eca-24d0-40ef-a914-055074f7d3bb
+            type: image
+            fields:
+              id:
+                type: text
+                value: 9da52e9e-fda2-4de0-aebd-a40cd6b98620
+              url:
+                value: >-
+                  https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/DUeTbgzqTPukfgsqIekR5w-Image-6.webp
+                type: text
+              file:
+                type: file
+                value: 70baec97-b1dc-40cf-b332-92f3ae12e435
+              size:
+                value: 114210
+                type: number
+              title:
+                type: text
+                value: Image-6.webp
+              width:
+                value: 1024
+                type: number
+              height:
+                value: 1024
+                type: number
+              mediaType:
+                value: image/webp
+                type: text
+            _source: uniform-assets
+        nl-NL:
+          - _id: 7aab5eca-24d0-40ef-a914-055074f7d3bb
+            type: image
+            fields:
+              id:
+                type: text
+                value: 9da52e9e-fda2-4de0-aebd-a40cd6b98620
+              url:
+                value: >-
+                  https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/DUeTbgzqTPukfgsqIekR5w-Image-6.webp
+                type: text
+              file:
+                type: file
+                value: 70baec97-b1dc-40cf-b332-92f3ae12e435
+              size:
+                value: 114210
+                type: number
+              title:
+                type: text
+                value: Image-6.webp
+              width:
+                value: 1024
+                type: number
+              height:
+                value: 1024
+                type: number
+              mediaType:
+                value: image/webp
+                type: text
+            _source: uniform-assets
+    title:
+      type: text
+      locales:
+        en-US: Percolators
+        es-US: Percoladores
+        fr-CA: Percolateurs
+        nl-NL: Percolators
+    description:
+      type: text
+      locales:
+        en-US: >-
+          Rediscover the timeless method of brewing with our selection of coffee
+          percolators. Known for their robust and full-bodied flavor extraction,
+          percolators bring a nostalgic touch to modern coffee making. Our range
+          includes high-quality percolators in various sizes and materials,
+          perfect for any coffee enthusiast looking to enjoy a classic brew.
+          Explore our collection and experience the rich, aromatic coffee that
+          only a percolator can deliver.
+        es-US: >-
+          Redescubre el método atemporal de elaboración con nuestra selección de
+          percoladores de café.Conocido por su extracción de sabores robusta y
+          con cuerpo, los percoladores aportan un toque nostálgico a la
+          fabricación de café moderno.Nuestra gama incluye percoladores de alta
+          calidad en varios tamaños y materiales, perfecto para cualquier
+          entusiasta del café que busque disfrutar de una cerveza
+          clásica.Explore nuestra colección y experimente el café rico y
+          aromático que solo un percolador puede entregar.
+        fr-CA: >-
+          Redécouvrez la méthode intemporelle d’infusion avec notre sélection de
+          percolateurs à café. Réputés pour leur extraction de saveurs robustes
+          et corsées, les percolateurs apportent une touche nostalgique à la
+          préparation du café moderne. Notre gamme comprend des percolateurs de
+          haute qualité disponibles en différentes tailles et matériaux,
+          parfaits pour tout amateur de café souhaitant savourer une infusion
+          classique. Explorez notre collection et découvrez le café riche et
+          aromatique qu’un percolateur seul peut offrir.
+        nl-NL: >-
+          Herontdek de tijdloze methode van koffiezetten met onze selectie
+          koffiepercolators. Bekend om hun robuuste en volle smaakextractie,
+          brengen percolators een nostalgisch tintje aan het moderne
+          koffiezetten. Ons assortiment omvat hoogwaardige percolators in
+          verschillende maten en materialen, perfect voor elke koffieliefhebber
+          die van een klassieke kop koffie wil genieten. Verken onze collectie
+          en ervaar de rijke, aromatische koffie die alleen een percolator kan
+          leveren.
+  _locales:
+    - en-US
+    - es-US
+    - fr-CA
+    - nl-NL

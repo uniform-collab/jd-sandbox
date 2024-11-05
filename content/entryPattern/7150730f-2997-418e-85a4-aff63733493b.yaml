@@ -1,0 +1,107 @@
+created: '2024-08-12T13:07:25.552447+00:00'
+modified: '2024-09-24T18:55:38.827533+00:00'
+pattern: true
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+entry:
+  _id: 7150730f-2997-418e-85a4-aff63733493b
+  _name: Contentful Article
+  _slug: article-pattern
+  _thumbnail: >-
+    //images.ctfassets.net/4v9xo98brk8z/1hWXiZdigtnUljfpZykhmz/46d7f7056296ec54d0e9caf29bbc6c9a/EspressoGPT_image_1.jpg
+  type: article
+  fields:
+    title:
+      type: text
+      locales:
+        en-US: ${#jptr:/Article by Slug Content/items/0/fields/title}
+        es-US: ${#jptr:/Article by Slug Content/items/0/fields/title}
+        fr-CA: ${#jptr:/Article by Slug Content/items/0/fields/title}
+        nl-NL: ${#jptr:/Article by Slug Content/items/0/fields/title}
+    author:
+      type: text
+      locales:
+        en-US: ${#jptr:/Article by Slug Content/items/0/fields/author}
+        es-US: ${#jptr:/Article by Slug Content/items/0/fields/author}
+        fr-CA: ${#jptr:/Article by Slug Content/items/0/fields/author}
+        nl-NL: ${#jptr:/Article by Slug Content/items/0/fields/author}
+    source:
+      type: contentReference
+      value: ${#jptr:/ref-7150730f-2997-418e-85a4-aff63733493b-source/entries/0}
+    thumbnail:
+      type: asset
+      value:
+        - _id: 1c1bd4a0-815d-4bf4-b764-f74874af1a74
+          type: image
+          fields:
+            url:
+              type: text
+              value: >-
+                ${#jptr:/Article by Slug
+                Content/items/0/fields/thumbnail/fields/file/url}
+          _source: custom-url
+    description:
+      type: text
+      locales:
+        en-US: ${#jptr:/Article by Slug Content/items/0/fields/description}
+        es-US: ${#jptr:/Article by Slug Content/items/0/fields/description}
+        fr-CA: ${#jptr:/Article by Slug Content/items/0/fields/description}
+        nl-NL: ${#jptr:/Article by Slug Content/items/0/fields/description}
+    enrichments:
+      type: $block
+      value:
+        - _id: 8fce62df-3eaa-4f7b-b66d-0d9e40a42ea2
+          type: $loop
+          fields:
+            body:
+              type: $block
+              value:
+                - _id: 9d9df9df-13b8-49e3-a577-2cf030d44929
+                  type: cmsEnrichment
+                  fields:
+                    cat:
+                      type: text
+                      value: >-
+                        ${#jptr:/Article by Slug Content unfrmOptEnrichmentTag
+                        Loop Item/cat}
+                    key:
+                      type: text
+                      value: >-
+                        ${#jptr:/Article by Slug Content unfrmOptEnrichmentTag
+                        Loop Item/key}
+                    str:
+                      type: text
+                      value: >-
+                        ${#jptr:/Article by Slug Content unfrmOptEnrichmentTag
+                        Loop Item/str}
+          _dataResources:
+            Article by Slug Content unfrmOptEnrichmentTag Loop Item:
+              type: sys-reserved-loop
+              variables:
+                connectedData: >-
+                  #jptr:/Article by Slug
+                  Content/items/0/fields/unfrmOptEnrichmentTag:fa=c
+    externalContent:
+      type: json
+      value: ${#jptr:/Article by Slug Content/items/0/fields/content}
+  _dataResources:
+    Article by Slug Content:
+      type: contentfulArticleBySlug
+      variables:
+        slug: espresso-gpt-elevating-coffee-brewing-to-futuristic-heights
+        locale: ${locale}
+        slugField: fields.slug[in]
+        contentType: article
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
+    ref-7150730f-2997-418e-85a4-aff63733493b-source:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: 6563d379-e524-4ee5-8ede-5ad32423dc2a
+  _locales:
+    - en-US
+    - es-US
+    - nl-NL
+    - fr-CA
+  _overridability:
+    parameters:
+      tag: 'yes'

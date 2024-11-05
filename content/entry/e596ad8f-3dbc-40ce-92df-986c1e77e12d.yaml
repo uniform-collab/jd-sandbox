@@ -1,0 +1,990 @@
+created: '2024-09-30T19:46:08.579354+00:00'
+modified: '2024-10-03T18:06:00.892611+00:00'
+pattern: false
+entry:
+  _id: e596ad8f-3dbc-40ce-92df-986c1e77e12d
+  _name: Sweet Potatoes with Bourbon and Maple
+  _slug: sweet-potatoes-with-bourbon-and-maple
+  _thumbnail: >-
+    https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/cOFsq2qhSKCOpOL49gCvhg-sweet-potatoes-with-bourbon-and-maple.webp
+  type: recipe
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: Sweet Potatoes with Bourbon and Maple
+        es-US: Batatas con Bourbon y Arce
+        fr-CA: Patates douces au bourbon et à l'érable
+        nl-NL: Zoete aardappelen met bourbon en esdoorn
+    media:
+      type: asset
+      value: []
+    yield:
+      type: text
+      locales:
+        en-US: 9 servings
+        es-US: 9 porciones
+        fr-CA: 9 portions
+        nl-NL: 9 porties
+    overview:
+      type: text
+      locales:
+        en-US: >-
+          Try not to eat all of the sauce—a reduction of coffee, maple syrup,
+          sugar, espresso powder, and bourbon—with a spoon before the sweet
+          potatoes come out of the oven.
+        es-US: >-
+          Trate de no comer toda la salsa, una reducción de café, jarabe de
+          arce, azúcar, espresso en polvo y bourbon, con una cuchara antes de
+          que las batatas salgan del horno.
+        fr-CA: >-
+          Essayez de ne pas manger toute la sauce - une réduction de café, de
+          sirop d'érable, de sucre, de poudre d'espresso et de bourbon - avec
+          une cuillère avant que les patates douces ne sortent du four.
+        nl-NL: >-
+          Probeer niet alle saus - een reductie van koffie, ahornsiroop, suiker,
+          espressopoeder en bourbon - met een lepel te eten voordat de zoete
+          aardappelen uit de oven komen.
+    subtitle:
+      type: text
+      locales:
+        en-US: By Victoria Granof
+        es-US: Por Victoria Granof
+        fr-CA: Par Victoria Granof
+        nl-NL: Door Victoria Granof
+    recipeType:
+      type: contentReference
+      value: ${#jptr:/ref-e596ad8f-3dbc-40ce-92df-986c1e77e12d-recipeType/entries/0}
+    description:
+      type: richText
+      locales:
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      This sweet potato recipe is glazed with bourbon and maple
+                      syrup.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+            direction: ltr
+        es-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Esta receta de camote está glaseada con bourbon y jarabe
+                      de arce.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+            direction: ltr
+        fr-CA:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Cette recette de patates douces est glacée au bourbon et
+                      au sirop d'érable.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+            direction: ltr
+        nl-NL:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Dit recept voor zoete aardappel is geglazuurd met bourbon
+                      en ahornsiroop.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+            direction: ltr
+    ingredients:
+      type: $block
+      value:
+        - _id: b91751cf-3c81-42a8-a07c-f345c0c1f354
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-US: coffee
+                es-US: café
+                fr-CA: café
+                nl-NL: koffie
+            unit:
+              type: select
+              value: c
+            amount:
+              type: number
+              value: '1.5'
+            amountText:
+              type: text
+              locales:
+                en-US: ' strong hot'
+                es-US: ' Fuerte caliente'
+                fr-CA: ' Fortes chaleurs'
+                nl-NL: ' Sterk heet'
+        - _id: 6621dd92-1742-4b9d-bb3a-22b050ac2283
+          type: recipeIngredient
+          fields:
+            unit:
+              type: select
+              value: tbsp
+            amount:
+              type: number
+              value: '9'
+            amountText:
+              type: text
+              locales:
+                en-US: pure
+                es-US: puro
+                fr-CA: pur
+                nl-NL: zuiver
+        - _id: 910404d3-a81e-415b-b1c6-36189d602266
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-US: dark brown sugar
+                es-US: azúcar morena oscura
+                fr-CA: sucre brun foncé
+                nl-NL: donkerbruine suiker
+            unit:
+              type: select
+              value: tbsp
+            amount:
+              type: number
+              value: '3'
+            amountText:
+              type: text
+              locales:
+                en-US: packed
+                es-US: compacto
+                fr-CA: emballé
+                nl-NL: stampvol
+        - _id: 51ccd36e-794b-4221-9253-fe83eab0c966
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-US: instant espresso powder
+                es-US: espresso instantáneo en polvo
+                fr-CA: poudre d'espresso instantané
+                nl-NL: instant espresso poeder
+            unit:
+              type: select
+              value: tsp
+            amount:
+              type: number
+              value: '.5'
+        - _id: 7a47127e-572b-4719-9274-3786ed3a2c0a
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-US: bourbon
+                es-US: borbón
+                fr-CA: bourbon
+                nl-NL: Bourbon
+            unit:
+              type: select
+              value: c
+            amount:
+              type: number
+              value: '.33'
+        - _id: 16a0aae8-d5e9-45a7-8af6-b60e2cd29e0b
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-US: unsalted butter
+                es-US: mantequilla sin sal
+                fr-CA: beurre non salé
+                nl-NL: ongezouten boter
+            unit:
+              type: select
+              value: tbsp
+            amount:
+              type: number
+              value: '9'
+            amountText:
+              type: text
+              locales:
+                en-US: divided
+                es-US: dividido
+                fr-CA: divisé
+                nl-NL: Verdeeld
+        - _id: 40fbf622-9e07-4f87-ad1d-23afbead47a8
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-US: red-skinned sweet potatoes
+                es-US: batatas de piel roja
+                fr-CA: patates douces à peau rouge
+                nl-NL: zoete aardappelen met rode schil
+            unit:
+              type: select
+              value: lb
+            amount:
+              type: number
+              value: '5'
+            amountText:
+              type: text
+              locales:
+                en-US: (about 8), peeled, cut 2 1/2-inch–3-inch pieces
+                es-US: >-
+                  (aproximadamente 8), pelados, cortados en trozos de 2 1/2
+                  pulgadas a 3 pulgadas
+                fr-CA: >-
+                  (environ 8), pelés, coupés en morceaux de 2 1/2 pouces à 3
+                  pouces
+                nl-NL: (ongeveer 8), geschild, gesneden 2 1/2-inch-3-inch stukjes
+        - _id: b88c0cf3-3821-412d-af04-baab5a867cf8
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-US: olive oil
+                es-US: aceite de oliva
+                fr-CA: huile d'olive
+                nl-NL: olijfolie
+            unit:
+              type: select
+              value: tbsp
+            amount:
+              type: number
+              value: '3'
+        - _id: 6dafa8f0-e027-4166-b427-b4af7ac76998
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-US: smoked almonds
+                es-US: Almendras ahumadas
+                fr-CA: amandes fumées
+                nl-NL: gerookte amandelen
+            unit:
+              type: select
+              value: c
+            amount:
+              type: number
+              value: '.5'
+            amountText:
+              type: text
+              locales:
+                en-US: chopped
+                es-US: picado
+                fr-CA: haché
+                nl-NL: Gehakte
+    instructions:
+      type: $block
+      value:
+        - _id: 045c8087-f5f4-457e-80c4-6f1fb3f28f92
+          type: howtoSection
+          fields:
+            name:
+              type: text
+              locales:
+                en-US: Preparation
+                es-US: Preparación
+                fr-CA: Préparation
+                nl-NL: Voorbereiding
+            steps:
+              type: $block
+              value:
+                - _id: 349ee1d1-b2aa-4b25-8dd1-891fd2fb5dc8
+                  type: howtoStep
+                  fields:
+                    name:
+                      type: text
+                      locales:
+                        en-US: Step 1
+                        es-US: Paso 1
+                        fr-CA: Étape 1
+                        nl-NL: Stap 1
+                    description:
+                      type: richText
+                      locales:
+                        en-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Stir coffee, maple syrup, sugar, and
+                                      espresso powder in a medium saucepan over
+                                      medium-high heat until sugar dissolves.
+                                      Bring mixture to a boil; cook until
+                                      thickened and reduced by half, 6-7
+                                      minutes.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        es-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Revuelva el café, el jarabe de arce, el
+                                      azúcar y el espresso en polvo en una
+                                      cacerola mediana a fuego medio-alto hasta
+                                      que el azúcar se disuelva. Lleve la mezcla
+                                      a ebullición; cocine hasta que espese y se
+                                      reduzca a la mitad, 6-7 minutos.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        fr-CA:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Mélanger le café, le sirop d'érable, le
+                                      sucre et la poudre d'espresso dans une
+                                      casserole moyenne à feu moyen-élevé
+                                      jusqu'à ce que le sucre soit dissous.
+                                      Porter le mélange à ébullition; cuire
+                                      jusqu'à épaississement et réduction de
+                                      moitié, 6-7 minutes.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        nl-NL:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Roer koffie, ahornsiroop, suiker en
+                                      espressopoeder in een middelgrote pan op
+                                      middelhoog vuur tot de suiker is opgelost.
+                                      Breng het mengsel aan de kook; kook tot
+                                      het ingedikt en gehalveerd is, 6-7
+                                      minuten.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                - _id: 4510e6fa-13f2-466d-8aad-9c986047400b
+                  type: howtoStep
+                  fields:
+                    name:
+                      type: text
+                      locales:
+                        en-US: Step 2
+                        es-US: Paso 2
+                        fr-CA: Étape 2
+                        nl-NL: Stap 2
+                    description:
+                      type: richText
+                      locales:
+                        en-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Remove syrup from heat; add bourbon and 2
+                                      tablespoons butter. Reduce heat to medium
+                                      and simmer until sauce is reduced to about
+                                      3/4 cup, 40-45 minutes (mixture should be
+                                      thick enough to coat a spoon, but not
+                                      sticky, and will thicken as it cools).
+                                      Season sauce to taste with salt and
+                                      pepper. DO AHEAD Sauce can be made 2 days
+                                      ahead. Cover; chill. Rewarm before
+                                      serving.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        es-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Retire el almíbar del fuego; Agregue el
+                                      bourbon y 2 cucharadas de mantequilla.
+                                      Reduzca el fuego a medio y cocine a fuego
+                                      lento hasta que la salsa se reduzca a
+                                      aproximadamente 3/4 de taza, 40-45 minutos
+                                      (la mezcla debe ser lo suficientemente
+                                      espesa como para cubrir una cuchara, pero
+                                      no pegajosa, y se espesará a medida que se
+                                      enfríe). Sazone la salsa al gusto con sal
+                                      y pimienta. HACER CON ANTICIPACIÓN La
+                                      salsa se puede preparar con 2 días de
+                                      anticipación. Cubrir; frío. Vuelva a
+                                      calentar antes de servir.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        fr-CA:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Retirer le sirop du feu; ajouter le
+                                      bourbon et 2 cuillères à soupe de beurre.
+                                      Réduire le feu à moyen et laisser mijoter
+                                      jusqu'à ce que la sauce soit réduite à
+                                      environ 3/4 de tasse, soit 40-45 minutes
+                                      (le mélange doit être suffisamment épais
+                                      pour enrober une cuillère, mais pas
+                                      collant, et il épaissira en
+                                      refroidissant). Assaisonner la sauce avec
+                                      du sel et du poivre. La sauce peut être
+                                      préparée 2 jours à l'avance. Couvrir;
+                                      réfrigérer. Réchauffer avant de servir.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        nl-NL:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Haal de siroop van het vuur; Voeg bourbon
+                                      en 2 eetlepels boter toe. Zet het vuur
+                                      laag tot medium en laat sudderen tot de
+                                      saus is ingekookt tot ongeveer 3/4 kopje,
+                                      40-45 minuten (het mengsel moet dik genoeg
+                                      zijn om een lepel te bedekken, maar niet
+                                      plakkerig, en zal dikker worden als het
+                                      afkoelt). Breng de saus op smaak met peper
+                                      en zout. DO AHEAD Saus kan 2 dagen van
+                                      tevoren worden gemaakt. Bedekken; kilte.
+                                      Opwarmen voor het serveren.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                - _id: 34b6dece-0913-4ffb-9c30-45a25a105314
+                  type: howtoStep
+                  fields:
+                    name:
+                      type: text
+                      locales:
+                        en-US: Step 3
+                        es-US: Paso 3
+                        fr-CA: Étape 3
+                        nl-NL: Stap 3
+                    description:
+                      type: richText
+                      locales:
+                        en-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Arrange racks in upper and lower thirds of
+                                      oven; preheat to 425°. Melt remaining 7
+                                      tablespoons butter in a small saucepan;
+                                      pour into a large bowl. Add sweet potatoes
+                                      and oil and season with salt and pepper.
+                                      Divide potato mixture between 2 large
+                                      rimmed baking sheets and roast, turning
+                                      potatoes often and rotating sheets halfway
+                                      through, until potatoes are tender and
+                                      start to turn golden brown and crisp
+                                      around the edges, 30-35 minutes. DO AHEAD
+                                      Potatoes can be roasted 4 hours ahead. Let
+                                      stand at room temperature. Rewarm before
+                                      continuing.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        es-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Coloque las rejillas en los tercios
+                                      superior e inferior del horno; Precalentar
+                                      a 425°. Derrita las 7 cucharadas de
+                                      mantequilla restantes en una cacerola
+                                      pequeña; Vierta en un tazón grande.
+                                      Agregue las batatas y el aceite y sazone
+                                      con sal y pimienta. Divida la mezcla de
+                                      papas entre 2 bandejas para hornear con
+                                      borde grande y ase, volteando las papas
+                                      con frecuencia y girando las hojas a la
+                                      mitad, hasta que las papas estén tiernas y
+                                      comiencen a dorarse y crujir alrededor de
+                                      los bordes, 30-35 minutos. HACER CON
+                                      ANTICIPACIÓN Las papas se pueden asar con
+                                      4 horas de anticipación. Deje reposar a
+                                      temperatura ambiente. Vuelva a calentar
+                                      antes de continuar.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        fr-CA:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Placer les quadrillages dans les tiers
+                                      supérieur et inférieur du four;
+                                      préchauffer à 425°. Faire fondre les 7
+                                      cuillères à soupe de beurre restantes dans
+                                      une petite casserole; les verser dans un
+                                      grand bol. Ajouter les patates douces et
+                                      l'huile, saler et poivrer. Répartir le
+                                      mélange de patates sur deux grandes
+                                      plaques à pâtisserie à rebord et faire
+                                      rôtir, en retournant souvent les patates
+                                      et en faisant pivoter les plaques à
+                                      mi-cuisson, jusqu'à ce que les patates
+                                      soient tendres et commencent à prendre une
+                                      couleur brun doré et à être croustillantes
+                                      sur les bords, soit 30 à 35 minutes.
+                                      PRÉPARATION Les pommes de terre peuvent
+                                      être rôties 4 heures à l'avance. Laisser
+                                      reposer à température ambiante. Réchauffer
+                                      avant de continuer.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        nl-NL:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Plaats rekken in het bovenste en onderste
+                                      derde deel van de oven; Verwarm voor op
+                                      425°. Smelt de resterende 7 eetlepels
+                                      boter in een kleine steelpan; Giet in een
+                                      grote kom. Voeg zoete aardappelen en olie
+                                      toe en breng op smaak met peper en zout.
+                                      Verdeel het aardappelmengsel over 2
+                                      grootomrande bakplaten en rooster, draai
+                                      de aardappelen vaak om en draai de vellen
+                                      halverwege, tot de aardappelen zacht zijn
+                                      en goudbruin en knapperig beginnen te
+                                      worden aan de randen, 30-35 minuten. DO
+                                      AHEAD Aardappelen kunnen 4 uur van tevoren
+                                      worden geroosterd. Laat op
+                                      kamertemperatuur staan. Opwarmen voordat u
+                                      verder gaat.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                - _id: 3aff8205-97cd-4ff1-98ba-fc23c68fcb93
+                  type: howtoStep
+                  fields:
+                    name:
+                      type: text
+                      locales:
+                        en-US: Step 4
+                        es-US: Paso 4
+                        fr-CA: Étape 4
+                        nl-NL: Stap 4
+                    description:
+                      type: richText
+                      locales:
+                        en-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Transfer potatoes to a serving platter.
+                                      Drizzle some warm sauce over and sprinkle
+                                      with almonds; serve remaining sauce
+                                      along-side for those who want more.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        es-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Transfiera las papas a una fuente para
+                                      servir. Rocíe un poco de salsa tibia y
+                                      espolvoree con almendras; Sirva la salsa
+                                      restante al lado para aquellos que quieran
+                                      más.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        fr-CA:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Transférer les pommes de terre dans un
+                                      plat de service. Arroser d'un peu de sauce
+                                      chaude et parsemer d'amandes; servir le
+                                      reste de la sauce à côté pour ceux qui en
+                                      veulent plus.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        nl-NL:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Leg de aardappelen op een serveerschaal.
+                                      Sprenkel er wat warme saus over en
+                                      bestrooi met amandelen; Serveer de
+                                      resterende saus ernaast voor degenen die
+                                      meer willen.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+    featuredImage:
+      type: asset
+      value:
+        - _id: e32ca6d4-043f-480b-a84a-b16af5e1277c
+          type: image
+          fields:
+            id:
+              type: text
+              value: 01f887b6-2015-44f1-a52f-7242cbec2696
+            url:
+              value: >-
+                https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/cOFsq2qhSKCOpOL49gCvhg-sweet-potatoes-with-bourbon-and-maple.webp
+              type: text
+            file:
+              type: file
+              value: e705bf06-ef39-4d88-813b-d3c2a3b620c1
+            size:
+              value: 95826
+              type: number
+            title:
+              type: text
+              value: sweet-potatoes-with-bourbon-and-maple.webp
+            width:
+              value: 600
+              type: number
+            height:
+              value: 600
+              type: number
+            mediaType:
+              value: image/webp
+              type: text
+          _source: uniform-assets
+    mainIngredient:
+      type: contentReference
+      value: >-
+        ${#jptr:/ref-e596ad8f-3dbc-40ce-92df-986c1e77e12d-mainIngredient/entries/0}
+  _dataResources:
+    ref-e596ad8f-3dbc-40ce-92df-986c1e77e12d-recipeType:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: 3f209934-26de-4e8d-aff7-d3656e9f050d
+    ref-e596ad8f-3dbc-40ce-92df-986c1e77e12d-mainIngredient:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: f695a090-8bde-43e4-8085-0a7f9b48b45a
+  _locales:
+    - en-US
+    - nl-NL
+    - fr-CA
+    - es-US

@@ -1,0 +1,18 @@
+id: recipe
+displayName: Recipe
+ttl: 30
+body: ''
+path: /single
+custom:
+  maxDepth: 2
+  allowedContentTypes:
+    - recipe
+method: GET
+purgeKey: 109b7b45-0cf3-4825-92d6-d9297ade0fe7
+archetype: singleEntry
+variables:
+  entryId:
+    type: text
+    default: ''
+dataSourceId: uniformContent
+allowedOnComponents: []

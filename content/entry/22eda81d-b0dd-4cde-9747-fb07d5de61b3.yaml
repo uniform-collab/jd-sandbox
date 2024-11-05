@@ -1,0 +1,15 @@
+created: '2024-10-03T18:09:05.339284+00:00'
+modified: '2024-10-03T18:09:20.888368+00:00'
+pattern: false
+entry:
+  _id: 22eda81d-b0dd-4cde-9747-fb07d5de61b3
+  _name: Espresso
+  _slug: espresso
+  type: ingredient
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: Espresso
+  _locales:
+    - en-US

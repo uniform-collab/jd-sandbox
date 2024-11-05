@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: ad12f8c7-7c06-4625-aed6-f73bdfe04b4d
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: kosmic-coffee-barista-express-espresso-machine-115-1_zlep8k_zw4fb0.jpg
+    file:
+      type: file
+      value: 842f04f3-7c68-466e-a1c0-d149389b6c40
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/UJHZLJ0fTluBQ-Ztj-AMEA-kosmic-coffee-barista-express-espresso-machine-115-1_zlep8k_zw4fb0.jpg
+      type: text
+    size:
+      value: 267928
+      type: number
+    width:
+      value: 1280
+      type: number
+    height:
+      value: 1280
+      type: number
+    custom: {}
+created: '2024-01-29T15:35:09.111792+00:00'
+modified: '2024-01-29T15:35:09.111792+00:00'

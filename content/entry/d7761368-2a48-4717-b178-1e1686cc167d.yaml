@@ -1,0 +1,740 @@
+created: '2024-09-30T19:59:28.5933+00:00'
+modified: '2024-10-03T17:59:40.017768+00:00'
+pattern: false
+entry:
+  _id: d7761368-2a48-4717-b178-1e1686cc167d
+  _name: Banana, Coffee, Cashew, and Cocoa Smoothie
+  _slug: banana-coffee-cashew-and-cocoa-smoothie
+  _thumbnail: >-
+    https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/fazTsfOUSpOlADdApMMZ_A-banana-coffee-cashew-and-cocoa-smoothie.webp
+  type: recipe
+  fields:
+    name:
+      type: text
+      locales:
+        en-CA: Banana, Coffee, Cashew, and Cocoa Smoothie
+        en-GB: Banana, Coffee, Cashew, and Cocoa Smoothie
+        en-NL: Banana, Coffee, Cashew, and Cocoa Smoothie
+        en-US: Banana, Coffee, Cashew, and Cocoa Smoothie
+        es-US: Batido de plátano, café, anacardo y cacao
+        fr-CA: Smoothie à la banane, au café, aux noix de cajou et au cacao
+        nl-NL: Smoothie van banaan, koffie, cashew en cacao
+    yield:
+      type: text
+      locales:
+        en-CA: 2 cups
+        en-GB: 2 cups
+        en-NL: 2 cups
+        en-US: 2 cups
+        es-US: 2 tazas
+        fr-CA: 2 tasses
+        nl-NL: 2 kopjes
+    overview:
+      type: text
+      locales:
+        en-CA: >-
+          For coffee that will actually sustain you through the morning, blend
+          in soaked cashews, a date, and a frozen banana.
+        en-GB: >-
+          For coffee that will actually sustain you through the morning, blend
+          in soaked cashews, a date, and a frozen banana.
+        en-NL: >-
+          For coffee that will actually sustain you through the morning, blend
+          in soaked cashews, a date, and a frozen banana.
+        en-US: >-
+          For coffee that will actually sustain you through the morning, blend
+          in soaked cashews, a date, and a frozen banana.
+        es-US: >-
+          Para un café que realmente lo sostendrá durante la mañana, mezcle
+          anacardos remojados, un dátil y un plátano congelado.
+        fr-CA: >-
+          Pour un café qui vous soutiendra tout au long de la matinée,
+          incorporez des noix de cajou trempées, une datte et une banane
+          congelée.
+        nl-NL: >-
+          Voor koffie die je de hele ochtend doorkomt, meng je er geweekte
+          cashewnoten, een dadel en een bevroren banaan door.
+    subtitle:
+      type: text
+      locales:
+        en-CA: By Claire Saffitz
+        en-GB: By Claire Saffitz
+        en-NL: By Claire Saffitz
+        en-US: By Claire Saffitz
+        es-US: Por Claire Saffitz
+        fr-CA: Par Claire Saffitz
+        nl-NL: Door Claire Saffitz
+    recipeType:
+      type: contentReference
+      value: ${#jptr:/ref-d7761368-2a48-4717-b178-1e1686cc167d-recipeType/entries/0}
+    description:
+      type: richText
+      locales:
+        en-CA:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      This power-breakfast smoothie will be extra smooth if you
+                      soak the nuts and oats in water overnight; drain before
+                      proceeding.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+            direction: ltr
+        en-GB:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      This power-breakfast smoothie will be extra smooth if you
+                      soak the nuts and oats in water overnight; drain before
+                      proceeding.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+            direction: ltr
+        en-NL:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      This power-breakfast smoothie will be extra smooth if you
+                      soak the nuts and oats in water overnight; drain before
+                      proceeding.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+            direction: ltr
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      This power-breakfast smoothie will be extra smooth if you
+                      soak the nuts and oats in water overnight; drain before
+                      proceeding.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+            direction: ltr
+        es-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Este batido de desayuno energético será extra suave si
+                      remoja las nueces y la avena en agua durante la noche;
+                      Escurrir antes de continuar.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+            direction: ltr
+        fr-CA:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Ce smoothie énergisant sera encore plus onctueux si vous
+                      faites tremper les noix et les flocons d'avoine dans de
+                      l'eau pendant une nuit; égouttez-les avant de continuer.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+            direction: ltr
+        nl-NL:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Deze power-breakfast smoothie wordt extra smeuïg als je de
+                      noten en havermout een nacht in water laat weken; Giet af
+                      voordat u verder gaat.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+            direction: ltr
+    ingredients:
+      type: $block
+      value:
+        - _id: 27df3956-c6ee-400c-a7ed-af6f2f95cd3b
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-CA: Banana
+                en-GB: Banana
+                en-NL: Banana
+                en-US: Banana
+                es-US: Plátano
+                fr-CA: Banane
+                nl-NL: Banaan
+            amount:
+              type: number
+              value: '1'
+            amountText:
+              type: text
+              locales:
+                en-CA: preferably frozen
+                en-GB: preferably frozen
+                en-NL: preferably frozen
+                en-US: preferably frozen
+                es-US: preferiblemente congelados
+                fr-CA: de préférence congelés
+                nl-NL: bij voorkeur ingevroren
+        - _id: 5b9369fd-4533-459c-bec1-5712d9b2b2a0
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-CA: Medjool dates
+                en-GB: Medjool dates
+                en-NL: Medjool dates
+                en-US: Medjool dates
+                es-US: Dátiles Medjool
+                fr-CA: Dattes Medjool
+                nl-NL: Medjool dadels
+            amount:
+              type: number
+              value: '1'
+            amountText:
+              type: text
+              locales:
+                en-CA: pitted
+                en-GB: pitted
+                en-NL: pitted
+                en-US: pitted
+                es-US: Enfrentó
+                fr-CA: piqué
+                nl-NL: Ontpit
+        - _id: aae7477b-0b05-4405-a0b1-ba6f2f24cf70
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-CA: cold-brew coffee
+                en-GB: cold-brew coffee
+                en-NL: cold-brew coffee
+                en-US: cold-brew coffee
+                es-US: Café preparado en frío
+                fr-CA: café infusé à froid
+                nl-NL: Cold-brew koffie
+            unit:
+              type: select
+              value: c
+            amount:
+              type: number
+              value: '.5'
+        - _id: 646c6abb-251f-4ad8-91d6-1a32b00c4b08
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-CA: raw cashews
+                en-GB: raw cashews
+                en-NL: raw cashews
+                en-US: raw cashews
+                es-US: Anacardos crudos
+                fr-CA: noix de cajou crues
+                nl-NL: Rauwe cashewnoten
+            unit:
+              type: select
+              value: c
+            amount:
+              type: number
+              value: '.25'
+            amountText:
+              type: text
+              locales:
+                en-CA: preferably soaked overnight
+                en-GB: preferably soaked overnight
+                en-NL: preferably soaked overnight
+                en-US: preferably soaked overnight
+                es-US: preferiblemente remojado durante la noche
+                fr-CA: de préférence trempés pendant la nuit
+                nl-NL: bij voorkeur een nacht geweekt
+        - _id: c328ec3b-5add-43de-aef3-07238a274016
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-CA: old-fashioned oats
+                en-GB: old-fashioned oats
+                en-NL: old-fashioned oats
+                en-US: old-fashioned oats
+                es-US: Avena a la antigua
+                fr-CA: flocons d'avoine à l'ancienne
+                nl-NL: Ouderwetse havermout
+            unit:
+              type: select
+              value: tbsp
+            amount:
+              type: number
+              value: '3'
+            amountText:
+              type: text
+              locales:
+                en-CA: preferably soaked overnight
+                en-GB: preferably soaked overnight
+                en-NL: preferably soaked overnight
+                en-US: preferably soaked overnight
+                es-US: preferiblemente remojado durante la noche
+                fr-CA: de préférence trempés pendant la nuit
+                nl-NL: bij voorkeur een nacht geweekt
+        - _id: 88827808-3deb-4f01-8781-145ffe3085b9
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-CA: unsweetened cocoa powder
+                en-GB: unsweetened cocoa powder
+                en-NL: unsweetened cocoa powder
+                en-US: unsweetened cocoa powder
+                es-US: cacao en polvo sin azúcar
+                fr-CA: cacao en poudre non sucré
+                nl-NL: ongezoet cacaopoeder
+            unit:
+              type: select
+              value: tbsp
+            amount:
+              type: number
+              value: '1'
+        - _id: a9a37e35-2f18-41d7-ad9e-ff0e9ebb51d9
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-CA: ground cardamom
+                en-GB: ground cardamom
+                en-NL: ground cardamom
+                en-US: ground cardamom
+                es-US: cardamomo molido
+                fr-CA: cardamome moulue
+                nl-NL: Gemalen kardemom
+            amountText:
+              type: text
+              locales:
+                en-CA: pinch
+                en-GB: pinch
+                en-NL: pinch
+                en-US: pinch
+                es-US: pellizcar
+                fr-CA: pincement
+                nl-NL: knijpen
+        - _id: c7706bf6-c55e-4d7e-8808-cab55a238376
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-CA: kosher salt
+                en-GB: kosher salt
+                en-NL: kosher salt
+                en-US: kosher salt
+                es-US: Sal kosher
+                fr-CA: sel casher
+                nl-NL: koosjer zout
+            amountText:
+              type: text
+              locales:
+                en-CA: pinch
+                en-GB: pinch
+                en-NL: pinch
+                en-US: pinch
+                es-US: pellizcar
+                fr-CA: pincement
+                nl-NL: knijpen
+    instructions:
+      type: $block
+      value:
+        - _id: e8c5c9e8-7a20-4818-95e6-77e1aeaa5549
+          type: howtoSection
+          fields:
+            name:
+              type: text
+              locales:
+                en-CA: Preparation
+                en-GB: Preparation
+                en-NL: Preparation
+                en-US: Preparation
+                es-US: Preparación
+                fr-CA: Préparation
+                nl-NL: Voorbereiding
+            description:
+              type: richText
+              locales:
+                en-CA:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - tag: ol
+                        type: list
+                        start: 1
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - type: listitem
+                            value: 1
+                            format: start
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: >-
+                                  Using smoothie or ice crush setting, purée
+                                  banana, dates, coffee, cashews, oats, cocoa
+                                  powder, cardamom, salt, and ½ cup ice in a
+                                  blender until smooth.
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                        listType: number
+                        direction: ltr
+                    direction: ltr
+                en-GB:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - tag: ol
+                        type: list
+                        start: 1
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - type: listitem
+                            value: 1
+                            format: start
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: >-
+                                  Using smoothie or ice crush setting, purée
+                                  banana, dates, coffee, cashews, oats, cocoa
+                                  powder, cardamom, salt, and ½ cup ice in a
+                                  blender until smooth.
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                        listType: number
+                        direction: ltr
+                    direction: ltr
+                en-NL:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - tag: ol
+                        type: list
+                        start: 1
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - type: listitem
+                            value: 1
+                            format: start
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: >-
+                                  Using smoothie or ice crush setting, purée
+                                  banana, dates, coffee, cashews, oats, cocoa
+                                  powder, cardamom, salt, and ½ cup ice in a
+                                  blender until smooth.
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                        listType: number
+                        direction: ltr
+                    direction: ltr
+                en-US:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              Using smoothie or ice crush setting, purée banana,
+                              dates, coffee, cashews, oats, cocoa powder,
+                              cardamom, salt, and ½ cup ice in a blender until
+                              smooth.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                        textStyle: ''
+                        textFormat: 0
+                    direction: ltr
+                es-US:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              Usando un batido o una trituradora de hielo,
+                              triture el plátano, los dátiles, el café, los
+                              anacardos, la avena, el cacao en polvo, el
+                              cardamomo, la sal y 1/2 taza de hielo en una
+                              licuadora hasta que quede suave.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                        textStyle: ''
+                        textFormat: 0
+                    direction: ltr
+                fr-CA:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              Dans un mixeur, réduire en purée la banane, les
+                              dattes, le café, les noix de cajou, l'avoine, le
+                              cacao en poudre, la cardamome, le sel et ½ la
+                              tasse de glace jusqu'à obtention d'un mélange
+                              homogène.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                        textStyle: ''
+                        textFormat: 0
+                    direction: ltr
+                nl-NL:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              Pureer banaan, dadels, koffie, cashewnoten, haver,
+                              cacaopoeder, kardemom, zout en 1/2 kopje ijs in
+                              een blender met een smoothie- of ijscrushstand tot
+                              een gladde massa.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                        textStyle: ''
+                        textFormat: 0
+                    direction: ltr
+    featuredImage:
+      type: asset
+      value:
+        - _id: 508d051b-8c65-4541-a78f-61c05498e3d8
+          type: image
+          fields:
+            id:
+              type: text
+              value: b34deaec-de3f-4759-9e7e-babbc25049ca
+            url:
+              value: >-
+                https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/fazTsfOUSpOlADdApMMZ_A-banana-coffee-cashew-and-cocoa-smoothie.webp
+              type: text
+            file:
+              type: file
+              value: 680e99b7-5133-45de-a997-ba17c92d0f3c
+            size:
+              value: 22984
+              type: number
+            title:
+              type: text
+              value: banana-coffee-cashew-and-cocoa-smoothie.webp
+            width:
+              value: 992
+              type: number
+            height:
+              value: 992
+              type: number
+            mediaType:
+              value: image/webp
+              type: text
+          _source: uniform-assets
+    mainIngredient:
+      type: contentReference
+      value: >-
+        ${#jptr:/ref-d7761368-2a48-4717-b178-1e1686cc167d-mainIngredient/entries/0}
+  _dataResources:
+    ref-d7761368-2a48-4717-b178-1e1686cc167d-recipeType:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: e19bc739-5bb0-4a1b-80d4-d88fd57e5e79
+    ref-d7761368-2a48-4717-b178-1e1686cc167d-mainIngredient:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: 17d2b702-e0e1-4963-9362-9cb837fadc20
+  _locales:
+    - en-US
+    - en-CA
+    - en-NL
+    - en-GB
+    - nl-NL
+    - es-US
+    - fr-CA

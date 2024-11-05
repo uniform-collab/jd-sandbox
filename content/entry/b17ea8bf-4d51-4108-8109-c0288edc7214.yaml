@@ -1,0 +1,50 @@
+created: '2024-09-26T19:55:45.725307+00:00'
+modified: '2024-09-26T19:57:23.04724+00:00'
+pattern: false
+entry:
+  _id: b17ea8bf-4d51-4108-8109-c0288edc7214
+  _name: Main Entree
+  _slug: main-entree
+  _thumbnail: >-
+    https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/47Ett8UYTLmrdzFGL_QMeg-coffee-rubbed-steak.webp
+  type: recipeType
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: Main Entree
+    image:
+      type: asset
+      locales:
+        en-US:
+          - _id: b15c5d6c-1475-4125-8d1f-0fdd8e23be3e
+            type: image
+            fields:
+              id:
+                type: text
+                value: 1a3c7b48-a22b-468c-8659-302ff8157fbd
+              url:
+                value: >-
+                  https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/47Ett8UYTLmrdzFGL_QMeg-coffee-rubbed-steak.webp
+                type: text
+              file:
+                type: file
+                value: 7dcf4ece-a67c-4cba-bae8-06cec80a8bf3
+              size:
+                value: 357200
+                type: number
+              title:
+                type: text
+                value: coffee-rubbed-steak.webp
+              width:
+                value: 1600
+                type: number
+              height:
+                value: 1600
+                type: number
+              mediaType:
+                value: image/webp
+                type: text
+            _source: uniform-assets
+  _locales:
+    - en-US

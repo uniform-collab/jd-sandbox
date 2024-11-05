@@ -1,0 +1,31 @@
+created: '2024-08-12T13:03:27.970028+00:00'
+modified: '2024-09-24T18:55:38.827533+00:00'
+pattern: false
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+entry:
+  _id: 07a85d6a-6624-4b37-9226-e58f4dddfc92
+  _name: HOW CAN I TELL IF MY COFFEE IS GOOD?
+  _slug: how-can-i-tell-if-my-coffee-is-good
+  _thumbnail: >-
+    https://javadripblog.wordpress.com/wp-content/uploads/2024/01/coffee-beans-blog-espresso-quality-specialty-score-ratings.webp
+  type: article
+  fields: {}
+  _dataResources:
+    JavaDrip Post by Slug Content:
+      type: javadripPostBySlug
+    ref-07a85d6a-6624-4b37-9226-e58f4dddfc92-tag:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: 0947295b-ef13-48a7-8416-42250bd09ddf
+  _locales:
+    - en-US
+    - es-US
+    - fr-CA
+    - nl-NL
+  _overrides:
+    07a85d6a-6624-4b37-9226-e58f4dddfc92:
+      parameters:
+        tag:
+          type: contentReference
+          value: ${#jptr:/ref-07a85d6a-6624-4b37-9226-e58f4dddfc92-tag/entries}
+  _pattern: 9ce6d41a-73b6-47fb-8289-6d33d231ba92

@@ -1,0 +1,43 @@
+id: productFeature
+name: Product Feature
+created: '2024-06-04T20:22:26.804773+00:00'
+updated: '2024-08-20T08:28:00.708483+00:00'
+slugSettings:
+  required: 'no'
+useTeamPermissions: true
+fields:
+  - id: title
+    name: Title
+    type: text
+    helpText: ''
+    typeConfig: null
+    localizable: true
+  - id: description
+    name: Description
+    type: text
+    helpText: ''
+    typeConfig:
+      multiline: true
+      linesCount: 5
+    localizable: true
+  - id: image
+    name: Image
+    type: asset
+    helpText: ''
+    typeConfig:
+      max: 1
+      min: 0
+    localizable: false
+  - id: product
+    name: Product
+    type: contentReference
+    helpText: ''
+    typeConfig:
+      allowedContentTypes:
+        - product
+entryName: title
+thumbnailField: image
+description: ''
+icon: asterisk
+type: contentType
+permissions: []

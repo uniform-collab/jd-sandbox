@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 31e08e1f-5ac5-4082-a419-2ddbbcec6d19
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: irish-blend-coffee-132-1_mnjpvu_q0ryef.jpg
+    file:
+      type: file
+      value: 4e76451d-42fe-4fc5-8a81-8eed96d61306
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/TTMAzH41SiKjGrqlWRi5Kg-irish-blend-coffee-132-1_mnjpvu_q0ryef.jpg
+      type: text
+    size:
+      value: 104716
+      type: number
+    width:
+      value: 1280
+      type: number
+    height:
+      value: 1280
+      type: number
+    custom: {}
+created: '2024-01-30T06:25:57.513026+00:00'
+modified: '2024-01-30T06:25:57.513026+00:00'

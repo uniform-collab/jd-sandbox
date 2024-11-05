@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 01f887b6-2015-44f1-a52f-7242cbec2696
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: sweet-potatoes-with-bourbon-and-maple.webp
+    file:
+      type: file
+      value: e705bf06-ef39-4d88-813b-d3c2a3b620c1
+    mediaType:
+      value: image/webp
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/cOFsq2qhSKCOpOL49gCvhg-sweet-potatoes-with-bourbon-and-maple.webp
+      type: text
+    size:
+      value: 95826
+      type: number
+    width:
+      value: 600
+      type: number
+    height:
+      value: 600
+      type: number
+    custom: {}
+created: '2024-09-30T19:47:30.532469+00:00'
+modified: '2024-09-30T19:47:30.532469+00:00'

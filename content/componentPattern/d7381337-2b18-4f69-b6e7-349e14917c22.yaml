@@ -1,0 +1,120 @@
+composition:
+  _name: Recipe Card (container)
+  _id: d7381337-2b18-4f69-b6e7-349e14917c22
+  type: container
+  variant: fluidContent
+  parameters:
+    marginTop:
+      type: select
+      value: None
+    paddingTop:
+      type: select
+      value: None
+    marginBottom:
+      type: select
+      value: None
+    paddingBottom:
+      type: select
+      value: None
+  slots:
+    container-inner:
+      - _id: af47a462-86ba-499a-a457-08b1c9f38cbb
+        type: card
+        variant: backgroundImage
+        parameters:
+          badge:
+            type: text
+            locales:
+              en-US: >-
+                ${#jptr:/Product
+                Content/entry/fields/category/value/1/entry/_name}
+          image:
+            type: asset
+            value:
+              - _id: 1b2e284b-f069-4eaf-8783-d6fed50c6af3
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: ${#jptr:/Product Content/entry/_thumbnail}
+                _source: custom-url
+          title:
+            type: text
+            locales:
+              en-US: ${#jptr:/Product Content/entry/_name}
+          objectFit:
+            type: select
+            value: cover
+          buttonCopy:
+            type: text
+            locales:
+              en-US: View Recipe
+          buttonLink:
+            type: link
+            value:
+              path: >-
+                /${locale}/about-us/recipes/${#jptr:/Product
+                Content/entry/_slug}
+              type: projectMapNode
+              nodeId: 836a6692-9686-4fc9-82ed-d9dc121a398e
+              projectMapId: 62588085-7894-4810-84b6-eaaf0cb5213c
+              dynamicInputValues:
+                locale: ${locale}
+                recipe: ${#jptr:/Product Content/entry/_slug}
+          description:
+            type: text
+            locales:
+              en-US: ${#jptr:/Product Content/entry/fields/overview/value}
+          overlayColor:
+            type: tp-color-style-parameter
+            value: primary
+          overlayOpacity:
+            type: tp-slider-parameter
+            value: 30%
+          textColorVariant:
+            type: select
+            value: Light
+          lineCountRestriction:
+            type: tp-slider-parameter
+            value: '5'
+        _overridability:
+          parameters:
+            $viz: 'yes'
+            badge: 'yes'
+            image: 'yes'
+            title: 'yes'
+            objectFit: 'yes'
+            description: 'yes'
+            overlayColor: 'yes'
+            overlayOpacity: 'yes'
+            textColorVariant: 'yes'
+            lineCountRestriction: 'yes'
+          hideLockedParameters: true
+  _dataResources:
+    Product Content:
+      type: recipe
+      variables:
+        locale: ${locale}
+        entryId: 6a34e027-df0f-4aba-9991-1ab441494c10
+      isPatternParameter: true
+      ignorePatternParameterDefault: false
+  _overridability:
+    variants: true
+    parameters:
+      $viz: 'yes'
+      title: 'yes'
+      marginTop: 'yes'
+      paddingTop: 'yes'
+      marginBottom: 'yes'
+      paddingBottom: 'yes'
+      backgroundType: 'yes'
+    hideLockedParameters: true
+  _locales:
+    - en-US
+created: '2024-10-03T17:43:09.416359+00:00'
+modified: '2024-10-03T17:44:47.658993+00:00'
+pattern: true
+description: Single Product content card inside a container
+previewImageUrl: >-
+  https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/AFZ53R5ZQM2Etnj-oEOw4g-Product-Card.png
+categoryId: 2da8c924-14d5-470b-9fe4-1e56521551e5

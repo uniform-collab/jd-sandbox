@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 02c2e48e-0837-4292-97d5-fc715ea8236d
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: icon-filters.avif
+    file:
+      type: file
+      value: 0e1cb416-3112-4714-8609-a72fe04198e2
+    mediaType:
+      value: image/avif
+      type: text
+    url:
+      value: >-
+        https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/00VdbJBQTkO0vw7c8sMnDQ-icon-filters.avif
+      type: text
+    size:
+      value: 1850
+      type: number
+    width:
+      value: 60
+      type: number
+    height:
+      value: 60
+      type: number
+    custom: {}
+created: '2024-06-03T12:05:37.848863+00:00'
+modified: '2024-06-03T12:05:37.848863+00:00'

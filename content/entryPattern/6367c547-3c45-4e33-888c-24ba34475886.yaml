@@ -1,0 +1,62 @@
+created: '2024-06-18T13:45:27.698607+00:00'
+modified: '2024-09-24T18:55:38.827533+00:00'
+pattern: true
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+entry:
+  _id: 6367c547-3c45-4e33-888c-24ba34475886
+  _name: Reviews (cf)
+  _slug: testimonial-pattern
+  _thumbnail: >-
+    https://res.cloudinary.com/uniform-demos/image/upload/v1692279704/csk-marketing/photo-1502685104226-ee32379fefbe_pjadfb_xsnohl.avif
+  type: testimonial
+  fields:
+    date:
+      type: text
+      locales:
+        en-US: ${#jptr:/Testimonial Content/fields/date}
+    stars:
+      type: text
+      value: ${#jptr:/Testimonial Content/fields/stars}
+    title:
+      type: text
+      locales:
+        en-US: ${#jptr:/Testimonial Content/fields/title}
+    picture:
+      type: asset
+      value:
+        - _id: 1cda5d25-2069-411d-9d4b-623116a00f42
+          type: image
+          fields:
+            url:
+              type: text
+              value: ${#jptr:/Testimonial Content/fields/picture}
+          _source: custom-url
+    lastName:
+      type: text
+      locales:
+        en-US: ${#jptr:/Testimonial Content/fields/lastName}
+    location:
+      type: text
+      locales:
+        en-US: ${#jptr:/Testimonial Content/fields/location}
+    firstName:
+      type: text
+      locales:
+        en-US: ${#jptr:/Testimonial Content/fields/firstName}
+    experience:
+      type: text
+      locales:
+        en-US: ${#jptr:/Testimonial Content/fields/experience}
+  _dataResources:
+    Testimonial Content:
+      type: contentfulTestimonial
+      variables:
+        locale: ${locale}
+        entryIds: 2tqL3PvUHnO55QXZ0ZivC5
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
+  _locales:
+    - en-US
+    - es-US
+    - fr-CA
+    - nl-NL

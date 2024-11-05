@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 31b43ce9-f243-41b5-8ae8-ca03ddc553c6
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: royale-boulder-camping-french-press-122-1_xheeel_ykryly.jpg
+    file:
+      type: file
+      value: b8d6ab70-022a-4276-b12d-57bf23adb8f3
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/joae8NdxSU29GSeNBbjD0Q-royale-boulder-camping-french-press-122-1_xheeel_ykryly.jpg
+      type: text
+    size:
+      value: 103345
+      type: number
+    width:
+      value: 1280
+      type: number
+    height:
+      value: 1280
+      type: number
+    custom: {}
+created: '2024-01-29T16:04:53.806309+00:00'
+modified: '2024-01-29T16:04:53.806309+00:00'

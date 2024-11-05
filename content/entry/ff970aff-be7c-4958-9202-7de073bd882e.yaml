@@ -1,0 +1,1615 @@
+created: '2024-09-26T19:44:25.931707+00:00'
+modified: '2024-10-03T18:13:16.546498+00:00'
+pattern: false
+entry:
+  _id: ff970aff-be7c-4958-9202-7de073bd882e
+  _name: Coffee Cashew Vegan Ice Cream
+  _slug: coffee-cashew-vegan-ice-cream
+  _thumbnail: >-
+    https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/AoZA7aeqQLKAlUbh5rIi3g-coffee-cashew-vegan-ice-cream.webp
+  type: recipe
+  fields:
+    name:
+      type: text
+      locales:
+        en-CA: Coffee Cashew Vegan Ice Cream
+        en-GB: Coffee Cashew Vegan Ice Cream
+        en-NL: Coffee Cashew Vegan Ice Cream
+        en-US: Coffee Cashew Vegan Ice Cream
+        es-US: Helado vegano de café y anacardos
+        fr-CA: Crème glacée végétalienne au café et aux noix de cajou
+        nl-NL: Koffie Cashew Vegan ijs
+    yield:
+      type: text
+      locales:
+        en-CA: Makes 1 quart
+        en-GB: Makes 1 quart
+        en-NL: Makes 1 quart
+        en-US: Makes 1 quart
+        es-US: Rinde 1 cuarto de galón
+        fr-CA: Donne 1 litre
+        nl-NL: Maakt 1 kwart
+    overview:
+      type: text
+      locales:
+        en-CA: >-
+          Like that hazelnut coffee you love—but cold, ultra creamy, and
+          cashew-centric.
+        en-GB: >-
+          Like that hazelnut coffee you love—but cold, ultra creamy, and
+          cashew-centric.
+        en-NL: >-
+          Like that hazelnut coffee you love—but cold, ultra creamy, and
+          cashew-centric.
+        en-US: >-
+          Like that hazelnut coffee you love—but cold, ultra creamy, and
+          cashew-centric.
+        es-US: >-
+          Como ese café de avellanas que amas, pero frío, ultra cremoso y
+          centrado en los anacardos.
+        fr-CA: >-
+          Comme ce café aux noisettes que vous adorez, mais froid, ultra crémeux
+          et centré sur la noix de cajou.
+        nl-NL: >-
+          Zoals die hazelnootkoffie waar je van houdt, maar dan koud, ultraromig
+          en cashew-centrisch.
+    subtitle:
+      type: text
+      locales:
+        en-CA: By Rick Martinez
+        en-GB: By Rick Martinez
+        en-NL: By Rick Martinez
+        en-US: By Rick Martinez
+        es-US: Por Rick Martínez
+        fr-CA: Par Rick Martinez
+        nl-NL: Door Rick Martinez
+    recipeType:
+      type: contentReference
+      value: ${#jptr:/ref-ff970aff-be7c-4958-9202-7de073bd882e-recipeType/entries/0}
+    description:
+      type: richText
+      locales:
+        en-CA:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      For an even deeper, nutty flavor, toast the cashews first
+                      (or buy them that way, but make sure they’re unsalted).
+                      Skeptical? Think hazelnut coffee, but with cashews
+                      instead.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+            direction: ltr
+        en-GB:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      For an even deeper, nutty flavor, toast the cashews first
+                      (or buy them that way, but make sure they’re unsalted).
+                      Skeptical? Think hazelnut coffee, but with cashews
+                      instead.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+            direction: ltr
+        en-NL:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      For an even deeper, nutty flavor, toast the cashews first
+                      (or buy them that way, but make sure they’re unsalted).
+                      Skeptical? Think hazelnut coffee, but with cashews
+                      instead.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+            direction: ltr
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      For an even deeper, nutty flavor, toast the cashews first
+                      (or buy them that way, but make sure they’re unsalted).
+                      Skeptical? Think hazelnut coffee, but with cashews
+                      instead.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+            direction: ltr
+        es-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Para un sabor a nuez aún más profundo, tueste primero los
+                      anacardos (o cómprelos de esa manera, pero asegúrese de
+                      que no tengan sal). ¿Escéptico? Piense en café de
+                      avellanas, pero con anacardos.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+            direction: ltr
+        fr-CA:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Pour un goût de noisette encore plus prononcé, faites
+                      griller les noix de cajou avant (ou achetez-les ainsi,
+                      mais assurez-vous qu'elles ne sont pas salées). Vous êtes
+                      sceptique? Pensez au café aux noisettes, mais avec des
+                      noix de cajou à la place.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+            direction: ltr
+        nl-NL:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Voor een nog diepere, nootachtige smaak rooster je de
+                      cashewnoten eerst (of koop ze op die manier, maar zorg
+                      ervoor dat ze ongezouten zijn). Sceptisch? Denk aan
+                      hazelnootkoffie, maar dan met cashewnoten.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+            direction: ltr
+    ingredients:
+      type: $block
+      value:
+        - _id: 72ad70d9-1599-4f29-b1aa-e1b7933eab8a
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-CA: vanilla bean
+                en-GB: vanilla bean
+                en-NL: vanilla bean
+                en-US: vanilla bean
+                es-US: Vainilla
+                fr-CA: gousse de vanille
+                nl-NL: vanillestokje
+            amount:
+              type: number
+              value: '1'
+            amountText:
+              type: text
+              locales:
+                en-CA: split lengthwise
+                en-GB: split lengthwise
+                en-NL: split lengthwise
+                en-US: split lengthwise
+                es-US: dividido a lo largo
+                fr-CA: fendre dans le sens de la longueur
+                nl-NL: In de lengte gespleten
+        - _id: 3de11905-2855-4d1b-8b2f-6f7dfaba326e
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-CA: raw cashews
+                en-GB: raw cashews
+                en-NL: raw cashews
+                en-US: raw cashews
+                es-US: Anacardos crudos
+                fr-CA: noix de cajou crues
+                nl-NL: Rauwe cashewnoten
+            unit:
+              type: select
+              value: c
+            amount:
+              type: number
+              value: '1'
+        - _id: 0c010c0b-03f3-40bc-a563-5f4d9cd119e2
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-CA: organic or granulated sugar
+                en-GB: organic or granulated sugar
+                en-NL: organic or granulated sugar
+                en-US: organic or granulated sugar
+                es-US: azúcar orgánica o granulada
+                fr-CA: sucre biologique ou granulé
+                nl-NL: biologische of kristalsuiker
+            unit:
+              type: select
+              value: c
+            amount:
+              type: number
+              value: '.5'
+            amountText:
+              type: text
+              locales:
+                en-CA: plus 2 tablespoons
+                en-GB: plus 2 tablespoons
+                en-NL: plus 2 tablespoons
+                en-US: plus 2 tablespoons
+                es-US: más 2 cucharadas
+                fr-CA: plus 2 cuillères à soupe
+                nl-NL: plus 2 eetlepels
+        - _id: cbc6ba4e-083a-445f-91f4-8f309f28bc43
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-CA: ' instant espresso powder'
+                en-GB: ' instant espresso powder'
+                en-NL: ' instant espresso powder'
+                en-US: ' instant espresso powder'
+                es-US: ' espresso instantáneo en polvo'
+                fr-CA: ' poudre d''espresso instantané'
+                nl-NL: ' instant espresso poeder'
+            unit:
+              type: select
+              value: tbsp
+            amount:
+              type: number
+              value: '4'
+        - _id: 7bbf8dbd-ccf9-4ac0-a5a6-d936a79ef94e
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-CA: kosher salt
+                en-GB: kosher salt
+                en-NL: kosher salt
+                en-US: kosher salt
+                es-US: Sal kosher
+                fr-CA: sel casher
+                nl-NL: koosjer zout
+            unit:
+              type: select
+              value: tsp
+            amount:
+              type: number
+              value: '.5'
+        - _id: 97e8c5d2-8bbf-488e-83ce-bd4ed118d164
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-CA: refined coconut oil
+                en-GB: refined coconut oil
+                en-NL: refined coconut oil
+                en-US: refined coconut oil
+                es-US: aceite de coco refinado
+                fr-CA: huile de coco raffinée
+                nl-NL: geraffineerde kokosolie
+            unit:
+              type: select
+              value: c
+            amount:
+              type: number
+              value: '1'
+            amountText:
+              type: text
+              locales:
+                en-CA: melted, cooled slightly
+                en-GB: melted, cooled slightly
+                en-NL: melted, cooled slightly
+                en-US: melted, cooled slightly
+                es-US: derretido, enfriado ligeramente
+                fr-CA: fondu, légèrement refroidi
+                nl-NL: gesmolten, iets afgekoeld
+        - _id: ba8ae8b5-a163-43ec-934b-c448aad25d3d
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-CA: An ice cream maker
+                en-GB: An ice cream maker
+                en-NL: An ice cream maker
+                en-US: An ice cream maker
+                es-US: Una máquina para hacer helados
+                fr-CA: Une sorbetière
+                nl-NL: Een ijsmachine
+    instructions:
+      type: $block
+      value:
+        - _id: c96544d8-d110-4697-87dd-9e1b9c15bd91
+          type: howtoSection
+          fields:
+            name:
+              type: text
+              locales:
+                en-CA: Preparation
+                en-GB: Preparation
+                en-NL: Preparation
+                en-US: Preparation
+                es-US: Preparación
+                fr-CA: Préparation
+                nl-NL: Voorbereiding
+            steps:
+              type: $block
+              value:
+                - _id: 2989bcd7-9258-42d1-b162-4986825cd16d
+                  type: howtoStep
+                  fields:
+                    name:
+                      type: text
+                      locales:
+                        en-CA: Step 1
+                        en-GB: Step 1
+                        en-NL: Step 1
+                        en-US: Step 1
+                        es-US: Paso 1
+                        fr-CA: Étape 1
+                        nl-NL: Stap 1
+                    description:
+                      type: richText
+                      locales:
+                        en-CA:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Place vanilla bean and cashews in a large
+                                      bowl and add 2 cups boiling water. Cover
+                                      and let sit at room temperature at least
+                                      12 hours (hydrating the cashews thoroughly
+                                      is key for a silky, smooth ice cream).
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        en-GB:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Place vanilla bean and cashews in a large
+                                      bowl and add 2 cups boiling water. Cover
+                                      and let sit at room temperature at least
+                                      12 hours (hydrating the cashews thoroughly
+                                      is key for a silky, smooth ice cream).
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        en-NL:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Place vanilla bean and cashews in a large
+                                      bowl and add 2 cups boiling water. Cover
+                                      and let sit at room temperature at least
+                                      12 hours (hydrating the cashews thoroughly
+                                      is key for a silky, smooth ice cream).
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        en-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Place vanilla bean and cashews in a large
+                                      bowl and add 2 cups boiling water. Cover
+                                      and let sit at room temperature at least
+                                      12 hours (hydrating the cashews thoroughly
+                                      is key for a silky, smooth ice cream).
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        es-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Coloque la vaina de vainilla y los
+                                      anacardos en un tazón grande y agregue 2
+                                      tazas de agua hirviendo. Cubra y deje
+                                      reposar a temperatura ambiente al menos 12
+                                      horas (hidratar bien los anacardos es
+                                      clave para un helado sedoso y suave).
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        fr-CA:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Placer la gousse de vanille et les noix de
+                                      cajou dans un grand bol et ajouter 2
+                                      tasses d'eau bouillante. Couvrir et
+                                      laisser reposer à température ambiante
+                                      pendant au moins 12 heures (l'hydratation
+                                      complète des noix de cajou est essentielle
+                                      pour obtenir une crème glacée soyeuse et
+                                      onctueuse).
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        nl-NL:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Doe het vanillestokje en de cashewnoten in
+                                      een grote kom en voeg 2 kopjes kokend
+                                      water toe. Dek af en laat minstens 12 uur
+                                      op kamertemperatuur staan (het grondig
+                                      hydrateren van de cashewnoten is
+                                      essentieel voor een zijdezacht, glad ijs).
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                - _id: b0cf8ec9-71dd-41e5-9b4e-1f24d21d45bb
+                  type: howtoStep
+                  fields:
+                    name:
+                      type: text
+                      locales:
+                        en-CA: Step 2
+                        en-GB: Step 2
+                        en-NL: Step 2
+                        en-US: Step 2
+                        es-US: Paso 2
+                        fr-CA: Étape 2
+                        nl-NL: Stap 2
+                    description:
+                      type: richText
+                      locales:
+                        en-CA:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Transfer cashews and their soaking liquid
+                                      to a blender. Scrape in seeds from vanilla
+                                      bean; discard pod. Add sugar, espresso
+                                      powder, and salt. Purée until smooth,
+                                      about 30 seconds. With the motor running
+                                      on medium speed, slowly stream in oil and
+                                      purée until thick and creamy.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        en-GB:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Transfer cashews and their soaking liquid
+                                      to a blender. Scrape in seeds from vanilla
+                                      bean; discard pod. Add sugar, espresso
+                                      powder, and salt. Purée until smooth,
+                                      about 30 seconds. With the motor running
+                                      on medium speed, slowly stream in oil and
+                                      purée until thick and creamy.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        en-NL:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Transfer cashews and their soaking liquid
+                                      to a blender. Scrape in seeds from vanilla
+                                      bean; discard pod. Add sugar, espresso
+                                      powder, and salt. Purée until smooth,
+                                      about 30 seconds. With the motor running
+                                      on medium speed, slowly stream in oil and
+                                      purée until thick and creamy.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        en-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Transfer cashews and their soaking liquid
+                                      to a blender. Scrape in seeds from vanilla
+                                      bean; discard pod. Add sugar, espresso
+                                      powder, and salt. Purée until smooth,
+                                      about 30 seconds. With the motor running
+                                      on medium speed, slowly stream in oil and
+                                      purée until thick and creamy.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        es-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Transfiera los anacardos y su líquido de
+                                      remojo a una licuadora. Raspe las semillas
+                                      de la vaina de vainilla; Deseche la vaina.
+                                      Agregue el azúcar, el espresso en polvo y
+                                      la sal. Haga puré hasta que quede suave,
+                                      aproximadamente 30 segundos. Con el motor
+                                      funcionando a velocidad media, agregue
+                                      lentamente el aceite y haga puré hasta que
+                                      esté espeso y cremoso.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        fr-CA:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Transférer les noix de cajou et leur
+                                      liquide de trempage dans un mixeur.
+                                      Gratter les graines de la gousse de
+                                      vanille; jeter la gousse. Ajouter le
+                                      sucre, la poudre d'espresso et le sel.
+                                      Réduire en purée jusqu'à obtention d'un
+                                      mélange homogène, environ 30 secondes. À
+                                      vitesse moyenne, ajouter lentement l'huile
+                                      et réduire en purée jusqu'à ce que le
+                                      mélange soit épais et crémeux.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        nl-NL:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Breng de cashewnoten en hun weekvocht over
+                                      in een blender. Schraap de zaadjes van het
+                                      vanillestokje erdoor; Gooi de pod weg.
+                                      Voeg suiker, espressopoeder en zout toe.
+                                      Pureer tot een gladde massa, ongeveer 30
+                                      seconden. Terwijl de motor op gemiddelde
+                                      snelheid draait, giet je er langzaam olie
+                                      in en pureer je tot het dik en romig is.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                - _id: d02194b2-9bf6-42a6-9dbf-013f42511562
+                  type: howtoStep
+                  fields:
+                    name:
+                      type: text
+                      locales:
+                        en-CA: Step 3
+                        en-GB: Step 3
+                        en-NL: Step 3
+                        en-US: Step 3
+                        es-US: Paso 3
+                        fr-CA: Étape 3
+                        nl-NL: Stap 3
+                    description:
+                      type: richText
+                      locales:
+                        en-CA:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Immediately process cashew mixture in ice
+                                      cream maker according to manufacturer’s
+                                      directions. (Head’s up: this will take
+                                      longer than a traditional dairy-based
+                                      custard to reach soft-serve consistency.)
+                                      Do not chill before processing or oil will
+                                      harden into tiny bits and texture will be
+                                      grainy.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        en-GB:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Immediately process cashew mixture in ice
+                                      cream maker according to manufacturer’s
+                                      directions. (Head’s up: this will take
+                                      longer than a traditional dairy-based
+                                      custard to reach soft-serve consistency.)
+                                      Do not chill before processing or oil will
+                                      harden into tiny bits and texture will be
+                                      grainy.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        en-NL:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Immediately process cashew mixture in ice
+                                      cream maker according to manufacturer’s
+                                      directions. (Head’s up: this will take
+                                      longer than a traditional dairy-based
+                                      custard to reach soft-serve consistency.)
+                                      Do not chill before processing or oil will
+                                      harden into tiny bits and texture will be
+                                      grainy.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        en-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Immediately process cashew mixture in ice
+                                      cream maker according to manufacturer’s
+                                      directions. (Head’s up: this will take
+                                      longer than a traditional dairy-based
+                                      custard to reach soft-serve consistency.)
+                                      Do not chill before processing or oil will
+                                      harden into tiny bits and texture will be
+                                      grainy.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        es-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Procese inmediatamente la mezcla de
+                                      anacardo en la máquina para hacer helados
+                                      de acuerdo con las instrucciones del
+                                      fabricante. (Atención: esto tomará más
+                                      tiempo que una natilla tradicional a base
+                                      de lácteos para alcanzar la consistencia
+                                      de un servicio suave). No enfríe antes de
+                                      procesar o el aceite se endurecerá en
+                                      trozos diminutos y la textura será
+                                      granulosa.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        fr-CA:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Passer immédiatement le mélange de noix de
+                                      cajou à la sorbetière en suivant les
+                                      instructions du fabricant. (Attention : il
+                                      faillira plus de temps qu'une crème
+                                      pâtissière traditionnelle à base de
+                                      produits laitiers pour atteindre la
+                                      consistance d'une glace molle). Ne pas
+                                      réfrigérer avant le traitement, sinon
+                                      l'huile durcira en petits morceaux et la
+                                      texture sera granuleuse.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        nl-NL:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Verwerk het cashewmengsel onmiddellijk in
+                                      de ijsmachine volgens de aanwijzingen van
+                                      de fabrikant. (Let op: dit duurt langer
+                                      dan een traditionele vla op basis van
+                                      zuivel om een zachte consistentie te
+                                      bereiken.) Niet afkoelen voor verwerking,
+                                      anders zal de olie in kleine stukjes
+                                      uitharden en zal de textuur korrelig zijn.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                - _id: 0e933252-99b7-4e46-91df-653b91787a5c
+                  type: howtoStep
+                  fields:
+                    name:
+                      type: text
+                      locales:
+                        en-CA: Step 4
+                        en-GB: Step 4
+                        en-NL: Step 4
+                        en-US: Step 4
+                        es-US: Paso 4
+                        fr-CA: Étape 4
+                        nl-NL: Stap 4
+                    description:
+                      type: richText
+                      locales:
+                        en-CA:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Transfer to an airtight container and
+                                      press plastic wrap directly onto surface.
+                                      Freeze until firm, at least 4 hours.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        en-GB:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Transfer to an airtight container and
+                                      press plastic wrap directly onto surface.
+                                      Freeze until firm, at least 4 hours.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        en-NL:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Transfer to an airtight container and
+                                      press plastic wrap directly onto surface.
+                                      Freeze until firm, at least 4 hours.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        en-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Transfer to an airtight container and
+                                      press plastic wrap directly onto surface.
+                                      Freeze until firm, at least 4 hours.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        es-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Transfiera a un recipiente hermético y
+                                      presione la envoltura de plástico
+                                      directamente sobre la superficie. Congele
+                                      hasta que esté firme, al menos 4 horas.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        fr-CA:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Transférer dans un récipient hermétique et
+                                      presser le film plastique directement sur
+                                      la surface. Congeler jusqu'à ce que le
+                                      produit soit ferme, au moins 4 heures.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        nl-NL:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Breng over naar een luchtdichte verpakking
+                                      en druk plasticfolie direct op het
+                                      oppervlak. Vries in tot het stevig is,
+                                      minimaal 4 uur.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                - _id: fcdd115d-72de-4ad7-a13d-c6e0276f9660
+                  type: howtoStep
+                  fields:
+                    name:
+                      type: text
+                      locales:
+                        en-CA: Step 5
+                        en-GB: Step 5
+                        en-NL: Step 5
+                        en-US: Step 5
+                        es-US: Paso 5
+                        fr-CA: Étape 5
+                        nl-NL: Stap 5
+                    description:
+                      type: richText
+                      locales:
+                        en-CA:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: 'Do Ahead:'
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 1
+                                    version: 1
+                                  - mode: normal
+                                    text: "\_Cashews can be soaked 3 days ahead; cover and chill. Ice cream can be made 1 month ahead; keep frozen."
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 1
+                            direction: ltr
+                        en-GB:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: 'Do Ahead:'
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 1
+                                    version: 1
+                                  - mode: normal
+                                    text: "\_Cashews can be soaked 3 days ahead; cover and chill. Ice cream can be made 1 month ahead; keep frozen."
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 1
+                            direction: ltr
+                        en-NL:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: 'Do Ahead:'
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 1
+                                    version: 1
+                                  - mode: normal
+                                    text: "\_Cashews can be soaked 3 days ahead; cover and chill. Ice cream can be made 1 month ahead; keep frozen."
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 1
+                            direction: ltr
+                        en-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: 'Do Ahead:'
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 1
+                                    version: 1
+                                  - mode: normal
+                                    text: "\_Cashews can be soaked 3 days ahead; cover and chill. Ice cream can be made 1 month ahead; keep frozen."
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 1
+                            direction: ltr
+                        es-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: 'Adelante:'
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 1
+                                    version: 1
+                                  - mode: normal
+                                    text: "\_Los anacardos se pueden remojar con 3 días de anticipación; cubra y enfríe. El helado se puede preparar con 1 mes de anticipación; Mantener congelado."
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 1
+                            direction: ltr
+                        fr-CA:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: 'À faire à l''avance :'
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 1
+                                    version: 1
+                                  - mode: normal
+                                    text: "\_Les noix de cajou peuvent être trempées 3 jours à l'avance; couvrir et réfrigérer. La crème glacée peut être préparée 1 mois à l'avance; la conserver au congélateur."
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 1
+                            direction: ltr
+                        nl-NL:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: 'Vooruit doen:'
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 1
+                                    version: 1
+                                  - mode: normal
+                                    text: "\_Cashewnoten kunnen 3 dagen van tevoren worden geweekt; dek af en laat afkoelen. IJs kan 1 maand van tevoren worden gemaakt; Bevroren bewaren."
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 1
+                            direction: ltr
+    featuredImage:
+      type: asset
+      value:
+        - _id: eeb16e5a-5751-49a7-8e65-047875d5dde3
+          type: image
+          fields:
+            id:
+              type: text
+              value: 3ebf5c0b-24ff-4a61-95ea-7d4450610107
+            url:
+              value: >-
+                https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/AoZA7aeqQLKAlUbh5rIi3g-coffee-cashew-vegan-ice-cream.webp
+              type: text
+            file:
+              type: file
+              value: c3e8a176-873b-4cdc-99e4-31a25d8c1533
+            size:
+              value: 52186
+              type: number
+            title:
+              type: text
+              value: coffee-cashew-vegan-ice-cream.webp
+            width:
+              value: 1280
+              type: number
+            height:
+              value: 853
+              type: number
+            mediaType:
+              value: image/webp
+              type: text
+          _source: uniform-assets
+    mainIngredient:
+      type: contentReference
+      value: >-
+        ${#jptr:/ref-ff970aff-be7c-4958-9202-7de073bd882e-mainIngredient/entries/0}
+    relatedProducts:
+      type: contentReference
+      value: >-
+        ${#jptr:/ref-ff970aff-be7c-4958-9202-7de073bd882e-relatedProducts/entries}
+  _dataResources:
+    ref-ff970aff-be7c-4958-9202-7de073bd882e-recipeType:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: 15c4e9a0-d725-46fc-9392-ee4e3bee163e
+    ref-ff970aff-be7c-4958-9202-7de073bd882e-mainIngredient:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: f695a090-8bde-43e4-8085-0a7f9b48b45a
+    ref-ff970aff-be7c-4958-9202-7de073bd882e-relatedProducts:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: >-
+          dd9a7e4d-56a3-4a0b-9679-345d19e6da49,9eca65f5-d075-4297-a2e5-e5501b9ff58a,048d6d1e-b00b-4e80-a715-22d149233435
+  _locales:
+    - en-US
+    - nl-NL
+    - fr-CA
+    - es-US
+    - en-CA
+    - en-NL
+    - en-GB

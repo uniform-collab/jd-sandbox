@@ -1,0 +1,21 @@
+id: companyData
+displayName: Company Data
+ttl: 30
+path: /staticdata
+custom:
+  json:
+    Brand: JavaDrip
+    mission: perfect cup in everybody's hands
+    companyName: JavaDrip, Inc.
+    employeeCount: 145
+    corporateAddress: 123 Main St. Portland, OR
+  proposedName: JSON Data
+method: GET
+purgeKey: b4a495c3-e678-49ea-9e68-3d032d6893ea
+archetype: staticData
+variables:
+  json:
+    type: text
+    default: ''
+dataSourceId: brandData
+allowedOnComponents: []

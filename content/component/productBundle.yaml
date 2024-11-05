@@ -1,0 +1,63 @@
+# yaml-language-server: $schema=<https://canary.uniform.app/schemas/json-schema/component-definition/v1.json>
+$schema: https://canary.uniform.app/schemas/json-schema/component-definition/v1.json
+id: productBundle
+name: Product Bundle
+icon: extension-remove
+parameters:
+  - id: title
+    name: Title
+    type: text
+    typeConfig: null
+    localizable: true
+  - id: bundle
+    name: Bundle
+    type: json
+    typeConfig: {}
+  - id: buttonText
+    name: Button Text
+    type: text
+    typeConfig: null
+    localizable: true
+  - id: b873b8c7-0bae-42b3-bd89-15522cfd8f8b
+    name: Style
+    type: group
+    typeConfig:
+      collapsed: true
+      childrenParams:
+        - buttonStyle
+        - primaryTextColor
+        - secondaryTextColor
+        - hideDescription
+  - id: buttonStyle
+    name: Button Style
+    type: tp-button-style-parameter
+    typeConfig: null
+  - id: primaryTextColor
+    name: Primary Text Color
+    type: tp-color-palette-parameter
+    typeConfig:
+      allowThemeColors:
+        - primary
+        - primary-content
+        - secondary
+  - id: secondaryTextColor
+    name: Secondary Text Color
+    type: tp-color-palette-parameter
+    typeConfig:
+      allowThemeColors:
+        - primary
+        - primary-content
+        - secondary
+  - id: hideDescription
+    name: Hide Description
+    type: checkbox
+    typeConfig: null
+categoryId: 2da8c924-14d5-470b-9fe4-1e56521551e5
+previewImageUrl: >-
+  https://res.cloudinary.com/uniform-demos/image/upload/v1/preview-images/NewJavaDripTheme/product%20bundle.png
+useTeamPermissions: true
+slots: []
+titleParameter: title
+canBeComposition: false
+created: '2024-08-16T11:39:58.48388+00:00'
+updated: '2024-08-16T11:39:58.48388+00:00'

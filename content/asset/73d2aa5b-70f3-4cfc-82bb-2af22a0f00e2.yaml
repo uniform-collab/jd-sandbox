@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 73d2aa5b-70f3-4cfc-82bb-2af22a0f00e2
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: midnight-trample-cocktail.webp
+    file:
+      type: file
+      value: 3902e3b0-888d-4714-bee1-5d111520042a
+    mediaType:
+      value: image/webp
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/1Z-f5zzbSsClJJP4g1T36w-midnight-trample-cocktail.webp
+      type: text
+    size:
+      value: 49790
+      type: number
+    width:
+      value: 1920
+      type: number
+    height:
+      value: 1920
+      type: number
+    custom: {}
+created: '2024-09-26T17:26:29.671192+00:00'
+modified: '2024-09-26T17:26:29.671192+00:00'

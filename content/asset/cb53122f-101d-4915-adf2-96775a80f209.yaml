@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: cb53122f-101d-4915-adf2-96775a80f209
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: dark-roast-coffee-113-2_w1kwrp_qvucfh.jpg
+    file:
+      type: file
+      value: 76bb480a-087a-4cdd-9f36-c9380b1af824
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/uQ9r03zEQJqXdTmnJEw7PA-dark-roast-coffee-113-2_w1kwrp_qvucfh.jpg
+      type: text
+    size:
+      value: 58187
+      type: number
+    width:
+      value: 450
+      type: number
+    height:
+      value: 300
+      type: number
+    custom: {}
+created: '2024-01-29T15:28:58.26081+00:00'
+modified: '2024-01-29T15:28:58.26081+00:00'

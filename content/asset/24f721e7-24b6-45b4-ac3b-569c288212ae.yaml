@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 24f721e7-24b6-45b4-ac3b-569c288212ae
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: icon_chef.png
+    file:
+      type: file
+      value: 380c2a6b-8acc-4afb-9bdf-7920ba053215
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/j3G0JpDkQGmLqA4Je25kOQ-icon_chef.png
+      type: text
+    size:
+      value: 3075
+      type: number
+    width:
+      value: 60
+      type: number
+    height:
+      value: 60
+      type: number
+    custom: {}
+created: '2024-09-30T21:08:36.565876+00:00'
+modified: '2024-09-30T21:08:36.565876+00:00'

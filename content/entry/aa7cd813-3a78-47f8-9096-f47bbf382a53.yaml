@@ -1,0 +1,43 @@
+created: '2024-08-12T13:05:53.926238+00:00'
+modified: '2024-09-24T18:55:38.827533+00:00'
+pattern: false
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+entry:
+  _id: aa7cd813-3a78-47f8-9096-f47bbf382a53
+  _name: 'FILTER COFFEE GUIDE: What Coffee Filter is Right for Your'
+  _slug: what-coffee-filter-is-right-for-your-brew
+  _thumbnail: >-
+    https://assets-us-01.kc-usercontent.com:443/bf6fb8b9-53e1-004f-964b-5aaa52ee073c/e386e0e9-bc60-488a-9255-b50bb731d2e9/Ultimate_Filter_Guide_wvfvyd.jpg
+  type: article
+  fields: {}
+  _dataResources:
+    Article By Slug Content:
+      type: kontentAiArticleBySlug
+      variables:
+        limit: '5'
+        order: ''
+        keyword: what-coffee-filter-is-right-for-your-brew
+        language: ${locale}
+        sortOrder: asc
+        contentType: article
+        sortElement: ''
+        languageQuery: '&language=${locale}'
+        searchByQuery: >-
+          elements.slug[range]=what-coffee-filter-is-right-for-your-brew,what-coffee-filter-is-right-for-your-brew~
+        contentTypeQuery: '&system.type[eq]=article'
+    ref-aa7cd813-3a78-47f8-9096-f47bbf382a53-tag:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: 0947295b-ef13-48a7-8416-42250bd09ddf
+  _locales:
+    - en-US
+    - es-US
+    - fr-CA
+    - nl-NL
+  _overrides:
+    aa7cd813-3a78-47f8-9096-f47bbf382a53:
+      parameters:
+        tag:
+          type: contentReference
+          value: ${#jptr:/ref-aa7cd813-3a78-47f8-9096-f47bbf382a53-tag/entries}
+  _pattern: ca075af6-b2ba-43f8-b1df-e58b62a13ce1

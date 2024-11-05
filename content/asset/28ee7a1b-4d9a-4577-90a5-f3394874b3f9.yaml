@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 28ee7a1b-4d9a-4577-90a5-f3394874b3f9
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: kosmic-coffee-barista-express-espresso-machine-115-2_csd2nz_jvaxqc.jpg
+    file:
+      type: file
+      value: e2958709-7638-49cf-b598-3cce83584251
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/3wK_iRFTSlqCVmPBjBP25w-kosmic-coffee-barista-express-espresso-machine-115-2_csd2nz_jvaxqc.jpg
+      type: text
+    size:
+      value: 150093
+      type: number
+    width:
+      value: 1280
+      type: number
+    height:
+      value: 1280
+      type: number
+    custom: {}
+created: '2024-02-01T09:59:46.015352+00:00'
+modified: '2024-02-01T09:59:46.015352+00:00'

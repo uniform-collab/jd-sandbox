@@ -1,0 +1,91 @@
+created: '2023-11-20T09:34:26.311192+00:00'
+modified: '2024-09-24T18:55:38.827533+00:00'
+pattern: false
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+entry:
+  _id: 4561803f-48d9-4398-a4c8-199dcb41f319
+  _name: Cervello di Caffè
+  _slug: cervello-di-caffe
+  _thumbnail: >-
+    https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/3yNo4u4kSJWntbogOmfkug-featured_callout.png
+  type: featuredCallout
+  fields:
+    image:
+      type: asset
+      value:
+        - _id: a6cfbf3a-9836-41ed-810b-066f3ef02d51
+          type: image
+          fields:
+            id:
+              type: text
+              value: 7d2cff7c-d75a-4450-8100-211c6e9c6d3f
+            url:
+              value: >-
+                https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/3yNo4u4kSJWntbogOmfkug-featured_callout.png
+              type: text
+            file:
+              type: file
+              value: 00098adc-7d44-4b0f-8f2a-0bbfb6053078
+            size:
+              value: 512797
+              type: number
+            title:
+              type: text
+              value: featured_callout.png
+            width:
+              value: 2000
+              type: number
+            height:
+              value: 2000
+              type: number
+            mediaType:
+              value: image/png
+              type: text
+          _source: uniform-assets
+    title:
+      type: text
+      locales:
+        en-US: Cervello di Caffè
+        es-US: Cervello di Caffè
+        fr-CA: Cervello di Caffè
+        nl-NL: Cervello di caffè
+    description:
+      type: text
+      locales:
+        en-US: >-
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
+        es-US: >-
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.UT enim ad
+          minim Veniam, Quis Nostrud Ejercicio Ullamco Laboris nisi ut aliquip
+          ex ea comrodo consecuente.DUIS Aute Irure Dolor en Reprehenderit en
+          Volupted Velit Esse Cillum Dolore Eu Fugiat Nulla Pariatur.Excepto el
+          sintador Occaecat Cupidatat no proidental, Sunt in Culpa qui Officia
+          deserunt Mollit Anim id est Laborum.
+        fr-CA: >-
+          Lorem ipsum Dolor Sit Amet, Consectetur adipiscing elit, sed do
+          eiusmod tempory inciditunt ut Labore et Dolore Magna Aliqua.Ut enim ad
+          minim veiam, quis nostrud exercice ullamco lAbis nisi ut Aliquip ex ea
+          Commodo consécutif.Duis aute irure Dolor en repreahance dans voluptate
+          Velit Esse Cillum Dolore eu fugiat nulla pariatur.Excepteur sint
+          occaecat Cupidatat non proviant, sunt à Culpa qui officie deserunt
+          mollit animal id est laboumbe.
+        nl-NL: >-
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod temporididunt ut labore et dolore magna aliqua.Ut enim ad
+          minimaal veniam, quis nostrud oefening ullamco laboris nisi ut aliquip
+          ex ea commodo consequent.DUIS AUTE IRURE DOLOR IN REMENDERIT IN
+          VOLOPTATE VELIT ESSE CILLUM DOLORE EU FUGIAT NULLA PARIUTUR.Excepteur
+          Sint Occaecat Cupidatat Non Proident, Sunt in Culpa Qui officia
+          Deserunt Mollit Anim id Est Laborum.
+  _locales:
+    - en-US
+    - es-US
+    - fr-CA
+    - nl-NL

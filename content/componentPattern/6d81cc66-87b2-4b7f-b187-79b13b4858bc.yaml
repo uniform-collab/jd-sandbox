@@ -1,0 +1,18 @@
+composition:
+  _name: Large Spacer
+  _id: 6d81cc66-87b2-4b7f-b187-79b13b4858bc
+  type: spacer
+  parameters:
+    thickness:
+      type: tp-slider-parameter
+      value: 60px
+  _overridability:
+    hideLockedParameters: true
+  _locales:
+    - es-US
+    - en-US
+    - nl-NL
+created: '2024-06-06T13:11:18.930492+00:00'
+modified: '2024-09-24T18:55:38.827533+00:00'
+pattern: true
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5

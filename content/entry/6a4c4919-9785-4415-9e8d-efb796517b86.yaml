@@ -1,0 +1,83 @@
+created: '2023-11-20T09:34:28.003573+00:00'
+modified: '2024-09-24T18:55:38.827533+00:00'
+pattern: false
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+entry:
+  _id: 6a4c4919-9785-4415-9e8d-efb796517b86
+  _name: Carbon-neutral energy source
+  _slug: carbon-neutral-energy-source
+  _thumbnail: >-
+    https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/4GagGapjRdSX7CNOwt3RXA-icon_flower.svg
+  type: productFeature
+  fields:
+    image:
+      type: asset
+      value:
+        - _id: 271fd90a-87e0-40da-a936-f96307984361
+          type: image
+          fields:
+            id:
+              type: text
+              value: e3876415-f919-470f-874e-51cb68117e56
+            url:
+              value: >-
+                https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/4GagGapjRdSX7CNOwt3RXA-icon_flower.svg
+              type: text
+            file:
+              type: file
+              value: 81c8a7c0-f377-40e7-a319-fc284cacf87f
+            size:
+              value: 2629
+              type: number
+            title:
+              type: text
+              value: icon_flower.svg
+            width:
+              value: 60
+              type: number
+            height:
+              value: 57
+              type: number
+            mediaType:
+              value: image/svg+xml
+              type: text
+          _source: uniform-assets
+    title:
+      type: text
+      locales:
+        en-US: Carbon-neutral energy source
+        es-US: Fuente de energía neutral en carbono
+        fr-CA: Source d'énergie neutre en carbone
+        nl-NL: Koolstofneutrale energiebron
+    product:
+      type: contentReference
+      value: ${#jptr:/ref-6a4c4919-9785-4415-9e8d-efb796517b86-product/entries/0}
+    description:
+      type: text
+      locales:
+        en-US: >-
+          We care for the planet as much as you do. Our espresso machine is
+          powered by a sustainable and recyclable energy cell that has zero
+          carbon footprint.
+        es-US: >-
+          Nos preocupamos por el planeta tanto como tú.Nuestra máquina de café
+          espresso funciona con una celda de energía sostenible y reciclable que
+          tiene cero huella de carbono.
+        fr-CA: >-
+          Nous nous soucions de la planète autant que vous.Notre machine à
+          expresso est alimentée par une cellule d'énergie durable et recyclable
+          qui n'a aucune empreinte carbone.
+        nl-NL: >-
+          Wij zorgen zoveel voor de planeet als jij.Onze espressomachine wordt
+          aangedreven door een duurzame en recyclebare energiecel met nul
+          koolstofvoetafdruk.
+  _dataResources:
+    ref-6a4c4919-9785-4415-9e8d-efb796517b86-product:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: c7e72a37-47db-4202-800d-09540a4b9181
+  _locales:
+    - en-US
+    - es-US
+    - fr-CA
+    - nl-NL

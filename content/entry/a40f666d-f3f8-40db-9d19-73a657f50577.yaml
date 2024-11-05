@@ -1,0 +1,43 @@
+created: '2024-08-12T13:05:42.521828+00:00'
+modified: '2024-09-24T18:55:38.827533+00:00'
+pattern: false
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+entry:
+  _id: a40f666d-f3f8-40db-9d19-73a657f50577
+  _name: 7 Tips for Making the Best Coffee Ever
+  _slug: 7-tips-for-making-the-best-coffee-ever
+  _thumbnail: >-
+    https://assets-us-01.kc-usercontent.com:443/bf6fb8b9-53e1-004f-964b-5aaa52ee073c/d48fc7cc-cc3d-4691-b68c-54c3e34da8a2/whole_bean_fer4vy.jpg
+  type: article
+  fields: {}
+  _dataResources:
+    Article By Slug Content:
+      type: kontentAiArticleBySlug
+      variables:
+        limit: '5'
+        order: ''
+        keyword: 7-tips-for-making-the-best-coffee-ever
+        language: ${locale}
+        sortOrder: asc
+        contentType: article
+        sortElement: ''
+        languageQuery: '&language=${locale}'
+        searchByQuery: >-
+          elements.slug[range]=7-tips-for-making-the-best-coffee-ever,7-tips-for-making-the-best-coffee-ever~
+        contentTypeQuery: '&system.type[eq]=article'
+    ref-a40f666d-f3f8-40db-9d19-73a657f50577-tag:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: ebef65f5-11ef-4981-b3a8-b7f7d6bde7f3
+  _locales:
+    - en-US
+    - es-US
+    - fr-CA
+    - nl-NL
+  _overrides:
+    a40f666d-f3f8-40db-9d19-73a657f50577:
+      parameters:
+        tag:
+          type: contentReference
+          value: ${#jptr:/ref-a40f666d-f3f8-40db-9d19-73a657f50577-tag/entries}
+  _pattern: ca075af6-b2ba-43f8-b1df-e58b62a13ce1

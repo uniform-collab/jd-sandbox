@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 77db7d53-2139-42b0-991a-75d92afbd473
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: ai_generated_image_for_image.jpg
+    file:
+      type: file
+      value: 159c5c46-5b66-4f77-a136-85f40d73ea54
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/uiOBn-6cSR-suibqH2T3Rg-ai_generated_image_for_image.jpg
+      type: text
+    size:
+      value: 101847
+      type: number
+    width:
+      value: 1024
+      type: number
+    height:
+      value: 1024
+      type: number
+    custom: {}
+created: '2023-12-12T18:13:22.332403+00:00'
+modified: '2023-12-12T18:13:22.332403+00:00'

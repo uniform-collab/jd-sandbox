@@ -1,0 +1,20 @@
+id: anyContent
+displayName: Any Content
+ttl: 30
+path: /single
+custom:
+  proposedName: Hero or Recipe or Article or Product
+  allowedContentTypes:
+    - hero
+    - recipe
+    - article
+    - product
+method: GET
+purgeKey: af3a4503-883c-4a64-828b-d2f812eac35e
+archetype: singleEntry
+variables:
+  entryId:
+    type: text
+    default: ''
+dataSourceId: uniformContent
+allowedOnComponents: []

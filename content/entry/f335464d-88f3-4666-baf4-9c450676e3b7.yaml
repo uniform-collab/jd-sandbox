@@ -1,0 +1,1816 @@
+created: '2024-09-30T19:35:14.397357+00:00'
+modified: '2024-10-03T18:08:20.016874+00:00'
+pattern: false
+entry:
+  _id: f335464d-88f3-4666-baf4-9c450676e3b7
+  _name: Spiced and Grilled Steaks with Citrus Chutney
+  _slug: spiced-and-grilled-steaks-with-citrus-chutney
+  _thumbnail: >-
+    https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/rUXiIruQTfuNOeMmSpNyfg-spiced-and-grilled-steaks-with-citrus-chutney.webp
+  type: recipe
+  fields:
+    name:
+      type: text
+      locales:
+        en-CA: Spiced and Grilled Steaks with Citrus Chutney
+        en-GB: Spiced and Grilled Steaks with Citrus Chutney
+        en-NL: Spiced and Grilled Steaks with Citrus Chutney
+        en-US: Spiced and Grilled Steaks with Citrus Chutney
+        es-US: Filetes especiados y a la parrilla con chutney de cítricos
+        fr-CA: Steaks épicés et grillés avec chutney d'agrumes
+        nl-NL: Gekruide en gegrilde steaks met citruschutney
+    yield:
+      type: text
+      locales:
+        en-CA: 8 Servings
+        en-GB: 8 Servings
+        en-NL: 8 Servings
+        en-US: 8 Servings
+        es-US: 8 Porciones
+        fr-CA: 8 portions
+        nl-NL: 8 porties
+    overview:
+      type: text
+      locales:
+        en-CA: 'When in doubt, remember the three C''s: coffee, coriander, and cocoa.'
+        en-GB: 'When in doubt, remember the three C''s: coffee, coriander, and cocoa.'
+        en-NL: 'When in doubt, remember the three C''s: coffee, coriander, and cocoa.'
+        en-US: 'When in doubt, remember the three C''s: coffee, coriander, and cocoa.'
+        es-US: 'En caso de duda, recuerde las tres C: café, cilantro y cacao.'
+        fr-CA: 'En cas de doute, n''oubliez pas les trois C : café, coriandre et cacao.'
+        nl-NL: 'Denk bij twijfel aan de drie C''s: koffie, koriander en cacao.'
+    subtitle:
+      type: text
+      locales:
+        en-CA: By Dave Muller & Lana Porcello, Outerlands, San Francisco, CA
+        en-GB: By Dave Muller & Lana Porcello, Outerlands, San Francisco, CA
+        en-NL: By Dave Muller & Lana Porcello, Outerlands, San Francisco, CA
+        en-US: By Dave Muller & Lana Porcello, Outerlands, San Francisco, CA
+        es-US: Por Dave Muller y Lana Porcello, Outerlands, San Francisco, CA
+        fr-CA: Par Dave Muller & Lana Porcello, Outerlands, San Francisco, CA
+        nl-NL: >-
+          Door Dave Muller & Lana Porcello, Outerlands, San Francisco,
+          Californië
+    recipeType:
+      type: contentReference
+      value: ${#jptr:/ref-f335464d-88f3-4666-baf4-9c450676e3b7-recipeType/entries/0}
+    description:
+      type: richText
+      locales:
+        en-CA:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      The sugar in the dry spice mix will help these steaks take
+                      on color quickly, so keep a close eye on them.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+            direction: ltr
+        en-GB:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      The sugar in the dry spice mix will help these steaks take
+                      on color quickly, so keep a close eye on them.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+            direction: ltr
+        en-NL:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      The sugar in the dry spice mix will help these steaks take
+                      on color quickly, so keep a close eye on them.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+            direction: ltr
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      The sugar in the dry spice mix will help these steaks take
+                      on color quickly, so keep a close eye on them.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+            direction: ltr
+        es-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      El azúcar en la mezcla de especias secas ayudará a que
+                      estos filetes adquieran color rápidamente, así que
+                      vigílalos de cerca.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+            direction: ltr
+        fr-CA:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Le sucre contenu dans le mélange d'épices sèches aidera
+                      ces steaks à prendre rapidement de la couleur, alors
+                      surveillez-les de près.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+            direction: ltr
+        nl-NL:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      De suiker in de droge kruidenmix zorgt ervoor dat deze
+                      steaks snel kleur krijgen, dus houd ze goed in de gaten.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+            direction: ltr
+    ingredients:
+      type: $block
+      value:
+        - _id: 87d6a978-3645-445d-98ed-b773ce0dc126
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-CA: grapefruit
+                en-GB: grapefruit
+                en-NL: grapefruit
+                en-US: grapefruit
+                es-US: pomelo
+                fr-CA: pamplemousse
+                nl-NL: grapefruit
+            amount:
+              type: number
+              value: '.5'
+            amountText:
+              type: text
+              locales:
+                en-CA: thinly sliced, seeds removed
+                en-GB: thinly sliced, seeds removed
+                en-NL: thinly sliced, seeds removed
+                en-US: thinly sliced, seeds removed
+                es-US: en rodajas finas, sin semillas
+                fr-CA: en fines tranches, sans les graines
+                nl-NL: in dunne plakjes gesneden, zaadjes verwijderd
+        - _id: 03a14137-7183-44d7-8b70-ffaa3d4c8312
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-CA: kumquats
+                en-GB: kumquats
+                en-NL: kumquats
+                en-US: kumquats
+                es-US: Kumquats
+                fr-CA: kumquats
+                nl-NL: Kumquats
+            unit:
+              type: select
+              value: oz
+            amount:
+              type: number
+              value: '8'
+            amountText:
+              type: text
+              locales:
+                en-CA: sliced, seeds removed
+                en-GB: sliced, seeds removed
+                en-NL: sliced, seeds removed
+                en-US: sliced, seeds removed
+                es-US: en rodajas, sin semillas
+                fr-CA: en tranches, sans les graines
+                nl-NL: in plakjes gesneden, zaadjes verwijderd
+        - _id: 5d75205d-26eb-405a-96eb-cec75362d1bf
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-CA: shallot
+                en-GB: shallot
+                en-NL: shallot
+                en-US: shallot
+                es-US: chalote
+                fr-CA: échalote
+                nl-NL: sjalot
+            amount:
+              type: number
+              value: '1'
+            amountText:
+              type: text
+              locales:
+                en-CA: finely chopped
+                en-GB: finely chopped
+                en-NL: finely chopped
+                en-US: finely chopped
+                es-US: finamente picado
+                fr-CA: finement haché
+                nl-NL: fijngehakt
+        - _id: 11913434-c3e8-4a7e-9c88-fc7dff2afb2b
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-CA: sugar
+                en-GB: sugar
+                en-NL: sugar
+                en-US: sugar
+                es-US: azúcar
+                fr-CA: sucre
+                nl-NL: suiker
+            unit:
+              type: select
+              value: c
+            amount:
+              type: number
+              value: '1'
+        - _id: 587ceba4-85db-4e64-9340-e0aee95d5e1f
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-CA: kosher salt
+                en-GB: kosher salt
+                en-NL: kosher salt
+                en-US: kosher salt
+                es-US: Sal kosher
+                fr-CA: sel casher
+                nl-NL: koosjer zout
+            amount:
+              type: number
+              value: '1'
+            amountText:
+              type: text
+              locales:
+                en-CA: pinch
+                en-GB: pinch
+                en-NL: pinch
+                en-US: pinch
+                es-US: pellizcar
+                fr-CA: pincement
+                nl-NL: knijpen
+        - _id: f7bcb2d7-025a-4950-b592-0d05a08521c6
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-CA: 'Champagne vinegar '
+                en-GB: 'Champagne vinegar '
+                en-NL: 'Champagne vinegar '
+                en-US: 'Champagne vinegar '
+                es-US: 'Vinagre de champán '
+                fr-CA: 'Vinaigre de champagne '
+                nl-NL: 'Champagne azijn '
+            unit:
+              type: select
+              value: tbsp
+            amount:
+              type: number
+              value: '1'
+        - _id: 357ae684-c985-4670-b4aa-791de65115a9
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-CA: coriander seeds
+                en-GB: coriander seeds
+                en-NL: coriander seeds
+                en-US: coriander seeds
+                es-US: Semillas de cilantro
+                fr-CA: graines de coriandre
+                nl-NL: koriander zaden
+            unit:
+              type: select
+              value: tbsp
+            amount:
+              type: number
+              value: '2'
+        - _id: 957245b5-8116-4999-932c-d0ae86b02c98
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-CA: ground coffee
+                en-GB: ground coffee
+                en-NL: ground coffee
+                en-US: coffee beans
+                es-US: café molido
+                fr-CA: café moulu
+                nl-NL: Gemalen koffie
+            unit:
+              type: select
+              value: tbsp
+            amount:
+              type: number
+              value: '2'
+            amountText:
+              type: text
+              locales:
+                en-US: Ground
+        - _id: e6b20b72-0bca-4de2-b688-0a1c8606173e
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-CA: kosher salt
+                en-GB: kosher salt
+                en-NL: kosher salt
+                en-US: kosher salt
+                es-US: Sal kosher
+                fr-CA: sel casher
+                nl-NL: koosjer zout
+            unit:
+              type: select
+              value: tbsp
+            amount:
+              type: number
+              value: '2'
+        - _id: e2b000f3-8183-415a-91c1-33f9f7262d12
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-CA: light brown sugar
+                en-GB: light brown sugar
+                en-NL: light brown sugar
+                en-US: light brown sugar
+                es-US: azúcar moreno claro
+                fr-CA: sucre brun léger
+                nl-NL: lichtbruine suiker
+            unit:
+              type: select
+              value: tsp
+            amount:
+              type: number
+              value: '4'
+        - _id: d9b71eec-697a-4003-947c-13cb1a516f43
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-CA: unsweetened cocoa powder
+                en-GB: unsweetened cocoa powder
+                en-NL: unsweetened cocoa powder
+                en-US: unsweetened cocoa powder
+                es-US: cacao en polvo sin azúcar
+                fr-CA: cacao en poudre non sucré
+                nl-NL: ongezoet cacaopoeder
+            unit:
+              type: select
+              value: tsp
+            amount:
+              type: number
+              value: '4'
+        - _id: be268dd2-ac5a-4af9-ab77-f267a7ff6b7d
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-CA: black pepper
+                en-GB: black pepper
+                en-NL: black pepper
+                en-US: black pepper
+                es-US: pimienta
+                fr-CA: poivre noir
+                nl-NL: zwarte peper
+            unit:
+              type: select
+              value: tbsp
+            amount:
+              type: number
+              value: '1'
+            amountText:
+              type: text
+              locales:
+                en-CA: freshly ground
+                en-GB: freshly ground
+                en-NL: freshly ground
+                en-US: freshly ground
+                es-US: recién molido
+                fr-CA: fraîchement moulu
+                nl-NL: Vers gemalen
+        - _id: 7e1b5dca-78ba-4ef7-b8e9-7796fbdbfb0e
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-CA: Vegetable oil
+                en-GB: Vegetable oil
+                en-NL: Vegetable oil
+                en-US: Vegetable oil
+                es-US: Aceite vegetal
+                fr-CA: Huile végétale
+                nl-NL: Plantaardige olie
+            amountText:
+              type: text
+              locales:
+                en-CA: (for grilling)
+                en-GB: (for grilling)
+                en-NL: (for grilling)
+                en-US: (for grilling)
+                es-US: (para asar a la parrilla)
+                fr-CA: (pour les grillades)
+                nl-NL: (om te grillen)
+        - _id: 52fc46ba-79f2-46fc-afa5-a0f352efb392
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-CA: hanger steaks
+                en-GB: hanger steaks
+                en-NL: hanger steaks
+                en-US: hanger steaks
+                es-US: filetes de percha
+                fr-CA: steaks d'hanger
+                nl-NL: hanger steaks
+            amount:
+              type: number
+              value: '2'
+            amountText:
+              type: text
+              locales:
+                en-CA: center membrane removed, each cut into 4 pieces
+                en-GB: center membrane removed, each cut into 4 pieces
+                en-NL: center membrane removed, each cut into 4 pieces
+                en-US: center membrane removed, each cut into 4 pieces
+                es-US: membrana central retirada, cada una cortada en 4 pedazos
+                fr-CA: membrane centrale enlevée, chacun coupé en 4 morceaux
+                nl-NL: middenmembraan verwijderd, elk in 4 stukken gesneden
+    instructions:
+      type: $block
+      value:
+        - _id: 4b29e51d-3aca-44c3-a9a3-fd36a9f9225f
+          type: howtoSection
+          fields:
+            name:
+              type: text
+              locales:
+                en-CA: Chutney
+                en-GB: Chutney
+                en-NL: Chutney
+                en-US: Chutney
+                es-US: Chutney
+                fr-CA: Chutney
+                nl-NL: Chutney
+            steps:
+              type: $block
+              value:
+                - _id: 0f042c54-6097-4364-8f25-b3213eef28b7
+                  type: howtoStep
+                  fields:
+                    name:
+                      type: text
+                      locales:
+                        en-CA: Step 1
+                        en-GB: Step 1
+                        en-NL: Step 1
+                        en-US: Step 1
+                        es-US: Paso 1
+                        fr-CA: Étape 1
+                        nl-NL: Stap 1
+                    description:
+                      type: richText
+                      locales:
+                        en-CA:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Bring grapefruit, kumquats, shallot,
+                                      sugar, salt, and ¼ cup water to a simmer
+                                      in a small saucepan over medium-low heat,
+                                      stirring occasionally and lowering heat if
+                                      needed, until citrus is soft and liquid is
+                                      syrupy, 45–60 minutes. Stir in vinegar and
+                                      let cool. Cover and chill.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        en-GB:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Bring grapefruit, kumquats, shallot,
+                                      sugar, salt, and ¼ cup water to a simmer
+                                      in a small saucepan over medium-low heat,
+                                      stirring occasionally and lowering heat if
+                                      needed, until citrus is soft and liquid is
+                                      syrupy, 45–60 minutes. Stir in vinegar and
+                                      let cool. Cover and chill.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        en-NL:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Bring grapefruit, kumquats, shallot,
+                                      sugar, salt, and ¼ cup water to a simmer
+                                      in a small saucepan over medium-low heat,
+                                      stirring occasionally and lowering heat if
+                                      needed, until citrus is soft and liquid is
+                                      syrupy, 45–60 minutes. Stir in vinegar and
+                                      let cool. Cover and chill.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        en-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Bring grapefruit, kumquats, shallot,
+                                      sugar, salt, and ¼ cup water to a simmer
+                                      in a small saucepan over medium-low heat,
+                                      stirring occasionally and lowering heat if
+                                      needed, until citrus is soft and liquid is
+                                      syrupy, 45–60 minutes. Stir in vinegar and
+                                      let cool. Cover and chill.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        es-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Ponga a hervir a fuego lento la toronja,
+                                      los kumquats, la chalota, el azúcar, la
+                                      sal y 1/4 taza de agua en una cacerola
+                                      pequeña a fuego medio-bajo, revolviendo
+                                      ocasionalmente y bajando el fuego si es
+                                      necesario, hasta que los cítricos estén
+                                      suaves y el líquido esté almibarado, de 45
+                                      a 60 minutos. Agregue el vinagre y deje
+                                      enfriar. Cubra y enfríe.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        fr-CA:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Faire mijoter le pamplemousse, les
+                                      kumquats, l'échalote, le sucre, le sel et
+                                      ¼ de tasse d'eau dans une petite casserole
+                                      à feu moyen-doux, en remuant de temps en
+                                      temps et en baissant le feu si nécessaire,
+                                      jusqu'à ce que les agrumes soient tendres
+                                      et que le liquide soit sirupeux, 45-60
+                                      minutes. Incorporer le vinaigre et laisser
+                                      refroidir. Couvrir et réfrigérer.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        nl-NL:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Breng grapefruit, kumquats, sjalot,
+                                      suiker, zout en 1/4 kopje water aan de
+                                      kook in een kleine steelpan op middelhoog
+                                      vuur, af en toe roeren en indien nodig het
+                                      vuur lager zetten, tot de citrus zacht is
+                                      en de vloeistof stroperig, 45-60 minuten.
+                                      Roer de azijn erdoor en laat afkoelen. Dek
+                                      af en laat afkoelen.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                - _id: 25e9bef3-8c5a-4d04-be79-4743230f2693
+                  type: howtoStep
+                  fields:
+                    name:
+                      type: text
+                      locales:
+                        en-CA: Step 2
+                        en-GB: Step 2
+                        en-NL: Step 2
+                        en-US: Step 2
+                        es-US: Paso 2
+                        fr-CA: Étape 2
+                        nl-NL: Stap 2
+                    description:
+                      type: richText
+                      locales:
+                        en-CA:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: 'Do Ahead:'
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 1
+                                    version: 1
+                                  - mode: normal
+                                    text: "\_Chutney can be made 1 week ahead. Keep chilled."
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 1
+                            direction: ltr
+                        en-GB:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: 'Do Ahead:'
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 1
+                                    version: 1
+                                  - mode: normal
+                                    text: "\_Chutney can be made 1 week ahead. Keep chilled."
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 1
+                            direction: ltr
+                        en-NL:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: 'Do Ahead:'
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 1
+                                    version: 1
+                                  - mode: normal
+                                    text: "\_Chutney can be made 1 week ahead. Keep chilled."
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 1
+                            direction: ltr
+                        en-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: 'Do Ahead:'
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 1
+                                    version: 1
+                                  - mode: normal
+                                    text: "\_Chutney can be made 1 week ahead. Keep chilled."
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 1
+                            direction: ltr
+                        es-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: 'Adelante:'
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 1
+                                    version: 1
+                                  - mode: normal
+                                    text: "\_El chutney se puede preparar con 1 semana de anticipación. Manténgalo frío."
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 1
+                            direction: ltr
+                        fr-CA:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: 'À faire à l''avance :'
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 1
+                                    version: 1
+                                  - mode: normal
+                                    text: "\_Le chutney peut être préparé 1 semaine à l'avance. Conserver au frais."
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 1
+                            direction: ltr
+                        nl-NL:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: 'Doe vooruit:'
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 1
+                                    version: 1
+                                  - mode: normal
+                                    text: "\_Chutney kan 1 week van tevoren worden gemaakt. Koel houden."
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 1
+                            direction: ltr
+        - _id: 2a6a7bdf-2bbe-40e4-a788-c9db67292753
+          type: howtoSection
+          fields:
+            name:
+              type: text
+              locales:
+                en-CA: Steak and Assembly
+                en-GB: Steak and Assembly
+                en-NL: Steak and Assembly
+                en-US: Steak and Assembly
+                es-US: Filete y montaje
+                fr-CA: Steak et assemblage
+                nl-NL: Biefstuk en montage
+            steps:
+              type: $block
+              value:
+                - _id: 96d682de-4598-4667-b3e1-5659c51d7a39
+                  type: howtoStep
+                  fields:
+                    name:
+                      type: text
+                      locales:
+                        en-CA: Step 3
+                        en-GB: Step 3
+                        en-NL: Step 3
+                        en-US: Step 3
+                        es-US: Paso 3
+                        fr-CA: Étape 3
+                        nl-NL: Stap 3
+                    description:
+                      type: richText
+                      locales:
+                        en-CA:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Toast coriander seeds in a small skillet
+                                      over medium heat, tossing occasionally,
+                                      until fragrant, about 2 minutes. Let cool,
+                                      then finely grind in spice mill or mortar
+                                      and pestle. Mix ground coriander, coffee,
+                                      salt, brown sugar, cocoa powder, and
+                                      pepper in a small bowl.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        en-GB:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Toast coriander seeds in a small skillet
+                                      over medium heat, tossing occasionally,
+                                      until fragrant, about 2 minutes. Let cool,
+                                      then finely grind in spice mill or mortar
+                                      and pestle. Mix ground coriander, coffee,
+                                      salt, brown sugar, cocoa powder, and
+                                      pepper in a small bowl.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        en-NL:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Toast coriander seeds in a small skillet
+                                      over medium heat, tossing occasionally,
+                                      until fragrant, about 2 minutes. Let cool,
+                                      then finely grind in spice mill or mortar
+                                      and pestle. Mix ground coriander, coffee,
+                                      salt, brown sugar, cocoa powder, and
+                                      pepper in a small bowl.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        en-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Toast coriander seeds in a small skillet
+                                      over medium heat, tossing occasionally,
+                                      until fragrant, about 2 minutes. Let cool,
+                                      then finely grind in spice mill or mortar
+                                      and pestle. Mix ground coriander, coffee,
+                                      salt, brown sugar, cocoa powder, and
+                                      pepper in a small bowl.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        es-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Tostar las semillas de cilantro en una
+                                      sartén pequeña a fuego medio, revolviendo
+                                      ocasionalmente, hasta que estén fragantes,
+                                      aproximadamente 2 minutos. Deje enfriar,
+                                      luego muela finamente en un molinillo de
+                                      especias o un mortero. Mezcle el cilantro
+                                      molido, el café, la sal, el azúcar morena,
+                                      el cacao en polvo y la pimienta en un
+                                      tazón pequeño.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        fr-CA:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Faire griller les graines de coriandre
+                                      dans une petite poêle à feu moyen, en les
+                                      remuant de temps en temps, jusqu'à ce
+                                      qu'elles soient parfumées, environ 2
+                                      minutes. Laisser refroidir, puis moudre
+                                      finement dans un moulin à épices ou un
+                                      mortier et un pilon. Mélanger la coriandre
+                                      moulue, le café, le sel, la cassonade, le
+                                      cacao en poudre et le poivre dans un petit
+                                      bol.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        nl-NL:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Rooster korianderzaad in een kleine
+                                      koekenpan op middelhoog vuur, af en toe
+                                      omscheppend, tot het geurig is, ongeveer 2
+                                      minuten. Laat afkoelen en maal vervolgens
+                                      fijn in een kruidenmolen of vijzel en
+                                      stamper. Meng gemalen koriander, koffie,
+                                      zout, bruine suiker, cacaopoeder en peper
+                                      in een kleine kom.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                - _id: 42bf6f3c-2d3c-4276-80ce-6ae3dc13d7ad
+                  type: howtoStep
+                  fields:
+                    name:
+                      type: text
+                      locales:
+                        en-CA: Step 4
+                        en-GB: Step 4
+                        en-NL: Step 4
+                        en-US: Step 4
+                        es-US: Paso 4
+                        fr-CA: Étape 4
+                        nl-NL: Stap 4
+                    description:
+                      type: richText
+                      locales:
+                        en-CA:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Prepare a grill for medium-high heat;
+                                      lightly oil grate. Season steaks
+                                      generously with rub (you’ll have some left
+                                      over). Grill steaks, turning occasionally,
+                                      until lightly charred and cooked to
+                                      desired doneness, 8–10 minutes for
+                                      medium-rare. Transfer to a cutting board
+                                      and let rest 10 minutes, then slice
+                                      against the grain. Serve with citrus
+                                      chutney.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        en-GB:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Prepare a grill for medium-high heat;
+                                      lightly oil grate. Season steaks
+                                      generously with rub (you’ll have some left
+                                      over). Grill steaks, turning occasionally,
+                                      until lightly charred and cooked to
+                                      desired doneness, 8–10 minutes for
+                                      medium-rare. Transfer to a cutting board
+                                      and let rest 10 minutes, then slice
+                                      against the grain. Serve with citrus
+                                      chutney.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        en-NL:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Prepare a grill for medium-high heat;
+                                      lightly oil grate. Season steaks
+                                      generously with rub (you’ll have some left
+                                      over). Grill steaks, turning occasionally,
+                                      until lightly charred and cooked to
+                                      desired doneness, 8–10 minutes for
+                                      medium-rare. Transfer to a cutting board
+                                      and let rest 10 minutes, then slice
+                                      against the grain. Serve with citrus
+                                      chutney.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        en-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Prepare a grill for medium-high heat;
+                                      lightly oil grate. Season steaks
+                                      generously with rub (you’ll have some left
+                                      over). Grill steaks, turning occasionally,
+                                      until lightly charred and cooked to
+                                      desired doneness, 8–10 minutes for
+                                      medium-rare. Transfer to a cutting board
+                                      and let rest 10 minutes, then slice
+                                      against the grain. Serve with citrus
+                                      chutney.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        es-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Prepara una parrilla a fuego medio-alto;
+                                      Engrase ligeramente la rejilla. Sazone los
+                                      filetes generosamente con aderezo (le
+                                      sobrará un poco). Ase los bistecs,
+                                      volteándolos ocasionalmente, hasta que
+                                      estén ligeramente carbonizados y cocidos
+                                      hasta el punto de cocción deseado, de 8 a
+                                      10 minutos para que estén medio crudos.
+                                      Transfiera a una tabla de cortar y deje
+                                      reposar 10 minutos, luego corte a
+                                      contrapelo. Sirve con chutney de cítricos.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        fr-CA:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Préparer un gril à feu moyen-élevé; huiler
+                                      légèrement le quadrillage. Assaisonner
+                                      généreusement les steaks avec le mélange
+                                      (il en restera un peu). Griller les
+                                      steaks, en les retournant de temps en
+                                      temps, jusqu'à ce qu'ils soient légèrement
+                                      carbonisés et cuits au degré de cuisson
+                                      souhaité, soit 8 à 10 minutes pour une
+                                      viande à point. Transférer sur une planche
+                                      à découper et à laisser reposer 10
+                                      minutes, puis trancher dans le sens
+                                      contraire des fibres. Servir avec un
+                                      chutney aux agrumes.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        nl-NL:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Bereid een grill voor op middelhoog vuur;
+                                      Vet het rooster licht in. Kruid de steaks
+                                      royaal met rub (je houdt nog wat over).
+                                      Grill steaks, af en toe draaiend, tot ze
+                                      licht verkoold zijn en gaar tot de
+                                      gewenste gaarheid, 8-10 minuten voor
+                                      medium-rare. Leg ze op een snijplank en
+                                      laat 10 minuten rusten, snijd dan tegen de
+                                      draad in. Serveer met citruschutney.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                - _id: 2a38a8e4-1403-44e1-933c-d2a25b5dc653
+                  type: howtoStep
+                  fields:
+                    name:
+                      type: text
+                      locales:
+                        en-CA: Step 5
+                        en-GB: Step 5
+                        en-NL: Step 5
+                        en-US: Step 5
+                        es-US: Paso 5
+                        fr-CA: Étape 5
+                        nl-NL: Stap 5
+                    description:
+                      type: richText
+                      locales:
+                        en-CA:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: 'Do Ahead:'
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 1
+                                    version: 1
+                                  - mode: normal
+                                    text: "\_Rub can be made 1 day ahead. Store airtight at room temperature."
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 1
+                            direction: ltr
+                        en-GB:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: 'Do Ahead:'
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 1
+                                    version: 1
+                                  - mode: normal
+                                    text: "\_Rub can be made 1 day ahead. Store airtight at room temperature."
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 1
+                            direction: ltr
+                        en-NL:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: 'Do Ahead:'
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 1
+                                    version: 1
+                                  - mode: normal
+                                    text: "\_Rub can be made 1 day ahead. Store airtight at room temperature."
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 1
+                            direction: ltr
+                        en-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: 'Do Ahead:'
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 1
+                                    version: 1
+                                  - mode: normal
+                                    text: "\_Rub can be made 1 day ahead. Store airtight at room temperature."
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 1
+                            direction: ltr
+                        es-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: 'Adelante: El'
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 1
+                                    version: 1
+                                  - mode: normal
+                                    text: "\_frote se puede hacer con 1 día de anticipación. Almacene herméticamente a temperatura ambiente."
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 1
+                            direction: ltr
+                        fr-CA:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: 'À faire à l''avance :'
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 1
+                                    version: 1
+                                  - mode: normal
+                                    text: "\_La pâte peut être préparée 1 jour à l'avance. Conservez-la hermétiquement à température ambiante."
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 1
+                            direction: ltr
+                        nl-NL:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: 'Vooruit doen:'
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 1
+                                    version: 1
+                                  - mode: normal
+                                    text: "\_Wrijven kan 1 dag van tevoren worden gemaakt. Luchtdicht bewaren bij kamertemperatuur."
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 1
+                            direction: ltr
+    featuredImage:
+      type: asset
+      value:
+        - _id: 4546d535-be9a-4ee4-9391-627bbf02e8b2
+          type: image
+          fields:
+            id:
+              type: text
+              value: d3fb34d9-da44-42ba-a24f-24e9fefd371a
+            url:
+              value: >-
+                https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/rUXiIruQTfuNOeMmSpNyfg-spiced-and-grilled-steaks-with-citrus-chutney.webp
+              type: text
+            file:
+              type: file
+              value: cc205db5-5856-4f65-bc89-a02deec2f362
+            size:
+              value: 1140678
+              type: number
+            title:
+              type: text
+              value: spiced-and-grilled-steaks-with-citrus-chutney.webp
+            width:
+              value: 1920
+              type: number
+            height:
+              value: 1920
+              type: number
+            mediaType:
+              value: image/webp
+              type: text
+          _source: uniform-assets
+    mainIngredient:
+      type: contentReference
+      value: >-
+        ${#jptr:/ref-f335464d-88f3-4666-baf4-9c450676e3b7-mainIngredient/entries/0}
+  _dataResources:
+    ref-f335464d-88f3-4666-baf4-9c450676e3b7-recipeType:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: b17ea8bf-4d51-4108-8109-c0288edc7214
+    ref-f335464d-88f3-4666-baf4-9c450676e3b7-mainIngredient:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: 205f3e3f-8eac-4d27-9296-5bb03c1cd8b2
+  _locales:
+    - en-US
+    - en-CA
+    - en-NL
+    - en-GB
+    - es-US
+    - nl-NL
+    - fr-CA

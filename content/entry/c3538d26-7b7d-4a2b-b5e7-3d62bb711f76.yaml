@@ -1,0 +1,44 @@
+created: '2024-08-12T13:06:03.645159+00:00'
+modified: '2024-09-24T18:55:38.827533+00:00'
+pattern: false
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+entry:
+  _id: c3538d26-7b7d-4a2b-b5e7-3d62bb711f76
+  _name: What is Acidity in Coffee? And is it good?
+  _slug: what-is-acidity-in-coffee-and-is-it-good
+  _thumbnail: >-
+    https://assets-us-01.kc-usercontent.com:443/bf6fb8b9-53e1-004f-964b-5aaa52ee073c/bbb903e0-c831-4e3d-84cb-40a6d27544f8/acidity_ptwrjf.jpg
+  type: article
+  fields: {}
+  _dataResources:
+    Article By Slug Content:
+      type: kontentAiArticleBySlug
+      variables:
+        limit: '5'
+        order: ''
+        keyword: 'what-is-acidity-in-coffee '
+        language: ${locale}
+        sortOrder: asc
+        contentType: article
+        sortElement: ''
+        languageQuery: '&language=${locale}'
+        searchByQuery: >-
+          elements.slug[range]=what-is-acidity-in-coffee
+          ,what-is-acidity-in-coffee ~
+        contentTypeQuery: '&system.type[eq]=article'
+    ref-c3538d26-7b7d-4a2b-b5e7-3d62bb711f76-tag:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: 0947295b-ef13-48a7-8416-42250bd09ddf
+  _locales:
+    - en-US
+    - es-US
+    - fr-CA
+    - nl-NL
+  _overrides:
+    c3538d26-7b7d-4a2b-b5e7-3d62bb711f76:
+      parameters:
+        tag:
+          type: contentReference
+          value: ${#jptr:/ref-c3538d26-7b7d-4a2b-b5e7-3d62bb711f76-tag/entries}
+  _pattern: ca075af6-b2ba-43f8-b1df-e58b62a13ce1

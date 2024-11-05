@@ -1,0 +1,55 @@
+id: productBundle
+name: Product Bundle
+created: '2024-08-12T13:03:21.168214+00:00'
+updated: '2024-09-19T17:44:46.006403+00:00'
+slugSettings:
+  unique: local
+  required: 'yes'
+  regularExpression: ''
+  regularExpressionMessage: ''
+useTeamPermissions: true
+fields:
+  - id: title
+    name: Title
+    type: text
+    helpText: ''
+    typeConfig: null
+    localizable: true
+  - id: description
+    name: Description
+    type: text
+    helpText: ''
+    typeConfig: null
+    localizable: true
+  - id: logo
+    name: Logo
+    type: asset
+    helpText: ''
+    typeConfig:
+      max: 1
+      min: 0
+    localizable: true
+  - id: discount
+    name: Discount
+    type: number
+    helpText: ''
+    typeConfig:
+      max: '99'
+      min: '0'
+    localizable: false
+  - id: products
+    name: Products
+    type: contentReference
+    helpText: ''
+    typeConfig:
+      max: 10
+      isMulti: true
+      allowedContentTypes:
+        - product
+    localizable: false
+entryName: title
+thumbnailField: logo
+description: ''
+icon: path-divide
+type: contentType
+permissions: []

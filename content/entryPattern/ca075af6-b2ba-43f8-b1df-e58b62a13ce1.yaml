@@ -1,0 +1,80 @@
+created: '2024-08-12T13:07:25.529407+00:00'
+modified: '2024-09-24T18:55:38.827533+00:00'
+pattern: true
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+entry:
+  _id: ca075af6-b2ba-43f8-b1df-e58b62a13ce1
+  _name: Kontent.ai Article
+  _slug: article-pattern
+  _thumbnail: >-
+    https://assets-us-01.kc-usercontent.com:443/bf6fb8b9-53e1-004f-964b-5aaa52ee073c/e386e0e9-bc60-488a-9255-b50bb731d2e9/Ultimate_Filter_Guide_wvfvyd.jpg
+  type: article
+  fields:
+    title:
+      type: text
+      locales:
+        en-US: ${#jptr:/Article By Slug Content/items/0/elements/title/value}
+        es-US: ${#jptr:/Article By Slug Content/items/0/elements/title/value}
+        fr-CA: ${#jptr:/Article By Slug Content/items/0/elements/title/value}
+        nl-NL: ${#jptr:/Article By Slug Content/items/0/elements/title/value}
+    author:
+      type: text
+      locales:
+        en-US: ${#jptr:/Article By Slug Content/items/0/elements/author/value}
+        es-US: ${#jptr:/Article By Slug Content/items/0/elements/author/value}
+        fr-CA: ${#jptr:/Article By Slug Content/items/0/elements/author/value}
+        nl-NL: ${#jptr:/Article By Slug Content/items/0/elements/author/value}
+    source:
+      type: contentReference
+      value: ${#jptr:/ref-ca075af6-b2ba-43f8-b1df-e58b62a13ce1-source/entries/0}
+    thumbnail:
+      type: asset
+      value:
+        - _id: 4f956598-faf4-44e5-8cfe-2e6ed8caf913
+          type: image
+          fields:
+            url:
+              type: text
+              value: >-
+                ${#jptr:/Article By Slug
+                Content/items/0/elements/thumbnail/value/0/url}
+          _source: custom-url
+    description:
+      type: text
+      locales:
+        en-US: ${#jptr:/Article By Slug Content/items/0/elements/description/value}
+        es-US: ${#jptr:/Article By Slug Content/items/0/elements/description/value}
+        fr-CA: ${#jptr:/Article By Slug Content/items/0/elements/description/value}
+        nl-NL: ${#jptr:/Article By Slug Content/items/0/elements/description/value}
+    externalContent:
+      type: json
+      value: ${#jptr:/Article By Slug Content/items/0/elements/content/value}
+  _dataResources:
+    Article By Slug Content:
+      type: kontentAiArticleBySlug
+      variables:
+        limit: '5'
+        order: ''
+        keyword: what-coffee-filter-is-right-for-your-brew
+        language: ${locale}
+        sortOrder: asc
+        contentType: article
+        sortElement: ''
+        languageQuery: '&language=${locale}'
+        searchByQuery: >-
+          elements.slug[range]=what-coffee-filter-is-right-for-your-brew,what-coffee-filter-is-right-for-your-brew~
+        contentTypeQuery: '&system.type[eq]=article'
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
+    ref-ca075af6-b2ba-43f8-b1df-e58b62a13ce1-source:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: 4d719df6-dbeb-40ca-80c6-57042ab40eb9
+  _locales:
+    - en-US
+    - es-US
+    - fr-CA
+    - nl-NL
+  _overridability:
+    parameters:
+      tag: 'yes'

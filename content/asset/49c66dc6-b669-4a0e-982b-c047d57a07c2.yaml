@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 49c66dc6-b669-4a0e-982b-c047d57a07c2
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: Free Chocolate Cake on White Ceramic Plate Stock Photo
+    file:
+      type: file
+      value: 267c1d9c-2e5e-464b-8446-9e767dbe5efc
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/TAmDssFwQu2gjAGVJTdhhw-pexels-photo-5709723.jpeg
+      type: text
+    size:
+      value: 116171
+      type: number
+    width:
+      value: 1124
+      type: number
+    height:
+      value: 750
+      type: number
+    custom: {}
+created: '2024-09-30T19:27:43.381628+00:00'
+modified: '2024-09-30T19:27:43.381628+00:00'

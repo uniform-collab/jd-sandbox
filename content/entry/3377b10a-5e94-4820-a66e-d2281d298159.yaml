@@ -1,0 +1,56 @@
+created: '2023-11-20T09:34:25.842207+00:00'
+modified: '2024-09-24T18:55:38.827533+00:00'
+pattern: false
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+entry:
+  _id: 3377b10a-5e94-4820-a66e-d2281d298159
+  _name: COFFEE MAKERS
+  _slug: coffee-makers
+  _thumbnail: >-
+    https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/sVxBfLPaRr6ALGdO6BYaAA-coffee_makers.webp
+  type: hero
+  fields:
+    image:
+      type: asset
+      value:
+        - _id: 835a743c-bbdf-478c-8d74-96b74bf82cc7
+          type: image
+          fields:
+            id:
+              type: text
+              value: ac4fa323-1338-49f2-96a3-548e53c06d39
+            url:
+              value: >-
+                https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/sVxBfLPaRr6ALGdO6BYaAA-coffee_makers.webp
+              type: text
+            file:
+              type: file
+              value: 1695afa2-f62a-4cf5-b186-be4a5d482d2b
+            size:
+              value: 64522
+              type: number
+            title:
+              type: text
+              value: coffee_makers.webp
+            width:
+              value: 2600
+              type: number
+            height:
+              value: 1300
+              type: number
+            mediaType:
+              value: image/webp
+              type: text
+          _source: uniform-assets
+    title:
+      type: text
+      locales:
+        en-US: COFFEE MAKERS
+        es-US: Cafeteras
+        fr-CA: CAFETIÈRES
+        nl-NL: KOFFIE MAKERS
+  _locales:
+    - en-US
+    - es-US
+    - fr-CA
+    - nl-NL

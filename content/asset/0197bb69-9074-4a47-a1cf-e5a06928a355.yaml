@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 0197bb69-9074-4a47-a1cf-e5a06928a355
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: royale-coffee-pour-over-vintage-drip-coffeemaker-88-3_jnsrnp_rwqplj.jpg
+    file:
+      type: file
+      value: 353e654a-c27d-46e0-93fa-b3bb54349776
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/egExPE3FSQak0tHf_t9k6g-royale-coffee-pour-over-vintage-drip-coffeemaker-88-3_jnsrnp_rwqplj.jpg
+      type: text
+    size:
+      value: 381408
+      type: number
+    width:
+      value: 1280
+      type: number
+    height:
+      value: 1280
+      type: number
+    custom: {}
+created: '2024-01-29T15:17:52.805805+00:00'
+modified: '2024-01-29T15:17:52.805805+00:00'

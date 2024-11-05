@@ -1,0 +1,33 @@
+id: productAccessories
+displayName: Product Accessories
+ttl: 30
+body: ''
+path: /query
+custom:
+  maxDepth: 3
+  proposedName: Query Product
+  allowedOrderBy:
+    - updated_at_DESC
+  allowedContentTypes:
+    - product
+method: GET
+purgeKey: ee83466a-07c4-46f2-b9e1-d7f7850d93a2
+archetype: queryEntries
+variables:
+  limit:
+    type: text
+    default: '20'
+  offset:
+    type: text
+    default: '0'
+  filters:
+    type: text
+    default: '{}'
+  orderBy:
+    type: text
+    default: ''
+  contentTypes:
+    type: text
+    default: ''
+dataSourceId: uniformContent
+allowedOnComponents: []

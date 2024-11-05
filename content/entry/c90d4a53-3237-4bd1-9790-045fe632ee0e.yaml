@@ -1,0 +1,63 @@
+created: '2023-11-20T09:34:30.300266+00:00'
+modified: '2024-09-24T18:55:38.827533+00:00'
+pattern: false
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+entry:
+  _id: c90d4a53-3237-4bd1-9790-045fe632ee0e
+  _name: Engineering goes better...
+  _slug: engineering-goes-better
+  _thumbnail: >-
+    https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/NeTAhe0VSVuMDLABGmhmkA-photo-162.png
+  type: hero
+  fields:
+    image:
+      type: asset
+      value:
+        - _id: 22ab0c3d-d7fa-4f2f-a7d6-0bab53c43435
+          type: image
+          fields:
+            id:
+              type: text
+              value: 6ea51630-fcaf-48bc-b06e-53606fd4993f
+            url:
+              value: >-
+                https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/NeTAhe0VSVuMDLABGmhmkA-photo-162.png
+              type: text
+            file:
+              type: file
+              value: db74da01-d6d9-4ffc-ad3b-f0409fece768
+            size:
+              value: 8951223
+              type: number
+            title:
+              type: text
+              value: photo-162.png
+            width:
+              value: 2972
+              type: number
+            height:
+              value: 1978
+              type: number
+            mediaType:
+              value: image/png
+              type: text
+          _source: uniform-assets
+    title:
+      type: text
+      locales:
+        en-US: Engineering goes better...
+        es-US: La ingeniería va mejor ...
+        fr-CA: L'ingénierie va mieux ...
+        nl-NL: Engineering gaat beter ...
+    description:
+      type: text
+      locales:
+        en-US: with Turkish Coffee
+        es-US: con café turco
+        fr-CA: avec du café turc
+        nl-NL: met Turkse koffie
+  _locales:
+    - en-US
+    - es-US
+    - fr-CA
+    - nl-NL

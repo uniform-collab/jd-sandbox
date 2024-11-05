@@ -1,0 +1,193 @@
+created: '2024-08-12T13:07:01.845999+00:00'
+modified: '2024-09-24T18:55:38.827533+00:00'
+pattern: false
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+entry:
+  _id: eeb202b2-763b-4d9f-95c5-e260f8fda4f3
+  _name: Liberica
+  _slug: liberica
+  type: productCategory
+  fields:
+    logo:
+      type: asset
+      locales:
+        en-US:
+          - _id: 719459e4-263f-44c4-8052-d9fe789a316f
+            type: image
+            fields:
+              id:
+                type: text
+                value: 19a2ad07-6902-4aa1-93f0-77624f3136b1
+              url:
+                value: >-
+                  https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/pmvnlf31Q3GY6qhZR0o6XA-Image-11.png
+                type: text
+              file:
+                type: file
+                value: c1b5ca53-393d-4c5b-9aa3-ccb123a28402
+              size:
+                value: 1188749
+                type: number
+              title:
+                type: text
+                value: Image-11.png
+              width:
+                value: 1024
+                type: number
+              height:
+                value: 1024
+                type: number
+              mediaType:
+                value: image/png
+                type: text
+            _source: uniform-assets
+        es-US:
+          - _id: 719459e4-263f-44c4-8052-d9fe789a316f
+            type: image
+            fields:
+              id:
+                type: text
+                value: 19a2ad07-6902-4aa1-93f0-77624f3136b1
+              url:
+                value: >-
+                  https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/pmvnlf31Q3GY6qhZR0o6XA-Image-11.png
+                type: text
+              file:
+                type: file
+                value: c1b5ca53-393d-4c5b-9aa3-ccb123a28402
+              size:
+                value: 1188749
+                type: number
+              title:
+                type: text
+                value: Image-11.png
+              width:
+                value: 1024
+                type: number
+              height:
+                value: 1024
+                type: number
+              mediaType:
+                value: image/png
+                type: text
+            _source: uniform-assets
+        fr-CA:
+          - _id: 719459e4-263f-44c4-8052-d9fe789a316f
+            type: image
+            fields:
+              id:
+                type: text
+                value: 19a2ad07-6902-4aa1-93f0-77624f3136b1
+              url:
+                value: >-
+                  https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/pmvnlf31Q3GY6qhZR0o6XA-Image-11.png
+                type: text
+              file:
+                type: file
+                value: c1b5ca53-393d-4c5b-9aa3-ccb123a28402
+              size:
+                value: 1188749
+                type: number
+              title:
+                type: text
+                value: Image-11.png
+              width:
+                value: 1024
+                type: number
+              height:
+                value: 1024
+                type: number
+              mediaType:
+                value: image/png
+                type: text
+            _source: uniform-assets
+        nl-NL:
+          - _id: 719459e4-263f-44c4-8052-d9fe789a316f
+            type: image
+            fields:
+              id:
+                type: text
+                value: 19a2ad07-6902-4aa1-93f0-77624f3136b1
+              url:
+                value: >-
+                  https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/pmvnlf31Q3GY6qhZR0o6XA-Image-11.png
+                type: text
+              file:
+                type: file
+                value: c1b5ca53-393d-4c5b-9aa3-ccb123a28402
+              size:
+                value: 1188749
+                type: number
+              title:
+                type: text
+                value: Image-11.png
+              width:
+                value: 1024
+                type: number
+              height:
+                value: 1024
+                type: number
+              mediaType:
+                value: image/png
+                type: text
+            _source: uniform-assets
+    title:
+      type: text
+      locales:
+        en-US: Liberica
+        es-US: Libérica
+        fr-CA: Liberica
+        nl-NL: Liberica
+    description:
+      type: text
+      locales:
+        en-US: >-
+          Discover the rare and exotic flavors of Liberica coffee beans, known
+          for their bold, smoky, and fruity notes. Liberica beans are larger and
+          more asymmetrical than other coffee beans, offering a unique taste
+          experience cherished by coffee connoisseurs. Our selection of Liberica
+          beans is sourced from the best coffee-growing regions, ensuring high
+          quality and exceptional flavor. Whether you’re looking to try
+          something new or indulge in a distinctive coffee experience, Liberica
+          beans provide a rich and memorable cup. Explore our Liberica
+          collection and savor the unique character of these exceptional beans.
+        es-US: >-
+          Descubra los sabores raros y exóticos de los granos de café Liberica,
+          conocidos por sus notas audaces, ahumadas y afrutadas.Los frijoles
+          Liberica son más grandes y más asimétricos que otros granos de café,
+          ofreciendo una experiencia de sabor única apreciada por los
+          conocedores de café.Nuestra selección de frijoles Liberica se obtiene
+          de las mejores regiones de cultivo de café, asegurando un sabor de
+          alta calidad y excepcional.Ya sea que esté buscando probar algo nuevo
+          o disfrutar de una experiencia de café distintiva, los frijoles
+          Liberica proporcionan una taza rica y memorable.Explore nuestra
+          colección Liberica y saborea el carácter único de estos frijoles
+          excepcionales.
+        fr-CA: >-
+          Découvrez les saveurs rares et exotiques des grains de café Liberica,
+          réputés pour leurs notes audacieuses, fumées et fruitées. Les grains
+          de Liberica sont plus grands et plus asymétriques que les autres
+          grains de café, offrant une expérience gustative unique appréciée des
+          connaisseurs de café. Notre sélection de grains de Liberica provient
+          des meilleures régions productrices de café, garantissant une qualité
+          supérieure et une saveur exceptionnelle. Que vous souhaitiez essayer
+          quelque chose de nouveau ou vous offrir une expérience café
+          distinctive, les grains de Liberica offrent une tasse riche et
+          mémorable. Explorez notre collection de Liberica et savourez le
+          caractère unique de ces grains exceptionnels.
+        nl-NL: >-
+          Ontdek de zeldzame en exotische smaken van Liberica-koffiebonen,
+          bekend om hun gedurfde, rokerige en fruitige noten. Liberica-bonen
+          zijn groter en asymmetrischer dan andere koffiebonen, wat een unieke
+          smaakervaring biedt die wordt gewaardeerd door koffiekenners. Onze
+          selectie van Liberica-bonen wordt gesourced uit de beste
+          koffieproducerende regio's, wat zorgt voor hoge kwaliteit en
+          uitzonderlijke smaak. Of u nu iets nieuws wilt proberen of wilt
+          genieten van een onderscheidende koffie-ervaring, Liberica-bonen
+          bieden een rijke en gedenkwaardige kop. Verken onze Liberica-collectie
+          en geniet van het unieke karakter van deze uitzonderlijke bonen.
+  _locales:
+    - en-US
+    - es-US
+    - fr-CA
+    - nl-NL

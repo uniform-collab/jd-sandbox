@@ -1,0 +1,36 @@
+created: '2024-08-12T13:04:33.893566+00:00'
+modified: '2024-09-24T18:55:38.827533+00:00'
+pattern: false
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+entry:
+  _id: 50a2a5c4-3fde-40be-b03a-e3836ca55f6f
+  _name: My first day with Cervello di Caffè.
+  _slug: my-first-day-with-cervello-di-caffe
+  _thumbnail: >-
+    https://images.contentstack.io/v3/assets/blt33b4a43079876016/blt3aee3ae5794bdd38/641b0d40e3ee2c7de118de42/first_day_articles_thumb.jpg
+  type: article
+  fields: {}
+  _dataResources:
+    Article by Slug Content:
+      type: contentstackArticleBySlug
+      variables:
+        query: '{ "slug": "my-first-day-with-cervello-di-caffe" }'
+        locale: ${locale}
+        entriesValue: my-first-day-with-cervello-di-caffe
+        contentTypeUid: article
+    ref-50a2a5c4-3fde-40be-b03a-e3836ca55f6f-tag:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: 0947295b-ef13-48a7-8416-42250bd09ddf
+  _locales:
+    - en-US
+    - es-US
+    - fr-CA
+    - nl-NL
+  _overrides:
+    50a2a5c4-3fde-40be-b03a-e3836ca55f6f:
+      parameters:
+        tag:
+          type: contentReference
+          value: ${#jptr:/ref-50a2a5c4-3fde-40be-b03a-e3836ca55f6f-tag/entries}
+  _pattern: e49d7864-d51e-4eed-994f-2edabae6ff16

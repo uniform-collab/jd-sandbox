@@ -1,0 +1,49 @@
+id: searchFilter
+name: Search filter
+created: '2024-06-04T20:22:27.442392+00:00'
+updated: '2024-08-02T13:59:24.570608+00:00'
+slugSettings:
+  required: 'no'
+useTeamPermissions: true
+fields:
+  - id: filterName
+    name: Filter Name
+    type: text
+    helpText: ''
+    typeConfig: null
+    localizable: false
+  - id: operator
+    name: Operator
+    type: select
+    helpText: ''
+    typeConfig:
+      options:
+        - text: EQ
+          value: eq
+        - text: NEQ
+          value: neq
+        - text: IN
+          value: in
+        - text: NIN
+          value: nin
+      required: true
+    localizable: false
+  - id: key
+    name: Key
+    type: text
+    helpText: ''
+    typeConfig:
+      required: true
+    localizable: false
+  - id: value
+    name: Value
+    type: text
+    helpText: To specify an array, use a delimiter |
+    typeConfig:
+      required: true
+    localizable: false
+entryName: filterName
+description: ''
+icon: search-found
+type: block
+permissions: []

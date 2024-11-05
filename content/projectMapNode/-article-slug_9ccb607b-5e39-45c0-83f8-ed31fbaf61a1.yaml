@@ -1,0 +1,10 @@
+id: 9ccb607b-5e39-45c0-83f8-ed31fbaf61a1
+name: Article Details Page
+type: composition
+data:
+  previewValue: priceless-coffee-at-curto-cafe
+order: 100
+path: /:locale/articles/:article-slug
+compositionId: 2543dfc6-eae7-4bde-a827-e220edc95564
+pathSegment: ':article-slug'
+projectMapId: 62588085-7894-4810-84b6-eaaf0cb5213c

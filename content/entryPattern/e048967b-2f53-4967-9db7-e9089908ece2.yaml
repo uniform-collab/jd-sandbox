@@ -1,0 +1,66 @@
+created: '2024-06-18T13:45:27.669291+00:00'
+modified: '2024-09-24T18:55:38.827533+00:00'
+pattern: true
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+entry:
+  _id: e048967b-2f53-4967-9db7-e9089908ece2
+  _name: Reviews (cs)
+  _slug: testimonial-pattern
+  _thumbnail: ${#jptr:/Testimonial Content/entry/picture}
+  type: testimonial
+  fields:
+    date:
+      type: text
+      locales:
+        en-US: ${#jptr:/Testimonial Content/entry/date_string_}
+    stars:
+      type: text
+      value: ${#jptr:/Testimonial Content/entry/stars}
+    title:
+      type: text
+      locales:
+        en-US: ${#jptr:/Testimonial Content/entry/title}
+    picture:
+      type: asset
+      value:
+        - _id: eb478bdd-eb6f-487b-bca3-58ff0cadfdc1
+          type: image
+          fields:
+            url:
+              type: text
+              value: ${#jptr:/Testimonial Content/entry/picture}
+            title:
+              type: text
+              value: Testimonial ${#jptr:/Testimonial Content/entry/title}
+          _source: custom-url
+    lastName:
+      type: text
+      locales:
+        en-US: ${#jptr:/Testimonial Content/entry/last_name}
+    location:
+      type: text
+      locales:
+        en-US: ${#jptr:/Testimonial Content/entry/location}
+    firstName:
+      type: text
+      locales:
+        en-US: ${#jptr:/Testimonial Content/entry/first_name}
+    experience:
+      type: text
+      locales:
+        en-US: ${#jptr:/Testimonial Content/entry/experience}
+  _dataResources:
+    Testimonial Content:
+      type: contentstackTestimonial
+      variables:
+        query: ''
+        locale: ${locale}
+        entry_uid: blt8e63db674293f21f
+        content_type_uid: testimonial
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
+  _locales:
+    - en-US
+    - es-US
+    - fr-CA
+    - nl-NL

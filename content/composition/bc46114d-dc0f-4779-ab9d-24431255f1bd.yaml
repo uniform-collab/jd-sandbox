@@ -1,0 +1,135 @@
+composition:
+  _name: Custom Article Details Page
+  _id: bc46114d-dc0f-4779-ab9d-24431255f1bd
+  _slug: how-to-brew-a-proper-cuppa
+  type: articleDetailsPage
+  parameters:
+    pageTitle:
+      type: text
+      locales:
+        en-CA: ${#jptr:/Article by Slug Content/entries/0/title} Details Page
+        en-GB: ${#jptr:/Article by Slug Content/entries/0/title} Details Page
+        en-NL: ${#jptr:/Article by Slug Content/entries/0/title} Details Page
+        en-US: ${#jptr:/Article by Slug Content/entries/0/title} Details Page
+        es-US: ${#jptr:/Article by Slug Content/entries/0/title} Página de detalles
+        fr-CA: ${#jptr:/Article by Slug Content/entries/0/title} Détails de la page
+        nl-NL: ${#jptr:/Article by Slug Content/entries/0/title} Details Pagina
+  slots:
+    pageFooter:
+      - _id: 618d19ac-b421-4877-8ee4-fdf7ca3d8ee8
+        type: footer
+        _pattern: 319639e9-4bac-4fb3-8f0b-19088c969fcb
+    pageHeader:
+      - _id: 50c654ca-6184-49b0-b5dd-e1a8b7fb2a51
+        type: header
+        _pattern: e46c8336-acfd-43e8-ac59-8be8f4c33b7d
+    pageContent:
+      - _id: aee7a5b4-4595-45f2-873e-2264bd1e0117
+        type: heroContainer
+        _pattern: 42d16d4a-1412-407b-9d11-4c1c585f8076
+        _dataResources:
+          Hero Content:
+            type: contentstackHero
+            variables:
+              query: ''
+              locale: ${locale}
+              entry_uid: blt0443451b1f5b9d75
+              content_type_uid: content_block
+      - _id: f9a29ea9-322f-40ba-b913-13e224fbd24e
+        type: breadcrumbs
+        parameters:
+          title:
+            type: text
+            locales:
+              en-CA: Article Details Page
+              en-GB: Article Details Page
+              en-NL: Article Details Page
+              en-US: Article Details Page
+              es-US: Página de detalles del artículo
+              fr-CA: Page des détails de l'article
+              nl-NL: Pagina met artikelgegevens
+          separator:
+            type: select
+            value: chevron
+          colorStyle:
+            type: tp-color-style-parameter
+            value: primary
+          displayRootNode:
+            type: checkbox
+            value: true
+          displayPlaceholderNodes:
+            type: checkbox
+            value: true
+      - _id: 76ecb4a8-229c-482a-873e-7c577279c462
+        type: box
+        _pattern: d820b9b2-ab92-400c-b32a-dd6302202275
+        _dataResources:
+          Article by Slug Content:
+            type: contentstackArticleBySlug
+            variables:
+              query: '{ "slug": "how-to-brew-a-proper-cuppa" }'
+              locale: ${locale}
+              include: ''
+              entriesValue: how-to-brew-a-proper-cuppa
+              contentTypeUid: article
+  _dataResources:
+    Article by Slug Content:
+      type: contentstackArticleBySlug
+      variables:
+        query: '{ "slug": "how-to-brew-a-proper-cuppa" }'
+        locale: ${locale}
+        entriesValue: how-to-brew-a-proper-cuppa
+        contentTypeUid: article
+  _overrides:
+    50c654ca-6184-49b0-b5dd-e1a8b7fb2a51:
+      parameters:
+        syntheticGap:
+          type: tp-slider-parameter
+          value: Small
+    aee7a5b4-4595-45f2-873e-2264bd1e0117:
+      parameters:
+        image:
+          type: asset
+          value:
+            - _id: bf60e244-8f73-4d08-99d1-daaf39ccd09b
+              type: image
+              fields:
+                url:
+                  type: text
+                  value: ${#jptr:/Article by Slug Content/entries/0/thumbnail/url}
+              _source: custom-url
+        title:
+          type: text
+          locales:
+            en-US: ${#jptr:/Article by Slug Content/entries/0/title}
+        duration:
+          type: select
+          value: medium
+        titleStyle:
+          type: tp-title-style-parameter
+          value: h2
+        description:
+          type: text
+          locales:
+            en-US: This is a custom article page
+        animationType:
+          type: select
+          value: flyIn
+        animationOrder:
+          type: select
+          value: oneByOne
+        animationPreview:
+          type: tp-play-animation-parameter
+          value: true
+  _locales:
+    - fr-CA
+    - en-US
+    - es-US
+    - nl-NL
+    - en-NL
+    - en-CA
+    - en-GB
+created: '2024-09-05T09:56:12.78825+00:00'
+modified: '2024-09-24T18:55:38.827533+00:00'
+pattern: false
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5

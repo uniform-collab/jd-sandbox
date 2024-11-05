@@ -1,0 +1,11 @@
+id: javadripBlogPosts
+displayName: JavaDrip Blog Posts
+ttl: 30
+path: /posts/
+custom:
+  proposedName: posts/
+method: GET
+purgeKey: bf907ef6-000f-459c-825c-5c24c2362ff0
+archetype: default
+dataSourceId: javadripWordpressBlog
+allowedOnComponents: []

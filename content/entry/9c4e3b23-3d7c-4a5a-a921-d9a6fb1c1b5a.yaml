@@ -1,0 +1,36 @@
+created: '2024-08-12T13:05:41.616462+00:00'
+modified: '2024-09-24T18:55:38.827533+00:00'
+pattern: false
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+entry:
+  _id: 9c4e3b23-3d7c-4a5a-a921-d9a6fb1c1b5a
+  _name: Meet the experts
+  _slug: meet-the-experts
+  _thumbnail: >-
+    //images.ctfassets.net/4v9xo98brk8z/PGsh7il3fQHCJLyfv7Q8h/359ddf628493d44b99a1cf61e0e9cb39/experts_articles_thumb.jpg
+  type: article
+  fields: {}
+  _dataResources:
+    Article by Slug Content:
+      type: contentfulArticleBySlug
+      variables:
+        slug: meet-the-experts
+        locale: ${locale}
+        slugField: fields.slug[in]
+        contentType: article
+    ref-9c4e3b23-3d7c-4a5a-a921-d9a6fb1c1b5a-tag:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: 0947295b-ef13-48a7-8416-42250bd09ddf
+  _locales:
+    - en-US
+    - es-US
+    - fr-CA
+    - nl-NL
+  _overrides:
+    9c4e3b23-3d7c-4a5a-a921-d9a6fb1c1b5a:
+      parameters:
+        tag:
+          type: contentReference
+          value: ${#jptr:/ref-9c4e3b23-3d7c-4a5a-a921-d9a6fb1c1b5a-tag/entries}
+  _pattern: 7150730f-2997-418e-85a4-aff63733493b

@@ -1,0 +1,26 @@
+created: '2024-09-23T14:54:45.657481+00:00'
+modified: '2024-09-24T18:55:38.827533+00:00'
+pattern: false
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+entry:
+  _id: 4b13761b-8cea-49c0-93c2-523c3c357342
+  _name: Simple Coffee without Fancy or Expensive Equipment
+  _slug: simple-coffee-without-fancy-or-expensive-equipment
+  _thumbnail: >-
+    //images.ctfassets.net/4v9xo98brk8z/6LHHQ1nStydWOfAiWfAbHq/587fc175a925d09ba6edf297f02feab1/simple_coffee_header_image.jpg
+  type: article
+  fields: {}
+  _dataResources:
+    Article by Slug Content:
+      type: contentfulArticleBySlug
+      variables:
+        slug: simple-coffee-without-fancy-or-expensive-equipment
+        locale: ${locale}
+        slugField: fields.slug[in]
+        contentType: article
+  _locales:
+    - en-US
+    - es-US
+    - nl-NL
+    - fr-CA
+  _pattern: 7150730f-2997-418e-85a4-aff63733493b

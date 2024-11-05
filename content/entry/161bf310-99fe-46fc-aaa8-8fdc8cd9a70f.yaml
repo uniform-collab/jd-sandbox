@@ -1,0 +1,76 @@
+created: '2024-08-12T13:03:31.693277+00:00'
+modified: '2024-09-24T18:55:38.827533+00:00'
+pattern: false
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+entry:
+  _id: 161bf310-99fe-46fc-aaa8-8fdc8cd9a70f
+  _name: JavaDrip Specialty Bundle
+  _slug: javadrip-specialty-bundle
+  _thumbnail: >-
+    https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/gARuzUOHTuWRfznwA75AbA-icon-header-logo_vjm8yy_rydeez.svg
+  type: productBundle
+  fields:
+    logo:
+      type: asset
+      locales:
+        en-US:
+          - _id: 661867f6-99a6-46c3-9d9e-3ea478b63aa6
+            type: image
+            fields:
+              id:
+                type: text
+                value: d17ff204-fc51-4a29-9f8b-8db5eb1dad46
+              url:
+                value: >-
+                  https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/3-lfXqyBS6a3bHm8hSzfEg-Image-5.webp
+                type: text
+              file:
+                type: file
+                value: 30bcebd8-b432-4895-b86a-6d919ebb2100
+              size:
+                value: 346480
+                type: number
+              title:
+                type: text
+                value: Image-5.webp
+              width:
+                value: 1024
+                type: number
+              height:
+                value: 1024
+                type: number
+              mediaType:
+                value: image/webp
+                type: text
+            _source: uniform-assets
+    title:
+      type: text
+      locales:
+        en-US: JavaDrip Specialty Bundle
+        es-US: Javadrip Specialty Bundle
+        fr-CA: Pack de spécialité Javadrip
+        nl-NL: Javadrip Specialty Bundle
+    discount:
+      type: number
+      value: '15'
+    products:
+      type: contentReference
+      value: ${#jptr:/ref-161bf310-99fe-46fc-aaa8-8fdc8cd9a70f-products/entries}
+    description:
+      type: text
+      locales:
+        en-US: Specialty Coffee Maker and Accessories
+        es-US: Cafetera especializada y accesorios
+        fr-CA: Cafetière spécialisée et accessoires
+        nl-NL: Specialiteit koffiezetapparaat en accessoires
+  _dataResources:
+    ref-161bf310-99fe-46fc-aaa8-8fdc8cd9a70f-products:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: >-
+          df7a5d21-9a3c-49db-92d2-662b0fecce21,adf59ce9-514c-4bc2-bba0-4c32e2457bef,a9c3ccaf-c2bc-418e-bcc4-cb68ceb84622,ff0aa663-ee57-4ab9-87ee-a03ed6046238,6d10823e-c63a-4cc3-a61a-edcad6201bb3,65452f1b-3148-46a0-8a52-86399ddaf40e
+  _locales:
+    - en-US
+    - es-US
+    - fr-CA
+    - nl-NL

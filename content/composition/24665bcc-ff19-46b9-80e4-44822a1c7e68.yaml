@@ -1,0 +1,119 @@
+composition:
+  _name: Beans (Algolia)
+  _id: 24665bcc-ff19-46b9-80e4-44822a1c7e68
+  _slug: beans
+  type: productCategoryPage
+  parameters:
+    $enr:
+      type: $enr
+      value:
+        - cat: int
+          key: b
+          str: 5
+    pageTitle:
+      type: text
+      locales:
+        en-CA: Coffee Beans Page
+        en-GB: Coffee Beans Page
+        en-NL: Coffee Beans Page
+        en-US: Coffee Beans Page
+        es-US: Página de granos de café
+        fr-CA: Page sur les grains de café
+        nl-NL: Koffiebonen Pagina
+  slots:
+    pageFooter:
+      - _id: fdef530a-90f3-43b5-b613-dd36d5cbdca0
+        type: footer
+        _pattern: 319639e9-4bac-4fb3-8f0b-19088c969fcb
+    pageHeader:
+      - _id: 7866101c-7fa6-4b9f-83a4-052deb0207aa
+        type: header
+        _pattern: e46c8336-acfd-43e8-ac59-8be8f4c33b7d
+    pageContent:
+      - _id: 657e15f0-c43a-4400-9571-9b59f0e84e9b
+        type: heroContainer
+        _pattern: daaf620c-8067-496f-9894-d6dea651a3a3
+        _dataResources:
+          Hero Content:
+            type: hero
+            variables:
+              locale: ${locale}
+              entryId: 527ba1e6-c9df-4a2a-b942-b463e37d657c
+      - _id: 87355915-a0a9-4c82-8fec-dbc14b9b864b
+        type: breadcrumbs
+        parameters:
+          separator:
+            type: select
+            value: chevron
+          colorStyle:
+            type: tp-color-style-parameter
+            value: primary
+          displayRootNode:
+            type: checkbox
+            value: true
+          displayPlaceholderNodes:
+            type: checkbox
+            value: true
+      - _id: 31f02761-aa87-40a8-9883-84bdecd13992
+        type: algolia-instantSearch
+        _pattern: 74d0ae67-7701-4123-9832-1844a9d26c79
+      - _id: f389835d-0916-447a-919b-1ff20d72d8aa
+        type: spacer
+        parameters:
+          thickness:
+            type: tp-slider-parameter
+            value: 10px
+  _overrides:
+    31f02761-aa87-40a8-9883-84bdecd13992:
+      parameters:
+        rootCategory:
+          type: select
+          value: Beans
+    657e15f0-c43a-4400-9571-9b59f0e84e9b:
+      parameters:
+        duration:
+          type: select
+          value: medium
+        animationType:
+          type: select
+          value: fadeIn
+        animationOrder:
+          type: select
+          value: oneByOne
+    7866101c-7fa6-4b9f-83a4-052deb0207aa:
+      parameters:
+        syntheticGap:
+          type: tp-slider-parameter
+          value: Small
+    31f02761-aa87-40a8-9883-84bdecd13992|4ec65e7d-e8be-49ee-bf3b-8c7e8f263bb2:
+      parameters:
+        badgeStyle:
+          type: tp-badge-style-parameter
+          value: outline
+        buttonLink:
+          type: link
+          value:
+            path: /products/:product-slug
+            type: projectMapNode
+            nodeId: fb657541-0488-4c22-bce4-64c9cd71bdde
+            projectMapId: 62588085-7894-4810-84b6-eaaf0cb5213c
+            dynamicInputValues:
+              locale: ${locale}
+        buttonStyle:
+          type: tp-button-style-parameter
+          value: link
+        textColorVariant:
+          type: select
+          value: Dark
+  _locales:
+    - fr-CA
+    - en-US
+    - es-US
+    - nl-NL
+    - en-NL
+    - en-CA
+    - en-GB
+created: '2024-09-05T09:56:05.196236+00:00'
+modified: '2024-09-24T18:55:38.827533+00:00'
+pattern: false
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5

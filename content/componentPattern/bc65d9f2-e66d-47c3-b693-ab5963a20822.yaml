@@ -1,0 +1,91 @@
+composition:
+  _name: Box - Article
+  _id: bc65d9f2-e66d-47c3-b693-ab5963a20822
+  type: box
+  parameters:
+    title:
+      type: text
+      locales:
+        en-CA: ${#jptr:/Article by Slug Content/entries/0/title}
+        en-GB: ${#jptr:/Article by Slug Content/entries/0/title}
+        en-NL: ${#jptr:/Article by Slug Content/entries/0/title}
+        en-US: ${#jptr:/Article by Slug Content/entry/fields/title/value}
+        es-US: ${#jptr:/Article by Slug Content/entry/fields/title/value}
+        fr-CA: ${#jptr:/Article by Slug Content/entries/0/title}
+        nl-NL: ${#jptr:/Article by Slug Content/entries/0/title}
+  slots:
+    content:
+      - _id: f77d21f0-1405-413c-a250-f667864ed4ce
+        type: articleContent
+        parameters:
+          title:
+            type: text
+            locales:
+              en-US: ${#jptr:/Article by Slug Content/entry/fields/title/value}
+          article:
+            type: json
+            value: ${#jptr:/Article by Slug Content/entry}
+        _overridability:
+          hideLockedParameters: true
+      - _id: 40f82381-a0a5-4abc-9825-7c17100c0fa5
+        type: enrichmentSetter
+        parameters:
+          enrichments:
+            type: $block
+            value:
+              - _id: b3ee220d-9184-4fa4-892a-ff8364bfcddf
+                type: $loop
+                fields:
+                  body:
+                    type: $block
+                    value:
+                      - _id: 7e983d49-c631-4748-ade2-d45d4f7c6b1b
+                        type: cmsEnrichment
+                        fields:
+                          cat:
+                            type: text
+                            value: >-
+                              ${#jptr:/Article by Slug Content value Loop
+                              Item/fields/cat/value}
+                          key:
+                            type: text
+                            value: >-
+                              ${#jptr:/Article by Slug Content value Loop
+                              Item/fields/key/value}
+                          str:
+                            type: text
+                            value: >-
+                              ${#jptr:/Article by Slug Content value Loop
+                              Item/fields/str/value}
+                _dataResources:
+                  Article by Slug Content value Loop Item:
+                    type: sys-reserved-loop
+                    variables:
+                      connectedData: >-
+                        #jptr:/Article by Slug
+                        Content/entry/fields/enrichments/value:fa=c
+        _overridability:
+          hideLockedParameters: true
+  _dataResources:
+    Article by Slug Content:
+      type: articleBySlug
+      variables:
+        slug: espressogpt-elevating-coffee-brewing-to-futuristic-heights
+        locale: ${locale}
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
+  _locales:
+    - es-US
+    - en-US
+    - en-CA
+    - en-GB
+    - en-NL
+    - fr-CA
+    - nl-NL
+created: '2024-08-12T12:54:31.375895+00:00'
+modified: '2024-09-24T18:55:38.827533+00:00'
+pattern: true
+previewImageUrl: >-
+  https://res.cloudinary.com/uniform-demos/image/upload/v1701959176/preview-images/NewJavaDripTheme/SalesDemo/Patterns/Box_article_preview_image.jpg
+categoryId: 94a7a423-8c09-4264-8495-c562c17d811e
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5

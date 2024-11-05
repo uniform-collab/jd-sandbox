@@ -1,0 +1,36 @@
+created: '2024-08-12T13:05:41.694664+00:00'
+modified: '2024-09-24T18:55:38.827533+00:00'
+pattern: false
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+entry:
+  _id: 9cbeb329-b0cc-4281-b032-f9cf634ec935
+  _name: Uncomplicating Coffee
+  _slug: uncomplicating-coffee
+  _thumbnail: >-
+    //images.ctfassets.net/4v9xo98brk8z/4WxTjwvnka4EhdEfMznwn2/05ba9a903fbf6063ed934531fe1b6b45/Uncomplicating_coffee.jpg
+  type: article
+  fields: {}
+  _dataResources:
+    Article by Slug Content:
+      type: contentfulArticleBySlug
+      variables:
+        slug: uncomplicating-coffee
+        locale: ${locale}
+        slugField: fields.slug[in]
+        contentType: article
+    ref-9cbeb329-b0cc-4281-b032-f9cf634ec935-tag:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: 0947295b-ef13-48a7-8416-42250bd09ddf
+  _locales:
+    - en-US
+    - es-US
+    - fr-CA
+    - nl-NL
+  _overrides:
+    9cbeb329-b0cc-4281-b032-f9cf634ec935:
+      parameters:
+        tag:
+          type: contentReference
+          value: ${#jptr:/ref-9cbeb329-b0cc-4281-b032-f9cf634ec935-tag/entries}
+  _pattern: 7150730f-2997-418e-85a4-aff63733493b

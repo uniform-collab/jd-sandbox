@@ -1,0 +1,215 @@
+created: '2024-06-04T20:23:51.085272+00:00'
+modified: '2024-08-15T12:18:42.468651+00:00'
+pattern: false
+workflowId: 784fa239-ae8a-4ab1-ba68-9806d0fe406a
+workflowStageId: 73608d81-f8b0-4ee3-897b-c976d2dc6670
+entry:
+  _id: 65452f1b-3148-46a0-8a52-86399ddaf40e
+  _name: Coffee Removable Filter Holder for Specialty Coffee Maker
+  _slug: coffee-removable-filter-holder-148
+  _thumbnail: >-
+    https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/ZNinXpmJSmiqnDDQ8rt1pA-118kkwcp30_01_aawcfl.webp
+  type: product
+  fields:
+    body:
+      type: richText
+      locales:
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Coffee Removable Filter Holder for Specialty Coffee Maker
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+            direction: ltr
+        fr-CA:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Porte-filtre à café amovible pour cafetière spécialisée
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+            direction: ltr
+        nl-NL:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Coffee Removable Filter Holder for Specialty Coffee Maker
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+            direction: ltr
+    name:
+      type: text
+      value: Coffee Removable Filter Holder for Specialty Coffee Maker
+    brand:
+      type: contentReference
+      value: ${#jptr:/ref-65452f1b-3148-46a0-8a52-86399ddaf40e-brand/entries/0}
+    title:
+      type: text
+      value: Coffee Removable Filter Holder for Specialty Coffee Maker
+    category:
+      type: contentReference
+      value: ${#jptr:/ref-65452f1b-3148-46a0-8a52-86399ddaf40e-category/entries}
+    variants:
+      type: $block
+      value:
+        - _id: ab1533d9-499a-40c3-a965-be00531d7ac2
+          type: variant
+          fields:
+            code:
+              type: text
+              value: '148'
+            price:
+              type: number
+              locales:
+                en-US: '12.95'
+                fr-CA: '11.96'
+                nl-NL: '11.96'
+                es-US: '12.95'
+            title:
+              type: text
+              locales:
+                en-US: Coffee Removable Filter Holder for Specialty Coffee Maker
+                es-US: Coffee Removable Filter Holder for Specialty Coffee Maker
+                fr-CA: Coffee Removable Filter Holder for Specialty Coffee Maker
+                nl-NL: Coffee Removable Filter Holder for Specialty Coffee Maker
+            currency:
+              type: text
+              locales:
+                en-US: $
+                es-US: $
+                fr-CA: €
+                nl-NL: €
+            imageGallery:
+              type: asset
+              value:
+                - _id: 33e66648-edb8-40e3-99f9-eee65d86eef2
+                  type: image
+                  fields:
+                    id:
+                      type: text
+                      value: f9ccba67-674a-44da-89d3-e925db5e8324
+                    url:
+                      value: >-
+                        https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/dsiec73KTdS0rA2miarmug-118kkwcp30_01_aawcfl.webp
+                      type: text
+                    file:
+                      type: file
+                      value: c92ba15e-4878-4ffe-993a-ebd090efc015
+                    size:
+                      value: 10362
+                      type: number
+                    title:
+                      type: text
+                      value: 118kkwcp30_01_aawcfl.webp
+                    width:
+                      value: 800
+                      type: number
+                    height:
+                      value: 600
+                      type: number
+                    mediaType:
+                      value: image/webp
+                      type: text
+                  _source: uniform-assets
+    primaryImage:
+      type: asset
+      value:
+        - _id: 83985b23-72b9-4a12-9fe2-82e15f00a49f
+          type: image
+          fields:
+            id:
+              type: text
+              value: 0ef2eee4-d27b-4748-a85b-5b638017b715
+            url:
+              value: >-
+                https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/ZNinXpmJSmiqnDDQ8rt1pA-118kkwcp30_01_aawcfl.webp
+              type: text
+            file:
+              type: file
+              value: 0de470d3-983c-4875-96de-50ab17f63d68
+            size:
+              value: 10362
+              type: number
+            title:
+              type: text
+              value: 118kkwcp30_01_aawcfl.webp
+            width:
+              value: 800
+              type: number
+            height:
+              value: 600
+              type: number
+            mediaType:
+              value: image/webp
+              type: text
+          _source: uniform-assets
+    recommendations:
+      type: contentReference
+      value: >-
+        ${#jptr:/ref-65452f1b-3148-46a0-8a52-86399ddaf40e-recommendations/entries}
+    shortDescription:
+      type: text
+      locales:
+        en-US: Coffee Removable Filter Holder for Specialty Coffee Maker
+        es-US: Soporte de filtro extraíble de café para cafetera especializada
+        fr-CA: Porte-filtre à café amovible pour cafetière spécialisée
+        nl-NL: Koffie verwijderbare filterhouder voor speciaal koffiezetapparaat
+  _dataResources:
+    ref-65452f1b-3148-46a0-8a52-86399ddaf40e-brand:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: de5d95bc-f87f-4503-a635-fec03d9f06a1
+    ref-65452f1b-3148-46a0-8a52-86399ddaf40e-category:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: 4fb71159-ddac-4bca-9004-0405ed43c2d8
+    ref-65452f1b-3148-46a0-8a52-86399ddaf40e-recommendations:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: >-
+          df7a5d21-9a3c-49db-92d2-662b0fecce21,82b84782-4236-4b06-a994-59f088896b91,72b49ac2-bbf3-48a7-b522-0947483e9131,d4e5eec7-6670-42ef-adcb-71645e05e836,dd9a7e4d-56a3-4a0b-9679-345d19e6da49
+  _locales:
+    - en-US
+    - es-US
+    - fr-CA
+    - nl-NL

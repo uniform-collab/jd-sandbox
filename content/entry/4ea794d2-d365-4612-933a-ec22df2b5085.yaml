@@ -1,0 +1,33 @@
+created: '2024-08-12T13:04:23.137132+00:00'
+modified: '2024-09-24T18:55:38.827533+00:00'
+pattern: false
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+entry:
+  _id: 4ea794d2-d365-4612-933a-ec22df2b5085
+  _name: Simple Coffee without Fancy or Expensive Equipment
+  _slug: simple-coffee-without-fancy-or-expensive-equipment
+  _thumbnail: >-
+    https://javadripblog.wordpress.com/wp-content/uploads/2024/01/simple-coffee-header-image.jpg
+  type: article
+  fields: {}
+  _dataResources:
+    JavaDrip Post by Slug Content:
+      type: javadripPostBySlug
+      variables:
+        slug: simple-coffee-without-fancy-or-expensive-equipment
+    ref-4ea794d2-d365-4612-933a-ec22df2b5085-tag:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: 059615df-5702-40b2-ad1e-f420f76b9c4b
+  _locales:
+    - en-US
+    - es-US
+    - fr-CA
+    - nl-NL
+  _overrides:
+    4ea794d2-d365-4612-933a-ec22df2b5085:
+      parameters:
+        tag:
+          type: contentReference
+          value: ${#jptr:/ref-4ea794d2-d365-4612-933a-ec22df2b5085-tag/entries}
+  _pattern: 9ce6d41a-73b6-47fb-8289-6d33d231ba92

@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: a35b4868-bc10-43b9-9296-23fa7f7ca94b
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: pumpkin-spice-latte-icebox-cake-whipped-cream.webp
+    file:
+      type: file
+      value: f677d7cb-4088-4518-bd05-b42ff50ae125
+    mediaType:
+      value: image/webp
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/Twu3QxRnQpS0t4Kod2vcYw-pumpkin-spice-latte-icebox-cake-whipped-cream.webp
+      type: text
+    size:
+      value: 74162
+      type: number
+    width:
+      value: 1600
+      type: number
+    height:
+      value: 1067
+      type: number
+    custom: {}
+created: '2024-09-26T17:33:29.914687+00:00'
+modified: '2024-09-26T17:33:29.914687+00:00'

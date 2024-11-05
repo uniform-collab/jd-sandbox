@@ -1,0 +1,286 @@
+created: '2024-06-04T20:24:04.3581+00:00'
+modified: '2024-08-15T12:20:28.677533+00:00'
+pattern: false
+workflowId: 784fa239-ae8a-4ab1-ba68-9806d0fe406a
+workflowStageId: 73608d81-f8b0-4ee3-897b-c976d2dc6670
+entry:
+  _id: cd3953fa-6048-4965-be4e-fb470d15bc2b
+  _name: Ember Hammered Copper Pot
+  _slug: ember-hammered-copper-pot-137
+  _thumbnail: >-
+    https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/qCf0ALi0TWi9ydlPGFgVQg-ember-hammered-copper-pot-137-1_opkizg_dvuj5k.jpg
+  type: product
+  fields:
+    body:
+      type: richText
+      locales:
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Thickest Hand Engraved Copper Turkish Coffee Pot. A Very
+                      Authentic &amp; Beautiful Piece. Completely Hand Made and
+                      Engraved in Turkey by CopperBull. Copper Thickness : 2mm
+                      Capacity: 15Oz (5-6 demitasse cups) Height:4\" Diameter at
+                      base:3.75\" Weight:11 Oz. Lined with food safe tin. Wooden
+                      Handle with mother of pearl inlay.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+            direction: ltr
+        fr-CA:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Cafetière turque en cuivre gravée à la main la plus
+                      épaisse. Un restaurant très authentique et authentique.
+                      Belle pièce. Entièrement fabriqué à la main et gravé en
+                      Turquie par CopperBull. Épaisseur du cuivre : 2 mm
+                      Capacité : 15 oz (5-6 tasses demitasse) Hauteur : 4\"
+                      Diamètre à la base : 3,75\" Poids : 11 oz. Doublé d’étain
+                      alimentaire. Manche en bois avec incrustation de nacre.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+            direction: ltr
+        nl-NL:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Dikste handgegraveerde koperen Turkse koffiepot. Een zeer
+                      authentieke &amp; Mooi stuk. Volledig met de hand gemaakt
+                      en gegraveerd in Turkije door CopperBull. Koperdikte: 2 mm
+                      Capaciteit: 15Oz (5-6 demitasse cups) Hoogte: 4\" Diameter
+                      aan de basis: 3,75\" Gewicht: 11 Oz. Gevoerd met
+                      voedselveilig blik. Houten handvat met parelmoer inleg.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+            direction: ltr
+    name:
+      type: text
+      value: Ember Hammered Copper Pot
+    brand:
+      type: contentReference
+      value: ${#jptr:/ref-cd3953fa-6048-4965-be4e-fb470d15bc2b-brand/entries/0}
+    title:
+      type: text
+      value: Ember Hammered Copper Pot
+    category:
+      type: contentReference
+      value: ${#jptr:/ref-cd3953fa-6048-4965-be4e-fb470d15bc2b-category/entries}
+    variants:
+      type: $block
+      value:
+        - _id: 4fa57515-ab77-4e33-8239-b7ae02fd8474
+          type: variant
+          fields:
+            code:
+              type: text
+              value: '137'
+            price:
+              type: number
+              locales:
+                en-US: '34.8'
+                fr-CA: '32.14'
+                nl-NL: '32.14'
+                es-US: '34.8'
+            title:
+              type: text
+              locales:
+                en-US: Ember Hammered Copper Pot
+                es-US: Ember Hammered Copper Pot
+                fr-CA: Ember Hammered Copper Pot
+                nl-NL: Ember Hammered Copper Pot
+            currency:
+              type: text
+              locales:
+                en-US: $
+                es-US: $
+                fr-CA: €
+                nl-NL: €
+            imageGallery:
+              type: asset
+              value:
+                - _id: d808e57d-c693-4d1f-8e73-0f25198f9636
+                  type: image
+                  fields:
+                    id:
+                      type: text
+                      value: b90ef421-9d3e-4e65-838f-d78d3fde8a75
+                    url:
+                      value: >-
+                        https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/P4u2UGpMRbeG0YMVDf8xhg-ember-hammered-copper-pot-137-1_opkizg_dvuj5k.jpg
+                      type: text
+                    file:
+                      type: file
+                      value: 5b1dfc9c-04e7-44d6-8971-ef55b44a4c4a
+                    size:
+                      value: 168925
+                      type: number
+                    title:
+                      type: text
+                      value: ember-hammered-copper-pot-137-1_opkizg_dvuj5k.jpg
+                    width:
+                      value: 1280
+                      type: number
+                    height:
+                      value: 1280
+                      type: number
+                    mediaType:
+                      value: image/jpeg
+                      type: text
+                  _source: uniform-assets
+                - _id: 229edb14-a5cc-4a21-b0e6-4f7340b00e3b
+                  type: image
+                  fields:
+                    id:
+                      type: text
+                      value: cb17f92e-bef4-4167-b6bc-1431f24c68f4
+                    url:
+                      value: >-
+                        https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/U7GTqlyOS92RQpSiTtN4WQ-ember-hammered-copper-pot-137-2_ys8wld_fyk10q.jpg
+                      type: text
+                    file:
+                      type: file
+                      value: 009c04ca-41f1-4527-93dd-65a49cc2ca19
+                    size:
+                      value: 534703
+                      type: number
+                    title:
+                      type: text
+                      value: ember-hammered-copper-pot-137-2_ys8wld_fyk10q.jpg
+                    width:
+                      value: 1280
+                      type: number
+                    height:
+                      value: 1280
+                      type: number
+                    mediaType:
+                      value: image/jpeg
+                      type: text
+                  _source: uniform-assets
+    primaryImage:
+      type: asset
+      value:
+        - _id: d53c7fc0-9413-4db5-8c43-b6bf7d58660d
+          type: image
+          fields:
+            id:
+              type: text
+              value: 623069b0-ab0f-476c-9669-ee7ac49cca25
+            url:
+              value: >-
+                https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/qCf0ALi0TWi9ydlPGFgVQg-ember-hammered-copper-pot-137-1_opkizg_dvuj5k.jpg
+              type: text
+            file:
+              type: file
+              value: 8ee12c0b-c229-4dba-9792-ca53917c1a94
+            size:
+              value: 168925
+              type: number
+            title:
+              type: text
+              value: ember-hammered-copper-pot-137-1_opkizg_dvuj5k.jpg
+            width:
+              value: 1280
+              type: number
+            height:
+              value: 1280
+              type: number
+            mediaType:
+              value: image/jpeg
+              type: text
+          _source: uniform-assets
+    recommendations:
+      type: contentReference
+      value: >-
+        ${#jptr:/ref-cd3953fa-6048-4965-be4e-fb470d15bc2b-recommendations/entries}
+    shortDescription:
+      type: text
+      locales:
+        en-US: >-
+          Thickest Hand Engraved Copper Turkish Coffee Pot. A Very Authentic
+          &amp; Beautiful Piece. Completely Hand Made and Engraved in Turkey by
+          CopperBull. Copper Thickness : 2mm Capacity: 15Oz (5-6 demitasse cups)
+          Height:4\" Diameter at base:3.75\" Weight:11 Oz. Lined with food safe
+          tin. Wooden Handle with mother of pearl inlay.
+        es-US: >-
+          La cafetera turca de cobre más gruesa grabada a mano.Un muy auténtico
+          & amp;Hermosa pieza.Completamente hecho a mano y grabado en Turquía
+          por Copperbull.Espesor de cobre: ​​Capacidad de 2 mm: 15 oz (5-6 tazas
+          de demitasse) Altura: 4 \ "Diámetro en la base: 3.75 \" Peso: 11
+          oz.Forrado con lata segura de alimentos.Mango de madera con
+          incrustación de madre de perlas.
+        fr-CA: >-
+          Cafetière turque en cuivre gravée à la main la plus épaisse. Un
+          restaurant très authentique et authentique. Belle pièce. Entièrement
+          fabriqué à la main et gravé en Turquie par CopperBull. Épaisseur du
+          cuivre : 2 mm Capacité : 15 oz (5-6 tasses demitasse) Hauteur : 4\"
+          Diamètre à la base : 3,75\" Poids : 11 oz. Doublé d’étain alimentaire.
+          Manche en bois avec incrustation de nacre.
+        nl-NL: >-
+          Dikste handgegraveerde koperen Turkse koffiepot. Een zeer authentieke
+          &amp; Mooi stuk. Volledig met de hand gemaakt en gegraveerd in Turkije
+          door CopperBull. Koperdikte: 2 mm Capaciteit: 15Oz (5-6 demitasse
+          cups) Hoogte: 4\" Diameter aan de basis: 3,75\" Gewicht: 11 Oz.
+          Gevoerd met voedselveilig blik. Houten handvat met parelmoer inleg.
+  _dataResources:
+    ref-cd3953fa-6048-4965-be4e-fb470d15bc2b-brand:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: 209cf989-a9a6-4740-b7ca-d6fcee62c3e8
+    ref-cd3953fa-6048-4965-be4e-fb470d15bc2b-category:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: >-
+          361a2302-2da1-4030-940b-7b67e256778a,64d19761-b85e-4e33-8438-e4296de791e2
+    ref-cd3953fa-6048-4965-be4e-fb470d15bc2b-recommendations:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: >-
+          82b84782-4236-4b06-a994-59f088896b91,72b49ac2-bbf3-48a7-b522-0947483e9131,3b15349b-aac2-4a0f-9d62-a30fc016a704
+  _locales:
+    - en-US
+    - es-US
+    - fr-CA
+    - nl-NL

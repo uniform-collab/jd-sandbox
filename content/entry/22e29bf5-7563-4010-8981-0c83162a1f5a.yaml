@@ -1,0 +1,22 @@
+created: '2023-11-20T09:34:25.439462+00:00'
+modified: '2024-09-24T18:55:38.827533+00:00'
+pattern: false
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+entry:
+  _id: 22e29bf5-7563-4010-8981-0c83162a1f5a
+  _name: 'Bean There, Asked That:'
+  _slug: bean-there-asked-that
+  type: faq
+  fields:
+    title:
+      type: text
+      locales:
+        en-US: 'Bean There, Asked That:'
+        es-US: 'Bean allí, pidió eso:'
+        fr-CA: 'Bean là-bas, a demandé cela:'
+        nl-NL: 'Boon daar, vroeg dat:'
+  _locales:
+    - en-US
+    - es-US
+    - fr-CA
+    - nl-NL

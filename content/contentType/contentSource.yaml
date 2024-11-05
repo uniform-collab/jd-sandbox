@@ -1,0 +1,47 @@
+id: contentSource
+name: Content Source
+created: '2024-08-12T13:03:17.892662+00:00'
+updated: '2024-09-10T18:09:26.850068+00:00'
+slugSettings:
+  required: 'no'
+useTeamPermissions: true
+fields:
+  - id: title
+    name: Title
+    type: text
+    helpText: ''
+    typeConfig: null
+    localizable: true
+  - id: description
+    name: Description
+    type: text
+    helpText: ''
+    typeConfig: null
+    localizable: true
+  - id: value
+    name: Value
+    type: text
+    helpText: ''
+    typeConfig: null
+    localizable: true
+  - id: logo
+    name: Logo
+    type: asset
+    helpText: ''
+    typeConfig:
+      max: 1
+      min: 0
+    localizable: false
+  - id: displayPriority
+    name: Display Priority
+    type: checkbox
+    helpText: >-
+      Check to mark this filter as a high-priority. Filters with the
+      high-priority will appear at the top of the list in filter box
+    typeConfig: null
+entryName: title
+thumbnailField: logo
+description: ''
+icon: arrow-down-r
+type: contentType
+permissions: []

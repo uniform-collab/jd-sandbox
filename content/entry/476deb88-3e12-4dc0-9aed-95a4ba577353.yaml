@@ -1,0 +1,88 @@
+created: '2023-11-20T09:34:26.676254+00:00'
+modified: '2024-09-24T18:55:38.827533+00:00'
+pattern: false
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+entry:
+  _id: 476deb88-3e12-4dc0-9aed-95a4ba577353
+  _name: Excellent Coffee maker
+  _slug: excellent-coffee-maker
+  _thumbnail: >-
+    https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/EZzEgV0NQS2g9qGhXVZ02g-person_photo_2.jpg
+  type: testimonial
+  fields:
+    stars:
+      type: text
+      value: '4'
+    title:
+      type: text
+      locales:
+        en-US: Excellent Coffee maker
+        es-US: Excelente cafetera
+        fr-CA: Excellent cafetière
+        nl-NL: Uitstekend koffiezetapparaat
+    picture:
+      type: asset
+      value:
+        - _id: e4ee8b0a-f349-4fe6-860e-da8d721559f7
+          type: image
+          fields:
+            id:
+              type: text
+              value: f0d14b90-22fc-4f68-896c-847bc3cc7c4f
+            url:
+              value: >-
+                https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/EZzEgV0NQS2g9qGhXVZ02g-person_photo_2.jpg
+              type: text
+            file:
+              type: file
+              value: 87d04ecd-89cd-483f-b063-47994cd85e32
+            size:
+              value: 18613
+              type: number
+            title:
+              type: text
+              value: person_photo_2.jpg
+            width:
+              value: 256
+              type: number
+            height:
+              value: 256
+              type: number
+            mediaType:
+              value: image/jpeg
+              type: text
+          _source: uniform-assets
+    product:
+      type: contentReference
+      value: ${#jptr:/ref-476deb88-3e12-4dc0-9aed-95a4ba577353-product/entries/0}
+    lastName:
+      type: text
+      locales:
+        en-US: Selman
+        es-US: Selman
+        fr-CA: Selman
+        nl-NL: Selman
+    firstName:
+      type: text
+      locales:
+        en-US: Emily
+        es-US: Emily
+        fr-CA: Emilie
+        nl-NL: Emily
+    experience:
+      type: text
+      locales:
+        en-US: brews delicious coffee and easy to use
+        es-US: Cervecer el delicioso café y fácil de usar
+        fr-CA: Brews délicieux café et facile à utiliser
+        nl-NL: Zet heerlijke koffie en gemakkelijk te gebruiken
+  _dataResources:
+    ref-476deb88-3e12-4dc0-9aed-95a4ba577353-product:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: df7a5d21-9a3c-49db-92d2-662b0fecce21
+  _locales:
+    - en-US
+    - es-US
+    - fr-CA
+    - nl-NL

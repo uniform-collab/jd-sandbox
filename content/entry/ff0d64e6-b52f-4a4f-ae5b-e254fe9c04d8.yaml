@@ -1,0 +1,50 @@
+created: '2024-09-26T14:37:27.512559+00:00'
+modified: '2024-09-26T14:37:55.094182+00:00'
+pattern: false
+entry:
+  _id: ff0d64e6-b52f-4a4f-ae5b-e254fe9c04d8
+  _name: Cold Drink
+  _slug: cold-drink
+  _thumbnail: >-
+    https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/vAQl_PcRSzaaXNLdWuZJrA-cold-brew-chicory-coffee.webp
+  type: recipeType
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: Cold Drink
+    image:
+      type: asset
+      locales:
+        en-US:
+          - _id: 3e769552-75a7-4c67-89f0-336d6e5e5dfa
+            type: image
+            fields:
+              id:
+                type: text
+                value: 09fa347a-32d6-479e-85d8-0f71bdb33c47
+              url:
+                value: >-
+                  https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/vAQl_PcRSzaaXNLdWuZJrA-cold-brew-chicory-coffee.webp
+                type: text
+              file:
+                type: file
+                value: 2b89d79f-f2fc-466e-9f81-61828d4b4c44
+              size:
+                value: 105202
+                type: number
+              title:
+                type: text
+                value: cold-brew-chicory-coffee.webp
+              width:
+                value: 979
+                type: number
+              height:
+                value: 979
+                type: number
+              mediaType:
+                value: image/webp
+                type: text
+            _source: uniform-assets
+  _locales:
+    - en-US

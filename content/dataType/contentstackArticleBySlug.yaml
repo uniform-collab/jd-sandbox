@@ -1,0 +1,38 @@
+id: contentstackArticleBySlug
+displayName: Article by Slug
+ttl: 30
+path: /content_types/${contentTypeUid}/entries?${include}
+custom:
+  include: 2
+  imagePath: thumbnail.url
+  entriesFieldId: slug
+  allowContentTypeUid: article
+  enableFilterByLocale: true
+method: GET
+purgeKey: 9b858649-5ca5-4a88-9d65-84caac8127b2
+archetype: entriesByField
+variables:
+  query:
+    type: text
+    default: '{ "uid": { "$in": [ "" ] } }'
+    displayName: Query
+  locale:
+    type: text
+    default: ''
+    displayName: Locale
+  include:
+    type: text
+    default: ''
+    displayName: Include
+  contentTypeUid:
+    type: text
+    default: article
+    displayName: Entry Type
+parameters:
+  - key: query
+    value: ${query}
+  - key: locale
+    value: ${locale}
+    omitIfEmpty: true
+dataSourceId: contentstackDataSource
+allowedOnComponents: []

@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 103306a0-7f42-42fb-805f-b77f3f91ee70
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: medium-roast-coffee-81-2_g5le06_tcuz01.jpg
+    file:
+      type: file
+      value: a7a609f3-4912-4488-b6fe-9e619ca2209f
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/d6xdsEeHRYiRGTPoTwvtdg-medium-roast-coffee-81-2_g5le06_tcuz01.jpg
+      type: text
+    size:
+      value: 753423
+      type: number
+    width:
+      value: 1280
+      type: number
+    height:
+      value: 1280
+      type: number
+    custom: {}
+created: '2024-01-29T15:11:39.509215+00:00'
+modified: '2024-01-29T15:11:39.509215+00:00'

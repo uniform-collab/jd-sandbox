@@ -1,0 +1,12 @@
+id: int
+name: Interest
+cap: 100
+values:
+  - id: d
+    value: Accessories
+  - id: b
+    value: Coffee Beans
+  - id: c
+    value: Coffee Makers
+  - id: espressoGPT
+    value: EspressoGPT

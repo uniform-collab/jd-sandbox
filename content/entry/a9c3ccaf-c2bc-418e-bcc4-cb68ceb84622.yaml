@@ -1,0 +1,215 @@
+created: '2024-06-04T20:23:54.845933+00:00'
+modified: '2024-08-15T12:19:54.309562+00:00'
+pattern: false
+workflowId: 784fa239-ae8a-4ab1-ba68-9806d0fe406a
+workflowStageId: 73608d81-f8b0-4ee3-897b-c976d2dc6670
+entry:
+  _id: a9c3ccaf-c2bc-418e-bcc4-cb68ceb84622
+  _name: Frother Whisk
+  _slug: frother-whisk-150
+  _thumbnail: >-
+    https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/UMnJKptIQ12ENZ2o4QCOqg-fold-away-frother_fkxh99_ngusb4.jpg
+  type: product
+  fields:
+    body:
+      type: richText
+      locales:
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Frother Whisk for Specialty Coffee Maker
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+            direction: ltr
+        fr-CA:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Fouet mousseur pour cafetière spécialisée
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+            direction: ltr
+        nl-NL:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Opschuimergarde voor speciaal koffiezetapparaat
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+            direction: ltr
+    name:
+      type: text
+      value: Frother Whisk
+    brand:
+      type: contentReference
+      value: ${#jptr:/ref-a9c3ccaf-c2bc-418e-bcc4-cb68ceb84622-brand/entries/0}
+    title:
+      type: text
+      value: Frother Whisk
+    category:
+      type: contentReference
+      value: ${#jptr:/ref-a9c3ccaf-c2bc-418e-bcc4-cb68ceb84622-category/entries}
+    variants:
+      type: $block
+      value:
+        - _id: 4c2c63fe-de52-47a0-b6c2-7d3e76904971
+          type: variant
+          fields:
+            code:
+              type: text
+              value: '150'
+            price:
+              type: number
+              locales:
+                en-US: '9.95'
+                fr-CA: '9.19'
+                nl-NL: '9.19'
+                es-US: '9.95'
+            title:
+              type: text
+              locales:
+                en-US: Frother Whisk
+                es-US: Frother Whisk
+                fr-CA: Frother Whisk
+                nl-NL: Frother Whisk
+            currency:
+              type: text
+              locales:
+                en-US: $
+                es-US: $
+                fr-CA: €
+                nl-NL: €
+            imageGallery:
+              type: asset
+              value:
+                - _id: 54cd6f96-ca37-492d-8ad7-10e5c23cdba8
+                  type: image
+                  fields:
+                    id:
+                      type: text
+                      value: 70d57962-c32b-4684-a255-010756fc5dfa
+                    url:
+                      value: >-
+                        https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/rh3Md55bRDKLhtNDyQozRQ-fold-away-frother_fkxh99_ngusb4.jpg
+                      type: text
+                    file:
+                      type: file
+                      value: 34dd27cb-6619-49aa-a8a6-6e2691ff9a9b
+                    size:
+                      value: 3760
+                      type: number
+                    title:
+                      type: text
+                      value: fold-away-frother_fkxh99_ngusb4.jpg
+                    width:
+                      value: 250
+                      type: number
+                    height:
+                      value: 250
+                      type: number
+                    mediaType:
+                      value: image/jpeg
+                      type: text
+                  _source: uniform-assets
+    primaryImage:
+      type: asset
+      value:
+        - _id: 1e09509e-f5ed-4a2b-906d-00915f175ea7
+          type: image
+          fields:
+            id:
+              type: text
+              value: f8c7b0df-5638-42a5-8c3a-0128e5b552c1
+            url:
+              value: >-
+                https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/UMnJKptIQ12ENZ2o4QCOqg-fold-away-frother_fkxh99_ngusb4.jpg
+              type: text
+            file:
+              type: file
+              value: 0a827f07-7294-431d-ab54-5755144be4bd
+            size:
+              value: 3760
+              type: number
+            title:
+              type: text
+              value: fold-away-frother_fkxh99_ngusb4.jpg
+            width:
+              value: 250
+              type: number
+            height:
+              value: 250
+              type: number
+            mediaType:
+              value: image/jpeg
+              type: text
+          _source: uniform-assets
+    recommendations:
+      type: contentReference
+      value: >-
+        ${#jptr:/ref-a9c3ccaf-c2bc-418e-bcc4-cb68ceb84622-recommendations/entries}
+    shortDescription:
+      type: text
+      locales:
+        en-US: Frother Whisk for Specialty Coffee Maker
+        es-US: Frother Watch para cafetera especializada
+        fr-CA: Fouet mousseur pour cafetière spécialisée
+        nl-NL: Opschuimergarde voor speciaal koffiezetapparaat
+  _dataResources:
+    ref-a9c3ccaf-c2bc-418e-bcc4-cb68ceb84622-brand:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: de5d95bc-f87f-4503-a635-fec03d9f06a1
+    ref-a9c3ccaf-c2bc-418e-bcc4-cb68ceb84622-category:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: 4fb71159-ddac-4bca-9004-0405ed43c2d8
+    ref-a9c3ccaf-c2bc-418e-bcc4-cb68ceb84622-recommendations:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: >-
+          df7a5d21-9a3c-49db-92d2-662b0fecce21,82b84782-4236-4b06-a994-59f088896b91,72b49ac2-bbf3-48a7-b522-0947483e9131,3b15349b-aac2-4a0f-9d62-a30fc016a704,4d95682d-7de0-4b19-a0f5-13e4e6f780c1
+  _locales:
+    - en-US
+    - es-US
+    - fr-CA
+    - nl-NL

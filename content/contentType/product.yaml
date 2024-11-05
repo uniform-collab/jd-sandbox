@@ -1,0 +1,121 @@
+id: product
+name: Product
+created: '2024-06-04T20:22:26.844331+00:00'
+updated: '2024-08-08T10:39:25.835183+00:00'
+slugSettings:
+  required: 'no'
+useTeamPermissions: true
+workflowId: 784fa239-ae8a-4ab1-ba68-9806d0fe406a
+fields:
+  - id: title
+    name: Title
+    type: text
+    helpText: ''
+    typeConfig:
+      required: true
+      multiline: false
+  - id: name
+    name: Product Name
+    type: text
+    helpText: ''
+    typeConfig:
+      required: true
+  - id: shortDescription
+    name: Short Description
+    type: text
+    helpText: ''
+    typeConfig:
+      multiline: true
+      linesCount: '4'
+    localizable: true
+  - id: body
+    name: Body
+    type: richText
+    helpText: ''
+    typeConfig:
+      elements:
+        builtIn:
+          - h2
+          - h3
+          - h4
+          - unorderedList
+          - orderedList
+          - link
+          - quote
+          - variable
+      required: false
+      formatting:
+        builtIn:
+          - bold
+          - italic
+          - underline
+    localizable: true
+  - id: primaryImage
+    name: Primary Image
+    type: asset
+    helpText: ''
+    typeConfig:
+      max: 1
+      min: 0
+      required: true
+    localizable: false
+  - id: group_taxonomy
+    name: Taxonomy
+    type: group
+    typeConfig:
+      collapsed: true
+      childrenParams:
+        - category
+        - category
+        - brand
+        - variants
+        - recommendations
+  - id: category
+    name: Category
+    type: contentReference
+    helpText: ''
+    typeConfig:
+      isMulti: true
+      allowedContentTypes:
+        - productCategory
+    localizable: false
+  - id: brand
+    name: Brand
+    type: contentReference
+    helpText: ''
+    typeConfig:
+      allowedContentTypes:
+        - brand
+    localizable: false
+  - id: variants
+    name: Variants
+    type: $block
+    helpText: ''
+    typeConfig:
+      min: 1
+      allowedTypes:
+        - variant
+        - $loop
+  - id: recommendations
+    name: Recommendations
+    type: contentReference
+    helpText: ''
+    typeConfig:
+      isMulti: true
+      allowedContentTypes:
+        - product
+    localizable: false
+  - id: bundle
+    name: Bundle
+    type: contentReference
+    helpText: ''
+    typeConfig:
+      allowedContentTypes:
+        - productBundle
+    localizable: false
+entryName: title
+thumbnailField: primaryImage
+description: ''
+icon: shopping-cart
+type: contentType
+permissions: []

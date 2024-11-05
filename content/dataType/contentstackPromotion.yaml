@@ -1,0 +1,44 @@
+id: contentstackPromotion
+displayName: Promotion
+ttl: 30
+path: /content_types/${content_type_uid}/entries/${entry_uid}?${include}
+custom:
+  include: 2
+  imagePath: image
+  customQuery: '{"tags": "promotions"}'
+  searchFieldIds:
+    - title
+  allowContentTypeUids:
+    - content_block
+  enableFilterByLocale: true
+method: GET
+purgeKey: b36bacf9-6d46-48f0-8056-5d51265d9735
+archetype: singleEntry
+variables:
+  query:
+    type: text
+    default: '{ "uid": { "$in": [ "" ] } }'
+    displayName: Query
+  locale:
+    type: text
+    default: ''
+    displayName: Locale
+  include:
+    type: text
+    default: ''
+    displayName: Include
+  entry_uid:
+    type: text
+    default: ''
+    displayName: Entry Uid
+  content_type_uid:
+    type: text
+    default: content_block
+    displayName: Entry Type
+parameters:
+  - key: query
+    value: ${query}
+  - key: locale
+    value: ${locale}
+dataSourceId: contentstackDataSource
+allowedOnComponents: []

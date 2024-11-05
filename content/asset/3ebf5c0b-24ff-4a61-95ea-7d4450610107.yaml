@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 3ebf5c0b-24ff-4a61-95ea-7d4450610107
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: coffee-cashew-vegan-ice-cream.webp
+    file:
+      type: file
+      value: c3e8a176-873b-4cdc-99e4-31a25d8c1533
+    mediaType:
+      value: image/webp
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/AoZA7aeqQLKAlUbh5rIi3g-coffee-cashew-vegan-ice-cream.webp
+      type: text
+    size:
+      value: 52186
+      type: number
+    width:
+      value: 1280
+      type: number
+    height:
+      value: 853
+      type: number
+    custom: {}
+created: '2024-09-26T19:45:24.625414+00:00'
+modified: '2024-09-26T19:45:24.625414+00:00'

@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 7f81589c-7783-4726-ab6b-a7902bd6734a
+  _name: Recipe.png
+  fields:
+    title:
+      type: text
+      value: Recipe.png
+    file:
+      type: file
+      value: ed5e0731-e7ea-4a83-8800-87b460b87736
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/ri422vaJStCUWkm9WxlsOQ-Recipe.png
+      type: text
+    size:
+      value: 498525
+      type: number
+    width:
+      value: 1350
+      type: number
+    height:
+      value: 915
+      type: number
+    custom: {}
+created: '2024-09-30T20:58:19.800349+00:00'
+modified: '2024-09-30T20:59:00.508318+00:00'

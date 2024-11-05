@@ -1,0 +1,92 @@
+created: '2024-08-12T13:05:16.555367+00:00'
+modified: '2024-09-24T18:55:38.827533+00:00'
+pattern: false
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+entry:
+  _id: 808f8deb-d021-440a-b1f8-5dff444d35bb
+  _name: Espresso
+  _slug: espresso
+  type: productCategory
+  fields:
+    logo:
+      type: asset
+      locales:
+        en-US:
+          - _id: 1937d2ee-c90d-4b7b-98c9-70ba59df4217
+            type: image
+            fields:
+              id:
+                type: text
+                value: 5cc52919-e45f-4af7-b84f-2a9d155fb5e8
+              url:
+                value: >-
+                  https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/MawJN-i6RZSTFNhgx0EIiw-Image-5.webp
+                type: text
+              file:
+                type: file
+                value: efa925b0-7a92-4940-bd27-373c5ead0b36
+              size:
+                value: 112962
+                type: number
+              title:
+                type: text
+                value: Image-5.webp
+              width:
+                value: 1024
+                type: number
+              height:
+                value: 1024
+                type: number
+              mediaType:
+                value: image/webp
+                type: text
+            _source: uniform-assets
+    title:
+      type: text
+      locales:
+        en-US: Espresso
+        es-US: Café exprés
+        fr-CA: Espresso
+        nl-NL: Espresso
+    description:
+      type: text
+      locales:
+        en-US: >-
+          Dive into the world of rich, concentrated coffee with our premium
+          selection of espresso products. From high-quality espresso beans to
+          top-of-the-line machines, we provide everything you need to create the
+          perfect shot of espresso. Known for its intense flavor and velvety
+          crema, espresso is the heart of many beloved coffee beverages. Explore
+          our range and discover how you can enjoy café-quality espresso in the
+          comfort of your own home.
+        es-US: >-
+          Sumérgete en el mundo del café rico y concentrado con nuestra
+          selección premium de productos espresso.Desde frijoles de café
+          espresso de alta calidad hasta máquinas de primera línea,
+          proporcionamos todo lo que necesita para crear la toma perfecta de
+          espresso.Conocido por su intenso sabor y crema aterciopelada, Espresso
+          es el corazón de muchas bebidas de café queridas.Explore nuestro rango
+          y descubra cómo puede disfrutar de un espresso con calidad de café en
+          la comodidad de su hogar.
+        fr-CA: >-
+          Plongez dans le monde d'un café riche et concentré avec notre
+          sélection premium de produits à l'espresso.Des haricots expresso de
+          haute qualité aux machines haut de gamme, nous fournissons tout ce
+          dont vous avez besoin pour créer la photo parfaite de l'espresso.Connu
+          pour sa saveur intense et sa crème veloutée, l'espresso est le cœur de
+          nombreuses boissons au café bien-aimées.Explorez notre gamme et
+          découvrez comment vous pouvez profiter de l'expresso de la qualité du
+          café dans le confort de votre propre maison.
+        nl-NL: >-
+          Duik in de wereld van rijke, geconcentreerde koffie met onze premium
+          selectie van espressoproducten.Van hoogwaardige espressobonen tot
+          topmachines, we bieden alles wat u nodig hebt om de perfecte shot
+          espresso te maken.Bekend om zijn intense smaak en fluweelachtige
+          crema, is espresso het hart van vele geliefde koffiedranken.Verken ons
+          assortiment en ontdek hoe u kunt genieten van espresso van
+          café-kwaliteit in het comfort van uw eigen huis.
+  _locales:
+    - en-US
+    - es-US
+    - fr-CA
+    - nl-NL

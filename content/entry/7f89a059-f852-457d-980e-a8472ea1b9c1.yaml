@@ -1,0 +1,32 @@
+created: '2024-08-12T13:05:15.043954+00:00'
+modified: '2024-09-24T18:55:38.827533+00:00'
+pattern: false
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+entry:
+  _id: 7f89a059-f852-457d-980e-a8472ea1b9c1
+  _name: Coffee Meditation Will Get You Through the Darkest Days
+  _slug: coffee-meditation-will-get-you-through-the-darkest-days
+  _thumbnail: https://javadripblog.wordpress.com/wp-content/uploads/2024/01/set3_0.jpg
+  type: article
+  fields: {}
+  _dataResources:
+    JavaDrip Post by Slug Content:
+      type: javadripPostBySlug
+      variables:
+        slug: coffee-meditation-will-get-you-through-the-darkest-days
+    ref-7f89a059-f852-457d-980e-a8472ea1b9c1-tag:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: 0947295b-ef13-48a7-8416-42250bd09ddf
+  _locales:
+    - en-US
+    - es-US
+    - fr-CA
+    - nl-NL
+  _overrides:
+    7f89a059-f852-457d-980e-a8472ea1b9c1:
+      parameters:
+        tag:
+          type: contentReference
+          value: ${#jptr:/ref-7f89a059-f852-457d-980e-a8472ea1b9c1-tag/entries}
+  _pattern: 9ce6d41a-73b6-47fb-8289-6d33d231ba92

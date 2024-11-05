@@ -1,0 +1,140 @@
+created: '2023-11-20T09:34:30.990002+00:00'
+modified: '2024-09-24T18:55:38.827533+00:00'
+pattern: false
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+entry:
+  _id: da0132f9-6058-459c-b01a-02d41bd15858
+  _name: Love It!
+  _slug: love-it
+  _thumbnail: >-
+    https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/7rf9opLfTQaobbeiktrMjA-in_bed_lukrep.jpg
+  type: testimonial
+  fields:
+    stars:
+      type: text
+      value: '5'
+    title:
+      type: text
+      locales:
+        en-US: Love It!
+        es-US: ¡Me encanta!
+        fr-CA: Aimer!
+        nl-NL: Hou ervan!
+    picture:
+      type: asset
+      value:
+        - _id: 5109bf24-29c2-487e-98ba-f7ff04c3024d
+          type: image
+          fields:
+            id:
+              type: text
+              value: 32804ab1-5027-4290-9cbb-ac3dcd277273
+            url:
+              value: >-
+                https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/7rf9opLfTQaobbeiktrMjA-in_bed_lukrep.jpg
+              type: text
+            file:
+              type: file
+              value: 673b174f-5a18-47ef-98e7-d52a87a7a0ea
+            size:
+              value: 1516696
+              type: number
+            title:
+              type: text
+              value: in_bed_lukrep.jpg
+            width:
+              value: 2008
+              type: number
+            height:
+              value: 3072
+              type: number
+            mediaType:
+              value: image/jpeg
+              type: text
+          _source: uniform-assets
+    product:
+      type: contentReference
+      value: ${#jptr:/ref-da0132f9-6058-459c-b01a-02d41bd15858-product/entries/0}
+    firstName:
+      type: text
+      locales:
+        en-US: Kayla
+        es-US: Kayla
+        fr-CA: Kayla
+        nl-NL: Kayla
+    experience:
+      type: text
+      locales:
+        en-US: >-
+          We purchased the JavaDrip Speciality coffee maker with the fold-away
+          frother I'm a fan of making my own coffee at home (have used Bunn &
+          multiple Keuirg models). After going back & forth on if I wanted to
+          get it, I figured I definitely should give it a try. And I'm so glad I
+          did!
+
+
+          I love the selection of brew styles & sizes, the short time it takes
+          to brew all sizes from normal cup to full pot/carafe! And the
+          fold-away frother is a nice touch along with the included smart cup
+          that has serving suggestions for each size on how many scoops to add.
+          Which is nice for our daughter that is in high-school, she can easily
+          make her coffee in the mornings to take to school with her without
+          worrying if she's using too much or little. I would recommend it!
+        es-US: >-
+          Compramos la cafetera especializada Javadrip con el plegable para el
+          avance, soy fanático de hacer mi propio café en casa (he usado modelos
+          Bunn y múltiples Keuirg).Después de ir y venir si quería obtenerlo,
+          pensé que definitivamente debería intentarlo.¡Y estoy tan contento de
+          haberlo hecho!
+
+
+          Me encanta la selección de estilos y tamaños de cerveza, ¡el corto
+          tiempo que lleva preparar todos los tamaños desde copa normal hasta
+          olla completa/jarra!Y el Frother de plenovado es un buen toque junto
+          con la taza inteligente incluida que tiene sugerencias de servicio
+          para cada tamaño en cuántas cucharadas para agregar.Lo cual es bueno
+          para nuestra hija que está en la escuela secundaria, puede preparar
+          fácilmente su café por las mañanas para llevar a la escuela con ella
+          sin preocuparse si está usando demasiado o poco.¡Lo recomendaría!
+        fr-CA: >-
+          Nous avons acheté la cafetière Javadrip Specialty avec le Fold-Away
+          Frother, je suis fan de faire mon propre café à la maison (j'ai
+          utilisé Bunn et plusieurs modèles Keuirg).Après avoir fait des et
+          venus si je voulais l'obtenir, j'ai pensé que je devrais certainement
+          l'essayer.Et je suis tellement content de l'avoir fait!
+
+
+          J'adore la sélection de styles et de tailles d'infusion, le court laps
+          de temps nécessaire pour préparer toutes les tailles de la tasse
+          normale au pot / carafe complet!Et le frottement pliant est une belle
+          touche avec la tasse intelligente incluse qui a des suggestions de
+          service pour chaque taille sur le nombre de scoops à ajouter.Ce qui
+          est bien pour notre fille qui est au lycée, elle peut facilement faire
+          son café le matin pour prendre l'école avec elle sans se soucier si
+          elle utilise trop ou peu.Je le recommanderais!
+        nl-NL: >-
+          We hebben de Javadrip Specialty Coffee Maker gekocht met de opklapbare
+          fr Frother, ik ben een fan van het maken van mijn eigen koffie thuis
+          (hebben Bunn & Meerdere Keuirg-modellen gebruikt).Nadat ik heen en
+          weer was gegaan als ik het wilde krijgen, dacht ik dat ik het zeker
+          zou moeten proberen.En ik ben zo blij dat ik dat heb gedaan!
+
+
+          Ik ben dol op de selectie van brouwstijlen en maten, de korte tijd die
+          nodig is om alle maten te brouwen, van normale beker tot volle
+          pot/karaf!En de opklapbare framers is een leuke touch, samen met de
+          meegeleverde slimme beker met dienende suggesties voor elke maat op
+          hoeveel schepjes je moet toevoegen.Dat is leuk voor onze dochter die
+          op de middelbare school staat, ze kan haar 's ochtends gemakkelijk
+          koffie zetten om met haar mee naar school te gaan zonder zich zorgen
+          te maken of ze te veel of weinig gebruikt.Ik zou het aanraden!
+  _dataResources:
+    ref-da0132f9-6058-459c-b01a-02d41bd15858-product:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: df7a5d21-9a3c-49db-92d2-662b0fecce21
+  _locales:
+    - en-US
+    - es-US
+    - fr-CA
+    - nl-NL

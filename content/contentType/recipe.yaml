@@ -1,0 +1,173 @@
+id: recipe
+name: Recipe
+created: '2024-09-26T13:58:38.386427+00:00'
+updated: '2024-10-03T18:04:46.23593+00:00'
+slugSettings:
+  required: 'no'
+useTeamPermissions: true
+fields:
+  - id: name
+    name: Name
+    type: text
+    typeConfig: null
+    localizable: true
+  - id: subtitle
+    name: Subtitle
+    type: text
+    typeConfig: null
+    localizable: true
+  - id: publishDate
+    name: Publish date
+    type: date
+    typeConfig: null
+  - id: overview
+    name: Overview
+    type: text
+    typeConfig:
+      multiline: true
+      linesCount: 3
+    localizable: true
+  - id: description
+    name: Description
+    type: richText
+    typeConfig:
+      elements:
+        builtIn:
+          - h1
+          - h2
+          - h3
+          - h4
+          - h5
+          - h6
+          - unorderedList
+          - orderedList
+          - link
+          - quote
+          - table
+          - variable
+          - asset
+      required: false
+      formatting:
+        builtIn:
+          - bold
+          - italic
+          - underline
+          - superscript
+          - subscript
+    localizable: true
+  - id: featuredImage
+    name: Featured Image
+    type: asset
+    typeConfig:
+      max: 1
+      required: true
+    localizable: true
+    notLocalizedByDefault: true
+  - id: yield
+    name: Yield
+    type: text
+    typeConfig: null
+    localizable: true
+  - id: ingredients
+    name: Ingredients
+    type: $block
+    typeConfig:
+      allowedTypes:
+        - recipeIngredient
+        - $loop
+  - id: instructions
+    name: Instructions
+    type: $block
+    typeConfig:
+      allowedTypes:
+        - howtoSection
+        - howtoStep
+        - $loop
+  - id: notes
+    name: Notes
+    type: richText
+    typeConfig:
+      elements:
+        builtIn:
+          - h1
+          - h2
+          - h3
+          - h4
+          - h5
+          - h6
+          - unorderedList
+          - orderedList
+          - link
+          - quote
+          - code
+          - table
+          - variable
+          - asset
+      required: false
+      formatting:
+        builtIn:
+          - bold
+          - italic
+          - underline
+          - strikethrough
+          - code
+          - superscript
+          - subscript
+    localizable: true
+  - id: ebeb4eb1-8518-462d-91f6-c5c16c35f9f5
+    name: Metadata
+    type: group
+    typeConfig:
+      collapsed: true
+      childrenParams:
+        - isFeatured
+        - mainIngredient
+        - recipeType
+        - relatedProducts
+        - source
+        - media
+  - id: isFeatured
+    name: Is featured
+    type: checkbox
+    typeConfig: null
+  - id: mainIngredient
+    name: Key ingredient
+    type: contentReference
+    helpText: Key coffee or related ingredient
+    typeConfig:
+      allowedContentTypes:
+        - ingredient
+  - id: recipeType
+    name: Recipe Type
+    type: contentReference
+    typeConfig:
+      required: true
+      allowedContentTypes:
+        - recipeType
+  - id: relatedProducts
+    name: Related Products
+    type: contentReference
+    typeConfig:
+      isMulti: true
+      allowedContentTypes:
+        - productBundle
+        - product
+  - id: source
+    name: Source
+    type: link
+    typeConfig:
+      linkTypes:
+        tel: false
+        email: false
+  - id: media
+    name: Media
+    type: asset
+    typeConfig: {}
+entryName: name
+thumbnailField: featuredImage
+description: >-
+  A set of instructions for preparing a particular dish, including a list of the
+  ingredients required.
+icon: bowl
+type: contentType
+permissions: []

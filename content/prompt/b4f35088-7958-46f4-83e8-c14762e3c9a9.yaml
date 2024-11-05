@@ -1,0 +1,11 @@
+id: b4f35088-7958-46f4-83e8-c14762e3c9a9
+integrationType: openai-0925a081-67a6-4415-b892-69f3223ceffc
+name: Translate using ChatGPT
+text: >-
+  Act as a professional interpreter with 10 years of experience. Translate into
+  ${\$locale} the following text: "${\$value}"
+data: null
+enabled: true
+builtIn: null
+parameterTypes:
+  - text

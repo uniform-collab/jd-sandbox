@@ -1,0 +1,42 @@
+created: '2024-08-12T13:04:13.480008+00:00'
+modified: '2024-09-24T18:55:38.827533+00:00'
+pattern: false
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+entry:
+  _id: 3ff90d80-d7af-45a2-8c50-8eab37b0e75a
+  _name: French Press - What is It and History of It
+  _slug: french-press-what-is-it-and-history-of-it
+  _thumbnail: >-
+    https://assets-us-01.kc-usercontent.com:443/bf6fb8b9-53e1-004f-964b-5aaa52ee073c/a73b82e4-3621-479f-925e-10d1d3e88202/french_press_header_image_ln3wpr.jpg
+  type: article
+  fields: {}
+  _dataResources:
+    Article By Slug Content:
+      type: kontentAiArticleBySlug
+      variables:
+        limit: '5'
+        order: ''
+        keyword: french-press
+        language: ${locale}
+        sortOrder: asc
+        contentType: article
+        sortElement: ''
+        languageQuery: '&language=${locale}'
+        searchByQuery: elements.slug[range]=french-press,french-press~
+        contentTypeQuery: '&system.type[eq]=article'
+    ref-3ff90d80-d7af-45a2-8c50-8eab37b0e75a-tag:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: 6b1cdf4b-294f-4079-9fb7-c900fae46b8d
+  _locales:
+    - en-US
+    - es-US
+    - fr-CA
+    - nl-NL
+  _overrides:
+    3ff90d80-d7af-45a2-8c50-8eab37b0e75a:
+      parameters:
+        tag:
+          type: contentReference
+          value: ${#jptr:/ref-3ff90d80-d7af-45a2-8c50-8eab37b0e75a-tag/entries}
+  _pattern: ca075af6-b2ba-43f8-b1df-e58b62a13ce1

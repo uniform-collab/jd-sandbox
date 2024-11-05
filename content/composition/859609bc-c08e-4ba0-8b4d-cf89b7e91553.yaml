@@ -1,0 +1,141 @@
+composition:
+  _name: Coffee Makers (Algolia)
+  _id: 859609bc-c08e-4ba0-8b4d-cf89b7e91553
+  _slug: coffee-makers
+  type: productCategoryPage
+  parameters:
+    $enr:
+      type: $enr
+      value:
+        - cat: int
+          key: c
+          str: 5
+    pageTitle:
+      type: text
+      locales:
+        en-CA: Coffee Makers Page
+        en-GB: Coffee Makers Page
+        en-NL: Coffee Makers Page
+        en-US: Coffee Makers Page
+        es-US: Página de cafeteras
+        fr-CA: Page des cafetières
+        nl-NL: Koffiezetapparaten Pagina
+  slots:
+    pageFooter:
+      - _id: 73876e51-7439-417e-8790-ea395f5c9564
+        type: footer
+        _pattern: 319639e9-4bac-4fb3-8f0b-19088c969fcb
+    pageHeader:
+      - _id: e8f0fb84-33c2-4de0-aa1d-a60b3c2249af
+        type: header
+        _pattern: e46c8336-acfd-43e8-ac59-8be8f4c33b7d
+    pageContent:
+      - _id: 75ad1aad-b0f6-49fb-b8a5-d917572f3187
+        type: heroContainer
+        _pattern: daaf620c-8067-496f-9894-d6dea651a3a3
+        _dataResources:
+          Hero Content:
+            type: hero
+            variables:
+              locale: ${locale}
+              entryId: f8fa3c15-c0a7-4d54-a578-e38dddb39bf7
+      - _id: 2a22f973-7656-482e-8e10-1cf65ef964b5
+        type: breadcrumbs
+        parameters:
+          separator:
+            type: select
+            value: chevron
+          colorStyle:
+            type: tp-color-style-parameter
+            value: primary
+          displayRootNode:
+            type: checkbox
+            value: true
+          displayPlaceholderNodes:
+            type: checkbox
+            value: true
+      - _id: 5ec50f5b-e8a1-4931-8039-b52a82485172
+        type: algolia-instantSearch
+        _pattern: 74d0ae67-7701-4123-9832-1844a9d26c79
+      - _id: b7615b56-8746-4fd6-bc26-45bdc137b07e
+        type: spacer
+        parameters:
+          thickness:
+            type: tp-slider-parameter
+            value: 10px
+  _overrides:
+    5ec50f5b-e8a1-4931-8039-b52a82485172:
+      parameters:
+        rootCategory:
+          type: select
+          value: Coffee Makers
+    75ad1aad-b0f6-49fb-b8a5-d917572f3187:
+      parameters:
+        video:
+          type: cloudinary-video
+          value:
+            - alt: ''
+              url: >-
+                https://res.cloudinary.com/uniform-demos/video/upload/v1693387616/videos/pexels-mizuno-rojas.mp4
+              uuid: b30533db-77b7-4ffd-8204-4f1e9919ff0c
+              width: '1920'
+              format: mp4
+              height: '1080'
+              caption: ''
+              version: 1693387616
+              publicId: videos/pexels-mizuno-rojas
+              createdAt: '2023-08-30T09:26:56Z'
+              previewUrl: >-
+                https://res.cloudinary.com/uniform-demos/video/upload/q_auto,f_auto/videos/pexels-mizuno-rojas.mp4
+              resourceType: video
+              transformation: ''
+        duration:
+          type: select
+          value: medium
+        animationType:
+          type: select
+          value: fadeIn
+        animationOrder:
+          type: select
+          value: oneByOne
+        animationPreview:
+          type: tp-play-animation-parameter
+          value: true
+    e8f0fb84-33c2-4de0-aa1d-a60b3c2249af:
+      parameters:
+        syntheticGap:
+          type: tp-slider-parameter
+          value: Small
+    5ec50f5b-e8a1-4931-8039-b52a82485172|4ec65e7d-e8be-49ee-bf3b-8c7e8f263bb2:
+      variant: ''
+      parameters:
+        badgeStyle:
+          type: tp-badge-style-parameter
+          value: outline
+        buttonLink:
+          type: link
+          value:
+            path: /products/:product-slug
+            type: projectMapNode
+            nodeId: fb657541-0488-4c22-bce4-64c9cd71bdde
+            projectMapId: 62588085-7894-4810-84b6-eaaf0cb5213c
+            dynamicInputValues:
+              locale: ${locale}
+        buttonStyle:
+          type: tp-button-style-parameter
+          value: link
+        textColorVariant:
+          type: select
+          value: Dark
+  _locales:
+    - fr-CA
+    - en-US
+    - es-US
+    - nl-NL
+    - en-NL
+    - en-CA
+    - en-GB
+created: '2024-09-05T09:56:05.643042+00:00'
+modified: '2024-09-24T18:55:38.827533+00:00'
+pattern: false
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5

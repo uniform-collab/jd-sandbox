@@ -1,0 +1,15 @@
+created: '2024-10-03T18:05:27.101262+00:00'
+modified: '2024-10-03T18:05:42.309098+00:00'
+pattern: false
+entry:
+  _id: f695a090-8bde-43e4-8085-0a7f9b48b45a
+  _name: Espresso Powder
+  _slug: espresso-powder
+  type: ingredient
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: Espresso Powder
+  _locales:
+    - en-US

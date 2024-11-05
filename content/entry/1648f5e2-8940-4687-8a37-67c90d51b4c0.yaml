@@ -1,0 +1,273 @@
+created: '2024-06-04T20:23:45.437181+00:00'
+modified: '2024-08-15T12:17:32.016504+00:00'
+pattern: false
+workflowId: 784fa239-ae8a-4ab1-ba68-9806d0fe406a
+workflowStageId: 73608d81-f8b0-4ee3-897b-c976d2dc6670
+entry:
+  _id: 1648f5e2-8940-4687-8a37-67c90d51b4c0
+  _name: Black Mountain Pour-Over Filtered Coffee Make
+  _slug: black-mountain-pour-over-filtered-coffee-maker-93
+  _thumbnail: >-
+    https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/AiHX5IUPR9iBCKZZNrQLlQ-black-mountain-pour-over-filtered-coffee-maker-93_mn709e_iii0ml.jpg
+  type: product
+  fields:
+    body:
+      type: richText
+      locales:
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      When translated Le Parfait means 'the perfect one' - and
+                      that's just what this air-tight jar is. Designed for
+                      canning, these jars will ensure your harvest does not
+                      spoil, but is kept well-preserved for those cold winter
+                      months that lie ahead. Also can be used to store grains,
+                      beans and spices. Lid easily removes for a thorough
+                      cleaning. May be frozen - just be sure to leave enough
+                      room for expansion.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+            direction: ltr
+        fr-CA:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Lorsqu'il est traduit, Le Parfait signifie « le parfait »
+                      - et c'est exactement ce qu'est ce pot hermétique. Conçus
+                      pour la mise en conserve, ces bocaux garantiront que votre
+                      récolte ne se gâtera pas, mais qu'elle sera bien conservée
+                      pour les mois froids d'hiver à venir. Peut également être
+                      utilisé pour stocker des céréales, des haricots et des
+                      épices. Le couvercle s'enlève facilement pour un nettoyage
+                      en profondeur. Peut être gelé - assurez-vous simplement de
+                      laisser suffisamment de place pour l'expansion.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+            direction: ltr
+        nl-NL:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Vertaald betekent Le Parfait 'de perfecte' - en dat is
+                      precies wat deze luchtdichte pot is. Deze potten zijn
+                      ontworpen om in te blikken en zorgen ervoor dat uw oogst
+                      niet bederft, maar goed bewaard blijft voor de koude
+                      wintermaanden die voor u liggen. Ook te gebruiken voor het
+                      bewaren van granen, bonen en kruiden. Deksel kan eenvoudig
+                      worden verwijderd voor een grondige reiniging. Kan
+                      bevroren zijn; zorg er wel voor dat er voldoende ruimte
+                      overblijft voor uitzetting.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+            direction: ltr
+    name:
+      type: text
+      value: Black Mountain Pour-Over Filtered Coffee Make
+    brand:
+      type: contentReference
+      value: ${#jptr:/ref-1648f5e2-8940-4687-8a37-67c90d51b4c0-brand/entries/0}
+    title:
+      type: text
+      value: Black Mountain Pour-Over Filtered Coffee Make
+    category:
+      type: contentReference
+      value: ${#jptr:/ref-1648f5e2-8940-4687-8a37-67c90d51b4c0-category/entries}
+    variants:
+      type: $block
+      value:
+        - _id: 2d09e31f-a466-4afe-96c3-9592e9f63130
+          type: variant
+          fields:
+            code:
+              type: text
+              value: '93'
+            price:
+              type: number
+              locales:
+                en-US: '111.66'
+                fr-CA: '103.14'
+                nl-NL: '103.14'
+                es-US: '111.66'
+            title:
+              type: text
+              locales:
+                en-US: Black Mountain Pour-Over Filtered Coffee Maker
+                es-US: Black Mountain Pour-Over Filtered Coffee Maker
+                fr-CA: Black Mountain Pour-Over Filtered Coffee Maker
+                nl-NL: Black Mountain Pour-Over Filtered Coffee Maker
+            currency:
+              type: text
+              locales:
+                en-US: $
+                es-US: $
+                fr-CA: €
+                nl-NL: €
+            imageGallery:
+              type: asset
+              value:
+                - _id: 9ae71518-5229-4665-8b3d-9339fd6471aa
+                  type: image
+                  fields:
+                    id:
+                      type: text
+                      value: d6882ddc-78f6-455f-80cf-9193c0aac169
+                    url:
+                      value: >-
+                        https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/yneshnz2QYaNeKlNXwdp_A-black-mountain-pour-over-filtered-coffee-maker-93_mn709e_iii0ml.jpg
+                      type: text
+                    file:
+                      type: file
+                      value: 620e18e8-1728-49fb-a907-7f3c19bb3f0a
+                    size:
+                      value: 12873
+                      type: number
+                    title:
+                      type: text
+                      value: >-
+                        black-mountain-pour-over-filtered-coffee-maker-93_mn709e_iii0ml.jpg
+                    width:
+                      value: 386
+                      type: number
+                    height:
+                      value: 386
+                      type: number
+                    mediaType:
+                      value: image/jpeg
+                      type: text
+                  _source: uniform-assets
+    primaryImage:
+      type: asset
+      value:
+        - _id: c518ba4f-2fcb-44d5-9918-cf5830a802e5
+          type: image
+          fields:
+            id:
+              type: text
+              value: 167d2d44-dc0e-4af2-94f8-7d19c456b8cc
+            url:
+              value: >-
+                https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/AiHX5IUPR9iBCKZZNrQLlQ-black-mountain-pour-over-filtered-coffee-maker-93_mn709e_iii0ml.jpg
+              type: text
+            file:
+              type: file
+              value: 0fb20a37-ce68-4efc-958d-bf6f598a0d7d
+            size:
+              value: 12873
+              type: number
+            title:
+              type: text
+              value: >-
+                black-mountain-pour-over-filtered-coffee-maker-93_mn709e_iii0ml.jpg
+            width:
+              value: 386
+              type: number
+            height:
+              value: 386
+              type: number
+            mediaType:
+              value: image/jpeg
+              type: text
+          _source: uniform-assets
+    recommendations:
+      type: contentReference
+      value: >-
+        ${#jptr:/ref-1648f5e2-8940-4687-8a37-67c90d51b4c0-recommendations/entries}
+    shortDescription:
+      type: text
+      locales:
+        en-US: >-
+          When translated Le Parfait means 'the perfect one' - and that's just
+          what this air-tight jar is. Designed for canning, these jars will
+          ensure your harvest does not spoil, but is kept well-preserved for
+          those cold winter months that lie ahead. Also can be used to store
+          grains, beans and spices. Lid easily removes for a thorough cleaning.
+          May be frozen - just be sure to leave enough room for expansion.
+        es-US: >-
+          Cuando se traduce, Le Parfait significa 'el perfecto', y eso es
+          exactamente lo que es este frasco hermético.Diseñados para el
+          enlatado, estos frascos asegurarán que su cosecha no se estropee, pero
+          se mantiene bien conservado para esos fríos meses de invierno que se
+          avecinan.También se puede usar para almacenar granos, frijoles y
+          especias.La tapa elimina fácilmente una limpieza completa.Puede estar
+          congelado, solo asegúrese de dejar suficiente espacio para la
+          expansión.
+        fr-CA: >-
+          Lorsqu'il est traduit, Le Parfait signifie « le parfait » - et c'est
+          exactement ce qu'est ce pot hermétique. Conçus pour la mise en
+          conserve, ces bocaux garantiront que votre récolte ne se gâtera pas,
+          mais qu'elle sera bien conservée pour les mois froids d'hiver à venir.
+          Peut également être utilisé pour stocker des céréales, des haricots et
+          des épices. Le couvercle s'enlève facilement pour un nettoyage en
+          profondeur. Peut être gelé - assurez-vous simplement de laisser
+          suffisamment de place pour l'expansion.
+        nl-NL: >-
+          Vertaald betekent Le Parfait 'de perfecte' - en dat is precies wat
+          deze luchtdichte pot is. Deze potten zijn ontworpen om in te blikken
+          en zorgen ervoor dat uw oogst niet bederft, maar goed bewaard blijft
+          voor de koude wintermaanden die voor u liggen. Ook te gebruiken voor
+          het bewaren van granen, bonen en kruiden. Deksel kan eenvoudig worden
+          verwijderd voor een grondige reiniging. Kan bevroren zijn; zorg er wel
+          voor dat er voldoende ruimte overblijft voor uitzetting.
+  _dataResources:
+    ref-1648f5e2-8940-4687-8a37-67c90d51b4c0-brand:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: 8f1962d5-5237-4baf-a522-6f7f3b7d1266
+    ref-1648f5e2-8940-4687-8a37-67c90d51b4c0-category:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: >-
+          e86f566a-9ec3-484b-9524-3f662d7b5fd2,64d19761-b85e-4e33-8438-e4296de791e2
+    ref-1648f5e2-8940-4687-8a37-67c90d51b4c0-recommendations:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: >-
+          82b84782-4236-4b06-a994-59f088896b91,72b49ac2-bbf3-48a7-b522-0947483e9131,778c1de0-9119-4617-8fde-4cbff7da8031,04d9514e-ad86-4df4-867d-855af7b70b52
+  _locales:
+    - en-US
+    - es-US
+    - fr-CA
+    - nl-NL

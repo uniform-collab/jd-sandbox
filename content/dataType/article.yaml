@@ -1,0 +1,18 @@
+id: article
+displayName: Article
+ttl: 30
+body: ''
+path: /single
+custom:
+  proposedName: Article
+  allowedContentTypes:
+    - article
+method: GET
+purgeKey: 7a20a354-6f8c-4a11-b27c-1a690880d319
+archetype: singleEntry
+variables:
+  entryId:
+    type: text
+    default: ''
+dataSourceId: uniformContent
+allowedOnComponents: []

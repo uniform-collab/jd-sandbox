@@ -1,0 +1,54 @@
+id: ingredient
+name: Ingredient
+created: '2024-09-26T14:28:49.522812+00:00'
+updated: '2024-09-26T14:28:49.522812+00:00'
+slugSettings: {}
+useTeamPermissions: true
+fields:
+  - id: name
+    name: Name
+    type: text
+    typeConfig:
+      required: true
+    localizable: true
+  - id: image
+    name: Image
+    type: asset
+    typeConfig:
+      max: 1
+  - id: description
+    name: Description
+    type: richText
+    typeConfig:
+      elements:
+        builtIn:
+          - h3
+          - h4
+          - h5
+          - h6
+          - unorderedList
+          - orderedList
+          - link
+          - table
+          - variable
+      required: false
+      formatting:
+        builtIn:
+          - bold
+          - italic
+          - underline
+          - strikethrough
+    localizable: true
+  - id: teaser
+    name: Teaser
+    type: text
+    typeConfig:
+      multiline: true
+      linesCount: 5
+    localizable: true
+entryName: name
+thumbnailField: image
+description: Any ingredient that is used in a recipe.
+icon: bowl
+type: contentType
+permissions: []

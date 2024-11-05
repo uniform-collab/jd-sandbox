@@ -1,0 +1,36 @@
+created: '2024-08-12T13:06:02.621757+00:00'
+modified: '2024-09-24T18:55:38.827533+00:00'
+pattern: false
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+entry:
+  _id: c1c76770-7063-4f3f-ab1b-7a754be45d74
+  _name: Priceless Coffee At Curto Cafe In Rio de Janeiro
+  _slug: priceless-coffee-at-curto-cafe-in-rio-de-janeiro
+  _thumbnail: >-
+    https://images.contentstack.io/v3/assets/blt33b4a43079876016/bltd27a3cbd8b2167c0/64234e18e3ea1d11a4fb5a82/Coffee-Five-1024.jpg
+  type: article
+  fields: {}
+  _dataResources:
+    Article by Slug Content:
+      type: contentstackArticleBySlug
+      variables:
+        query: '{ "slug": "priceless-coffee-at-curto-cafe" }'
+        locale: ${locale}
+        entriesValue: priceless-coffee-at-curto-cafe
+        contentTypeUid: article
+    ref-c1c76770-7063-4f3f-ab1b-7a754be45d74-tag:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: 6b1cdf4b-294f-4079-9fb7-c900fae46b8d
+  _locales:
+    - en-US
+    - es-US
+    - fr-CA
+    - nl-NL
+  _overrides:
+    c1c76770-7063-4f3f-ab1b-7a754be45d74:
+      parameters:
+        tag:
+          type: contentReference
+          value: ${#jptr:/ref-c1c76770-7063-4f3f-ab1b-7a754be45d74-tag/entries}
+  _pattern: e49d7864-d51e-4eed-994f-2edabae6ff16

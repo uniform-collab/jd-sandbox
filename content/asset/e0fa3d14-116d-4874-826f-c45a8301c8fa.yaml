@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: e0fa3d14-116d-4874-826f-c45a8301c8fa
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: pexels-arina-krasnikova-5709723.jpg
+    file:
+      type: file
+      value: 564f1efc-be35-4c88-bd63-4b2e002693f8
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/vakY5F8fSI6b-7kphmgm7w-pexels-arina-krasnikova-5709723.jpg
+      type: text
+    size:
+      value: 688146
+      type: number
+    width:
+      value: 3500
+      type: number
+    height:
+      value: 2336
+      type: number
+    custom: {}
+created: '2024-09-30T18:54:49.27419+00:00'
+modified: '2024-09-30T18:54:49.27419+00:00'

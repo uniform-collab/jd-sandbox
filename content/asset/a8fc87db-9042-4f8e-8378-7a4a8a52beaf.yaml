@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: a8fc87db-9042-4f8e-8378-7a4a8a52beaf
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: 125KKW400_01_am9fbv.webp
+    file:
+      type: file
+      value: 55b86dd2-a386-4718-8513-87c0ee2bd4ac
+    mediaType:
+      value: image/webp
+      type: text
+    url:
+      value: >-
+        https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/9w4KsS95SmCbzbVL2OEMbw-125KKW400_01_am9fbv.webp
+      type: text
+    size:
+      value: 22510
+      type: number
+    width:
+      value: 800
+      type: number
+    height:
+      value: 600
+      type: number
+    custom: {}
+created: '2024-01-30T07:26:38.179668+00:00'
+modified: '2024-01-30T07:26:38.179668+00:00'

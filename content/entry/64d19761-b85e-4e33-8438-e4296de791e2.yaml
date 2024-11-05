@@ -1,0 +1,97 @@
+created: '2024-08-12T13:04:53.300532+00:00'
+modified: '2024-09-24T18:55:38.827533+00:00'
+pattern: false
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+entry:
+  _id: 64d19761-b85e-4e33-8438-e4296de791e2
+  _name: Coffee Makers
+  _slug: coffee-makers
+  type: productCategory
+  fields:
+    logo:
+      type: asset
+      locales:
+        en-US:
+          - _id: 65f51f11-c826-4871-abb0-b63251fce480
+            type: image
+            fields:
+              id:
+                type: text
+                value: e92bbdca-b70a-4f81-a641-214a2658b707
+              url:
+                value: >-
+                  https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/kgNiDIhmRvKjpKP813VcTg-Image-2.webp
+                type: text
+              file:
+                type: file
+                value: be289f5e-173c-4d0a-a8dd-38896c8c0e90
+              size:
+                value: 178488
+                type: number
+              title:
+                type: text
+                value: Image-2.webp
+              width:
+                value: 1024
+                type: number
+              height:
+                value: 1024
+                type: number
+              mediaType:
+                value: image/webp
+                type: text
+            _source: uniform-assets
+    title:
+      type: text
+      locales:
+        en-US: Coffee Makers
+        es-US: Cafeteras
+        fr-CA: Cafetières
+        nl-NL: Koffiezetapparaten
+    description:
+      type: text
+      locales:
+        en-US: >-
+          Discover the perfect coffee maker to suit your brewing needs. Our
+          selection of coffee makers ranges from traditional drip machines to
+          advanced espresso machines, all designed to bring out the rich, robust
+          flavors of your favorite beans. Whether you’re a casual coffee drinker
+          or a dedicated aficionado, our coffee makers offer precision,
+          convenience, and style. Brew your ideal cup with ease and enjoy the
+          perfect balance of aroma and taste every morning. Explore our
+          collection and elevate your coffee experience to new heights.
+        es-US: >-
+          Descubra la cafetera perfecta para satisfacer sus necesidades de
+          elaboración de cerveza.Nuestra selección de cafeteras abarca desde
+          máquinas de goteo tradicionales hasta máquinas de café espresso
+          avanzadas, todas diseñadas para sacar los sabores ricos y robustos de
+          sus frijoles favoritos.Ya sea que sea un bebedor informal de café o un
+          aficionado dedicado, nuestros cafeteros ofrecen precisión,
+          conveniencia y estilo.Breve su taza ideal con facilidad y disfrute del
+          equilibrio perfecto de aroma y sabor todas las mañanas.Explore nuestra
+          colección y eleva su experiencia de café a nuevas alturas.
+        fr-CA: >-
+          Découvrez la cafetière parfaite pour répondre à vos besoins de
+          brassage.Notre sélection de cafetières va des machines à goutte à
+          goutte traditionnelles aux machines à expresso avancées, toutes
+          conçues pour faire ressortir les saveurs riches et robustes de vos
+          grains préférés.Que vous soyez un buveur de café décontracté ou un
+          aficionado dévoué, nos cafetières offrent une précision, une commodité
+          et un style.Brenez votre tasse idéale avec facilité et profitez de
+          l'équilibre parfait de l'arôme et du goût chaque matin.Explorez notre
+          collection et élevez votre expérience de café à de nouveaux sommets.
+        nl-NL: >-
+          Ontdek het perfecte koffiezetapparaat voor uw brouwbehoeften.Onze
+          selectie koffiezetapparaten varieert van traditionele druppelmachines
+          tot geavanceerde espressomachines, allemaal ontworpen om de rijke,
+          robuuste smaken van je favoriete bonen naar voren te brengen.Of u nu
+          een informele koffiedrinker of een toegewijde liefhebber bent, onze
+          koffiezetapparaten bieden precisie, gemak en stijl.Brew uw ideale
+          beker gemakkelijk en geniet elke ochtend van de perfecte balans tussen
+          aroma en smaak.Verken onze collectie en verhef uw koffie -ervaring
+          naar nieuwe hoogten.
+  _locales:
+    - en-US
+    - es-US
+    - fr-CA
+    - nl-NL

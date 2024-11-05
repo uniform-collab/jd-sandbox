@@ -1,0 +1,24 @@
+asset:
+  type: image
+  _id: 7bdac500-de22-4fed-b9c1-1f0485dfae86
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: cake_in_the_making.avif
+    file:
+      type: file
+      value: c5bbf135-5e80-49ce-b651-c248553b1c39
+    mediaType:
+      value: image/avif
+      type: text
+    url:
+      value: >-
+        https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/SjcrAbBaS2a7cFQf6uZZTA-cake_in_the_making.avif
+      type: text
+    size:
+      value: 28225
+      type: number
+    custom: {}
+created: '2023-12-13T13:08:11.379784+00:00'
+modified: '2024-09-05T09:54:28.727386+00:00'

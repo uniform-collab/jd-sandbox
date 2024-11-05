@@ -1,0 +1,67 @@
+created: '2024-08-12T13:07:25.295888+00:00'
+modified: '2024-09-24T18:55:38.827533+00:00'
+pattern: true
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+entry:
+  _id: 9ce6d41a-73b6-47fb-8289-6d33d231ba92
+  _name: Wordpress Article
+  _slug: article-pattern
+  _thumbnail: >-
+    https://javadripblog.wordpress.com/wp-content/uploads/2024/01/coffee-beans-blog-espresso-quality-specialty-score-ratings.webp
+  type: article
+  fields:
+    title:
+      type: text
+      locales:
+        en-US: ${#jptr:/JavaDrip Post by Slug Content/title}
+        es-US: ${#jptr:/JavaDrip Post by Slug Content/title}
+        fr-CA: ${#jptr:/JavaDrip Post by Slug Content/title}
+        nl-NL: ${#jptr:/JavaDrip Post by Slug Content/title}
+    author:
+      type: text
+      locales:
+        en-US: Drew Parker
+        es-US: Drew Parker
+        fr-CA: Drew Parker
+        nl-NL: Drew Parker
+    source:
+      type: contentReference
+      value: ${#jptr:/ref-9ce6d41a-73b6-47fb-8289-6d33d231ba92-source/entries/0}
+    thumbnail:
+      type: asset
+      value:
+        - _id: 7fafa3fe-101b-4a3e-b77b-0716c8c96eb1
+          type: image
+          fields:
+            url:
+              type: text
+              value: ${#jptr:/JavaDrip Post by Slug Content/featured_image}
+          _source: custom-url
+    description:
+      type: text
+      locales:
+        en-US: ${#jptr:/JavaDrip Post by Slug Content/excerpt}
+        es-US: ${#jptr:/JavaDrip Post by Slug Content/excerpt}
+        fr-CA: ${#jptr:/JavaDrip Post by Slug Content/excerpt}
+        nl-NL: ${#jptr:/JavaDrip Post by Slug Content/excerpt}
+    externalContent:
+      type: json
+      value: ${#jptr:/JavaDrip Post by Slug Content/content}
+  _dataResources:
+    JavaDrip Post by Slug Content:
+      type: javadripPostBySlug
+      variables: {}
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
+    ref-9ce6d41a-73b6-47fb-8289-6d33d231ba92-source:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: 81619ba1-f1b7-4b34-a044-33a3deba4c40
+  _locales:
+    - en-US
+    - nl-NL
+    - es-US
+    - fr-CA
+  _overridability:
+    parameters:
+      tag: 'yes'

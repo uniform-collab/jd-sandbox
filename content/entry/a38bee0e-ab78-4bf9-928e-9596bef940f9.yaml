@@ -1,0 +1,1428 @@
+created: '2024-09-26T17:29:42.863626+00:00'
+modified: '2024-10-03T18:09:36.160903+00:00'
+pattern: false
+entry:
+  _id: a38bee0e-ab78-4bf9-928e-9596bef940f9
+  _name: Pumpkin Spice Icebox Cake
+  _slug: pumpkin-spice-icebox-cake
+  _thumbnail: >-
+    https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/0iHJOqRbSyS--NoJGZnC0Q-pumpkin-spice-icebox-cake.webp
+  type: recipe
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: Pumpkin Spice Icebox Cake
+        es-US: Pastel helado de calabaza y especias
+        fr-CA: Gâteau glacé à la citrouille et aux épices
+        nl-NL: Pompoen Kruiden Icebox Taart
+    media:
+      type: asset
+      value:
+        - _id: e26ea7df-85e4-44ad-9e79-cad188e4c958
+          type: image
+          fields:
+            id:
+              type: text
+              value: 72e6b832-b548-48d3-a43b-0d0f48efe040
+            url:
+              value: >-
+                https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/8upFran2RFmdS4Oy6fhw4w-pumpkin-spice-latte-icebox-cake-vanilla-bean-2.webp
+              type: text
+            file:
+              type: file
+              value: 172b0c05-e0fb-4e9f-92b3-48f5a334e65d
+            size:
+              value: 176410
+              type: number
+            title:
+              type: text
+              value: pumpkin-spice-latte-icebox-cake-vanilla-bean-2.webp
+            width:
+              value: 1600
+              type: number
+            height:
+              value: 1067
+              type: number
+            mediaType:
+              value: image/webp
+              type: text
+          _source: uniform-assets
+        - _id: 048d9485-ee22-4f89-8c51-50a7c353dfea
+          type: image
+          fields:
+            id:
+              type: text
+              value: a35b4868-bc10-43b9-9296-23fa7f7ca94b
+            url:
+              value: >-
+                https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/Twu3QxRnQpS0t4Kod2vcYw-pumpkin-spice-latte-icebox-cake-whipped-cream.webp
+              type: text
+            file:
+              type: file
+              value: f677d7cb-4088-4518-bd05-b42ff50ae125
+            size:
+              value: 74162
+              type: number
+            title:
+              type: text
+              value: pumpkin-spice-latte-icebox-cake-whipped-cream.webp
+            width:
+              value: 1600
+              type: number
+            height:
+              value: 1067
+              type: number
+            mediaType:
+              value: image/webp
+              type: text
+          _source: uniform-assets
+        - _id: 7f8fa843-034f-413f-99c2-9a48b701419a
+          type: image
+          fields:
+            id:
+              type: text
+              value: a7aa1392-9ebd-4841-80e5-b8bc72308506
+            url:
+              value: >-
+                https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/L8RnKi9QTsKvqVK2Csqv8A-pumpkin-spice-latte-icebox-cake-prep-4.webp
+              type: text
+            file:
+              type: file
+              value: f2fcd25a-2887-46f0-950a-4a92293c6ef4
+            size:
+              value: 134952
+              type: number
+            title:
+              type: text
+              value: pumpkin-spice-latte-icebox-cake-prep-4.webp
+            width:
+              value: 1600
+              type: number
+            height:
+              value: 1067
+              type: number
+            mediaType:
+              value: image/webp
+              type: text
+          _source: uniform-assets
+        - _id: ce263103-dd9d-415e-a058-84fb8fac8318
+          type: image
+          fields:
+            id:
+              type: text
+              value: 07563aab-471f-4409-9227-41a8c467cc21
+            url:
+              value: >-
+                https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/pMMzkdpHSzaZSUkVcjVmwA-pumpkin-spice-latte-icebox-cake-prep-1.webp
+              type: text
+            file:
+              type: file
+              value: e3a07dd2-4798-48e7-9978-88643156d489
+            size:
+              value: 185070
+              type: number
+            title:
+              type: text
+              value: pumpkin-spice-latte-icebox-cake-prep-1.webp
+            width:
+              value: 1600
+              type: number
+            height:
+              value: 1067
+              type: number
+            mediaType:
+              value: image/webp
+              type: text
+          _source: uniform-assets
+        - _id: 2f69e977-edf4-4a02-ae15-9e410d575a6a
+          type: image
+          fields:
+            id:
+              type: text
+              value: 9df351ef-993b-41fb-aedb-913d7c1274a9
+            url:
+              value: >-
+                https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/9DdHvdTcQPeFu0pf6rTReA-pumpkin-spice-latte-icebox-cake-prep-2.webp
+              type: text
+            file:
+              type: file
+              value: e1dc1358-aacc-401a-a182-124ac2daaac9
+            size:
+              value: 153530
+              type: number
+            title:
+              type: text
+              value: pumpkin-spice-latte-icebox-cake-prep-2.webp
+            width:
+              value: 1600
+              type: number
+            height:
+              value: 1067
+              type: number
+            mediaType:
+              value: image/webp
+              type: text
+          _source: uniform-assets
+        - _id: 0dfc56d4-1a16-4612-9637-8f61ff1e4980
+          type: image
+          fields:
+            id:
+              type: text
+              value: 302e9cfe-5ba6-4629-b9a3-3848c05ff016
+            url:
+              value: >-
+                https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/ZF8RbO2DR1OYWUe1qbNYCA-pumpkin-spice-latte-icebox-cake-build-2.webp
+              type: text
+            file:
+              type: file
+              value: 73a4ba12-0413-4cbf-963c-7796d846f07c
+            size:
+              value: 89760
+              type: number
+            title:
+              type: text
+              value: pumpkin-spice-latte-icebox-cake-build-2.webp
+            width:
+              value: 1600
+              type: number
+            height:
+              value: 1067
+              type: number
+            mediaType:
+              value: image/webp
+              type: text
+          _source: uniform-assets
+        - _id: 02bb8862-f274-43be-b9ac-587a8dda2141
+          type: image
+          fields:
+            id:
+              type: text
+              value: 53cff03d-e909-4886-b605-ad84c143e9b8
+            url:
+              value: >-
+                https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/gRbnNVRdQ7C9kcA746iQtg-pumpkin-spice-latte-icebox-cake-build-3.webp
+              type: text
+            file:
+              type: file
+              value: a77a6c3b-4ea5-4cbb-9d38-0fab1584b0a0
+            size:
+              value: 98518
+              type: number
+            title:
+              type: text
+              value: pumpkin-spice-latte-icebox-cake-build-3.webp
+            width:
+              value: 1600
+              type: number
+            height:
+              value: 1066
+              type: number
+            mediaType:
+              value: image/webp
+              type: text
+          _source: uniform-assets
+        - _id: 9242782a-1799-4ee7-a3fe-0e40cf7fd67f
+          type: image
+          fields:
+            id:
+              type: text
+              value: 663178a3-b970-48ff-a465-bdddd7234862
+            url:
+              value: >-
+                https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/qylf-n2NTduGSiBIyFQ_Vg-pumpkin-spice-latte-icebox-cake-build-7.webp
+              type: text
+            file:
+              type: file
+              value: 423e191e-d233-4253-bc50-b29de66493fc
+            size:
+              value: 78996
+              type: number
+            title:
+              type: text
+              value: pumpkin-spice-latte-icebox-cake-build-7.webp
+            width:
+              value: 1600
+              type: number
+            height:
+              value: 1067
+              type: number
+            mediaType:
+              value: image/webp
+              type: text
+          _source: uniform-assets
+        - _id: d05cf406-2832-499a-9d4c-83ea735d6517
+          type: image
+          fields:
+            id:
+              type: text
+              value: 9c8857d8-958c-4d45-a1a4-51c2151bda9d
+            url:
+              value: >-
+                https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/-lGdlTKZS_m_PzOsfBiSMA-pumpkin-spice-latte-icebox-cake-heath-bar-2.webp
+              type: text
+            file:
+              type: file
+              value: f075ad81-e20b-42a0-ae9e-e763246cb2d4
+            size:
+              value: 100988
+              type: number
+            title:
+              type: text
+              value: pumpkin-spice-latte-icebox-cake-heath-bar-2.webp
+            width:
+              value: 1600
+              type: number
+            height:
+              value: 1067
+              type: number
+            mediaType:
+              value: image/webp
+              type: text
+          _source: uniform-assets
+    yield:
+      type: text
+      locales:
+        en-US: 8 servings
+        es-US: 8 porciones
+        fr-CA: 8 portions
+        nl-NL: 8 porties
+    overview:
+      type: text
+      locales:
+        en-US: >-
+          A tiramisu-pumpkin spice latte-icebox pie hybrid that's just as good
+          as it sounds.
+        es-US: >-
+          Un híbrido de tiramisú, especias y calabaza, café con leche y caja
+          helada que es tan bueno como suena.
+        fr-CA: >-
+          Un hybride tiramisu-latte aux épices de potiron-tarte glacée qui est
+          aussi bon qu'il en a l'air.
+        nl-NL: >-
+          Een tiramisu-pumpkin spice latte-icebox pie hybride die net zo goed is
+          als het klinkt.
+    subtitle:
+      type: text
+      locales:
+        en-US: By Rick Martinez
+        es-US: Por Rick Martínez
+        fr-CA: Par Rick Martinez
+        nl-NL: Door Rick Martinez
+    recipeType:
+      type: contentReference
+      value: ${#jptr:/ref-a38bee0e-ab78-4bf9-928e-9596bef940f9-recipeType/entries/0}
+    description:
+      type: richText
+      locales:
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      If a tiramisu, a pumpkin spice latte, and an icebox pie
+                      had a baby, it would be this make-ahead dessert recipe.
+                      Some things are better from a can or a box—pumpkin purée
+                      and graham crackers are two of those things.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+            direction: ltr
+        es-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Si un tiramisú, un café con leche con especias de calabaza
+                      y un pastel de nevera tuvieran un bebé, sería esta receta
+                      de postre preparada con anticipación. Algunas cosas son
+                      mejores de una lata o una caja: el puré de calabaza y las
+                      galletas Graham son dos de esas cosas.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+            direction: ltr
+        fr-CA:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Si un tiramisu, un pumpkin spice latte et une tarte glacée
+                      avaient un bébé, ce serait cette recette de dessert à
+                      préparer à l'avance. Certaines choses sont meilleures en
+                      boîte ou en boîte - la purée de potiron et les biscuits
+                      Graham sont deux de ces choses.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+            direction: ltr
+        nl-NL:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Als een tiramisu, een latte met pompoenkruiden en een
+                      koelboxtaart een baby hadden, zou het dit vooruitstrevende
+                      dessertrecept zijn. Sommige dingen zijn beter uit een
+                      blikje of een doos - pompoenpuree en graham-crackers zijn
+                      twee van die dingen.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+            direction: ltr
+    ingredients:
+      type: $block
+      value:
+        - _id: c231f55d-04bc-4ede-9223-99006a52fed0
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-US: vanilla beans
+                es-US: vainas de vainilla
+                fr-CA: gousses de vanille
+                nl-NL: vanille bonen
+            amount:
+              type: number
+              value: '2'
+            amountText:
+              type: text
+              locales:
+                en-US: split lengthwise
+                es-US: dividido a lo largo
+                fr-CA: fendre dans le sens de la longueur
+                nl-NL: In de lengte gespleten
+        - _id: 402805bc-2725-4b7e-a252-e748a123dadf
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-US: heavy cream
+                es-US: crema espesa
+                fr-CA: crème épaisse
+                nl-NL: slagroom
+            unit:
+              type: select
+              value: c
+            amount:
+              type: number
+              value: '2'
+        - _id: 9ccc6e01-4423-4574-9b9e-1f2481f0fe7b
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-US: Kosher Salt
+                es-US: Sal Kosher
+                fr-CA: Sel Kasher
+                nl-NL: Koosjer zout
+        - _id: 80c2c1db-55bf-4997-9e44-e73ebe68320d
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-US: pumpkin purée
+                es-US: puré de calabaza
+                fr-CA: purée de citrouille
+                nl-NL: pompoen puree
+            unit:
+              type: select
+              value: c
+            amount:
+              type: number
+              value: '1.25'
+        - _id: 30b23225-e631-470a-b06e-efdd7b1b445f
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-US: light brown sugar
+                es-US: azúcar moreno claro
+                fr-CA: sucre brun léger
+                nl-NL: lichtbruine suiker
+            unit:
+              type: select
+              value: c
+            amount:
+              type: number
+              value: '.5'
+        - _id: a579b08a-27d5-43ca-a2cf-aa5aa2de53fe
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-US: mascarpone or sour cream
+                es-US: mascarpone o crema agria
+                fr-CA: mascarpone ou crème fraîche
+                nl-NL: mascarpone of zure room
+            amountText:
+              type: text
+              locales:
+                en-US: 1/3 cup room temp
+                es-US: 1/3 taza de temperatura ambiente
+                fr-CA: 1/3 de tasse à température ambiante
+                nl-NL: 1/3 kopje kamertemperatuur
+        - _id: 98a1524d-16f1-4497-97ae-7e89fa62a13a
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-US: sweetened condensed milk
+                es-US: Leche condensada azucarada
+                fr-CA: lait concentré sucré
+                nl-NL: gezoete gecondenseerde melk
+            unit:
+              type: select
+              value: c
+            amountText:
+              type: text
+              locales:
+                en-US: 1/3
+                es-US: 1/3
+                fr-CA: 1/3
+                nl-NL: 1/3
+        - _id: 5a6ca8e1-2a49-4094-83b4-41850955435b
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-US: pumpkin pie spice
+                es-US: Especias para pastel de calabaza
+                fr-CA: épices pour tarte à la citrouille
+                nl-NL: pompoentaart kruiden
+            unit:
+              type: select
+              value: tsp
+            amount:
+              type: number
+              value: '2'
+        - _id: d56326b1-9bea-4e89-b18a-2b37e031cb29
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-US: ground ginger
+                es-US: jengibre molido
+                fr-CA: gingembre moulu
+                nl-NL: gemalen gember
+            unit:
+              type: select
+              value: tsp
+            amount:
+              type: number
+              value: '1'
+        - _id: f12732d5-6ecd-4fca-9bf6-e8bcdadb6c34
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-US: graham crackers
+                es-US: Galletas
+                fr-CA: biscuits graham
+                nl-NL: Graham crackers
+            amount:
+              type: number
+              value: '12'
+            amountText:
+              type: text
+              locales:
+                en-US: 5x2-inch
+                es-US: 5x2 pulgadas
+                fr-CA: 5 x 2 pouces
+                nl-NL: 5 x 2 duim
+        - _id: 8ba070d0-3015-4bdf-90c0-cc965755e28a
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-US: strong coffee or espresso
+                es-US: Café fuerte o espresso
+                fr-CA: du café fort ou de l'espresso
+                nl-NL: sterke koffie of espresso
+            unit:
+              type: select
+              value: oz
+            amount:
+              type: number
+              value: '2'
+            amountText:
+              type: text
+              locales:
+                en-US: room temp
+                es-US: Temperatura ambiente
+                fr-CA: température ambiante
+                nl-NL: Kamertemperatuur
+        - _id: 038b223a-248e-46f6-b0f4-ed91a31becba
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-US: Pecan brittle, pecan praline, or chocolate butter toffee bar
+                es-US: >-
+                  Barra de caramelo de nuez quebradiza, praliné de nuez o
+                  mantequilla de chocolate
+                fr-CA: >-
+                  Brisures de noix de pécan, pralines de noix de pécan ou barres
+                  de caramel au beurre et au chocolat
+                nl-NL: Pecannoot brosse, pecannootpraliné of chocoladebotertoffeereep
+            amountText:
+              type: text
+              locales:
+                en-US: chopped
+                es-US: picado
+                fr-CA: haché
+                nl-NL: Gehakte
+    publishDate:
+      type: date
+      value: '2016-11-06'
+    instructions:
+      type: $block
+      value:
+        - _id: 325ae41e-e8e6-43b8-add0-e59b74dcb02f
+          type: howtoSection
+          fields:
+            name:
+              type: text
+              locales:
+                en-US: Preparation
+                es-US: Preparación
+                fr-CA: Préparation
+                nl-NL: Voorbereiding
+            steps:
+              type: $block
+              value:
+                - _id: c65474e8-1474-46fb-a0a1-ed0426b2838a
+                  type: howtoStep
+                  fields:
+                    name:
+                      type: text
+                      locales:
+                        en-US: Step 1
+                        es-US: Paso 1
+                        fr-CA: Étape 1
+                        nl-NL: Stap 1
+                    description:
+                      type: richText
+                      locales:
+                        en-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Real Talk: If you REALLY don’t want to
+                                      bother with the layering, serve this in
+                                      small bowls, cups, or clear jars as
+                                      individual parfaits (a spoonful of pumpkin
+                                      mixture, a spoonful of cream, with
+                                      crumbled graham crackers and candy on
+                                      top). Don’t worry, we won’t comment on how
+                                      lazy you are.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 2
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 2
+                            direction: ltr
+                        es-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Charla real: Si REALMENTE no quiere
+                                      molestarse con las capas, sírvalo en
+                                      tazones pequeños, tazas o frascos
+                                      transparentes como parfaits individuales
+                                      (una cucharada de mezcla de calabaza, una
+                                      cucharada de crema, con galletas Graham
+                                      desmenuzadas y dulces encima). No te
+                                      preocupes, no comentaremos lo perezoso que
+                                      eres.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 2
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 2
+                            direction: ltr
+                        fr-CA:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      En réalité : Si vous ne voulez VRAIMENT
+                                      pas vous embêter avec les couches, servez
+                                      ce gâteau dans des petits bols, des tasses
+                                      ou des pots transparents sous forme de
+                                      parfaits individuels (une cuillerée de
+                                      mélange au potiron, une cuillerée de
+                                      crème, avec des biscuits graham émiettés
+                                      et des bonbons sur le dessus). Ne vous
+                                      inquiétez pas, nous ne ferons aucun
+                                      commentaire sur votre paresse.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 2
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 2
+                            direction: ltr
+                        nl-NL:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Echt praten: Als je ECHT geen zin hebt om
+                                      je druk te maken over de gelaagdheid,
+                                      serveer dit dan in kleine kommen, kopjes
+                                      of doorzichtige potten als individuele
+                                      parfaits (een lepel pompoenmengsel, een
+                                      lepel room, met verkruimelde graham
+                                      crackers en snoep erop). Maak je geen
+                                      zorgen, we zullen geen commentaar geven op
+                                      hoe lui je bent.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 2
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 2
+                            direction: ltr
+                - _id: 8de81bb8-d6b9-4add-b5ba-d593c84ca65b
+                  type: howtoStep
+                  fields:
+                    name:
+                      type: text
+                      locales:
+                        en-US: Step 2
+                        es-US: Paso 2
+                        fr-CA: Étape 2
+                        nl-NL: Stap 2
+                    description:
+                      type: richText
+                      locales:
+                        en-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Scrape seeds from vanilla beans into a
+                                      large bowl; reserve pods for another use.
+                                      These babies are expensive! You can blend
+                                      them with salt or sugar to make
+                                      vanilla-infused seasonings, add them to
+                                      simple syrup, or cover them in a jar with
+                                      vodka to make your own vanilla extract.
+                                      Sweet!
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        es-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Raspe las semillas de las vainas de
+                                      vainilla en un tazón grande; Reserve las
+                                      vainas para otro uso. ¡Estos bebés son
+                                      caros! Puede mezclarlos con sal o azúcar
+                                      para hacer condimentos con infusión de
+                                      vainilla, agregarlos a un jarabe simple o
+                                      cubrirlos en un frasco con vodka para
+                                      hacer su propio extracto de vainilla.
+                                      ¡Dulce!
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        fr-CA:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Grattez les graines des gousses de vanille
+                                      dans un grand bol; réservez les gousses
+                                      pour un autre usage. Ces gousses coûtent
+                                      cher! Vous pouvez les mélanger avec du sel
+                                      ou du sucre pour créer des assaisonnements
+                                      à base de vanille, les ajouter à un sirop
+                                      simple ou les recouvrir de vodka dans un
+                                      bocal pour obtenir votre propre extrait de
+                                      vanille. Sucré!
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        nl-NL:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Schraap de zaadjes van vanillestokjes in
+                                      een grote kom; Bewaar pods voor een ander
+                                      gebruik. Deze baby's zijn duur! Je kunt ze
+                                      mengen met zout of suiker om met vanille
+                                      doordrenkte smaakmakers te maken, ze
+                                      toevoegen aan eenvoudige siroop of ze
+                                      afdekken in een pot met wodka om je eigen
+                                      vanille-extract te maken. Zoet!
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                - _id: a55339f5-9fec-4bf8-afa0-d7998e08f305
+                  type: howtoStep
+                  fields:
+                    name:
+                      type: text
+                      locales:
+                        en-US: Step 3
+                        es-US: Paso 3
+                        fr-CA: Étape 3
+                        nl-NL: Stap 3
+                    description:
+                      type: richText
+                      locales:
+                        en-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Add cream and a pinch of salt to bowl.
+                                      Using an electric mixer on medium-high
+                                      speed, beat until stiff peaks form.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        es-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Agregue la crema y una pizca de sal al
+                                      tazón. Con una batidora eléctrica a
+                                      velocidad media-alta, bata hasta que se
+                                      formen picos rígidos.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        fr-CA:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Ajouter la crème et une pincée de sel dans
+                                      le bol. À l'aide d'un batteur électrique à
+                                      vitesse moyenne-élevée, battre jusqu'à
+                                      l'obtention de pics fermes.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        nl-NL:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Voeg room en een snufje zout toe aan de
+                                      kom. Klop met een elektrische mixer op
+                                      middelhoge snelheid tot er stijve pieken
+                                      ontstaan.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                - _id: 10fc17c4-420d-4c08-abb8-a794ee33e630
+                  type: howtoStep
+                  fields:
+                    name:
+                      type: text
+                      locales:
+                        en-US: Step 4
+                        es-US: Paso 4
+                        fr-CA: Étape 4
+                        nl-NL: Stap 4
+                    description:
+                      type: richText
+                      locales:
+                        en-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Whisk pumpkin pureé, brown sugar,
+                                      mascarpone, condensed milk, pumpkin pie
+                                      spice, ginger, and ¼ tsp. salt in a medium
+                                      bowl until smooth. Fold 1½ cups whipped
+                                      cream into pumpkin mixture until combined
+                                      and no streaks of white remain.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        es-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Batir el puré de calabaza, el azúcar
+                                      morena, el mascarpone, la leche
+                                      condensada, las especias para pastel de
+                                      calabaza, el jengibre y 1/4 cucharadita de
+                                      sal en un tazón mediano hasta que quede
+                                      suave. Incorpore 11/2 tazas de crema
+                                      batida a la mezcla de calabaza hasta que
+                                      se combinen y no queden rayas blancas.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        fr-CA:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Fouetter la purée de citrouille, la
+                                      cassonade, le mascarpone, le lait
+                                      condensé, les épices pour tarte à la
+                                      citrouille, le gingembre et ¼ c. à thé de
+                                      sel dans un bol moyen jusqu'à ce que le
+                                      mélange soit lisse. Incorporer 1½ tasse de
+                                      crème fouettée au mélange de citrouille en
+                                      pliant jusqu'à ce que le tout soit combiné
+                                      et qu'il ne reste plus de traces de blanc.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        nl-NL:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Klop pompoenpuree, bruine suiker,
+                                      mascarpone, gecondenseerde melk,
+                                      pompoentaartkruiden, gember en 1/4
+                                      theelepel zout in een middelgrote kom tot
+                                      een gladde massa. Vouw 11/2 kopje slagroom
+                                      door het pompoenmengsel tot het
+                                      gecombineerd is en er geen witte strepen
+                                      meer over zijn.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                - _id: bca80370-56f6-43ac-94a4-f4c5f3fd3e64
+                  type: howtoStep
+                  fields:
+                    name:
+                      type: text
+                      locales:
+                        en-US: Step 5
+                        es-US: Paso 5
+                        fr-CA: Étape 5
+                        nl-NL: Stap 5
+                    description:
+                      type: richText
+                      locales:
+                        en-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Using a spatula or spoon, schmear a thin
+                                      layer of remaining whipped cream in the
+                                      center of a large serving plate (make sure
+                                      it’s big enough so 3 graham crackers can
+                                      cover it). Place 3 graham crackers, side
+                                      by side with the long sides touching, over
+                                      cream. Lightly brush tops with coffee.
+                                      Spread ¾ cup pumpkin mixture evenly over
+                                      crackers. Top with ½ cup whipped cream and
+                                      spread evenly to edges. Repeat with
+                                      remaining layers, ending with whipped
+                                      cream. Make it all swirly and pretty if
+                                      you’d like. Chill, uncovered, until
+                                      crackers have softened, at least 3 hours
+                                      and up to 6. Top with chopped brittle
+                                      before serving.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        es-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Con una espátula o una cuchara, unte una
+                                      capa delgada de crema batida restante en
+                                      el centro de un plato grande para servir
+                                      (asegúrese de que sea lo suficientemente
+                                      grande para que 3 galletas Graham puedan
+                                      cubrirlo). Coloque 3 galletas Graham, una
+                                      al lado de la otra con los lados largos
+                                      tocándose, sobre la crema. Cepille
+                                      ligeramente la parte superior con café.
+                                      Extienda 3/4 taza de la mezcla de calabaza
+                                      de manera uniforme sobre las galletas.
+                                      Cubra con 1/2 taza de crema batida y
+                                      extienda uniformemente por los bordes.
+                                      Repita con las capas restantes, terminando
+                                      con crema batida. Hazlo todo arremolinado
+                                      y bonito si quieres. Enfríe, sin tapar,
+                                      hasta que las galletas se hayan ablandado,
+                                      al menos 3 horas y hasta 6. Cubra con
+                                      quebradizo picado antes de servir.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        fr-CA:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      À l'aide d'une spatule ou d'une cuillère,
+                                      étaler une fine couche du reste de la
+                                      crème fouettée au centre d'une grande
+                                      assiette de service (s'assurer qu'elle est
+                                      assez grande pour que 3 graham crackers
+                                      puissent la recouvrir). Placer 3 biscuits
+                                      graham, côte à côte, les côtés longs se
+                                      touchant, sur la crème. Badigeonner
+                                      légèrement le dessus avec du café. Étendre
+                                      ¾ tasse de mélange de citrouille
+                                      uniformément sur les biscuits. Recouvrir
+                                      de ½ tasse de crème fouettée et étendre
+                                      uniformément jusqu'aux bords. Répéter avec
+                                      les autres couches, en terminant par la
+                                      crème fouettée. Faites des tourbillons et
+                                      des jolies couches si vous le souhaitez.
+                                      Réfrigérer, à découvert, jusqu'à ce que
+                                      les craquelins aient ramolli, au moins 3
+                                      heures et jusqu'à 6 heures. Avant de
+                                      servir, recouvrir le tout d'un peu de
+                                      cassonade hachée.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        nl-NL:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Schep met een spatel of lepel een dunne
+                                      laag resterende slagroom in het midden van
+                                      een grote serveerschaal (zorg ervoor dat
+                                      deze groot genoeg is zodat 3 graham
+                                      crackers het kunnen bedekken). Leg 3
+                                      graham crackers, zij aan zij met de lange
+                                      zijden tegen elkaar, over de room.
+                                      Bestrijk de bovenkanten licht met koffie.
+                                      Verdeel 3/4 kopje pompoenmengsel
+                                      gelijkmatig over crackers. Bedek met 1/2
+                                      kopje slagroom en verdeel gelijkmatig over
+                                      de randen. Herhaal met de resterende lagen
+                                      en eindig met slagroom. Maak het allemaal
+                                      zwierig en mooi als je wilt. Koel,
+                                      onbedekt, tot de crackers zacht zijn
+                                      geworden, minimaal 3 uur en maximaal 6.
+                                      Bestrooi met gehakte brosse voor het
+                                      serveren.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+    featuredImage:
+      type: asset
+      value:
+        - _id: d756e2be-f116-4ede-84b4-54e6eb73cf98
+          type: image
+          fields:
+            id:
+              type: text
+              value: d3561fc8-1617-470e-bd1d-03f838d9b2bc
+            url:
+              value: >-
+                https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/0iHJOqRbSyS--NoJGZnC0Q-pumpkin-spice-icebox-cake.webp
+              type: text
+            file:
+              type: file
+              value: ea33b845-8036-4506-ae56-cf6401ae66ff
+            size:
+              value: 234166
+              type: number
+            title:
+              type: text
+              value: pumpkin-spice-icebox-cake.webp
+            width:
+              value: 1920
+              type: number
+            height:
+              value: 1920
+              type: number
+            mediaType:
+              value: image/webp
+              type: text
+          _source: uniform-assets
+    mainIngredient:
+      type: contentReference
+      value: >-
+        ${#jptr:/ref-a38bee0e-ab78-4bf9-928e-9596bef940f9-mainIngredient/entries/0}
+  _dataResources:
+    ref-a38bee0e-ab78-4bf9-928e-9596bef940f9-recipeType:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: 15c4e9a0-d725-46fc-9392-ee4e3bee163e
+    ref-a38bee0e-ab78-4bf9-928e-9596bef940f9-mainIngredient:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: 22eda81d-b0dd-4cde-9747-fb07d5de61b3
+  _locales:
+    - en-US
+    - fr-CA
+    - nl-NL
+    - es-US

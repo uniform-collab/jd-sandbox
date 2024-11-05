@@ -1,0 +1,84 @@
+created: '2023-11-20T09:34:29.522628+00:00'
+modified: '2024-09-24T18:55:38.827533+00:00'
+pattern: false
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+entry:
+  _id: a7957d8a-ea12-4bab-8411-8cb4616027ac
+  _name: Fold-away frother
+  _slug: fold-away-frother
+  _thumbnail: >-
+    https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/C5R117TJSfyUL0vqd6r37w-javaDrip_specialty.jpg
+  type: productFeature
+  fields:
+    image:
+      type: asset
+      value:
+        - _id: e73add32-e348-4371-8d32-5a4a25c6fcc4
+          type: image
+          fields:
+            id:
+              type: text
+              value: 661bd340-58f7-4634-969b-d27665e7f155
+            url:
+              value: >-
+                https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/C5R117TJSfyUL0vqd6r37w-javaDrip_specialty.jpg
+              type: text
+            file:
+              type: file
+              value: c5ff659e-9a1f-402f-9379-f8998d35adac
+            size:
+              value: 164677
+              type: number
+            title:
+              type: text
+              value: javaDrip_specialty.jpg
+            width:
+              value: 1000
+              type: number
+            height:
+              value: 1000
+              type: number
+            mediaType:
+              value: image/jpeg
+              type: text
+          _source: uniform-assets
+    title:
+      type: text
+      locales:
+        en-US: Fold-away frother
+        es-US: Plegado a partir de la casa
+        fr-CA: Frottement pliant
+        nl-NL: Kleedkool
+    product:
+      type: contentReference
+      value: ${#jptr:/ref-a7957d8a-ea12-4bab-8411-8cb4616027ac-product/entries/0}
+    description:
+      type: text
+      locales:
+        en-US: >-
+          The Frother Whisk is compatible with the JavaDrip Coffee Bar® System
+          and JavaDrip Hot & Cold Brewed System™. Attach it to your brewer and
+          transform hot or cold milk into silky froth in seconds.
+        es-US: >-
+          El batidor Frother es compatible con el sistema Javadrip Coffee Bar® y
+          Javadrip Hot & Cold Brewed System ™.Adjuntarlo a su cervecero y
+          transformar la leche caliente o fría en espuma sedosa en segundos.
+        fr-CA: >-
+          Le fouet Frother est compatible avec le système Javadrip Coffee Bar®
+          et Javadrip Hot & Cold Brewed System ™.Fixez-le à votre brasseur et
+          transformez du lait chaud ou froid en mousse soyeuse en quelques
+          secondes.
+        nl-NL: >-
+          De fron -garde is compatibel met het Javadrip Coffee Bar® -systeem en
+          Javadrip Hot & Cold Brewed System ™.Bevestig het aan uw brouwer en
+          transformeer hete of koude melk in zijdezacht schuim in seconden.
+  _dataResources:
+    ref-a7957d8a-ea12-4bab-8411-8cb4616027ac-product:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: df7a5d21-9a3c-49db-92d2-662b0fecce21
+  _locales:
+    - en-US
+    - es-US
+    - fr-CA
+    - nl-NL

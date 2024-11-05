@@ -1,0 +1,9 @@
+id: 46d79867-b877-4ce7-9675-78fee55fc308
+name: About Us
+type: composition
+data: {}
+order: 600
+path: /:locale/about-us
+compositionId: 7661da5c-8709-44d0-b4e7-49d17baa794c
+pathSegment: about-us
+projectMapId: 62588085-7894-4810-84b6-eaaf0cb5213c

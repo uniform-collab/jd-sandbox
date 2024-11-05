@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 9c8857d8-958c-4d45-a1a4-51c2151bda9d
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: pumpkin-spice-latte-icebox-cake-heath-bar-2.webp
+    file:
+      type: file
+      value: f075ad81-e20b-42a0-ae9e-e763246cb2d4
+    mediaType:
+      value: image/webp
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/-lGdlTKZS_m_PzOsfBiSMA-pumpkin-spice-latte-icebox-cake-heath-bar-2.webp
+      type: text
+    size:
+      value: 100988
+      type: number
+    width:
+      value: 1600
+      type: number
+    height:
+      value: 1067
+      type: number
+    custom: {}
+created: '2024-09-26T17:33:29.914687+00:00'
+modified: '2024-09-26T17:33:29.914687+00:00'

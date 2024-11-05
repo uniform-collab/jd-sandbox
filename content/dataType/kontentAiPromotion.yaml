@@ -1,0 +1,32 @@
+id: kontentAiPromotion
+displayName: Promotion
+ttl: 30
+path: /items/${itemsCodenames}
+custom:
+  imageElement: image
+  searchElements:
+    - title
+  displayNameElement: title
+  enableFilterByLanguage: true
+  allowContentTypeCodeNames:
+    - featured_callout__copy_
+method: GET
+purgeKey: a3b8576b-e127-4787-9cf1-5826277cab45
+archetype: singleItem
+variables:
+  language:
+    type: text
+    default: ''
+    displayName: Language
+  itemsCodenames:
+    type: text
+    default: ''
+    displayName: Items Codenames
+parameters:
+  - key: depth
+    value: '1'
+  - key: language
+    value: ${language}
+    omitIfEmpty: true
+dataSourceId: kontentAiDataSource
+allowedOnComponents: []

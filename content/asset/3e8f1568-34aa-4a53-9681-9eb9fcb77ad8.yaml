@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 3e8f1568-34aa-4a53-9681-9eb9fcb77ad8
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: breakfast-blend-coffee-128_oxayyg_txiagu.jpg
+    file:
+      type: file
+      value: 5c0a294b-f3eb-45ca-a96d-613987ac34c6
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/HvZXba9zSamB8Ue5p54omQ-breakfast-blend-coffee-128_oxayyg_txiagu.jpg
+      type: text
+    size:
+      value: 14969
+      type: number
+    width:
+      value: 386
+      type: number
+    height:
+      value: 386
+      type: number
+    custom: {}
+created: '2024-01-29T16:18:03.717234+00:00'
+modified: '2024-01-29T16:18:03.717234+00:00'

@@ -1,0 +1,9 @@
+id: 95a0a641-fe85-461f-9c2d-7cba2e379867
+name: Coffee Rubbed Steak
+order: 500
+path: /:locale/about-us/recipes/coffee-rubbed-steak
+type: composition
+pathSegment: coffee-rubbed-steak
+data: {}
+compositionId: 62766451-c7c9-4fb6-9352-b9171ecda39f
+projectMapId: 62588085-7894-4810-84b6-eaaf0cb5213c

@@ -1,0 +1,96 @@
+created: '2023-11-20T09:34:29.513819+00:00'
+modified: '2024-09-24T18:55:38.827533+00:00'
+pattern: false
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+entry:
+  _id: a488e8a3-ac83-4db2-907a-511c64bb1bf7
+  _name: I recommend
+  _slug: i-recommend
+  _thumbnail: >-
+    https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/7NhgSLY2Qq-KmudgtBUa8Q-person_photo_1.jpg
+  type: testimonial
+  fields:
+    stars:
+      type: text
+      value: '5'
+    title:
+      type: text
+      locales:
+        en-US: I recommend
+        es-US: recomiendo
+        fr-CA: je recommande
+        nl-NL: ik raad aan
+    picture:
+      type: asset
+      value:
+        - _id: 645e2444-57bb-4728-97fc-e3927d5efd36
+          type: image
+          fields:
+            id:
+              type: text
+              value: 12d37c68-42e4-4694-b221-d4754482a666
+            url:
+              value: >-
+                https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/7NhgSLY2Qq-KmudgtBUa8Q-person_photo_1.jpg
+              type: text
+            file:
+              type: file
+              value: 435c1360-a258-4602-90cd-0e61d03ca683
+            size:
+              value: 8294
+              type: number
+            title:
+              type: text
+              value: person_photo_1.jpg
+            width:
+              value: 256
+              type: number
+            height:
+              value: 256
+              type: number
+            mediaType:
+              value: image/jpeg
+              type: text
+          _source: uniform-assets
+    product:
+      type: contentReference
+      value: ${#jptr:/ref-a488e8a3-ac83-4db2-907a-511c64bb1bf7-product/entries/0}
+    lastName:
+      type: text
+      locales:
+        en-US: Gibbons
+        es-US: Gibones
+        fr-CA: Gibbons
+        nl-NL: Gibbons
+    firstName:
+      type: text
+      locales:
+        en-US: 'Hector '
+        es-US: Héctor
+        fr-CA: Hector
+        nl-NL: Hector
+    experience:
+      type: text
+      locales:
+        en-US: >-
+          Love this machine! I can make a single cup or a full pot. Specialty
+          coffee feature is a plus!!
+        es-US: >-
+          ¡Amo esta máquina!Puedo hacer una sola taza o una olla completa.¡La
+          función de café especial es una ventaja!
+        fr-CA: >-
+          J'adore cette machine!Je peux faire une seule tasse ou un pot
+          complet.La fonction de café spécialisé est un plus !!
+        nl-NL: >-
+          Ik hou van deze machine!Ik kan een enkele kop of een volle pot
+          maken.Specialty Coffee -functie is een pluspunt !!
+  _dataResources:
+    ref-a488e8a3-ac83-4db2-907a-511c64bb1bf7-product:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: df7a5d21-9a3c-49db-92d2-662b0fecce21
+  _locales:
+    - en-US
+    - es-US
+    - fr-CA
+    - nl-NL

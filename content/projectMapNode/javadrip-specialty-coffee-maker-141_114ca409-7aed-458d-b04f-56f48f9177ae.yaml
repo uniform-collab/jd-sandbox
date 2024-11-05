@@ -1,0 +1,13 @@
+id: 114ca409-7aed-458d-b04f-56f48f9177ae
+name: JavaDrip Specialty
+order: 450
+path: /:locale/products/javadrip-specialty-coffee-maker-141
+type: composition
+pathSegment: javadrip-specialty-coffee-maker-141
+data:
+  queryStrings:
+    - name: productID
+      value: javadrip-specialty-coffee-maker-141
+      helpText: ''
+compositionId: a266a9b2-d9ac-4815-abf2-401d1e714cfc
+projectMapId: 62588085-7894-4810-84b6-eaaf0cb5213c

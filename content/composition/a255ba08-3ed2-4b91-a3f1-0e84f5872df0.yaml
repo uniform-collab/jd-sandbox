@@ -1,0 +1,284 @@
+composition:
+  _name: Product Details Page
+  _id: a255ba08-3ed2-4b91-a3f1-0e84f5872df0
+  _slug: ':product-slug'
+  type: productDetailsPage
+  parameters:
+    pageTitle:
+      type: text
+      locales:
+        en-CA: ${#jptr:/Product Content/entry/fields/title/value} Details Page
+        en-GB: ${#jptr:/Product Content/entry/fields/title/value} Details Page
+        en-NL: ${#jptr:/Product Content/entry/fields/title/value} Details Page
+        en-US: ${#jptr:/Product Content/entry/fields/title/value} Details Page
+        es-US: ${#jptr:/Product Content/entry/fields/title/value} Página de detalles
+        fr-CA: ${#jptr:/Product Content/entry/fields/name/value} Détails de la page
+        nl-NL: ${#jptr:/Product Content/entry/fields/name/value} Details Pagina
+    pageSubcategories:
+      type: json
+      value: ${#jptr:/Product Content/entry/fields/category/value}
+  slots:
+    pageFooter:
+      - _id: 0a8873bf-ce39-4861-92f2-1728b4cdc73c
+        type: footer
+        _pattern: 319639e9-4bac-4fb3-8f0b-19088c969fcb
+    pageHeader:
+      - _id: 71a988e9-c24f-4aa4-a732-f6fd847c5774
+        type: header
+        _pattern: e46c8336-acfd-43e8-ac59-8be8f4c33b7d
+    pageContent:
+      - _id: 8726466b-4d35-4603-a989-f6af2f57ca96
+        type: $test
+        slots:
+          test:
+            - _id: 790036c7-2557-4300-85bc-01e4bd2dbf45
+              type: productInfo
+              _pattern: f80964a3-4000-4a5d-8d8d-1400b03bceb3
+              _dataResources:
+                Product Content:
+                  type: product
+                  variables:
+                    slug: ${product-slug}
+                    locale: ${locale}
+            - _id: c111c612-3634-4d7c-add1-dea7f28808d4
+              type: productInfo
+              _pattern: f80964a3-4000-4a5d-8d8d-1400b03bceb3
+              _dataResources:
+                Product Content:
+                  type: product
+                  variables:
+                    slug: ${product-slug}
+                    locale: ${locale}
+        parameters:
+          test:
+            type: testSelect
+            value: pdpProductInfo
+      - _id: fd17ee59-b758-4df8-83ad-be803dee197f
+        type: imageGallery
+        _pattern: 92f3a50f-098f-4448-88dd-4005e384559d
+        _dataResources:
+          Product Content:
+            type: product
+            variables:
+              slug: ${product-slug}
+              locale: ${locale}
+      - _id: 86780bea-ec90-4771-ac3f-694f5f887190
+        type: container
+        slots:
+          container-inner:
+            - _id: 7aa976bf-1d76-40e5-a976-5f0fe5bfd178
+              type: productBundle
+              _pattern: 146a5688-8a35-4d33-81ed-37f73da01c25
+              _dataResources:
+                Product Content:
+                  type: product
+                  variables:
+                    slug: ${product-slug}
+                    locale: ${locale}
+        parameters:
+          title:
+            type: text
+            locales:
+              en-CA: Bundle
+              en-GB: Bundle
+              en-NL: Bundle
+              en-US: Bundle
+              es-US: Paquete
+              fr-CA: Paquet
+              nl-NL: Bundel
+          paddingTop:
+            type: select
+            value: Small
+          paddingBottom:
+            type: select
+            value: Medium
+          backgroundType:
+            type: tp-background-type-parameter
+            value: Dark
+      - _id: 4e2774ad-2ba3-42c5-8b4d-0f5169890452
+        type: container
+        slots:
+          container-inner:
+            - _id: a422dbed-945e-452a-883b-f0be1b2548c1
+              type: cardBlock
+              _pattern: 9f1d715b-16aa-4f0f-807d-036beb0ff67f
+              _dataResources:
+                Product Content:
+                  type: product
+                  variables:
+                    slug: ${product-slug}
+                    locale: ${locale}
+        parameters:
+          title:
+            type: text
+            locales:
+              en-CA: Recommend Products
+              en-GB: Recommend Products
+              en-NL: Recommend Products
+              en-US: Recommend Products
+              es-US: Recomendar productos
+              fr-CA: Recommander des produits
+              nl-NL: Aanbevolen producten
+          paddingTop:
+            type: select
+            value: Small
+          paddingBottom:
+            type: select
+            value: Medium
+          backgroundType:
+            type: tp-background-type-parameter
+            value: Dark
+  _dataResources:
+    Product Content:
+      type: product
+      variables:
+        slug: ${product-slug}
+        locale: ${locale}
+  _overrides:
+    790036c7-2557-4300-85bc-01e4bd2dbf45:
+      parameters:
+        $tstVrnt:
+          type: testVariant
+          value:
+            id: Minimalistic
+        subTitle:
+          type: text
+          locales:
+            en-CA: null
+            en-GB: null
+            en-NL: null
+            en-US: null
+        objectFit:
+          type: select
+          value: contain
+        fullHeight:
+          type: checkbox
+          value: null
+        titleStyle:
+          type: tp-title-style-parameter
+          value: h1
+        description:
+          type: text
+          locales:
+            en-US: null
+        eyebrowText:
+          type: text
+          locales:
+            en-CA: Exclusively from JavaDrip!
+            en-GB: Exclusively from JavaDrip!
+            en-NL: Exclusively from JavaDrip!
+            en-US: Exclusively from JavaDrip!
+            es-US: ¡Exclusivamente de JavaDrip!
+            fr-CA: "Exclusivité JavaDrip\_!"
+            nl-NL: "Exclusieve JavaDrip\_!"
+        overlayColor:
+          type: tp-color-style-parameter
+          value: primary
+        highlightText:
+          type: text
+          locales:
+            en-CA: >-
+              Only ${#jptr:/Product
+              Content/entry/fields/variants/value/0/fields/currency/value}
+              ${#jptr:/Product
+              Content/entry/fields/variants/value/0/fields/price/value}
+            en-GB: >-
+              Only ${#jptr:/Product
+              Content/entry/fields/variants/value/0/fields/currency/value}
+              ${#jptr:/Product
+              Content/entry/fields/variants/value/0/fields/price/value}
+            en-NL: >-
+              Only ${#jptr:/Product
+              Content/entry/fields/variants/value/0/fields/currency/value}
+              ${#jptr:/Product
+              Content/entry/fields/variants/value/0/fields/price/value}
+            en-US: >-
+              Only ${#jptr:/Product
+              Content/entry/fields/variants/value/0/fields/currency/value}
+              ${#jptr:/Product
+              Content/entry/fields/variants/value/0/fields/price/value}
+            es-US: >-
+              Only ${#jptr:/Product
+              Content/entry/fields/variants/value/0/fields/currency/value}
+              ${#jptr:/Product
+              Content/entry/fields/variants/value/0/fields/price/value}
+            fr-CA: >-
+              Only ${#jptr:/Product
+              Content/entry/fields/variants/value/0/fields/currency/value}
+              ${#jptr:/Product
+              Content/entry/fields/variants/value/0/fields/price/value}
+            nl-NL: >-
+              Only ${#jptr:/Product
+              Content/entry/fields/variants/value/0/fields/currency/value}
+              ${#jptr:/Product
+              Content/entry/fields/variants/value/0/fields/price/value}
+        overlayOpacity:
+          type: tp-slider-parameter
+          value: 70%
+        primaryButtonCopy:
+          type: text
+          locales:
+            en-CA: Get yours!
+            en-GB: Get yours!
+            en-NL: Get yours!
+            en-US: Get yours!
+            es-US: ¡Consigue el tuyo!
+        primaryButtonStyle:
+          type: tp-button-style-parameter
+          value: secondary
+        secondaryButtonCopy:
+          type: text
+          locales:
+            en-US: null
+        secondaryButtonLink:
+          type: link
+          value: null
+    7aa976bf-1d76-40e5-a976-5f0fe5bfd178:
+      parameters:
+        secondaryTextColor:
+          type: tp-color-palette-parameter
+          value: secondary
+    a422dbed-945e-452a-883b-f0be1b2548c1:
+      parameters:
+        title:
+          type: text
+          locales:
+            en-US: >-
+              Recommended for your ${#jptr:/Product
+              Content/entry/fields/name/value}
+        buttonStyle:
+          type: tp-button-style-parameter
+          value: primary
+        textColorVariant:
+          type: select
+          value: Light
+    c111c612-3634-4d7c-add1-dea7f28808d4:
+      parameters:
+        $tstVrnt:
+          type: testVariant
+          value:
+            id: Informational
+    fd17ee59-b758-4df8-83ad-be803dee197f:
+      parameters:
+        title:
+          type: text
+          locales:
+            en-CA: ${#jptr:/Product Content/entry/fields/name/value}
+            en-GB: ${#jptr:/Product Content/entry/fields/name/value}
+            en-NL: ${#jptr:/Product Content/entry/fields/name/value}
+            en-US: ${#jptr:/Product Content/entry/fields/name/value}
+        titleStyle:
+          type: tp-title-style-parameter
+          value: h2
+  _locales:
+    - fr-CA
+    - en-US
+    - es-US
+    - nl-NL
+    - en-NL
+    - en-CA
+    - en-GB
+created: '2024-09-05T09:56:12.448315+00:00'
+modified: '2024-09-24T18:55:38.827533+00:00'
+pattern: false
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5

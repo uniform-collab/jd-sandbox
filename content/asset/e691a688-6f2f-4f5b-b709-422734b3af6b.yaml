@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: e691a688-6f2f-4f5b-b709-422734b3af6b
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: 5_things_for_used_grinds.jpg
+    file:
+      type: file
+      value: 6d63214a-4e7f-4c36-bfa6-8a59ded813d4
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/PpzyIV0FQ-6rRW_J0vF15Q-5_things_for_used_grinds.jpg
+      type: text
+    size:
+      value: 55401
+      type: number
+    width:
+      value: 658
+      type: number
+    height:
+      value: 442
+      type: number
+    custom: {}
+created: '2023-12-12T17:10:08.62478+00:00'
+modified: '2023-12-12T17:10:08.62478+00:00'

@@ -1,0 +1,9 @@
+id: c8c42a30-8614-480b-8b6c-609169e5fdf7
+name: Featured Product Layout
+order: 500
+path: /:locale/Layouts/featured-products
+type: composition
+pathSegment: featured-products
+data: {}
+compositionId: 94965216-6f09-45a5-a551-5966c71987d1
+projectMapId: 62588085-7894-4810-84b6-eaaf0cb5213c

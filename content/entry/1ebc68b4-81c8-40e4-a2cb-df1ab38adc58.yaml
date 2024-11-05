@@ -1,0 +1,96 @@
+created: '2024-08-12T13:03:45.659508+00:00'
+modified: '2024-09-24T18:55:38.827533+00:00'
+pattern: false
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+entry:
+  _id: 1ebc68b4-81c8-40e4-a2cb-df1ab38adc58
+  _name: French Press
+  _slug: french-press
+  type: productCategory
+  fields:
+    logo:
+      type: asset
+      locales:
+        en-US:
+          - _id: c685f4e6-be59-4f2c-a83d-6aa914633220
+            type: image
+            fields:
+              id:
+                type: text
+                value: df8ab1e5-708f-43b4-ab37-411d92f433a4
+              url:
+                value: >-
+                  https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/28okJ0FtSA6PQJ3cp8AgKw-Image-3.webp
+                type: text
+              file:
+                type: file
+                value: 132cc267-2953-4572-981d-a8a7f62ca3e2
+              size:
+                value: 89646
+                type: number
+              title:
+                type: text
+                value: Image-3.webp
+              width:
+                value: 1024
+                type: number
+              height:
+                value: 1024
+                type: number
+              mediaType:
+                value: image/webp
+                type: text
+            _source: uniform-assets
+    title:
+      type: text
+      locales:
+        en-US: French Press
+        es-US: Prensa francesa
+        fr-CA: Presse française
+        nl-NL: Franse pers
+    description:
+      type: text
+      locales:
+        en-US: >-
+          Experience the rich, full-bodied flavor of coffee brewed in a French
+          press. Our selection of French presses includes various sizes and
+          designs, perfect for any coffee lover. Known for its ability to
+          extract the most flavorsome oils from your coffee grounds, the French
+          press offers a simple yet sophisticated brewing method. Enjoy the
+          ritual of pressing your coffee and savor the deep, aromatic brew that
+          results. Browse our collection and find the perfect French press to
+          elevate your coffee moments.
+        es-US: >-
+          Experimente el rico sabor de café con cuerpo elaborado en una prensa
+          francesa.Nuestra selección de prensas francesas incluye varios tamaños
+          y diseños, perfecto para cualquier amante del café.Conocido por su
+          capacidad para extraer los aceites más sabrosos de sus café, la prensa
+          francesa ofrece un método de elaboración simple pero
+          sofisticado.Disfruta del ritual de presionar tu café y saborear la
+          profunda y aromática cerveza que resulta.Explore nuestra colección y
+          encuentre la prensa francesa perfecta para elevar sus momentos de
+          café.
+        fr-CA: >-
+          Découvrez la saveur riche et corsée de café brassée dans une presse
+          française.Notre sélection de presses françaises comprend différentes
+          tailles et designs, parfaits pour tout amateur de café.Connu pour sa
+          capacité à extraire les huiles les plus savoureuses de votre terrain
+          de café, la presse française offre une méthode de brassage simple mais
+          sophistiquée.Profitez du rituel de presser votre café et savourez
+          l'infusion aromatique profonde qui en résulte.Parcourez notre
+          collection et trouvez la presse française parfaite pour élever vos
+          moments de café.
+        nl-NL: >-
+          Ervaar de rijke, volle smaak van koffie gebrouwen in een Franse
+          pers.Onze selectie Franse persen omvat verschillende maten en
+          ontwerpen, perfect voor elke koffieliefhebber.Bekend om zijn vermogen
+          om de meest smaakvolle oliën uit uw koffiedik te halen, biedt de
+          Franse pers een eenvoudige maar verfijnde brouwmethode.Geniet van het
+          ritueel van het drukken op uw koffie en geniet van het diepe,
+          aromatische brouwsel dat resulteert.Blader door onze collectie en vind
+          de perfecte Franse pers om uw koffiemomenten te verheffen.
+  _locales:
+    - en-US
+    - es-US
+    - fr-CA
+    - nl-NL

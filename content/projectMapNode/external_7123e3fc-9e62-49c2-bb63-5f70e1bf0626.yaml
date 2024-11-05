@@ -1,0 +1,8 @@
+id: 7123e3fc-9e62-49c2-bb63-5f70e1bf0626
+name: External
+order: 700
+path: /:locale/external
+type: placeholder
+pathSegment: external
+data: {}
+projectMapId: 62588085-7894-4810-84b6-eaaf0cb5213c

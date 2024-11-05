@@ -1,0 +1,24 @@
+asset:
+  type: image
+  _id: cc53834f-b79e-4e7c-9a96-9d6ac0a1a8c6
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: commercial_espresso.avif
+    file:
+      type: file
+      value: bb7db696-bf7b-4556-af60-1789d66395c9
+    mediaType:
+      value: image/avif
+      type: text
+    url:
+      value: >-
+        https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/RLtz1aB0Su-_Mp60QHBZlQ-commercial_espresso.avif
+      type: text
+    size:
+      value: 60497
+      type: number
+    custom: {}
+created: '2023-12-13T13:08:13.655614+00:00'
+modified: '2024-09-05T09:55:07.456195+00:00'

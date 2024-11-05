@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 8a0e74ad-d967-4817-a30c-9187ab0cce02
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: black-mountain-pour-over-coffee-maker-97-2_ehz3rr_agm9gl.jpg
+    file:
+      type: file
+      value: 6399ed2d-e481-405a-8570-7ede7467a4e6
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/-EIP-gL_Tv2qAfRa_ejh_w-black-mountain-pour-over-coffee-maker-97-2_ehz3rr_agm9gl.jpg
+      type: text
+    size:
+      value: 101721
+      type: number
+    width:
+      value: 1280
+      type: number
+    height:
+      value: 1280
+      type: number
+    custom: {}
+created: '2024-02-01T09:53:27.513332+00:00'
+modified: '2024-02-01T09:53:27.513332+00:00'

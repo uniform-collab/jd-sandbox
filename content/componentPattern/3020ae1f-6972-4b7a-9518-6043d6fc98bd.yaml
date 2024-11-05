@@ -1,0 +1,416 @@
+composition:
+  _name: Uniform Entry Search Engine Product Pattern
+  _id: 3020ae1f-6972-4b7a-9518-6043d6fc98bd
+  type: uniformEntrySearchEngine
+  parameters:
+    pageSize:
+      type: number
+      value: '10'
+    initialFilters:
+      type: $block
+      value:
+        - _id: dc03ce11-5912-4c9b-b2dc-6b42b9e4a9fa
+          type: searchFilter
+          fields:
+            key:
+              type: text
+              value: type
+            value:
+              type: text
+              value: product
+            operator:
+              type: select
+              value: eq
+            filterName:
+              type: text
+              value: Type
+        - _id: be1eec18-8979-4bc2-8627-182097c9818f
+          type: searchFilter
+          fields:
+            key:
+              type: text
+              value: fields.category
+            value:
+              type: text
+              value: >-
+                Coffee
+                Makers|coffee-makers|pour-over|percolators|espresso|turkish|french-press|Beans|beans|arabica|robusta|liberica|accessories
+            operator:
+              type: select
+              value: in
+            filterName:
+              type: text
+              value: Categories
+  slots:
+    content:
+      - _id: 02b0723f-a965-4d1d-8866-cd7a1d7c78ef
+        type: searchBox
+        parameters:
+          placeholder:
+            type: text
+            locales:
+              en-CA: Search by Keyword
+              en-GB: Search by Keyword
+              en-NL: Search by Keyword
+              en-US: Search by Keyword
+              es-US: Buscar por palabra clave
+              fr-CA: Recherche par mot-clé
+              nl-NL: Zoeken op trefwoord
+        _overridability:
+          hideLockedParameters: true
+      - _id: 2c1e9a00-5b37-40b3-849b-3de8c80b8392
+        type: grid
+        slots:
+          grid-inner:
+            - _id: 7e9efcf9-5373-489f-b6c9-1b8d80d4befa
+              type: gridItem
+              slots:
+                inner:
+                  - _id: 0af12345-d956-4b27-8d15-0e09ac856c87
+                    type: filterBox
+                    parameters:
+                      title:
+                        type: text
+                        locales:
+                          en-US: Categories
+                      filters:
+                        type: $block
+                        value:
+                          - _id: ed3e217b-0e2a-4f8b-bd3f-e7103a61500e
+                            type: searchFilter
+                            fields:
+                              key:
+                                type: text
+                                value: fields.category
+                              value:
+                                type: text
+                                value: Coffee Makers|coffee-makers
+                              operator:
+                                type: select
+                                value: in
+                              filterName:
+                                type: text
+                                value: Coffee Makers
+                          - _id: d4e94a3a-8b7a-4947-8799-344de19e9541
+                            type: searchFilter
+                            fields:
+                              key:
+                                type: text
+                                value: fields.category
+                              value:
+                                type: text
+                                value: pour-over
+                              operator:
+                                type: select
+                                value: eq
+                              filterName:
+                                type: text
+                                value: Pour Over
+                          - _id: b63b3edd-ab76-496d-a0ad-2b92a79ef4c7
+                            type: searchFilter
+                            fields:
+                              key:
+                                type: text
+                                value: fields.category
+                              value:
+                                type: text
+                                value: percolators
+                              operator:
+                                type: select
+                                value: eq
+                              filterName:
+                                type: text
+                                value: Percolators
+                          - _id: fbd17b22-32f7-4143-950e-b0622e75718d
+                            type: searchFilter
+                            fields:
+                              key:
+                                type: text
+                                value: fields.category
+                              value:
+                                type: text
+                                value: espresso
+                              operator:
+                                type: select
+                                value: eq
+                              filterName:
+                                type: text
+                                value: Espresso
+                          - _id: ebd4a646-8bf8-4141-88f8-02f9b3013fa9
+                            type: searchFilter
+                            fields:
+                              key:
+                                type: text
+                                value: fields.category
+                              value:
+                                type: text
+                                value: turkish
+                              operator:
+                                type: select
+                                value: eq
+                              filterName:
+                                type: text
+                                value: Turkish
+                          - _id: d26038fd-63a9-4f21-912e-eff38a5b5247
+                            type: searchFilter
+                            fields:
+                              key:
+                                type: text
+                                value: fields.category
+                              value:
+                                type: text
+                                value: french-press
+                              operator:
+                                type: select
+                                value: eq
+                              filterName:
+                                type: text
+                                value: French Press
+                          - _id: d53d17db-64bf-4b7a-91f3-e91aa6fa2ba9
+                            type: searchFilter
+                            fields:
+                              key:
+                                type: text
+                                value: fields.category
+                              value:
+                                type: text
+                                value: Beans|beans
+                              operator:
+                                type: select
+                                value: in
+                              filterName:
+                                type: text
+                                value: Beans
+                          - _id: c3444cca-b461-4d32-935f-db415903a28e
+                            type: searchFilter
+                            fields:
+                              key:
+                                type: text
+                                value: fields.category
+                              value:
+                                type: text
+                                value: arabica
+                              operator:
+                                type: select
+                                value: eq
+                              filterName:
+                                type: text
+                                value: Arabica
+                          - _id: 4e0b33bf-01de-48c9-9fa5-d9f8943e2fb8
+                            type: searchFilter
+                            fields:
+                              key:
+                                type: text
+                                value: fields.category
+                              value:
+                                type: text
+                                value: robusta
+                              operator:
+                                type: select
+                                value: eq
+                              filterName:
+                                type: text
+                                value: Robusta
+                          - _id: 3c6f1116-8f1e-4574-8d62-27befc5296ca
+                            type: searchFilter
+                            fields:
+                              key:
+                                type: text
+                                value: fields.category
+                              value:
+                                type: text
+                                value: liberica
+                              operator:
+                                type: select
+                                value: eq
+                              filterName:
+                                type: text
+                                value: Liberica
+                          - _id: 866f4594-9b1b-4510-ad02-15c2146c24fb
+                            type: searchFilter
+                            fields:
+                              key:
+                                type: text
+                                value: fields.category
+                              value:
+                                type: text
+                                value: accessories
+                              operator:
+                                type: select
+                                value: eq
+                              filterName:
+                                type: text
+                                value: Accessories
+                    _overridability:
+                      hideLockedParameters: true
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: Left Section
+                rowSpan:
+                  type: tp-slider-parameter
+                  value: '1'
+                rowStart:
+                  type: tp-slider-parameter
+                  value: None
+                columnSpan:
+                  type: tp-slider-parameter
+                  value: '1'
+                columnStart:
+                  type: tp-slider-parameter
+                  value: none
+              _overridability:
+                hideLockedParameters: true
+            - _id: f5d7f4b0-ce70-4c5d-a64e-a530cd98aa57
+              type: gridItem
+              slots:
+                inner:
+                  - _id: 604e184e-b9c6-4a69-8a51-babfb121b3f8
+                    type: searchEntryResultList
+                    slots:
+                      resultItem:
+                        - _id: f7f5a7a5-6267-41d5-8a2b-d4631bd5faf3
+                          type: productItem
+                          parameters:
+                            badgeSize:
+                              type: select
+                              value: md
+                            objectFit:
+                              type: select
+                              value: cover
+                            badgeStyle:
+                              type: tp-badge-style-parameter
+                              value: accent
+                            buttonCopy:
+                              type: text
+                              locales:
+                                en-CA: See Details
+                                en-GB: See Details
+                                en-NL: See Details
+                                en-US: See Details
+                                es-US: Ver detalles
+                                fr-CA: Voir les détails
+                                nl-NL: Zie de details
+                            buttonLink:
+                              type: link
+                              value:
+                                path: /${locale}/products/:product-slug
+                                type: projectMapNode
+                                nodeId: fb657541-0488-4c22-bce4-64c9cd71bdde
+                                projectMapId: 62588085-7894-4810-84b6-eaaf0cb5213c
+                                dynamicInputValues:
+                                  locale: ${locale}
+                            buttonStyle:
+                              type: tp-button-style-parameter
+                              value: primary
+                            textColorVariant:
+                              type: select
+                              value: Dark
+                            lineCountRestriction:
+                              type: tp-slider-parameter
+                              value: '5'
+                          _overridability:
+                            variants: true
+                            parameters:
+                              delay: 'yes'
+                              duration: 'yes'
+                              badgeSize: 'yes'
+                              objectFit: 'yes'
+                              badgeStyle: 'yes'
+                              buttonCopy: 'yes'
+                              buttonLink: 'yes'
+                              buttonStyle: 'yes'
+                              overlayColor: 'yes'
+                              animationType: 'yes'
+                              overlayOpacity: 'yes'
+                              animationPreview: 'yes'
+                              textColorVariant: 'yes'
+                              buttonAnimationType: 'yes'
+                              lineCountRestriction: 'yes'
+                            hideLockedParameters: true
+                    _overridability:
+                      hideLockedParameters: true
+                  - _id: f5d7eda4-2f49-40f8-bf82-6e6db0a7f5cb
+                    type: spacer
+                    parameters:
+                      thickness:
+                        type: tp-slider-parameter
+                        value: 20px
+                    _overridability:
+                      hideLockedParameters: true
+                  - _id: 12e88db3-26b9-4470-a610-18b0bfb843bb
+                    type: pagination
+                    parameters:
+                      pageToDisplay:
+                        type: number
+                        value: '5'
+                    _overridability:
+                      hideLockedParameters: true
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: Right Section
+                rowSpan:
+                  type: tp-slider-parameter
+                  value: '1'
+                rowStart:
+                  type: tp-slider-parameter
+                  value: None
+                columnSpan:
+                  type: tp-slider-parameter
+                  value: '3'
+                columnStart:
+                  type: tp-slider-parameter
+                  value: none
+              _overridability:
+                hideLockedParameters: true
+        parameters:
+          gapX:
+            type: tp-slider-parameter
+            value: small
+          gapY:
+            type: tp-slider-parameter
+            value: small
+          title:
+            type: text
+            locales:
+              en-US: Uniform Search and Filter List
+          marginTop:
+            type: select
+            value: Small
+          paddingTop:
+            type: select
+            value: None
+          columnsCount:
+            type: tp-slider-parameter
+            value: '4'
+          marginBottom:
+            type: select
+            value: Small
+          paddingBottom:
+            type: select
+            value: None
+        _overridability:
+          hideLockedParameters: true
+  _overridability:
+    parameters:
+      category: 'yes'
+    hideLockedParameters: true
+  _locales:
+    - es-US
+    - en-US
+    - en-CA
+    - en-GB
+    - en-NL
+    - fr-CA
+    - nl-NL
+created: '2024-09-05T09:55:46.161266+00:00'
+modified: '2024-10-02T20:30:37.915361+00:00'
+pattern: true
+previewImageUrl: >-
+  https://res.cloudinary.com/uniform-demos/image/upload/v1/preview-images/NewJavaDripTheme/USF/Uniform_search_default_pattern_preview_image
+categoryId: d2f175b2-abf7-4cc6-8458-6be68b421ced
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+workflowStageId: 73608d81-f8b0-4ee3-897b-c976d2dc6670

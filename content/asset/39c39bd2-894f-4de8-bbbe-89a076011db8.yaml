@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 39c39bd2-894f-4de8-bbbe-89a076011db8
+  _name: d6b927cbfc8af4f23dbdfd3dd6009de2.png
+  fields:
+    title:
+      type: text
+      value: Contentstack
+    file:
+      type: file
+      value: f2040afb-6cfc-4c45-b416-b6c717f54c70
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://canary-img.uniform.global/p/iAF9Tqs1Q5CP1K9u5bkwSQ/GuwEnlwiRKuGKLVtoPS8ag-d6b927cbfc8af4f23dbdfd3dd6009de2.png
+      type: text
+    size:
+      value: 8332
+      type: number
+    width:
+      value: 450
+      type: number
+    height:
+      value: 450
+      type: number
+    custom: {}
+created: '2024-08-01T07:48:19.812573+00:00'
+modified: '2024-08-02T13:52:33.784725+00:00'

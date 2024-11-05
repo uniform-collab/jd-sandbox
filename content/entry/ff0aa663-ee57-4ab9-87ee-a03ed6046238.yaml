@@ -1,0 +1,221 @@
+created: '2024-06-04T20:24:02.087839+00:00'
+modified: '2024-08-15T12:21:34.111437+00:00'
+pattern: false
+workflowId: 784fa239-ae8a-4ab1-ba68-9806d0fe406a
+workflowStageId: 73608d81-f8b0-4ee3-897b-c976d2dc6670
+entry:
+  _id: ff0aa663-ee57-4ab9-87ee-a03ed6046238
+  _name: Glass Carafe & Brew-Through Lid
+  _slug: glass-carafe-brew-through-lid-146
+  _thumbnail: >-
+    https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/K-MaP3uET7ChEdMw_33i0A-s-l1200_gmegot.webp
+  type: product
+  fields:
+    body:
+      type: richText
+      locales:
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Glass Carafe & Brew-Through Lid for the for Specialty
+                      Coffee Maker
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+            direction: ltr
+        fr-CA:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Carafe en verre et couvercle d'infusion pour cafetière de
+                      spécialité
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+            direction: ltr
+        nl-NL:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Glazen karaf en doorloopdeksel voor het speciale
+                      koffiezetapparaat
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+            direction: ltr
+    name:
+      type: text
+      value: Glass Carafe & Brew-Through Lid
+    brand:
+      type: contentReference
+      value: ${#jptr:/ref-ff0aa663-ee57-4ab9-87ee-a03ed6046238-brand/entries/0}
+    title:
+      type: text
+      value: Glass Carafe & Brew-Through Lid
+    category:
+      type: contentReference
+      value: ${#jptr:/ref-ff0aa663-ee57-4ab9-87ee-a03ed6046238-category/entries}
+    variants:
+      type: $block
+      value:
+        - _id: b16b45f3-bedc-4022-a9c2-56a32ff4628b
+          type: variant
+          fields:
+            code:
+              type: text
+              value: '146'
+            price:
+              type: number
+              locales:
+                en-US: '24.95'
+                fr-CA: '23.05'
+                nl-NL: '23.05'
+                es-US: '24.95'
+            title:
+              type: text
+              locales:
+                en-US: Glass Carafe & Brew-Through Lid
+                es-US: Glass Carafe & Brew-Through Lid
+                fr-CA: Glass Carafe & Brew-Through Lid
+                nl-NL: Glass Carafe & Brew-Through Lid
+            currency:
+              type: text
+              locales:
+                en-US: $
+                es-US: $
+                fr-CA: €
+                nl-NL: €
+            imageGallery:
+              type: asset
+              value:
+                - _id: a55e9a6d-d8b5-4511-a1dd-44fcb906b4ae
+                  type: image
+                  fields:
+                    id:
+                      type: text
+                      value: 06fcc06a-d558-43ce-a145-ba2ac68cd6d0
+                    url:
+                      value: >-
+                        https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/5wcDtSazTka18OJU0iX6eA-s-l1200_gmegot.webp
+                      type: text
+                    file:
+                      type: file
+                      value: 9910bb04-8673-4147-9451-7bcf29d1f2ef
+                    size:
+                      value: 5012
+                      type: number
+                    title:
+                      type: text
+                      value: s-l1200_gmegot.webp
+                    width:
+                      value: 570
+                      type: number
+                    height:
+                      value: 467
+                      type: number
+                    mediaType:
+                      value: image/webp
+                      type: text
+                  _source: uniform-assets
+    primaryImage:
+      type: asset
+      value:
+        - _id: 3427eb0d-b3ce-4f1c-9184-6896df805f38
+          type: image
+          fields:
+            id:
+              type: text
+              value: 298a5e73-ce14-4fec-a3d9-df48ca479b21
+            url:
+              value: >-
+                https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/K-MaP3uET7ChEdMw_33i0A-s-l1200_gmegot.webp
+              type: text
+            file:
+              type: file
+              value: bc80265c-a7d5-4525-bd7d-3634dd6a88a0
+            size:
+              value: 5012
+              type: number
+            title:
+              type: text
+              value: s-l1200_gmegot.webp
+            width:
+              value: 570
+              type: number
+            height:
+              value: 467
+              type: number
+            mediaType:
+              value: image/webp
+              type: text
+          _source: uniform-assets
+    recommendations:
+      type: contentReference
+      value: >-
+        ${#jptr:/ref-ff0aa663-ee57-4ab9-87ee-a03ed6046238-recommendations/entries}
+    shortDescription:
+      type: text
+      locales:
+        en-US: Glass Carafe & Brew-Through Lid for the for Specialty Coffee Maker
+        es-US: CARAFE DE GLANS
+        fr-CA: Carafe en verre et couvercle d'infusion pour cafetière de spécialité
+        nl-NL: Glazen karaf en doorloopdeksel voor het speciale koffiezetapparaat
+  _dataResources:
+    ref-ff0aa663-ee57-4ab9-87ee-a03ed6046238-brand:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: de5d95bc-f87f-4503-a635-fec03d9f06a1
+    ref-ff0aa663-ee57-4ab9-87ee-a03ed6046238-category:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: 4fb71159-ddac-4bca-9004-0405ed43c2d8
+    ref-ff0aa663-ee57-4ab9-87ee-a03ed6046238-recommendations:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: >-
+          82b84782-4236-4b06-a994-59f088896b91,72b49ac2-bbf3-48a7-b522-0947483e9131,d4e5eec7-6670-42ef-adcb-71645e05e836,ef55e1ae-ad12-46d9-b296-90d5484136f0,8ad35da9-07b6-4532-8e13-47ab158e30ef
+  _locales:
+    - en-US
+    - es-US
+    - fr-CA
+    - nl-NL

@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: ced857db-e718-4985-bc7f-f5cd5c60478c
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: iced-coffee-shakerato-1.webp
+    file:
+      type: file
+      value: d826f2c2-0209-4dd7-b2ef-e578d54a0861
+    mediaType:
+      value: image/webp
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/WjYKnPKOQRyvQRgKvtFBoQ-iced-coffee-shakerato-1.webp
+      type: text
+    size:
+      value: 35664
+      type: number
+    width:
+      value: 1600
+      type: number
+    height:
+      value: 1600
+      type: number
+    custom: {}
+created: '2024-09-26T20:12:36.94799+00:00'
+modified: '2024-09-26T20:12:36.94799+00:00'

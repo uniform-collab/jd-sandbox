@@ -1,0 +1,67 @@
+created: '2024-06-18T13:45:27.465396+00:00'
+modified: '2024-09-24T18:55:38.827533+00:00'
+pattern: true
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+entry:
+  _id: f4e3013b-60fb-43d4-9a1b-62124914fbff
+  _name: Reviews (ka)
+  _slug: testimonial-pattern
+  _thumbnail: >-
+    https://res.cloudinary.com/uniform-demos/image/upload/v1692279682/csk-marketing/photo-1500648767791-00dcc994a43e_h3two9_jylmf3.avif
+  type: testimonial
+  fields:
+    date:
+      type: text
+      locales:
+        en-US: ${#jptr:/Testimonial Content/item/elements/date__string_/value}
+    stars:
+      type: text
+      value: ${#jptr:/Testimonial Content/item/elements/stars/value}
+    title:
+      type: text
+      locales:
+        en-US: ${#jptr:/Testimonial Content/item/elements/title/value}
+    picture:
+      type: asset
+      value:
+        - _id: 94b81b0b-a4dd-41a7-a44e-914662beb1db
+          type: image
+          fields:
+            url:
+              type: text
+              value: ${#jptr:/Testimonial Content/item/elements/picture/value}
+            title:
+              type: text
+              value: >-
+                Testimonial ${#jptr:/Testimonial
+                Content/item/elements/title/value}
+          _source: custom-url
+    lastName:
+      type: text
+      locales:
+        en-US: ${#jptr:/Testimonial Content/item/elements/last_name/value}
+    location:
+      type: text
+      locales:
+        en-US: ${#jptr:/Testimonial Content/item/elements/location/value}
+    firstName:
+      type: text
+      locales:
+        en-US: ${#jptr:/Testimonial Content/item/elements/first_name/value}
+    experience:
+      type: text
+      locales:
+        en-US: ${#jptr:/Testimonial Content/item/elements/experience/value}
+  _dataResources:
+    Testimonial Content:
+      type: kontentAiTestimonial
+      variables:
+        language: ''
+        itemsCodenames: i_recommend
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
+  _locales:
+    - en-US
+    - es-US
+    - fr-CA
+    - nl-NL

@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 1231460d-1b20-4fa5-aeff-f6a82927e3c6
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: 123KKW400_01_rg4dac.jpg
+    file:
+      type: file
+      value: 26b8561c-e6f6-4014-95c9-bd36b96dfe3a
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/6yw7VVFvTe6AfNcOyRjP9w-123KKW400_01_rg4dac.jpg
+      type: text
+    size:
+      value: 27223
+      type: number
+    width:
+      value: 506
+      type: number
+    height:
+      value: 506
+      type: number
+    custom: {}
+created: '2024-01-30T07:30:30.518769+00:00'
+modified: '2024-01-30T07:30:30.518769+00:00'

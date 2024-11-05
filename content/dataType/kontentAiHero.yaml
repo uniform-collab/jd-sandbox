@@ -1,0 +1,32 @@
+id: kontentAiHero
+displayName: Hero
+ttl: 30
+path: /items/${itemsCodenames}
+custom:
+  imageElement: image
+  searchElements:
+    - title
+  displayNameElement: title
+  enableFilterByLanguage: true
+  allowContentTypeCodeNames:
+    - content_block__copy_
+method: GET
+purgeKey: 598136b0-952c-48ad-8fe5-03a0436c80ab
+archetype: singleItem
+variables:
+  language:
+    type: text
+    default: ''
+    displayName: Language
+  itemsCodenames:
+    type: text
+    default: ''
+    displayName: Items Codenames
+parameters:
+  - key: depth
+    value: '1'
+  - key: language
+    value: ${language}
+    omitIfEmpty: true
+dataSourceId: kontentAiDataSource
+allowedOnComponents: []

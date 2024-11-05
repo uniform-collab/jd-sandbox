@@ -1,0 +1,33 @@
+created: '2024-08-12T13:04:16.987482+00:00'
+modified: '2024-09-24T18:55:38.827533+00:00'
+pattern: false
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+entry:
+  _id: 4695bb69-eb03-4a2b-8088-3f0036f274e6
+  _name: 'Latte vs. Flat White: What is the Difference?'
+  _slug: latte-vs-flat-white-what-is-the-difference
+  _thumbnail: >-
+    https://javadripblog.wordpress.com/wp-content/uploads/2024/01/caffe-latte-vs.-flat-white.jpg
+  type: article
+  fields: {}
+  _dataResources:
+    JavaDrip Post by Slug Content:
+      type: javadripPostBySlug
+      variables:
+        slug: latte-vs-flat-white-what-is-the-difference
+    ref-4695bb69-eb03-4a2b-8088-3f0036f274e6-tag:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: 059615df-5702-40b2-ad1e-f420f76b9c4b
+  _locales:
+    - en-US
+    - es-US
+    - fr-CA
+    - nl-NL
+  _overrides:
+    4695bb69-eb03-4a2b-8088-3f0036f274e6:
+      parameters:
+        tag:
+          type: contentReference
+          value: ${#jptr:/ref-4695bb69-eb03-4a2b-8088-3f0036f274e6-tag/entries}
+  _pattern: 9ce6d41a-73b6-47fb-8289-6d33d231ba92

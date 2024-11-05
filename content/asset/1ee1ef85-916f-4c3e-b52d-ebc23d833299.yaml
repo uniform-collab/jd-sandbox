@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 1ee1ef85-916f-4c3e-b52d-ebc23d833299
+  _name: Uniform_logo_Black_naqw0s-(5).png
+  fields:
+    title:
+      type: text
+      value: Uniform logo
+    file:
+      type: file
+      value: 821e880b-f304-4a55-bbdb-4106e681b405
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/oQdFWAqfSpyravPQf17kKQ-Uniform_logo_Black_naqw0s-(5).png
+      type: text
+    size:
+      value: 26757
+      type: number
+    width:
+      value: 2533
+      type: number
+    height:
+      value: 800
+      type: number
+    custom: {}
+created: '2024-08-02T13:43:21.612238+00:00'
+modified: '2024-08-02T13:52:56.233493+00:00'

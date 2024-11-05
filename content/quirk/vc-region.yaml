@@ -1,0 +1,5 @@
+id: vc-region
+name: Region Code
+description: >-
+  ISO 3166 code for the country region. Resolved from the Vercel geolocation
+  data.

@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 76b531e3-ef32-49b7-9ad1-0c48f429ab02
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: ultimate_filter_guide.jpg
+    file:
+      type: file
+      value: 6befffc0-539f-4e99-a442-1e617af10c30
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/QFYw86tTQvGtfhxX3HFbzQ-ultimate_filter_guide.jpg
+      type: text
+    size:
+      value: 47633
+      type: number
+    width:
+      value: 683
+      type: number
+    height:
+      value: 472
+      type: number
+    custom: {}
+created: '2023-12-12T17:17:19.707093+00:00'
+modified: '2023-12-12T17:17:19.707093+00:00'

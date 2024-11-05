@@ -1,0 +1,36 @@
+created: '2024-08-12T13:04:39.605259+00:00'
+modified: '2024-09-24T18:55:38.827533+00:00'
+pattern: false
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+entry:
+  _id: 61c1462d-2072-4891-ad1f-329f29d1f458
+  _name: How to brew a proper cuppa'
+  _slug: how-to-brew-a-proper-cuppa
+  _thumbnail: >-
+    https://images.contentstack.io/v3/assets/blt33b4a43079876016/blt360aea36d420cb73/641b0db60c2596708b32e76c/cuppa_article_thumb.jpg
+  type: article
+  fields: {}
+  _dataResources:
+    Article by Slug Content:
+      type: contentstackArticleBySlug
+      variables:
+        query: '{ "slug": "how-to-brew-a-proper-cuppa" }'
+        locale: ${locale}
+        entriesValue: how-to-brew-a-proper-cuppa
+        contentTypeUid: article
+    ref-61c1462d-2072-4891-ad1f-329f29d1f458-tag:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: 0947295b-ef13-48a7-8416-42250bd09ddf
+  _locales:
+    - en-US
+    - es-US
+    - fr-CA
+    - nl-NL
+  _overrides:
+    61c1462d-2072-4891-ad1f-329f29d1f458:
+      parameters:
+        tag:
+          type: contentReference
+          value: ${#jptr:/ref-61c1462d-2072-4891-ad1f-329f29d1f458-tag/entries}
+  _pattern: e49d7864-d51e-4eed-994f-2edabae6ff16

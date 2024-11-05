@@ -1,0 +1,60 @@
+created: '2024-09-05T08:13:52.453059+00:00'
+modified: '2024-09-24T18:55:38.827533+00:00'
+pattern: false
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+entry:
+  _id: ebef65f5-11ef-4981-b3a8-b7f7d6bde7f3
+  _name: Beans
+  _slug: beans
+  _thumbnail: >-
+    https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/jj8_0iROTEmpm496kZKGMQ-Image-5.webp
+  type: tag
+  fields:
+    logo:
+      type: asset
+      locales:
+        en-US:
+          - _id: 02f5ed8f-c6ad-48da-9852-133ccaa9fcf2
+            type: image
+            fields:
+              id:
+                type: text
+                value: e5745ed7-2f97-494b-be7f-e00dab5e95a7
+              url:
+                value: >-
+                  https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/jj8_0iROTEmpm496kZKGMQ-Image-5.webp
+                type: text
+              file:
+                type: file
+                value: be7c59ac-11b1-472d-aabc-5906e8e7b4ae
+              size:
+                value: 271514
+                type: number
+              title:
+                type: text
+                value: Image-5.webp
+              width:
+                value: 1024
+                type: number
+              height:
+                value: 1024
+                type: number
+              mediaType:
+                value: image/webp
+                type: text
+            _source: uniform-assets
+    title:
+      type: text
+      locales:
+        en-US: Beans
+    description:
+      type: text
+      locales:
+        en-US: >-
+          Dives into the world of coffee beans, exploring their origins,
+          varieties, and flavors. Articles under this tag will take you on a
+          journey from the farm to the cup, highlighting the nuances of
+          different bean types and the best brewing methods for each. It’s a
+          must-read for anyone passionate about coffee.
+  _locales:
+    - en-US

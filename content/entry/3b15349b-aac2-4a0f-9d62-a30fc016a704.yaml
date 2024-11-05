@@ -1,0 +1,297 @@
+created: '2024-06-04T20:24:02.719788+00:00'
+modified: '2024-08-15T12:18:07.398865+00:00'
+pattern: false
+workflowId: 784fa239-ae8a-4ab1-ba68-9806d0fe406a
+workflowStageId: 73608d81-f8b0-4ee3-897b-c976d2dc6670
+entry:
+  _id: 3b15349b-aac2-4a0f-9d62-a30fc016a704
+  _name: Peruvian Blend Coffee
+  _slug: peruvian-blend-coffee-134
+  _thumbnail: >-
+    https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/dMCNlsOYRt-BNgU2sVgf3w-peruvian-blend-coffee-134-1_qtplae_lkbbpp.jpg
+  type: product
+  fields:
+    body:
+      type: richText
+      locales:
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      The standout feature of our Fair Trade organic Peru coffee
+                      is the unique depth of flavor. You can truly distinguish
+                      the spiced cinnamon flavor at the first sip, to a
+                      caramelized sweetness in the body and a lingering citrus
+                      finish. With medium acidity and a bright and complex
+                      flavor profile, this organic Peruvian coffee is an
+                      excellent example of the pure greatness of South American
+                      coffee.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+            direction: ltr
+        fr-CA:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      La caractéristique remarquable de notre café du Pérou
+                      biologique et équitable est la profondeur unique de sa
+                      saveur. Vous pouvez vraiment distinguer la saveur épicée
+                      de cannelle dès la première gorgée, jusqu'à une douceur
+                      caramélisée dans le corps et une finale persistante
+                      d'agrumes. Avec une acidité moyenne et un profil
+                      aromatique vif et complexe, ce café péruvien biologique
+                      est un excellent exemple de la pure grandeur du café
+                      sud-américain.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+            direction: ltr
+        nl-NL:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Het opvallende kenmerk van onze Fair Trade biologische
+                      Peru koffie is de unieke smaakdiepte. Bij de eerste slok
+                      kun je de gekruide kaneelsmaak echt onderscheiden, tot een
+                      gekarameliseerde zoetheid in de body en een aanhoudende
+                      citrusafdronk. Met een gemiddelde zuurgraad en een helder
+                      en complex smaakprofiel is deze biologische Peruaanse
+                      koffie een uitstekend voorbeeld van de pure grootsheid van
+                      Zuid-Amerikaanse koffie.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+            direction: ltr
+    name:
+      type: text
+      value: Peruvian Blend Coffee
+    brand:
+      type: contentReference
+      value: ${#jptr:/ref-3b15349b-aac2-4a0f-9d62-a30fc016a704-brand/entries/0}
+    title:
+      type: text
+      value: Peruvian Blend Coffee
+    category:
+      type: contentReference
+      value: ${#jptr:/ref-3b15349b-aac2-4a0f-9d62-a30fc016a704-category/entries}
+    variants:
+      type: $block
+      value:
+        - _id: 01bb20e1-1a13-4437-a330-8cb1056fc10e
+          type: variant
+          fields:
+            code:
+              type: text
+              value: '134'
+            price:
+              type: number
+              locales:
+                en-US: '12.99'
+                fr-CA: '12.00'
+                nl-NL: '12.00'
+                es-US: '12.99'
+            title:
+              type: text
+              locales:
+                en-US: Peruvian Blend Coffee
+                es-US: Peruvian Blend Coffee
+                fr-CA: Peruvian Blend Coffee
+                nl-NL: Peruvian Blend Coffee
+            currency:
+              type: text
+              locales:
+                en-US: $
+                es-US: $
+                fr-CA: €
+                nl-NL: €
+            imageGallery:
+              type: asset
+              value:
+                - _id: 02e9e9d4-b67e-48e8-93ea-43efefe69d47
+                  type: image
+                  fields:
+                    id:
+                      type: text
+                      value: 06aeb9c8-fc26-4467-a4d3-88852d90a3fb
+                    url:
+                      value: >-
+                        https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/YuEtIPp1QbGDA0-HcSg0zw-peruvian-blend-coffee-134-1_qtplae_lkbbpp.jpg
+                      type: text
+                    file:
+                      type: file
+                      value: 044be72f-0bab-4fe4-8849-334501faf9a8
+                    size:
+                      value: 103660
+                      type: number
+                    title:
+                      type: text
+                      value: peruvian-blend-coffee-134-1_qtplae_lkbbpp.jpg
+                    width:
+                      value: 1280
+                      type: number
+                    height:
+                      value: 1280
+                      type: number
+                    mediaType:
+                      value: image/jpeg
+                      type: text
+                  _source: uniform-assets
+                - _id: 262e2cac-246d-4965-875a-002aea2d7ce9
+                  type: image
+                  fields:
+                    id:
+                      type: text
+                      value: 6b097889-1725-4f8f-801f-7c811fe4c974
+                    url:
+                      value: >-
+                        https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/fW4_EAukSrCxDy3rsEQk3g-peruvian-blend-coffee-134-2_e9zil2_ynhj5k.jpg
+                      type: text
+                    file:
+                      type: file
+                      value: 6c5a992d-2b83-45e7-a5ca-ad1ee02736b4
+                    size:
+                      value: 753423
+                      type: number
+                    title:
+                      type: text
+                      value: peruvian-blend-coffee-134-2_e9zil2_ynhj5k.jpg
+                    width:
+                      value: 1280
+                      type: number
+                    height:
+                      value: 1280
+                      type: number
+                    mediaType:
+                      value: image/jpeg
+                      type: text
+                  _source: uniform-assets
+    primaryImage:
+      type: asset
+      value:
+        - _id: 556f4e21-3e27-41db-8d38-4819d4713de4
+          type: image
+          fields:
+            id:
+              type: text
+              value: 15b705b0-8522-4e09-b846-54b00020a639
+            url:
+              value: >-
+                https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/dMCNlsOYRt-BNgU2sVgf3w-peruvian-blend-coffee-134-1_qtplae_lkbbpp.jpg
+              type: text
+            file:
+              type: file
+              value: f858201f-e377-4b5a-865e-1934d9512f8c
+            size:
+              value: 103660
+              type: number
+            title:
+              type: text
+              value: peruvian-blend-coffee-134-1_qtplae_lkbbpp.jpg
+            width:
+              value: 1280
+              type: number
+            height:
+              value: 1280
+              type: number
+            mediaType:
+              value: image/jpeg
+              type: text
+          _source: uniform-assets
+    recommendations:
+      type: contentReference
+      value: >-
+        ${#jptr:/ref-3b15349b-aac2-4a0f-9d62-a30fc016a704-recommendations/entries}
+    shortDescription:
+      type: text
+      locales:
+        en-US: >-
+          The standout feature of our Fair Trade organic Peru coffee is the
+          unique depth of flavor. You can truly distinguish the spiced cinnamon
+          flavor at the first sip, to a caramelized sweetness in the body and a
+          lingering citrus finish. With medium acidity and a bright and complex
+          flavor profile, this organic Peruvian coffee is an excellent example
+          of the pure greatness of South American coffee.
+        es-US: >-
+          La característica sobresaliente de nuestro café orgánico de Perú de
+          comercio justo es la profundidad única de sabor.Realmente puede
+          distinguir el sabor a canela condimentado en el primer sorbo, a una
+          dulzura caramelizada en el cuerpo y un acabado cítrico persistente.Con
+          acidez media y un perfil de sabor brillante y complejo, este café
+          peruano orgánico es un excelente ejemplo de la grandeza pura del café
+          sudamericano.
+        fr-CA: >-
+          La caractéristique remarquable de notre café du Pérou biologique et
+          équitable est la profondeur unique de sa saveur. Vous pouvez vraiment
+          distinguer la saveur épicée de cannelle dès la première gorgée,
+          jusqu'à une douceur caramélisée dans le corps et une finale
+          persistante d'agrumes. Avec une acidité moyenne et un profil
+          aromatique vif et complexe, ce café péruvien biologique est un
+          excellent exemple de la pure grandeur du café sud-américain.
+        nl-NL: >-
+          Het opvallende kenmerk van onze Fair Trade biologische Peru koffie is
+          de unieke smaakdiepte. Bij de eerste slok kun je de gekruide
+          kaneelsmaak echt onderscheiden, tot een gekarameliseerde zoetheid in
+          de body en een aanhoudende citrusafdronk. Met een gemiddelde zuurgraad
+          en een helder en complex smaakprofiel is deze biologische Peruaanse
+          koffie een uitstekend voorbeeld van de pure grootsheid van
+          Zuid-Amerikaanse koffie.
+  _dataResources:
+    ref-3b15349b-aac2-4a0f-9d62-a30fc016a704-brand:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: de5d95bc-f87f-4503-a635-fec03d9f06a1
+    ref-3b15349b-aac2-4a0f-9d62-a30fc016a704-category:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: >-
+          eeb202b2-763b-4d9f-95c5-e260f8fda4f3,09b62b8c-1d09-443b-bba5-95fadbf37f80
+    ref-3b15349b-aac2-4a0f-9d62-a30fc016a704-recommendations:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: >-
+          82b84782-4236-4b06-a994-59f088896b91,72b49ac2-bbf3-48a7-b522-0947483e9131,778c1de0-9119-4617-8fde-4cbff7da8031,04d9514e-ad86-4df4-867d-855af7b70b52
+  _locales:
+    - en-US
+    - es-US
+    - fr-CA
+    - nl-NL

@@ -1,0 +1,25 @@
+# yaml-language-server: $schema=<https://canary.uniform.app/schemas/json-schema/component-definition/v1.json>
+$schema: https://canary.uniform.app/schemas/json-schema/component-definition/v1.json
+id: searchBox
+name: Search Box
+icon: search
+parameters:
+  - id: placeholder
+    name: Placeholder
+    type: text
+    helpText: The placeholder text of the input
+    typeConfig: null
+    localizable: true
+  - id: searchDelay
+    name: Search Delay
+    type: number
+    helpText: 'Default value: 300ms'
+    typeConfig: null
+categoryId: d2f175b2-abf7-4cc6-8458-6be68b421ced
+previewImageUrl: >-
+  https://res.cloudinary.com/uniform-demos/image/upload/v1/preview-images/NewJavaDripTheme/USF/Search_box_preview_image
+useTeamPermissions: true
+slots: []
+canBeComposition: false
+created: '2024-08-16T11:39:59.132375+00:00'
+updated: '2024-08-16T11:39:59.132375+00:00'

@@ -1,0 +1,213 @@
+composition:
+  _name: Card Block - products recommendations (uc)
+  _id: 9f1d715b-16aa-4f0f-807d-036beb0ff67f
+  type: cardBlock
+  variant: carousel
+  parameters:
+    title:
+      type: text
+      locales:
+        en-CA: Recommended Products
+        en-GB: Recommended Products
+        en-NL: Recommended Products
+        en-US: Recommended Products
+        es-US: Productos recomendados
+        fr-CA: Produits recommandés
+        nl-NL: Aangeraden producten
+    titleStyle:
+      type: tp-title-style-parameter
+      value: h2
+    buttonStyle:
+      type: tp-button-style-parameter
+      value: primary
+  slots:
+    cardBlockInner:
+      - _id: ce33805b-4f53-459d-8c1b-b31e7371bc25
+        type: $loop
+        slots:
+          body:
+            - _id: 98ef4404-7adc-4d1b-bd62-e17bc229352b
+              type: card
+              parameters:
+                badge:
+                  type: text
+                  locales:
+                    en-CA: >-
+                      ${#jptr:/Product Content results Loop
+                      Item/entry/fields/category/value/0/entry/fields/title/value}
+                    en-GB: >-
+                      ${#jptr:/Product Content results Loop
+                      Item/entry/fields/category/value/0/entry/fields/title/value}
+                    en-NL: >-
+                      ${#jptr:/Product Content results Loop
+                      Item/entry/fields/category/value/0/entry/fields/title/value}
+                    en-US: >-
+                      ${#jptr:/Product Content results Loop
+                      Item/entry/fields/category/value/0/entry/fields/title/value}
+                    es-US: >-
+                      ${#jptr:/Product Content results Loop
+                      Item/entry/fields/category/value/0/entry/fields/title/value}
+                    fr-CA: >-
+                      ${#jptr:/Product Content results Loop
+                      Item/entry/fields/category/value/0/entry/fields/title/value}
+                    nl-NL: >-
+                      ${#jptr:/Product Content results Loop
+                      Item/entry/fields/category/value/0/entry/fields/title/value}
+                image:
+                  type: asset
+                  value: >-
+                    ${#jptr:/Product Content results Loop
+                    Item/entry/fields/primaryImage/value}
+                title:
+                  type: text
+                  locales:
+                    en-CA: >-
+                      ${#jptr:/Product Content results Loop
+                      Item/entry/fields/name/value}
+                    en-GB: >-
+                      ${#jptr:/Product Content results Loop
+                      Item/entry/fields/name/value}
+                    en-NL: >-
+                      ${#jptr:/Product Content results Loop
+                      Item/entry/fields/name/value}
+                    en-US: >-
+                      ${#jptr:/Product Content results Loop
+                      Item/entry/fields/name/value}
+                    es-US: >-
+                      ${#jptr:/Product Content results Loop
+                      Item/entry/fields/name/value}
+                    fr-CA: >-
+                      ${#jptr:/Product Content results Loop
+                      Item/entry/fields/name/value}
+                    nl-NL: >-
+                      ${#jptr:/Product Content results Loop
+                      Item/entry/fields/name/value}
+                badgeSize:
+                  type: select
+                  value: md
+                objectFit:
+                  type: select
+                  value: cover
+                badgeStyle:
+                  type: tp-badge-style-parameter
+                  value: accent
+                buttonCopy:
+                  type: text
+                  locales:
+                    en-CA: See Details
+                    en-GB: See Details
+                    en-NL: See Details
+                    en-US: See Details
+                    es-US: Ver detalles
+                    fr-CA: Voir les détails
+                    nl-NL: Zie de details
+                buttonLink:
+                  type: link
+                  value:
+                    path: >-
+                      /${locale}/products/${#jptr:/Product Content results Loop
+                      Item/entry/_slug}
+                    type: projectMapNode
+                    nodeId: fb657541-0488-4c22-bce4-64c9cd71bdde
+                    projectMapId: 62588085-7894-4810-84b6-eaaf0cb5213c
+                    dynamicInputValues:
+                      locale: ${locale}
+                      product-slug: ${#jptr:/Product Content results Loop Item/entry/_slug}
+                buttonStyle:
+                  type: tp-button-style-parameter
+                  value: primary
+                description:
+                  type: text
+                  locales:
+                    en-CA: >-
+                      ${#jptr:/Product Content results Loop
+                      Item/entry/fields/shortDescription/value}
+                    en-GB: >-
+                      ${#jptr:/Product Content results Loop
+                      Item/entry/fields/shortDescription/value}
+                    en-NL: >-
+                      ${#jptr:/Product Content results Loop
+                      Item/entry/fields/shortDescription/value}
+                    en-US: >-
+                      ${#jptr:/Product Content results Loop
+                      Item/entry/fields/shortDescription/value}
+                    es-US: >-
+                      ${#jptr:/Product Content results Loop
+                      Item/entry/fields/shortDescription/value}
+                    fr-CA: >-
+                      ${#jptr:/Product Content results Loop
+                      Item/entry/fields/shortDescription/value}
+                    nl-NL: >-
+                      ${#jptr:/Product Content results Loop
+                      Item/entry/fields/shortDescription/value}
+                lineCountRestriction:
+                  type: tp-slider-parameter
+                  value: '5'
+              _overridability:
+                variants: true
+                parameters:
+                  slug: 'yes'
+                  badge: 'yes'
+                  delay: 'yes'
+                  image: 'yes'
+                  title: 'yes'
+                  duration: 'yes'
+                  badgeSize: 'yes'
+                  group_cta: 'yes'
+                  objectFit: 'yes'
+                  badgeStyle: 'yes'
+                  buttonCopy: 'yes'
+                  buttonLink: 'yes'
+                  buttonStyle: 'yes'
+                  description: 'yes'
+                  group_badge: 'yes'
+                  overlayColor: 'yes'
+                  animationType: 'yes'
+                  group_content: 'yes'
+                  overlayOpacity: 'yes'
+                  animationPreview: 'yes'
+                  textColorVariant: 'yes'
+                  group_description: 'yes'
+                  buttonAnimationType: 'yes'
+                  lineCountRestriction: 'yes'
+        _dataResources:
+          Product Content results Loop Item:
+            type: sys-reserved-loop
+            variables:
+              connectedData: '#jptr:/Product Content/entry/fields/recommendations/value:fa=c'
+  _dataResources:
+    Product Content:
+      type: product
+      variables:
+        slug: espresso-gpt-145
+        locale: ${locale}
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
+  _overridability:
+    variants: true
+    parameters:
+      title: 'yes'
+      group_cta: 'yes'
+      buttonCopy: 'yes'
+      buttonLink: 'yes'
+      titleStyle: 'yes'
+      buttonStyle: 'yes'
+      description: 'yes'
+      group_content: 'yes'
+      textColorVariant: 'yes'
+      buttonAnimationType: 'yes'
+  _locales:
+    - es-US
+    - en-US
+    - en-CA
+    - en-GB
+    - en-NL
+    - fr-CA
+    - nl-NL
+created: '2024-08-12T12:54:31.767881+00:00'
+modified: '2024-09-24T18:55:38.827533+00:00'
+pattern: true
+previewImageUrl: >-
+  https://res.cloudinary.com/uniform-demos/image/upload/v1/preview-images/NewJavaDripTheme/SalesDemo/Patterns/Card_block_preview_image
+categoryId: ea001653-1f96-4f07-9187-a1626a4965e5
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5

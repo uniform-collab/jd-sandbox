@@ -1,0 +1,285 @@
+composition:
+  _name: JavaDrip Specialty (master)
+  _id: 33df718b-df46-4751-aac9-3da9ea2ad088
+  _slug: javadrip-specialty-coffee-maker
+  type: productDetailsPage
+  parameters:
+    pageTitle:
+      type: text
+      locales:
+        en-CA: Product Details Page
+        en-GB: Product Details Page
+        en-NL: Product Details Page
+        en-US: Product Details Page
+        es-US: Página de detalles del producto
+        fr-CA: Page des détails du produit
+        nl-NL: Pagina met productgegevens
+  slots:
+    pageFooter:
+      - _id: 900d8580-5ce4-41ac-96bb-6d4c62cf7842
+        type: footer
+        _pattern: 319639e9-4bac-4fb3-8f0b-19088c969fcb
+    pageHeader:
+      - _id: 1b41ec3b-7586-4fe9-abb2-d2b042c82b66
+        type: header
+        _pattern: e46c8336-acfd-43e8-ac59-8be8f4c33b7d
+    pageContent:
+      - _id: 6af46238-1c99-4a0b-ae7d-c83f80fc5fd3
+        type: heroContainer
+        _pattern: daaf620c-8067-496f-9894-d6dea651a3a3
+        _dataResources:
+          Hero Content:
+            type: hero
+            variables:
+              locale: ${locale}
+              entryId: ea315933-36e4-4b8a-87b3-66aa1b3ae984
+      - _id: 0b5bfc51-19cb-4868-8336-3431b0d28927
+        type: productInfo
+        _pattern: f80964a3-4000-4a5d-8d8d-1400b03bceb3
+        _dataResources:
+          Product Content:
+            type: product
+            variables:
+              slug: javadrip-specialty-coffee-maker-141
+              locale: ${locale}
+      - _id: 4eea6316-824d-47ac-adcb-68c9534b7a72
+        type: grid
+        _pattern: c93696ab-56f6-43df-90b9-bf4a610f202e
+        _dataResources:
+          Features Content:
+            type: features
+            variables:
+              locale: ${locale}
+              entryIds: >-
+                c644ac45-22a2-43a0-a72d-da428ed26952,a7957d8a-ea12-4bab-8411-8cb4616027ac,6320b5ed-6166-433c-a2f0-274891bb2bcb
+      - _id: 6555382a-617f-44b0-abaa-250f3a58e93d
+        type: imageGallery
+        _pattern: 92f3a50f-098f-4448-88dd-4005e384559d
+        _dataResources:
+          Product Content:
+            type: product
+            variables:
+              slug: javadrip-specialty-coffee-maker-141
+              locale: ${locale}
+      - _id: 84ac49bb-3866-4f43-ab64-cfe6591c4a46
+        type: container
+        slots:
+          container-inner:
+            - _id: 43b84688-8781-4e5b-8635-2e89a0e1374d
+              type: grid
+              _pattern: 733c3ec0-4eca-4e7a-bf35-532ccf918b66
+              _dataResources:
+                Reviews Content:
+                  type: reviews
+                  variables:
+                    limit: '2'
+                    locale: ${locale}
+                    search: ''
+                    filters: >-
+                      {"type[eq]":"testimonial","fields.product[eq]":"df7a5d21-9a3c-49db-92d2-662b0fecce21"}
+                    entryIds: >-
+                      da0132f9-6058-459c-b01a-02d41bd15858,a488e8a3-ac83-4db2-907a-511c64bb1bf7
+                    contentTypes: testimonial
+        parameters:
+          title:
+            type: text
+            locales:
+              en-CA: Reviews
+              en-GB: Reviews
+              en-NL: Reviews
+              en-US: Reviews
+              es-US: Reseñas
+              fr-CA: Commentaires
+              nl-NL: Beoordelingen
+          paddingTop:
+            type: select
+            value: Small
+          marginBottom:
+            type: select
+            value: Small
+          paddingBottom:
+            type: select
+            value: None
+          backgroundType:
+            type: tp-background-type-parameter
+            value: Dark
+      - _id: 16df749e-8745-48d1-b67c-a5b4a5df0ce4
+        type: cardBlock
+        _pattern: fe2cba31-e7a3-49f4-8f95-6221b4dee99a
+        _dataResources:
+          Products Content:
+            type: products
+            variables:
+              locale: ${locale}
+              entryIds: >-
+                6d10823e-c63a-4cc3-a61a-edcad6201bb3,ff0aa663-ee57-4ab9-87ee-a03ed6046238,adf59ce9-514c-4bc2-bba0-4c32e2457bef,65452f1b-3148-46a0-8a52-86399ddaf40e,a9c3ccaf-c2bc-418e-bcc4-cb68ceb84622
+      - _id: f542637f-9d3f-4f40-a098-0729ad24982d
+        type: grid
+        _pattern: 733c3ec0-4eca-4e7a-bf35-532ccf918b66
+        _dataResources:
+          Reviews Content:
+            type: reviews
+            variables:
+              limit: '2'
+              order: sys.updatedAt
+              locale: ${locale}
+              search: ''
+              filters: >-
+                {"type[eq]":"testimonial","fields.product[eq]":"df7a5d21-9a3c-49db-92d2-662b0fecce21"}
+              keyword: ''
+              entryIds: >-
+                a488e8a3-ac83-4db2-907a-511c64bb1bf7,b87c91d3-28e7-4c5a-926b-a51f688ce9be
+              sortOrder: asc
+              searchValue: ''
+              sortFieldId: sys.updatedAt
+              contentTypes: testimonial
+              contentTypeId: testimonial
+              advancedFilters: '[]'
+              contentTypeQuery: content_type=testimonial
+      - _id: 5a4f8f14-c43a-4e9c-9e25-4fe450626291
+        type: hero
+        variant: backgroundImage
+        parameters:
+          video:
+            type: cloudinary-video
+            value:
+              - alt: ''
+                url: >-
+                  https://res.cloudinary.com/uniform-demos/video/upload/v1693484203/coffee-marketing/Meet_the_Specialty_nhdmh7.mp4
+                uuid: 32a118b0-3c49-4c30-a203-48bb8b8cad08
+                width: '1920'
+                format: mp4
+                height: '1080'
+                caption: ''
+                version: 1693484203
+                publicId: coffee-marketing/Meet_the_Specialty_nhdmh7
+                createdAt: '2023-08-31T12:16:43Z'
+                previewUrl: >-
+                  https://res.cloudinary.com/uniform-demos/video/upload/q_auto,f_auto/coffee-marketing/Meet_the_Specialty_nhdmh7.mp4
+                resourceType: video
+                transformation: ''
+          objectFit:
+            type: select
+            value: fill
+          titleStyle:
+            type: tp-title-style-parameter
+            value: h1
+  _dataResources:
+    Features Content:
+      type: contentfulFeatures
+      variables:
+        locale: ${locale}
+        entryIds: >-
+          3pShHM1eiqGCCCrNxOaYiA,178rQlAAsf5l4lBXUvD0Wy,1e7LWh6CnRh3DRxrk016LA,63oHRSoOtknOP6Em5RDHpZ,1AcJkC8r6EH4wj7Bz43F9A
+  _overrides:
+    16df749e-8745-48d1-b67c-a5b4a5df0ce4:
+      parameters:
+        description:
+          type: text
+          locales:
+            en-CA: Parts and Accessories for the JavaDrip Specialty
+            en-GB: Parts and Accessories for the JavaDrip Specialty
+            en-NL: Parts and Accessories for the JavaDrip Specialty
+            en-US: Parts and Accessories for the JavaDrip Specialty
+            es-US: Parts and Accessories for the JavaDrip Specialty
+    1b41ec3b-7586-4fe9-abb2-d2b042c82b66:
+      parameters:
+        syntheticGap:
+          type: tp-slider-parameter
+          value: None
+    4eea6316-824d-47ac-adcb-68c9534b7a72:
+      parameters:
+        gapX:
+          type: tp-slider-parameter
+          value: small
+        columnsCount:
+          type: tp-slider-parameter
+          value: '3'
+    6af46238-1c99-4a0b-ae7d-c83f80fc5fd3:
+      parameters:
+        duration:
+          type: select
+          value: medium
+        animationType:
+          type: select
+          value: fadeIn
+        animationOrder:
+          type: select
+          value: oneByOne
+        animationPreview:
+          type: tp-play-animation-parameter
+          value: true
+    16df749e-8745-48d1-b67c-a5b4a5df0ce4|98ef4404-7adc-4d1b-bd62-e17bc229352b:
+      parameters:
+        buttonLink:
+          type: link
+          value:
+            path: /:locale/products/:product-slug
+            type: projectMapNode
+            nodeId: fb657541-0488-4c22-bce4-64c9cd71bdde
+            projectMapId: 62588085-7894-4810-84b6-eaaf0cb5213c
+            dynamicInputValues:
+              locale: ${locale}
+              product-slug: ${#jptr:/Product Content results Loop Item/entry/_slug}
+        buttonStyle:
+          type: tp-button-style-parameter
+          value: accent
+        description:
+          type: text
+          locales:
+            en-CA: >-
+              ${#jptr:/Product Content results Loop
+              Item/entry/fields/shortDescription/value}. Price ${#jptr:/Product
+              Content results Loop
+              Item/entry/fields/variants/value/0/fields/currency/value}
+              ${#jptr:/Product Content results Loop
+              Item/entry/fields/variants/value/0/fields/price/value}
+            en-GB: >-
+              ${#jptr:/Product Content results Loop
+              Item/entry/fields/shortDescription/value}. Price ${#jptr:/Product
+              Content results Loop
+              Item/entry/fields/variants/value/0/fields/currency/value}
+              ${#jptr:/Product Content results Loop
+              Item/entry/fields/variants/value/0/fields/price/value}
+            en-NL: >-
+              ${#jptr:/Product Content results Loop
+              Item/entry/fields/shortDescription/value}. Price ${#jptr:/Product
+              Content results Loop
+              Item/entry/fields/variants/value/0/fields/currency/value}
+              ${#jptr:/Product Content results Loop
+              Item/entry/fields/variants/value/0/fields/price/value}
+            en-US: >-
+              ${#jptr:/Product Content results Loop
+              Item/entry/fields/shortDescription/value}. Price ${#jptr:/Product
+              Content results Loop
+              Item/entry/fields/variants/value/0/fields/currency/value}
+              ${#jptr:/Product Content results Loop
+              Item/entry/fields/variants/value/0/fields/price/value}
+            es-US: >-
+              ${#jptr:/Product Content results Loop
+              Item/entry/fields/shortDescription/value}. Price ${#jptr:/Product
+              Content results Loop
+              Item/entry/fields/variants/value/0/fields/currency/value}
+              ${#jptr:/Product Content results Loop
+              Item/entry/fields/variants/value/0/fields/price/value}
+        textColorVariant:
+          type: select
+          value: Dark
+    43b84688-8781-4e5b-8635-2e89a0e1374d|4aeee2e3-e311-4d19-a047-1c3a7e68d443:
+      variant: ''
+      parameters:
+        textColorVariant:
+          type: select
+          value: Light
+  _locales:
+    - fr-CA
+    - en-US
+    - es-US
+    - nl-NL
+    - en-NL
+    - en-CA
+    - en-GB
+created: '2024-09-05T09:56:05.223617+00:00'
+modified: '2024-09-24T18:55:38.827533+00:00'
+pattern: false
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5

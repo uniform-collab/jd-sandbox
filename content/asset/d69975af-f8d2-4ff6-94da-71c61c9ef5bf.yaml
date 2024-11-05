@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: d69975af-f8d2-4ff6-94da-71c61c9ef5bf
+  _name: Product-Card.png
+  fields:
+    title:
+      type: text
+      value: Product-Card.png
+    file:
+      type: file
+      value: 964cdaf6-981c-40f7-b4cd-0fe191ef9a27
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/AFZ53R5ZQM2Etnj-oEOw4g-Product-Card.png
+      type: text
+    size:
+      value: 163374
+      type: number
+    width:
+      value: 1161
+      type: number
+    height:
+      value: 169
+      type: number
+    custom: {}
+created: '2024-10-02T15:59:40.954315+00:00'
+modified: '2024-10-02T15:59:50.305645+00:00'

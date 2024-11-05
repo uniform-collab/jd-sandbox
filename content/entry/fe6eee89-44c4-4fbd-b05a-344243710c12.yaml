@@ -1,0 +1,195 @@
+created: '2024-08-12T13:07:21.995553+00:00'
+modified: '2024-09-24T18:55:38.827533+00:00'
+pattern: false
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+entry:
+  _id: fe6eee89-44c4-4fbd-b05a-344243710c12
+  _name: Arabica
+  _slug: arabica
+  type: productCategory
+  fields:
+    logo:
+      type: asset
+      locales:
+        en-US:
+          - _id: 3fb221c4-4c6c-438e-9c76-68c30df283cd
+            type: image
+            fields:
+              id:
+                type: text
+                value: 12f0b51b-cc8c-4422-934e-0a87c660315d
+              url:
+                value: >-
+                  https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/WR5kSqLGTaGBY7tpbnViKA-Image-9.webp
+                type: text
+              file:
+                type: file
+                value: 76399df5-44f1-4c4f-8b0f-9359798e371b
+              size:
+                value: 82598
+                type: number
+              title:
+                type: text
+                value: Image-9.webp
+              width:
+                value: 1024
+                type: number
+              height:
+                value: 1024
+                type: number
+              mediaType:
+                value: image/webp
+                type: text
+            _source: uniform-assets
+        es-US:
+          - _id: 3fb221c4-4c6c-438e-9c76-68c30df283cd
+            type: image
+            fields:
+              id:
+                type: text
+                value: 12f0b51b-cc8c-4422-934e-0a87c660315d
+              url:
+                value: >-
+                  https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/WR5kSqLGTaGBY7tpbnViKA-Image-9.webp
+                type: text
+              file:
+                type: file
+                value: 76399df5-44f1-4c4f-8b0f-9359798e371b
+              size:
+                value: 82598
+                type: number
+              title:
+                type: text
+                value: Image-9.webp
+              width:
+                value: 1024
+                type: number
+              height:
+                value: 1024
+                type: number
+              mediaType:
+                value: image/webp
+                type: text
+            _source: uniform-assets
+        fr-CA:
+          - _id: 3fb221c4-4c6c-438e-9c76-68c30df283cd
+            type: image
+            fields:
+              id:
+                type: text
+                value: 12f0b51b-cc8c-4422-934e-0a87c660315d
+              url:
+                value: >-
+                  https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/WR5kSqLGTaGBY7tpbnViKA-Image-9.webp
+                type: text
+              file:
+                type: file
+                value: 76399df5-44f1-4c4f-8b0f-9359798e371b
+              size:
+                value: 82598
+                type: number
+              title:
+                type: text
+                value: Image-9.webp
+              width:
+                value: 1024
+                type: number
+              height:
+                value: 1024
+                type: number
+              mediaType:
+                value: image/webp
+                type: text
+            _source: uniform-assets
+        nl-NL:
+          - _id: 3fb221c4-4c6c-438e-9c76-68c30df283cd
+            type: image
+            fields:
+              id:
+                type: text
+                value: 12f0b51b-cc8c-4422-934e-0a87c660315d
+              url:
+                value: >-
+                  https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/WR5kSqLGTaGBY7tpbnViKA-Image-9.webp
+                type: text
+              file:
+                type: file
+                value: 76399df5-44f1-4c4f-8b0f-9359798e371b
+              size:
+                value: 82598
+                type: number
+              title:
+                type: text
+                value: Image-9.webp
+              width:
+                value: 1024
+                type: number
+              height:
+                value: 1024
+                type: number
+              mediaType:
+                value: image/webp
+                type: text
+            _source: uniform-assets
+    title:
+      type: text
+      locales:
+        en-US: Arabica
+        es-US: Árábica
+        fr-CA: Arabica
+        nl-NL: Arabica
+    description:
+      type: text
+      locales:
+        en-US: >-
+          Discover the exceptional quality and flavor of Arabica coffee beans,
+          renowned for their smooth and complex taste profiles. Arabica beans
+          are grown at higher altitudes and are known for their delicate balance
+          of sweetness, acidity, and aromatic notes. Our selection of Arabica
+          beans is sourced from the best coffee-growing regions, ensuring you
+          experience the full spectrum of flavors from floral and fruity to
+          nutty and chocolaty. Perfect for any brewing method, Arabica beans
+          deliver a refined and enjoyable coffee experience with every cup.
+          Explore our Arabica collection and savor the excellence of these
+          premium beans.
+        es-US: >-
+          Descubra la calidad y el sabor excepcionales de los granos de café
+          Arábica, reconocidos por sus perfiles de sabor lisos y complejos.Los
+          frijoles arábica se cultivan a altitudes más altas y son conocidos por
+          su delicado equilibrio de dulzura, acidez y notas aromáticas.Nuestra
+          selección de frijoles arábica se obtiene de las mejores regiones de
+          cultivo de café, asegurando que experimente el espectro completo de
+          sabores, desde floral y afrutado hasta nuez y chocolate.Perfecto para
+          cualquier método de elaboración de cerveza, los frijoles de Arábica
+          ofrecen una experiencia de café refinada y agradable con cada
+          taza.Explore nuestra colección Arábica y saborea la excelencia de
+          estas frijoles premium.
+        fr-CA: >-
+          Découvrez la qualité exceptionnelle et la saveur des grains de café
+          Arabica, réputés pour leurs profils de goût doux et complexes. Les
+          grains d’Arabica sont cultivés à des altitudes plus élevées et sont
+          connus pour leur équilibre délicat entre douceur, acidité et notes
+          aromatiques. Notre sélection de grains d’Arabica provient des
+          meilleures régions productrices de café, vous garantissant une
+          expérience complète des saveurs allant du floral et fruité au noisette
+          et chocolaté. Parfait pour toute méthode d’infusion, les grains
+          d’Arabica offrent une expérience de café raffinée et agréable à chaque
+          tasse. Explorez notre collection d’Arabica et savourez l’excellence de
+          ces grains premium.
+        nl-NL: >-
+          Ontdek de uitzonderlijke kwaliteit en smaak van Arabica-koffiebonen,
+          die bekendstaan om hun zachte en complexe smaakprofielen.
+          Arabica-bonen worden op grotere hoogtes verbouwd en staan bekend om
+          hun delicate balans van zoetheid, zuurgraad en aromatische noten. Onze
+          selectie van Arabica-bonen wordt gesourced uit de beste
+          koffieproducerende regio’s, zodat u het volledige spectrum van smaken
+          kunt ervaren, variërend van bloemig en fruitig tot nootachtig en
+          chocoladeachtig. Perfect voor elke zetmethode leveren Arabica-bonen
+          een verfijnde en plezierige koffie-ervaring in elke kop. Verken onze
+          Arabica-collectie en geniet van de uitmuntendheid van deze premium
+          bonen.
+  _locales:
+    - en-US
+    - fr-CA
+    - es-US
+    - nl-NL

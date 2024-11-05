@@ -1,0 +1,90 @@
+composition:
+  _name: Product Card
+  _id: 8febfc4b-e308-4805-b262-0f6fbe123617
+  type: card
+  variant: backgroundImage
+  parameters:
+    badge:
+      type: text
+      locales:
+        en-US: ${#jptr:/Product Content/entry/fields/category/value/1/entry/_name}
+    image:
+      type: asset
+      value:
+        - _id: bc79008e-7e7d-430c-8ce4-3fbf35a61e4c
+          type: image
+          fields:
+            url:
+              type: text
+              value: >-
+                ${#jptr:/Product
+                Content/entry/fields/primaryImage/value/0/fields/url/value}
+          _source: custom-url
+    title:
+      type: text
+      locales:
+        en-US: ${#jptr:/Product Content/entry/_name}
+    objectFit:
+      type: select
+      value: contain
+    buttonCopy:
+      type: text
+      locales:
+        en-US: View Product
+    buttonLink:
+      type: link
+      value:
+        path: /${locale}/products/${#jptr:/Product Content/entry/_slug}
+        type: projectMapNode
+        nodeId: fb657541-0488-4c22-bce4-64c9cd71bdde
+        projectMapId: 62588085-7894-4810-84b6-eaaf0cb5213c
+        dynamicInputValues:
+          locale: ${locale}
+          product-slug: ${#jptr:/Product Content/entry/_slug}
+    description:
+      type: text
+      locales:
+        en-US: ${#jptr:/Product Content/entry/fields/shortDescription/value}
+    overlayColor:
+      type: tp-color-style-parameter
+      value: primary
+    overlayOpacity:
+      type: tp-slider-parameter
+      value: 30%
+    lineCountRestriction:
+      type: tp-slider-parameter
+      value: '5'
+  _dataResources:
+    Product Content:
+      type: product-single
+      variables:
+        locale: ${locale}
+        search: ''
+        entryId: 048d6d1e-b00b-4e80-a715-22d149233435
+        entryIds: df7a5d21-9a3c-49db-92d2-662b0fecce21
+        contentTypes: article
+      isPatternParameter: true
+      ignorePatternParameterDefault: false
+  _overridability:
+    parameters:
+      $viz: 'yes'
+      badge: 'yes'
+      image: 'yes'
+      title: 'yes'
+      objectFit: 'yes'
+      description: 'yes'
+      overlayColor: 'yes'
+      overlayOpacity: 'yes'
+      textColorVariant: 'yes'
+      lineCountRestriction: 'yes'
+    hideLockedParameters: true
+  _locales:
+    - en-US
+created: '2024-10-01T14:12:32.87251+00:00'
+modified: '2024-10-02T20:29:45.036474+00:00'
+pattern: true
+previewImageUrl: >-
+  https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/AFZ53R5ZQM2Etnj-oEOw4g-Product-Card.png
+categoryId: 2da8c924-14d5-470b-9fe4-1e56521551e5
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+workflowStageId: 73608d81-f8b0-4ee3-897b-c976d2dc6670

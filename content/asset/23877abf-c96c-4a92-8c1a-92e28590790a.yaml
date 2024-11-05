@@ -1,0 +1,31 @@
+asset:
+  type: image
+  _id: 23877abf-c96c-4a92-8c1a-92e28590790a
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: >-
+        black-mountain-chambord-french-press-coffee-maker-123-1_pgykyp_yh0nlq.jpg
+    file:
+      type: file
+      value: d7524ea5-a2c0-452e-bb65-c96da019d7ca
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/EJKnj1zyRneB0jLhEsmwWg-black-mountain-chambord-french-press-coffee-maker-123-1_pgykyp_yh0nlq.jpg
+      type: text
+    size:
+      value: 159228
+      type: number
+    width:
+      value: 1280
+      type: number
+    height:
+      value: 1280
+      type: number
+    custom: {}
+created: '2024-02-01T10:05:44.838726+00:00'
+modified: '2024-02-01T10:05:44.838726+00:00'

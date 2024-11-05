@@ -1,0 +1,327 @@
+composition:
+  _name: Recipes
+  _id: 03f678c9-2157-47fe-8f8a-a7e680e323f5
+  _slug: recipes
+  type: productCategoryPage
+  parameters:
+    pageTitle:
+      type: text
+      locales:
+        en-CA: Recipe Listing Page
+        en-GB: Recipe Listing Page
+        en-NL: Recipe Listing Page
+        en-US: Recipe Listing Page
+        es-US: Recipe Listing Page
+        fr-CA: Recipe Listing Page
+        nl-NL: Productcategorie pagina
+  slots:
+    pageFooter:
+      - _id: 6d274fe8-ef9b-4105-bcbe-92ab30d1a628
+        type: footer
+        _pattern: 319639e9-4bac-4fb3-8f0b-19088c969fcb
+    pageHeader:
+      - _id: 352d03d4-6ea2-4a2a-804b-74dce60295e0
+        type: header
+        _pattern: e46c8336-acfd-43e8-ac59-8be8f4c33b7d
+    pageContent:
+      - _id: 42685a32-86eb-4398-9914-17e3351d1778
+        type: hero
+        variant: backgroundImage
+        parameters:
+          image:
+            type: asset
+            value:
+              - _id: e6e2fbdd-d0f0-42ce-896a-4c6be1b37e97
+                type: image
+                fields:
+                  id:
+                    type: text
+                    value: e0fa3d14-116d-4874-826f-c45a8301c8fa
+                  url:
+                    value: >-
+                      https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/vakY5F8fSI6b-7kphmgm7w-pexels-arina-krasnikova-5709723.jpg
+                    type: text
+                  file:
+                    type: file
+                    value: 564f1efc-be35-4c88-bd63-4b2e002693f8
+                  size:
+                    value: 688146
+                    type: number
+                  title:
+                    type: text
+                    value: pexels-arina-krasnikova-5709723.jpg
+                  width:
+                    value: 3500
+                    type: number
+                  height:
+                    value: 2336
+                    type: number
+                  mediaType:
+                    value: image/jpeg
+                    type: text
+                _source: uniform-assets
+          title:
+            type: text
+            locales:
+              en-CA: "Great\_Ways to Use Coffee"
+              en-GB: "Great\_Ways to Use Coffee"
+              en-NL: "Great\_Ways to Use Coffee"
+              en-US: "Great\_Ways to Use Coffee"
+              es-US: "Great\_Ways to Use Coffee"
+              fr-CA: "Great\_Ways to Use Coffee"
+              nl-NL: Pagina Titel
+          objectFit:
+            type: select
+            value: cover
+          textColor:
+            type: tp-color-palette-parameter
+            value: primary-content
+          paddingTop:
+            type: select
+            value: None
+          titleStyle:
+            type: tp-title-style-parameter
+            value: h1
+          description:
+            type: text
+            locales:
+              en-CA: in Drinks, Dessert, and Main Dishes
+              en-GB: in Drinks, Dessert, and Main Dishes
+              en-NL: in Drinks, Dessert, and Main Dishes
+              en-US: in Drinks, Dessert, and Main Dishes
+              es-US: in Drinks, Dessert, and Main Dishes
+              fr-CA: in Drinks, Dessert, and Main Dishes
+              nl-NL: Enkele paginabeschrijvingen
+          eyebrowText:
+            type: text
+            locales:
+              en-CA: Recipes
+              en-GB: Recipes
+              en-NL: Recipes
+              en-US: Recipes
+              es-US: Recipes
+              fr-CA: Recipes
+              nl-NL: wenkbrauw tekst
+          overlayColor:
+            type: tp-color-palette-parameter
+            value: primary
+          paddingBottom:
+            type: select
+            value: None
+          overlayOpacity:
+            type: tp-slider-parameter
+            value: 40%
+          containerVariant:
+            type: select
+            value: fluidContent
+      - _id: f2ec1d51-436a-486e-a786-25faf5b9119e
+        type: container
+        slots:
+          container-inner:
+            - _id: 0de5f824-c781-42c6-b7af-b80779fc77a2
+              type: breadcrumbs
+              parameters:
+                separator:
+                  type: select
+                  value: chevron
+                colorStyle:
+                  type: tp-color-style-parameter
+                  value: accent
+                displayRootNode:
+                  type: checkbox
+                  value: true
+                displayPlaceholderNodes:
+                  type: checkbox
+                  value: true
+            - _id: f95d4a32-6a27-4cdd-92e4-3aa518fe912a
+              type: grid
+              slots:
+                grid-inner:
+                  - _id: a673f793-e1af-46cf-8376-66b49ac84eb4
+                    type: $loop
+                    slots:
+                      body:
+                        - _id: fc69d75c-8336-4419-b1e5-92a59da9baad
+                          type: card
+                          variant: backgroundImage
+                          parameters:
+                            badge:
+                              type: text
+                              locales:
+                                en-CA: >-
+                                  ${#jptr:/Recipe List Content entries Loop
+                                  Item/entry/fields/recipeType/value/entry/fields/name/value}
+                                en-GB: >-
+                                  ${#jptr:/Recipe List Content entries Loop
+                                  Item/entry/fields/recipeType/value/entry/fields/name/value}
+                                en-NL: >-
+                                  ${#jptr:/Recipe List Content entries Loop
+                                  Item/entry/fields/recipeType/value/entry/fields/name/value}
+                                en-US: >-
+                                  ${#jptr:/Recipe List Content entries Loop
+                                  Item/entry/fields/recipeType/value/entry/fields/name/value}
+                                es-US: >-
+                                  ${#jptr:/Recipe List Content entries Loop
+                                  Item/entry/fields/recipeType/value/entry/fields/name/value}
+                                fr-CA: >-
+                                  ${#jptr:/Recipe List Content entries Loop
+                                  Item/entry/fields/recipeType/value/entry/fields/name/value}
+                            image:
+                              type: asset
+                              value:
+                                - _id: e91786a5-d819-4893-99c5-40d2b555ec04
+                                  type: image
+                                  fields:
+                                    url:
+                                      type: text
+                                      value: >-
+                                        ${#jptr:/Recipe List Content entries
+                                        Loop
+                                        Item/entry/fields/featuredImage/value/0/fields/url/value}
+                                  _source: custom-url
+                            title:
+                              type: text
+                              locales:
+                                en-CA: >-
+                                  ${#jptr:/Recipe List Content entries Loop
+                                  Item/entry/fields/name/value}
+                                en-GB: >-
+                                  ${#jptr:/Recipe List Content entries Loop
+                                  Item/entry/fields/name/value}
+                                en-NL: >-
+                                  ${#jptr:/Recipe List Content entries Loop
+                                  Item/entry/fields/name/value}
+                                en-US: >-
+                                  ${#jptr:/Recipe List Content entries Loop
+                                  Item/entry/fields/name/value}
+                                es-US: >-
+                                  ${#jptr:/Recipe List Content entries Loop
+                                  Item/entry/fields/name/value}
+                                fr-CA: >-
+                                  ${#jptr:/Recipe List Content entries Loop
+                                  Item/entry/fields/name/value}
+                            badgeStyle:
+                              type: tp-badge-style-parameter
+                              value: accent
+                            buttonCopy:
+                              type: text
+                              locales:
+                                en-CA: View Recipe
+                                en-GB: View Recipe
+                                en-NL: View Recipe
+                                en-US: View Recipe
+                                es-US: View Recipe
+                                fr-CA: View Recipe
+                                nl-NL: Bekijk recept
+                            buttonLink:
+                              type: link
+                              value:
+                                path: >-
+                                  /${locale}/about-us/recipes/${#jptr:/Recipe
+                                  List Content entries Loop Item/entry/_slug}
+                                type: projectMapNode
+                                nodeId: 836a6692-9686-4fc9-82ed-d9dc121a398e
+                                projectMapId: 62588085-7894-4810-84b6-eaaf0cb5213c
+                                dynamicInputValues:
+                                  locale: ${locale}
+                                  recipe: >-
+                                    ${#jptr:/Recipe List Content entries Loop
+                                    Item/entry/_slug}
+                            buttonStyle:
+                              type: tp-button-style-parameter
+                              value: accent
+                            description:
+                              type: text
+                              locales:
+                                en-CA: >-
+                                  ${#jptr:/Recipe List Content entries Loop
+                                  Item/entry/fields/overview/value}
+                                en-GB: >-
+                                  ${#jptr:/Recipe List Content entries Loop
+                                  Item/entry/fields/overview/value}
+                                en-NL: >-
+                                  ${#jptr:/Recipe List Content entries Loop
+                                  Item/entry/fields/overview/value}
+                                en-US: >-
+                                  ${#jptr:/Recipe List Content entries Loop
+                                  Item/entry/fields/overview/value}
+                                es-US: >-
+                                  ${#jptr:/Recipe List Content entries Loop
+                                  Item/entry/fields/overview/value}
+                                fr-CA: >-
+                                  ${#jptr:/Recipe List Content entries Loop
+                                  Item/entry/fields/overview/value}
+                            overlayColor:
+                              type: tp-color-style-parameter
+                              value: base-300
+                            overlayOpacity:
+                              type: tp-slider-parameter
+                              value: 30%
+                            lineCountRestriction:
+                              type: tp-slider-parameter
+                              value: '3'
+                    _dataResources:
+                      Recipe List Content entries Loop Item:
+                        type: sys-reserved-loop
+                        variables:
+                          connectedData: '#jptr:/Recipe List Content/entries:fa=c'
+              parameters:
+                gapX:
+                  type: tp-slider-parameter
+                  value: none
+                gapY:
+                  type: tp-slider-parameter
+                  value: none
+                title:
+                  type: text
+                  locales:
+                    en-CA: Recipes
+                    en-GB: Recipes
+                    en-NL: Recipes
+                    en-US: Recipes
+                    es-US: Recipes
+                    fr-CA: Recipes
+                    nl-NL: Recepten
+                columnsCount:
+                  type: tp-slider-parameter
+                  value: '4'
+            - _id: ca54eed6-3949-4513-b6e3-d52c3695b630
+              type: spacer
+              parameters:
+                thickness:
+                  type: tp-slider-parameter
+                  value: 20px
+        parameters:
+          marginTop:
+            type: select
+            value: None
+          paddingTop:
+            type: select
+            value: None
+          marginBottom:
+            type: select
+            value: None
+          paddingBottom:
+            type: select
+            value: None
+          backgroundType:
+            type: tp-background-type-parameter
+            value: Dark
+  _dataResources:
+    Recipe List Content:
+      type: recipeList
+      variables:
+        locale: ${locale}
+        search: ''
+        contentTypes: recipe
+  _locales:
+    - en-US
+    - nl-NL
+    - fr-CA
+    - en-CA
+    - es-US
+    - en-GB
+    - en-NL
+created: '2024-09-26T15:58:38.003396+00:00'
+modified: '2024-10-02T13:14:43.075447+00:00'
+pattern: false

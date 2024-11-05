@@ -1,0 +1,188 @@
+created: '2024-06-04T20:23:49.642423+00:00'
+modified: '2024-08-15T12:18:22.694091+00:00'
+pattern: false
+workflowId: 784fa239-ae8a-4ab1-ba68-9806d0fe406a
+workflowStageId: 73608d81-f8b0-4ee3-897b-c976d2dc6670
+entry:
+  _id: 4f40c9fa-75f3-447a-a812-2b2124113bbb
+  _name: Descaling tablets
+  _slug: descaling-tablets-142
+  _thumbnail: >-
+    https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/Htw0pdIuSo-nVPPDGb5ZiQ-descaling_tablets__24083.1662555428.386.513_plb7u6.jpg
+  type: product
+  fields:
+    body:
+      type: richText
+      locales:
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      JavaDrip has recently launched a groundbreaking descaling
+                      tablet that effectively removes scale buildup in your
+                      coffee machine, thereby prolonging its lifespan.
+                      Additionally, this innovative product is designed to be
+                      gentle on your machine, ensuring optimal performance for
+                      years to come.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+            direction: ltr
+    name:
+      type: text
+      value: Descaling tablets
+    brand:
+      type: contentReference
+      value: ${#jptr:/ref-4f40c9fa-75f3-447a-a812-2b2124113bbb-brand/entries/0}
+    title:
+      type: text
+      value: Descaling tablets
+    category:
+      type: contentReference
+      value: ${#jptr:/ref-4f40c9fa-75f3-447a-a812-2b2124113bbb-category/entries}
+    variants:
+      type: $block
+      value:
+        - _id: 01d6d97b-b95e-41f0-9489-7d5351e99242
+          type: variant
+          fields:
+            code:
+              type: text
+              value: '142'
+            price:
+              type: number
+              locales:
+                en-US: '35'
+                fr-CA: '32.33'
+                nl-NL: '32.33'
+                es-US: '35'
+            title:
+              type: text
+              locales:
+                en-US: Descaling tablets
+                es-US: Descaling tablets
+                fr-CA: Descaling tablets
+                nl-NL: Descaling tablets
+            currency:
+              type: text
+              locales:
+                en-US: $
+                es-US: $
+                fr-CA: €
+                nl-NL: €
+            imageGallery:
+              type: asset
+              value:
+                - _id: a9aa543a-5fb8-49c1-89ab-fc3b6a6709f8
+                  type: image
+                  fields:
+                    id:
+                      type: text
+                      value: 80e92a2e-0707-4126-9b77-661142192572
+                    url:
+                      value: >-
+                        https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/TbrDOtv_T4adxQ9PYFFfbg-descaling_tablets__24083.1662555428.386.513_plb7u6.jpg
+                      type: text
+                    file:
+                      type: file
+                      value: 4ae8079f-f120-4046-85bd-c97a9284af54
+                    size:
+                      value: 17481
+                      type: number
+                    title:
+                      type: text
+                      value: descaling_tablets__24083.1662555428.386.513_plb7u6.jpg
+                    width:
+                      value: 386
+                      type: number
+                    height:
+                      value: 386
+                      type: number
+                    mediaType:
+                      value: image/jpeg
+                      type: text
+                  _source: uniform-assets
+    primaryImage:
+      type: asset
+      value:
+        - _id: 4fc2059f-fb69-40ba-98cb-c2afbbac4761
+          type: image
+          fields:
+            id:
+              type: text
+              value: 3ca4299e-5cba-4375-9f8c-fd9cd6271658
+            url:
+              value: >-
+                https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/Htw0pdIuSo-nVPPDGb5ZiQ-descaling_tablets__24083.1662555428.386.513_plb7u6.jpg
+              type: text
+            file:
+              type: file
+              value: 9e7eb0eb-1632-48c4-ac6f-6fa42d316aae
+            size:
+              value: 17481
+              type: number
+            title:
+              type: text
+              value: descaling_tablets__24083.1662555428.386.513_plb7u6.jpg
+            width:
+              value: 386
+              type: number
+            height:
+              value: 386
+              type: number
+            mediaType:
+              value: image/jpeg
+              type: text
+          _source: uniform-assets
+    recommendations:
+      type: contentReference
+      value: >-
+        ${#jptr:/ref-4f40c9fa-75f3-447a-a812-2b2124113bbb-recommendations/entries}
+    shortDescription:
+      type: text
+      locales:
+        en-US: >-
+          JavaDrip's descaling tablet removes scale to prolong your coffee
+          machine's lifespan without causing damage.
+        es-US: >-
+          La tableta de descalificación de Javadrip elimina la escala para
+          prolongar la vida útil de su máquina de café sin causar daños.
+        fr-CA: >-
+          La tablette de dessemnages de Javadrip supprime l'échelle pour
+          prolonger la durée de vie de votre machine à café sans causer de
+          dommages.
+        nl-NL: >-
+          Javadrip's ontkalktablet verwijdert de schaal om de levensduur van uw
+          koffiemachine te verlengen zonder schade aan te richten.
+  _dataResources:
+    ref-4f40c9fa-75f3-447a-a812-2b2124113bbb-brand:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: de5d95bc-f87f-4503-a635-fec03d9f06a1
+    ref-4f40c9fa-75f3-447a-a812-2b2124113bbb-category:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: 4fb71159-ddac-4bca-9004-0405ed43c2d8
+    ref-4f40c9fa-75f3-447a-a812-2b2124113bbb-recommendations:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: >-
+          82b84782-4236-4b06-a994-59f088896b91,72b49ac2-bbf3-48a7-b522-0947483e9131,dd9a7e4d-56a3-4a0b-9679-345d19e6da49,d4e5eec7-6670-42ef-adcb-71645e05e836
+  _locales:
+    - en-US
+    - es-US
+    - fr-CA
+    - nl-NL

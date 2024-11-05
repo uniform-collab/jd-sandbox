@@ -1,0 +1,319 @@
+created: '2024-06-04T20:24:03.462098+00:00'
+modified: '2024-08-15T12:20:01.171124+00:00'
+pattern: false
+workflowId: 784fa239-ae8a-4ab1-ba68-9806d0fe406a
+workflowStageId: 73608d81-f8b0-4ee3-897b-c976d2dc6670
+entry:
+  _id: b5760778-6966-4fd6-911f-40f081e2a26d
+  _name: Royale iQ Espresso Machine
+  _slug: royale-iq-espresso-machine-117
+  _thumbnail: >-
+    https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/iEQNW7bmSS-XFziiziV_nw-royale-iq-espresso-machine-117-2_f7aoom_rfrbqh.jpg
+  type: product
+  fields:
+    body:
+      type: richText
+      locales:
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      15-Bar Italian pump delivers the right amount of pressure
+                      for maximum flavor extraction and produces a beautiful
+                      layer of crema for your Espresso Dial interface for
+                      selecting steam, hot water, and pre-programmed single and
+                      double shots 58mm caf&eacute;-sized porta filter holds
+                      more grounds and ensures even water dispersion and
+                      extraction for robust flavor Thermoblock heating
+                      technology and PID temperature control delivers even heat
+                      for consistently great-tasting Espresso, and pre-infusion
+                      gently blooms The espresso grounds for optimally extracted
+                      Espresso
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+            direction: ltr
+        fr-CA:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      La pompe italienne de 15 bars fournit la bonne quantité de
+                      pression pour une extraction maximale des saveurs et
+                      produit une belle couche de crème pour votre interface
+                      Espresso Dial pour sélectionner la vapeur, l'eau chaude et
+                      les coups simples et doubles préprogrammés. Porte-filtre
+                      de 58 mm de la taille d'un café. plus de marc et assure
+                      une dispersion et une extraction uniformes de l'eau pour
+                      une saveur robuste La technologie de chauffage Thermoblock
+                      et le contrôle de la température PID fournissent une
+                      chaleur uniforme pour un expresso toujours savoureux, et
+                      la pré-infusion fleurit doucement. Le marc d'espresso pour
+                      un expresso extrait de manière optimale
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+            direction: ltr
+        nl-NL:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Italiaanse pomp van 15 bar levert de juiste hoeveelheid
+                      druk voor maximale smaakextractie en produceert een
+                      prachtige cremalaag voor uw espresso Draaiknopinterface
+                      voor het selecteren van stoom, heet water en
+                      voorgeprogrammeerde enkele en dubbele shots Portafilter
+                      van 58 mm in caféformaat meer maalgraad en zorgt voor een
+                      gelijkmatige verspreiding en extractie van het water voor
+                      een robuuste smaak Thermoblock-verwarmingstechnologie en
+                      PID-temperatuurregeling zorgen voor een gelijkmatige
+                      warmte voor een consistent heerlijke espresso, en de
+                      pre-infusie bloeit zachtjes De espressoresten voor een
+                      optimaal geëxtraheerde espresso
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+            direction: ltr
+    name:
+      type: text
+      value: Royale iQ Espresso Machine
+    brand:
+      type: contentReference
+      value: ${#jptr:/ref-b5760778-6966-4fd6-911f-40f081e2a26d-brand/entries/0}
+    title:
+      type: text
+      value: Royale iQ Espresso Machine
+    category:
+      type: contentReference
+      value: ${#jptr:/ref-b5760778-6966-4fd6-911f-40f081e2a26d-category/entries}
+    variants:
+      type: $block
+      value:
+        - _id: c9ea5573-df6b-46d7-a10f-9d8f1db78381
+          type: variant
+          fields:
+            code:
+              type: text
+              value: '117'
+            price:
+              type: number
+              locales:
+                en-US: '349.99'
+                fr-CA: '323.27'
+                nl-NL: '323.27'
+                es-US: '349.99'
+            title:
+              type: text
+              locales:
+                en-US: Royale iQ Espresso Machine
+                es-US: Royale iQ Espresso Machine
+                fr-CA: Royale iQ Espresso Machine
+                nl-NL: Royale iQ Espresso Machine
+            currency:
+              type: text
+              locales:
+                en-US: $
+                es-US: $
+                fr-CA: €
+                nl-NL: €
+            imageGallery:
+              type: asset
+              value:
+                - _id: f348cafc-6444-4c63-91fd-8e12babf4d3b
+                  type: image
+                  fields:
+                    id:
+                      type: text
+                      value: 343ab9d2-e3d9-4e89-bfb2-02010b7ea4a9
+                    url:
+                      value: >-
+                        https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/JtC1J_a_RqW17-hvcYri8Q-royale-iq-espresso-machine-117-1_sqzksc_bqve3k.jpg
+                      type: text
+                    file:
+                      type: file
+                      value: c6812c84-8912-4bdf-953b-3d703a45871f
+                    size:
+                      value: 113353
+                      type: number
+                    title:
+                      type: text
+                      value: royale-iq-espresso-machine-117-1_sqzksc_bqve3k.jpg
+                    width:
+                      value: 1280
+                      type: number
+                    height:
+                      value: 1280
+                      type: number
+                    mediaType:
+                      value: image/jpeg
+                      type: text
+                  _source: uniform-assets
+                - _id: 503e5632-d5f5-4427-9de7-30e40eecf06f
+                  type: image
+                  fields:
+                    id:
+                      type: text
+                      value: a367c2f9-9d19-42db-b84f-4bdc19c23a94
+                    url:
+                      value: >-
+                        https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/sEq4tOawQ9qyqtayKoNZUA-royale-iq-espresso-machine-117-2_f7aoom_rfrbqh.jpg
+                      type: text
+                    file:
+                      type: file
+                      value: f25a04b9-0392-4f99-9e83-7f6a3ae20528
+                    size:
+                      value: 116003
+                      type: number
+                    title:
+                      type: text
+                      value: royale-iq-espresso-machine-117-2_f7aoom_rfrbqh.jpg
+                    width:
+                      value: 1280
+                      type: number
+                    height:
+                      value: 1280
+                      type: number
+                    mediaType:
+                      value: image/jpeg
+                      type: text
+                  _source: uniform-assets
+    primaryImage:
+      type: asset
+      value:
+        - _id: 3b43a2fd-726b-4581-8b6b-2192259d2573
+          type: image
+          fields:
+            id:
+              type: text
+              value: 59d1d85a-8553-4913-9bfb-d64ab13a2127
+            url:
+              value: >-
+                https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/iEQNW7bmSS-XFziiziV_nw-royale-iq-espresso-machine-117-2_f7aoom_rfrbqh.jpg
+              type: text
+            file:
+              type: file
+              value: c5b6a2f3-6a33-4bd6-b0a3-140e30bc2f65
+            size:
+              value: 116003
+              type: number
+            title:
+              type: text
+              value: royale-iq-espresso-machine-117-2_f7aoom_rfrbqh.jpg
+            width:
+              value: 1280
+              type: number
+            height:
+              value: 1280
+              type: number
+            mediaType:
+              value: image/jpeg
+              type: text
+          _source: uniform-assets
+    recommendations:
+      type: contentReference
+      value: >-
+        ${#jptr:/ref-b5760778-6966-4fd6-911f-40f081e2a26d-recommendations/entries}
+    shortDescription:
+      type: text
+      locales:
+        en-US: >-
+          15-Bar Italian pump delivers the right amount of pressure for maximum
+          flavor extraction and produces a beautiful layer of crema for your
+          Espresso Dial interface for selecting steam, hot water, and
+          pre-programmed single and double shots 58mm caf&eacute;-sized porta
+          filter holds more grounds and ensures even water dispersion and
+          extraction for robust flavor Thermoblock heating technology and PID
+          temperature control delivers even heat for consistently great-tasting
+          Espresso, and pre-infusion gently blooms The espresso grounds for
+          optimally extracted Espresso
+        es-US: >-
+          La bomba italiana de 15 barras ofrece la cantidad correcta de presión
+          para la extracción de sabor máximo y produce una hermosa capa de crema
+          para su interfaz de marcado de café espresso para seleccionar vapor,
+          agua caliente y retrasos en el filtro PortA de 58 mm preprogramados de
+          58 mm.Más motivos y garantiza una dispersión y extracción de agua para
+          el sabor robusto que la tecnología de calefacción termoclock y el
+          control de temperatura PID ofrece un calor uniforme para un café
+          expreso de gran sabor, y la infusión previa florece suavemente los
+          terrenos de café espresso para un espresso de óptimos extraídos de
+          óptimos.
+        fr-CA: >-
+          La pompe italienne de 15 bars fournit la bonne quantité de pression
+          pour une extraction maximale des saveurs et produit une belle couche
+          de crème pour votre interface Espresso Dial pour sélectionner la
+          vapeur, l'eau chaude et les coups simples et doubles préprogrammés.
+          Porte-filtre de 58 mm de la taille d'un café. plus de marc et assure
+          une dispersion et une extraction uniformes de l'eau pour une saveur
+          robuste La technologie de chauffage Thermoblock et le contrôle de la
+          température PID fournissent une chaleur uniforme pour un expresso
+          toujours savoureux, et la pré-infusion fleurit doucement. Le marc
+          d'espresso pour un expresso extrait de manière optimale
+        nl-NL: >-
+          Italiaanse pomp van 15 bar levert de juiste hoeveelheid druk voor
+          maximale smaakextractie en produceert een prachtige cremalaag voor uw
+          espresso Draaiknopinterface voor het selecteren van stoom, heet water
+          en voorgeprogrammeerde enkele en dubbele shots Portafilter van 58 mm
+          in caféformaat meer maalgraad en zorgt voor een gelijkmatige
+          verspreiding en extractie van het water voor een robuuste smaak
+          Thermoblock-verwarmingstechnologie en PID-temperatuurregeling zorgen
+          voor een gelijkmatige warmte voor een consistent heerlijke espresso,
+          en de pre-infusie bloeit zachtjes De espressoresten voor een optimaal
+          geëxtraheerde espresso
+  _dataResources:
+    ref-b5760778-6966-4fd6-911f-40f081e2a26d-brand:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: c4abae59-51f7-4493-ad46-628acc96d45f
+    ref-b5760778-6966-4fd6-911f-40f081e2a26d-category:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: >-
+          808f8deb-d021-440a-b1f8-5dff444d35bb,64d19761-b85e-4e33-8438-e4296de791e2
+    ref-b5760778-6966-4fd6-911f-40f081e2a26d-recommendations:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: >-
+          82b84782-4236-4b06-a994-59f088896b91,72b49ac2-bbf3-48a7-b522-0947483e9131,3b15349b-aac2-4a0f-9d62-a30fc016a704,ef55e1ae-ad12-46d9-b296-90d5484136f0,dd9a7e4d-56a3-4a0b-9679-345d19e6da49
+  _locales:
+    - en-US
+    - es-US
+    - fr-CA
+    - nl-NL

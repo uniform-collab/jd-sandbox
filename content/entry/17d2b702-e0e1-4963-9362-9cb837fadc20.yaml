@@ -1,0 +1,15 @@
+created: '2024-10-03T17:59:08.634657+00:00'
+modified: '2024-10-03T17:59:21.743102+00:00'
+pattern: false
+entry:
+  _id: 17d2b702-e0e1-4963-9362-9cb837fadc20
+  _name: Cold Brew Coffee
+  _slug: cold-brew-coffee
+  type: ingredient
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: Cold Brew Coffee
+  _locales:
+    - en-US

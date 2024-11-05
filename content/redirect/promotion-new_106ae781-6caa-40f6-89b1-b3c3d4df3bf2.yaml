@@ -1,0 +1,12 @@
+id: 106ae781-6caa-40f6-89b1-b3c3d4df3bf2
+sourceUrl: /:locale/promotion-new
+sourceRetainQuerystring: true
+targetUrl: https://sales-demo-rc-1.vercel.app/:locale/JavaDrip-Specialty-Launch
+targetStatusCode: 301
+targetProjectMapNodeId: 1ba42a5b-3aef-4c2a-982f-f28d4ba0fc54
+projectMapId: 62588085-7894-4810-84b6-eaaf0cb5213c
+sourceMustMatchDomain: false
+targetPreserveIncomingProtocol: true
+targetPreserveIncomingDomain: true
+targetMergeQuerystring: true
+labelAsSystem: false

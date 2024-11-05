@@ -1,0 +1,254 @@
+composition:
+  _name: Header with Two-Column Layout
+  _id: c4c25933-d434-4838-9ab9-08f9c05295b6
+  type: advancedContainer
+  variant: fluidContent
+  parameters:
+    marginTop:
+      type: select
+      value: None
+    paddingTop:
+      type: select
+      value: Small
+    marginBottom:
+      type: select
+      value: None
+    paddingBottom:
+      type: select
+      value: Small
+    backgroundColor:
+      type: tp-color-palette-parameter
+      value: primary
+  slots:
+    content:
+      - _id: 6f19dbfb-cdaf-46de-b69c-5ac0c8b151e4
+        type: grid
+        slots:
+          grid-inner:
+            - _id: f6c22b20-1fed-4ed3-af70-a0c12e1cb165
+              type: gridItem
+              slots:
+                inner:
+                  - _id: af0a83b1-2b0a-409f-9711-5e3a9f3eaf3b
+                    type: $slotSection
+                    parameters:
+                      name:
+                        type: text
+                        value: Header Section
+                      specific:
+                        type: array
+                        value:
+                          - heroContainer
+                          - text
+                          - $p:59b4fb3d-9b40-4a99-bb40-c93c3ddbdd30
+                          - $p:8febfc4b-e308-4805-b262-0f6fbe123617
+                          - $p:d7381337-2b18-4f69-b6e7-349e14917c22
+                      groupType:
+                        type: text
+                        value: specific
+                    _overridability:
+                      hideLockedParameters: true
+                  - _id: aa7f8a48-eecc-4a3b-ae7a-618be01eae9e
+                    type: text
+                    parameters:
+                      tag:
+                        type: tp-segmented-control-parameter
+                        value: p
+                      size:
+                        type: tp-segmented-control-parameter
+                        value: ''
+                      text:
+                        type: text
+                        locales:
+                          en-US: Section Title
+                      color:
+                        type: tp-color-palette-parameter
+                        value: primary-content
+                      fontWeight:
+                        type: tp-segmented-control-parameter
+                        value: normal
+                      whiteSpace:
+                        type: tp-segmented-control-parameter
+                        value: normal
+                      letterSpacing:
+                        type: tp-segmented-control-parameter
+                        value: ''
+                    _overridability:
+                      parameters:
+                        size: 'yes'
+                        text: 'yes'
+                      hideLockedParameters: true
+                  - _id: 05430437-4613-461a-bac4-2db4f8fd877e
+                    type: spacer
+                    _pattern: 33448962-c93a-422d-932a-dd479f8aa0a8
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: Header Section
+                rowSpan:
+                  type: tp-slider-parameter
+                  value: '1'
+                rowStart:
+                  type: tp-slider-parameter
+                  value: None
+                columnSpan:
+                  type: tp-slider-parameter
+                  value: '4'
+                columnStart:
+                  type: tp-slider-parameter
+                  value: none
+              _overridability:
+                hideLockedParameters: true
+            - _id: 75f73e1f-13a1-4b91-b498-0b850ee720d0
+              type: gridItem
+              slots:
+                inner:
+                  - _id: 4c9d9835-0625-49a3-90ca-4beffa675b07
+                    type: $slotSection
+                    parameters:
+                      name:
+                        type: text
+                        value: Left Column
+                      specific:
+                        type: array
+                        value:
+                          - $p:59b4fb3d-9b40-4a99-bb40-c93c3ddbdd30
+                          - card
+                          - text
+                          - richText
+                          - image
+                          - heroContainer
+                          - $p:d7381337-2b18-4f69-b6e7-349e14917c22
+                          - $p:6df8725b-6069-4d59-b1da-7ac6780b658f
+                      groupType:
+                        type: text
+                        value: specific
+                    _overridability:
+                      hideLockedParameters: true
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: Left Section
+                rowSpan:
+                  type: tp-slider-parameter
+                  value: '1'
+                rowStart:
+                  type: tp-slider-parameter
+                  value: None
+                columnSpan:
+                  type: tp-slider-parameter
+                  value: '1'
+                columnStart:
+                  type: tp-slider-parameter
+                  value: none
+              _overridability:
+                parameters:
+                  $viz: 'yes'
+                  title: 'yes'
+                  rowSpan: 'yes'
+                  rowStart: 'yes'
+                  columnSpan: 'yes'
+                  columnStart: 'yes'
+                hideLockedParameters: true
+            - _id: b526f02c-80ba-49b9-8969-f02c81ffd1c1
+              type: gridItem
+              slots:
+                inner:
+                  - _id: 8be77924-d275-49df-ae6b-3c02ba3b18b2
+                    type: $slotSection
+                    parameters:
+                      name:
+                        type: text
+                        value: Right Column
+                      specific:
+                        type: array
+                        value:
+                          - card
+                          - $p:59b4fb3d-9b40-4a99-bb40-c93c3ddbdd30
+                          - text
+                          - richText
+                          - image
+                          - heroContainer
+                          - $p:d7381337-2b18-4f69-b6e7-349e14917c22
+                          - $p:6df8725b-6069-4d59-b1da-7ac6780b658f
+                      groupType:
+                        type: text
+                        value: specific
+                    _overridability:
+                      hideLockedParameters: true
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: Right Section
+                rowSpan:
+                  type: tp-slider-parameter
+                  value: '1'
+                rowStart:
+                  type: tp-slider-parameter
+                  value: None
+                columnSpan:
+                  type: tp-slider-parameter
+                  value: '1'
+                columnStart:
+                  type: tp-slider-parameter
+                  value: '2'
+              _overridability:
+                parameters:
+                  $viz: 'yes'
+                  title: 'yes'
+                  rowSpan: 'yes'
+                  rowStart: 'yes'
+                  columnSpan: 'yes'
+                  columnStart: 'yes'
+                hideLockedParameters: true
+        parameters:
+          gapX:
+            type: tp-slider-parameter
+            value: none
+          gapY:
+            type: tp-slider-parameter
+            value: none
+          title:
+            type: text
+            locales:
+              en-US: Content Section
+          columnsCount:
+            type: tp-slider-parameter
+            value: '2'
+        _overridability:
+          parameters:
+            $viz: 'yes'
+            gapX: 'yes'
+            gapY: 'yes'
+            title: 'yes'
+            marginTop: 'yes'
+            paddingTop: 'yes'
+            columnsCount: 'yes'
+            marginBottom: 'yes'
+            paddingBottom: 'yes'
+            backgroundType: 'yes'
+            containerVariant: 'yes'
+          hideLockedParameters: true
+  _overridability:
+    parameters:
+      $viz: 'yes'
+      title: 'yes'
+      marginTop: 'yes'
+      paddingTop: 'yes'
+      marginBottom: 'yes'
+      paddingBottom: 'yes'
+      backgroundColor: 'yes'
+    hideLockedParameters: true
+  _locales:
+    - en-US
+created: '2024-08-19T12:41:50.301532+00:00'
+modified: '2024-10-03T17:45:57.13896+00:00'
+pattern: true
+previewImageUrl: >-
+  https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/X8FhtWiUSHSqEAZP0aOSgQ-image.png
+categoryId: 19f9419d-14da-496d-a4ac-eec5010e13d7
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+workflowStageId: 73608d81-f8b0-4ee3-897b-c976d2dc6670

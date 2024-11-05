@@ -1,0 +1,97 @@
+composition:
+  _name: Product Feature Hotspots
+  _id: c68e8149-1780-4272-ad03-6664f8037c3b
+  type: hotspots
+  parameters:
+    alt:
+      type: text
+      locales:
+        en-CA: Product Feature Hotspots
+        en-GB: Product Feature Hotspots
+        en-NL: Product Feature Hotspots
+        en-US: Product Feature Hotspots
+        es-US: Puntos destacados de características del producto
+        fr-CA: Hotspots producteigenschappen
+        nl-NL: Points chauds des caractéristiques du produit
+    objectFit:
+      type: select
+      value: contain
+    backgroundImage:
+      type: asset
+      value:
+        - _id: cf6e55da-9da4-4a49-ae2e-6032b5acbbfc
+          type: image
+          fields:
+            id:
+              type: text
+              value: b862d476-8dac-4fff-81fa-5d3f27d8e370
+            url:
+              value: >-
+                https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/cpyTgdcDQrGyXThq5U0Qpw-JavaDrip_Specialty_1_ijla9c_ymbqor.jpg
+              type: text
+            file:
+              type: file
+              value: 0e966863-1e78-4474-a3c3-fa725d232417
+            size:
+              value: 110488
+              type: number
+            title:
+              type: text
+              value: JavaDrip_Specialty_1_ijla9c_ymbqor.jpg
+            width:
+              value: 1000
+              type: number
+            height:
+              value: 1000
+              type: number
+            mediaType:
+              value: image/jpeg
+              type: text
+          _source: uniform-assets
+  slots:
+    hotspots:
+      - _id: bc6a33c1-f349-416a-b94b-300685737f33
+        type: $slotSection
+        parameters:
+          max:
+            type: text
+            value: 6
+          min:
+            type: text
+            value: 0
+          name:
+            type: text
+            value: Feature Cards
+          specific:
+            type: array
+            value:
+              - $p:0d752b47-346b-408c-86de-2a8ba41671cb
+          groupType:
+            type: text
+            value: specific
+        _overridability:
+          hideLockedParameters: true
+  _dataResources: {}
+  _overridability:
+    parameters:
+      alt: 'yes'
+      fill: 'yes'
+      width: 'yes'
+      objectFit: 'yes'
+      backgroundImage: 'yes'
+    hideLockedParameters: true
+  _locales:
+    - es-US
+    - en-US
+    - en-CA
+    - en-GB
+    - en-NL
+    - fr-CA
+    - nl-NL
+created: '2024-06-26T09:03:29.653918+00:00'
+modified: '2024-09-24T18:55:38.827533+00:00'
+pattern: true
+previewImageUrl: >-
+  https://res.cloudinary.com/uniform-demos/image/upload/v1/preview-images/NewJavaDripTheme/Feature%20Hotspots.png
+categoryId: 2da8c924-14d5-470b-9fe4-1e56521551e5
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5

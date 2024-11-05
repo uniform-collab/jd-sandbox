@@ -1,0 +1,16 @@
+id: 5c029515-8ea6-46c7-a6e1-7cb94aadbcc3
+integrationType: openai-0925a081-67a6-4415-b892-69f3223ceffc
+name: Personalize content for an Audience
+text: >-
+  Using the JSON document with ${\$propertiesList} from the properties in:
+  ${\$propertiesCurrentValues},  personalized for this audience: ${\$audience}.
+  Respond only with the perfectly valid JSON text. Say nothing else. Do not wrap
+  JSON with backtick chars. If you need to escape characters, use UTF-16 code
+  unit.
+data:
+  metadata:
+    model: gpt-4-1106-preview
+enabled: true
+builtIn: null
+parameterTypes:
+  - json

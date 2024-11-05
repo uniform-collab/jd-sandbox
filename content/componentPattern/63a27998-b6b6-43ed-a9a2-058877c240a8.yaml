@@ -1,0 +1,103 @@
+composition:
+  _name: Product Features Container
+  _id: 63a27998-b6b6-43ed-a9a2-058877c240a8
+  type: advancedContainer
+  variant: fluidContent
+  parameters:
+    title:
+      type: text
+      locales:
+        en-CA: Product Features
+        en-GB: Product Features
+        en-NL: Product Features
+        en-US: Product Features
+        es-US: Características del producto
+        fr-CA: Caractéristiques du produit
+        nl-NL: Producteigenschap
+    marginTop:
+      type: select
+      value: Small
+    paddingTop:
+      type: select
+      value: Small
+    marginBottom:
+      type: select
+      value: Small
+    paddingBottom:
+      type: select
+      value: Small
+  slots:
+    content:
+      - _id: 79cf0429-eb9a-4801-b787-e54d0488ff63
+        type: text
+        parameters:
+          tag:
+            type: tp-segmented-control-parameter
+            value: p
+          size:
+            type: tp-segmented-control-parameter
+            value: XL
+          text:
+            type: text
+            locales:
+              en-CA: Product Features
+              en-GB: Product Features
+              en-NL: Product Features
+              en-US: Product Features
+              es-US: Características del producto
+              fr-CA: Caractéristiques du produit
+              nl-NL: Producteigenschap
+          fontWeight:
+            type: tp-segmented-control-parameter
+            value: bold
+          whiteSpace:
+            type: tp-segmented-control-parameter
+            value: normal
+          letterSpacing:
+            type: tp-segmented-control-parameter
+            value: ''
+        _overridability:
+          parameters:
+            tag: 'yes'
+            size: 'yes'
+            text: 'yes'
+            color: 'yes'
+          hideLockedParameters: true
+      - _id: 1feb4bc3-9e82-4795-9958-ba19d9d2c4ee
+        type: hotspots
+        _pattern: c68e8149-1780-4272-ad03-6664f8037c3b
+  _overrides:
+    1feb4bc3-9e82-4795-9958-ba19d9d2c4ee:
+      parameters:
+        alt:
+          type: text
+          locales:
+            en-CA: Product Feature Hotspots
+            en-GB: Product Feature Hotspots
+            en-NL: Product Feature Hotspots
+            en-US: Product Feature Hotspots
+            es-US: Puntos destacados de características del producto
+            fr-CA: Points chauds des caractéristiques du produit
+            nl-NL: Hotspots producteigenschappen
+  _overridability:
+    variants: true
+    parameters:
+      title: 'yes'
+      marginTop: 'yes'
+      paddingTop: 'yes'
+      marginBottom: 'yes'
+      paddingBottom: 'yes'
+      backgroundColor: 'yes'
+    hideLockedParameters: true
+  _locales:
+    - es-US
+    - en-US
+    - en-CA
+    - en-GB
+    - en-NL
+    - fr-CA
+    - nl-NL
+created: '2024-06-26T09:03:29.015889+00:00'
+modified: '2024-09-24T18:55:38.827533+00:00'
+pattern: true
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5

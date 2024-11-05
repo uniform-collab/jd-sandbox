@@ -1,0 +1,989 @@
+composition:
+  _name: Main Header
+  _id: e46c8336-acfd-43e8-ac59-8be8f4c33b7d
+  type: header
+  parameters:
+    logo:
+      type: asset
+      value:
+        - _id: 784562d8-4e01-4fe1-a140-6ec89234bb1d
+          type: image
+          fields:
+            id:
+              type: text
+              value: 3cb246e3-d617-48eb-84bf-0cd77fa4d1f9
+            url:
+              value: >-
+                https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/srIJAs-bRdyBVffWZdtquA-jd_commerce_logo.svg
+              type: text
+            file:
+              type: file
+              value: b8ccc399-5bc3-4057-a27e-e57d1dea2b08
+            size:
+              value: 5214
+              type: number
+            title:
+              type: text
+              value: jd_commerce_logo.svg
+            width:
+              value: 408
+              type: number
+            height:
+              value: 65
+              type: number
+            mediaType:
+              value: image/svg+xml
+              type: text
+          _source: uniform-assets
+    theme:
+      type: tp-set-up-theme-parameter
+      value:
+        colors:
+          - name: primary
+            label: Primary
+            value: '#000000'
+          - name: primary-content
+            label: Primary Content
+            value: '#FFFFFF'
+          - name: secondary
+            label: Secondary
+            value: '#F7DF1E'
+          - name: secondary-content
+            label: Secondary Content
+            value: '#000000'
+          - name: accent
+            label: Accent
+            value: '#F8E399'
+          - name: accent-content
+            label: Accent Content
+            value: '#000000'
+          - name: info-content
+            label: Info Content
+            value: '#E4E4E4'
+          - name: base-200
+            label: Base 200
+            value: '#b69066'
+          - name: base-300
+            label: Base 300
+            value: '#000000'
+        themeName: custom
+        themeLabel: Custom
+    favicon:
+      type: asset
+      value:
+        - _id: 72056a2f-23c3-4c42-96e0-0b56927564ac
+          type: image
+          fields:
+            url:
+              type: text
+              value: >-
+                https://res.cloudinary.com/uniform-demos/image/upload/v1692284346/coffee-icons/JD.ico
+          _source: custom-url
+    primaryFont:
+      type: select
+      value: lexend_giga
+    syntheticGap:
+      type: tp-slider-parameter
+      value: None
+    linksAlignment:
+      type: tp-horizontal-align-parameter
+      value: center
+  slots:
+    links:
+      - _id: 7f7b1f5e-d7e1-4ff4-a24a-ce6aab8e03a0
+        type: navigationMenu
+        slots:
+          content:
+            - _id: 07abcc86-78e5-488b-b2d5-26ec5002f86b
+              type: grid
+              slots:
+                grid-inner:
+                  - _id: ca61aa73-2c6d-4a56-9a2e-52bcd2435aae
+                    type: gridItem
+                    slots:
+                      inner:
+                        - _id: ec4f5e5c-3e27-4edc-84c6-083d03ffc673
+                          type: navigationLink
+                          variant: header
+                          parameters:
+                            icon:
+                              type: asset
+                              value:
+                                - _id: fc6faefd-5d10-44a9-b205-c565d1e70696
+                                  type: image
+                                  fields:
+                                    id:
+                                      type: text
+                                      value: 1d47127d-15e8-4ef1-b1fa-df330cc75b54
+                                    url:
+                                      value: >-
+                                        https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/3aMYVBBhQTKhaIgwK1oP2g-icon_pot.avif
+                                      type: text
+                                    file:
+                                      type: file
+                                      value: 89273075-6829-47db-9b35-3248a5af4d94
+                                    size:
+                                      value: 1419
+                                      type: number
+                                    title:
+                                      type: text
+                                      value: icon_pot.avif
+                                    width:
+                                      value: 60
+                                      type: number
+                                    height:
+                                      value: 60
+                                      type: number
+                                    mediaType:
+                                      value: image/avif
+                                      type: text
+                                  _source: uniform-assets
+                            link:
+                              type: link
+                              value:
+                                path: /${locale}/coffee-makers
+                                type: projectMapNode
+                                nodeId: ce3728ff-81c0-4487-ad98-52e544437ee8
+                                projectMapId: 62588085-7894-4810-84b6-eaaf0cb5213c
+                                dynamicInputValues:
+                                  locale: ${locale}
+                            color:
+                              type: tp-color-palette-parameter
+                              value: primary-content
+                            title:
+                              type: text
+                              locales:
+                                en-CA: Machines
+                                en-GB: Machines
+                                en-NL: Machines
+                                en-US: Machines
+                                es-US: Máquinas
+                                fr-CA: Machines
+                                nl-NL: Machines
+                            hideIconBackground:
+                              type: checkbox
+                              value: true
+                        - _id: 896a1e9d-6d3e-40f8-a403-a7afc8bd8720
+                          type: navigationLink
+                          variant: header
+                          parameters:
+                            icon:
+                              type: asset
+                              value:
+                                - _id: 459c1bad-1631-42ae-a0e8-43e287a79d36
+                                  type: image
+                                  fields:
+                                    id:
+                                      type: text
+                                      value: a3189b8b-52a3-4b48-9c18-2378d8eddbc0
+                                    url:
+                                      value: >-
+                                        https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/KL_dGIm3Q9So4PM4cyLPMg-icon_beans.avif
+                                      type: text
+                                    file:
+                                      type: file
+                                      value: a7477811-b3fb-4a95-af76-0c946def5936
+                                    size:
+                                      value: 1844
+                                      type: number
+                                    title:
+                                      type: text
+                                      value: icon_beans.avif
+                                    width:
+                                      value: 60
+                                      type: number
+                                    height:
+                                      value: 60
+                                      type: number
+                                    mediaType:
+                                      value: image/avif
+                                      type: text
+                                  _source: uniform-assets
+                            link:
+                              type: link
+                              value:
+                                path: /${locale}/beans
+                                type: projectMapNode
+                                nodeId: 1519d7b1-b136-4216-87e5-1af47e4b57de
+                                projectMapId: 62588085-7894-4810-84b6-eaaf0cb5213c
+                                dynamicInputValues:
+                                  locale: ${locale}
+                            color:
+                              type: tp-color-palette-parameter
+                              value: primary-content
+                            title:
+                              type: text
+                              locales:
+                                en-CA: Beans
+                                en-GB: Beans
+                                en-NL: Beans
+                                en-US: Beans
+                                es-US: Frijoles
+                                fr-CA: Nos Haricots
+                                nl-NL: Onze Bonen
+                            hideIconBackground:
+                              type: checkbox
+                              value: true
+                        - _id: 098ab688-8122-4a50-b266-0e89fe4a347e
+                          type: navigationLink
+                          variant: header
+                          parameters:
+                            icon:
+                              type: asset
+                              value:
+                                - _id: 5de17b3e-a1dc-41b6-9b72-c87f4525ac7f
+                                  type: image
+                                  fields:
+                                    id:
+                                      type: text
+                                      value: 02c2e48e-0837-4292-97d5-fc715ea8236d
+                                    url:
+                                      value: >-
+                                        https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/00VdbJBQTkO0vw7c8sMnDQ-icon-filters.avif
+                                      type: text
+                                    file:
+                                      type: file
+                                      value: 0e1cb416-3112-4714-8609-a72fe04198e2
+                                    size:
+                                      value: 1850
+                                      type: number
+                                    title:
+                                      type: text
+                                      value: icon-filters.avif
+                                    width:
+                                      value: 60
+                                      type: number
+                                    height:
+                                      value: 60
+                                      type: number
+                                    mediaType:
+                                      value: image/avif
+                                      type: text
+                                  _source: uniform-assets
+                            link:
+                              type: link
+                              value:
+                                path: /${locale}/accessories
+                                type: projectMapNode
+                                nodeId: e5dad181-e0b3-45a0-8b06-8c282babee4c
+                                projectMapId: 62588085-7894-4810-84b6-eaaf0cb5213c
+                                dynamicInputValues:
+                                  locale: ${locale}
+                            color:
+                              type: tp-color-palette-parameter
+                              value: primary-content
+                            title:
+                              type: text
+                              locales:
+                                en-CA: Accessories
+                                en-GB: Accessories
+                                en-NL: Accessories
+                                en-US: Accessories
+                                es-US: Accesorios
+                                fr-CA: Accessoires
+                                nl-NL: Accessoires
+                            hideIconBackground:
+                              type: checkbox
+                              value: true
+                    parameters:
+                      title:
+                        type: text
+                        locales:
+                          en-CA: Left
+                          en-GB: Left
+                          en-NL: Left
+                          en-US: Left
+                          fr-CA: Left
+                          nl-NL: Left
+                      rowSpan:
+                        type: tp-slider-parameter
+                        value: '1'
+                      rowStart:
+                        type: tp-slider-parameter
+                        value: None
+                      columnSpan:
+                        type: tp-slider-parameter
+                        value: '1'
+                      columnStart:
+                        type: tp-slider-parameter
+                        value: '4'
+                    _overridability:
+                      hideLockedParameters: true
+                  - _id: e451b4a0-92fb-4a7b-a690-5a7a1e727031
+                    type: gridItem
+                    slots:
+                      inner:
+                        - _id: dc8bb2c7-e539-40d9-96f9-e5a6fe756b1f
+                          type: $personalization
+                          slots:
+                            pz:
+                              - _id: 25c3e25d-2d1d-4098-9855-23be6f4be0cf
+                                type: card
+                                variant: backgroundImage
+                                parameters:
+                                  badge:
+                                    type: text
+                                    locales:
+                                      en-CA: New Product
+                                      en-GB: New Product
+                                      en-NL: New Product
+                                      en-US: New Product
+                                      es-US: Nuevo producto
+                                      fr-CA: Nouveau produit
+                                      nl-NL: Nieuw product
+                                  delay:
+                                    type: select
+                                    value: none
+                                  image:
+                                    type: asset
+                                    value:
+                                      - _id: 0b8f8cd8-516a-4ba5-8f60-43012f0e2f55
+                                        type: image
+                                        fields:
+                                          id:
+                                            type: text
+                                            value: fb0316e0-29ff-4cf3-bf3e-5ffcbeaadb3f
+                                          url:
+                                            value: >-
+                                              https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/WTg_DdGjQfG48pyHqiArsw-javaDrip_specialty_primary.jpg
+                                            type: text
+                                          file:
+                                            type: file
+                                            value: 01fbc865-504b-43a4-9997-d5bf8cd06736
+                                          size:
+                                            value: 112636
+                                            type: number
+                                          title:
+                                            type: text
+                                            value: javaDrip_specialty_primary.jpg
+                                          width:
+                                            value: 1000
+                                            type: number
+                                          height:
+                                            value: 1000
+                                            type: number
+                                          mediaType:
+                                            value: image/jpeg
+                                            type: text
+                                        _source: uniform-assets
+                                  title:
+                                    type: text
+                                    locales:
+                                      en-CA: JavaDrip Speciatly
+                                      en-GB: JavaDrip Speciatly
+                                      en-NL: JavaDrip Speciatly
+                                      en-US: JavaDrip Speciatly
+                                      es-US: JavaDrip especialmente
+                                      fr-CA: JavaDrip Speciatly
+                                      nl-NL: JavaDrip Speciatly
+                                  $pzCrit:
+                                    type: $pzCrit
+                                    value:
+                                      crit:
+                                        - l: registeredForNewsletter
+                                          r: 0
+                                          op: '>'
+                                      name: 'Card: JavaDrip Speciatly'
+                                  duration:
+                                    type: select
+                                    value: medium
+                                  badgeSize:
+                                    type: select
+                                    value: md
+                                  objectFit:
+                                    type: select
+                                    value: cover
+                                  badgeStyle:
+                                    type: tp-badge-style-parameter
+                                    value: secondary
+                                  buttonCopy:
+                                    type: text
+                                    locales:
+                                      en-CA: Learn More
+                                      en-GB: Learn More
+                                      en-NL: Learn More
+                                      en-US: Learn More
+                                      es-US: Más información
+                                      fr-CA: Apprendre encore plus
+                                      nl-NL: Kom meer te weten
+                                  buttonLink:
+                                    type: link
+                                    value:
+                                      path: /${locale}/JavaDrip-Specialty-Launch
+                                      type: projectMapNode
+                                      nodeId: 1ba42a5b-3aef-4c2a-982f-f28d4ba0fc54
+                                      projectMapId: 62588085-7894-4810-84b6-eaaf0cb5213c
+                                      dynamicInputValues:
+                                        locale: ${locale}
+                                  description:
+                                    type: text
+                                    locales:
+                                      en-CA: Feature Packed on a budget.
+                                      en-GB: Feature Packed on a budget.
+                                      en-NL: Feature Packed on a budget.
+                                      en-US: Feature Packed on a budget.
+                                      es-US: Funciones completas con un presupuesto.
+                                      fr-CA: >-
+                                        Fonctionnalité adaptée à un budget
+                                        limité.
+                                      nl-NL: Functie Verpakt met een beperkt budget.
+                                  overlayColor:
+                                    type: tp-color-style-parameter
+                                    value: primary
+                                  overlayOpacity:
+                                    type: tp-slider-parameter
+                                    value: 30%
+                                  textColorVariant:
+                                    type: select
+                                    value: Light
+                                  lineCountRestriction:
+                                    type: tp-slider-parameter
+                                    value: none
+                                _overridability:
+                                  hideLockedParameters: true
+                              - _id: 49f7c488-a7f5-4bc8-934e-d4765ad3137c
+                                type: card
+                                variant: backgroundImage
+                                parameters:
+                                  badge:
+                                    type: text
+                                    locales:
+                                      en-CA: TIP
+                                      en-GB: TIP
+                                      en-NL: TIP
+                                      en-US: TIP
+                                      es-US: TIP
+                                      fr-CA: TIP
+                                      nl-NL: TIP
+                                  delay:
+                                    type: select
+                                    value: short
+                                  image:
+                                    type: asset
+                                    value:
+                                      - _id: ec0fe772-b507-4189-8342-710092a95072
+                                        type: image
+                                        fields:
+                                          id:
+                                            type: text
+                                            value: f0f51fb5-4ade-4c8c-8770-72cb84c10771
+                                          url:
+                                            value: >-
+                                              https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/Er9RhyyiSuac7m6SoZVOQw-simple_coffee_header_image.jpg
+                                            type: text
+                                          file:
+                                            type: file
+                                            value: 6bd68191-02a1-4236-b96e-8629516a8ed4
+                                          size:
+                                            value: 577659
+                                            type: number
+                                          title:
+                                            type: text
+                                            value: simple_coffee_header_image.jpg
+                                          width:
+                                            value: 1440
+                                            type: number
+                                          height:
+                                            value: 520
+                                            type: number
+                                          mediaType:
+                                            value: image/jpeg
+                                            type: text
+                                        _source: uniform-assets
+                                  title:
+                                    type: text
+                                    locales:
+                                      en-CA: Uncomplicating Coffee
+                                      en-GB: Uncomplicating Coffee
+                                      en-NL: Uncomplicating Coffee
+                                      en-US: Uncomplicating Coffee
+                                      es-US: Café sin complicaciones
+                                      fr-CA: Café simple
+                                      nl-NL: Ongecompliceerde koffie
+                                  duration:
+                                    type: select
+                                    value: medium
+                                  badgeSize:
+                                    type: select
+                                    value: md
+                                  objectFit:
+                                    type: select
+                                    value: contain
+                                  badgeStyle:
+                                    type: tp-badge-style-parameter
+                                    value: secondary
+                                  buttonCopy:
+                                    type: text
+                                    locales:
+                                      en-CA: Learn More
+                                      en-GB: Learn More
+                                      en-NL: Learn More
+                                      en-US: Learn More
+                                      es-US: Más información
+                                      fr-CA: Apprendre encore plus
+                                      nl-NL: Kom meer te weten
+                                  buttonLink:
+                                    type: link
+                                    value:
+                                      path: >-
+                                        /${locale}/articles/uncomplicating-coffee
+                                      type: projectMapNode
+                                      nodeId: 9ccb607b-5e39-45c0-83f8-ed31fbaf61a1
+                                      projectMapId: 62588085-7894-4810-84b6-eaaf0cb5213c
+                                      dynamicInputValues:
+                                        locale: ${locale}
+                                        article-slug: uncomplicating-coffee
+                                  buttonStyle:
+                                    type: tp-button-style-parameter
+                                    value: accent
+                                  description:
+                                    type: text
+                                    locales:
+                                      en-CA: >-
+                                        Coffee is still simple.  Here are some
+                                        SIMPLE ways to get beyond jargon.
+                                      en-GB: >-
+                                        Coffee is still simple.  Here are some
+                                        SIMPLE ways to get beyond jargon.
+                                      en-NL: >-
+                                        Coffee is still simple.  Here are some
+                                        SIMPLE ways to get beyond jargon.
+                                      en-US: >-
+                                        Coffee is still simple.  Here are some
+                                        SIMPLE ways to get beyond jargon.
+                                      es-US: >-
+                                        El café sigue siendo sencillo.  Aquí hay
+                                        algunos Formas SIMPLES de ir más allá de
+                                        la jerga.
+                                      fr-CA: >-
+                                        Le café est toujours simple. Voilà
+                                        quelque Des moyens SIMPLES d’aller
+                                        au-delà du jargon.
+                                      nl-NL: >-
+                                        Koffie is nog steeds eenvoudig. Hier
+                                        zijn een paar EENVOUDIGE manieren om
+                                        voorbij het jargon te komen.
+                                  overlayColor:
+                                    type: tp-color-style-parameter
+                                    value: primary
+                                  overlayOpacity:
+                                    type: tp-slider-parameter
+                                    value: 40%
+                                  textColorVariant:
+                                    type: select
+                                    value: Light
+                                  lineCountRestriction:
+                                    type: tp-slider-parameter
+                                    value: none
+                                _overridability:
+                                  hideLockedParameters: true
+                          parameters:
+                            trackingEventName:
+                              type: text
+                              value: Product Nav Card
+                          _overridability:
+                            hideLockedParameters: true
+                    parameters:
+                      title:
+                        type: text
+                        locales:
+                          en-CA: Right
+                          en-GB: Right
+                          en-NL: Right
+                          en-US: Right
+                          fr-CA: Right
+                          nl-NL: Right
+                      rowSpan:
+                        type: tp-slider-parameter
+                        value: '1'
+                      rowStart:
+                        type: tp-slider-parameter
+                        value: None
+                      columnSpan:
+                        type: tp-slider-parameter
+                        value: '4'
+                      columnStart:
+                        type: tp-slider-parameter
+                        value: '6'
+                    _overridability:
+                      hideLockedParameters: true
+              parameters:
+                gapX:
+                  type: tp-slider-parameter
+                  value: small
+                gapY:
+                  type: tp-slider-parameter
+                  value: small
+                title:
+                  type: text
+                  locales:
+                    en-CA: Menu Container
+                    en-GB: Menu Container
+                    en-NL: Menu Container
+                    en-US: Menu Container
+                    fr-CA: Menu Container
+                    nl-NL: Menu Container
+                marginTop:
+                  type: select
+                  value: None
+                paddingTop:
+                  type: select
+                  value: None
+                columnsCount:
+                  type: tp-slider-parameter
+                  value: '9'
+                marginBottom:
+                  type: select
+                  value: None
+                paddingBottom:
+                  type: select
+                  value: Small
+                backgroundType:
+                  type: tp-background-type-parameter
+                  value: Dark
+              _overridability:
+                hideLockedParameters: true
+        parameters:
+          title:
+            type: text
+            locales:
+              en-CA: Products
+              en-GB: Products
+              en-NL: Products
+              en-US: Products
+              es-US: Productos
+              fr-CA: Des Produits
+              nl-NL: Producten
+        _overridability:
+          hideLockedParameters: true
+      - _id: 83d46b0f-9260-44ac-970d-f5d32d8e7bd6
+        type: navigationLink
+        parameters:
+          link:
+            type: link
+            value:
+              path: /${locale}/JavaDrip-Specialty-Launch
+              type: projectMapNode
+              nodeId: 1ba42a5b-3aef-4c2a-982f-f28d4ba0fc54
+              projectMapId: 62588085-7894-4810-84b6-eaaf0cb5213c
+              dynamicInputValues:
+                locale: ${locale}
+          color:
+            type: tp-color-palette-parameter
+            value: primary-content
+          title:
+            type: text
+            locales:
+              en-CA: Promotions
+              en-GB: Promotions
+              en-NL: Promotions
+              en-US: Promotions
+              es-US: Promociones
+              fr-CA: Promotions
+              nl-NL: Promoties
+      - _id: b87140a8-4a60-480d-81c2-f726d3aeebcd
+        type: navigationGroup
+        slots:
+          subNavItems:
+            - _id: 441428c2-9246-49d3-8533-7a89383f617f
+              type: navigationLink
+              parameters:
+                icon:
+                  type: asset
+                  value:
+                    - _id: d741ec47-b32b-41a4-ab12-698bf2ea683c
+                      type: image
+                      fields:
+                        id:
+                          type: text
+                          value: 5a866858-56f7-42d6-bd21-d8f1b9210604
+                        url:
+                          value: >-
+                            https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/LuTlPqk9SbW_NXzioLoPMg-JD.svg
+                          type: text
+                        file:
+                          type: file
+                          value: 90843180-84d2-4750-9ea5-424b5fd008c9
+                        size:
+                          value: 8045
+                          type: number
+                        title:
+                          type: text
+                          value: JD.svg
+                        width:
+                          value: 60
+                          type: number
+                        height:
+                          value: 57
+                          type: number
+                        mediaType:
+                          value: image/svg+xml
+                          type: text
+                      _source: uniform-assets
+                link:
+                  type: link
+                  value:
+                    path: /${locale}/about-us
+                    type: projectMapNode
+                    nodeId: 46d79867-b877-4ce7-9675-78fee55fc308
+                    projectMapId: 62588085-7894-4810-84b6-eaaf0cb5213c
+                    dynamicInputValues:
+                      locale: ${locale}
+                color:
+                  type: tp-color-palette-parameter
+                  value: primary-content
+                title:
+                  type: text
+                  locales:
+                    en-CA: About Us
+                    en-GB: About Us
+                    en-NL: About Us
+                    en-US: About Us
+                    es-US: Acerca de nosotras
+                    fr-CA: À Propos De Nous
+                    nl-NL: Over Ons
+                hideIconBackground:
+                  type: checkbox
+                  value: true
+            - _id: 272de673-ce83-4039-b1a2-198e410fdbde
+              type: navigationLink
+              variant: header
+              parameters:
+                icon:
+                  type: asset
+                  value:
+                    - _id: c44d2d2c-b647-4309-bd57-a08ee279ed2a
+                      type: image
+                      fields:
+                        id:
+                          type: text
+                          value: e3876415-f919-470f-874e-51cb68117e56
+                        url:
+                          value: >-
+                            https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/YalbbZzvT1m9ZBTQo8LgxQ-icon_flower.svg
+                          type: text
+                        file:
+                          type: file
+                          value: d3e2820c-4a27-46d3-97e3-75fd8010d97c
+                        size:
+                          value: 2629
+                          type: number
+                        title:
+                          type: text
+                          value: icon_flower.svg
+                        width:
+                          value: 60
+                          type: number
+                        height:
+                          value: 57
+                          type: number
+                        mediaType:
+                          value: image/svg+xml
+                          type: text
+                      _source: uniform-assets
+                link:
+                  type: link
+                  value:
+                    path: /${locale}/articles
+                    type: projectMapNode
+                    nodeId: a721ea42-834d-4fb2-84c7-644755bf84f1
+                    projectMapId: 62588085-7894-4810-84b6-eaaf0cb5213c
+                    dynamicInputValues:
+                      locale: ${locale}
+                color:
+                  type: tp-color-palette-parameter
+                  value: primary-content
+                title:
+                  type: text
+                  locales:
+                    en-CA: Articles
+                    en-GB: Articles
+                    en-NL: Articles
+                    en-US: Articles
+                    es-US: Artículos
+                    fr-CA: Des Articles
+                    nl-NL: Artikelen
+                hideIconBackground:
+                  type: checkbox
+                  value: true
+            - _id: 863e79bb-74e4-4e95-b099-d39b207ba507
+              type: navigationLink
+              variant: header
+              parameters:
+                icon:
+                  type: asset
+                  value:
+                    - _id: f238438b-0825-4432-93a0-83f48eef8a7b
+                      type: image
+                      fields:
+                        id:
+                          type: text
+                          value: 24f721e7-24b6-45b4-ac3b-569c288212ae
+                        url:
+                          value: >-
+                            https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/j3G0JpDkQGmLqA4Je25kOQ-icon_chef.png
+                          type: text
+                        file:
+                          type: file
+                          value: 380c2a6b-8acc-4afb-9bdf-7920ba053215
+                        size:
+                          value: 3075
+                          type: number
+                        title:
+                          type: text
+                          value: icon_chef.png
+                        width:
+                          value: 60
+                          type: number
+                        height:
+                          value: 60
+                          type: number
+                        mediaType:
+                          value: image/png
+                          type: text
+                      _source: uniform-assets
+                link:
+                  type: link
+                  value:
+                    path: /${locale}/about-us/recipes
+                    type: projectMapNode
+                    nodeId: b9151aab-826d-4b89-9bfc-df32e67c89b4
+                    projectMapId: 62588085-7894-4810-84b6-eaaf0cb5213c
+                    dynamicInputValues:
+                      locale: ${locale}
+                color:
+                  type: tp-color-palette-parameter
+                  value: primary-content
+                title:
+                  type: text
+                  locales:
+                    en-CA: Articles
+                    en-GB: Articles
+                    en-NL: Articles
+                    en-US: Recipes
+                    es-US: Artículos
+                    fr-CA: Des Articles
+                    nl-NL: Artikelen
+                hideIconBackground:
+                  type: checkbox
+                  value: true
+            - _id: 4722448c-fa7b-46d2-8982-ae65907e71d6
+              type: navigationLink
+              parameters:
+                icon:
+                  type: asset
+                  value:
+                    - _id: 489ebb13-3500-4e82-9c45-284197e558b6
+                      type: image
+                      fields:
+                        id:
+                          type: text
+                          value: 4b3b4e1a-4e40-4ecb-9598-775a14ab5247
+                        url:
+                          value: >-
+                            https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/K6dZJQiTTbyVeM5WzZ62jw-cup.svg
+                          type: text
+                        file:
+                          type: file
+                          value: cd3f8f81-9aff-40c6-955f-53fa62446cb1
+                        size:
+                          value: 1213
+                          type: number
+                        title:
+                          type: text
+                          value: cup.svg
+                        width:
+                          value: 60
+                          type: number
+                        height:
+                          value: 47
+                          type: number
+                        mediaType:
+                          value: image/svg+xml
+                          type: text
+                      _source: uniform-assets
+                link:
+                  type: link
+                  value:
+                    path: /${locale}/about-us/blog
+                    type: projectMapNode
+                    nodeId: 71e2e4f4-c59e-4ec4-99cd-a32d4f44c1a7
+                    projectMapId: 62588085-7894-4810-84b6-eaaf0cb5213c
+                    dynamicInputValues:
+                      locale: ${locale}
+                title:
+                  type: text
+                  locales:
+                    en-CA: JavaDrip Blog
+                    en-GB: JavaDrip Blog
+                    en-NL: JavaDrip Blog
+                    en-US: JavaDrip Blog
+                    es-US: Blog JavaDrip
+                    fr-CA: JavaDrip Blog
+                    nl-NL: JavaDrip Blog
+                hideIconBackground:
+                  type: checkbox
+                  value: true
+              _overridability:
+                hideLockedParameters: true
+        parameters:
+          color:
+            type: tp-color-palette-parameter
+            value: primary-content
+          title:
+            type: text
+            locales:
+              en-CA: About Us
+              en-GB: About Us
+              en-NL: About Us
+              en-US: About Us
+              es-US: Acerca de nosotras
+              fr-CA: À Propos De Nous
+              nl-NL: Over Ons
+        _overridability:
+          hideLockedParameters: true
+    iconLinks:
+      - _id: ce9daf92-5a9d-4b25-8b4b-f455c5919514
+        type: shoppingCartIcon
+        parameters:
+          link:
+            type: link
+            value:
+              path: /${locale}/shopping-cart
+              type: projectMapNode
+              nodeId: 410a3500-2543-46bc-a605-055336da0bf4
+              projectMapId: 62588085-7894-4810-84b6-eaaf0cb5213c
+              dynamicInputValues:
+                locale: ${locale}
+      - _id: 8bcb9491-3b18-4a61-9281-67c55127d723
+        type: profileIcon
+        parameters:
+          link:
+            type: link
+            value:
+              path: /${locale}/profile
+              type: projectMapNode
+              nodeId: 8a883823-f85d-40f6-9811-0803b2f1dd2b
+              projectMapId: 62588085-7894-4810-84b6-eaaf0cb5213c
+              dynamicInputValues:
+                locale: ${locale}
+      - _id: 40e222b4-18a3-4b62-b768-ca42afbcc809
+        type: localeSwitcher
+        variant: withRegions
+  _overridability:
+    parameters:
+      syntheticGap: 'yes'
+  _locales:
+    - es-US
+    - en-US
+    - en-CA
+    - en-GB
+    - en-NL
+    - fr-CA
+    - nl-NL
+created: '2023-11-20T09:34:02.558738+00:00'
+modified: '2024-09-30T21:09:15.479776+00:00'
+pattern: true
+categoryId: 1bf9504a-07c4-4873-bbca-f235a6da182b
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+workflowStageId: 73608d81-f8b0-4ee3-897b-c976d2dc6670

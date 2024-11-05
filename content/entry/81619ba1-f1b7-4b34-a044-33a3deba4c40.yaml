@@ -1,0 +1,91 @@
+created: '2024-08-12T13:05:16.959602+00:00'
+modified: '2024-09-24T18:55:38.827533+00:00'
+pattern: false
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+entry:
+  _id: 81619ba1-f1b7-4b34-a044-33a3deba4c40
+  _name: WordPress
+  _slug: wordpress
+  _thumbnail: >-
+    https://canary-img.uniform.global/p/iAF9Tqs1Q5CP1K9u5bkwSQ/BriJ4fvyTaSHmbbUABtDsQ-WordPress-Logo-700x394.png
+  type: contentSource
+  fields:
+    logo:
+      type: asset
+      value:
+        - _id: 4bd4de5d-2f37-419c-bdd0-af790c0832b9
+          type: image
+          fields:
+            id:
+              type: text
+              value: ba0c6fe2-2b92-495b-b636-87e3dfc9b98f
+            url:
+              value: >-
+                https://canary-img.uniform.global/p/iAF9Tqs1Q5CP1K9u5bkwSQ/BriJ4fvyTaSHmbbUABtDsQ-WordPress-Logo-700x394.png
+              type: text
+            file:
+              type: file
+              value: b534e71f-0fc7-4a00-83d1-12a3a7a2543c
+            size:
+              value: 21144
+              type: number
+            title:
+              type: text
+              value: WordPress-Logo-700x394.png
+            width:
+              value: 700
+              type: number
+            height:
+              value: 394
+              type: number
+            mediaType:
+              value: image/png
+              type: text
+          _source: uniform-assets
+    title:
+      type: text
+      locales:
+        en-US: WordPress
+        es-US: WordPress
+        fr-CA: WordPress
+        nl-NL: WordPress
+    value:
+      type: text
+      locales:
+        en-US: wordpress
+        es-US: wordPress
+        fr-CA: wordpress
+        nl-NL: wordpress
+    description:
+      type: text
+      locales:
+        en-US: >-
+          The world’s most popular content management system, WordPress provides
+          a user-friendly interface for creating and managing websites. With a
+          vast ecosystem of themes and plugins, it offers extensive
+          customization and flexibility for various types of sites.
+        es-US: >-
+          WordPress, el sistema de gestión de contenido más popular del mundo,
+          proporciona una interfaz fácil de usar para crear y administrar sitios
+          web.Con un vasto ecosistema de temas y complementos, ofrece una amplia
+          personalización y flexibilidad para varios tipos de sitios.
+        fr-CA: >-
+          Le système de gestion de contenu le plus populaire au monde, WordPress
+          offre une interface conviviale pour créer et gérer des sites web. Avec
+          un vaste écosystème de thèmes et de plugins, il propose une
+          personnalisation et une flexibilité étendues pour différents types de
+          sites.
+        nl-NL: >-
+          Het meest populaire contentmanagementsysteem ter wereld, WordPress
+          biedt een gebruiksvriendelijke interface voor het creëren en beheren
+          van websites. Met een enorm ecosysteem van thema’s en plugins biedt
+          het uitgebreide maatwerk en flexibiliteit voor verschillende soorten
+          sites.
+    displayPriority:
+      type: checkbox
+      value: true
+  _locales:
+    - en-US
+    - es-US
+    - fr-CA
+    - nl-NL

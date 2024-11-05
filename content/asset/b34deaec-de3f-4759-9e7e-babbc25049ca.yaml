@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: b34deaec-de3f-4759-9e7e-babbc25049ca
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: banana-coffee-cashew-and-cocoa-smoothie.webp
+    file:
+      type: file
+      value: 680e99b7-5133-45de-a997-ba17c92d0f3c
+    mediaType:
+      value: image/webp
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/fazTsfOUSpOlADdApMMZ_A-banana-coffee-cashew-and-cocoa-smoothie.webp
+      type: text
+    size:
+      value: 22984
+      type: number
+    width:
+      value: 992
+      type: number
+    height:
+      value: 992
+      type: number
+    custom: {}
+created: '2024-09-30T20:02:53.258822+00:00'
+modified: '2024-09-30T20:02:53.258822+00:00'

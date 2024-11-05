@@ -1,0 +1,19 @@
+id: 2350e5a0-560f-4d0c-bdf2-5cbc562bbe2e
+integrationType: openai-0925a081-67a6-4415-b892-69f3223ceffc
+name: Generate product summary from a URL
+text: >-
+  Generate a JSON document with ${\$propertiesList} properties based on
+  summarizing the coffee maker described from: ${Page URL} Respond only with the
+  perfectly valid JSON text. Say nothing else. Do not wrap JSON with backtick
+  chars. If you need to escape characters, use UTF-16 code unit.
+data:
+  metadata:
+    model: gpt-4-1106-preview
+  arguments:
+    Page URL:
+      default: ''
+      displayName: Page as source
+enabled: true
+builtIn: null
+parameterTypes:
+  - json

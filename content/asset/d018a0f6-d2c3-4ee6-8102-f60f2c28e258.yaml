@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: d018a0f6-d2c3-4ee6-8102-f60f2c28e258
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: black-mountain-pour-over-hario-glass-135_gn14tr_h90bdv.jpg
+    file:
+      type: file
+      value: 9f0c434c-c761-4c26-ba44-5fdd65a5233b
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/07rSmS7UTmenhF3iXSeFeQ-black-mountain-pour-over-hario-glass-135_gn14tr_h90bdv.jpg
+      type: text
+    size:
+      value: 19050
+      type: number
+    width:
+      value: 386
+      type: number
+    height:
+      value: 386
+      type: number
+    custom: {}
+created: '2024-01-30T06:32:45.692399+00:00'
+modified: '2024-01-30T06:32:45.692399+00:00'

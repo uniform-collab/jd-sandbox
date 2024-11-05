@@ -1,0 +1,1000 @@
+created: '2024-09-26T19:49:42.9963+00:00'
+modified: '2024-10-03T18:07:51.555895+00:00'
+pattern: false
+entry:
+  _id: 6a34e027-df0f-4aba-9991-1ab441494c10
+  _name: Coffee-Rubbed Steak
+  _slug: coffee-rubbed-steak
+  _thumbnail: >-
+    https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/47Ett8UYTLmrdzFGL_QMeg-coffee-rubbed-steak.webp
+  type: recipe
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: Coffee-Rubbed Steak
+        es-US: Bistec untado con café
+        fr-CA: Steak frotté au café
+        nl-NL: Met koffie ingewreven biefstuk
+    yield:
+      type: text
+      locales:
+        en-US: 4 Servings
+        es-US: 4 porciones
+        fr-CA: 4 portions
+        nl-NL: 4 porties
+    overview:
+      type: text
+      locales:
+        en-US: >-
+          We use strip steaks in this recipe, but this smoky-sweet-herby rub
+          will work on just about any cut of meat.
+        es-US: >-
+          Usamos filetes de tira en esta receta, pero este aderezo de hierbas
+          dulces y ahumadas funcionará en casi cualquier corte de carne.
+        fr-CA: >-
+          Nous utilisons des steaks de bœuf dans cette recette, mais ce mélange
+          fumé, sucré et épicé peut être utilisé sur n'importe quel morceau de
+          viande.
+        nl-NL: >-
+          We gebruiken stripsteaks in dit recept, maar deze
+          rokerige-zoete-kruidige rub werkt op vrijwel elk stuk vlees.
+    subtitle:
+      type: text
+      locales:
+        en-US: By Mesa Grill, Las Vegas
+        es-US: Por Mesa Grill, Las Vegas
+        fr-CA: Par Mesa Grill, Las Vegas
+        nl-NL: Door Mesa Grill, Las Vegas
+    recipeType:
+      type: contentReference
+      value: ${#jptr:/ref-6a34e027-df0f-4aba-9991-1ab441494c10-recipeType/entries/0}
+    description:
+      type: richText
+      locales:
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      This rub works on just about any cut (in fact, it’s served
+                      on filet mignon at Mesa Grill), and the pan-to-oven method
+                      is foolproof.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+            direction: ltr
+        es-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Este aderezo funciona en casi cualquier corte (de hecho,
+                      se sirve en filete mignon en Mesa Grill), y el método de
+                      la sartén al horno es infalible.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+            direction: ltr
+        fr-CA:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Ce frottement convient à presque tous les morceaux (en
+                      fait, il est servi sur le filet mignon au Mesa Grill), et
+                      la méthode de la poêle au four est infaillible.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+            direction: ltr
+        nl-NL:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Deze rub werkt op zowat elke snede (in feite wordt het
+                      geserveerd op filet mignon bij Mesa Grill), en de
+                      pan-naar-oven-methode is onfeilbaar.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+            direction: ltr
+    ingredients:
+      type: $block
+      value:
+        - _id: ae5bdb25-ce98-4ef3-9aad-d9abf6b04a0b
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-US: ancho chile powder
+                es-US: chile ancho en polvo
+                fr-CA: poudre de piment ancho
+                nl-NL: ancho chili poeder
+            unit:
+              type: select
+              value: tbsp
+            amount:
+              type: number
+              value: '2'
+        - _id: 181f22ef-9ba0-458a-a48c-d902603bc036
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-US: coffee beans
+                es-US: granos de café
+                fr-CA: grains de café
+                nl-NL: Koffiebonen
+            unit:
+              type: select
+              value: tbsp
+            amount:
+              type: number
+              value: '2'
+            amountText:
+              type: text
+              locales:
+                en-US: 'finely ground '
+                es-US: 'finamente molido '
+                fr-CA: 'finement moulu '
+                nl-NL: 'fijngemalen '
+        - _id: 5cf9256d-ac1d-4cd6-9426-3dacbdb92a07
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-US: dark brown sugar
+                es-US: azúcar morena oscura
+                fr-CA: sucre brun foncé
+                nl-NL: donkerbruine suiker
+            unit:
+              type: select
+              value: tsp
+            amount:
+              type: number
+              value: '5'
+        - _id: 0fdbccdb-5fb0-491c-8c03-0782856fac59
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-US: hot smoked Spanish paprika
+                es-US: pimentón español ahumado en caliente
+                fr-CA: paprika espagnol fumé
+                nl-NL: warm gerookte Spaanse paprika
+            unit:
+              type: select
+              value: tbsp
+            amount:
+              type: number
+              value: '1'
+        - _id: 829e950a-b363-49dd-898c-60872060713a
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-US: oregano
+                es-US: orégano
+                fr-CA: origan
+                nl-NL: oregano
+            unit:
+              type: select
+              value: tsp
+            amount:
+              type: number
+              value: '1.5'
+            amountText:
+              type: text
+              locales:
+                en-US: dried
+                es-US: seco
+                fr-CA: séché
+                nl-NL: gedroogd
+        - _id: cb5d3dbc-1fd5-40e8-9bec-cd971754aab5
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-US: black pepper
+                es-US: pimienta
+                fr-CA: poivre noir
+                nl-NL: zwarte peper
+            unit:
+              type: select
+              value: tsp
+            amount:
+              type: number
+              value: '1.5'
+            amountText:
+              type: text
+              locales:
+                en-US: 'freshly ground '
+                es-US: 'recién molido '
+                fr-CA: 'fraîchement moulu '
+                nl-NL: 'Vers gemalen '
+        - _id: eb5bb30c-f48b-457f-85b4-59b71971d25e
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-US: coriander
+                es-US: cilantro
+                fr-CA: coriandre
+                nl-NL: koriander
+            unit:
+              type: select
+              value: tsp
+            amount:
+              type: number
+              value: '1.5'
+            amountText:
+              type: text
+              locales:
+                en-US: 'ground '
+                es-US: 'tierra '
+                fr-CA: 'terre '
+                nl-NL: 'grond '
+        - _id: c5595e6f-9d8e-4ead-9adc-11748e6e3656
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-US: mustard powder
+                es-US: Mostaza en polvo
+                fr-CA: moutarde en poudre
+                nl-NL: mosterdpoeder
+            unit:
+              type: select
+              value: tsp
+            amount:
+              type: number
+              value: '1.5'
+        - _id: 72a9afff-eded-42ba-923f-8ace8e46d353
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-US: chile de árbol powder
+                es-US: chile de árbol en polvo
+                fr-CA: chile d'árbol en poudre
+                nl-NL: chili de árbol poeder
+            unit:
+              type: select
+              value: tsp
+            amount:
+              type: number
+              value: '1'
+        - _id: d4fea219-4406-4a32-bc87-4cc858da6281
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-US: ginger
+                es-US: jengibre
+                fr-CA: gingembre
+                nl-NL: gember
+            unit:
+              type: select
+              value: tsp
+            amount:
+              type: number
+              value: '1'
+            amountText:
+              type: text
+              locales:
+                en-US: ground
+                es-US: tierra
+                fr-CA: terre
+                nl-NL: grond
+        - _id: 37078401-98dc-4347-8830-7d80a9906ab5
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-US: kosher salt
+                es-US: Sal kosher
+                fr-CA: sel casher
+                nl-NL: koosjer zout
+            unit:
+              type: select
+              value: tbsp
+            amount:
+              type: number
+              value: '1'
+        - _id: 604b79cf-a1d8-421f-b805-368f89cb90e3
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-US: New York strip steaks
+                es-US: Filetes de lomo de Nueva York
+                fr-CA: Bavette New York
+                nl-NL: New Yorkse stripsteaks
+            amount:
+              type: number
+              value: '2'
+            amountText:
+              type: text
+              locales:
+                en-US: 16-ounce boneless (about 1 inch thick)
+                es-US: 16 onzas deshuesadas (aproximadamente 1 pulgada de grosor)
+                fr-CA: 16 onces de viande désossée (environ 1 pouce d'épaisseur)
+                nl-NL: 16-ounce zonder been (ongeveer 1 inch dik)
+        - _id: 3281f1fc-3a15-412d-a033-648ed8bbdc63
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-US: vegetable oil
+                es-US: aceite vegetal
+                fr-CA: huile végétale
+                nl-NL: plantaardige olie
+            unit:
+              type: select
+              value: tbsp
+            amount:
+              type: number
+              value: '2'
+    instructions:
+      type: $block
+      value:
+        - _id: 1cede0ff-297e-4e35-b2c0-ef11e1e5c731
+          type: howtoSection
+          fields:
+            name:
+              type: text
+              locales:
+                en-US: Preparation
+                es-US: Preparación
+                fr-CA: Préparation
+                nl-NL: Voorbereiding
+            steps:
+              type: $block
+              value:
+                - _id: 0ce108bb-0b55-4c89-a97a-faec781ec891
+                  type: howtoStep
+                  fields:
+                    name:
+                      type: text
+                      locales:
+                        en-US: Step 1
+                        es-US: Paso 1
+                        fr-CA: Étape 1
+                        nl-NL: Stap 1
+                    description:
+                      type: richText
+                      locales:
+                        en-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Mix ancho chile powder, ground coffee,
+                                      brown sugar, paprika, dried oregano,
+                                      pepper, coriander, mustard, chile de árbol
+                                      powder, ginger, and 1 Tbsp. salt in a
+                                      small bowl.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        es-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Mezcle el chile ancho en polvo, el café
+                                      molido, el azúcar morena, el pimentón, el
+                                      orégano seco, la pimienta, el cilantro, la
+                                      mostaza, el chile de árbol en polvo, el
+                                      jengibre y 1 cucharada de sal en un tazón
+                                      pequeño.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        fr-CA:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Dans un petit bol, mélanger le piment
+                                      ancho en poudre, le café moulu, la
+                                      cassonade, le paprika, l'origan séché, le
+                                      poivre, la coriandre, la moutarde, le
+                                      chile d'árbol en poudre, le gingembre et 1
+                                      cuillère à soupe de sel.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        nl-NL:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Meng ancho chilipoeder, gemalen koffie,
+                                      bruine suiker, paprika, gedroogde oregano,
+                                      peper, koriander, mosterd, chili de árbol
+                                      poeder, gember en 1 eetl. zout in een
+                                      kleine kom.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                - _id: 7f8770a5-7e61-4293-9206-7d03ee61de28
+                  type: howtoStep
+                  fields:
+                    name:
+                      type: text
+                      locales:
+                        en-US: Step 2
+                        es-US: Paso 2
+                        fr-CA: Étape 2
+                        nl-NL: Stap 2
+                    description:
+                      type: richText
+                      locales:
+                        en-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Season steaks with salt, then coat with 5
+                                      tsp. spice rub per steak (save any extra
+                                      rub for your next steak). Place on a wire
+                                      rack set inside a rimmed baking sheet and
+                                      chill uncovered 3–6 hours.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        es-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Sazone los filetes con sal, luego cúbralos
+                                      con 5 cucharaditas de condimento por
+                                      bistec (guarde cualquier aderezo adicional
+                                      para su próximo bistec). Coloque en una
+                                      rejilla de alambre colocada dentro de una
+                                      bandeja para hornear con borde y enfríe
+                                      sin tapar de 3 a 6 horas.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        fr-CA:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Saler les steaks, puis les enduire de 5
+                                      cuillères à café de mélange d'épices par
+                                      steak (conserver le reste du mélange pour
+                                      le prochain steak). Placer sur un
+                                      quadrillage à l'intérieur d'une plaque à
+                                      pâtisserie à rebord et réfrigérer à
+                                      découvert pendant 3 à 6 heures.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        nl-NL:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Kruid de steaks met zout en bedek ze met 5
+                                      theelepels. Leg ze op een rooster in een
+                                      omrande bakplaat en laat ze 3-6 uur
+                                      onafgedekt afkoelen.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                - _id: 9fdf50ff-6c02-4dc8-9ab2-1634a6ab3a03
+                  type: howtoStep
+                  fields:
+                    name:
+                      type: text
+                      locales:
+                        en-US: Step 3
+                        es-US: Paso 3
+                        fr-CA: Étape 3
+                        nl-NL: Stap 3
+                    description:
+                      type: richText
+                      locales:
+                        en-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Let steaks sit 1 hour to come to room
+                                      temperature, which will help them cook
+                                      quickly and more evenly.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        es-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Deje reposar los filetes durante 1 hora
+                                      para que alcancen la temperatura ambiente,
+                                      lo que ayudará a que se cocinen
+                                      rápidamente y de manera más uniforme.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        fr-CA:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Laisser les steaks reposer pendant 1 heure
+                                      pour qu'ils atteignent la température
+                                      ambiante, ce qui les aidera à cuire plus
+                                      rapidement et plus uniformément.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        nl-NL:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Laat steaks 1 uur staan om op
+                                      kamertemperatuur te komen, zodat ze snel
+                                      en gelijkmatiger gaar worden.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                - _id: eeb840af-9830-4ddc-95b4-b0b9c075c3da
+                  type: howtoStep
+                  fields:
+                    name:
+                      type: text
+                      locales:
+                        en-US: Step 4
+                        es-US: Paso 4
+                        fr-CA: Étape 4
+                        nl-NL: Stap 4
+                    description:
+                      type: richText
+                      locales:
+                        en-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Preheat oven to 400°. Heat oil in a large
+                                      skillet over medium-high. Cook steaks 2
+                                      minutes or so on each side to create a
+                                      nice crust. Transfer skillet to oven; cook
+                                      steaks until an instant-read thermometer
+                                      inserted into the thickest part registers
+                                      120° for medium-rare, about 5 minutes.
+                                      Transfer steaks to a cutting board; let
+                                      rest 10 minutes. Slice ½" thick.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        es-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Precaliente el horno a 400 °. Caliente el
+                                      aceite en una sartén grande a fuego
+                                      medio-alto. Cocine los filetes durante
+                                      unos 2 minutos por cada lado para crear
+                                      una corteza agradable. Transfiera la
+                                      sartén al horno; Cocine los filetes hasta
+                                      que un termómetro de lectura instantánea
+                                      insertado en la parte más gruesa registre
+                                      120 ° para medio crudo, aproximadamente 5
+                                      minutos. Transfiera los filetes a una
+                                      tabla de cortar; Deje reposar 10 minutos.
+                                      Corta en rodajas de 1/2" de grosor.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        fr-CA:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Préchauffer le four à 400°. Faire chauffer
+                                      l'huile dans une grande poêle à feu
+                                      moyen-vif. Cuire les steaks 2 minutes
+                                      environ de chaque côté pour créer une
+                                      belle croûte. Transférer la poêle au four;
+                                      cuire les steaks jusqu'à ce qu'un
+                                      thermomètre à lecture instantanée inséré
+                                      dans la partie la plus épaisse indique
+                                      120° pour une cuisson à point, soit
+                                      environ 5 minutes. Transférer les steaks
+                                      sur une planche à découper; laisser
+                                      reposer 10 minutes. Couper en tranches de
+                                      ½" d'épaisseur.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        nl-NL:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Verwarm de oven voor op 400°. Verhit olie
+                                      in een grote koekenpan op middelhoog vuur.
+                                      Kook de steaks ongeveer 2 minuten aan elke
+                                      kant om een mooie korst te creëren. Breng
+                                      de koekenpan over naar de oven; Kook
+                                      steaks tot een direct afleesbare
+                                      thermometer die in het dikste deel is
+                                      gestoken, 120° registreert voor
+                                      medium-rare, ongeveer 5 minuten. Breng
+                                      steaks over naar een snijplank; Laat 10
+                                      minuten rusten. Snijd 1/2 "dik.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+    featuredImage:
+      type: asset
+      value:
+        - _id: 6fbbe7b5-3921-45e9-bcc1-2b155eb39f9f
+          type: image
+          fields:
+            id:
+              type: text
+              value: 1a3c7b48-a22b-468c-8659-302ff8157fbd
+            url:
+              value: >-
+                https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/47Ett8UYTLmrdzFGL_QMeg-coffee-rubbed-steak.webp
+              type: text
+            file:
+              type: file
+              value: 7dcf4ece-a67c-4cba-bae8-06cec80a8bf3
+            size:
+              value: 357200
+              type: number
+            title:
+              type: text
+              value: coffee-rubbed-steak.webp
+            width:
+              value: 1600
+              type: number
+            height:
+              value: 1600
+              type: number
+            mediaType:
+              value: image/webp
+              type: text
+          _source: uniform-assets
+    mainIngredient:
+      type: contentReference
+      value: >-
+        ${#jptr:/ref-6a34e027-df0f-4aba-9991-1ab441494c10-mainIngredient/entries/0}
+  _dataResources:
+    ref-6a34e027-df0f-4aba-9991-1ab441494c10-recipeType:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: b17ea8bf-4d51-4108-8109-c0288edc7214
+    ref-6a34e027-df0f-4aba-9991-1ab441494c10-mainIngredient:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: 205f3e3f-8eac-4d27-9296-5bb03c1cd8b2
+  _locales:
+    - en-US
+    - nl-NL
+    - fr-CA
+    - es-US

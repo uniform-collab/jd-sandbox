@@ -1,0 +1,46 @@
+id: howtoStep
+name: Howto Step
+created: '2024-09-26T14:20:59.829007+00:00'
+updated: '2024-10-01T14:31:47.541956+00:00'
+slugSettings:
+  required: 'no'
+useTeamPermissions: true
+fields:
+  - id: name
+    name: Name
+    type: text
+    typeConfig: null
+    localizable: true
+  - id: description
+    name: Description
+    type: richText
+    typeConfig:
+      elements:
+        builtIn:
+          - h3
+          - h4
+          - h5
+          - h6
+          - unorderedList
+          - orderedList
+          - link
+          - table
+          - variable
+          - asset
+      required: false
+      formatting:
+        builtIn:
+          - bold
+          - italic
+          - underline
+    localizable: true
+  - id: images
+    name: Images
+    type: asset
+    typeConfig: {}
+entryName: name
+thumbnailField: images
+description: ''
+icon: play-list-check
+type: block
+permissions: []

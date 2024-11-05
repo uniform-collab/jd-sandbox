@@ -1,0 +1,56 @@
+composition:
+  _name: Product Card example
+  _id: eb3dd078-abd0-4e33-8db3-f1a9d54bdf40
+  type: card
+  variant: ''
+  parameters:
+    badge:
+      type: text
+      locales:
+        en-US: >-
+          $ ${#jptr:/Product
+          Content/entry/fields/variants/value/0/fields/price/value}
+    image:
+      type: asset
+      value: ${#jptr:/Product Content/entry/fields/primaryImage/value}
+    title:
+      type: text
+      locales:
+        en-US: ${#jptr:/Product Content/entry/_name}
+    badgeSize:
+      type: select
+      value: lg
+    objectFit:
+      type: select
+      value: contain
+    overlayColor:
+      type: tp-color-style-parameter
+      value: primary
+    overlayOpacity:
+      type: tp-slider-parameter
+      value: 40%
+  _dataResources:
+    Product Content:
+      type: product-single
+      variables:
+        locale: ${locale}
+        entryId: 6d10823e-c63a-4cc3-a61a-edcad6201bb3
+      isPatternParameter: true
+      ignorePatternParameterDefault: false
+  _overridability:
+    variants: false
+    parameters:
+      title: 'no'
+      badgeSize: 'yes'
+      badgeStyle: 'yes'
+      buttonCopy: 'yes'
+      buttonLink: 'yes'
+      buttonStyle: 'yes'
+      description: 'yes'
+      lineCountRestriction: 'yes'
+    hideLockedParameters: true
+  _locales:
+    - en-US
+created: '2024-10-28T18:35:20.500044+00:00'
+modified: '2024-10-28T18:48:24.545825+00:00'
+pattern: true

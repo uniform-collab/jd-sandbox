@@ -1,0 +1,56 @@
+created: '2023-11-20T09:34:29.007469+00:00'
+modified: '2024-09-24T18:55:38.827533+00:00'
+pattern: false
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+entry:
+  _id: 8a7e717d-3b57-4fb4-b926-ea086c8e7de7
+  _name: Finally - the perfect barista coffee without leaving home.
+  _slug: finally-the-perfect-barista-coffee-without-leaving-home
+  _thumbnail: >-
+    https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/S6mo1qn0Tx6MCktsLcBEew-hero_4.webp
+  type: hero
+  fields:
+    image:
+      type: asset
+      value:
+        - _id: 597b01d6-156d-46c2-b20f-ca71468271ce
+          type: image
+          fields:
+            id:
+              type: text
+              value: cbe60c39-8397-41cf-a64a-b163f85e3ae4
+            url:
+              value: >-
+                https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/S6mo1qn0Tx6MCktsLcBEew-hero_4.webp
+              type: text
+            file:
+              type: file
+              value: b53195a6-3598-4ac3-8720-aa8a7c5aab71
+            size:
+              value: 100478
+              type: number
+            title:
+              type: text
+              value: hero_4.webp
+            width:
+              value: 2600
+              type: number
+            height:
+              value: 1300
+              type: number
+            mediaType:
+              value: image/webp
+              type: text
+          _source: uniform-assets
+    title:
+      type: text
+      locales:
+        en-US: Finally - the perfect barista coffee without leaving home.
+        es-US: Finalmente, el café barista perfecto sin salir de casa.
+        fr-CA: Enfin - le café Barista parfait sans quitter la maison.
+        nl-NL: Eindelijk - de perfecte barista -koffie zonder het huis te verlaten.
+  _locales:
+    - en-US
+    - es-US
+    - fr-CA
+    - nl-NL

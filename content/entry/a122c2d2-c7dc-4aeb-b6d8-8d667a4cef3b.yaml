@@ -1,0 +1,87 @@
+created: '2023-11-20T09:34:29.406791+00:00'
+modified: '2024-09-24T18:55:38.827533+00:00'
+pattern: false
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+entry:
+  _id: a122c2d2-c7dc-4aeb-b6d8-8d667a4cef3b
+  _name: Holographic interface
+  _slug: holographic-interface
+  _thumbnail: >-
+    https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/h8g3LW7QQVCnwjGqpK5Y-g-diamond.svg
+  type: productFeature
+  fields:
+    image:
+      type: asset
+      value:
+        - _id: 268f2dc6-14e1-467e-be6a-d1cc797d012c
+          type: image
+          fields:
+            id:
+              type: text
+              value: 4392dc5d-5ccc-480d-b6cb-2741b75a14c3
+            url:
+              value: >-
+                https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/h8g3LW7QQVCnwjGqpK5Y-g-diamond.svg
+              type: text
+            file:
+              type: file
+              value: 7a237773-421e-4b78-89ea-4bd2946e8071
+            size:
+              value: 535
+              type: number
+            title:
+              type: text
+              value: diamond.svg
+            width:
+              value: 60
+              type: number
+            height:
+              value: 54
+              type: number
+            mediaType:
+              value: image/svg+xml
+              type: text
+          _source: uniform-assets
+    title:
+      type: text
+      locales:
+        en-US: Holographic interface
+        es-US: Interfaz holográfica
+        fr-CA: Interface holographique
+        nl-NL: Holografische interface
+    product:
+      type: contentReference
+      value: ${#jptr:/ref-a122c2d2-c7dc-4aeb-b6d8-8d667a4cef3b-product/entries/0}
+    description:
+      type: text
+      locales:
+        en-US: >
+          Touchscreens are a thing of the past. EspressoGPT 's floating
+          holographic interface offers an intuitive user experience. Adjust
+          settings, browse recipes, or get a virtual barista tutorial with a
+          simple hand gesture.
+        es-US: >-
+          Las pantallas táctiles son cosa del pasado.La interfaz holográfica
+          flotante de ESPRESSOGPT ofrece una experiencia de usuario
+          intuitiva.Ajuste la configuración, explore las recetas o obtenga un
+          tutorial de barista virtual con un simple gesto de la mano.
+        fr-CA: >-
+          Les écrans tactiles appartiennent au passé.L'interface holographique
+          flottante d'Espressogpt offre une expérience utilisateur
+          intuitive.Ajustez les paramètres, parcourez les recettes ou obtenez un
+          tutoriel virtuel barista avec un simple geste de la main.
+        nl-NL: >-
+          Touchscreens behoren tot het verleden.De drijvende holografische
+          interface van Espressogpt biedt een intuïtieve gebruikerservaring.Pas
+          instellingen aan, blader door recepten of ontvang een virtuele barista
+          -tutorial met een eenvoudig handgebaar.
+  _dataResources:
+    ref-a122c2d2-c7dc-4aeb-b6d8-8d667a4cef3b-product:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: c7e72a37-47db-4202-800d-09540a4b9181
+  _locales:
+    - en-US
+    - es-US
+    - fr-CA
+    - nl-NL

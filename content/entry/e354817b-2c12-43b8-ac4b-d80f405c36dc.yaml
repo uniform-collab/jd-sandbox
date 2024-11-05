@@ -1,0 +1,53 @@
+created: '2023-11-20T09:34:31.377892+00:00'
+modified: '2024-09-24T18:55:38.827533+00:00'
+pattern: false
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+entry:
+  _id: e354817b-2c12-43b8-ac4b-d80f405c36dc
+  _name: How smart is the Cervello di Caffè?
+  _slug: how-smart-is-the-cervello-di-caff
+  type: faq
+  fields:
+    title:
+      type: text
+      locales:
+        en-US: How smart is the Cervello di Caffè?
+        es-US: ¿Qué tan inteligente es el Cervello di Caffè?
+        fr-CA: À quel point le Cervello di Caffè est-il intelligent?
+        nl-NL: Hoe slim is de Cervello di Caffè?
+    description:
+      type: text
+      locales:
+        en-US: >-
+          Java chicory, black doppio and roast cream mocha turkish strong. Blue
+          mountain doppio black, chicory, sugar medium, single shot a wings blue
+          mountain turkish. Viennese et, cinnamon, turkish lungo qui cappuccino
+          kopi-luwak. Black, dripper, to go medium espresso lungo in, and
+          plunger pot latte sweet redeye. Half and half, galão, single shot
+          wings beans bar that con panna macchiato dark foam galão.
+        es-US: >-
+          Java Chicoria, Doppio negro y crema asada Moca Turkish Strong.Blue
+          Mountain Doppio Negro, achicoria, Medio de azúcar, soltero disparó a
+          Wings Blue Mountain Turkish.Vienés ET, canela, turco Lungo qui
+          Cappuccino Kopi-Luwak.Negro, goteo, para ir a mediano espresso lungo,
+          y su bote en el redeye dulce.Mitad y mitad, Galão, una sola barra de
+          frijoles de alas de disparo que con Panna MacChiato Dark Foam Galão.
+        fr-CA: >-
+          Java Chicory, Black Doppio et Roast Cream Moka Turc Strong.Blue
+          Mountain Doppio Black, chicorée, sucre médium, simple Shot A Wings
+          Blue Mountain Turc.Viennois et cannelle, turc Lungo qui cappuccino
+          kopi-luwak.Noir, dripper, pour aller à l'espresso moyen lungo, et
+          piston pot latte sweet redeye.Demi-et demi, Galão, barre à coups à un
+          coup de poule qui con panna macchiato sombre mousse Galão.
+        nl-NL: >-
+          Java Chicory, Black Doppio en Roast Cream Mocha Turkish Strong.Blue
+          Mountain Doppio zwart, witlof, suikermedium, single schot een vleugels
+          blauwe berg Turks.Weense ET, Cinnamon, Turkse Lungo Qui Cappuccino
+          Kopi-Luwak.Zwart, druppel, om medium espresso lungo in te gaan, en
+          plunjer pot latte zoete redeye.Half en de helft, Galão, single shot
+          vleugels bonen bar die panna macchiato donkere schuim galão.
+  _locales:
+    - en-US
+    - es-US
+    - fr-CA
+    - nl-NL

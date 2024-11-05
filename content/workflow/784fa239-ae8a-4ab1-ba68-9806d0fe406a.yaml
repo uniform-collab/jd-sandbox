@@ -1,0 +1,59 @@
+id: 784fa239-ae8a-4ab1-ba68-9806d0fe406a
+name: Legal Review
+initialStage: 73608d81-f8b0-4ee3-897b-c976d2dc6670
+stages:
+  73608d81-f8b0-4ee3-897b-c976d2dc6670:
+    name: Editing
+    permissions: {}
+    transitions:
+      - name: Submit to Legal
+        to: ead10c10-4206-48da-bc32-ee3a29a21266
+        permissions:
+          developer:
+            execute: true
+          editor:
+            execute: true
+    icon: chevron-double-right-o
+    order: 0
+  1d57220e-ee8b-4dee-901a-8996e5792504:
+    name: Approval
+    requireValidity: true
+    permissions: {}
+    transitions:
+      - name: Legal Rejection
+        to: 73608d81-f8b0-4ee3-897b-c976d2dc6670
+        permissions: {}
+      - name: Approve
+        to: f188fe82-9a74-4fdd-bbfb-a63837ba71d2
+        permissions:
+          developer:
+            execute: true
+    icon: flag
+    order: 1
+  f188fe82-9a74-4fdd-bbfb-a63837ba71d2:
+    name: Approved
+    autoPublish: true
+    permissions:
+      developer:
+        write: true
+      editor:
+        write: true
+    transitions:
+      - name: Edit
+        to: 73608d81-f8b0-4ee3-897b-c976d2dc6670
+        permissions: {}
+    icon: lock
+    order: 2
+  ead10c10-4206-48da-bc32-ee3a29a21266:
+    name: Legal Review
+    permissions:
+      developer:
+        write: true
+    transitions:
+      - name: Submit for approval
+        to: 1d57220e-ee8b-4dee-901a-8996e5792504
+        permissions:
+          developer:
+            execute: true
+    icon: pen
+    order: 3

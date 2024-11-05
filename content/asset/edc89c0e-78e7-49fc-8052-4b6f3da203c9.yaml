@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: edc89c0e-78e7-49fc-8052-4b6f3da203c9
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: Product-Strainer.webp
+    file:
+      type: file
+      value: 8870d512-ccb1-41b0-9ce2-b57e825a3dbb
+    mediaType:
+      value: image/webp
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/DPMVKG_iSXmROx2nECLVdQ-Product-Strainer.webp
+      type: text
+    size:
+      value: 27682
+      type: number
+    width:
+      value: 640
+      type: number
+    height:
+      value: 640
+      type: number
+    custom: {}
+created: '2024-09-26T20:09:19.908871+00:00'
+modified: '2024-09-26T20:09:19.908871+00:00'

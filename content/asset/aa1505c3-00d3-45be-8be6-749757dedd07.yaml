@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: aa1505c3-00d3-45be-8be6-749757dedd07
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: uniform_logo_black.svg
+    file:
+      type: file
+      value: 7fc56faf-f538-4806-bccd-d2aeef4c09eb
+    mediaType:
+      value: image/svg+xml
+      type: text
+    url:
+      value: >-
+        https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/fJFkicctRYuXiyKxNP6BnA-uniform_logo_black.svg
+      type: text
+    size:
+      value: 2288
+      type: number
+    width:
+      value: 608
+      type: number
+    height:
+      value: 192
+      type: number
+    custom: {}
+created: '2023-12-13T13:08:11.43328+00:00'
+modified: '2023-12-13T13:08:11.43328+00:00'

@@ -1,0 +1,70 @@
+composition:
+  _name: Article Filter Box
+  _id: 50e84fba-a7ea-49bb-b87a-3a5e67ab320a
+  type: entryFilterBox
+  parameters:
+    title:
+      type: text
+      locales:
+        en-CA: Filters
+        en-GB: Filters
+        en-NL: Filters
+        en-US: Filters
+        es-US: Filters
+        fr-CA: Filters
+        nl-NL: Filters
+    filterBy:
+      type: $block
+      value:
+        - _id: 509f3308-7890-42eb-aaeb-b8fd4708b184
+          type: filterBy
+          fields:
+            fieldName:
+              type: text
+              locales:
+                en-CA: author
+                en-GB: author
+                en-NL: author
+                en-US: author
+                es-US: author
+                fr-CA: author
+                nl-NL: author
+        - _id: 8a65d239-b20a-4024-aa8c-7570b7d572b9
+          type: filterBy
+          fields:
+            fieldName:
+              type: text
+              locales:
+                en-CA: source
+                en-GB: source
+                en-NL: source
+                en-US: source
+                es-US: source
+                fr-CA: source
+                nl-NL: source
+            labelField:
+              type: text
+              locales:
+                en-CA: title
+                en-GB: title
+                en-NL: title
+                en-US: title
+                es-US: title
+                fr-CA: title
+                nl-NL: title
+  _overridability:
+    hideLockedParameters: true
+  _locales:
+    - es-US
+    - en-US
+    - en-CA
+    - en-GB
+    - en-NL
+    - fr-CA
+    - nl-NL
+created: '2024-09-05T09:55:48.599232+00:00'
+modified: '2024-10-02T20:31:33.288252+00:00'
+pattern: true
+categoryId: d2f175b2-abf7-4cc6-8458-6be68b421ced
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+workflowStageId: 73608d81-f8b0-4ee3-897b-c976d2dc6670

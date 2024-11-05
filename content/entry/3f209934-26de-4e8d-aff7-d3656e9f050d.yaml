@@ -1,0 +1,27 @@
+created: '2024-09-30T19:53:09.941719+00:00'
+modified: '2024-09-30T19:54:46.630066+00:00'
+pattern: false
+entry:
+  _id: 3f209934-26de-4e8d-aff7-d3656e9f050d
+  _name: Side Dish
+  _slug: side-dish
+  type: recipeType
+  fields:
+    name:
+      type: text
+      locales:
+        en-CA: Side Dish
+        en-GB: Side Dish
+        en-NL: Side Dish
+        en-US: Side Dish
+        es-US: Guarnición
+        fr-CA: Plat d'accompagnement
+        nl-NL: Bijgerecht
+  _locales:
+    - en-US
+    - en-CA
+    - en-NL
+    - en-GB
+    - nl-NL
+    - es-US
+    - fr-CA

@@ -1,0 +1,201 @@
+created: '2024-08-12T13:07:12.189539+00:00'
+modified: '2024-09-24T18:55:38.827533+00:00'
+pattern: false
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+entry:
+  _id: f3192db9-8a80-46a4-b9cf-0ce934829d52
+  _name: Kosmic Coffee Ultimate Barista Bundle
+  _slug: kosmic-coffee-ultimate-barista-bundle
+  type: productBundle
+  fields:
+    logo:
+      type: asset
+      locales:
+        en-US:
+          - _id: 5cf56ff9-4c18-4bde-bc95-8d5d5fbbb114
+            type: image
+            fields:
+              id:
+                type: text
+                value: 4c738d79-a56d-4704-ab57-5cc1758bfaa6
+              url:
+                value: >-
+                  https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/ucqlLGRjQh-QAbXZFgHM0g-Image.webp
+                type: text
+              file:
+                type: file
+                value: 79682f4c-ec30-4b49-b76a-0fc2d4e688f5
+              size:
+                value: 204832
+                type: number
+              title:
+                type: text
+                value: Image.webp
+              width:
+                value: 1024
+                type: number
+              height:
+                value: 1024
+                type: number
+              mediaType:
+                value: image/webp
+                type: text
+            _source: uniform-assets
+        es-US:
+          - _id: 5cf56ff9-4c18-4bde-bc95-8d5d5fbbb114
+            type: image
+            fields:
+              id:
+                type: text
+                value: 4c738d79-a56d-4704-ab57-5cc1758bfaa6
+              url:
+                value: >-
+                  https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/ucqlLGRjQh-QAbXZFgHM0g-Image.webp
+                type: text
+              file:
+                type: file
+                value: 79682f4c-ec30-4b49-b76a-0fc2d4e688f5
+              size:
+                value: 204832
+                type: number
+              title:
+                type: text
+                value: Image.webp
+              width:
+                value: 1024
+                type: number
+              height:
+                value: 1024
+                type: number
+              mediaType:
+                value: image/webp
+                type: text
+            _source: uniform-assets
+        fr-CA:
+          - _id: 5cf56ff9-4c18-4bde-bc95-8d5d5fbbb114
+            type: image
+            fields:
+              id:
+                type: text
+                value: 4c738d79-a56d-4704-ab57-5cc1758bfaa6
+              url:
+                value: >-
+                  https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/ucqlLGRjQh-QAbXZFgHM0g-Image.webp
+                type: text
+              file:
+                type: file
+                value: 79682f4c-ec30-4b49-b76a-0fc2d4e688f5
+              size:
+                value: 204832
+                type: number
+              title:
+                type: text
+                value: Image.webp
+              width:
+                value: 1024
+                type: number
+              height:
+                value: 1024
+                type: number
+              mediaType:
+                value: image/webp
+                type: text
+            _source: uniform-assets
+        nl-NL:
+          - _id: 5cf56ff9-4c18-4bde-bc95-8d5d5fbbb114
+            type: image
+            fields:
+              id:
+                type: text
+                value: 4c738d79-a56d-4704-ab57-5cc1758bfaa6
+              url:
+                value: >-
+                  https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/ucqlLGRjQh-QAbXZFgHM0g-Image.webp
+                type: text
+              file:
+                type: file
+                value: 79682f4c-ec30-4b49-b76a-0fc2d4e688f5
+              size:
+                value: 204832
+                type: number
+              title:
+                type: text
+                value: Image.webp
+              width:
+                value: 1024
+                type: number
+              height:
+                value: 1024
+                type: number
+              mediaType:
+                value: image/webp
+                type: text
+            _source: uniform-assets
+    title:
+      type: text
+      locales:
+        en-US: Kosmic Coffee Ultimate Barista Bundle
+        es-US: Kosmic Coffee Ultimate Barista Bundle
+        fr-CA: Ensemble Ultime Barista Kosmic Coffee
+        nl-NL: Kosmic Coffee Ultieme Barista Pakket
+    discount:
+      type: number
+      value: '10'
+    products:
+      type: contentReference
+      value: ${#jptr:/ref-f3192db9-8a80-46a4-b9cf-0ce934829d52-products/entries}
+    description:
+      type: text
+      locales:
+        en-US: >-
+          Elevate your coffee experience with the Kosmic Coffee Ultimate Barista
+          Bundle. This exclusive package includes the Kosmic Coffee Barista
+          Express Espresso Machine, perfect for crafting professional-quality
+          espresso at home. To complement your new espresso machine, we’ve
+          included two premium coffee bean blends: the rich and aromatic
+          Columbian Blend Coffee, and the smooth and flavorful Irish Blend
+          Coffee. Whether you’re a seasoned barista or just starting your coffee
+          journey, this bundle has everything you need to brew the perfect cup
+          every time.
+        es-US: >-
+          Eleve su experiencia de café con el Kosmic Coffee Ultimate Barista
+          Bundle.Este paquete exclusivo incluye la máquina de café espresso
+          Kosmic Coffee Barista Express, perfecta para elaborar espresso de
+          calidad profesional en casa.Para complementar su nueva máquina de café
+          espresso, hemos incluido dos mezclas de café de café premium: el café
+          de mezcla colombiano rico y aromático y el suave y sabroso café
+          irlandés.Ya sea que sea un barista experimentado o que simplemente
+          comience su viaje de café, este paquete tiene todo lo que necesita
+          para preparar la taza perfecta cada vez.
+        fr-CA: >-
+          Rehaussez votre expérience café avec l’Ensemble Ultime Barista Kosmic
+          Coffee. Ce forfait exclusif comprend la machine à espresso Kosmic
+          Coffee Barista Express, parfaite pour préparer des espressos de
+          qualité professionnelle à la maison. Pour accompagner votre nouvelle
+          machine à espresso, nous avons inclus deux mélanges de grains de café
+          premium : le mélange colombien riche et aromatique, ainsi que le
+          mélange irlandais doux et savoureux. Que vous soyez un barista
+          chevronné ou que vous débutiez dans votre parcours café, cet ensemble
+          contient tout ce dont vous avez besoin pour préparer la tasse parfaite
+          à chaque fois.
+        nl-NL: >-
+          Verhoog uw koffie-ervaring met het Kosmic Coffee Ultieme Barista
+          Pakket. Dit exclusieve pakket bevat de Kosmic Coffee Barista Express
+          Espresso Machine, perfect voor het maken van espresso van
+          professionele kwaliteit thuis. Om uw nieuwe espressomachine aan te
+          vullen, hebben we twee premium koffiemelanges toegevoegd: de rijke en
+          aromatische Colombiaanse Melange Koffie, en de zachte en smaakvolle
+          Ierse Melange Koffie. Of u nu een ervaren barista bent of net begint
+          aan uw koffiereis, dit pakket heeft alles wat u nodig heeft om elke
+          keer de perfecte kop te zetten.
+  _dataResources:
+    ref-f3192db9-8a80-46a4-b9cf-0ce934829d52-products:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: >-
+          4289122f-8a90-4bb9-80fe-784ada7950f5,04d9514e-ad86-4df4-867d-855af7b70b52,778c1de0-9119-4617-8fde-4cbff7da8031
+  _locales:
+    - en-US
+    - es-US
+    - fr-CA
+    - nl-NL

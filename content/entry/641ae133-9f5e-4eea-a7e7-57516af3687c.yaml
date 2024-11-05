@@ -1,0 +1,334 @@
+created: '2024-06-04T20:24:02.934586+00:00'
+modified: '2024-08-15T12:18:42.908328+00:00'
+pattern: false
+workflowId: 784fa239-ae8a-4ab1-ba68-9806d0fe406a
+workflowStageId: 73608d81-f8b0-4ee3-897b-c976d2dc6670
+entry:
+  _id: 641ae133-9f5e-4eea-a7e7-57516af3687c
+  _name: Black Mountain Bistro Burr Coffee Grinder
+  _slug: black-mountain-bistro-burr-coffee-grinder-114
+  _thumbnail: >-
+    https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/9zpaqdxJRIyKySOtRMGcJg-black-mountain-bistro-burr-coffee-grinder-114-1_wtupfl_yyx2ts.jpg
+  type: product
+  fields:
+    body:
+      type: richText
+      locales:
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      The Bistro Burr Grinder consistently crushes beans between
+                      stainless steel conical burrs. This process also preserves
+                      the bean&rsquo;s intrinsic flavor and aroma better than a
+                      blade grinder. Push button, pre-set timer allows users to
+                      grind the exact amount of coffee needed, keeping beans
+                      fresh and preventing waste. 12 Adjustable grind settings
+                      allow users to go from Espresso to French Press with ease.
+                      Equipped with a friction clutch, which protects the
+                      grinding gear by the presence of small stones.
+                      Dishwasher-Safe Borosilicate glass catcher with grip
+                      reduces static cling of coffee grounds. Holds up to 7.75
+                      Ounces of Coffee Beans.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+            direction: ltr
+        fr-CA:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Le Bistro Burr Grinder écrase systématiquement les grains
+                      entre les meules coniques en acier inoxydable. Ce
+                      processus préserve également mieux la saveur et l’arôme
+                      intrinsèques du grain qu’un broyeur à lames. Un
+                      bouton-poussoir et une minuterie préréglée permettent aux
+                      utilisateurs de moudre la quantité exacte de café
+                      nécessaire, gardant ainsi les grains frais et évitant le
+                      gaspillage. 12 réglages de mouture réglables permettent
+                      aux utilisateurs de passer facilement de l'espresso à la
+                      presse française. Equipé d'un embrayage à friction, qui
+                      protège le mécanisme de meulage par la présence de petites
+                      pierres. Le receveur en verre borosilicate avec poignée
+                      passe au lave-vaisselle réduit l'adhérence statique du
+                      marc de café. Peut contenir jusqu'à 7,75 onces de grains
+                      de café.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+            direction: ltr
+        nl-NL:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      De Bistro Burr Grinder vermaalt bonen consequent tussen
+                      roestvrijstalen conische bramen. Door dit proces blijven
+                      ook de intrinsieke smaak en het aroma van de boon beter
+                      behouden dan bij een mesmolen. Dankzij de vooraf
+                      ingestelde timer met drukknop kunnen gebruikers de exacte
+                      hoeveelheid koffie malen die nodig is, waardoor de bonen
+                      vers blijven en verspilling wordt voorkomen. Dankzij de 12
+                      instelbare maalinstellingen kunnen gebruikers gemakkelijk
+                      van espresso naar French Press gaan. Uitgerust met een
+                      wrijvingskoppeling, die het slijpwerk beschermt door de
+                      aanwezigheid van kleine steentjes.
+                      Vaatwasmachinebestendige opvangbak van borosilicaatglas
+                      met grip vermindert de statische hechting van koffiedik.
+                      Houdt maximaal 7,75 ounces koffiebonen vast.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+            direction: ltr
+    name:
+      type: text
+      value: Black Mountain Bistro Burr Coffee Grinder
+    brand:
+      type: contentReference
+      value: ${#jptr:/ref-641ae133-9f5e-4eea-a7e7-57516af3687c-brand/entries/0}
+    title:
+      type: text
+      value: Black Mountain Bistro Burr Coffee Grinder
+    category:
+      type: contentReference
+      value: ${#jptr:/ref-641ae133-9f5e-4eea-a7e7-57516af3687c-category/entries}
+    variants:
+      type: $block
+      value:
+        - _id: de589d0b-d039-42c9-bbe0-e670853a5af7
+          type: variant
+          fields:
+            code:
+              type: text
+              value: '114'
+            price:
+              type: number
+              locales:
+                en-US: '95.99'
+                fr-CA: '88.66'
+                nl-NL: '88.66'
+                es-US: '95.99'
+            title:
+              type: text
+              locales:
+                en-US: Black Mountain Bistro Burr Coffee Grinder
+                es-US: Black Mountain Bistro Burr Coffee Grinder
+                fr-CA: Black Mountain Bistro Burr Coffee Grinder
+                nl-NL: Black Mountain Bistro Burr Coffee Grinder
+            currency:
+              type: text
+              locales:
+                en-US: $
+                es-US: $
+                fr-CA: €
+                nl-NL: €
+            imageGallery:
+              type: asset
+              value:
+                - _id: 567f9061-6db3-4995-97f6-3919d813489e
+                  type: image
+                  fields:
+                    id:
+                      type: text
+                      value: 40e8516d-7b5d-48b7-9846-484fcd15ecf2
+                    url:
+                      value: >-
+                        https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/7RbCVjYBQ8Khy-7LUghaWw-black-mountain-bistro-burr-coffee-grinder-114-2_dgk6lk_gkuash.jpg
+                      type: text
+                    file:
+                      type: file
+                      value: 650636b9-b3cd-4872-9724-e89f5511cca1
+                    size:
+                      value: 382738
+                      type: number
+                    title:
+                      type: text
+                      value: >-
+                        black-mountain-bistro-burr-coffee-grinder-114-2_dgk6lk_gkuash.jpg
+                    width:
+                      value: 1280
+                      type: number
+                    height:
+                      value: 1280
+                      type: number
+                    mediaType:
+                      value: image/jpeg
+                      type: text
+                  _source: uniform-assets
+                - _id: ff0d7234-d753-4e3f-9729-81f8960cc53c
+                  type: image
+                  fields:
+                    id:
+                      type: text
+                      value: 7b5a5aeb-6fdf-49d4-b021-98b2effd29c5
+                    url:
+                      value: >-
+                        https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/s-8Rx3QGTfiSCgA3h_LU5A-black-mountain-bistro-burr-coffee-grinder-114-1_wtupfl_yyx2ts.jpg
+                      type: text
+                    file:
+                      type: file
+                      value: c396ad11-ef86-4af3-abb0-6ffcd06cf23c
+                    size:
+                      value: 112826
+                      type: number
+                    title:
+                      type: text
+                      value: >-
+                        black-mountain-bistro-burr-coffee-grinder-114-1_wtupfl_yyx2ts.jpg
+                    width:
+                      value: 1280
+                      type: number
+                    height:
+                      value: 1280
+                      type: number
+                    mediaType:
+                      value: image/jpeg
+                      type: text
+                  _source: uniform-assets
+    primaryImage:
+      type: asset
+      value:
+        - _id: c9065b90-424e-497e-b655-9d15599a714f
+          type: image
+          fields:
+            id:
+              type: text
+              value: 0444c161-833d-4b21-8079-2bb31811bb0f
+            url:
+              value: >-
+                https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/9zpaqdxJRIyKySOtRMGcJg-black-mountain-bistro-burr-coffee-grinder-114-1_wtupfl_yyx2ts.jpg
+              type: text
+            file:
+              type: file
+              value: f84ff2c3-d9aa-4820-ac8b-e6a8d27adeb6
+            size:
+              value: 112826
+              type: number
+            title:
+              type: text
+              value: >-
+                black-mountain-bistro-burr-coffee-grinder-114-1_wtupfl_yyx2ts.jpg
+            width:
+              value: 1280
+              type: number
+            height:
+              value: 1280
+              type: number
+            mediaType:
+              value: image/jpeg
+              type: text
+          _source: uniform-assets
+    recommendations:
+      type: contentReference
+      value: >-
+        ${#jptr:/ref-641ae133-9f5e-4eea-a7e7-57516af3687c-recommendations/entries}
+    shortDescription:
+      type: text
+      locales:
+        en-US: >-
+          The Bistro Burr Grinder consistently crushes beans between stainless
+          steel conical burrs. This process also preserves the bean&rsquo;s
+          intrinsic flavor and aroma better than a blade grinder. Push button,
+          pre-set timer allows users to grind the exact amount of coffee needed,
+          keeping beans fresh and preventing waste. 12 Adjustable grind settings
+          allow users to go from Espresso to French Press with ease. Equipped
+          with a friction clutch, which protects the grinding gear by the
+          presence of small stones. Dishwasher-Safe Borosilicate glass catcher
+          with grip reduces static cling of coffee grounds. Holds up to 7.75
+          Ounces of Coffee Beans.
+        es-US: >-
+          El molinillo Bistro Burr aplasta constantemente los frijoles entre las
+          rebabas cónicas de acero inoxidable.Este proceso también conserva el
+          sabor intrínseco y el aroma de Bean & rsquo;Presione el botón, el
+          temporizador preestablecido permite a los usuarios moler la cantidad
+          exacta de café necesaria, manteniendo los frijoles frescos y evitando
+          los desechos.12 Configuración de rutina ajustable permiten a los
+          usuarios pasar de espresso a prensa francesa con facilidad.Equipado
+          con un embrague de fricción, que protege el engranaje de molienda por
+          la presencia de pequeñas piedras.El receptor de vidrio de borosilicato
+          seguro para lavavajillas con agarre reduce el adhesado estático de
+          café.Tiene hasta 7.75 onzas de granos de café.
+        fr-CA: >-
+          Le Bistro Burr Grinder écrase systématiquement les grains entre les
+          meules coniques en acier inoxydable. Ce processus préserve également
+          mieux la saveur et l’arôme intrinsèques du grain qu’un broyeur à
+          lames. Un bouton-poussoir et une minuterie préréglée permettent aux
+          utilisateurs de moudre la quantité exacte de café nécessaire, gardant
+          ainsi les grains frais et évitant le gaspillage. 12 réglages de
+          mouture réglables permettent aux utilisateurs de passer facilement de
+          l'espresso à la presse française. Equipé d'un embrayage à friction,
+          qui protège le mécanisme de meulage par la présence de petites
+          pierres. Le receveur en verre borosilicate avec poignée passe au
+          lave-vaisselle réduit l'adhérence statique du marc de café. Peut
+          contenir jusqu'à 7,75 onces de grains de café.
+        nl-NL: >-
+          De Bistro Burr Grinder vermaalt bonen consequent tussen
+          roestvrijstalen conische bramen. Door dit proces blijven ook de
+          intrinsieke smaak en het aroma van de boon beter behouden dan bij een
+          mesmolen. Dankzij de vooraf ingestelde timer met drukknop kunnen
+          gebruikers de exacte hoeveelheid koffie malen die nodig is, waardoor
+          de bonen vers blijven en verspilling wordt voorkomen. Dankzij de 12
+          instelbare maalinstellingen kunnen gebruikers gemakkelijk van espresso
+          naar French Press gaan. Uitgerust met een wrijvingskoppeling, die het
+          slijpwerk beschermt door de aanwezigheid van kleine steentjes.
+          Vaatwasmachinebestendige opvangbak van borosilicaatglas met grip
+          vermindert de statische hechting van koffiedik. Houdt maximaal 7,75
+          ounces koffiebonen vast.
+  _dataResources:
+    ref-641ae133-9f5e-4eea-a7e7-57516af3687c-brand:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: 8f1962d5-5237-4baf-a522-6f7f3b7d1266
+    ref-641ae133-9f5e-4eea-a7e7-57516af3687c-category:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: >-
+          e7c814d8-1ea0-47a2-b395-eb4ade991908,64d19761-b85e-4e33-8438-e4296de791e2
+    ref-641ae133-9f5e-4eea-a7e7-57516af3687c-recommendations:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: >-
+          82b84782-4236-4b06-a994-59f088896b91,72b49ac2-bbf3-48a7-b522-0947483e9131,778c1de0-9119-4617-8fde-4cbff7da8031,04d9514e-ad86-4df4-867d-855af7b70b52
+  _locales:
+    - en-US
+    - es-US
+    - fr-CA
+    - nl-NL

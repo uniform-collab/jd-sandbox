@@ -1,0 +1,63 @@
+created: '2023-11-20T09:34:26.706123+00:00'
+modified: '2024-09-24T18:55:38.827533+00:00'
+pattern: false
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+entry:
+  _id: 4a5c9f7d-07fc-4b5a-93be-f301acf50afd
+  _name: Try our International Beans
+  _slug: try-our-international-beans
+  _thumbnail: >-
+    https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/nRrspOoLQYqf16xNXp0rkQ-25_off.svg
+  type: callToAction
+  fields:
+    image:
+      type: asset
+      value:
+        - _id: 1ec7bba9-7bd1-455c-acf0-6b7e26d2def5
+          type: image
+          fields:
+            id:
+              type: text
+              value: 7c444bac-7e3b-4ecb-9b0b-184fb372517d
+            url:
+              value: >-
+                https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/nRrspOoLQYqf16xNXp0rkQ-25_off.svg
+              type: text
+            file:
+              type: file
+              value: 0e619900-bdb3-4686-89e5-0034738df5ff
+            size:
+              value: 3718
+              type: number
+            title:
+              type: text
+              value: 25_off.svg
+            width:
+              value: 113
+              type: number
+            height:
+              value: 113
+              type: number
+            mediaType:
+              value: image/svg+xml
+              type: text
+          _source: uniform-assets
+    title:
+      type: text
+      locales:
+        en-US: Try our International Beans
+        es-US: Prueba nuestros frijoles internacionales
+        fr-CA: Essayez nos haricots internationaux
+        nl-NL: Probeer onze internationale bonen
+    description:
+      type: text
+      locales:
+        en-US: Sign up and get 25% off taster bundle
+        es-US: Regístrese y obtenga un 25% de descuento en paquete de catador
+        fr-CA: Inscrivez-vous et obtenez 25% de réduction sur le pack de dégustation
+        nl-NL: Meld u aan en krijg 25% korting op proeverijbundel
+  _locales:
+    - en-US
+    - es-US
+    - fr-CA
+    - nl-NL

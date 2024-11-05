@@ -1,0 +1,120 @@
+composition:
+  _name: Hero Container (cs)
+  _id: 42d16d4a-1412-407b-9d11-4c1c585f8076
+  type: heroContainer
+  variant: backgroundImage
+  parameters:
+    image:
+      type: asset
+      value:
+        - _id: bf60e244-8f73-4d08-99d1-daaf39ccd09b
+          type: image
+          fields:
+            url:
+              type: text
+              value: ${#jptr:/Hero Content/entry/image}
+          _source: custom-url
+    title:
+      type: text
+      locales:
+        en-US: ${#jptr:/Hero Content/entry/title}
+    marginTop:
+      type: select
+      value: None
+    objectFit:
+      type: select
+      value: cover
+    textColor:
+      type: tp-color-palette-parameter
+      value: primary-content
+    paddingTop:
+      type: select
+      value: None
+    titleStyle:
+      type: tp-title-style-parameter
+      value: h1
+    description:
+      type: text
+      locales:
+        en-US: ${#jptr:/Hero Content/entry/description}
+    marginBottom:
+      type: select
+      value: None
+    overlayColor:
+      type: tp-color-palette-parameter
+      value: primary
+    paddingBottom:
+      type: select
+      value: None
+    overlayOpacity:
+      type: tp-slider-parameter
+      value: 60%
+    containerVariant:
+      type: select
+      value: fluidContent
+  slots:
+    buttonsSection:
+      - _id: c4bf2480-8337-4087-b883-608896580e78
+        type: $slotSection
+        parameters:
+          max:
+            type: text
+            value: 3
+          name:
+            type: text
+            value: Buttons
+          specific:
+            type: array
+            value:
+              - button
+          groupType:
+            type: text
+            value: specific
+        _overridability:
+          hideLockedParameters: true
+  _dataResources:
+    Hero Content:
+      type: contentstackHero
+      variables:
+        query: ''
+        locale: ${locale}
+        entry_uid: blt7e89f529b5eccbf8
+        content_type_uid: content_block
+      isPatternParameter: true
+      ignorePatternParameterDefault: false
+  _overridability:
+    variants: true
+    parameters:
+      $viz: 'yes'
+      delay: 'yes'
+      image: 'yes'
+      title: 'yes'
+      video: 'yes'
+      duration: 'yes'
+      marginTop: 'yes'
+      objectFit: 'yes'
+      textColor: 'yes'
+      fullHeight: 'yes'
+      paddingTop: 'yes'
+      titleStyle: 'yes'
+      description: 'yes'
+      eyebrowText: 'yes'
+      marginBottom: 'yes'
+      overlayColor: 'yes'
+      animationType: 'yes'
+      paddingBottom: 'yes'
+      animationOrder: 'yes'
+      overlayOpacity: 'yes'
+      backgroundColor: 'yes'
+      animationPreview: 'yes'
+      containerVariant: 'yes'
+    hideLockedParameters: true
+  _locales:
+    - en-US
+created: '2024-09-05T08:09:00.417328+00:00'
+modified: '2024-09-24T18:55:38.827533+00:00'
+pattern: true
+previewImageUrl: >-
+  https://res.cloudinary.com/uniform-demos/image/upload/v1/preview-images/NewJavaDripTheme/SalesDemo/Patterns/Hero_preview_image
+categoryId: ea001653-1f96-4f07-9187-a1626a4965e5
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5

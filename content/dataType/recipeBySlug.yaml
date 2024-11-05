@@ -1,0 +1,17 @@
+id: recipeBySlug
+displayName: Recipe by slug
+ttl: 30
+path: /single-by-slug
+custom:
+  proposedName: Recipe
+  allowedContentTypes:
+    - recipe
+method: GET
+purgeKey: 995b119f-36af-4d94-bf1c-021315223d6b
+archetype: singleEntryBySlug
+variables:
+  slug:
+    type: text
+    default: ''
+dataSourceId: uniformContent
+allowedOnComponents: []

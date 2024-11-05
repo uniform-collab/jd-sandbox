@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 7437ced1-c5ae-49c0-ba96-93895de23b2c
+  _name: Kontent.ai-Primary-Logo-Black-RGB.png
+  fields:
+    title:
+      type: text
+      value: Kontent.ai
+    file:
+      type: file
+      value: 670686ed-1d07-474f-a94c-cc5142f174b6
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/41AI-O85TgS5Ftu6EeomqQ-Kontent.ai-Primary-Logo-Black-RGB.png
+      type: text
+    size:
+      value: 20109
+      type: number
+    width:
+      value: 2296
+      type: number
+    height:
+      value: 264
+      type: number
+    custom: {}
+created: '2024-08-02T13:44:20.996021+00:00'
+modified: '2024-08-02T13:52:48.140291+00:00'

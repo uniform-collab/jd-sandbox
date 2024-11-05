@@ -1,0 +1,84 @@
+created: '2023-11-20T09:34:27.97758+00:00'
+modified: '2024-09-24T18:55:38.827533+00:00'
+pattern: false
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+entry:
+  _id: 6913f859-b7ff-497d-b50b-3994e6ebae5d
+  _name: Quantum heating technology
+  _slug: quantum-heating-technology
+  _thumbnail: >-
+    https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/v8ub3Xs7SN-xEsiHB9A9mw-cup.svg
+  type: productFeature
+  fields:
+    image:
+      type: asset
+      value:
+        - _id: 02a192e3-80c3-4a02-a3c4-aaabfeb8c6c6
+          type: image
+          fields:
+            id:
+              type: text
+              value: 4b3b4e1a-4e40-4ecb-9598-775a14ab5247
+            url:
+              value: >-
+                https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/v8ub3Xs7SN-xEsiHB9A9mw-cup.svg
+              type: text
+            file:
+              type: file
+              value: 925e6f14-91d2-47f0-96f8-fdda58948125
+            size:
+              value: 1213
+              type: number
+            title:
+              type: text
+              value: cup.svg
+            width:
+              value: 60
+              type: number
+            height:
+              value: 47
+              type: number
+            mediaType:
+              value: image/svg+xml
+              type: text
+          _source: uniform-assets
+    title:
+      type: text
+      locales:
+        en-US: Quantum heating technology
+        es-US: Tecnología de calefacción cuántica
+        fr-CA: Technologie de chauffage quantique
+        nl-NL: Kwantumverwarmingstechnologie
+    product:
+      type: contentReference
+      value: ${#jptr:/ref-6913f859-b7ff-497d-b50b-3994e6ebae5d-product/entries/0}
+    description:
+      type: text
+      locales:
+        en-US: >
+          Say goodbye to waiting. The EspressoGPT harnesses quantum mechanics to
+          heat your water in a fraction of a second, ensuring the perfect
+          temperature for your espresso every time.
+        es-US: >-
+          Diga adiós a esperar.El espressogpt aprovecha la mecánica cuántica
+          para calentar su agua en una fracción de segundo, asegurando la
+          temperatura perfecta para su espresso cada vez.
+        fr-CA: >-
+          Dites au revoir à l'attente.L'espressogpt exploite la mécanique
+          quantique pour chauffer votre eau en une fraction de seconde,
+          garantissant la température parfaite pour votre expresso à chaque
+          fois.
+        nl-NL: >-
+          Zeg vaarwel tegen wachten.De espressogpt gebruikt de kwantummechanica
+          om uw water in een fractie van een seconde te verwarmen, waardoor de
+          perfecte temperatuur voor uw espresso elke keer wordt gewaarborgd.
+  _dataResources:
+    ref-6913f859-b7ff-497d-b50b-3994e6ebae5d-product:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: c7e72a37-47db-4202-800d-09540a4b9181
+  _locales:
+    - en-US
+    - es-US
+    - fr-CA
+    - nl-NL

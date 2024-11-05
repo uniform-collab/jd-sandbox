@@ -1,0 +1,105 @@
+created: '2023-11-20T09:34:32.103238+00:00'
+modified: '2024-09-24T18:55:38.827533+00:00'
+pattern: false
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+entry:
+  _id: f0932427-ec90-4f33-a99c-5bc5dfe0bddb
+  _name: Remarkable
+  _slug: remarkable
+  type: testimonial
+  fields:
+    title:
+      type: text
+      locales:
+        en-US: Remarkable
+        es-US: Notable
+        fr-CA: Remarquable
+        nl-NL: Opmerkelijk
+    picture:
+      type: asset
+      value: []
+    product:
+      type: contentReference
+      value: ${#jptr:/ref-f0932427-ec90-4f33-a99c-5bc5dfe0bddb-product/entries/0}
+    lastName:
+      type: text
+      locales:
+        en-US: Tinsley
+        es-US: Tesoro
+        fr-CA: Gras
+        nl-NL: Tinsley
+    location:
+      type: text
+      locales:
+        en-US: London
+        es-US: Londres
+        fr-CA: Londres
+        nl-NL: Londen
+    firstName:
+      type: text
+      locales:
+        en-US: Cooper
+        es-US: Tonelera
+        fr-CA: Tonnelier
+        nl-NL: Kuiper
+    experience:
+      type: text
+      locales:
+        en-US: >-
+          I am absolutely thrilled to share my glowing review for this
+          remarkable coffee bean vendor! Their beans are nothing short of
+          extraordinary, delivering an exquisite and rich flavor that lingers on
+          the palate with every sip. The aroma alone is enough to awaken the
+          senses and set the perfect tone for the day. The attention to detail
+          and commitment to quality truly shine through in each batch of beans,
+          and it's evident that they take great pride in their craft. From the
+          smooth customer experience to the prompt delivery, this vendor has
+          undoubtedly won me over as a loyal customer. If you're a coffee
+          enthusiast seeking perfection in every cup, look no further – this
+          vendor is a true gem!
+        es-US: >-
+          ¡Estoy absolutamente encantado de compartir mi brillante revisión para
+          este notable proveedor de granos de café!Sus frijoles son
+          extraordinarios, entregando un sabor exquisito y rico que perdura en
+          el paladar con cada sorbo.El aroma solo es suficiente para despertar
+          los sentidos y establecer el tono perfecto para el día.La atención al
+          detalle y el compromiso con la calidad realmente brillan en cada lote
+          de frijoles, y es evidente que se enorgullecen de su oficio.Desde la
+          experiencia fluida del cliente hasta la pronta entrega, este proveedor
+          sin duda me ha ganado como un cliente fiel.Si eres un entusiasta del
+          café que busca la perfección en cada taza, no busques más: ¡este
+          proveedor es una verdadera joya!
+        fr-CA: >-
+          Je suis absolument ravi de partager ma critique élogieuse pour ce
+          remarquable vendeur de grains de café!Leurs haricots sont tout
+          simplement extraordinaires, offrant une saveur exquise et riche qui
+          persiste en bouche à chaque gorgée.L'arôme seul est suffisant pour
+          éveiller les sens et donner le ton parfait pour la journée.L'attention
+          aux détails et l'engagement envers la qualité brillent vraiment dans
+          chaque lot de haricots, et il est évident qu'ils sont très fiers de
+          leur métier.De l'expérience client fluide à la livraison rapide, ce
+          fournisseur m'a sans aucun doute conquis en tant que client fidèle.Si
+          vous êtes un passionné de café qui cherche la perfection dans chaque
+          tasse, ne cherchez pas plus loin - ce vendeur est un vrai bijou!
+        nl-NL: >-
+          Ik ben absoluut blij om mijn gloeiende recensie te delen voor deze
+          opmerkelijke verkoper van Coffee Bean!Hun bonen zijn ronduit
+          buitengewoon en leveren een prachtige en rijke smaak die bij elke slok
+          in de mond blijft hangen.Het aroma alleen is voldoende om de zintuigen
+          te wekken en de perfecte toon te zetten voor de dag.De aandacht voor
+          detail en toewijding aan kwaliteit schijnen echt door in elke reeks
+          bonen, en het is duidelijk dat ze grote trots zijn op hun vak.Van de
+          soepele klantervaring tot de snelle levering, deze leverancier heeft
+          me ongetwijfeld gewonnen als een loyale klant.Als je een
+          koffieliefhebber bent die in elke beker perfectie zoekt, zoek dan niet
+          verder - deze verkoper is een echte juweeltje!
+  _dataResources:
+    ref-f0932427-ec90-4f33-a99c-5bc5dfe0bddb-product:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: 78b19a41-a2f3-4ed8-9101-6954917d8d56
+  _locales:
+    - nl-NL
+    - en-US
+    - fr-CA
+    - es-US

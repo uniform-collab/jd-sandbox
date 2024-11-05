@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: d275db83-56aa-41bc-ad9d-725c5d4d1612
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: organic-blend-coffee-133-2_dkltlw_bki2zl.jpg
+    file:
+      type: file
+      value: ac5aee0e-8337-4124-89df-cdd4641bdce9
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/Mst7oHZFS7aAAg418TiOpg-organic-blend-coffee-133-2_dkltlw_bki2zl.jpg
+      type: text
+    size:
+      value: 753423
+      type: number
+    width:
+      value: 1280
+      type: number
+    height:
+      value: 1280
+      type: number
+    custom: {}
+created: '2024-01-30T06:28:02.156515+00:00'
+modified: '2024-01-30T06:28:02.156515+00:00'

@@ -1,0 +1,109 @@
+created: '2024-08-12T13:03:29.088911+00:00'
+modified: '2024-09-24T18:55:38.827533+00:00'
+pattern: false
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+entry:
+  _id: 09b62b8c-1d09-443b-bba5-95fadbf37f80
+  _name: Beans
+  _slug: beans
+  type: productCategory
+  fields:
+    logo:
+      type: asset
+      locales:
+        en-US:
+          - _id: 5e4218bc-6027-44f0-991b-6332016e1512
+            type: image
+            fields:
+              id:
+                type: text
+                value: 33528311-d9f0-4ed7-8e8d-04835fb9abac
+              url:
+                value: >-
+                  https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/zPxmOkD4S8m7KWcagnG0Eg-Image-8.webp
+                type: text
+              file:
+                type: file
+                value: bd8d339c-9242-4199-bb31-b746abcd6e04
+              size:
+                value: 99408
+                type: number
+              title:
+                type: text
+                value: Image-8.webp
+              width:
+                value: 1024
+                type: number
+              height:
+                value: 1024
+                type: number
+              mediaType:
+                value: image/webp
+                type: text
+            _source: uniform-assets
+    title:
+      type: text
+      locales:
+        en-US: Beans
+        es-US: Frijoles
+        fr-CA: Haricots
+        nl-NL: Bonen
+    description:
+      type: text
+      locales:
+        en-US: >-
+          Immerse yourself in the world of premium coffee beans, carefully
+          selected and sourced from the finest coffee-growing regions around the
+          globe. Our collection of beans offers a diverse range of flavors and
+          aromas, from the bright and fruity notes of African beans to the rich
+          and chocolatey undertones of South American varieties. Whether you
+          prefer single-origin beans for their unique characteristics or
+          expertly crafted blends for a balanced cup, our selection caters to
+          every coffee enthusiast’s palate. Experience the freshness and quality
+          that only whole beans can provide, and elevate your coffee brewing
+          routine to a new level of excellence. Explore our beans category and
+          find your perfect roast today
+        es-US: >-
+          Sumérgete en el mundo de los granos de café premium, cuidadosamente
+          seleccionados y obtenidos de las mejores regiones de cultivo de café
+          en todo el mundo.Nuestra colección de frijoles ofrece una amplia gama
+          de sabores y aromas, desde las notas brillantes y afrutadas de los
+          frijoles africanos hasta los matices ricos y chocolateos de las
+          variedades sudamericanas.Ya sea que prefiera los judías de origen
+          único para sus características únicas o mezclas diseñadas por expertos
+          para una taza equilibrada, nuestra selección atiende al paladar de
+          cada entusiasta del café.Experimente la frescura y la calidad que solo
+          los frijoles enteros pueden proporcionar y elevan su rutina de café de
+          café a un nuevo nivel de excelencia.Explore nuestra categoría de
+          frijoles y encuentre su asado perfecto hoy
+        fr-CA: >-
+          Plongez-vous dans le monde des grains de café premium, soigneusement
+          sélectionnés et provenant des meilleures régions de culture du café du
+          monde.Notre collection de haricots offre une gamme diversifiée de
+          saveurs et d'arômes, des notes lumineuses et fruitées des haricots
+          africains aux nuances riches et chocolatées des variétés
+          sud-américaines.Que vous préfériez les haricots à originaux pour leurs
+          caractéristiques uniques ou leurs mélanges fabriqués de manière
+          experte pour une tasse équilibrée, notre sélection s'adresse à tous
+          les amateurs de café.Découvrez la fraîcheur et la qualité que seuls
+          les haricots entiers peuvent fournir et élever votre routine de
+          brassage à café à un nouveau niveau d'excellence.Explorez notre
+          catégorie de haricots et trouvez votre rôti parfait aujourd'hui
+        nl-NL: >-
+          Dompel jezelf onder in de wereld van premium koffiebonen, zorgvuldig
+          geselecteerd en afkomstig van de beste koffie-groeiende regio's over
+          de hele wereld.Onze verzameling bonen biedt een divers scala aan
+          smaken en aroma's, van de heldere en fruitige tonen van Afrikaanse
+          bonen tot de rijke en chocoladeachtige ondertoon van Zuid -Amerikaanse
+          variëteiten.Of u nu de voorkeur geeft aan een single-origin bonen
+          vanwege hun unieke kenmerken of vakkundig vervaardigde melanges voor
+          een evenwichtige beker, onze selectie is geschikt voor het gehemelte
+          van elke koffieliefhebber.Ervaar de frisheid en kwaliteit die alleen
+          hele bonen kunnen bieden en verheffen uw koffiebrouwroutine naar een
+          nieuw niveau van uitmuntendheid.Verken onze bonencategorie en vind
+          vandaag uw perfecte gebraden
+  _locales:
+    - en-US
+    - es-US
+    - fr-CA
+    - nl-NL

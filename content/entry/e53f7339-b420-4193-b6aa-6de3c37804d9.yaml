@@ -1,0 +1,176 @@
+created: '2024-08-12T13:06:54.415572+00:00'
+modified: '2024-09-24T18:55:38.827533+00:00'
+pattern: false
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+entry:
+  _id: e53f7339-b420-4193-b6aa-6de3c37804d9
+  _name: Kosmic Coffee
+  _slug: kosmic-coffee
+  type: brand
+  fields:
+    logo:
+      type: asset
+      locales:
+        en-US:
+          - _id: e2327063-7d58-451b-afec-09e1b145ad67
+            type: image
+            fields:
+              id:
+                type: text
+                value: d8e878e4-4f6b-44c2-9371-0f6fa7587e2d
+              url:
+                value: >-
+                  https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/pqPQ9Yt-SqmOroPTeF2MCg-Image-5.webp
+                type: text
+              file:
+                type: file
+                value: e27f771e-8de7-4198-93fa-07ddc1a300f5
+              size:
+                value: 159514
+                type: number
+              title:
+                type: text
+                value: Image-5.webp
+              width:
+                value: 1024
+                type: number
+              height:
+                value: 1024
+                type: number
+              mediaType:
+                value: image/webp
+                type: text
+            _source: uniform-assets
+        es-US:
+          - _id: e2327063-7d58-451b-afec-09e1b145ad67
+            type: image
+            fields:
+              id:
+                type: text
+                value: d8e878e4-4f6b-44c2-9371-0f6fa7587e2d
+              url:
+                value: >-
+                  https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/pqPQ9Yt-SqmOroPTeF2MCg-Image-5.webp
+                type: text
+              file:
+                type: file
+                value: e27f771e-8de7-4198-93fa-07ddc1a300f5
+              size:
+                value: 159514
+                type: number
+              title:
+                type: text
+                value: Image-5.webp
+              width:
+                value: 1024
+                type: number
+              height:
+                value: 1024
+                type: number
+              mediaType:
+                value: image/webp
+                type: text
+            _source: uniform-assets
+        fr-CA:
+          - _id: e2327063-7d58-451b-afec-09e1b145ad67
+            type: image
+            fields:
+              id:
+                type: text
+                value: d8e878e4-4f6b-44c2-9371-0f6fa7587e2d
+              url:
+                value: >-
+                  https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/pqPQ9Yt-SqmOroPTeF2MCg-Image-5.webp
+                type: text
+              file:
+                type: file
+                value: e27f771e-8de7-4198-93fa-07ddc1a300f5
+              size:
+                value: 159514
+                type: number
+              title:
+                type: text
+                value: Image-5.webp
+              width:
+                value: 1024
+                type: number
+              height:
+                value: 1024
+                type: number
+              mediaType:
+                value: image/webp
+                type: text
+            _source: uniform-assets
+        nl-NL:
+          - _id: e2327063-7d58-451b-afec-09e1b145ad67
+            type: image
+            fields:
+              id:
+                type: text
+                value: d8e878e4-4f6b-44c2-9371-0f6fa7587e2d
+              url:
+                value: >-
+                  https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/pqPQ9Yt-SqmOroPTeF2MCg-Image-5.webp
+                type: text
+              file:
+                type: file
+                value: e27f771e-8de7-4198-93fa-07ddc1a300f5
+              size:
+                value: 159514
+                type: number
+              title:
+                type: text
+                value: Image-5.webp
+              width:
+                value: 1024
+                type: number
+              height:
+                value: 1024
+                type: number
+              mediaType:
+                value: image/webp
+                type: text
+            _source: uniform-assets
+    title:
+      type: text
+      locales:
+        en-US: Kosmic Coffee
+        es-US: Kosmic Coffee
+        fr-CA: Kosmic Coffee
+        nl-NL: Kosmic Coffee
+    description:
+      type: text
+      locales:
+        en-US: >-
+          Kosmic Coffee takes you on an extraordinary journey through the
+          universe of flavors and aromas. Our mission is to craft stellar coffee
+          experiences with innovative coffee makers and premium coffee products.
+          Whether you’re a coffee aficionado or just starting your coffee
+          adventure, Kosmic Coffee is dedicated to delivering out-of-this-world
+          quality and taste in every cup.
+        es-US: >-
+          Kosmic Coffee te lleva a un viaje extraordinario a través del universo
+          de sabores y aromas.Nuestra misión es crear experiencias de café
+          estelares con cafeteras innovadoras y productos de café premium.Ya sea
+          que sea un aficionado al café o simplemente comience su aventura en el
+          café, Kosmic Coffee se dedica a ofrecer una calidad y sabor fuera de
+          este mundo en cada taza.
+        fr-CA: >-
+          Kosmic Coffee vous emmène dans un voyage extraordinaire à travers
+          l’univers des saveurs et des arômes. Notre mission est de créer des
+          expériences café stellaires grâce à des cafetières innovantes et des
+          produits de café premium. Que vous soyez un passionné de café ou que
+          vous commenciez tout juste votre aventure café, Kosmic Coffee s’engage
+          à offrir une qualité et un goût hors du commun dans chaque tasse.
+        nl-NL: >-
+          Kosmic Coffee neemt u mee op een buitengewone reis door het universum
+          van smaken en aroma's. Onze missie is om schitterende
+          koffie-ervaringen te creëren met innovatieve koffiemachines en premium
+          koffieproducten. Of u nu een koffieliefhebber bent of net begint aan
+          uw koffie-avontuur, Kosmic Coffee is toegewijd aan het leveren van
+          buitenaardse kwaliteit en smaak in elke kop.
+  _locales:
+    - en-US
+    - es-US
+    - fr-CA
+    - nl-NL

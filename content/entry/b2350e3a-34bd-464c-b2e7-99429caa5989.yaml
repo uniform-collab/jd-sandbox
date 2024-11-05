@@ -1,0 +1,568 @@
+created: '2024-09-26T20:02:04.705133+00:00'
+modified: '2024-10-03T18:12:47.911691+00:00'
+pattern: false
+entry:
+  _id: b2350e3a-34bd-464c-b2e7-99429caa5989
+  _name: Iced Coffee Shakerato
+  _slug: iced-coffee-shakerato
+  _thumbnail: >-
+    https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/WjYKnPKOQRyvQRgKvtFBoQ-iced-coffee-shakerato-1.webp
+  type: recipe
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: Iced Coffee Shakerato
+        es-US: Shakerato de Café Helado
+        fr-CA: Café glacé Shakerato
+        nl-NL: IJskoffie Shakerato
+    yield:
+      type: text
+      locales:
+        en-US: Makes 1 Serving
+        es-US: Rinde 1 porción
+        fr-CA: Donne 1 portion
+        nl-NL: Maakt 1 portie
+    overview:
+      type: text
+      locales:
+        en-US: >-
+          Sweet, foamy, and so much better than that iced latte you were going
+          to pick up on your way to the office.
+        es-US: >-
+          Dulce, espumoso y mucho mejor que ese café con leche helado que ibas a
+          recoger de camino a la oficina.
+        fr-CA: >-
+          Sucré, mousseux, et tellement meilleur que le latte glacé que vous
+          alliez chercher en allant au bureau.
+        nl-NL: >-
+          Zoet, schuimig en zoveel beter dan die iced latte die je op weg naar
+          kantoor zou ophalen.
+    subtitle:
+      type: text
+      locales:
+        en-US: By Chris Morocco
+        es-US: Por Chris Marruecos
+        fr-CA: Par Chris Morocco
+        nl-NL: Door Chris Marokko
+    recipeType:
+      type: contentReference
+      value: ${#jptr:/ref-b2350e3a-34bd-464c-b2e7-99429caa5989-recipeType/entries/0}
+    description:
+      type: richText
+      locales:
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      When shaken with a lot of ice and a splash of sweetener,
+                      espresso forms a creamy froth on top and becomes an
+                      infinitely more exciting beverage. Just ask the Italians,
+                      who taught us the genius of the shakerato. You can use
+                      regular milk instead of sweet and creamy condensed milk (a
+                      tip we took from Vietnamese Cà Phê Sữa Đá), but the simple
+                      syrup is essential for the finished texture.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+            direction: ltr
+        es-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Cuando se agita con mucho hielo y un chorrito de
+                      edulcorante, el espresso forma una espuma cremosa en la
+                      parte superior y se convierte en una bebida infinitamente
+                      más emocionante. Pregúntenle a los italianos, que nos
+                      enseñaron el genio del shakerato. Puede usar leche regular
+                      en lugar de leche condensada dulce y cremosa (un consejo
+                      que tomamos del vietnamita Cà Phê Sữa Đá), pero el jarabe
+                      simple es esencial para la textura final.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+            direction: ltr
+        fr-CA:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Lorsqu'il est secoué avec beaucoup de glace et un soupçon
+                      d'édulcorant, l'espresso forme une mousse crémeuse sur le
+                      dessus et devient une boisson infiniment plus excitante.
+                      Demandez aux Italiens, qui nous ont enseigné le génie du
+                      shakerato. Vous pouvez utiliser du lait ordinaire à la
+                      place du lait concentré sucré et crémeux (une astuce que
+                      nous avons empruntée au Vietnamien Cà Phê Sữa Đá), mais le
+                      sirop simple est essentiel pour la texture finale.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+            direction: ltr
+        nl-NL:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Wanneer espresso wordt geschud met veel ijs en een
+                      scheutje zoetstof, vormt het een romig schuim bovenop en
+                      wordt het een oneindig veel spannendere drank. Vraag het
+                      maar aan de Italianen, die ons het genie van de shakerato
+                      leerden. Je kunt gewone melk gebruiken in plaats van zoete
+                      en romige gecondenseerde melk (een tip die we hebben
+                      overgenomen van de Vietnamese Cà Phê Sữa Đá), maar de
+                      eenvoudige siroop is essentieel voor de afgewerkte
+                      textuur.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+            direction: ltr
+    ingredients:
+      type: $block
+      value:
+        - _id: 76b3c1b6-ef2d-4d63-9e92-38137ae7976b
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-US: espresso
+                es-US: espresso
+                fr-CA: espresso
+                nl-NL: espresso
+            unit:
+              type: select
+              value: oz
+            amount:
+              type: number
+              value: '1.5'
+            amountText:
+              type: text
+              locales:
+                en-US: cooled slightly
+                es-US: enfriado ligeramente
+                fr-CA: légèrement refroidi
+                nl-NL: iets afgekoeld
+        - _id: d377aca5-62b8-4ede-9f29-74d7897d946d
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-US: sweetened condensed milk
+                es-US: Leche condensada azucarada
+                fr-CA: lait concentré sucré
+                nl-NL: gezoete gecondenseerde melk
+            unit:
+              type: select
+              value: tbsp
+            amount:
+              type: number
+              value: '1'
+        - _id: a1332e18-abd8-4e03-ab6a-da8e07754230
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-US: simple syrup
+                es-US: jarabe simple
+                fr-CA: sirop simple
+                nl-NL: eenvoudige siroop
+            unit:
+              type: select
+              value: tsp
+            amount:
+              type: number
+              value: '1.5'
+    instructions:
+      type: $block
+      value:
+        - _id: d81b27b0-72ca-43a4-97eb-584f517684c7
+          type: howtoSection
+          fields:
+            name:
+              type: text
+              locales:
+                en-US: Preparation
+                es-US: Preparación
+                fr-CA: Préparation
+                nl-NL: Voorbereiding
+            steps:
+              type: $block
+              value:
+                - _id: c6d80d3c-1c01-4ffb-ab88-519a80711214
+                  type: howtoStep
+                  fields:
+                    name:
+                      type: text
+                      locales:
+                        en-US: Step 1
+                        es-US: Paso 1
+                        fr-CA: Étape 1
+                        nl-NL: Stap 1
+                    description:
+                      type: richText
+                      locales:
+                        en-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Combine espresso, sweetened condensed
+                                      milk, and simple syrup in a cocktail
+                                      shaker. Fill shaker with ice, cover, and
+                                      shake vigorously until outside of shaker
+                                      is very cold and mixture inside is very,
+                                      very frothy, about 30 seconds.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        es-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Combine el espresso, la leche condensada
+                                      azucarada y el almíbar simple en una
+                                      coctelera. Llene la coctelera con hielo,
+                                      cubra y agite vigorosamente hasta que el
+                                      exterior de la coctelera esté muy frío y
+                                      la mezcla interior esté muy, muy espumosa,
+                                      aproximadamente 30 segundos.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        fr-CA:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Mélanger l'espresso, le lait concentré
+                                      sucré et le sirop simple dans un shaker.
+                                      Remplir le shaker de glace, couvrir et
+                                      secouer vigoureusement jusqu'à ce que
+                                      l'extérieur du shaker soit très froid et
+                                      que le mélange à l'intérieur soit très,
+                                      très mousseux, environ 30 secondes.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        nl-NL:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Combineer espresso, gezoete gecondenseerde
+                                      melk en eenvoudige siroop in een
+                                      cocktailshaker. Vul de shaker met ijs, dek
+                                      af en schud krachtig tot de buitenkant van
+                                      de shaker erg koud is en het mengsel
+                                      binnenin heel, heel schuimig is, ongeveer
+                                      30 seconden.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                - _id: f7b696eb-bc7b-4517-9702-b6c25999f4ad
+                  type: howtoStep
+                  fields:
+                    name:
+                      type: text
+                      locales:
+                        en-US: Step 2
+                        es-US: Paso 2
+                        fr-CA: Étape 2
+                        nl-NL: Stap 2
+                    description:
+                      type: richText
+                      locales:
+                        en-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Using a cocktail strainer or slotted spoon
+                                      to hold back ice while allowing foam and
+                                      some small ice chips to pass through, pour
+                                      into an ice-filled glass.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        es-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Usando un colador de cóctel o una
+                                      espumadera para retener el hielo mientras
+                                      permite que pase la espuma y algunos
+                                      trozos de hielo pequeños, vierta en un
+                                      vaso lleno de hielo.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        fr-CA:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      À l'aide d'une passoire à cocktail ou
+                                      d'une cuillère à fente pour retenir les
+                                      glaçons tout en laissant passer la mousse
+                                      et quelques petits morceaux de glace,
+                                      verser dans un verre rempli de glaçons.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        nl-NL:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Gebruik een cocktailzeef of schuimspaan om
+                                      ijs tegen te houden terwijl je schuim en
+                                      wat kleine ijsschilfers doorlaat, giet het
+                                      in een met ijs gevuld glas.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+    featuredImage:
+      type: asset
+      value:
+        - _id: 1550d168-e9c6-46b1-9b03-c3f4522993d3
+          type: image
+          fields:
+            id:
+              type: text
+              value: ced857db-e718-4985-bc7f-f5cd5c60478c
+            url:
+              value: >-
+                https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/WjYKnPKOQRyvQRgKvtFBoQ-iced-coffee-shakerato-1.webp
+              type: text
+            file:
+              type: file
+              value: d826f2c2-0209-4dd7-b2ef-e578d54a0861
+            size:
+              value: 35664
+              type: number
+            title:
+              type: text
+              value: iced-coffee-shakerato-1.webp
+            width:
+              value: 1600
+              type: number
+            height:
+              value: 1600
+              type: number
+            mediaType:
+              value: image/webp
+              type: text
+          _source: uniform-assets
+    mainIngredient:
+      type: contentReference
+      value: >-
+        ${#jptr:/ref-b2350e3a-34bd-464c-b2e7-99429caa5989-mainIngredient/entries/0}
+    relatedProducts:
+      type: contentReference
+      value: >-
+        ${#jptr:/ref-b2350e3a-34bd-464c-b2e7-99429caa5989-relatedProducts/entries}
+  _dataResources:
+    ref-b2350e3a-34bd-464c-b2e7-99429caa5989-recipeType:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: ff0d64e6-b52f-4a4f-ae5b-e254fe9c04d8
+    ref-b2350e3a-34bd-464c-b2e7-99429caa5989-mainIngredient:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: 22eda81d-b0dd-4cde-9747-fb07d5de61b3
+    ref-b2350e3a-34bd-464c-b2e7-99429caa5989-relatedProducts:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: >-
+          9eca65f5-d075-4297-a2e5-e5501b9ff58a,153a5e1b-72e6-4a3d-81d8-7cc050d532d2,048d6d1e-b00b-4e80-a715-22d149233435
+  _locales:
+    - en-US
+    - fr-CA
+    - es-US
+    - nl-NL

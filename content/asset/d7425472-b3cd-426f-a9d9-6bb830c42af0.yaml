@@ -1,0 +1,24 @@
+asset:
+  type: image
+  _id: d7425472-b3cd-426f-a9d9-6bb830c42af0
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: coffe_cake.avif
+    file:
+      type: file
+      value: f018fa29-c9a0-4d1a-8d25-3ca6ab080f3b
+    mediaType:
+      value: image/avif
+      type: text
+    url:
+      value: >-
+        https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/aBYSrN2cQral2ppuzHeJnw-coffe_cake.avif
+      type: text
+    size:
+      value: 34357
+      type: number
+    custom: {}
+created: '2023-12-13T13:08:13.353683+00:00'
+modified: '2024-09-05T09:55:12.500645+00:00'

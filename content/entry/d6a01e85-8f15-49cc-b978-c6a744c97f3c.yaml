@@ -1,0 +1,36 @@
+created: '2024-08-12T13:06:32.686196+00:00'
+modified: '2024-09-24T18:55:38.827533+00:00'
+pattern: false
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+entry:
+  _id: d6a01e85-8f15-49cc-b978-c6a744c97f3c
+  _name: How to get the perfect grind for your beans at home
+  _slug: how-to-get-the-perfect-grind-for-your-beans-at-home
+  _thumbnail: >-
+    //images.ctfassets.net/4v9xo98brk8z/1BqjTT7VUdIg4lHOqjOaw4/9a2e6694db897331a3f0ef1d539ed2e4/grinding_article_thumb.jpg
+  type: article
+  fields: {}
+  _dataResources:
+    Article by Slug Content:
+      type: contentfulArticleBySlug
+      variables:
+        slug: how-to-get-the-perfect-grind-for-your-beans
+        locale: ${locale}
+        slugField: fields.slug[in]
+        contentType: article
+    ref-d6a01e85-8f15-49cc-b978-c6a744c97f3c-tag:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: ebef65f5-11ef-4981-b3a8-b7f7d6bde7f3
+  _locales:
+    - en-US
+    - es-US
+    - fr-CA
+    - nl-NL
+  _overrides:
+    d6a01e85-8f15-49cc-b978-c6a744c97f3c:
+      parameters:
+        tag:
+          type: contentReference
+          value: ${#jptr:/ref-d6a01e85-8f15-49cc-b978-c6a744c97f3c-tag/entries}
+  _pattern: 7150730f-2997-418e-85a4-aff63733493b

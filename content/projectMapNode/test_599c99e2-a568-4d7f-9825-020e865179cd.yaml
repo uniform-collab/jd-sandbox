@@ -1,0 +1,9 @@
+id: 599c99e2-a568-4d7f-9825-020e865179cd
+name: VIP Page - Authorable Components
+order: 500
+path: /:locale/Layouts/test
+type: composition
+pathSegment: test
+data: {}
+compositionId: b85512bc-312f-4571-9657-0712f8fa52fe
+projectMapId: 62588085-7894-4810-84b6-eaaf0cb5213c

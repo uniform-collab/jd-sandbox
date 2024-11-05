@@ -1,0 +1,91 @@
+created: '2024-08-12T13:03:29.102513+00:00'
+modified: '2024-09-24T18:55:38.827533+00:00'
+pattern: false
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+entry:
+  _id: 0c2c8212-3961-42a0-92c0-141e3a76be75
+  _name: Cervello di Caffe®
+  _slug: cervello-di-caffer
+  type: brand
+  fields:
+    logo:
+      type: asset
+      locales:
+        en-US:
+          - _id: a6e8ee6d-4ec8-438c-bd72-b2ea5a4a8786
+            type: image
+            fields:
+              id:
+                type: text
+                value: b0f03a35-48b6-46b7-bac0-e5cbb8a6030d
+              url:
+                value: >-
+                  https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/5O7GGqUgRxSiW3m0WNKjTQ-Image-3.webp
+                type: text
+              file:
+                type: file
+                value: 53daca24-2ced-4ef8-a571-76d7d8c5362c
+              size:
+                value: 210552
+                type: number
+              title:
+                type: text
+                value: Image-3.webp
+              width:
+                value: 1024
+                type: number
+              height:
+                value: 1024
+                type: number
+              mediaType:
+                value: image/webp
+                type: text
+            _source: uniform-assets
+    title:
+      type: text
+      locales:
+        en-US: Cervello di Caffe®
+        es-US: Cervello di Caffe®
+        fr-CA: Cervello di Caffe®
+        nl-NL: Cervello di Caffe®
+    description:
+      type: text
+      locales:
+        en-US: >-
+          Cervello di Caffe® is at the forefront of the coffee industry,
+          blending intelligence and passion to create exceptional coffee
+          experiences. Our brand is dedicated to offering top-tier coffee makers
+          and premium coffee products that cater to both the casual drinker and
+          the connoisseur. With a focus on innovation and quality, Cervello di
+          Caffe® brings the art and science of coffee brewing to your home,
+          ensuring every cup is a masterpiece.
+        es-US: >-
+          Cervello di Caffe® está a la vanguardia de la industria del café,
+          combinando inteligencia y pasión para crear experiencias excepcionales
+          de café.Nuestra marca se dedica a ofrecer cafeteras de primer nivel y
+          productos de café premium que atienden tanto al bebedor informal como
+          al conocedor.Con un enfoque en la innovación y la calidad, Cervello di
+          Caffe® trae el arte y la ciencia de la elaboración de café a su hogar,
+          asegurando que cada taza sea una obra maestra.
+        fr-CA: >-
+          Cervello di Caffe® est à l'avant-garde de l'industrie du café,
+          mélangeant l'intelligence et la passion pour créer des expériences de
+          café exceptionnelles.Notre marque se consacre à offrir des cafetières
+          de haut niveau et des produits de café haut de gamme qui s'adressent à
+          la fois au buveur décontracté et au connaisseur.En mettant l'accent
+          sur l'innovation et la qualité, Cervello di Caffe® apporte l'art et la
+          science du brassage de café à votre maison, garantissant que chaque
+          tasse est un chef-d'œuvre.
+        nl-NL: >-
+          Cervello Di Caffe® loopt voorop in de koffie -industrie en combineert
+          intelligentie en passie om uitzonderlijke koffie -ervaringen te
+          creëren.Ons merk is toegewijd aan het aanbieden van
+          topkoffiezetapparaten en premium koffieproducten die zowel de casual
+          drinker als de kenner in staat zijn.Met een focus op innovatie en
+          kwaliteit, brengt Cervello Di Caffe® de kunst en wetenschap van koffie
+          aan uw huis, zodat elke beker een meesterwerk is.
+  _locales:
+    - en-US
+    - es-US
+    - fr-CA
+    - nl-NL

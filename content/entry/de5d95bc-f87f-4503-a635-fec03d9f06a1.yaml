@@ -1,0 +1,95 @@
+created: '2024-08-12T13:06:42.749185+00:00'
+modified: '2024-09-24T18:55:38.827533+00:00'
+pattern: false
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+entry:
+  _id: de5d95bc-f87f-4503-a635-fec03d9f06a1
+  _name: JavaDrip
+  _slug: javadrip
+  type: brand
+  fields:
+    logo:
+      type: asset
+      locales:
+        en-US:
+          - _id: bc863eb9-b017-4b88-ad89-59a553e8b137
+            type: image
+            fields:
+              id:
+                type: text
+                value: 2235eb3d-ac74-4755-b316-8a6eb4dadc3d
+              url:
+                value: >-
+                  https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/U1_gttQiTjiGAyu2cgl4jQ-icon-header-logo_vjm8yy_rydeez.svg
+                type: text
+              file:
+                type: file
+                value: 82dd0b76-89e1-4a49-8c03-831a4741d431
+              size:
+                value: 5456
+                type: number
+              title:
+                type: text
+                value: icon-header-logo_vjm8yy_rydeez.svg
+              width:
+                value: 196
+                type: number
+              height:
+                value: 47
+                type: number
+              mediaType:
+                value: image/svg+xml
+                type: text
+            _source: uniform-assets
+    title:
+      type: text
+      locales:
+        en-US: JavaDrip
+        es-US: Javadrip
+        fr-CA: Javadrip
+        nl-NL: Javadrip
+    description:
+      type: text
+      locales:
+        en-US: >-
+          JavaDrip is redefining the coffee experience with its innovative
+          brewing solutions and premium coffee products. Our mission is to
+          combine modern technology with a passion for exceptional coffee,
+          providing both convenience and quality in every cup. Whether you’re
+          brewing at home or in a professional setting, JavaDrip ensures a
+          perfect drip every time, delivering rich flavors and a smooth finish
+          that coffee lovers crave.
+        es-US: >-
+          Javadrip está redefiniendo la experiencia del café con sus innovadoras
+          soluciones de elaboración de cerveza y productos de café
+          premium.Nuestra misión es combinar la tecnología moderna con pasión
+          por el café excepcional, proporcionando conveniencia y calidad en cada
+          taza.Ya sea que esté elaborando en casa o en un entorno profesional,
+          Javadrip garantiza un goteo perfecto cada vez, entregando sabores
+          ricos y un acabado suave que los amantes del café anhelan.
+        fr-CA: >-
+          Javadrip redéfinit l'expérience du café avec ses solutions de brassage
+          innovantes et ses produits de café premium.Notre mission est de
+          combiner la technologie moderne avec une passion pour le café
+          exceptionnel, offrant à la fois la commodité et la qualité dans chaque
+          tasse.Que vous vous préparez à la maison ou dans un cadre
+          professionnel, Javadrip assure une goutte parfaite à chaque fois,
+          offrant des saveurs riches et une finition lisse dont les amateurs de
+          café recherchent.
+        nl-NL: >-
+          Javadrip herdefinieert de koffie -ervaring met zijn innovatieve
+          brouwoplossingen en premium koffieproducten.Onze missie is om moderne
+          technologie te combineren met een passie voor uitzonderlijke koffie,
+          waardoor zowel gemak als kwaliteit in elke beker wordt geboden.Of je
+          nu thuis of in een professionele omgeving aan het brouwen bent,
+          Javadrip zorgt voor een perfecte druppel elke keer, waardoor rijke
+          smaken en een soepele afwerking naar verlangde die koffieliefhebbers
+          hunkeren.
+    displayPriority:
+      type: checkbox
+      value: true
+  _locales:
+    - en-US
+    - es-US
+    - fr-CA
+    - nl-NL

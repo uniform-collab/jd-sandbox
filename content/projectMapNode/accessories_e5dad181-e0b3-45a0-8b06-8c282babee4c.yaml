@@ -1,0 +1,9 @@
+id: e5dad181-e0b3-45a0-8b06-8c282babee4c
+name: Accessories
+order: -57
+path: /:locale/accessories
+type: composition
+pathSegment: accessories
+data: {}
+compositionId: f6fa973c-ab86-4006-a101-52d8cbb21509
+projectMapId: 62588085-7894-4810-84b6-eaaf0cb5213c

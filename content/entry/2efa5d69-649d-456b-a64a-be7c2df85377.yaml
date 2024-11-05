@@ -1,0 +1,56 @@
+created: '2023-11-20T09:34:25.859401+00:00'
+modified: '2024-09-24T18:55:38.827533+00:00'
+pattern: false
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+entry:
+  _id: 2efa5d69-649d-456b-a64a-be7c2df85377
+  _name: COFFEE BEANS
+  _slug: coffee-beans
+  _thumbnail: >-
+    https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/2Thx8ZxPQUamKxSo9dtyog-hero_beans.webp
+  type: hero
+  fields:
+    image:
+      type: asset
+      value:
+        - _id: 70d71da4-7050-4fcf-a91b-ecc738c8d0e5
+          type: image
+          fields:
+            id:
+              type: text
+              value: d90e05c0-2824-475a-bfb7-adb58a0e2dd3
+            url:
+              value: >-
+                https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/2Thx8ZxPQUamKxSo9dtyog-hero_beans.webp
+              type: text
+            file:
+              type: file
+              value: 846b4be9-60cb-47b6-a4f1-3d84b4abe2be
+            size:
+              value: 667596
+              type: number
+            title:
+              type: text
+              value: hero_beans.webp
+            width:
+              value: 2600
+              type: number
+            height:
+              value: 1300
+              type: number
+            mediaType:
+              value: image/webp
+              type: text
+          _source: uniform-assets
+    title:
+      type: text
+      locales:
+        en-US: COFFEE BEANS
+        es-US: Granos de café
+        fr-CA: GRAINS DE CAFÉ
+        nl-NL: KOFFIEBONEN
+  _locales:
+    - en-US
+    - es-US
+    - fr-CA
+    - nl-NL

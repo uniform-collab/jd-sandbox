@@ -1,0 +1,269 @@
+created: '2024-06-04T20:23:53.574708+00:00'
+modified: '2024-08-15T12:19:27.016517+00:00'
+pattern: false
+workflowId: 784fa239-ae8a-4ab1-ba68-9806d0fe406a
+workflowStageId: 73608d81-f8b0-4ee3-897b-c976d2dc6670
+entry:
+  _id: 8aa8dd96-4a80-495c-b9cd-54bea72a7df7
+  _name: Milk carafe
+  _slug: milk-carafe-144
+  _thumbnail: >-
+    https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/cfwQmHhLQPqqMNFInQu6WQ-milk_carafe__50631.1662555446.386.513_kognbj.jpg
+  type: product
+  fields:
+    body:
+      type: richText
+      locales:
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      The compact Cool Control fits in small spaces. Its elegant
+                      design complements JavaDrip coffee machines with premium
+                      materials. Create perfect milk foam for drinks like flat
+                      whites with chilled milk kept at 4°C. Level indicator
+                      reminds users to top up milk as needed.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Ideal use of space: The elegant design of the Cool Control
+                      allows it to be used in a variety of locations where space
+                      is limited. Whether it's in compact kitchenettes or small
+                      offices, this slimline milk cooler will fit seamlessly
+                      into any environment, thanks to its compact dimensions and
+                      versatile design.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Elegant design: The Cool Control embodies the timeless
+                      elegance of the classic JavaDrip look. Crafted with
+                      premium materials, including a cover made of high-quality
+                      1.5 mm thick stainless steel, and adorned with stylish
+                      ventilation slots, this milk cooler exudes sophistication.
+                      Its clean, minimalist lines perfectly complement any
+                      JavaDrip coffee machine, creating a harmonious and stylish
+                      coffee set-up.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Perfect milk results: The Cool Control delivers
+                      consistently perfect milk foam for a variety of delicious
+                      drinks, such as the flat white. By keeping the milk
+                      chilled to an optimal 4 °C, this innovative cooler ensures
+                      that every cup of coffee is of the highest quality. And
+                      with a convenient level indicator, users will always know
+                      when it's time to top up the cooler with fresh milk,
+                      guaranteeing consistently excellent results with every
+                      use.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children: []
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children: []
+                direction: null
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children: []
+                direction: null
+            direction: ltr
+    name:
+      type: text
+      value: Milk carafe
+    brand:
+      type: contentReference
+      value: ${#jptr:/ref-8aa8dd96-4a80-495c-b9cd-54bea72a7df7-brand/entries/0}
+    title:
+      type: text
+      value: Milk carafe
+    category:
+      type: contentReference
+      value: ${#jptr:/ref-8aa8dd96-4a80-495c-b9cd-54bea72a7df7-category/entries}
+    variants:
+      type: $block
+      value:
+        - _id: 76b61f93-e9bb-4406-b708-8eb63637ad67
+          type: variant
+          fields:
+            code:
+              type: text
+              value: '144'
+            price:
+              type: number
+              locales:
+                en-US: '44'
+                fr-CA: '40.64'
+                nl-NL: '40.64'
+                es-US: '44'
+            title:
+              type: text
+              locales:
+                en-US: Milk carafe
+                es-US: Milk carafe
+                fr-CA: Milk carafe
+                nl-NL: Milk carafe
+            currency:
+              type: text
+              locales:
+                en-US: $
+                es-US: $
+                fr-CA: €
+                nl-NL: €
+            imageGallery:
+              type: asset
+              value:
+                - _id: 432ddb00-f69f-4975-b086-cdbaa47f6bf1
+                  type: image
+                  fields:
+                    id:
+                      type: text
+                      value: e0be08fb-636d-41ed-8ec9-9eb409ce9ba5
+                    url:
+                      value: >-
+                        https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/LJb20gRdRbiIBra3zoInRg-milk_carafe__50631.1662555446.386.513_kognbj.jpg
+                      type: text
+                    file:
+                      type: file
+                      value: 382dac14-9852-420e-9108-2d4347b3ab13
+                    size:
+                      value: 7369
+                      type: number
+                    title:
+                      type: text
+                      value: milk_carafe__50631.1662555446.386.513_kognbj.jpg
+                    width:
+                      value: 386
+                      type: number
+                    height:
+                      value: 386
+                      type: number
+                    mediaType:
+                      value: image/jpeg
+                      type: text
+                  _source: uniform-assets
+    primaryImage:
+      type: asset
+      value:
+        - _id: c8edf551-f7c0-4084-8a71-c9e190ebf30a
+          type: image
+          fields:
+            id:
+              type: text
+              value: 78709555-1a8b-4bca-af6d-65760ad69bf8
+            url:
+              value: >-
+                https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/cfwQmHhLQPqqMNFInQu6WQ-milk_carafe__50631.1662555446.386.513_kognbj.jpg
+              type: text
+            file:
+              type: file
+              value: 8d4a6024-5da8-42fc-b3ba-fc64b7190271
+            size:
+              value: 7369
+              type: number
+            title:
+              type: text
+              value: milk_carafe__50631.1662555446.386.513_kognbj.jpg
+            width:
+              value: 386
+              type: number
+            height:
+              value: 386
+              type: number
+            mediaType:
+              value: image/jpeg
+              type: text
+          _source: uniform-assets
+    recommendations:
+      type: contentReference
+      value: >-
+        ${#jptr:/ref-8aa8dd96-4a80-495c-b9cd-54bea72a7df7-recommendations/entries}
+    shortDescription:
+      type: text
+      locales:
+        en-US: >-
+          Compact and elegant milk cooler for perfect milk foam. Keep milk fresh
+          and chilled for your favorite coffee drinks. Ideal for small spaces.
+        es-US: >-
+          Enfriador de leche compacto y elegante para espuma de leche
+          perfecta.Mantenga la leche fresca y fría para sus bebidas de café
+          favoritas.Ideal para espacios pequeños.
+        fr-CA: >-
+          Refroidisseur de lait compact et élégant pour la mousse de lait
+          parfaite.Gardez le lait frais et réfrigéré pour vos boissons au café
+          préférées.Idéal pour les petits espaces.
+        nl-NL: >-
+          Compact en elegante melkkoeler voor perfect melkschuim.Houd de melk
+          fris en gekoeld voor uw favoriete koffiedrankjes.Ideaal voor kleine
+          ruimtes.
+  _dataResources:
+    ref-8aa8dd96-4a80-495c-b9cd-54bea72a7df7-brand:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: de5d95bc-f87f-4503-a635-fec03d9f06a1
+    ref-8aa8dd96-4a80-495c-b9cd-54bea72a7df7-category:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: 4fb71159-ddac-4bca-9004-0405ed43c2d8
+    ref-8aa8dd96-4a80-495c-b9cd-54bea72a7df7-recommendations:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: >-
+          82b84782-4236-4b06-a994-59f088896b91,72b49ac2-bbf3-48a7-b522-0947483e9131,d4e5eec7-6670-42ef-adcb-71645e05e836,dd9a7e4d-56a3-4a0b-9679-345d19e6da49
+  _locales:
+    - en-US
+    - es-US
+    - fr-CA
+    - nl-NL

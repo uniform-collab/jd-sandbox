@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 906a787d-0d47-4244-bece-553729d83c2c
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: geo_location.webp
+    file:
+      type: file
+      value: 4146d7d4-d55c-4eed-bc96-039d93f3a2a9
+    mediaType:
+      value: image/webp
+      type: text
+    url:
+      value: >-
+        https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/IJ5HvTI-R2SMbce_GkqYog-geo_location.webp
+      type: text
+    size:
+      value: 164754
+      type: number
+    width:
+      value: 2880
+      type: number
+    height:
+      value: 1178
+      type: number
+    custom: {}
+created: '2023-12-12T18:14:54.419351+00:00'
+modified: '2023-12-12T18:14:54.419351+00:00'

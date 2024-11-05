@@ -1,0 +1,145 @@
+composition:
+  _name: Feature Hotspot
+  _id: 0d752b47-346b-408c-86de-2a8ba41671cb
+  type: hotspot
+  parameters:
+    icon:
+      type: asset
+      value:
+        - _id: f4ea311d-d4c5-4a02-b59f-173b404fc5fd
+          type: image
+          fields:
+            id:
+              type: text
+              value: 71678939-c5fe-4415-9e20-0554df75c59d
+            url:
+              value: >-
+                https://img.uniform.global/p/sUug4BuVRWKpzGYFIA-DJw/s9mAgy3DR8agV_t99cuo8w-hotspot.png
+              type: text
+            file:
+              type: file
+              value: 29ea196f-3c2f-4733-9f48-e27b3cda2507
+            size:
+              value: 1155
+              type: number
+            title:
+              type: text
+              value: hotspot.png
+            width:
+              value: 60
+              type: number
+            height:
+              value: 60
+              type: number
+            mediaType:
+              value: image/png
+              type: text
+          _source: uniform-assets
+    tooltipPosition:
+      type: tp-slider-parameter
+      value: top
+    iconVerticalPosition:
+      type: tp-slider-parameter
+      value: 50%
+    iconHorizontalPosition:
+      type: tp-slider-parameter
+      value: 50%
+    tooltipBackgroundColor:
+      type: tp-color-palette-parameter
+      value: secondary-content
+  slots:
+    content:
+      - _id: 504157f7-fd7f-4d4f-91bf-c122f5273a54
+        type: text
+        parameters:
+          tag:
+            type: tp-segmented-control-parameter
+            value: p
+          size:
+            type: tp-segmented-control-parameter
+            value: XL
+          text:
+            type: text
+            locales:
+              en-CA: ${#jptr:/Product Feature Content/entry/fields/title/value}
+              en-GB: ${#jptr:/Product Feature Content/entry/fields/title/value}
+              en-NL: ${#jptr:/Product Feature Content/entry/fields/title/value}
+              en-US: ${#jptr:/Product Feature Content/entry/fields/title/value}
+              es-US: ${#jptr:/Product Feature Content/entry/fields/title/value}
+              fr-CA: ${#jptr:/Product Feature Content/entry/fields/title/value}
+              nl-NL: ${#jptr:/Product Feature Content/entry/fields/title/value}
+          color:
+            type: tp-color-palette-parameter
+            value: accent
+          fontWeight:
+            type: tp-segmented-control-parameter
+            value: bold
+          whiteSpace:
+            type: tp-segmented-control-parameter
+            value: normal
+          letterSpacing:
+            type: tp-segmented-control-parameter
+            value: ''
+        _overridability:
+          hideLockedParameters: true
+      - _id: dfdaee32-611e-4d5d-85f5-4f2a9ae79af6
+        type: text
+        parameters:
+          tag:
+            type: tp-segmented-control-parameter
+            value: p
+          size:
+            type: tp-segmented-control-parameter
+            value: Base
+          text:
+            type: text
+            locales:
+              en-CA: ${#jptr:/Product Feature Content/entry/fields/description/value}
+              en-GB: ${#jptr:/Product Feature Content/entry/fields/description/value}
+              en-NL: ${#jptr:/Product Feature Content/entry/fields/description/value}
+              en-US: ${#jptr:/Product Feature Content/entry/fields/description/value}
+              es-US: ${#jptr:/Product Feature Content/entry/fields/description/value}
+              fr-CA: ${#jptr:/Product Feature Content/entry/fields/description/value}
+              nl-NL: ${#jptr:/Product Feature Content/entry/fields/description/value}
+          color:
+            type: tp-color-palette-parameter
+            value: primary-content
+          fontWeight:
+            type: tp-segmented-control-parameter
+            value: normal
+          whiteSpace:
+            type: tp-segmented-control-parameter
+            value: normal
+          letterSpacing:
+            type: tp-segmented-control-parameter
+            value: tighter
+        _overridability:
+          hideLockedParameters: true
+  _dataResources:
+    Product Feature Content:
+      type: productFeature
+      variables:
+        locale: ${locale}
+        entryId: a7957d8a-ea12-4bab-8411-8cb4616027ac
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
+  _overridability:
+    parameters:
+      icon: 'yes'
+      tooltipWidth: 'yes'
+      tooltipPosition: 'yes'
+      iconVerticalPosition: 'yes'
+      iconHorizontalPosition: 'yes'
+    hideLockedParameters: true
+  _locales:
+    - es-US
+    - en-US
+    - en-CA
+    - en-GB
+    - en-NL
+    - fr-CA
+    - nl-NL
+created: '2024-06-26T09:03:27.661553+00:00'
+modified: '2024-09-24T18:55:38.827533+00:00'
+pattern: true
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5

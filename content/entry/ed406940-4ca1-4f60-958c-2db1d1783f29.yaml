@@ -1,0 +1,272 @@
+created: '2024-06-04T20:24:00.711444+00:00'
+modified: '2024-08-15T12:21:12.138229+00:00'
+pattern: false
+workflowId: 784fa239-ae8a-4ab1-ba68-9806d0fe406a
+workflowStageId: 73608d81-f8b0-4ee3-897b-c976d2dc6670
+entry:
+  _id: ed406940-4ca1-4f60-958c-2db1d1783f29
+  _name: Black Mountain Pour-Over Hario Glass
+  _slug: black-mountain-pour-over-hario-glass-135
+  _thumbnail: >-
+    https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/07rSmS7UTmenhF3iXSeFeQ-black-mountain-pour-over-hario-glass-135_gn14tr_h90bdv.jpg
+  type: product
+  fields:
+    body:
+      type: richText
+      locales:
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      When translated Le Parfait means 'the perfect one' - and
+                      that's just what this air-tight jar is. Designed for
+                      canning, these jars will ensure your harvest does not
+                      spoil, but is kept well-preserved for those cold winter
+                      months that lie ahead. Also can be used to store grains,
+                      beans and spices. Lid easily removes for a thorough
+                      cleaning. May be frozen - just be sure to leave enough
+                      room for expansion.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+            direction: ltr
+        fr-CA:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Lorsqu'il est traduit, Le Parfait signifie « le parfait »
+                      - et c'est exactement ce qu'est ce pot hermétique. Conçus
+                      pour la mise en conserve, ces bocaux garantiront que votre
+                      récolte ne se gâtera pas, mais qu'elle sera bien conservée
+                      pour les mois froids d'hiver à venir. Peut également être
+                      utilisé pour stocker des céréales, des haricots et des
+                      épices. Le couvercle s'enlève facilement pour un nettoyage
+                      en profondeur. Peut être gelé - assurez-vous simplement de
+                      laisser suffisamment de place pour l'expansion.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+            direction: ltr
+        nl-NL:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Vertaald betekent Le Parfait 'de perfecte' - en dat is
+                      precies wat deze luchtdichte pot is. Deze potten zijn
+                      ontworpen om in te blikken en zorgen ervoor dat uw oogst
+                      niet bederft, maar goed bewaard blijft voor de koude
+                      wintermaanden die voor u liggen. Ook te gebruiken voor het
+                      bewaren van granen, bonen en kruiden. Deksel kan eenvoudig
+                      worden verwijderd voor een grondige reiniging. Kan
+                      bevroren zijn; zorg er wel voor dat er voldoende ruimte
+                      overblijft voor uitzetting.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+            direction: ltr
+    name:
+      type: text
+      value: Black Mountain Pour-Over Hario Glass
+    brand:
+      type: contentReference
+      value: ${#jptr:/ref-ed406940-4ca1-4f60-958c-2db1d1783f29-brand/entries/0}
+    title:
+      type: text
+      value: Black Mountain Pour-Over Hario Glass
+    category:
+      type: contentReference
+      value: ${#jptr:/ref-ed406940-4ca1-4f60-958c-2db1d1783f29-category/entries}
+    variants:
+      type: $block
+      value:
+        - _id: 4b0704d5-e98d-48b3-8e3d-a13f672fcfd7
+          type: variant
+          fields:
+            code:
+              type: text
+              value: '135'
+            price:
+              type: number
+              locales:
+                en-US: '79.66'
+                fr-CA: '73.58'
+                nl-NL: '73.58'
+                es-US: '79.66'
+            title:
+              type: text
+              locales:
+                en-US: Black Mountain Pour-Over Hario Glass
+                es-US: Black Mountain Pour-Over Hario Glass
+                fr-CA: Black Mountain Pour-Over Hario Glass
+                nl-NL: Black Mountain Pour-Over Hario Glass
+            currency:
+              type: text
+              locales:
+                en-US: $
+                es-US: $
+                fr-CA: €
+                nl-NL: €
+            imageGallery:
+              type: asset
+              value:
+                - _id: f3157956-0259-4d3d-b08c-64d441df9044
+                  type: image
+                  fields:
+                    id:
+                      type: text
+                      value: b99c105c-b7bb-49c9-9765-4de0341fd339
+                    url:
+                      value: >-
+                        https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/Fn8A5Sd_QYG00oZqoBuo9A-black-mountain-pour-over-hario-glass-135_gn14tr_h90bdv.jpg
+                      type: text
+                    file:
+                      type: file
+                      value: e3962494-209b-4b32-9477-d4eb5e505df1
+                    size:
+                      value: 19050
+                      type: number
+                    title:
+                      type: text
+                      value: >-
+                        black-mountain-pour-over-hario-glass-135_gn14tr_h90bdv.jpg
+                    width:
+                      value: 386
+                      type: number
+                    height:
+                      value: 386
+                      type: number
+                    mediaType:
+                      value: image/jpeg
+                      type: text
+                  _source: uniform-assets
+    primaryImage:
+      type: asset
+      value:
+        - _id: f2c95d73-bad1-4039-b987-ef6284e5fdd6
+          type: image
+          fields:
+            id:
+              type: text
+              value: d018a0f6-d2c3-4ee6-8102-f60f2c28e258
+            url:
+              value: >-
+                https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/07rSmS7UTmenhF3iXSeFeQ-black-mountain-pour-over-hario-glass-135_gn14tr_h90bdv.jpg
+              type: text
+            file:
+              type: file
+              value: 9f0c434c-c761-4c26-ba44-5fdd65a5233b
+            size:
+              value: 19050
+              type: number
+            title:
+              type: text
+              value: black-mountain-pour-over-hario-glass-135_gn14tr_h90bdv.jpg
+            width:
+              value: 386
+              type: number
+            height:
+              value: 386
+              type: number
+            mediaType:
+              value: image/jpeg
+              type: text
+          _source: uniform-assets
+    recommendations:
+      type: contentReference
+      value: >-
+        ${#jptr:/ref-ed406940-4ca1-4f60-958c-2db1d1783f29-recommendations/entries}
+    shortDescription:
+      type: text
+      locales:
+        en-US: >-
+          When translated Le Parfait means 'the perfect one' - and that's just
+          what this air-tight jar is. Designed for canning, these jars will
+          ensure your harvest does not spoil, but is kept well-preserved for
+          those cold winter months that lie ahead. Also can be used to store
+          grains, beans and spices. Lid easily removes for a thorough cleaning.
+          May be frozen - just be sure to leave enough room for expansion.
+        es-US: >-
+          Cuando se traduce, Le Parfait significa 'el perfecto', y eso es
+          exactamente lo que es este frasco hermético.Diseñados para el
+          enlatado, estos frascos asegurarán que su cosecha no se estropee, pero
+          se mantiene bien conservado para esos fríos meses de invierno que se
+          avecinan.También se puede usar para almacenar granos, frijoles y
+          especias.La tapa elimina fácilmente una limpieza completa.Puede estar
+          congelado, solo asegúrese de dejar suficiente espacio para la
+          expansión.
+        fr-CA: >-
+          Lorsqu'il est traduit, Le Parfait signifie « le parfait » - et c'est
+          exactement ce qu'est ce pot hermétique. Conçus pour la mise en
+          conserve, ces bocaux garantiront que votre récolte ne se gâtera pas,
+          mais qu'elle sera bien conservée pour les mois froids d'hiver à venir.
+          Peut également être utilisé pour stocker des céréales, des haricots et
+          des épices. Le couvercle s'enlève facilement pour un nettoyage en
+          profondeur. Peut être gelé - assurez-vous simplement de laisser
+          suffisamment de place pour l'expansion.
+        nl-NL: >-
+          Vertaald betekent Le Parfait 'de perfecte' - en dat is precies wat
+          deze luchtdichte pot is. Deze potten zijn ontworpen om in te blikken
+          en zorgen ervoor dat uw oogst niet bederft, maar goed bewaard blijft
+          voor de koude wintermaanden die voor u liggen. Ook te gebruiken voor
+          het bewaren van granen, bonen en kruiden. Deksel kan eenvoudig worden
+          verwijderd voor een grondige reiniging. Kan bevroren zijn; zorg er wel
+          voor dat er voldoende ruimte overblijft voor uitzetting.
+  _dataResources:
+    ref-ed406940-4ca1-4f60-958c-2db1d1783f29-brand:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: 8f1962d5-5237-4baf-a522-6f7f3b7d1266
+    ref-ed406940-4ca1-4f60-958c-2db1d1783f29-category:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: >-
+          e86f566a-9ec3-484b-9524-3f662d7b5fd2,64d19761-b85e-4e33-8438-e4296de791e2
+    ref-ed406940-4ca1-4f60-958c-2db1d1783f29-recommendations:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: >-
+          82b84782-4236-4b06-a994-59f088896b91,72b49ac2-bbf3-48a7-b522-0947483e9131,8ad35da9-07b6-4532-8e13-47ab158e30ef,ef55e1ae-ad12-46d9-b296-90d5484136f0
+  _locales:
+    - en-US
+    - es-US
+    - fr-CA
+    - nl-NL

@@ -1,0 +1,89 @@
+created: '2023-11-20T09:34:31.083588+00:00'
+modified: '2024-09-24T18:55:38.827533+00:00'
+pattern: false
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+entry:
+  _id: da54b631-13fe-43b8-a427-01d1b8ea430d
+  _name: The home of coffee obsessives
+  _slug: the-home-of-coffee-obsessives
+  _thumbnail: >-
+    https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/7I4uj5fHTMihLmFyH9-K2A-hero_1.png
+  type: callToAction
+  fields:
+    image:
+      type: asset
+      value:
+        - _id: bb05ae7b-c9e2-41d7-a557-ee3946dd8fa0
+          type: image
+          fields:
+            id:
+              type: text
+              value: 68c015b8-8932-48a4-9b2f-56fc978d43ac
+            url:
+              value: >-
+                https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/7I4uj5fHTMihLmFyH9-K2A-hero_1.png
+              type: text
+            file:
+              type: file
+              value: cdd93828-6905-4ff5-929d-2cde68782fff
+            size:
+              value: 1515655
+              type: number
+            title:
+              type: text
+              value: hero_1.png
+            width:
+              value: 2600
+              type: number
+            height:
+              value: 1300
+              type: number
+            mediaType:
+              value: image/png
+              type: text
+          _source: uniform-assets
+    title:
+      type: text
+      locales:
+        en-US: The home of coffee obsessives
+        es-US: El hogar del café obsesivos
+        fr-CA: La maison des obsédations de café
+        nl-NL: Het huis van koffieobsessieven
+    description:
+      type: text
+      locales:
+        en-US: >-
+          Welcome to JavaDrip. We are a boutique coffee company obsessed with
+          the perfect cup of coffee. We believe that the perfect cup starts with
+          the perfect bean and that those beans require the perfect brewing
+          method. This means that we offer both high quality beans and products
+          to meet any occasion and mood. Have a look around and let us know if
+          you have any questions.
+        es-US: >-
+          Bienvenido a Javadrip.Somos una compañía de café boutique obsesionada
+          con la taza de café perfecta.Creemos que la copa perfecta comienza con
+          el frijol perfecto y que esos frijoles requieren el método de
+          elaboración de cerveza perfecto.Esto significa que ofrecemos frijoles
+          y productos de alta calidad para cumplir con cualquier ocasión y
+          estado de ánimo.Eche un vistazo y háganos saber si tiene alguna
+          pregunta.
+        fr-CA: >-
+          Bienvenue à Javadrip.Nous sommes une compagnie de café de boutique
+          obsédé par la tasse de café parfaite.Nous pensons que la tasse
+          parfaite commence par le haricot parfait et que ces haricots
+          nécessitent la méthode de brassage parfaite.Cela signifie que nous
+          offrons à la fois des haricots et des produits de haute qualité pour
+          répondre à toute occasion et à toute humeur.Jetez un coup d'œil et
+          faites-nous savoir si vous avez des questions.
+        nl-NL: >-
+          Welkom bij Javadrip.Wij zijn een boetiek koffiebedrijf geobsedeerd
+          door de perfecte kop koffie.Wij geloven dat de perfecte beker begint
+          met de perfecte boon en dat die bonen de perfecte brouwmethode
+          vereisen.Dit betekent dat we zowel bonen als van producten van hoge
+          kwaliteit bieden om elke gelegenheid en stemming te ontmoeten.Kijk
+          rond en laat het ons weten als u vragen heeft.
+  _locales:
+    - en-US
+    - es-US
+    - fr-CA
+    - nl-NL

@@ -1,0 +1,9 @@
+id: 159b02be-f6b3-4752-8fc7-9689b67236b2
+name: Beans
+order: 100
+path: /:locale/external/beans
+type: composition
+pathSegment: beans
+data: {}
+compositionId: 24665bcc-ff19-46b9-80e4-44822a1c7e68
+projectMapId: 62588085-7894-4810-84b6-eaaf0cb5213c

@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: efe4f903-f195-4a48-9424-90a6d1893988
+  _name: AI-generated-image-for-Icon
+  fields:
+    title:
+      type: text
+      value: AI-generated-image-for-Icon
+    file:
+      type: file
+      value: 41ce575d-361c-425e-bdff-b5556fbfc180
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/R97ypcqySQSWy3Yiw-bxwg-AI-generated-image-for-Icon
+      type: text
+    size:
+      value: 1796130
+      type: number
+    width:
+      value: 1024
+      type: number
+    height:
+      value: 1024
+      type: number
+    custom: {}
+created: '2024-09-13T13:03:34.005287+00:00'
+modified: '2024-09-17T14:14:52.394045+00:00'

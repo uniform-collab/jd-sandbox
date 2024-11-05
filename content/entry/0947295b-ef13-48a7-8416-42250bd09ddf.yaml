@@ -1,0 +1,60 @@
+created: '2024-09-05T08:09:37.886155+00:00'
+modified: '2024-09-24T18:55:38.827533+00:00'
+pattern: false
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+entry:
+  _id: 0947295b-ef13-48a7-8416-42250bd09ddf
+  _name: Editorial
+  _slug: editorial
+  _thumbnail: >-
+    https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/6YRoDtReQ9ipBDEmwNJU8w-Image-3.webp
+  type: tag
+  fields:
+    logo:
+      type: asset
+      locales:
+        en-US:
+          - _id: e573ed36-2f23-49db-adff-8cea3e717026
+            type: image
+            fields:
+              id:
+                type: text
+                value: 4fe58d64-0304-4a06-86ee-00d6f652e1c0
+              url:
+                value: >-
+                  https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/6YRoDtReQ9ipBDEmwNJU8w-Image-3.webp
+                type: text
+              file:
+                type: file
+                value: f29b6795-98e8-4a8e-a545-96aee0eb5ce1
+              size:
+                value: 145626
+                type: number
+              title:
+                type: text
+                value: Image-3.webp
+              width:
+                value: 1024
+                type: number
+              height:
+                value: 1024
+                type: number
+              mediaType:
+                value: image/webp
+                type: text
+            _source: uniform-assets
+    title:
+      type: text
+      locales:
+        en-US: Editorial
+    description:
+      type: text
+      locales:
+        en-US: >-
+          Encompasses articles that focus on editorial insights, writing
+          techniques, and publishing trends. This tag is ideal for writers,
+          editors, and content creators looking to refine their craft and stay
+          updated on the latest in the publishing world. It’s a hub for creative
+          inspiration and professional growth.
+  _locales:
+    - en-US

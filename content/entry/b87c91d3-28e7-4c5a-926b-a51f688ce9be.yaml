@@ -1,0 +1,89 @@
+created: '2023-11-20T09:34:29.891666+00:00'
+modified: '2024-09-24T18:55:38.827533+00:00'
+pattern: false
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+entry:
+  _id: b87c91d3-28e7-4c5a-926b-a51f688ce9be
+  _name: Great coffee maker
+  _slug: great-coffee-maker
+  _thumbnail: >-
+    https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/wU4W27-fT5KyqOcCkDo7Wg-luis_villasmil.jpg
+  type: testimonial
+  fields:
+    stars:
+      type: text
+      value: '5'
+    title:
+      type: text
+      locales:
+        en-US: Great coffee maker
+        es-US: Gran cafetera
+        fr-CA: Grande cafetière
+        nl-NL: Geweldig koffiezetapparaat
+    picture:
+      type: asset
+      value:
+        - _id: 2f35cf94-15c8-431c-88a6-6cea626f1191
+          type: image
+          fields:
+            id:
+              type: text
+              value: 2170494c-6886-4377-9476-e9cf49709deb
+            url:
+              value: >-
+                https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/wU4W27-fT5KyqOcCkDo7Wg-luis_villasmil.jpg
+              type: text
+            file:
+              type: file
+              value: eb36a57c-f5db-4238-9f94-b18e28449a96
+            size:
+              value: 1297815
+              type: number
+            title:
+              type: text
+              value: luis_villasmil.jpg
+            width:
+              value: 2592
+              type: number
+            height:
+              value: 3872
+              type: number
+            mediaType:
+              value: image/jpeg
+              type: text
+          _source: uniform-assets
+    product:
+      type: contentReference
+      value: ${#jptr:/ref-b87c91d3-28e7-4c5a-926b-a51f688ce9be-product/entries/0}
+    firstName:
+      type: text
+      locales:
+        en-US: Bflogal716
+        es-US: Bflogal716
+        fr-CA: Bflogal716
+        nl-NL: Bflogal716
+    experience:
+      type: text
+      locales:
+        en-US: >-
+          Great coffee maker, it makes all different sizes and has a great
+          frother.
+        es-US: >-
+          Gran cafetera, hace todos los tamaños diferentes y tiene una excelente
+          frotura.
+        fr-CA: >-
+          Grand cafetière, il fabrique toutes les différentes tailles et a une
+          grande frother.
+        nl-NL: >-
+          Geweldig koffiezetapparaat, het maakt alle verschillende maten en
+          heeft een geweldige broer.
+  _dataResources:
+    ref-b87c91d3-28e7-4c5a-926b-a51f688ce9be-product:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: df7a5d21-9a3c-49db-92d2-662b0fecce21
+  _locales:
+    - en-US
+    - es-US
+    - fr-CA
+    - nl-NL

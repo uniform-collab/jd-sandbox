@@ -1,0 +1,46 @@
+id: kontentAiArticles
+displayName: Articles
+ttl: 30
+path: /items?${searchByQuery}${languageQuery}${order}${contentTypeQuery}
+custom:
+  imageElement: thumbnail
+  searchElements:
+    - title
+  displayNameElement: title
+  enableFilterByLanguage: true
+  allowContentTypeCodeNames:
+    - article
+method: GET
+purgeKey: b641f6da-772c-4f57-b948-e528eddf83d2
+archetype: query
+variables:
+  limit:
+    type: text
+    default: '5'
+    displayName: Limit
+  order:
+    type: text
+    default: ''
+    displayName: Order
+  languageQuery:
+    type: text
+    default: ''
+    displayName: Language
+  searchByQuery:
+    type: text
+    default: ''
+    displayName: Search By
+  contentTypeQuery:
+    type: text
+    default: ''
+    displayName: Content Type
+parameters:
+  - key: system.collection[in]
+    value: ''
+    omitIfEmpty: true
+  - key: limit
+    value: ${limit}
+  - key: depth
+    value: '1'
+dataSourceId: kontentAiDataSource
+allowedOnComponents: []

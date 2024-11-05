@@ -1,0 +1,32 @@
+id: kontentAiCallToAction
+displayName: Call to Action
+ttl: 30
+path: /items/${itemsCodenames}
+custom:
+  imageElement: image
+  searchElements:
+    - title
+  displayNameElement: title
+  enableFilterByLanguage: true
+  allowContentTypeCodeNames:
+    - hero__copy_
+method: GET
+purgeKey: 631d6877-e1b2-4ba7-a408-faaebd3d9228
+archetype: singleItem
+variables:
+  language:
+    type: text
+    default: ''
+    displayName: Language
+  itemsCodenames:
+    type: text
+    default: ''
+    displayName: Items Codenames
+parameters:
+  - key: depth
+    value: '1'
+  - key: language
+    value: ${language}
+    omitIfEmpty: true
+dataSourceId: kontentAiDataSource
+allowedOnComponents: []

@@ -1,0 +1,85 @@
+created: '2023-11-20T09:34:27.305252+00:00'
+modified: '2024-09-24T18:55:38.827533+00:00'
+pattern: false
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+entry:
+  _id: 575ef3fd-b226-4eaa-bbec-20df30742651
+  _name: Four user profiles for full taste customization
+  _slug: four-user-profiles-for-full-taste-customization
+  _thumbnail: >-
+    https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/NshHSuUeTAuh_KPPQbXnGg-smart_feature_2.webp
+  type: productFeature
+  fields:
+    image:
+      type: asset
+      value:
+        - _id: 0330476e-8ffa-4ce9-9c6a-fb2f2e848c34
+          type: image
+          fields:
+            id:
+              type: text
+              value: b8baf1d2-9f1e-47cd-be64-df16ac8cbf9d
+            url:
+              value: >-
+                https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/NshHSuUeTAuh_KPPQbXnGg-smart_feature_2.webp
+              type: text
+            file:
+              type: file
+              value: 47d04de5-cf37-4d95-881e-6c61f7cfde5f
+            size:
+              value: 46628
+              type: number
+            title:
+              type: text
+              value: smart_feature_2.webp
+            width:
+              value: 1224
+              type: number
+            height:
+              value: 872
+              type: number
+            mediaType:
+              value: image/webp
+              type: text
+          _source: uniform-assets
+    title:
+      type: text
+      locales:
+        en-US: Four user profiles for full taste customization
+        es-US: Cuatro perfiles de usuario para la personalización de gusto completo
+        fr-CA: Quatre profils d'utilisateurs pour la personnalisation du goût complet
+        nl-NL: Vier gebruikersprofielen voor volledige smaakaanpassing
+    description:
+      type: text
+      locales:
+        en-US: >-
+          You may love your family more than anything, but that doesn’t mean you
+          love your coffee the same way. The Cervello di Caffè stores up to four
+          taste profiles, which are applied automatically when you use your app
+          or voice assistant to start the brewing process or can be set manually
+          on the machine.
+        es-US: >-
+          Puede amar a su familia más que nada, pero eso no significa que ames
+          tu café de la misma manera.Cervello di Caffè almacena hasta cuatro
+          perfiles de sabor, que se aplican automáticamente cuando usa su
+          aplicación o asistente de voz para iniciar el proceso de elaboración
+          de cerveza o se puede configurar manualmente en la máquina.
+        fr-CA: >-
+          Vous aimez peut-être votre famille plus que tout, mais cela ne
+          signifie pas que vous aimez votre café de la même manière.Le Cervello
+          Di Caffè stocke jusqu'à quatre profils de goût, qui sont appliqués
+          automatiquement lorsque vous utilisez votre application ou votre
+          assistant vocal pour démarrer le processus de brassage ou peut être
+          réglé manuellement sur la machine.
+        nl-NL: >-
+          Misschien hou je meer van je familie dan van wat dan ook, maar dat
+          betekent niet dat je op dezelfde manier van je koffie houdt.De
+          Cervello di Caffè winkelt maximaal vier smaakprofielen op, die
+          automatisch worden toegepast wanneer u uw app of spraakassistent
+          gebruikt om het brouwproces te starten of handmatig op de machine kan
+          worden ingesteld.
+  _locales:
+    - en-US
+    - es-US
+    - fr-CA
+    - nl-NL

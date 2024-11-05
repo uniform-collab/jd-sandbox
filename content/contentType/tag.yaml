@@ -1,0 +1,33 @@
+id: tag
+name: Tag
+created: '2024-08-20T09:43:23.841474+00:00'
+updated: '2024-08-20T09:43:23.841474+00:00'
+slugSettings:
+  required: 'no'
+useTeamPermissions: true
+fields:
+  - id: title
+    name: Title
+    type: text
+    helpText: ''
+    typeConfig: null
+    localizable: true
+  - id: description
+    name: Description
+    type: text
+    helpText: ''
+    typeConfig: null
+    localizable: true
+  - id: logo
+    name: Logo
+    type: asset
+    helpText: ''
+    typeConfig:
+      max: 1
+    localizable: true
+entryName: title
+thumbnailField: logo
+description: ''
+icon: hashtag
+type: contentType
+permissions: []

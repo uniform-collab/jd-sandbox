@@ -1,0 +1,86 @@
+created: '2024-08-12T13:04:54.325863+00:00'
+modified: '2024-09-24T18:55:38.827533+00:00'
+pattern: false
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+entry:
+  _id: 6563d379-e524-4ee5-8ede-5ad32423dc2a
+  _name: Contentful
+  _slug: contentful
+  _thumbnail: >-
+    https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/3Q7mmVMnR5SryxOcjU__Mg-Contentful_Logo_2.5_Dark.svg
+  type: contentSource
+  fields:
+    logo:
+      type: asset
+      value:
+        - _id: 0b69daa9-e876-4416-80bb-563401ca4914
+          type: image
+          fields:
+            id:
+              type: text
+              value: 0b3a90c7-f9c0-49e1-bfe7-e9f784786425
+            url:
+              value: >-
+                https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/3Q7mmVMnR5SryxOcjU__Mg-Contentful_Logo_2.5_Dark.svg
+              type: text
+            file:
+              type: file
+              value: 312711e1-e0ab-4fa9-84e9-b1fdd0a6f7b0
+            size:
+              value: 5195
+              type: number
+            title:
+              type: text
+              value: Contentful
+            width:
+              value: 700
+              type: number
+            height:
+              value: 149
+              type: number
+            mediaType:
+              value: image/svg+xml
+              type: text
+          _source: uniform-assets
+    title:
+      type: text
+      locales:
+        en-US: Contentful
+        es-US: Contentful
+        fr-CA: Contentful
+        nl-NL: Contentful
+    value:
+      type: text
+      locales:
+        en-US: contentful
+        es-US: contentful
+        fr-CA: contentful
+        nl-NL: contentful
+    description:
+      type: text
+      locales:
+        en-US: >-
+          A flexible and scalable headless CMS that allows you to manage and
+          deliver content across various platforms. Contentful provides powerful
+          tools for creating, editing, and organizing content in a way that fits
+          your specific needs.
+        es-US: >-
+          Un CMS flexible y escalable sin cabeza que le permite administrar y
+          entregar contenido en varias plataformas.Contentful proporciona
+          herramientas poderosas para crear, editar y organizar contenido de una
+          manera que se ajuste a sus necesidades específicas.
+        fr-CA: >-
+          Un CMS sans tête flexible et évolutif qui vous permet de gérer et de
+          livrer du contenu sur diverses plateformes. Contentful offre des
+          outils puissants pour créer, éditer et organiser le contenu de manière
+          à répondre à vos besoins spécifiques.
+        nl-NL: >-
+          Een flexibel en schaalbaar headless CMS waarmee je content kunt
+          beheren en leveren over verschillende platformen. Contentful biedt
+          krachtige tools voor het creëren, bewerken en organiseren van content
+          op een manier die aansluit bij jouw specifieke behoeften.
+  _locales:
+    - en-US
+    - es-US
+    - fr-CA
+    - nl-NL

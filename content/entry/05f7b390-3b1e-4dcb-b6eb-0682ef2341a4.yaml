@@ -1,0 +1,401 @@
+created: '2024-09-26T17:24:13.221229+00:00'
+modified: '2024-09-30T19:30:16.563916+00:00'
+pattern: false
+entry:
+  _id: 05f7b390-3b1e-4dcb-b6eb-0682ef2341a4
+  _name: The Layaway
+  _slug: the-layaway
+  _thumbnail: >-
+    https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/1Z-f5zzbSsClJJP4g1T36w-midnight-trample-cocktail.webp
+  type: recipe
+  fields:
+    name:
+      type: text
+      locales:
+        en-CA: The Layaway
+        en-GB: The Layaway
+        en-NL: The Layaway
+        en-US: The Layaway
+    yield:
+      type: text
+      locales:
+        en-CA: Makes 1
+        en-GB: Makes 1
+        en-NL: Makes 1
+        en-US: Makes 1
+    overview:
+      type: text
+      locales:
+        en-CA: >-
+          The combination of rum, coffee, lemon juice, and ginger beer is
+          surprisingly delicious—just don't make it a morning routine.
+        en-GB: >-
+          The combination of rum, coffee, lemon juice, and ginger beer is
+          surprisingly delicious—just don't make it a morning routine.
+        en-NL: >-
+          The combination of rum, coffee, lemon juice, and ginger beer is
+          surprisingly delicious—just don't make it a morning routine.
+        en-US: >-
+          The combination of rum, coffee, lemon juice, and ginger beer is
+          surprisingly delicious—just don't make it a morning routine.
+    subtitle:
+      type: text
+      locales:
+        en-CA: By Rick Martinez
+        en-GB: By Rick Martinez
+        en-NL: By Rick Martinez
+        en-US: By Rick Martinez
+    recipeType:
+      type: contentReference
+      value: ${#jptr:/ref-05f7b390-3b1e-4dcb-b6eb-0682ef2341a4-recipeType/entries/0}
+    description:
+      type: richText
+      locales:
+        en-CA:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      This cocktail recipe would also be tasty with regular dark
+                      rum and ginger ale, but we like the kick you get from
+                      using the spicier versions of each.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+            direction: ltr
+        en-GB:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      This cocktail recipe would also be tasty with regular dark
+                      rum and ginger ale, but we like the kick you get from
+                      using the spicier versions of each.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+            direction: ltr
+        en-NL:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      This cocktail recipe would also be tasty with regular dark
+                      rum and ginger ale, but we like the kick you get from
+                      using the spicier versions of each.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+            direction: ltr
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      This cocktail recipe would also be tasty with regular dark
+                      rum and ginger ale, but we like the kick you get from
+                      using the spicier versions of each.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+            direction: ltr
+    ingredients:
+      type: $block
+      value:
+        - _id: 1bb04431-7990-4d5b-bba9-d779fcc1459b
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-CA: spiced rum
+                en-GB: spiced rum
+                en-NL: spiced rum
+                en-US: spiced rum
+            unit:
+              type: select
+              value: oz
+            amount:
+              type: number
+              value: '2'
+        - _id: 152bb327-4f42-4962-bc33-86443309ced4
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-CA: black coffee
+                en-GB: black coffee
+                en-NL: black coffee
+                en-US: black coffee
+            unit:
+              type: select
+              value: oz
+            amount:
+              type: number
+              value: '2'
+            amountText:
+              type: text
+              locales:
+                en-CA: strong, room temperature
+                en-GB: strong, room temperature
+                en-NL: strong, room temperature
+                en-US: strong, room temperature
+        - _id: 6d037cfd-9b01-41b1-a906-866ef106d66f
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-CA: lemon juice
+                en-GB: lemon juice
+                en-NL: lemon juice
+                en-US: lemon juice
+            unit:
+              type: select
+              value: oz
+            amount:
+              type: number
+              value: '.5'
+            amountText:
+              type: text
+              locales:
+                en-CA: fresh
+                en-GB: fresh
+                en-NL: fresh
+                en-US: fresh
+        - _id: a79336aa-dcb0-40e1-a1aa-2801f8c1d5b0
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-CA: ginger beer
+                en-GB: ginger beer
+                en-NL: ginger beer
+                en-US: ginger beer
+            unit:
+              type: select
+              value: oz
+            amount:
+              type: number
+              value: '4'
+    publishDate:
+      type: date
+      value: '2016-11-21'
+    instructions:
+      type: $block
+      value:
+        - _id: 8559938e-ff32-453c-94f2-ab8c54d69268
+          type: howtoSection
+          fields:
+            name:
+              type: text
+              locales:
+                en-CA: Preparation
+                en-GB: Preparation
+                en-NL: Preparation
+                en-US: Preparation
+            description:
+              type: richText
+              locales:
+                en-CA:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: "Combine rum, coffee, and lemon juice in a cocktail shaker. Fill shaker with ice, cover, and shake vigorously until outside of shaker begins to get cold, about 10 seconds.\P Strain into a chilled coupe glass and top with ginger beer."
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                        textStyle: ''
+                        textFormat: 0
+                    direction: ltr
+                en-GB:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: "Combine rum, coffee, and lemon juice in a cocktail shaker. Fill shaker with ice, cover, and shake vigorously until outside of shaker begins to get cold, about 10 seconds.\P Strain into a chilled coupe glass and top with ginger beer."
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                        textStyle: ''
+                        textFormat: 0
+                    direction: ltr
+                en-NL:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: "Combine rum, coffee, and lemon juice in a cocktail shaker. Fill shaker with ice, cover, and shake vigorously until outside of shaker begins to get cold, about 10 seconds.\P Strain into a chilled coupe glass and top with ginger beer."
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                        textStyle: ''
+                        textFormat: 0
+                    direction: ltr
+                en-US:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: "Combine rum, coffee, and lemon juice in a cocktail shaker. Fill shaker with ice, cover, and shake vigorously until outside of shaker begins to get cold, about 10 seconds.\P Strain into a chilled coupe glass and top with ginger beer."
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                        textStyle: ''
+                        textFormat: 0
+                    direction: ltr
+    featuredImage:
+      type: asset
+      value:
+        - _id: ba7969ae-d83a-4749-be6a-9b6f6fb1bb43
+          type: image
+          fields:
+            id:
+              type: text
+              value: 73d2aa5b-70f3-4cfc-82bb-2af22a0f00e2
+            url:
+              value: >-
+                https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/1Z-f5zzbSsClJJP4g1T36w-midnight-trample-cocktail.webp
+              type: text
+            file:
+              type: file
+              value: 3902e3b0-888d-4714-bee1-5d111520042a
+            size:
+              value: 49790
+              type: number
+            title:
+              type: text
+              value: midnight-trample-cocktail.webp
+            width:
+              value: 1920
+              type: number
+            height:
+              value: 1920
+              type: number
+            mediaType:
+              value: image/webp
+              type: text
+          _source: uniform-assets
+    mainIngredient:
+      type: contentReference
+      value: >-
+        ${#jptr:/ref-05f7b390-3b1e-4dcb-b6eb-0682ef2341a4-mainIngredient/entries/0}
+  _dataResources:
+    ref-05f7b390-3b1e-4dcb-b6eb-0682ef2341a4-recipeType:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: ff0d64e6-b52f-4a4f-ae5b-e254fe9c04d8
+    ref-05f7b390-3b1e-4dcb-b6eb-0682ef2341a4-mainIngredient:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: 8609a1fb-f630-4501-b72d-b7c66516a286
+  _locales:
+    - en-US
+    - en-CA
+    - en-NL
+    - en-GB

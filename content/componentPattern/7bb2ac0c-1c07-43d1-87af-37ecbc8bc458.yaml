@@ -1,0 +1,69 @@
+composition:
+  _name: Product Bundle (recipe)
+  _id: 7bb2ac0c-1c07-43d1-87af-37ecbc8bc458
+  type: productBundle
+  parameters:
+    title:
+      type: text
+      locales:
+        en-CA: Buy Together & Save
+        en-GB: Buy Together & Save
+        en-NL: Buy Together & Save
+        en-US: Buy Together & Save
+        es-US: Compra juntos y ahorra
+        fr-CA: Achetez ensemble et économisez
+        nl-NL: Koop samen en bespaar
+    bundle:
+      type: json
+      value: ${#jptr:/Recipe Content/entry/fields/relatedProducts/value}
+    buttonText:
+      type: text
+      locales:
+        en-CA: Buy Together
+        en-GB: Buy Together
+        en-NL: Buy Together
+        en-US: Buy Together
+        es-US: Comprar juntos
+        fr-CA: Acheter ensemble
+        nl-NL: Samen kopen
+    buttonStyle:
+      type: tp-button-style-parameter
+      value: secondary
+    primaryTextColor:
+      type: tp-color-palette-parameter
+      value: primary-content
+    secondaryTextColor:
+      type: tp-color-palette-parameter
+      value: secondary
+  _dataResources:
+    Recipe Content:
+      type: recipeBySlug
+      variables:
+        slug: iced-coffee-shakerato
+        locale: ${locale}
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
+  _overridability:
+    parameters:
+      $viz: 'yes'
+      title: 'yes'
+      buttonText: 'yes'
+      buttonStyle: 'yes'
+      hideDescription: 'yes'
+      primaryTextColor: 'yes'
+      secondaryTextColor: 'yes'
+    hideLockedParameters: true
+  _locales:
+    - es-US
+    - en-US
+    - en-CA
+    - en-GB
+    - en-NL
+    - fr-CA
+    - nl-NL
+created: '2024-09-26T20:18:49.389084+00:00'
+modified: '2024-10-02T20:30:06.20822+00:00'
+pattern: true
+categoryId: 2da8c924-14d5-470b-9fe4-1e56521551e5
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+workflowStageId: 73608d81-f8b0-4ee3-897b-c976d2dc6670

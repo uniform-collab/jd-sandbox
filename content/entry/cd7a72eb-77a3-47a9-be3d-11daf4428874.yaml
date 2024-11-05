@@ -1,0 +1,37 @@
+created: '2024-08-12T13:06:22.972427+00:00'
+modified: '2024-09-24T18:55:38.827533+00:00'
+pattern: false
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+entry:
+  _id: cd7a72eb-77a3-47a9-be3d-11daf4428874
+  _name: How To Clean ANY Espresso Machine!
+  _slug: how-to-clean-any-espresso-machine
+  _thumbnail: >-
+    //images.ctfassets.net/4v9xo98brk8z/7INOtEY86WLPvf2f2oye3B/6e258498bf37c1a6824deb6179978f84/cleaning-basket_xzg4ch.jpg
+  type: article
+  fields: {}
+  _dataResources:
+    Article by Slug Content:
+      type: contentfulArticleBySlug
+      variables:
+        slug: how-to-clean-any-espresso-machine
+        locale: ${locale}
+        slugField: fields.slug[in]
+        contentType: article
+    ref-cd7a72eb-77a3-47a9-be3d-11daf4428874-tag:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: >-
+          6b1cdf4b-294f-4079-9fb7-c900fae46b8d,059615df-5702-40b2-ad1e-f420f76b9c4b
+  _locales:
+    - en-US
+    - es-US
+    - fr-CA
+    - nl-NL
+  _overrides:
+    cd7a72eb-77a3-47a9-be3d-11daf4428874:
+      parameters:
+        tag:
+          type: contentReference
+          value: ${#jptr:/ref-cd7a72eb-77a3-47a9-be3d-11daf4428874-tag/entries}
+  _pattern: 7150730f-2997-418e-85a4-aff63733493b

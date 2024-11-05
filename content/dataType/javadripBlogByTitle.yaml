@@ -1,0 +1,18 @@
+id: javadripBlogByTitle
+displayName: JavaDrip Blog by Title
+ttl: 30
+path: /posts/
+custom:
+  proposedName: posts/
+method: GET
+purgeKey: be52a5e8-4f09-452b-bf38-1f77d64faee0
+archetype: default
+variables:
+  Title:
+    type: text
+    default: HOW CAN I TELL IF MY COFFEE IS GOOD?
+parameters:
+  - key: search
+    value: ${Title}
+dataSourceId: javadripWordpressBlog
+allowedOnComponents: []

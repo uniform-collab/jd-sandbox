@@ -1,0 +1,101 @@
+created: '2024-08-12T13:05:37.894588+00:00'
+modified: '2024-09-24T18:55:38.827533+00:00'
+pattern: false
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+entry:
+  _id: 9328ed16-f24d-4ad8-b94b-3475bbddd86d
+  _name: Uniform
+  _slug: uniform
+  _thumbnail: >-
+    https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/oQdFWAqfSpyravPQf17kKQ-Uniform_logo_Black_naqw0s-(5).png
+  type: contentSource
+  fields:
+    logo:
+      type: asset
+      value:
+        - _id: cfcea558-c226-4a7c-9e22-fc80c1873e4f
+          type: image
+          fields:
+            id:
+              type: text
+              value: 1ee1ef85-916f-4c3e-b52d-ebc23d833299
+            url:
+              value: >-
+                https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/oQdFWAqfSpyravPQf17kKQ-Uniform_logo_Black_naqw0s-(5).png
+              type: text
+            file:
+              type: file
+              value: 821e880b-f304-4a55-bbdb-4106e681b405
+            size:
+              value: 26757
+              type: number
+            title:
+              type: text
+              value: Uniform logo
+            width:
+              value: 2533
+              type: number
+            height:
+              value: 800
+              type: number
+            mediaType:
+              value: image/png
+              type: text
+          _source: uniform-assets
+    title:
+      type: text
+      locales:
+        en-US: Uniform
+        es-US: Uniform
+        fr-CA: Uniform
+        nl-NL: Uniform
+    value:
+      type: text
+      locales:
+        en-US: uniform
+        es-US: uniform
+        fr-CA: uniform
+        nl-NL: uniform
+    description:
+      type: text
+      locales:
+        en-US: >-
+          Content-first approaches are common with digital teams. But sometimes
+          more flexibility is needed than is afforded by the content model in
+          the system of record.Fast-moving campaigns, personalization, and other
+          tailored experiences need to consider what's displayed (content), how
+          it's displayed (design), and why it's displayed (behavior) to deliver
+          a cohesive experience. Teams need experience models.
+        es-US: >-
+          Los enfoques de contenido primero son comunes con los equipos
+          digitales.Pero a veces se necesita más flexibilidad de lo que
+          proporciona el modelo de contenido en el sistema de registro. Las
+          campañas de movimiento rápido, la personalización y otras experiencias
+          personalizadas deben considerar lo que se muestra (contenido), cómo se
+          muestra (diseño) y por qué se muestra(comportamiento) para entregar
+          una experiencia cohesiva.Los equipos necesitan modelos de experiencia.
+        fr-CA: >-
+          Les approches centrées sur le contenu sont courantes parmi les équipes
+          numériques. Cependant, parfois plus de flexibilité est nécessaire que
+          celle offerte par le modèle de contenu dans le système
+          d’enregistrement. Les campagnes à rythme rapide, la personnalisation
+          et d’autres expériences sur mesure doivent prendre en compte ce qui
+          est affiché (contenu), comment c’est affiché (design), et pourquoi
+          c’est affiché (comportement) pour offrir une expérience cohérente. Les
+          équipes ont besoin de modèles d’expérience.
+        nl-NL: >-
+          Content-first benaderingen zijn gebruikelijk bij digitale teams. Maar
+          soms is er meer flexibiliteit nodig dan het contentmodel in het
+          registratiesysteem biedt. Snel bewegende campagnes, personalisatie en
+          andere op maat gemaakte ervaringen moeten rekening houden met wat
+          wordt weergegeven (content), hoe het wordt weergegeven (ontwerp) en
+          waarom het wordt weergegeven (gedrag) om een samenhangende ervaring te
+          leveren. Teams hebben ervaringsmodellen nodig.
+    displayPriority:
+      type: checkbox
+      value: true
+  _locales:
+    - en-US
+    - es-US
+    - fr-CA
+    - nl-NL

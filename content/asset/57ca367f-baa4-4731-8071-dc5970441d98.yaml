@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 57ca367f-baa4-4731-8071-dc5970441d98
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: waterfilter__90850.1662555459.386.513_escu6x.jpg
+    file:
+      type: file
+      value: 6f38ae44-eff4-43c0-963b-ff2a824822a4
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/9DLut9qKRg2AVjjK-8wMGA-waterfilter__90850.1662555459.386.513_escu6x.jpg
+      type: text
+    size:
+      value: 8046
+      type: number
+    width:
+      value: 386
+      type: number
+    height:
+      value: 386
+      type: number
+    custom: {}
+created: '2024-01-30T07:13:21.16789+00:00'
+modified: '2024-01-30T07:13:21.16789+00:00'

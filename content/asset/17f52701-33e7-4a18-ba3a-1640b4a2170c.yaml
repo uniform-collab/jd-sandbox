@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 17f52701-33e7-4a18-ba3a-1640b4a2170c
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: royale-iq-espresso-machine-117-1_sqzksc_bqve3k.jpg
+    file:
+      type: file
+      value: f33d95cb-3273-4a22-8602-d36946d28132
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/ZfOsu2xFSvO1sQ1iYWE6CA-royale-iq-espresso-machine-117-1_sqzksc_bqve3k.jpg
+      type: text
+    size:
+      value: 113353
+      type: number
+    width:
+      value: 1280
+      type: number
+    height:
+      value: 1280
+      type: number
+    custom: {}
+created: '2024-02-01T09:44:37.898191+00:00'
+modified: '2024-02-01T09:44:37.898191+00:00'

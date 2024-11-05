@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 9d1ba7a6-4f9a-4889-a2f9-f4ad9e3bb331
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: glass_of_coffee.jpg
+    file:
+      type: file
+      value: 3f7f4f53-ab33-4fb5-bccd-2a6263fa9a6d
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/cDqnsFa2TEmcMT4mof8cRA-glass_of_coffee.jpg
+      type: text
+    size:
+      value: 3253418
+      type: number
+    width:
+      value: 4000
+      type: number
+    height:
+      value: 6000
+      type: number
+    custom: {}
+created: '2023-12-12T16:27:26.345892+00:00'
+modified: '2023-12-12T16:27:26.345892+00:00'

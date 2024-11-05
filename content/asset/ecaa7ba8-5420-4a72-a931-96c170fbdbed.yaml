@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: ecaa7ba8-5420-4a72-a931-96c170fbdbed
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: ember-luxury-ottoman-coffee-espresso-set-138-2_apxpjy_syqsod.jpg
+    file:
+      type: file
+      value: 71f37c3b-d489-4a3c-9872-7211f8f3fd5f
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/QJ7O1N1YTnm8QNixArR0xQ-ember-luxury-ottoman-coffee-espresso-set-138-2_apxpjy_syqsod.jpg
+      type: text
+    size:
+      value: 136936
+      type: number
+    width:
+      value: 1280
+      type: number
+    height:
+      value: 1280
+      type: number
+    custom: {}
+created: '2024-01-30T07:03:45.420556+00:00'
+modified: '2024-01-30T07:03:45.420556+00:00'

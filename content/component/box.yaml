@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=<https://canary.uniform.app/schemas/json-schema/component-definition/v1.json>
+$schema: https://canary.uniform.app/schemas/json-schema/component-definition/v1.json
+id: box
+name: Box
+icon: box
+parameters:
+  - id: title
+    name: Title
+    type: text
+    typeConfig: null
+    localizable: true
+categoryId: 19f9419d-14da-496d-a4ac-eec5010e13d7
+previewImageUrl: >-
+  https://res.cloudinary.com/uniform-demos/image/upload/v1701958930/preview-images/NewJavaDripTheme/Box_preview_image.jpg
+useTeamPermissions: true
+slots:
+  - id: content
+    name: Content
+    allowedComponents: []
+    allowAllComponents: true
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: false
+titleParameter: title
+canBeComposition: false
+created: '2024-06-04T20:18:34.12341+00:00'
+updated: '2024-08-16T11:39:56.895929+00:00'

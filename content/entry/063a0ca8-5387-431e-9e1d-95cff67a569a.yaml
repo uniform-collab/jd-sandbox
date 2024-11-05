@@ -1,0 +1,896 @@
+created: '2023-11-20T09:34:24.842167+00:00'
+modified: '2024-09-24T18:55:38.827533+00:00'
+pattern: false
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+entry:
+  _id: 063a0ca8-5387-431e-9e1d-95cff67a569a
+  _name: 'Tech Meets Espresso Makers: The Future of Coffee Brewing'
+  _slug: tech-meets-espresso-makers-the-future-of-coffee-brewing
+  _thumbnail: >-
+    https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/Efo59LDFQFebxGVDX5inqQ-future_espresso_machine_with_touch_screen.png
+  type: article
+  fields:
+    tag:
+      type: contentReference
+      value: ${#jptr:/ref-063a0ca8-5387-431e-9e1d-95cff67a569a-tag/entries}
+    title:
+      type: text
+      locales:
+        en-US: 'Tech Meets Espresso Makers: The Future of Coffee Brewing'
+        es-US: >-
+          Tech conoce a los fabricantes de café expreso: el futuro de la
+          elaboración de cerveza de café
+        fr-CA: 'Tech Meets Espresso Makers: The Future of Coffee Brewing'
+        nl-NL: 'Tech Meets Espresso Makers: The Future of Coffee Brewing'
+    author:
+      type: text
+      locales:
+        en-US: Jonathan Blake
+        es-US: Jonathan Blake
+        fr-CA: Jonathan Blake
+        nl-NL: Jonathan Blake
+    source:
+      type: contentReference
+      value: ${#jptr:/ref-063a0ca8-5387-431e-9e1d-95cff67a569a-source/entries/0}
+    content:
+      type: richText
+      locales:
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      In a world where technology continues to evolve at a rapid
+                      pace, it's no surprise that even the simplest of
+                      appliances are getting a high-tech makeover. Coffee
+                      makers, once a humble kitchen staple, have now entered the
+                      realm of the digital age with touch screens and internet
+                      access. This marriage of technology and coffee culture has
+                      given rise to a new generation of coffee makers that
+                      promise convenience, customization, and connectivity like
+                      never before.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: The Rise of Touch Screen Coffee Makers
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                direction: ltr
+                textStyle: ''
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Traditional coffee makers served their purpose admirably,
+                      but they lacked the finesse and personalization that
+                      today's coffee connoisseurs demand. Touch screen coffee
+                      makers are changing the game by providing users with an
+                      intuitive interface that allows them to tailor their
+                      coffee experience to perfection. These machines come
+                      equipped with high-resolution touch screens that guide
+                      users through the brewing process, making it as simple as
+                      a few taps on the display.The touch screen interface
+                      allows users to choose their preferred coffee type, grind
+                      size, brewing strength, and even water temperature with
+                      precision. Whether you prefer a bold espresso shot or a
+                      creamy cappuccino, these coffee makers have you covered.
+                      With a touch of your finger, you can have your coffee just
+                      the way you like it, ensuring that each cup is a
+                      personalized masterpiece.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 'Internet Access and Coffee Makers: A Perfect Blend'
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                direction: ltr
+                textStyle: ''
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      But the innovation doesn't stop at touch screens. Internet
+                      connectivity has taken coffee makers to a whole new level
+                      of convenience and versatility. Imagine being able to
+                      start your coffee maker from bed, or even have it ready
+                      and waiting for you as you walk in the door after a long
+                      day. With internet-enabled coffee makers, these scenarios
+                      are now a reality.Through smartphone apps or web
+                      interfaces, users can remotely control their coffee
+                      makers. You can schedule brewing times, adjust settings,
+                      and even receive notifications when it's time to refill
+                      the water reservoir or change the coffee grounds. These
+                      smart features make coffee preparation more effortless
+                      than ever and ensure that you never have to wait for your
+                      morning caffeine fix.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Customization and Coffee Expertise
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                direction: ltr
+                textStyle: ''
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      One of the standout features of tech-savvy coffee makers
+                      is their ability to store user preferences and create
+                      customized brewing profiles. These machines learn from
+                      your choices and adapt over time, fine-tuning the brewing
+                      process to match your taste. This level of personalization
+                      allows coffee enthusiasts to explore the intricate flavors
+                      and aromas of different coffee beans, all with the push of
+                      a button.Moreover, these coffee makers often come with
+                      built-in databases of coffee recipes and recommendations.
+                      You can explore a world of coffee flavors and styles,
+                      guided by the expertise of baristas and coffee
+                      aficionados. This not only elevates your coffee experience
+                      but also helps you discover new blends and brewing methods
+                      you might not have considered before.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: The Future of Coffee Brewing
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                direction: ltr
+                textStyle: ''
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      As technology continues to advance, the marriage of tech
+                      and coffee makers is poised to redefine the way we enjoy
+                      our daily brew. Innovations such as artificial
+                      intelligence, machine learning, and voice control are
+                      likely to find their way into these devices, further
+                      enhancing their capabilities and convenience.Tech meets
+                      espresso makers are not just about brewing coffee; they're
+                      about crafting a coffee experience tailored to your
+                      individual preferences. With touch screens, internet
+                      access, and a world of coffee expertise at your
+                      fingertips, these coffee makers are transforming the
+                      morning ritual into a journey of taste and convenience.
+                      So, whether you're a coffee aficionado or simply someone
+                      who enjoys a good cup of joe, prepare to be amazed by the
+                      future of coffee brewing.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+            direction: ltr
+        es-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      In a world where technology continues to evolve at a rapid
+                      pace, it's no surprise that even the simplest of
+                      appliances are getting a high-tech makeover. Coffee
+                      makers, once a humble kitchen staple, have now entered the
+                      realm of the digital age with touch screens and internet
+                      access. This marriage of technology and coffee culture has
+                      given rise to a new generation of coffee makers that
+                      promise convenience, customization, and connectivity like
+                      never before.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: The Rise of Touch Screen Coffee Makers
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                direction: ltr
+                textStyle: ''
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Traditional coffee makers served their purpose admirably,
+                      but they lacked the finesse and personalization that
+                      today's coffee connoisseurs demand. Touch screen coffee
+                      makers are changing the game by providing users with an
+                      intuitive interface that allows them to tailor their
+                      coffee experience to perfection. These machines come
+                      equipped with high-resolution touch screens that guide
+                      users through the brewing process, making it as simple as
+                      a few taps on the display.The touch screen interface
+                      allows users to choose their preferred coffee type, grind
+                      size, brewing strength, and even water temperature with
+                      precision. Whether you prefer a bold espresso shot or a
+                      creamy cappuccino, these coffee makers have you covered.
+                      With a touch of your finger, you can have your coffee just
+                      the way you like it, ensuring that each cup is a
+                      personalized masterpiece.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 'Internet Access and Coffee Makers: A Perfect Blend'
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                direction: ltr
+                textStyle: ''
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      But the innovation doesn't stop at touch screens. Internet
+                      connectivity has taken coffee makers to a whole new level
+                      of convenience and versatility. Imagine being able to
+                      start your coffee maker from bed, or even have it ready
+                      and waiting for you as you walk in the door after a long
+                      day. With internet-enabled coffee makers, these scenarios
+                      are now a reality.Through smartphone apps or web
+                      interfaces, users can remotely control their coffee
+                      makers. You can schedule brewing times, adjust settings,
+                      and even receive notifications when it's time to refill
+                      the water reservoir or change the coffee grounds. These
+                      smart features make coffee preparation more effortless
+                      than ever and ensure that you never have to wait for your
+                      morning caffeine fix.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Customization and Coffee Expertise
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                direction: ltr
+                textStyle: ''
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      One of the standout features of tech-savvy coffee makers
+                      is their ability to store user preferences and create
+                      customized brewing profiles. These machines learn from
+                      your choices and adapt over time, fine-tuning the brewing
+                      process to match your taste. This level of personalization
+                      allows coffee enthusiasts to explore the intricate flavors
+                      and aromas of different coffee beans, all with the push of
+                      a button.Moreover, these coffee makers often come with
+                      built-in databases of coffee recipes and recommendations.
+                      You can explore a world of coffee flavors and styles,
+                      guided by the expertise of baristas and coffee
+                      aficionados. This not only elevates your coffee experience
+                      but also helps you discover new blends and brewing methods
+                      you might not have considered before.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: The Future of Coffee Brewing
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                direction: ltr
+                textStyle: ''
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      As technology continues to advance, the marriage of tech
+                      and coffee makers is poised to redefine the way we enjoy
+                      our daily brew. Innovations such as artificial
+                      intelligence, machine learning, and voice control are
+                      likely to find their way into these devices, further
+                      enhancing their capabilities and convenience.Tech meets
+                      espresso makers are not just about brewing coffee; they're
+                      about crafting a coffee experience tailored to your
+                      individual preferences. With touch screens, internet
+                      access, and a world of coffee expertise at your
+                      fingertips, these coffee makers are transforming the
+                      morning ritual into a journey of taste and convenience.
+                      So, whether you're a coffee aficionado or simply someone
+                      who enjoys a good cup of joe, prepare to be amazed by the
+                      future of coffee brewing.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+            direction: ltr
+        fr-CA:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      In a world where technology continues to evolve at a rapid
+                      pace, it's no surprise that even the simplest of
+                      appliances are getting a high-tech makeover. Coffee
+                      makers, once a humble kitchen staple, have now entered the
+                      realm of the digital age with touch screens and internet
+                      access. This marriage of technology and coffee culture has
+                      given rise to a new generation of coffee makers that
+                      promise convenience, customization, and connectivity like
+                      never before.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: The Rise of Touch Screen Coffee Makers
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Traditional coffee makers served their purpose admirably,
+                      but they lacked the finesse and personalization that
+                      today's coffee connoisseurs demand. Touch screen coffee
+                      makers are changing the game by providing users with an
+                      intuitive interface that allows them to tailor their
+                      coffee experience to perfection. These machines come
+                      equipped with high-resolution touch screens that guide
+                      users through the brewing process, making it as simple as
+                      a few taps on the display.The touch screen interface
+                      allows users to choose their preferred coffee type, grind
+                      size, brewing strength, and even water temperature with
+                      precision. Whether you prefer a bold espresso shot or a
+                      creamy cappuccino, these coffee makers have you covered.
+                      With a touch of your finger, you can have your coffee just
+                      the way you like it, ensuring that each cup is a
+                      personalized masterpiece.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 'Internet Access and Coffee Makers: A Perfect Blend'
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      But the innovation doesn't stop at touch screens. Internet
+                      connectivity has taken coffee makers to a whole new level
+                      of convenience and versatility. Imagine being able to
+                      start your coffee maker from bed, or even have it ready
+                      and waiting for you as you walk in the door after a long
+                      day. With internet-enabled coffee makers, these scenarios
+                      are now a reality.Through smartphone apps or web
+                      interfaces, users can remotely control their coffee
+                      makers. You can schedule brewing times, adjust settings,
+                      and even receive notifications when it's time to refill
+                      the water reservoir or change the coffee grounds. These
+                      smart features make coffee preparation more effortless
+                      than ever and ensure that you never have to wait for your
+                      morning caffeine fix.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Customization and Coffee Expertise
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      One of the standout features of tech-savvy coffee makers
+                      is their ability to store user preferences and create
+                      customized brewing profiles. These machines learn from
+                      your choices and adapt over time, fine-tuning the brewing
+                      process to match your taste. This level of personalization
+                      allows coffee enthusiasts to explore the intricate flavors
+                      and aromas of different coffee beans, all with the push of
+                      a button.Moreover, these coffee makers often come with
+                      built-in databases of coffee recipes and recommendations.
+                      You can explore a world of coffee flavors and styles,
+                      guided by the expertise of baristas and coffee
+                      aficionados. This not only elevates your coffee experience
+                      but also helps you discover new blends and brewing methods
+                      you might not have considered before.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: The Future of Coffee Brewing
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      As technology continues to advance, the marriage of tech
+                      and coffee makers is poised to redefine the way we enjoy
+                      our daily brew. Innovations such as artificial
+                      intelligence, machine learning, and voice control are
+                      likely to find their way into these devices, further
+                      enhancing their capabilities and convenience.Tech meets
+                      espresso makers are not just about brewing coffee; they're
+                      about crafting a coffee experience tailored to your
+                      individual preferences. With touch screens, internet
+                      access, and a world of coffee expertise at your
+                      fingertips, these coffee makers are transforming the
+                      morning ritual into a journey of taste and convenience.
+                      So, whether you're a coffee aficionado or simply someone
+                      who enjoys a good cup of joe, prepare to be amazed by the
+                      future of coffee brewing.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+            direction: ltr
+        nl-NL:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      In a world where technology continues to evolve at a rapid
+                      pace, it's no surprise that even the simplest of
+                      appliances are getting a high-tech makeover. Coffee
+                      makers, once a humble kitchen staple, have now entered the
+                      realm of the digital age with touch screens and internet
+                      access. This marriage of technology and coffee culture has
+                      given rise to a new generation of coffee makers that
+                      promise convenience, customization, and connectivity like
+                      never before.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: The Rise of Touch Screen Coffee Makers
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Traditional coffee makers served their purpose admirably,
+                      but they lacked the finesse and personalization that
+                      today's coffee connoisseurs demand. Touch screen coffee
+                      makers are changing the game by providing users with an
+                      intuitive interface that allows them to tailor their
+                      coffee experience to perfection. These machines come
+                      equipped with high-resolution touch screens that guide
+                      users through the brewing process, making it as simple as
+                      a few taps on the display.The touch screen interface
+                      allows users to choose their preferred coffee type, grind
+                      size, brewing strength, and even water temperature with
+                      precision. Whether you prefer a bold espresso shot or a
+                      creamy cappuccino, these coffee makers have you covered.
+                      With a touch of your finger, you can have your coffee just
+                      the way you like it, ensuring that each cup is a
+                      personalized masterpiece.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 'Internet Access and Coffee Makers: A Perfect Blend'
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      But the innovation doesn't stop at touch screens. Internet
+                      connectivity has taken coffee makers to a whole new level
+                      of convenience and versatility. Imagine being able to
+                      start your coffee maker from bed, or even have it ready
+                      and waiting for you as you walk in the door after a long
+                      day. With internet-enabled coffee makers, these scenarios
+                      are now a reality.Through smartphone apps or web
+                      interfaces, users can remotely control their coffee
+                      makers. You can schedule brewing times, adjust settings,
+                      and even receive notifications when it's time to refill
+                      the water reservoir or change the coffee grounds. These
+                      smart features make coffee preparation more effortless
+                      than ever and ensure that you never have to wait for your
+                      morning caffeine fix.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Customization and Coffee Expertise
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      One of the standout features of tech-savvy coffee makers
+                      is their ability to store user preferences and create
+                      customized brewing profiles. These machines learn from
+                      your choices and adapt over time, fine-tuning the brewing
+                      process to match your taste. This level of personalization
+                      allows coffee enthusiasts to explore the intricate flavors
+                      and aromas of different coffee beans, all with the push of
+                      a button.Moreover, these coffee makers often come with
+                      built-in databases of coffee recipes and recommendations.
+                      You can explore a world of coffee flavors and styles,
+                      guided by the expertise of baristas and coffee
+                      aficionados. This not only elevates your coffee experience
+                      but also helps you discover new blends and brewing methods
+                      you might not have considered before.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: The Future of Coffee Brewing
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      As technology continues to advance, the marriage of tech
+                      and coffee makers is poised to redefine the way we enjoy
+                      our daily brew. Innovations such as artificial
+                      intelligence, machine learning, and voice control are
+                      likely to find their way into these devices, further
+                      enhancing their capabilities and convenience.Tech meets
+                      espresso makers are not just about brewing coffee; they're
+                      about crafting a coffee experience tailored to your
+                      individual preferences. With touch screens, internet
+                      access, and a world of coffee expertise at your
+                      fingertips, these coffee makers are transforming the
+                      morning ritual into a journey of taste and convenience.
+                      So, whether you're a coffee aficionado or simply someone
+                      who enjoys a good cup of joe, prepare to be amazed by the
+                      future of coffee brewing.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+            direction: ltr
+    thumbnail:
+      type: asset
+      value:
+        - _id: 1a703686-11f2-4127-bb3d-dccf0cdebf47
+          type: image
+          fields:
+            id:
+              type: text
+              value: ac2fc33f-12c6-4b4f-a882-b891783d5752
+            url:
+              value: >-
+                https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/Efo59LDFQFebxGVDX5inqQ-future_espresso_machine_with_touch_screen.png
+              type: text
+            file:
+              type: file
+              value: 6c9dd7b2-5b9a-477d-b580-77cab00cb52d
+            size:
+              value: 1271200
+              type: number
+            title:
+              type: text
+              value: future_espresso_machine_with_touch_screen.png
+            width:
+              value: 1680
+              type: number
+            height:
+              value: 720
+              type: number
+            mediaType:
+              value: image/png
+              type: text
+          _source: uniform-assets
+    description:
+      type: text
+      locales:
+        en-US: >-
+          Experience coffee like never before with touch screen coffee makers
+          featuring internet connectivity. Customize your brew, schedule
+          remotely, and discover new flavors with the future of coffee at your
+          fingertips.
+        es-US: >-
+          Experimente el café como nunca antes con los cafeteros de pantalla
+          táctil con conectividad a Internet.Personalice su cerveza, programen
+          de forma remota y descubra nuevos sabores con el futuro del café a su
+          alcance.
+        fr-CA: >-
+          Experience coffee like never before with touch screen coffee makers
+          featuring internet connectivity. Customize your brew, schedule
+          remotely, and discover new flavors with the future of coffee at your
+          fingertips.
+        nl-NL: >-
+          Experience coffee like never before with touch screen coffee makers
+          featuring internet connectivity. Customize your brew, schedule
+          remotely, and discover new flavors with the future of coffee at your
+          fingertips.
+  _dataResources:
+    ref-063a0ca8-5387-431e-9e1d-95cff67a569a-tag:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: 059615df-5702-40b2-ad1e-f420f76b9c4b
+    ref-063a0ca8-5387-431e-9e1d-95cff67a569a-source:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: 9328ed16-f24d-4ad8-b94b-3475bbddd86d
+  _locales:
+    - en-US
+    - es-US
+    - fr-CA
+    - nl-NL

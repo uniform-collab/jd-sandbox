@@ -1,0 +1,94 @@
+created: '2024-08-12T13:03:47.564513+00:00'
+modified: '2024-09-24T18:55:38.827533+00:00'
+pattern: false
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+entry:
+  _id: 209cf989-a9a6-4740-b7ca-d6fcee62c3e8
+  _name: Ember
+  _slug: ember
+  type: brand
+  fields:
+    logo:
+      type: asset
+      locales:
+        en-US:
+          - _id: 0b73bef2-a4b6-49e5-82a8-a8eae58c159b
+            type: image
+            fields:
+              id:
+                type: text
+                value: 0045a165-b99d-4a7d-8997-a388f4ab9f64
+              url:
+                value: >-
+                  https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/wc7--2gJTzSickR_FhgJeQ-Image-2.webp
+                type: text
+              file:
+                type: file
+                value: 8306067a-8787-4fec-8750-2f47b50a42c9
+              size:
+                value: 89222
+                type: number
+              title:
+                type: text
+                value: Image-2.webp
+              width:
+                value: 1024
+                type: number
+              height:
+                value: 1024
+                type: number
+              mediaType:
+                value: image/webp
+                type: text
+            _source: uniform-assets
+    title:
+      type: text
+      locales:
+        en-US: Ember
+        es-US: Ember
+        fr-CA: Ember
+        nl-NL: Ember
+    description:
+      type: text
+      locales:
+        en-US: >-
+          Ember is revolutionizing the coffee experience with innovative coffee
+          makers and premium coffee products. Our vision is to ignite your
+          passion for coffee by combining cutting-edge technology with artisanal
+          craftsmanship. Whether you’re a coffee connoisseur or a casual
+          drinker, Ember offers the tools and flavors to elevate your coffee
+          moments. With a focus on quality and innovation, Ember is dedicated to
+          delivering a consistently exceptional brew that warms your soul and
+          sparks your day.
+        es-US: >-
+          Ember está revolucionando la experiencia del café con cafeteras
+          innovadoras y productos de café premium.Nuestra visión es encender su
+          pasión por el café combinando tecnología de vanguardia con artesanía
+          artesanal.Ya sea que sea un conocedor de café o un bebedor informal,
+          Ember ofrece las herramientas y sabores para elevar sus momentos de
+          café.Con un enfoque en la calidad y la innovación, Ember se dedica a
+          ofrecer una cerveza consistentemente excepcional que calienta tu alma
+          y despierta tu día.
+        fr-CA: >-
+          Ember révolutionne l'expérience du café avec des cafetières innovantes
+          et des produits de café premium.Notre vision est d'allumer votre
+          passion pour le café en combinant une technologie de pointe avec
+          l'artisanat artisanal.Que vous soyez un connaisseur de café ou un
+          buveur décontracté, Ember propose les outils et les saveurs pour
+          élever vos moments de café.En mettant l'accent sur la qualité et
+          l'innovation, Ember se consacre à la livraison d'un breuvage toujours
+          exceptionnel qui réchauffe votre âme et déclenche votre journée.
+        nl-NL: >-
+          Ember is een revolutie teweeg in de koffie -ervaring met innovatieve
+          koffiezetapparaten en premium koffieproducten.Onze visie is om uw
+          passie voor koffie te ontsteken door geavanceerde technologie te
+          combineren met ambachtelijk vakmanschap.Of u nu een koffie -kenner of
+          een informele drinker bent, Ember biedt de gereedschappen en smaken om
+          uw koffiemomenten te verheffen.Met een focus op kwaliteit en innovatie
+          is Ember toegewijd aan het leveren van een consistent uitzonderlijk
+          brouwsel dat je ziel verwarmt en je dag opwekken.
+  _locales:
+    - en-US
+    - es-US
+    - fr-CA
+    - nl-NL

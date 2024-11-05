@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 0fd0a5d2-40b9-43ec-a7d9-e87bb47b2eda
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: cervello_di_caffe_1.jpg
+    file:
+      type: file
+      value: 369bf04c-c148-4480-b6d7-7629d6cf184a
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/fgUTlIFqQVuQwhxHSrGEXw-cervello_di_caffe_1.jpg
+      type: text
+    size:
+      value: 113554
+      type: number
+    width:
+      value: 987
+      type: number
+    height:
+      value: 987
+      type: number
+    custom: {}
+created: '2023-12-12T16:59:07.872413+00:00'
+modified: '2023-12-12T16:59:07.872413+00:00'

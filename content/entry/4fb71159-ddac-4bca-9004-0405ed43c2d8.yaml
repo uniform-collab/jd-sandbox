@@ -1,0 +1,96 @@
+created: '2024-08-12T13:04:33.633634+00:00'
+modified: '2024-09-24T18:55:38.827533+00:00'
+pattern: false
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+entry:
+  _id: 4fb71159-ddac-4bca-9004-0405ed43c2d8
+  _name: Accessories
+  _slug: accessories
+  type: productCategory
+  fields:
+    logo:
+      type: asset
+      locales:
+        en-US:
+          - _id: 4f08c23f-0aca-405c-a185-7f85c57e1a1e
+            type: image
+            fields:
+              id:
+                type: text
+                value: bae48b16-03dd-42f9-b364-6cc95d0fdf16
+              url:
+                value: >-
+                  https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/3kjTEDqOSh6jmQNpiPEvCg-Image-12.png
+                type: text
+              file:
+                type: file
+                value: ebdb841d-1c77-45d4-bcfc-7d595fd86e73
+              size:
+                value: 12445
+                type: number
+              title:
+                type: text
+                value: Image-12.png
+              width:
+                value: 1024
+                type: number
+              height:
+                value: 1024
+                type: number
+              mediaType:
+                value: image/png
+                type: text
+            _source: uniform-assets
+    title:
+      type: text
+      locales:
+        en-US: Accessories
+        es-US: Accesorios
+        fr-CA: Accessoires
+        nl-NL: Accessoires
+    description:
+      type: text
+      locales:
+        en-US: >-
+          Enhance your coffee brewing experience with our range of high-quality
+          coffee accessories. From precise measuring spoons and elegant filters
+          to durable storage containers and stylish mugs, our selection includes
+          everything you need to perfect your coffee routine. Each accessory is
+          designed to complement your brewing process, ensuring you enjoy the
+          best cup of coffee every time. Explore our coffee accessories
+          collection and find the perfect tools to elevate your daily coffee
+          ritual.
+        es-US: >-
+          Mejore su experiencia de café con nuestra gama de accesorios de café
+          de alta calidad.Desde cucharas de medición precisas y filtros
+          elegantes hasta contenedores de almacenamiento duraderos y tazas
+          elegantes, nuestra selección incluye todo lo que necesita para
+          perfeccionar su rutina de café.Cada accesorio está diseñado para
+          complementar su proceso de elaboración de cerveza, asegurando que
+          disfrute de la mejor taza de café cada vez.Explore nuestra colección
+          de accesorios de café y encuentre las herramientas perfectas para
+          elevar su ritual diario de café.
+        fr-CA: >-
+          Améliorez votre expérience de brassage à café avec notre gamme
+          d'accessoires de café de haute qualité.Des cuillères à mesure précises
+          et des filtres élégants aux conteneurs de stockage durables et aux
+          tasses élégantes, notre sélection comprend tout ce dont vous avez
+          besoin pour perfectionner votre routine de café.Chaque accessoire est
+          conçu pour compléter votre processus de brassage, en vous assurant de
+          profiter de la meilleure tasse de café à chaque fois.Explorez notre
+          collection d'accessoires de café et trouvez les outils parfaits pour
+          élever votre rituel de café quotidien.
+        nl-NL: >-
+          Verbeter uw coffee-brouwervaring met ons assortiment hoogwaardige
+          koffie-accessoires.Van nauwkeurige lepels en elegante filters tot
+          duurzame opslagcontainers en stijlvolle mokken, onze selectie bevat
+          alles wat u nodig hebt om uw koffieroutine te perfectioneren.Elk
+          accessoire is ontworpen als aanvulling op uw brouwproces, zodat u elke
+          keer geniet van de beste kop koffie.Verken onze collectie van de
+          koffie -accessoires en vind de perfecte hulpmiddelen om uw dagelijkse
+          koffieritueel te verheffen.
+  _locales:
+    - en-US
+    - es-US
+    - fr-CA
+    - nl-NL

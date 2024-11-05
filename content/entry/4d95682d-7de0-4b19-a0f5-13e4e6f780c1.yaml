@@ -1,0 +1,257 @@
+created: '2024-06-04T20:23:49.561664+00:00'
+modified: '2024-08-15T12:18:21.080079+00:00'
+pattern: false
+workflowId: 784fa239-ae8a-4ab1-ba68-9806d0fe406a
+workflowStageId: 73608d81-f8b0-4ee3-897b-c976d2dc6670
+entry:
+  _id: 4d95682d-7de0-4b19-a0f5-13e4e6f780c1
+  _name: Breakfast Blend Coffee
+  _slug: breakfast-blend-coffee-128
+  _thumbnail: >-
+    https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/F-JPUDv-Squx_j82A96Ekw-breakfast-blend-coffee-128_oxayyg_txiagu.jpg
+  type: product
+  fields:
+    body:
+      type: richText
+      locales:
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Our Breakfast Blend light roast whole bean coffee is the
+                      perfect morning coffee to ease you into your day. Our
+                      coffee is made with premium quality Arabica coffee beans
+                      from Central and South America. They are grown, sourced
+                      and packaged responsibly, after being roasted fresh in
+                      Seattle, USA.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+            direction: ltr
+        fr-CA:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Notre café en grains entiers torréfié léger Breakfast
+                      Blend est le café du matin parfait pour vous faciliter la
+                      journée. Notre café est fabriqué à partir de grains de
+                      café Arabica de première qualité provenant d’Amérique
+                      centrale et d’Amérique du Sud. Ils sont cultivés, achetés
+                      et emballés de manière responsable, après avoir été
+                      torréfiés frais à Seattle, aux États-Unis.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+            direction: ltr
+        nl-NL:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Onze Breakfast Blend licht gebrande koffie met hele bonen
+                      is de perfecte ochtendkoffie om je dag op een ontspannen
+                      manier te beginnen. Onze koffie wordt gemaakt met
+                      hoogwaardige Arabica-koffiebonen uit Midden- en
+                      Zuid-Amerika. Ze worden op verantwoorde wijze geteeld,
+                      ingekocht en verpakt, nadat ze vers zijn geroosterd in
+                      Seattle, VS.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+            direction: ltr
+    name:
+      type: text
+      value: Breakfast Blend Coffee
+    brand:
+      type: contentReference
+      value: ${#jptr:/ref-4d95682d-7de0-4b19-a0f5-13e4e6f780c1-brand/entries/0}
+    title:
+      type: text
+      value: Breakfast Blend Coffee
+    category:
+      type: contentReference
+      value: ${#jptr:/ref-4d95682d-7de0-4b19-a0f5-13e4e6f780c1-category/entries}
+    variants:
+      type: $block
+      value:
+        - _id: 99f1c985-4bc6-4a5b-b06b-3f32584e83ac
+          type: variant
+          fields:
+            code:
+              type: text
+              value: '128'
+            price:
+              type: number
+              locales:
+                en-US: '14.99'
+                fr-CA: '13.80'
+                nl-NL: '13.80'
+                es-US: '14.99'
+            title:
+              type: text
+              locales:
+                en-US: Breakfast Blend Coffee
+                es-US: Breakfast Blend Coffee
+                fr-CA: Breakfast Blend Coffee
+                nl-NL: Breakfast Blend Coffee
+            currency:
+              type: text
+              locales:
+                en-US: $
+                es-US: $
+                fr-CA: €
+                nl-NL: €
+            imageGallery:
+              type: asset
+              value:
+                - _id: d0d79485-55ca-4ea6-9eca-fb7c210c07ca
+                  type: image
+                  fields:
+                    id:
+                      type: text
+                      value: 3e8f1568-34aa-4a53-9681-9eb9fcb77ad8
+                    url:
+                      value: >-
+                        https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/HvZXba9zSamB8Ue5p54omQ-breakfast-blend-coffee-128_oxayyg_txiagu.jpg
+                      type: text
+                    file:
+                      type: file
+                      value: 5c0a294b-f3eb-45ca-a96d-613987ac34c6
+                    size:
+                      value: 14969
+                      type: number
+                    title:
+                      type: text
+                      value: breakfast-blend-coffee-128_oxayyg_txiagu.jpg
+                    width:
+                      value: 386
+                      type: number
+                    height:
+                      value: 386
+                      type: number
+                    mediaType:
+                      value: image/jpeg
+                      type: text
+                  _source: uniform-assets
+    primaryImage:
+      type: asset
+      value:
+        - _id: ae629597-3338-47a6-92e5-d59179d7d97f
+          type: image
+          fields:
+            id:
+              type: text
+              value: fa1ee959-dfd5-4cce-b029-b2b24710cace
+            url:
+              value: >-
+                https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/F-JPUDv-Squx_j82A96Ekw-breakfast-blend-coffee-128_oxayyg_txiagu.jpg
+              type: text
+            file:
+              type: file
+              value: 071b9222-3430-4d9a-a211-8e7c15d3d095
+            size:
+              value: 14969
+              type: number
+            title:
+              type: text
+              value: breakfast-blend-coffee-128_oxayyg_txiagu.jpg
+            width:
+              value: 386
+              type: number
+            height:
+              value: 386
+              type: number
+            mediaType:
+              value: image/jpeg
+              type: text
+          _source: uniform-assets
+    recommendations:
+      type: contentReference
+      value: >-
+        ${#jptr:/ref-4d95682d-7de0-4b19-a0f5-13e4e6f780c1-recommendations/entries}
+    shortDescription:
+      type: text
+      locales:
+        en-US: >-
+          Our Breakfast Blend light roast whole bean coffee is the perfect
+          morning coffee to ease you into your day. Our coffee is made with
+          premium quality Arabica coffee beans from Central and South America.
+          They are grown, sourced and packaged responsibly, after being roasted
+          fresh in Seattle, USA.
+        es-US: >-
+          Nuestro Desayuno Beat Bean Coffee Whole Bean es el café de la mañana
+          perfecto para aliviarlo en su día.Nuestro café está hecho con granos
+          de café Arábica de primera calidad de América Central y del Sur.Se
+          cultivan, obtienen y empaquetan responsablemente, después de ser
+          asados ​​frescos en Seattle, EE. UU.
+        fr-CA: >-
+          Notre café en grains entiers torréfié léger Breakfast Blend est le
+          café du matin parfait pour vous faciliter la journée. Notre café est
+          fabriqué à partir de grains de café Arabica de première qualité
+          provenant d’Amérique centrale et d’Amérique du Sud. Ils sont cultivés,
+          achetés et emballés de manière responsable, après avoir été torréfiés
+          frais à Seattle, aux États-Unis.
+        nl-NL: >-
+          Onze Breakfast Blend licht gebrande koffie met hele bonen is de
+          perfecte ochtendkoffie om je dag op een ontspannen manier te beginnen.
+          Onze koffie wordt gemaakt met hoogwaardige Arabica-koffiebonen uit
+          Midden- en Zuid-Amerika. Ze worden op verantwoorde wijze geteeld,
+          ingekocht en verpakt, nadat ze vers zijn geroosterd in Seattle, VS.
+  _dataResources:
+    ref-4d95682d-7de0-4b19-a0f5-13e4e6f780c1-brand:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: de5d95bc-f87f-4503-a635-fec03d9f06a1
+    ref-4d95682d-7de0-4b19-a0f5-13e4e6f780c1-category:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: >-
+          fe6eee89-44c4-4fbd-b05a-344243710c12,09b62b8c-1d09-443b-bba5-95fadbf37f80
+    ref-4d95682d-7de0-4b19-a0f5-13e4e6f780c1-recommendations:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: >-
+          82b84782-4236-4b06-a994-59f088896b91,72b49ac2-bbf3-48a7-b522-0947483e9131,778c1de0-9119-4617-8fde-4cbff7da8031,04d9514e-ad86-4df4-867d-855af7b70b52
+  _locales:
+    - en-US
+    - es-US
+    - fr-CA
+    - nl-NL

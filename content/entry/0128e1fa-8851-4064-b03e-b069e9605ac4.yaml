@@ -1,0 +1,43 @@
+created: '2024-08-12T13:03:24.170764+00:00'
+modified: '2024-09-24T18:55:38.827533+00:00'
+pattern: false
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+entry:
+  _id: 0128e1fa-8851-4064-b03e-b069e9605ac4
+  _name: 5 Things You Can Do With Your Used Coffee Grinds
+  _slug: 5-things-you-can-do-with-your-used-coffee-grinds
+  _thumbnail: >-
+    https://assets-us-01.kc-usercontent.com:443/bf6fb8b9-53e1-004f-964b-5aaa52ee073c/e34977d1-ad6e-4029-a3b5-6027752a75b4/5_things_for_used_grinds_odiueo.jpg
+  type: article
+  fields: {}
+  _dataResources:
+    Article By Slug Content:
+      type: kontentAiArticleBySlug
+      variables:
+        limit: '5'
+        order: ''
+        keyword: 5-things-you-can-do-with-your-used-coffee-grinds
+        language: ${locale}
+        sortOrder: asc
+        contentType: article
+        sortElement: ''
+        languageQuery: '&language=${locale}'
+        searchByQuery: >-
+          elements.slug[range]=5-things-you-can-do-with-your-used-coffee-grinds,5-things-you-can-do-with-your-used-coffee-grinds~
+        contentTypeQuery: '&system.type[eq]=article'
+    ref-0128e1fa-8851-4064-b03e-b069e9605ac4-tag:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: 0947295b-ef13-48a7-8416-42250bd09ddf
+  _locales:
+    - en-US
+    - es-US
+    - fr-CA
+    - nl-NL
+  _overrides:
+    0128e1fa-8851-4064-b03e-b069e9605ac4:
+      parameters:
+        tag:
+          type: contentReference
+          value: ${#jptr:/ref-0128e1fa-8851-4064-b03e-b069e9605ac4-tag/entries}
+  _pattern: ca075af6-b2ba-43f8-b1df-e58b62a13ce1

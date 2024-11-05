@@ -1,0 +1,73 @@
+composition:
+  _name: Article Card
+  _id: 59b4fb3d-9b40-4a99-bb40-c93c3ddbdd30
+  type: card
+  variant: backgroundImage
+  parameters:
+    badge:
+      type: text
+      locales:
+        en-US: >-
+          ${#jptr:/Article
+          Content/entry/fields/source/value/entry/fields/title/value}
+    image:
+      type: asset
+      value:
+        - _id: 79186f80-8360-4a58-88eb-0c0b581f4104
+          type: image
+          fields:
+            url:
+              type: text
+              value: >-
+                ${#jptr:/Article
+                Content/entry/fields/thumbnail/value/0/fields/url/value}
+          _source: custom-url
+    title:
+      type: text
+      locales:
+        en-US: ${#jptr:/Article Content/entry/fields/title/value}
+    buttonCopy:
+      type: text
+      locales:
+        en-US: Read Article
+    buttonLink:
+      type: link
+      value:
+        path: /${locale}/articles/${#jptr:/Article Content/entry/_slug}
+        type: projectMapNode
+        nodeId: 9ccb607b-5e39-45c0-83f8-ed31fbaf61a1
+        projectMapId: 62588085-7894-4810-84b6-eaaf0cb5213c
+        dynamicInputValues:
+          locale: ${locale}
+          article-slug: ${#jptr:/Article Content/entry/_slug}
+    description:
+      type: text
+      locales:
+        en-US: ${#jptr:/Article Content/entry/fields/description/value}
+    overlayColor:
+      type: tp-color-style-parameter
+      value: primary
+    overlayOpacity:
+      type: tp-slider-parameter
+      value: 30%
+    lineCountRestriction:
+      type: tp-slider-parameter
+      value: '5'
+  _dataResources:
+    Article Content:
+      type: article
+      variables:
+        locale: ${locale}
+        search: ''
+        entryId: 4b671799-554a-40e9-b463-a6d4a5cb7ded
+        contentTypes: article
+      isPatternParameter: true
+      ignorePatternParameterDefault: false
+  _overridability:
+    hideLockedParameters: true
+  _locales:
+    - en-US
+created: '2024-08-19T13:24:05.989871+00:00'
+modified: '2024-09-24T18:55:38.827533+00:00'
+pattern: true
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5

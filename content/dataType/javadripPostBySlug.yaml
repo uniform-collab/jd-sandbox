@@ -1,0 +1,15 @@
+id: javadripPostBySlug
+displayName: JavaDrip Post by Slug
+ttl: 30
+path: /posts/slug:$${slug}
+custom:
+  proposedName: posts/slug:$${slug}
+method: GET
+purgeKey: fab79965-3368-4b6b-bff4-c46b5d189b8a
+archetype: default
+variables:
+  slug:
+    type: text
+    default: how-can-i-tell-if-my-coffee-is-good
+dataSourceId: javadripWordpressBlog
+allowedOnComponents: []

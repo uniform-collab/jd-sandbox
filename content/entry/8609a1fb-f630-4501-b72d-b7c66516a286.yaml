@@ -1,0 +1,15 @@
+created: '2024-09-26T14:43:30.223982+00:00'
+modified: '2024-09-26T14:43:44.082478+00:00'
+pattern: false
+entry:
+  _id: 8609a1fb-f630-4501-b72d-b7c66516a286
+  _name: Coffee
+  _slug: coffee
+  type: ingredient
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: Coffee
+  _locales:
+    - en-US

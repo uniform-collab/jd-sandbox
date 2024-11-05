@@ -1,0 +1,37 @@
+created: '2024-08-12T13:05:15.100501+00:00'
+modified: '2024-09-24T18:55:38.827533+00:00'
+pattern: false
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+entry:
+  _id: 79b2983d-9322-44ca-8dae-5dd68e626c08
+  _name: 'GUIDE: Best Home Espresso Machines on the Market'
+  _slug: guide-best-home-espresso-machines-on-the-market
+  _thumbnail: >-
+    //images.ctfassets.net/4v9xo98brk8z/17eATDg5fcEPk6fEECSFrG/bb1c396965c6cdd0698afb2cdbe2c4ec/perfectcup_article_thumb.jpg
+  type: article
+  fields: {}
+  _dataResources:
+    Article by Slug Content:
+      type: contentfulArticleBySlug
+      variables:
+        slug: guide-best-home-espresso-machines-on-the-market
+        locale: ${locale}
+        slugField: fields.slug[in]
+        contentType: article
+    ref-79b2983d-9322-44ca-8dae-5dd68e626c08-tag:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: >-
+          0947295b-ef13-48a7-8416-42250bd09ddf,6b1cdf4b-294f-4079-9fb7-c900fae46b8d
+  _locales:
+    - en-US
+    - es-US
+    - fr-CA
+    - nl-NL
+  _overrides:
+    79b2983d-9322-44ca-8dae-5dd68e626c08:
+      parameters:
+        tag:
+          type: contentReference
+          value: ${#jptr:/ref-79b2983d-9322-44ca-8dae-5dd68e626c08-tag/entries}
+  _pattern: 7150730f-2997-418e-85a4-aff63733493b

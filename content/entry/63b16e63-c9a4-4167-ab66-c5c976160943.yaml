@@ -1,0 +1,85 @@
+created: '2024-08-12T13:04:43.063148+00:00'
+modified: '2024-09-24T18:55:38.827533+00:00'
+pattern: false
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+entry:
+  _id: 63b16e63-c9a4-4167-ab66-c5c976160943
+  _name: Contentstack
+  _slug: contentstack
+  _thumbnail: >-
+    https://canary-img.uniform.global/p/iAF9Tqs1Q5CP1K9u5bkwSQ/GuwEnlwiRKuGKLVtoPS8ag-d6b927cbfc8af4f23dbdfd3dd6009de2.png
+  type: contentSource
+  fields:
+    logo:
+      type: asset
+      value:
+        - _id: 58b3f05f-b51c-4381-b553-52bc244cbd9b
+          type: image
+          fields:
+            id:
+              type: text
+              value: 39c39bd2-894f-4de8-bbbe-89a076011db8
+            url:
+              value: >-
+                https://canary-img.uniform.global/p/iAF9Tqs1Q5CP1K9u5bkwSQ/GuwEnlwiRKuGKLVtoPS8ag-d6b927cbfc8af4f23dbdfd3dd6009de2.png
+              type: text
+            file:
+              type: file
+              value: 2bd54496-aa43-4ddd-9942-d486dbfad258
+            size:
+              value: 8332
+              type: number
+            title:
+              type: text
+              value: Contentstack
+            width:
+              value: 450
+              type: number
+            height:
+              value: 450
+              type: number
+            mediaType:
+              value: image/png
+              type: text
+          _source: uniform-assets
+    title:
+      type: text
+      locales:
+        en-US: Contentstack
+        es-US: Contentstack
+        fr-CA: Contentstack
+        nl-NL: Contentstack
+    value:
+      type: text
+      locales:
+        en-US: contentstack
+        es-US: contentstack
+        fr-CA: contentstack
+        nl-NL: contentstack
+    description:
+      type: text
+      locales:
+        en-US: >-
+          A headless CMS designed for developers and marketers alike,
+          Contentstack offers an intuitive interface and robust API capabilities
+          to manage content and deliver it seamlessly across digital channels.
+        es-US: >-
+          ContentStack, un CMS sin cabeza diseñado para desarrolladores y
+          vendedores, ofrece una interfaz intuitiva y capacidades de API
+          robustas para administrar el contenido y entregarlo sin problemas en
+          los canales digitales.
+        fr-CA: >-
+          Un CMS sans tête conçu à la fois pour les développeurs et les
+          marketeurs, Contentstack offre une interface intuitive et des
+          capacités API robustes pour gérer le contenu et le livrer de manière
+          transparente sur les canaux numériques.
+        nl-NL: >-
+          Een headless CMS ontworpen voor zowel ontwikkelaars als marketeers,
+          Contentstack biedt een intuïtieve interface en robuuste
+          API-mogelijkheden om content te beheren en naadloos te leveren over
+          digitale kanalen.
+  _locales:
+    - en-US
+    - es-US
+    - fr-CA
+    - nl-NL

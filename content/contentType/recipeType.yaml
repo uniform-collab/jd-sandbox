@@ -1,0 +1,32 @@
+id: recipeType
+name: Recipe type
+created: '2024-09-26T14:35:27.531328+00:00'
+updated: '2024-09-26T14:35:27.531328+00:00'
+slugSettings: {}
+useTeamPermissions: true
+fields:
+  - id: name
+    name: Name
+    type: text
+    typeConfig:
+      required: true
+    localizable: true
+  - id: description
+    name: Description
+    type: text
+    typeConfig:
+      multiline: true
+      linesCount: 5
+    localizable: true
+  - id: image
+    name: Image
+    type: asset
+    typeConfig:
+      max: 1
+    localizable: true
+entryName: name
+thumbnailField: image
+description: ''
+icon: tag
+type: contentType
+permissions: []

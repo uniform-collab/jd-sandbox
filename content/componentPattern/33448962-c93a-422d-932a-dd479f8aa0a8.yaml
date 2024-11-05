@@ -1,0 +1,19 @@
+composition:
+  _name: Small Spacer
+  _id: 33448962-c93a-422d-932a-dd479f8aa0a8
+  type: spacer
+  parameters:
+    thickness:
+      type: tp-slider-parameter
+      value: 20px
+  _overridability:
+    hideLockedParameters: true
+  _locales:
+    - es-US
+    - en-US
+    - nl-NL
+    - fr-CA
+created: '2024-06-06T13:11:19.899323+00:00'
+modified: '2024-09-24T18:55:38.827533+00:00'
+pattern: true
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5

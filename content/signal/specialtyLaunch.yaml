@@ -1,0 +1,26 @@
+id: specialtyLaunch
+name: Specialty Launch
+cap: 100
+crit:
+  op: '&'
+  type: G
+  clauses:
+    - type: QS
+      match:
+        cs: true
+        op: //
+        rhs: \blnch\b
+      subtype: UTM_TAX
+      queryName: utm_campaign
+      utm_mapper_taxonomy_id: 3c1c2192-8c4f-4e84-a8ab-f4f9795ca8b2
+    - type: QS
+      match:
+        cs: true
+        op: //
+        rhs: \bspec\b
+      subtype: UTM_TAX
+      queryName: utm_campaign
+      utm_mapper_taxonomy_id: 73187b39-a6c1-44e8-aae3-ca302d829b65
+dur: p
+description: Visitor has responded to Specialty Launch
+str: 50

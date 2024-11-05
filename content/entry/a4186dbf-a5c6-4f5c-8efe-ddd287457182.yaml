@@ -1,0 +1,63 @@
+created: '2023-11-20T09:34:29.433473+00:00'
+modified: '2024-09-24T18:55:38.827533+00:00'
+pattern: false
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+entry:
+  _id: a4186dbf-a5c6-4f5c-8efe-ddd287457182
+  _name: We have great promotions
+  _slug: we-have-great-promotions
+  _thumbnail: >-
+    https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/MBJImtCZQUaAlOrNpX8YBw-nathan_dumlao.jpg
+  type: callToAction
+  fields:
+    image:
+      type: asset
+      value:
+        - _id: 840cdaf0-c945-46db-8815-810e4e02d6cf
+          type: image
+          fields:
+            id:
+              type: text
+              value: be369644-86b5-4b6d-8890-86b073d1df55
+            url:
+              value: >-
+                https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/MBJImtCZQUaAlOrNpX8YBw-nathan_dumlao.jpg
+              type: text
+            file:
+              type: file
+              value: 7dcaa0a3-30ef-4376-9e16-ae5b8f75c86b
+            size:
+              value: 2566538
+              type: number
+            title:
+              type: text
+              value: nathan_dumlao.jpg
+            width:
+              value: 6720
+              type: number
+            height:
+              value: 4480
+              type: number
+            mediaType:
+              value: image/jpeg
+              type: text
+          _source: uniform-assets
+    title:
+      type: text
+      locales:
+        en-US: We have great promotions
+        es-US: Nosotras tenemos grandes promociones
+        fr-CA: Nous avons de grandes promotions
+        nl-NL: We hebben geweldige promoties
+    description:
+      type: text
+      locales:
+        en-US: Right in your inbox every week
+        es-US: Justo en su bandeja de entrada todas las semanas
+        fr-CA: Juste dans votre boîte de réception chaque semaine
+        nl-NL: Even elke week in uw inbox
+  _locales:
+    - en-US
+    - es-US
+    - fr-CA
+    - nl-NL

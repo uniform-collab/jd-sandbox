@@ -1,0 +1,50 @@
+created: '2024-09-26T16:55:04.186897+00:00'
+modified: '2024-09-26T19:57:06.985886+00:00'
+pattern: false
+entry:
+  _id: e19bc739-5bb0-4a1b-80d4-d88fd57e5e79
+  _name: Breakfast
+  _slug: breakfast
+  _thumbnail: >-
+    https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/coNW4qAVTvab1Km-6ARXyg-coffee-flavored-belgian-waffles.webp
+  type: recipeType
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: Breakfast
+    image:
+      type: asset
+      locales:
+        en-US:
+          - _id: 10c02caf-a939-4331-9695-15b35ff3d3c0
+            type: image
+            fields:
+              id:
+                type: text
+                value: d0fe3df3-6379-4f6d-836b-f1a784cd83e5
+              url:
+                value: >-
+                  https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/coNW4qAVTvab1Km-6ARXyg-coffee-flavored-belgian-waffles.webp
+                type: text
+              file:
+                type: file
+                value: aed620f2-e2ab-43ca-bd1b-726671127ca2
+              size:
+                value: 63484
+                type: number
+              title:
+                type: text
+                value: coffee-flavored-belgian-waffles.webp
+              width:
+                value: 1280
+                type: number
+              height:
+                value: 853
+                type: number
+              mediaType:
+                value: image/webp
+                type: text
+            _source: uniform-assets
+  _locales:
+    - en-US

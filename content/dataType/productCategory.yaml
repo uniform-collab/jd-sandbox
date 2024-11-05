@@ -1,0 +1,18 @@
+id: productCategory
+displayName: Product Category
+ttl: 30
+body: ''
+path: /single
+custom:
+  maxDepth: 3
+  allowedContentTypes:
+    - productCategory
+method: GET
+purgeKey: c5cfebfe-bb39-4de9-9eb8-b2b8199a747a
+archetype: singleEntry
+variables:
+  entryId:
+    type: text
+    default: ''
+dataSourceId: uniformContent
+allowedOnComponents: []

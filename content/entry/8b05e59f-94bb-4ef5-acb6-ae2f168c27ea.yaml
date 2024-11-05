@@ -1,0 +1,89 @@
+created: '2024-08-12T13:05:35.756304+00:00'
+modified: '2024-09-24T18:55:38.827533+00:00'
+pattern: false
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+entry:
+  _id: 8b05e59f-94bb-4ef5-acb6-ae2f168c27ea
+  _name: Impresso
+  _slug: impresso
+  type: brand
+  fields:
+    logo:
+      type: asset
+      locales:
+        en-US:
+          - _id: f9e778ca-36de-49d5-a75f-1bff27df7b49
+            type: image
+            fields:
+              id:
+                type: text
+                value: 06777b1f-ec81-4297-9921-fac1d7fd73dc
+              url:
+                value: >-
+                  https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/YL2pthqRST2iqph0pcFpYA-Image-4.webp
+                type: text
+              file:
+                type: file
+                value: b06cb908-303b-4ca0-8130-99c018c0fe0e
+              size:
+                value: 398738
+                type: number
+              title:
+                type: text
+                value: Image-4.webp
+              width:
+                value: 1024
+                type: number
+              height:
+                value: 1024
+                type: number
+              mediaType:
+                value: image/webp
+                type: text
+            _source: uniform-assets
+    title:
+      type: text
+      locales:
+        en-US: Impresso
+        es-US: Impresso
+        fr-CA: Impresso
+        nl-NL: Impresso
+    description:
+      type: text
+      locales:
+        en-US: >-
+          Impresso is dedicated to delivering an extraordinary coffee experience
+          through its innovative coffee makers and premium coffee products. Our
+          goal is to blend tradition with technology, offering coffee
+          enthusiasts the perfect brew every time. From advanced espresso
+          machines to carefully selected coffee beans, Impresso stands for
+          quality, innovation, and passion in every cup.
+        es-US: >-
+          Impreso se dedica a ofrecer una experiencia de café extraordinaria a
+          través de sus innovadores cafeteras y productos de café
+          premium.Nuestro objetivo es combinar la tradición con la tecnología,
+          ofreciendo a los entusiastas del café la cerveza perfecta cada
+          vez.Desde máquinas de espresso avanzadas hasta granos de café
+          cuidadosamente seleccionados, Impreso significa calidad, innovación y
+          pasión en cada taza.
+        fr-CA: >-
+          Impresso se consacre à offrir une expérience de café extraordinaire
+          par le biais de ses cafetières innovantes et de ses produits de café
+          premium.Notre objectif est de mélanger la tradition avec la
+          technologie, offrant aux amateurs de café le breuvage parfait à chaque
+          fois.Des machines à expresso avancées aux grains de café soigneusement
+          sélectionnés, Impresso signifie la qualité, l'innovation et la passion
+          dans chaque tasse.
+        nl-NL: >-
+          Impresso is toegewijd aan het leveren van een buitengewone koffie
+          -ervaring via zijn innovatieve koffiezetapparaten en premium
+          koffieproducten.Ons doel is om traditie te combineren met technologie
+          en coffee -enthousiastelingen het perfecte brouwsel elke keer te
+          bieden.Van geavanceerde espressomachines tot zorgvuldig geselecteerde
+          koffiebonen, Impresso staat voor kwaliteit, innovatie en passie in
+          elke beker.
+  _locales:
+    - en-US
+    - es-US
+    - fr-CA
+    - nl-NL

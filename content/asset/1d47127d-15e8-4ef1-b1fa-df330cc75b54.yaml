@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 1d47127d-15e8-4ef1-b1fa-df330cc75b54
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: icon_pot.avif
+    file:
+      type: file
+      value: 89273075-6829-47db-9b35-3248a5af4d94
+    mediaType:
+      value: image/avif
+      type: text
+    url:
+      value: >-
+        https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/3aMYVBBhQTKhaIgwK1oP2g-icon_pot.avif
+      type: text
+    size:
+      value: 1419
+      type: number
+    width:
+      value: 60
+      type: number
+    height:
+      value: 60
+      type: number
+    custom: {}
+created: '2024-06-03T12:03:03.987623+00:00'
+modified: '2024-06-03T12:03:03.987623+00:00'

@@ -1,0 +1,8 @@
+id: 13eeab22-d31c-41e8-9660-359713c85fc6
+name: Layout Examples
+order: 800
+path: /:locale/Layouts
+type: placeholder
+pathSegment: Layouts
+data: {}
+projectMapId: 62588085-7894-4810-84b6-eaaf0cb5213c

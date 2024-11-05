@@ -1,0 +1,15 @@
+created: '2024-10-03T18:06:38.384456+00:00'
+modified: '2024-10-03T18:06:49.350465+00:00'
+pattern: false
+entry:
+  _id: 205f3e3f-8eac-4d27-9296-5bb03c1cd8b2
+  _name: Ground Coffee
+  _slug: ground-coffee
+  type: ingredient
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: Ground Coffee
+  _locales:
+    - en-US

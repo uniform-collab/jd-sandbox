@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 5a866858-56f7-42d6-bd21-d8f1b9210604
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: JD.svg
+    file:
+      type: file
+      value: d0650d95-e94b-4280-9865-e417729256d9
+    mediaType:
+      value: image/svg+xml
+      type: text
+    url:
+      value: >-
+        https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/LuTlPqk9SbW_NXzioLoPMg-JD.svg
+      type: text
+    size:
+      value: 8045
+      type: number
+    width:
+      value: 60
+      type: number
+    height:
+      value: 57
+      type: number
+    custom: {}
+created: '2024-06-06T12:58:57.777949+00:00'
+modified: '2024-06-06T12:58:57.777949+00:00'

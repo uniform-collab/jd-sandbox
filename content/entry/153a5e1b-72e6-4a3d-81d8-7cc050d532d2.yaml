@@ -1,0 +1,84 @@
+created: '2024-09-26T20:08:40.661328+00:00'
+modified: '2024-09-27T13:11:22.002799+00:00'
+pattern: false
+workflowId: 784fa239-ae8a-4ab1-ba68-9806d0fe406a
+workflowStageId: 73608d81-f8b0-4ee3-897b-c976d2dc6670
+entry:
+  _id: 153a5e1b-72e6-4a3d-81d8-7cc050d532d2
+  _name: Hawthorne Strainer
+  _slug: hawthorne-strainer
+  _thumbnail: >-
+    https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/DPMVKG_iSXmROx2nECLVdQ-Product-Strainer.webp
+  type: product
+  fields:
+    name:
+      type: text
+      value: Hawthorne Strainer
+    title:
+      type: text
+      value: Hawthorne Strainer
+    category:
+      type: contentReference
+      value: ${#jptr:/ref-9eca65f5-d075-4297-a2e5-e5501b9ff58a-category/entries}
+    variants:
+      type: $block
+      value:
+        - _id: b03f94f9-bc34-4778-99b4-807c08cf4256
+          type: variant
+          fields:
+            price:
+              type: number
+              locales:
+                en-US: '7'
+            title:
+              type: text
+              locales:
+                en-US: Hawthorne Strainer
+            currency:
+              type: text
+              locales:
+                en-US: $
+    primaryImage:
+      type: asset
+      value:
+        - _id: 9a8495db-40d3-494e-b581-c637b7a27b51
+          type: image
+          fields:
+            id:
+              type: text
+              value: edc89c0e-78e7-49fc-8052-4b6f3da203c9
+            url:
+              value: >-
+                https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/DPMVKG_iSXmROx2nECLVdQ-Product-Strainer.webp
+              type: text
+            file:
+              type: file
+              value: 8870d512-ccb1-41b0-9ce2-b57e825a3dbb
+            size:
+              value: 27682
+              type: number
+            title:
+              type: text
+              value: Product-Strainer.webp
+            width:
+              value: 640
+              type: number
+            height:
+              value: 640
+              type: number
+            mediaType:
+              value: image/webp
+              type: text
+          _source: uniform-assets
+    shortDescription:
+      type: text
+      locales:
+        en-US: For making great adult drinks with out straining yourself
+  _dataResources:
+    ref-9eca65f5-d075-4297-a2e5-e5501b9ff58a-category:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: 4fb71159-ddac-4bca-9004-0405ed43c2d8
+  _locales:
+    - en-US

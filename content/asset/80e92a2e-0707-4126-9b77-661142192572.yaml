@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 80e92a2e-0707-4126-9b77-661142192572
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: descaling_tablets__24083.1662555428.386.513_plb7u6.jpg
+    file:
+      type: file
+      value: 4ae8079f-f120-4046-85bd-c97a9284af54
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/TbrDOtv_T4adxQ9PYFFfbg-descaling_tablets__24083.1662555428.386.513_plb7u6.jpg
+      type: text
+    size:
+      value: 17481
+      type: number
+    width:
+      value: 386
+      type: number
+    height:
+      value: 386
+      type: number
+    custom: {}
+created: '2024-01-30T07:11:44.803582+00:00'
+modified: '2024-01-30T07:11:44.803582+00:00'

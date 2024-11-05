@@ -1,0 +1,21 @@
+{
+ "locales": [
+  "fr-CA",
+  "en-CA",
+  "en-US",
+  "es-US",
+  "en-NL",
+  "nl-NL",
+  "en-GB"
+ ],
+ "localeNames": {
+  "fr-CA": "Français Canada 🇨🇦",
+  "en-CA": "English Canada 🇨🇦",
+  "en-US": "English USA 🇺🇸",
+  "es-US": "Spanish 🇺🇸",
+  "en-NL": "English 🇳🇱",
+  "nl-NL": "Dutch 🇳🇱",
+  "en-GB": "English GB 🇬🇧"
+ },
+ "defaultLocale": "en-US"
+}

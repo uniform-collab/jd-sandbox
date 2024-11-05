@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 1b4c543b-36a6-4772-87ed-a85b2545597e
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: Image.webp
+    file:
+      type: file
+      value: 3a90a02b-d23f-4cc6-9523-a4f522c5cb96
+    mediaType:
+      value: image/webp
+      type: text
+    url:
+      value: >-
+        https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/D_TFYaXfSNOlrb6SqxhV5A-Image.webp
+      type: text
+    size:
+      value: 118328
+      type: number
+    width:
+      value: 1024
+      type: number
+    height:
+      value: 1024
+      type: number
+    custom: {}
+created: '2024-08-01T11:13:13.956538+00:00'
+modified: '2024-08-01T11:13:13.956538+00:00'

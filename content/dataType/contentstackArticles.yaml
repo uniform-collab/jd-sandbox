@@ -1,0 +1,60 @@
+id: contentstackArticles
+displayName: Articles
+ttl: 30
+path: /content_types/${content_type_uid}/entries?${include}
+custom:
+  include: 2
+  imagePath: thumbnail.url
+  searchFieldIds:
+    - content
+    - description
+    - title
+  allowContentTypeUids:
+    - article
+  enableFilterByLocale: true
+method: GET
+purgeKey: de4a1238-e545-418c-b795-541a117f1eb9
+archetype: queryEntry
+variables:
+  asc:
+    type: text
+    default: ''
+    displayName: Order by asc
+  desc:
+    type: text
+    default: ''
+    displayName: Order by desc
+  limit:
+    type: text
+    default: '5'
+    displayName: Limit
+  query:
+    type: text
+    default: ''
+    displayName: Query
+  locale:
+    type: text
+    default: ''
+    displayName: Locale
+  include:
+    type: text
+    default: ''
+    displayName: Include
+  content_type_uid:
+    type: text
+    default: article
+    displayName: Entry Type
+parameters:
+  - key: query
+    value: ${query}
+  - key: limit
+    value: ${limit}
+  - key: asc
+    value: ${asc}
+  - key: desc
+    value: ${desc}
+  - key: locale
+    value: ${locale}
+    omitIfEmpty: true
+dataSourceId: contentstackDataSource
+allowedOnComponents: []

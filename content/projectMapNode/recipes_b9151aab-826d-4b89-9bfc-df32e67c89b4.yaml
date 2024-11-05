@@ -1,0 +1,9 @@
+id: b9151aab-826d-4b89-9bfc-df32e67c89b4
+name: Recipes
+order: 700
+path: /:locale/about-us/recipes
+type: composition
+pathSegment: recipes
+data: {}
+compositionId: 03f678c9-2157-47fe-8f8a-a7e680e323f5
+projectMapId: 62588085-7894-4810-84b6-eaaf0cb5213c

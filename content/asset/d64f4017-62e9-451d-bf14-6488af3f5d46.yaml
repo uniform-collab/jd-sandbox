@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: d64f4017-62e9-451d-bf14-6488af3f5d46
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: first_day_articles.jpg
+    file:
+      type: file
+      value: d8a7c316-2b86-4166-b55d-433116e8bd46
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/9KIJdnEXRxGvp2niSKKjLQ-first_day_articles.jpg
+      type: text
+    size:
+      value: 161789
+      type: number
+    width:
+      value: 686
+      type: number
+    height:
+      value: 338
+      type: number
+    custom: {}
+created: '2023-12-12T17:06:54.06674+00:00'
+modified: '2023-12-12T17:06:54.06674+00:00'

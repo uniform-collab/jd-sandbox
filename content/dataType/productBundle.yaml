@@ -1,0 +1,15 @@
+id: productBundle
+displayName: Product Bundle
+path: /single
+custom:
+  allowedContentTypes:
+    - productBundle
+method: GET
+purgeKey: b8bd63a5-2b9b-4db9-97d7-d0f7c393b73e
+archetype: singleEntry
+variables:
+  entryId:
+    type: text
+    default: ''
+dataSourceId: uniformContent
+allowedOnComponents: []

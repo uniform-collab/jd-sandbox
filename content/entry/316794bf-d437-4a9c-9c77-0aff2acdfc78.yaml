@@ -1,0 +1,804 @@
+created: '2024-09-26T14:38:54.539209+00:00'
+modified: '2024-09-30T19:24:37.021249+00:00'
+pattern: false
+entry:
+  _id: 316794bf-d437-4a9c-9c77-0aff2acdfc78
+  _name: Cold-Brew Chicory Coffee
+  _slug: cold-brew-chicory-coffee
+  _thumbnail: >-
+    https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/vAQl_PcRSzaaXNLdWuZJrA-cold-brew-chicory-coffee.webp
+  type: recipe
+  fields:
+    name:
+      type: text
+      locales:
+        en-CA: Cold-Brew Chicory Coffee
+        en-GB: Cold-Brew Chicory Coffee
+        en-NL: Cold-Brew Chicory Coffee
+        en-US: Cold-Brew Chicory Coffee
+    yield:
+      type: text
+      locales:
+        en-CA: 8 servings
+        en-GB: 8 servings
+        en-NL: 8 servings
+        en-US: 8 servings
+    overview:
+      type: text
+      locales:
+        en-CA: >-
+          What started out as an act of desperation—people turned to
+          coffee-esque chicory when Union blockades cut off the New Orleans port
+          during the Civil War—has become a NOLA tradition.
+        en-GB: >-
+          What started out as an act of desperation—people turned to
+          coffee-esque chicory when Union blockades cut off the New Orleans port
+          during the Civil War—has become a NOLA tradition.
+        en-NL: >-
+          What started out as an act of desperation—people turned to
+          coffee-esque chicory when Union blockades cut off the New Orleans port
+          during the Civil War—has become a NOLA tradition.
+        en-US: >-
+          What started out as an act of desperation—people turned to
+          coffee-esque chicory when Union blockades cut off the New Orleans port
+          during the Civil War—has become a NOLA tradition.
+    subtitle:
+      type: text
+      locales:
+        en-CA: by Commander’s Palace, New Orleans, LA
+        en-GB: by Commander’s Palace, New Orleans, LA
+        en-NL: by Commander’s Palace, New Orleans, LA
+        en-US: by Commander’s Palace, New Orleans, LA
+    recipeType:
+      type: contentReference
+      value: ${#jptr:/ref-316794bf-d437-4a9c-9c77-0aff2acdfc78-recipeType/entries/0}
+    description:
+      type: richText
+      locales:
+        en-CA:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: "If you like your cold brew black, skip the sweetened condensed milk. If you want it extra sweet, add both cans. We like it somewhere in between. This recipe is from\_"
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - link:
+                      path: https://www.commanderspalace.com/
+                      type: url
+                    type: link
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Commander's Palace
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - mode: normal
+                    text: "\_in New Orleans, LA. Read more about the restaurant's\_"
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - link:
+                      path: >-
+                        https://www.bonappetit.com/story/commanders-palace-family-meal
+                      type: url
+                    type: link
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: legendary Family Meal here.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+            direction: ltr
+        en-GB:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: "If you like your cold brew black, skip the sweetened condensed milk. If you want it extra sweet, add both cans. We like it somewhere in between. This recipe is from\_"
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - link:
+                      path: https://www.commanderspalace.com/
+                      type: url
+                    type: link
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Commander's Palace
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - mode: normal
+                    text: "\_in New Orleans, LA. Read more about the restaurant's\_"
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - link:
+                      path: >-
+                        https://www.bonappetit.com/story/commanders-palace-family-meal
+                      type: url
+                    type: link
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: legendary Family Meal here.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+            direction: ltr
+        en-NL:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: "If you like your cold brew black, skip the sweetened condensed milk. If you want it extra sweet, add both cans. We like it somewhere in between. This recipe is from\_"
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - link:
+                      path: https://www.commanderspalace.com/
+                      type: url
+                    type: link
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Commander's Palace
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - mode: normal
+                    text: "\_in New Orleans, LA. Read more about the restaurant's\_"
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - link:
+                      path: >-
+                        https://www.bonappetit.com/story/commanders-palace-family-meal
+                      type: url
+                    type: link
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: legendary Family Meal here.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+            direction: ltr
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: "If you like your cold brew black, skip the sweetened condensed milk. If you want it extra sweet, add both cans. We like it somewhere in between. This recipe is from\_"
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - link:
+                      path: https://www.commanderspalace.com/
+                      type: url
+                    type: link
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Commander's Palace
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - mode: normal
+                    text: "\_in New Orleans, LA. "
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+            direction: ltr
+    ingredients:
+      type: $block
+      value:
+        - _id: 59ef6d27-2c75-4061-9cf0-d467a5d76254
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-CA: chicory coffee blend
+                en-GB: chicory coffee blend
+                en-NL: chicory coffee blend
+                en-US: chicory coffee blend
+            unit:
+              type: select
+              value: oz
+            amount:
+              type: number
+              value: '8'
+        - _id: 88da6008-bb96-4641-b19f-b6a7a858c1d4
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-CA: sweetened condensed milk
+                en-GB: sweetened condensed milk
+                en-NL: sweetened condensed milk
+                en-US: sweetened condensed milk
+            unit:
+              type: select
+              value: oz
+            amount:
+              type: number
+              value: '2'
+            amountText:
+              type: text
+              locales:
+                en-CA: 14-oz. cans
+                en-GB: 14-oz. cans
+                en-NL: 14-oz. cans
+                en-US: 14-oz. cans
+        - _id: 9a542b5e-fbbf-45d0-9b48-acfa051b52b7
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-CA: vanilla extract
+                en-GB: vanilla extract
+                en-NL: vanilla extract
+                en-US: vanilla extract
+            unit:
+              type: select
+              value: tsp
+            amount:
+              type: number
+              value: '2'
+    publishDate:
+      type: date
+      value: '2018-02-09'
+    instructions:
+      type: $block
+      value:
+        - _id: 68cc955d-0351-4d6b-8a50-5e895a74ad78
+          type: howtoSection
+          fields:
+            name:
+              type: text
+              locales:
+                en-CA: Preparation
+                en-GB: Preparation
+                en-NL: Preparation
+                en-US: Preparation
+            steps:
+              type: $block
+              value:
+                - _id: 971ad50c-e318-4bcf-80f1-5a445d563c5c
+                  type: howtoStep
+                  fields:
+                    name:
+                      type: text
+                      locales:
+                        en-CA: Step 1
+                        en-GB: Step 1
+                        en-NL: Step 1
+                        en-US: Step 1
+                    description:
+                      type: richText
+                      locales:
+                        en-CA:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Place coffee in a large bowl and add 8
+                                      cups cold water. Stir gently to make sure
+                                      all of the grounds are moistened. Chill
+                                      overnight.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        en-GB:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Place coffee in a large bowl and add 8
+                                      cups cold water. Stir gently to make sure
+                                      all of the grounds are moistened. Chill
+                                      overnight.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        en-NL:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Place coffee in a large bowl and add 8
+                                      cups cold water. Stir gently to make sure
+                                      all of the grounds are moistened. Chill
+                                      overnight.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        en-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Place coffee in a large bowl and add 8
+                                      cups cold water. Stir gently to make sure
+                                      all of the grounds are moistened. Chill
+                                      overnight.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                - _id: b15f2c05-d18c-42b7-b30e-90ec64f6aad6
+                  type: howtoStep
+                  fields:
+                    name:
+                      type: text
+                      locales:
+                        en-CA: Step 2
+                        en-GB: Step 2
+                        en-NL: Step 2
+                        en-US: Step 2
+                    description:
+                      type: richText
+                      locales:
+                        en-CA:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Line a sieve with a coffee filter and
+                                      place over a pitcher. Strain coffee into
+                                      pitcher (do not stir); discard solids.
+                                      Stir in 1 can sweetened condensed milk and
+                                      vanilla extract. If you like your coffee
+                                      sweeter, add more milk.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        en-GB:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Line a sieve with a coffee filter and
+                                      place over a pitcher. Strain coffee into
+                                      pitcher (do not stir); discard solids.
+                                      Stir in 1 can sweetened condensed milk and
+                                      vanilla extract. If you like your coffee
+                                      sweeter, add more milk.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        en-NL:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Line a sieve with a coffee filter and
+                                      place over a pitcher. Strain coffee into
+                                      pitcher (do not stir); discard solids.
+                                      Stir in 1 can sweetened condensed milk and
+                                      vanilla extract. If you like your coffee
+                                      sweeter, add more milk.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                        en-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Line a sieve with a coffee filter and
+                                      place over a pitcher. Strain coffee into
+                                      pitcher (do not stir); discard solids.
+                                      Stir in 1 can sweetened condensed milk and
+                                      vanilla extract. If you like your coffee
+                                      sweeter, add more milk.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                - _id: 97b16f25-0c77-466a-9861-e6fd5ae2ffad
+                  type: howtoStep
+                  fields:
+                    name:
+                      type: text
+                      locales:
+                        en-CA: Step 3
+                        en-GB: Step 3
+                        en-NL: Step 3
+                        en-US: Step 3
+                    description:
+                      type: richText
+                      locales:
+                        en-CA:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: 'Do Ahead:'
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 1
+                                    version: 1
+                                  - mode: normal
+                                    text: "\_Strained cold brew can be made 1 week ahead. Cover and chill. Add milk and vanilla just before serving."
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 1
+                            direction: ltr
+                        en-GB:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: 'Do Ahead:'
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 1
+                                    version: 1
+                                  - mode: normal
+                                    text: "\_Strained cold brew can be made 1 week ahead. Cover and chill. Add milk and vanilla just before serving."
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 1
+                            direction: ltr
+                        en-NL:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: 'Do Ahead:'
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 1
+                                    version: 1
+                                  - mode: normal
+                                    text: "\_Strained cold brew can be made 1 week ahead. Cover and chill. Add milk and vanilla just before serving."
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 1
+                            direction: ltr
+                        en-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: 'Do Ahead:'
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 1
+                                    version: 1
+                                  - mode: normal
+                                    text: "\_Strained cold brew can be made 1 week ahead. Cover and chill. Add milk and vanilla just before serving."
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 1
+                            direction: ltr
+    featuredImage:
+      type: asset
+      value:
+        - _id: 85b80653-4c9a-40e1-933c-afd95a8bf75d
+          type: image
+          fields:
+            id:
+              type: text
+              value: 09fa347a-32d6-479e-85d8-0f71bdb33c47
+            url:
+              value: >-
+                https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/vAQl_PcRSzaaXNLdWuZJrA-cold-brew-chicory-coffee.webp
+              type: text
+            file:
+              type: file
+              value: 2b89d79f-f2fc-466e-9f81-61828d4b4c44
+            size:
+              value: 105202
+              type: number
+            title:
+              type: text
+              value: cold-brew-chicory-coffee.webp
+            width:
+              value: 979
+              type: number
+            height:
+              value: 979
+              type: number
+            mediaType:
+              value: image/webp
+              type: text
+          _source: uniform-assets
+    mainIngredient:
+      type: contentReference
+      value: >-
+        ${#jptr:/ref-316794bf-d437-4a9c-9c77-0aff2acdfc78-mainIngredient/entries/0}
+  _dataResources:
+    ref-316794bf-d437-4a9c-9c77-0aff2acdfc78-recipeType:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: ff0d64e6-b52f-4a4f-ae5b-e254fe9c04d8
+    ref-316794bf-d437-4a9c-9c77-0aff2acdfc78-mainIngredient:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: 8609a1fb-f630-4501-b72d-b7c66516a286
+  _locales:
+    - en-US
+    - en-CA
+    - en-NL
+    - en-GB

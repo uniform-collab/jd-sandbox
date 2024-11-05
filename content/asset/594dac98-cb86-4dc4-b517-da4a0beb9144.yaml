@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 594dac98-cb86-4dc4-b517-da4a0beb9144
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: dark-roast-coffee-113-1_lc3mmx_afngmj.jpg
+    file:
+      type: file
+      value: 7a4ba79e-f097-485b-860a-7a00e6c6d294
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/Z6zuuMydTmOpgpvGNjCyUw-dark-roast-coffee-113-1_lc3mmx_afngmj.jpg
+      type: text
+    size:
+      value: 91441
+      type: number
+    width:
+      value: 1280
+      type: number
+    height:
+      value: 1280
+      type: number
+    custom: {}
+created: '2024-02-01T09:40:33.053568+00:00'
+modified: '2024-02-01T09:40:33.053568+00:00'

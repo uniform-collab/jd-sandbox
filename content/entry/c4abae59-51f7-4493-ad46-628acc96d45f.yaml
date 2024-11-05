@@ -1,0 +1,85 @@
+created: '2024-08-12T13:06:04.423539+00:00'
+modified: '2024-09-24T18:55:38.827533+00:00'
+pattern: false
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+entry:
+  _id: c4abae59-51f7-4493-ad46-628acc96d45f
+  _name: Royale
+  _slug: royale
+  type: brand
+  fields:
+    logo:
+      type: asset
+      locales:
+        en-US:
+          - _id: 80a572b6-65af-4648-8239-4d5ac08f91a9
+            type: image
+            fields:
+              id:
+                type: text
+                value: b9725eda-a755-4320-880d-b55c54fd704e
+              url:
+                value: >-
+                  https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/l1KQtgA5RzWydneY4_nwiQ-Image-6.webp
+                type: text
+              file:
+                type: file
+                value: d37306bc-16e8-4836-82db-f210f08b13ee
+              size:
+                value: 214984
+                type: number
+              title:
+                type: text
+                value: Image-6.webp
+              width:
+                value: 1024
+                type: number
+              height:
+                value: 1024
+                type: number
+              mediaType:
+                value: image/webp
+                type: text
+            _source: uniform-assets
+    title:
+      type: text
+      locales:
+        en-US: Royale
+        es-US: Royale
+        fr-CA: Royale
+        nl-NL: Royale
+    description:
+      type: text
+      locales:
+        en-US: >-
+          Royale epitomizes luxury and elegance in the world of coffee. Our
+          commitment is to provide premium coffee makers and exquisite coffee
+          products that cater to the most discerning tastes. With a focus on
+          sophistication and quality, Royale transforms your coffee experience
+          into a regal affair, ensuring each cup is a true masterpiece.
+        es-US: >-
+          Royale personifica el lujo y la elegancia en el mundo del café.Nuestro
+          compromiso es proporcionar cafeteras premium y exquisitos productos de
+          café que satisfagan los gustos más exigentes.Con un enfoque en la
+          sofisticación y la calidad, Royale transforma su experiencia de café
+          en un asunto real, asegurando que cada taza sea una verdadera obra
+          maestra.
+        fr-CA: >-
+          Royale incarne le luxe et l'élégance dans le monde du café.Notre
+          engagement est de fournir aux cafetières de qualité supérieure et à
+          des produits de café exquis qui répondent aux goûts les plus
+          exigeants.En mettant l'accent sur la sophistication et la qualité,
+          Royale transforme votre expérience de café en une affaire royale,
+          garantissant que chaque tasse est un véritable chef-d'œuvre.
+        nl-NL: >-
+          Royale belichaamt luxe en elegantie in de wereld van koffie.Onze
+          toewijding is om premium koffiezetapparaten en prachtige
+          koffieproducten te bieden die tegemoet komen aan de meest veeleisende
+          smaken.Met een focus op verfijning en kwaliteit transformeert Royale
+          uw koffie -ervaring in een koninklijke affaire, zodat elke beker een
+          echt meesterwerk is.
+  _locales:
+    - en-US
+    - es-US
+    - fr-CA
+    - nl-NL

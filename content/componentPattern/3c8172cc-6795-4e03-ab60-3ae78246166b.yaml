@@ -1,0 +1,91 @@
+composition:
+  _name: Coffee Makers Filter Box
+  _id: 3c8172cc-6795-4e03-ab60-3ae78246166b
+  type: entryFilterBox
+  parameters:
+    title:
+      type: text
+      locales:
+        en-CA: Categories
+        en-GB: Categories
+        en-NL: Categories
+        en-US: Categories
+        es-US: Categories
+        fr-CA: Categories
+        nl-NL: Categories
+    filterBy:
+      type: $block
+      value:
+        - _id: >-
+            8f4bca57-9625-4415-9308-b1c98cc44aa3|2ce5cf24-a9c1-43a1-8fa3-6e460ce555a8
+          type: filterBy
+          fields:
+            exclude:
+              type: text
+              locales:
+                en-CA: 64d19761-b85e-4e33-8438-e4296de791e2
+                en-GB: 64d19761-b85e-4e33-8438-e4296de791e2
+                en-NL: 64d19761-b85e-4e33-8438-e4296de791e2
+                en-US: 64d19761-b85e-4e33-8438-e4296de791e2
+                es-US: 64d19761-b85e-4e33-8438-e4296de791e2
+                fr-CA: 64d19761-b85e-4e33-8438-e4296de791e2
+                nl-NL: 64d19761-b85e-4e33-8438-e4296de791e2
+            fieldName:
+              type: text
+              locales:
+                en-CA: category
+                en-GB: category
+                en-NL: category
+                en-US: category
+                es-US: category
+                fr-CA: category
+                nl-NL: category
+            labelField:
+              type: text
+              locales:
+                en-CA: title
+                en-GB: title
+                en-NL: title
+                en-US: title
+                es-US: title
+                fr-CA: title
+                nl-NL: title
+        - _id: 6ae4f843-3527-473a-b44f-779bd834a3a4
+          type: filterBy
+          fields:
+            fieldName:
+              type: text
+              locales:
+                en-CA: brand
+                en-GB: brand
+                en-NL: brand
+                en-US: brand
+                es-US: brand
+                fr-CA: brand
+                nl-NL: brand
+            labelField:
+              type: text
+              locales:
+                en-CA: title
+                en-GB: title
+                en-NL: title
+                en-US: title
+                es-US: title
+                fr-CA: title
+                nl-NL: title
+  _overridability:
+    hideLockedParameters: true
+  _locales:
+    - es-US
+    - en-US
+    - en-CA
+    - en-GB
+    - en-NL
+    - fr-CA
+    - nl-NL
+created: '2024-09-05T09:55:48.670677+00:00'
+modified: '2024-10-02T20:30:54.980744+00:00'
+pattern: true
+categoryId: d2f175b2-abf7-4cc6-8458-6be68b421ced
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+workflowStageId: 73608d81-f8b0-4ee3-897b-c976d2dc6670

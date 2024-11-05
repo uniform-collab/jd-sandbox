@@ -1,0 +1,33 @@
+created: '2024-08-12T13:05:17.353233+00:00'
+modified: '2024-09-24T18:55:38.827533+00:00'
+pattern: false
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+entry:
+  _id: 82f3c476-237c-4811-a2d3-b92448a21abd
+  _name: IS COFFEE GOOD FOR YOU?
+  _slug: is-coffee-good-for-you
+  _thumbnail: >-
+    https://javadripblog.wordpress.com/wp-content/uploads/2024/01/coffee-beans-blog-superfood-education-information-nutrition-caffeine.webp
+  type: article
+  fields: {}
+  _dataResources:
+    JavaDrip Post by Slug Content:
+      type: javadripPostBySlug
+      variables:
+        slug: is-coffee-good-for-you
+    ref-82f3c476-237c-4811-a2d3-b92448a21abd-tag:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: 059615df-5702-40b2-ad1e-f420f76b9c4b
+  _locales:
+    - en-US
+    - es-US
+    - fr-CA
+    - nl-NL
+  _overrides:
+    82f3c476-237c-4811-a2d3-b92448a21abd:
+      parameters:
+        tag:
+          type: contentReference
+          value: ${#jptr:/ref-82f3c476-237c-4811-a2d3-b92448a21abd-tag/entries}
+  _pattern: 9ce6d41a-73b6-47fb-8289-6d33d231ba92

@@ -1,0 +1,92 @@
+composition:
+  _name: Article Details Page
+  _id: 2543dfc6-eae7-4bde-a827-e220edc95564
+  _slug: ':article-slug'
+  type: articleDetailsPage
+  parameters:
+    pageTitle:
+      type: text
+      locales:
+        en-CA: ${#jptr:/Article by Slug Content/entries/0/title} Details Page
+        en-GB: ${#jptr:/Article by Slug Content/entries/0/title} Details Page
+        en-NL: ${#jptr:/Article by Slug Content/entries/0/title} Details Page
+        en-US: ${#jptr:/Article by Slug Content/entries/0/title} Details Page
+        es-US: ${#jptr:/Article by Slug Content/entries/0/title} Página de detalles
+        fr-CA: ${#jptr:/Article by Slug Content/entries/0/title} Détails de la page
+        nl-NL: ${#jptr:/Article by Slug Content/entries/0/title} Details Pagina
+  slots:
+    pageFooter:
+      - _id: 7b129795-9682-4775-9f3d-149031c1d3bc
+        type: footer
+        _pattern: 319639e9-4bac-4fb3-8f0b-19088c969fcb
+    pageHeader:
+      - _id: ca488f07-b853-4822-a832-f3018d1d5f67
+        type: header
+        _pattern: e46c8336-acfd-43e8-ac59-8be8f4c33b7d
+    pageContent:
+      - _id: f5ca6fcb-85a8-4fa0-a649-a0405f5839a4
+        type: spacer
+        parameters:
+          thickness:
+            type: tp-slider-parameter
+            value: 10px
+      - _id: 5b1416a4-5b93-4b11-8599-6eadc4de8c24
+        type: breadcrumbs
+        parameters:
+          title:
+            type: text
+            locales:
+              en-CA: Article Details Page
+              en-GB: Article Details Page
+              en-NL: Article Details Page
+              en-US: Article Details Page
+              es-US: Página de detalles del artículo
+              fr-CA: Page des détails de l'article
+              nl-NL: Pagina met artikelgegevens
+          separator:
+            type: select
+            value: chevron
+          colorStyle:
+            type: tp-color-style-parameter
+            value: primary
+          displayRootNode:
+            type: checkbox
+            value: true
+          displayPlaceholderNodes:
+            type: checkbox
+            value: true
+      - _id: ba40b6ae-1530-448f-a4b7-aa3830d83e37
+        type: box
+        _pattern: bc65d9f2-e66d-47c3-b693-ab5963a20822
+        _dataResources:
+          Article by Slug Content:
+            type: articleBySlug
+            variables:
+              slug: ${article-slug}
+              locale: ${locale}
+  _dataResources:
+    Article by Slug Content:
+      type: contentstackArticleBySlug
+      variables:
+        query: '{ "slug": "${article-slug}" }'
+        locale: ${locale}
+        entriesValue: ${article-slug}
+        contentTypeUid: article
+  _overrides:
+    ca488f07-b853-4822-a832-f3018d1d5f67:
+      parameters:
+        syntheticGap:
+          type: tp-slider-parameter
+          value: Small
+  _locales:
+    - fr-CA
+    - en-US
+    - es-US
+    - nl-NL
+    - en-NL
+    - en-CA
+    - en-GB
+created: '2024-09-05T09:56:05.106439+00:00'
+modified: '2024-09-24T18:55:38.827533+00:00'
+pattern: false
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5

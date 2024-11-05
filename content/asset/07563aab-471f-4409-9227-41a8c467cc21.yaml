@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 07563aab-471f-4409-9227-41a8c467cc21
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: pumpkin-spice-latte-icebox-cake-prep-1.webp
+    file:
+      type: file
+      value: e3a07dd2-4798-48e7-9978-88643156d489
+    mediaType:
+      value: image/webp
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/pMMzkdpHSzaZSUkVcjVmwA-pumpkin-spice-latte-icebox-cake-prep-1.webp
+      type: text
+    size:
+      value: 185070
+      type: number
+    width:
+      value: 1600
+      type: number
+    height:
+      value: 1067
+      type: number
+    custom: {}
+created: '2024-09-26T17:33:29.914687+00:00'
+modified: '2024-09-26T17:33:29.914687+00:00'

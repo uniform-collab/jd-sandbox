@@ -1,0 +1,29 @@
+id: coffeeAfficionado
+name: Coffee Afficionado
+description: >-
+  Aficionado is a person who enjoys, is knowledgeable about, and values a
+  particular interest or activity.
+
+
+  So basically, a coffee connoisseur or aficionado knows everything there is to
+  know about coffee. This means you are familiar with different roasts. It is
+  clear what type of bean is in front of you (and where it comes from). You also
+  know the different flavours of those beans, the different ways to brew them in
+  a cup, and the speciality drinks you can make with them.
+
+
+  Moreover, you're always up to date with the latest coffee trends.
+
+
+  However, you might ask– what's the point of an aficionado trying something new
+  if they already know which beans, flavours, and brew methods they prefer?
+
+
+  A coffee connoisseur has tried everything. There is no denying that they know
+  what they like and how to make it. But what makes it enjoyable for them is the
+  process of making coffee and the satisfaction they get from the finished
+  product.
+type: 0
+inputs:
+  - dim: coffeeMakersInterest
+    sign: +

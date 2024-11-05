@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 72e6b832-b548-48d3-a43b-0d0f48efe040
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: pumpkin-spice-latte-icebox-cake-vanilla-bean-2.webp
+    file:
+      type: file
+      value: 172b0c05-e0fb-4e9f-92b3-48f5a334e65d
+    mediaType:
+      value: image/webp
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/8upFran2RFmdS4Oy6fhw4w-pumpkin-spice-latte-icebox-cake-vanilla-bean-2.webp
+      type: text
+    size:
+      value: 176410
+      type: number
+    width:
+      value: 1600
+      type: number
+    height:
+      value: 1067
+      type: number
+    custom: {}
+created: '2024-09-26T17:32:52.596097+00:00'
+modified: '2024-09-26T17:32:52.596097+00:00'

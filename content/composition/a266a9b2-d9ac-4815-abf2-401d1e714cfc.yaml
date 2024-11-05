@@ -1,0 +1,313 @@
+composition:
+  _name: JavaDrip Specialty
+  _id: a266a9b2-d9ac-4815-abf2-401d1e714cfc
+  _slug: javadrip-specialty-coffee-maker-141
+  type: productDetailsPage
+  _dataResources:
+    Product Content:
+      type: product-single
+      variables:
+        locale: ${locale}
+        entryId: df7a5d21-9a3c-49db-92d2-662b0fecce21
+  _overrides:
+    0dff4a3f-a8fb-4cac-a828-98015e7bd579:
+      parameters:
+        tooltipPosition:
+          type: tp-slider-parameter
+          value: bottom-right
+        iconVerticalPosition:
+          type: tp-slider-parameter
+          value: 28.5%
+        iconHorizontalPosition:
+          type: tp-slider-parameter
+          value: 48.5%
+    1703c570-8165-4f07-a967-fcf86a38992d:
+      parameters:
+        primaryTextColor:
+          type: tp-color-palette-parameter
+          value: primary-content
+    34d9a77d-8146-4411-a274-d22152b6e38b:
+      variant: carousel
+      parameters:
+        titleStyle:
+          type: tp-title-style-parameter
+          value: h4
+        textColorVariant:
+          type: select
+          value: Light
+    8c5c5e30-ddb8-42f0-bf2a-432deef54db3:
+      parameters:
+        tooltipWidth:
+          type: tp-slider-parameter
+          value: 370px
+        tooltipPosition:
+          type: tp-slider-parameter
+          value: right-top
+        iconVerticalPosition:
+          type: tp-slider-parameter
+          value: 34%
+        iconHorizontalPosition:
+          type: tp-slider-parameter
+          value: 24%
+    f788710a-4dbf-4186-86c8-eff878da5d51:
+      parameters:
+        tooltipPosition:
+          type: tp-slider-parameter
+          value: bottom-left
+        iconVerticalPosition:
+          type: tp-slider-parameter
+          value: 56.5%
+        iconHorizontalPosition:
+          type: tp-slider-parameter
+          value: 65%
+    2f1415eb-c3fa-4f9b-81c6-94fc78e618ae|bc6a33c1-f349-416a-b94b-300685737f33:
+      slots:
+        $slotSectionItems:
+          - _id: f788710a-4dbf-4186-86c8-eff878da5d51
+            type: hotspot
+            _pattern: 0d752b47-346b-408c-86de-2a8ba41671cb
+            _dataResources:
+              Product Feature Content:
+                type: productFeature
+                variables:
+                  locale: ${locale}
+                  entryId: c644ac45-22a2-43a0-a72d-da428ed26952
+            _overridability:
+              parameters:
+                icon: 'yes'
+                tooltipWidth: 'yes'
+                tooltipPosition: 'yes'
+                iconVerticalPosition: 'yes'
+                iconHorizontalPosition: 'yes'
+              hideLockedParameters: true
+          - _id: 8c5c5e30-ddb8-42f0-bf2a-432deef54db3
+            type: hotspot
+            _pattern: 0d752b47-346b-408c-86de-2a8ba41671cb
+            _dataResources:
+              Product Feature Content:
+                type: productFeature
+                variables:
+                  locale: ${locale}
+                  entryId: a7957d8a-ea12-4bab-8411-8cb4616027ac
+            _overridability:
+              parameters:
+                icon: 'yes'
+                tooltipWidth: 'yes'
+                tooltipPosition: 'yes'
+                iconVerticalPosition: 'yes'
+                iconHorizontalPosition: 'yes'
+              hideLockedParameters: true
+          - _id: 0dff4a3f-a8fb-4cac-a828-98015e7bd579
+            type: hotspot
+            _pattern: 0d752b47-346b-408c-86de-2a8ba41671cb
+            _dataResources:
+              Product Feature Content:
+                type: productFeature
+                variables:
+                  locale: ${locale}
+                  entryId: 6320b5ed-6166-433c-a2f0-274891bb2bcb
+            _overridability:
+              parameters:
+                icon: 'yes'
+                tooltipWidth: 'yes'
+                tooltipPosition: 'yes'
+                iconVerticalPosition: 'yes'
+                iconHorizontalPosition: 'yes'
+              hideLockedParameters: true
+    a266a9b2-d9ac-4815-abf2-401d1e714cfc|775cef5f-9f81-42fb-8b24-5635172ec95e:
+      slots:
+        $slotSectionItems:
+          - _id: 2f1415eb-c3fa-4f9b-81c6-94fc78e618ae
+            type: hotspots
+            _pattern: c68e8149-1780-4272-ad03-6664f8037c3b
+            _overridability:
+              parameters:
+                alt: 'yes'
+                fill: 'yes'
+                width: 'yes'
+                objectFit: 'yes'
+                backgroundImage: 'yes'
+              hideLockedParameters: true
+          - _id: b2752876-e293-4db0-b126-7c5b7910f1f7
+            type: advancedContainer
+            variant: fluidContent
+            _pattern: c4c25933-d434-4838-9ab9-08f9c05295b6
+            _overridability:
+              parameters:
+                $viz: 'yes'
+                title: 'yes'
+                marginTop: 'yes'
+                paddingTop: 'yes'
+                marginBottom: 'yes'
+                paddingBottom: 'yes'
+                backgroundColor: 'yes'
+              hideLockedParameters: true
+    a266a9b2-d9ac-4815-abf2-401d1e714cfc|f2b07403-bd3a-445a-ba34-cfc52e94477f:
+      slots:
+        $slotSectionItems:
+          - _id: fd6a82ff-e26b-43b0-bee8-3d693dc04506
+            type: grid
+            _pattern: 733c3ec0-4eca-4e7a-bf35-532ccf918b66
+            _dataResources:
+              Reviews Content:
+                type: reviews
+                variables:
+                  limit: '2'
+                  order: sys.updatedAt
+                  locale: ${locale}
+                  search: ''
+                  filters: '{"type[eq]":"testimonial"}'
+                  keyword: ''
+                  entryIds: >-
+                    a488e8a3-ac83-4db2-907a-511c64bb1bf7,b87c91d3-28e7-4c5a-926b-a51f688ce9be
+                  sortOrder: asc
+                  searchValue: ''
+                  sortFieldId: sys.updatedAt
+                  contentTypes: testimonial
+                  contentTypeId: testimonial
+                  advancedFilters: '[]'
+                  contentTypeQuery: content_type=testimonial
+            _overridability:
+              parameters:
+                gapX: 'yes'
+                gapY: 'yes'
+                title: 'yes'
+                marginTop: 'yes'
+                paddingTop: 'yes'
+                columnsCount: 'yes'
+                marginBottom: 'yes'
+                paddingBottom: 'yes'
+                backgroundType: 'yes'
+                containerVariant: 'yes'
+          - _id: 1703c570-8165-4f07-a967-fcf86a38992d
+            type: productBundle
+            _pattern: 4045561e-b985-49bc-8b73-8b5918952b8f
+            _dataResources:
+              Product Bundle Content:
+                type: productBundle
+                variables:
+                  locale: ${locale}
+                  entryId: 161bf310-99fe-46fc-aaa8-8fdc8cd9a70f
+            _overridability:
+              parameters:
+                $viz: 'yes'
+                title: 'yes'
+                buttonText: 'yes'
+                buttonStyle: 'yes'
+                hideDescription: 'yes'
+                primaryTextColor: 'yes'
+                secondaryTextColor: 'yes'
+              hideLockedParameters: true
+          - _id: 34d9a77d-8146-4411-a274-d22152b6e38b
+            type: cardBlock
+            variant: carousel
+            _pattern: fe2cba31-e7a3-49f4-8f95-6221b4dee99a
+            _dataResources:
+              Products Content:
+                type: products
+                variables:
+                  locale: ${locale}
+                  entryIds: >-
+                    82b84782-4236-4b06-a994-59f088896b91,ef55e1ae-ad12-46d9-b296-90d5484136f0,72b49ac2-bbf3-48a7-b522-0947483e9131
+            _overridability:
+              variants: true
+              parameters:
+                title: 'yes'
+                group_cta: 'yes'
+                buttonCopy: 'yes'
+                buttonLink: 'yes'
+                titleStyle: 'yes'
+                buttonStyle: 'yes'
+                description: 'yes'
+                group_content: 'yes'
+                textColorVariant: 'yes'
+                buttonAnimationType: 'yes'
+    a266a9b2-d9ac-4815-abf2-401d1e714cfc|faa0b6b5-f643-4745-af84-1eb157d4679c:
+      slots:
+        $slotSectionItems:
+          - _id: 3a523a16-0a72-4b38-8dfb-202d2b8dcd86
+            type: heroContainer
+            variant: backgroundImage
+            _pattern: daaf620c-8067-496f-9894-d6dea651a3a3
+            _dataResources:
+              Hero Content:
+                type: hero
+                variables:
+                  locale: ${locale}
+                  entryId: ea315933-36e4-4b8a-87b3-66aa1b3ae984
+            _overridability:
+              variants: true
+              parameters:
+                $viz: 'yes'
+                delay: 'yes'
+                image: 'yes'
+                title: 'yes'
+                video: 'yes'
+                duration: 'yes'
+                marginTop: 'yes'
+                objectFit: 'yes'
+                textColor: 'yes'
+                fullHeight: 'yes'
+                paddingTop: 'yes'
+                titleStyle: 'yes'
+                description: 'yes'
+                eyebrowText: 'yes'
+                marginBottom: 'yes'
+                overlayColor: 'yes'
+                animationType: 'yes'
+                paddingBottom: 'yes'
+                animationOrder: 'yes'
+                overlayOpacity: 'yes'
+                backgroundColor: 'yes'
+                animationPreview: 'yes'
+                containerVariant: 'yes'
+              hideLockedParameters: true
+    b2752876-e293-4db0-b126-7c5b7910f1f7|4c9d9835-0625-49a3-90ca-4beffa675b07:
+      slots:
+        $slotSectionItems:
+          - _id: 1ef5be97-9d84-476e-a6c7-4abdfd2687cf
+            type: container
+            variant: fluidContent
+            _pattern: d7381337-2b18-4f69-b6e7-349e14917c22
+            _dataResources:
+              Product Content:
+                type: recipe
+                variables:
+                  locale: ${locale}
+                  entryId: 316794bf-d437-4a9c-9c77-0aff2acdfc78
+            _overridability:
+              variants: true
+              parameters:
+                $viz: 'yes'
+                title: 'yes'
+                marginTop: 'yes'
+                paddingTop: 'yes'
+                marginBottom: 'yes'
+                paddingBottom: 'yes'
+                backgroundType: 'yes'
+              hideLockedParameters: true
+    b2752876-e293-4db0-b126-7c5b7910f1f7|8be77924-d275-49df-ae6b-3c02ba3b18b2:
+      slots:
+        $slotSectionItems:
+          - _id: cb8fb740-1539-4b62-aa43-3a87a2d02dcf
+            type: card
+            variant: backgroundImage
+            _pattern: 59b4fb3d-9b40-4a99-bb40-c93c3ddbdd30
+            _dataResources:
+              Article Content:
+                type: article
+                variables:
+                  locale: ${locale}
+                  search: ''
+                  entryId: dff35e9a-0f56-4be3-84e3-fe3a20a7b702
+                  contentTypes: article
+            _overridability:
+              hideLockedParameters: true
+  _locales:
+    - en-US
+    - nl-NL
+    - fr-CA
+  _pattern: e5dd2de5-2f6a-4fb8-b685-9499a4ddc54d
+created: '2024-10-09T20:17:21.563981+00:00'
+modified: '2024-10-09T20:45:36.087132+00:00'
+pattern: false

@@ -1,0 +1,37 @@
+created: '2024-08-12T13:06:02.212785+00:00'
+modified: '2024-09-24T18:55:38.827533+00:00'
+pattern: false
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+entry:
+  _id: bc78c470-5a7e-4a3f-8f78-2633c1d9b9a5
+  _name: 'EspressoGPT: Elevating Coffee Brewing to Futuristic Heights'
+  _slug: espressogpt-elevating-coffee-brewing-to-futuristic-heights
+  _thumbnail: >-
+    //images.ctfassets.net/4v9xo98brk8z/1hWXiZdigtnUljfpZykhmz/46d7f7056296ec54d0e9caf29bbc6c9a/EspressoGPT_image_1.jpg
+  type: article
+  fields: {}
+  _dataResources:
+    Article by Slug Content:
+      type: contentfulArticleBySlug
+      variables:
+        slug: espresso-gpt-elevating-coffee-brewing-to-futuristic-heights
+        locale: ${locale}
+        slugField: fields.slug[in]
+        contentType: article
+    ref-bc78c470-5a7e-4a3f-8f78-2633c1d9b9a5-tag:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: >-
+          059615df-5702-40b2-ad1e-f420f76b9c4b,6b1cdf4b-294f-4079-9fb7-c900fae46b8d
+  _locales:
+    - en-US
+    - es-US
+    - fr-CA
+    - nl-NL
+  _overrides:
+    bc78c470-5a7e-4a3f-8f78-2633c1d9b9a5:
+      parameters:
+        tag:
+          type: contentReference
+          value: ${#jptr:/ref-bc78c470-5a7e-4a3f-8f78-2633c1d9b9a5-tag/entries}
+  _pattern: 7150730f-2997-418e-85a4-aff63733493b

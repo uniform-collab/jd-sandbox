@@ -1,0 +1,37 @@
+id: contentfulPromotion
+displayName: Promotion
+ttl: 30
+path: /entries
+custom:
+  include: 2
+  imagePath: image
+  customQuery: '[{"key": "metadata.tags.sys.id[all]", "value": "promotions"}]'
+  searchField:
+    id: fields.title
+    type: Symbol
+  includeFields: []
+  allowContentTypeIds:
+    - contentBlock
+  enableFilterByLocale: true
+  enableAdvancedFilters: false
+method: GET
+purgeKey: 1400b7e6-b429-4540-804a-5bdf9048e56d
+archetype: singleEntry
+variables:
+  locale:
+    type: text
+    default: ''
+    displayName: Locale
+  entryIds:
+    type: text
+    default: ''
+    displayName: Entry Ids
+parameters:
+  - key: include
+    value: '2'
+  - key: locale
+    value: ${locale}
+  - key: sys.id[in]
+    value: ${entryIds}
+dataSourceId: contentfulDataSource
+allowedOnComponents: []

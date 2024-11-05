@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: c5a2e21f-8ef0-4ce3-94e0-46ae124af9c2
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: black-mountain-french-press-coffee-maker-126-1_qzapz7_halnww.jpg
+    file:
+      type: file
+      value: a49a99da-e0e1-4329-8c37-7bafb90c5302
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/n3GiVGxnRVCq2LsOXB0U2Q-black-mountain-french-press-coffee-maker-126-1_qzapz7_halnww.jpg
+      type: text
+    size:
+      value: 318005
+      type: number
+    width:
+      value: 1280
+      type: number
+    height:
+      value: 1280
+      type: number
+    custom: {}
+created: '2024-02-01T09:56:35.689422+00:00'
+modified: '2024-02-01T09:56:35.689422+00:00'

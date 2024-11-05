@@ -1,0 +1,274 @@
+created: '2024-06-04T20:24:03.108813+00:00'
+modified: '2024-08-15T12:19:02.203961+00:00'
+pattern: false
+workflowId: 784fa239-ae8a-4ab1-ba68-9806d0fe406a
+workflowStageId: 73608d81-f8b0-4ee3-897b-c976d2dc6670
+entry:
+  _id: 778c1de0-9119-4617-8fde-4cbff7da8031
+  _name: Irish Blend Coffee
+  _slug: irish-blend-coffee-132
+  _thumbnail: >-
+    https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/TTMAzH41SiKjGrqlWRi5Kg-irish-blend-coffee-132-1_mnjpvu_q0ryef.jpg
+  type: product
+  fields:
+    body:
+      type: richText
+      locales:
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      A full-bodied high-quality flavored coffee that mimics the
+                      beloved liqueur, with a tempting flavor profile of sweet
+                      brown sugar, smooth cream, and warm spices that will earn
+                      this premium roast a permanent spot in your cabinet.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+            direction: ltr
+        fr-CA:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Un café corsé aromatisé de haute qualité qui imite la
+                      liqueur bien-aimée, avec un profil de saveur alléchant de
+                      cassonade sucrée, de crème onctueuse et d'épices chaudes
+                      qui fera de cette torréfaction haut de gamme une place
+                      permanente dans votre armoire.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+            direction: ltr
+        nl-NL:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Een volle smaakkoffie van hoge kwaliteit die de geliefde
+                      likeur nabootst, met een verleidelijk smaakprofiel van
+                      zoete bruine suiker, zachte room en warme kruiden waardoor
+                      deze premium branding een vaste plek in uw kast krijgt.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+            direction: ltr
+    name:
+      type: text
+      value: Irish Blend Coffee
+    brand:
+      type: contentReference
+      value: ${#jptr:/ref-778c1de0-9119-4617-8fde-4cbff7da8031-brand/entries/0}
+    title:
+      type: text
+      value: Irish Blend Coffee
+    category:
+      type: contentReference
+      value: ${#jptr:/ref-778c1de0-9119-4617-8fde-4cbff7da8031-category/entries}
+    variants:
+      type: $block
+      value:
+        - _id: 09dfef72-56fa-45fc-ab05-f90c8b7f7e17
+          type: variant
+          fields:
+            code:
+              type: text
+              value: '132'
+            price:
+              type: number
+              locales:
+                en-US: '12.99'
+                fr-CA: '12.00'
+                nl-NL: '12.00'
+                es-US: '12.99'
+            title:
+              type: text
+              locales:
+                en-US: Irish Blend Coffee
+                es-US: Irish Blend Coffee
+                fr-CA: Irish Blend Coffee
+                nl-NL: Irish Blend Coffee
+            currency:
+              type: text
+              locales:
+                en-US: $
+                es-US: $
+                fr-CA: €
+                nl-NL: €
+            imageGallery:
+              type: asset
+              value:
+                - _id: a687df70-0fdd-481c-8abc-54870bcda1da
+                  type: image
+                  fields:
+                    id:
+                      type: text
+                      value: 31e08e1f-5ac5-4082-a419-2ddbbcec6d19
+                    url:
+                      value: >-
+                        https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/TTMAzH41SiKjGrqlWRi5Kg-irish-blend-coffee-132-1_mnjpvu_q0ryef.jpg
+                      type: text
+                    file:
+                      type: file
+                      value: c29b4858-81fd-4140-8904-250f1fac54ee
+                    size:
+                      value: 104716
+                      type: number
+                    title:
+                      type: text
+                      value: irish-blend-coffee-132-1_mnjpvu_q0ryef.jpg
+                    width:
+                      value: 1280
+                      type: number
+                    height:
+                      value: 1280
+                      type: number
+                    mediaType:
+                      value: image/jpeg
+                      type: text
+                  _source: uniform-assets
+                - _id: 57371859-deaa-4319-8816-f48aed94d9c1
+                  type: image
+                  fields:
+                    id:
+                      type: text
+                      value: 2188bcec-5123-42e3-be16-b8d076e67a4a
+                    url:
+                      value: >-
+                        https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/8zSz1yMAQ-meGQGwbpoRXw-irish-blend-coffee-132-2_stnhzm_aeftc3.jpg
+                      type: text
+                    file:
+                      type: file
+                      value: e095a13c-dbb8-429f-8b51-2781f01e9cc7
+                    size:
+                      value: 882339
+                      type: number
+                    title:
+                      type: text
+                      value: irish-blend-coffee-132-2_stnhzm_aeftc3.jpg
+                    width:
+                      value: 1280
+                      type: number
+                    height:
+                      value: 1280
+                      type: number
+                    mediaType:
+                      value: image/jpeg
+                      type: text
+                  _source: uniform-assets
+    primaryImage:
+      type: asset
+      value:
+        - _id: a9769b36-6677-43fd-8af5-a92b74f615f1
+          type: image
+          fields:
+            id:
+              type: text
+              value: 31e08e1f-5ac5-4082-a419-2ddbbcec6d19
+            url:
+              value: >-
+                https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/TTMAzH41SiKjGrqlWRi5Kg-irish-blend-coffee-132-1_mnjpvu_q0ryef.jpg
+              type: text
+            file:
+              type: file
+              value: 4e76451d-42fe-4fc5-8a81-8eed96d61306
+            size:
+              value: 104716
+              type: number
+            title:
+              type: text
+              value: irish-blend-coffee-132-1_mnjpvu_q0ryef.jpg
+            width:
+              value: 1280
+              type: number
+            height:
+              value: 1280
+              type: number
+            mediaType:
+              value: image/jpeg
+              type: text
+          _source: uniform-assets
+    recommendations:
+      type: contentReference
+      value: >-
+        ${#jptr:/ref-778c1de0-9119-4617-8fde-4cbff7da8031-recommendations/entries}
+    shortDescription:
+      type: text
+      locales:
+        en-US: >-
+          A full-bodied high-quality flavored coffee that mimics the beloved
+          liqueur, with a tempting flavor profile of sweet brown sugar, smooth
+          cream, and warm spices that will earn this premium roast a permanent
+          spot in your cabinet.
+        es-US: >-
+          Un café con sabor de alta calidad con cuerpo que imita al querido
+          licor, con un tentador perfil de sabor de azúcar marrón dulce, crema
+          suave y especias cálidas que le darán a este asado premium un lugar
+          permanente en su gabinete.
+        fr-CA: >-
+          Un café corsé aromatisé de haute qualité qui imite la liqueur
+          bien-aimée, avec un profil de saveur alléchant de cassonade sucrée, de
+          crème onctueuse et d'épices chaudes qui fera de cette torréfaction
+          haut de gamme une place permanente dans votre armoire.
+        nl-NL: >-
+          Een volle smaakkoffie van hoge kwaliteit die de geliefde likeur
+          nabootst, met een verleidelijk smaakprofiel van zoete bruine suiker,
+          zachte room en warme kruiden waardoor deze premium branding een vaste
+          plek in uw kast krijgt.
+  _dataResources:
+    ref-778c1de0-9119-4617-8fde-4cbff7da8031-brand:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: de5d95bc-f87f-4503-a635-fec03d9f06a1
+    ref-778c1de0-9119-4617-8fde-4cbff7da8031-category:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: >-
+          eeb202b2-763b-4d9f-95c5-e260f8fda4f3,09b62b8c-1d09-443b-bba5-95fadbf37f80
+    ref-778c1de0-9119-4617-8fde-4cbff7da8031-recommendations:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: >-
+          82b84782-4236-4b06-a994-59f088896b91,72b49ac2-bbf3-48a7-b522-0947483e9131,3b15349b-aac2-4a0f-9d62-a30fc016a704
+  _locales:
+    - en-US
+    - es-US
+    - fr-CA
+    - nl-NL

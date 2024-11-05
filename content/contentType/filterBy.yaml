@@ -1,0 +1,31 @@
+id: filterBy
+name: Filter By
+created: '2024-08-01T07:52:08.987199+00:00'
+updated: '2024-08-07T09:19:17.525814+00:00'
+slugSettings:
+  required: 'no'
+useTeamPermissions: true
+fields:
+  - id: fieldName
+    name: Field Name
+    type: text
+    helpText: ''
+    typeConfig: null
+    localizable: true
+  - id: labelField
+    name: Label Field
+    type: text
+    helpText: Use this parameter if the field references another content type.
+    typeConfig: null
+    localizable: true
+  - id: exclude
+    name: Exclude
+    type: text
+    helpText: To specify an array, use a delimiter |
+    typeConfig: null
+    localizable: true
+entryName: fieldName
+description: ''
+icon: read
+type: block
+permissions: []

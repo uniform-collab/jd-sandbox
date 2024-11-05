@@ -1,0 +1,18 @@
+id: product-single
+displayName: Product
+ttl: 30
+body: ''
+path: /single
+custom:
+  proposedName: Product
+  allowedContentTypes:
+    - product
+method: GET
+purgeKey: ed7220bb-76fe-4ec4-a545-e9392c047607
+archetype: singleEntry
+variables:
+  entryId:
+    type: text
+    default: ''
+dataSourceId: uniformContent
+allowedOnComponents: []

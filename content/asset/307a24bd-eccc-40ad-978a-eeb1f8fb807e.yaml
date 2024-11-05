@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 307a24bd-eccc-40ad-978a-eeb1f8fb807e
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: coffee_and_weight_gain.jpg
+    file:
+      type: file
+      value: 81b392ce-e29d-4b92-9a5f-6eb1cb2fa086
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/Zm_XHyLySBKxUMSzB3VPTg-coffee_and_weight_gain.jpg
+      type: text
+    size:
+      value: 53969
+      type: number
+    width:
+      value: 1200
+      type: number
+    height:
+      value: 628
+      type: number
+    custom: {}
+created: '2023-12-12T17:13:35.864402+00:00'
+modified: '2023-12-12T17:13:35.864402+00:00'

@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 59526c03-f1ce-4bc8-aa06-e367917729c6
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: uncomplicating_coffee.jpg
+    file:
+      type: file
+      value: baffcbe5-8f65-411b-844c-bc293e85cc26
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/h5jNwttdSmOKxKoKgyJ01w-uncomplicating_coffee.jpg
+      type: text
+    size:
+      value: 49008
+      type: number
+    width:
+      value: 681
+      type: number
+    height:
+      value: 375
+      type: number
+    custom: {}
+created: '2023-12-12T17:10:48.615+00:00'
+modified: '2023-12-12T17:10:48.615+00:00'
