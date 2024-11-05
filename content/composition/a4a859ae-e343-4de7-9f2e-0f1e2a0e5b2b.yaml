@@ -1,0 +1,134 @@
+composition:
+  _name: JavaDrip Specialty Launch
+  _id: a4a859ae-e343-4de7-9f2e-0f1e2a0e5b2b
+  _slug: JavaDrip-Specialty-Launch
+  type: landingPage
+  parameters:
+    pageTitle:
+      type: text
+      locales:
+        en-CA: Landing Page
+        en-GB: Landing Page
+        en-NL: Landing Page
+        en-US: Landing Page
+        es-US: Página de destino
+        fr-CA: Page d'atterrissage
+        nl-NL: Koffiezetapparaten Pagina
+  slots:
+    pageFooter:
+      - _id: f19126a8-1577-4319-9792-69f3fc080ef4
+        type: footer
+        _pattern: 319639e9-4bac-4fb3-8f0b-19088c969fcb
+    pageHeader:
+      - _id: fd4da54f-6a75-4861-9c34-ce3d6bd9f6d3
+        type: header
+        _pattern: e46c8336-acfd-43e8-ac59-8be8f4c33b7d
+    pageContent:
+      - _id: e2fbbf0a-9c1c-4e4f-a9ba-8f57f209b330
+        type: heroContainer
+        _pattern: daaf620c-8067-496f-9894-d6dea651a3a3
+        _dataResources:
+          Hero Content:
+            type: hero
+            variables:
+              locale: ${locale}
+              entryId: b8d75c9a-4e2a-4c52-a46b-b7842e9d98a8
+      - _id: b308a794-2279-4890-9918-1fb0072fdf70
+        type: container
+        slots:
+          container-inner:
+            - _id: 72d5df87-2b39-44ec-9287-67719b03d4ea
+              type: image
+              parameters:
+                src:
+                  type: asset
+                  value:
+                    - _id: 06eb42f7-ec89-4edb-b19b-59432f1882be
+                      type: image
+                      fields:
+                        id:
+                          type: text
+                          value: efe4f903-f195-4a48-9424-90a6d1893988
+                        url:
+                          value: >-
+                            https://img.uniform.global/p/g7bIwGklRHq1c0h6VQckpg/ITRCDawEReCgXAGWGCfXPw-AI-generated-image-for-Icon
+                          type: text
+                        file:
+                          type: file
+                          value: 41ce575d-361c-425e-bdff-b5556fbfc180
+                        size:
+                          value: 1796130
+                          type: number
+                        title:
+                          type: text
+                          value: AI-generated-image-for-Icon
+                        width:
+                          value: 1024
+                          type: number
+                        height:
+                          value: 1024
+                          type: number
+                        mediaType:
+                          value: application/octet-stream
+                          type: text
+                      _source: uniform-assets
+                objectFit:
+                  type: select
+                  value: contain
+                borderRadius:
+                  type: tp-slider-parameter
+                  value: none
+            - _id: b55edb57-8c67-4714-aa5f-3b87d6b7fefc
+              type: text
+            - _id: 60f536ae-499f-468f-9586-fa4eccf2e77c
+              type: text
+        variant: fluidContent
+        parameters:
+          marginTop:
+            type: select
+            value: None
+          paddingTop:
+            type: select
+            value: None
+          marginBottom:
+            type: select
+            value: None
+          paddingBottom:
+            type: select
+            value: None
+      - _id: 11fe14a6-0bcd-4211-a3ae-62303b2df290
+        type: $personalization
+        slots:
+          pz:
+            - _id: 685256be-af74-4e99-917e-7b1e8b76ab9d
+              type: emailSignupForm
+              _pattern: 30e4b2d9-9999-4c59-ab1e-a8d83528d448
+              _dataResources:
+                Call To Action Content:
+                  type: callToAction
+                  variables:
+                    locale: ${locale}
+                    entryId: a4186dbf-a5c6-4f5c-8efe-ddd287457182
+        parameters:
+          trackingEventName:
+            type: text
+            value: CTA P13N
+  _overrides:
+    685256be-af74-4e99-917e-7b1e8b76ab9d:
+      parameters:
+        objectFit:
+          type: select
+          value: cover
+  _locales:
+    - fr-CA
+    - en-US
+    - es-US
+    - nl-NL
+    - en-NL
+    - en-CA
+    - en-GB
+created: '2024-11-04T20:15:49.394612+00:00'
+modified: '2024-11-04T20:15:49.394612+00:00'
+pattern: false
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+workflowStageId: 73608d81-f8b0-4ee3-897b-c976d2dc6670

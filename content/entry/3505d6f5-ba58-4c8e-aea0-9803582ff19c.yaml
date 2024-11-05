@@ -1,5 +1,5 @@
-created: '2024-06-04T20:23:47.740311+00:00'
-modified: '2024-08-15T12:17:49.912846+00:00'
+created: '2024-11-04T20:10:48.179362+00:00'
+modified: '2024-11-04T20:10:48.179362+00:00'
 pattern: false
 workflowId: 784fa239-ae8a-4ab1-ba68-9806d0fe406a
 workflowStageId: 73608d81-f8b0-4ee3-897b-c976d2dc6670
@@ -8,7 +8,7 @@ entry:
   _name: Kosmic Coffee Unbreakable Pour Over Replacement Pot
   _slug: kosmic-coffee-unbreakable-pour-over-replacement-pot-86
   _thumbnail: >-
-    https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/qSuXmRp9T02Nf80q41JZDg-kosmic-coffee-unbreakable-pour-over-replacement-pot-86_ngyxih_x1smcd.jpg
+    https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/2CTZAhvpRCWxJ4qIXg2OHw-kosmic-coffee-unbreakable-pour-over-replacement-pot-86_ngyxih_x1smcd.jpg
   type: product
   fields:
     body:
@@ -122,9 +122,9 @@ entry:
               type: number
               locales:
                 en-US: '12.99'
+                es-US: '12.99'
                 fr-CA: '12.00'
                 nl-NL: '12.00'
-                es-US: '12.99'
             title:
               type: text
               locales:

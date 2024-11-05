@@ -1,5 +1,5 @@
-created: '2024-06-04T20:24:03.682766+00:00'
-modified: '2024-08-15T12:20:08.030148+00:00'
+created: '2024-11-04T20:10:21.954469+00:00'
+modified: '2024-11-04T20:10:21.954469+00:00'
 pattern: false
 workflowId: 784fa239-ae8a-4ab1-ba68-9806d0fe406a
 workflowStageId: 73608d81-f8b0-4ee3-897b-c976d2dc6670
@@ -8,7 +8,7 @@ entry:
   _name: Cervello di Caffe® - SmartHQ enabled espresso machine
   _slug: cervello-di-caffe-140
   _thumbnail: >-
-    https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/oelk64_mRK6rsEbE_zI3VA-cervello-di-caffe-140-1_uzzqks_n8x6sd.jpg
+    https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/qHOLG3IWRmyP5Cf1eQdIBg-cervello-di-caffe-140-1_uzzqks_n8x6sd.jpg
   type: product
   fields:
     body:
@@ -137,9 +137,9 @@ entry:
               type: number
               locales:
                 en-US: '113.66'
+                es-US: '113.66'
                 fr-CA: '104.98'
                 nl-NL: '104.98'
-                es-US: '113.66'
             title:
               type: text
               locales:

@@ -1,5 +1,5 @@
-created: '2024-06-04T20:23:53.574708+00:00'
-modified: '2024-08-15T12:19:27.016517+00:00'
+created: '2024-11-04T20:10:50.541356+00:00'
+modified: '2024-11-04T20:10:50.541356+00:00'
 pattern: false
 workflowId: 784fa239-ae8a-4ab1-ba68-9806d0fe406a
 workflowStageId: 73608d81-f8b0-4ee3-897b-c976d2dc6670
@@ -8,7 +8,7 @@ entry:
   _name: Milk carafe
   _slug: milk-carafe-144
   _thumbnail: >-
-    https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/cfwQmHhLQPqqMNFInQu6WQ-milk_carafe__50631.1662555446.386.513_kognbj.jpg
+    https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/_xRj0tiIRrmz2bnepavB9Q-milk_carafe__50631.1662555446.386.513_kognbj.jpg
   type: product
   fields:
     body:
@@ -145,9 +145,9 @@ entry:
               type: number
               locales:
                 en-US: '44'
+                es-US: '44'
                 fr-CA: '40.64'
                 nl-NL: '40.64'
-                es-US: '44'
             title:
               type: text
               locales:

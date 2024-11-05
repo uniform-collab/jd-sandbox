@@ -8,7 +8,7 @@ asset:
       value: uniform_logo_black.svg
     file:
       type: file
-      value: 7fc56faf-f538-4806-bccd-d2aeef4c09eb
+      value: 6a45e953-b4b1-45d0-8db9-ae8d4230f068
     mediaType:
       value: image/svg+xml
       type: text
@@ -17,7 +17,7 @@ asset:
         https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/fJFkicctRYuXiyKxNP6BnA-uniform_logo_black.svg
       type: text
     size:
-      value: 2288
+      value: 2324
       type: number
     width:
       value: 608
@@ -26,5 +26,5 @@ asset:
       value: 192
       type: number
     custom: {}
-created: '2023-12-13T13:08:11.43328+00:00'
-modified: '2023-12-13T13:08:11.43328+00:00'
+created: '2024-11-04T20:01:12.602309+00:00'
+modified: '2024-11-04T20:07:17.551104+00:00'

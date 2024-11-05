@@ -1,5 +1,5 @@
-created: '2023-11-21T13:20:17.147056+00:00'
-modified: '2024-09-24T18:55:38.827533+00:00'
+created: '2024-11-04T20:10:20.131089+00:00'
+modified: '2024-11-04T20:10:20.131089+00:00'
 pattern: false
 workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
 entry:
@@ -7,7 +7,7 @@ entry:
   _name: Buy one, get one free
   _slug: buy-one-get-one-free
   _thumbnail: >-
-    https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/7cWWeBkERz-5R_VTXqGapg-bogo.svg
+    https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/5Nf6YCPQSjSWHOWb_KIWsA-bogo.svg
   type: promotion
   fields:
     image:
@@ -27,7 +27,7 @@ entry:
               type: file
               value: 1866a3ed-1ec8-418b-81eb-e3bb2b00e582
             size:
-              value: 4461
+              value: 4465
               type: number
             title:
               type: text

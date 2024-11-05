@@ -8,7 +8,7 @@ asset:
       value: cake_in_the_making.avif
     file:
       type: file
-      value: c5bbf135-5e80-49ce-b651-c248553b1c39
+      value: bf5eb6c3-7d6b-4f5a-918e-e588283f37ea
     mediaType:
       value: image/avif
       type: text
@@ -19,6 +19,12 @@ asset:
     size:
       value: 28225
       type: number
+    width:
+      value: 730
+      type: number
+    height:
+      value: 548
+      type: number
     custom: {}
-created: '2023-12-13T13:08:11.379784+00:00'
-modified: '2024-09-05T09:54:28.727386+00:00'
+created: '2024-11-04T20:01:05.815947+00:00'
+modified: '2024-11-04T20:06:56.288008+00:00'

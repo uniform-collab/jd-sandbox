@@ -1,5 +1,5 @@
-created: '2024-06-04T20:24:02.39872+00:00'
-modified: '2024-08-15T12:17:18.338745+00:00'
+created: '2024-11-04T20:10:12.204359+00:00'
+modified: '2024-11-04T20:10:12.204359+00:00'
 pattern: false
 workflowId: 784fa239-ae8a-4ab1-ba68-9806d0fe406a
 workflowStageId: 73608d81-f8b0-4ee3-897b-c976d2dc6670
@@ -8,7 +8,7 @@ entry:
   _name: Black Mountain Chambord French Press Coffee Maker
   _slug: black-mountain-chambord-french-press-coffee-maker-123
   _thumbnail: >-
-    https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/3lIFheKzSmueQpJpyi1OoQ-black-mountain-chambord-french-press-coffee-maker-123-1_pgykyp_yh0nlq.jpg
+    https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/B1ygu3VQRmKeZd0-YXhfoQ-black-mountain-chambord-french-press-coffee-maker-123-1_pgykyp_yh0nlq.jpg
   type: product
   fields:
     body:
@@ -131,9 +131,9 @@ entry:
               type: number
               locales:
                 en-US: '33.99'
+                es-US: '33.99'
                 fr-CA: '31.40'
                 nl-NL: '31.40'
-                es-US: '33.99'
             title:
               type: text
               locales:

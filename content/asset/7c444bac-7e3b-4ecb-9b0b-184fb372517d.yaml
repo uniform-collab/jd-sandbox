@@ -8,7 +8,7 @@ asset:
       value: 25_off.svg
     file:
       type: file
-      value: e65e0b9b-fdd9-4224-b5dc-ad7c0c8eb65b
+      value: a055eaf1-5995-447e-b799-149462b6b105
     mediaType:
       value: image/svg+xml
       type: text
@@ -17,7 +17,7 @@ asset:
         https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/nRrspOoLQYqf16xNXp0rkQ-25_off.svg
       type: text
     size:
-      value: 3718
+      value: 3722
       type: number
     width:
       value: 113
@@ -26,5 +26,5 @@ asset:
       value: 113
       type: number
     custom: {}
-created: '2023-12-13T13:08:07.011079+00:00'
-modified: '2023-12-13T13:08:07.011079+00:00'
+created: '2024-11-04T20:01:05.99791+00:00'
+modified: '2024-11-04T20:06:56.694473+00:00'

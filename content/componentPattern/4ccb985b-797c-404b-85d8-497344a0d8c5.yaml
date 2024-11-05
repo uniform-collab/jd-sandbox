@@ -92,10 +92,11 @@ composition:
     - en-NL
     - fr-CA
     - nl-NL
-created: '2024-01-10T19:03:53.077134+00:00'
-modified: '2024-09-24T18:55:38.827533+00:00'
+created: '2024-11-04T20:08:23.543843+00:00'
+modified: '2024-11-04T20:14:12.819385+00:00'
 pattern: true
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/v1701959176/preview-images/NewJavaDripTheme/SalesDemo/Patterns/Box_article_preview_image.jpg
 categoryId: 94a7a423-8c09-4264-8495-c562c17d811e
 workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+workflowStageId: 73608d81-f8b0-4ee3-897b-c976d2dc6670

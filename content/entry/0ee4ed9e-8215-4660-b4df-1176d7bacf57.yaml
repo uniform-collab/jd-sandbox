@@ -1,5 +1,5 @@
-created: '2023-11-20T09:34:24.758322+00:00'
-modified: '2024-09-24T18:55:38.827533+00:00'
+created: '2024-11-04T20:11:00.454467+00:00'
+modified: '2024-11-04T20:11:00.454467+00:00'
 pattern: false
 workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
 entry:
@@ -7,7 +7,7 @@ entry:
   _name: The drip on display
   _slug: the-drip-on-display
   _thumbnail: >-
-    https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/-rYIVneERrGKk1UaQmmqsg-espressoGPT_hero_2.jpg
+    https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/hFIwGARWSdC2jpvCiG3TIw-espressoGPT_hero_2.jpg
   type: hero
   fields:
     image:

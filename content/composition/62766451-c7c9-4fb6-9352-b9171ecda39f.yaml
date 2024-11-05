@@ -1,0 +1,85 @@
+composition:
+  _name: Coffee Rubbed Steak
+  _id: 62766451-c7c9-4fb6-9352-b9171ecda39f
+  _slug: test
+  type: page
+  _dataResources:
+    Recipe Content:
+      type: recipe
+      variables:
+        locale: ${locale}
+        entryId: 6a34e027-df0f-4aba-9991-1ab441494c10
+  _overrides:
+    62766451-c7c9-4fb6-9352-b9171ecda39f|3f191f55-2fd1-4182-88ee-9145f20e4ef4:
+      parameters:
+        columnSpan:
+          type: tp-slider-parameter
+          value: '4'
+    62766451-c7c9-4fb6-9352-b9171ecda39f|c325d75f-e82a-44eb-8f3c-9fd4bae87f2b:
+      parameters:
+        columnSpan:
+          type: tp-slider-parameter
+          value: '1'
+    62766451-c7c9-4fb6-9352-b9171ecda39f|f04458ac-73d1-4ae2-b19d-1bd84e3eaf3e:
+      slots:
+        $slotSectionItems:
+          - _id: f237cb4d-2f8e-41b6-b611-78091d3f7ebe
+            type: imageGallery
+            parameters:
+              items:
+                type: asset
+                value:
+                  - _id: add5caf6-6da4-40b2-ad29-5bc0fd50ea73
+                    type: image
+                    fields:
+                      id:
+                        type: text
+                        value: 1a3c7b48-a22b-468c-8659-302ff8157fbd
+                      url:
+                        type: text
+                        value: >-
+                          https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/47Ett8UYTLmrdzFGL_QMeg-coffee-rubbed-steak.webp
+                      file:
+                        type: file
+                        value: 7dcf4ece-a67c-4cba-bae8-06cec80a8bf3
+                      size:
+                        type: number
+                        value: 357200
+                      title:
+                        type: text
+                        value: coffee-rubbed-steak.webp
+                      width:
+                        type: number
+                        value: 1600
+                      height:
+                        type: number
+                        value: 1600
+                      mediaType:
+                        type: text
+                        value: image/webp
+                    _source: uniform-assets
+              marginTop:
+                type: select
+                value: None
+              paddingTop:
+                type: select
+                value: None
+              titleStyle:
+                type: tp-title-style-parameter
+                value: h1
+              marginBottom:
+                type: select
+                value: None
+              paddingBottom:
+                type: select
+                value: None
+  _locales:
+    - en-US
+    - nl-NL
+    - fr-CA
+  _pattern: 1c648e60-5186-4c72-9634-327a00607ed0
+created: '2024-11-04T20:15:47.326367+00:00'
+modified: '2024-11-04T20:15:47.326367+00:00'
+pattern: false
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+workflowStageId: 73608d81-f8b0-4ee3-897b-c976d2dc6670

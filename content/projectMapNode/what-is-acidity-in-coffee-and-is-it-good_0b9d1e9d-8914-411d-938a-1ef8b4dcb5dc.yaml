@@ -1,9 +1,9 @@
 id: 0b9d1e9d-8914-411d-938a-1ef8b4dcb5dc
 name: Custom Article Details Page
-type: composition
-data: {}
 order: 0
-path: /:locale/articles/how-to-brew-a-proper-cuppa
+path: /:locale/articles/what-is-acidity-in-coffee-and-is-it-good
+type: composition
+pathSegment: what-is-acidity-in-coffee-and-is-it-good
+data: {}
 compositionId: bc46114d-dc0f-4779-ab9d-24431255f1bd
-pathSegment: how-to-brew-a-proper-cuppa
 projectMapId: 62588085-7894-4810-84b6-eaaf0cb5213c

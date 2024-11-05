@@ -1,5 +1,5 @@
-created: '2023-11-20T09:34:29.433473+00:00'
-modified: '2024-09-24T18:55:38.827533+00:00'
+created: '2024-11-04T20:11:04.011587+00:00'
+modified: '2024-11-04T20:11:04.011587+00:00'
 pattern: false
 workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
 entry:
@@ -7,7 +7,7 @@ entry:
   _name: We have great promotions
   _slug: we-have-great-promotions
   _thumbnail: >-
-    https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/MBJImtCZQUaAlOrNpX8YBw-nathan_dumlao.jpg
+    https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/FDgu77plQO61gLfFIMNBgw-nathan_dumlao.jpg
   type: callToAction
   fields:
     image:

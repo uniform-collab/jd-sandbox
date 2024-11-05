@@ -1,0 +1,1063 @@
+composition:
+  _name: recipe
+  _id: 1b1364ce-588c-432f-b537-e0e2e518d083
+  _slug: ':recipe'
+  type: page
+  parameters:
+    pageTitle:
+      type: text
+      locales:
+        en-CA: ${#jptr:/Recipe by slug/entry/fields/name/value}
+        en-GB: ${#jptr:/Recipe by slug/entry/fields/name/value}
+        en-NL: ${#jptr:/Recipe by slug/entry/fields/name/value}
+        en-US: ${#jptr:/Recipe by slug/entry/fields/name/value}
+        es-US: ${#jptr:/Recipe by slug/entry/fields/name/value}
+        fr-CA: ${#jptr:/Recipe by slug/entry/fields/name/value}
+        nl-NL: ${#jptr:/Recipe by slug/entry/fields/name/value}
+  slots:
+    pageFooter:
+      - _id: 41fa66aa-7d4f-4665-a279-91df4422f0d4
+        type: footer
+        _pattern: 319639e9-4bac-4fb3-8f0b-19088c969fcb
+    pageHeader:
+      - _id: c5b3a5e4-b191-4de4-b949-ce0c9bdfb9ba
+        type: header
+        _pattern: e46c8336-acfd-43e8-ac59-8be8f4c33b7d
+    pageContent:
+      - _id: bec1efb4-5768-4f5d-8655-7aa44c83b1f9
+        type: hero
+        variant: backgroundImage
+        parameters:
+          image:
+            type: asset
+            value:
+              - _id: 51964445-ed43-4573-b137-169142f3f9da
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      ${#jptr:/Recipe by
+                      slug/entry/fields/featuredImage/value/0/fields/url/value}
+                _source: custom-url
+          title:
+            type: text
+            locales:
+              en-CA: ${#jptr:/Recipe by slug/entry/fields/name/value}
+              en-GB: ${#jptr:/Recipe by slug/entry/fields/name/value}
+              en-NL: ${#jptr:/Recipe by slug/entry/fields/name/value}
+              en-US: ${#jptr:/Recipe by slug/entry/fields/name/value}
+              es-US: ${#jptr:/Recipe by slug/entry/fields/name/value}
+              fr-CA: ${#jptr:/Recipe by slug/entry/fields/name/value}
+              nl-NL: ${#jptr:/Recipe by slug/entry/fields/name/value}
+          objectFit:
+            type: select
+            value: none
+          textColor:
+            type: tp-color-palette-parameter
+            value: primary-content
+          paddingTop:
+            type: select
+            value: None
+          titleStyle:
+            type: tp-title-style-parameter
+            value: h1
+          description:
+            type: text
+            locales:
+              en-CA: ${#jptr:/Recipe by slug/entry/fields/overview/value}
+              en-GB: ${#jptr:/Recipe by slug/entry/fields/overview/value}
+              en-NL: ${#jptr:/Recipe by slug/entry/fields/overview/value}
+              en-US: ${#jptr:/Recipe by slug/entry/fields/overview/value}
+              es-US: ${#jptr:/Recipe by slug/entry/fields/overview/value}
+              fr-CA: ${#jptr:/Recipe by slug/entry/fields/overview/value}
+              nl-NL: ${#jptr:/Recipe by slug/entry/fields/overview/value}
+          eyebrowText:
+            type: text
+            locales:
+              en-CA: ${#jptr:/Recipe by slug/entry/fields/subtitle/value}
+              en-GB: ${#jptr:/Recipe by slug/entry/fields/subtitle/value}
+              en-NL: ${#jptr:/Recipe by slug/entry/fields/subtitle/value}
+              en-US: ${#jptr:/Recipe by slug/entry/fields/subtitle/value}
+              es-US: ${#jptr:/Recipe by slug/entry/fields/subtitle/value}
+              fr-CA: ${#jptr:/Recipe by slug/entry/fields/subtitle/value}
+              nl-NL: ${#jptr:/Recipe by slug/entry/fields/subtitle/value}
+          overlayColor:
+            type: tp-color-palette-parameter
+            value: primary
+          paddingBottom:
+            type: select
+            value: None
+          overlayOpacity:
+            type: tp-slider-parameter
+            value: 30%
+          containerVariant:
+            type: select
+            value: fluidContent
+      - _id: 4a8d628a-1a2c-4ae5-b3ff-a0c7fe686a31
+        type: container
+        slots:
+          container-inner:
+            - _id: af8c0140-ed8d-4f11-9566-d8bd8a7357aa
+              type: breadcrumbs
+              parameters:
+                separator:
+                  type: select
+                  value: chevron
+                colorStyle:
+                  type: tp-color-style-parameter
+                  value: secondary
+                displayRootNode:
+                  type: checkbox
+                  value: true
+                displayPlaceholderNodes:
+                  type: checkbox
+                  value: true
+            - _id: e766ba70-e726-403b-bae1-9d2d5f6f9422
+              type: richText
+              parameters:
+                color:
+                  type: tp-color-palette-parameter
+                  value: primary-content
+                content:
+                  type: richText
+                  locales:
+                    en-CA: ${#jptr:/Recipe by slug/entry/fields/description/value}
+                    en-GB: ${#jptr:/Recipe by slug/entry/fields/description/value}
+                    en-NL: ${#jptr:/Recipe by slug/entry/fields/description/value}
+                    en-US: ${#jptr:/Recipe by slug/entry/fields/description/value}
+                    es-US: ${#jptr:/Recipe by slug/entry/fields/description/value}
+                    fr-CA: ${#jptr:/Recipe by slug/entry/fields/description/value}
+                    nl-NL: ${#jptr:/Recipe by slug/entry/fields/description/value}
+            - _id: f2c68ca6-18e2-4de2-999f-8fed6d68ce83
+              type: advancedContainer
+              slots:
+                content:
+                  - _id: 38d81359-8ecd-494e-82cd-c7150ee65763
+                    type: text
+                    parameters:
+                      tag:
+                        type: tp-segmented-control-parameter
+                        value: p
+                      size:
+                        type: tp-segmented-control-parameter
+                        value: Base
+                      text:
+                        type: text
+                        locales:
+                          en-CA: >-
+                            Published: ${#jptr:/Recipe by
+                            slug/entry/fields/publishDate/value:fa=c}
+                          en-GB: >-
+                            Published: ${#jptr:/Recipe by
+                            slug/entry/fields/publishDate/value:fa=c}
+                          en-NL: >-
+                            Published: ${#jptr:/Recipe by
+                            slug/entry/fields/publishDate/value:fa=c}
+                          en-US: >-
+                            Published: ${#jptr:/Recipe by
+                            slug/entry/fields/publishDate/value:fa=c}
+                          es-US: >-
+                            Publicado: ${#jptr:/Recipe by
+                            slug/entry/fields/publishDate/value:fa=c}
+                          fr-CA: >-
+                            Publié : ${#jptr:/Recipe by
+                            slug/entry/fields/publishDate/value:fa=c}
+                          nl-NL: >-
+                            Gepubliceerd: ${#jptr:/Recipe by
+                            slug/entry/fields/publishDate/value:fa=c}
+                      color:
+                        type: tp-color-palette-parameter
+                        value: primary-content
+                      fontWeight:
+                        type: tp-segmented-control-parameter
+                        value: normal
+                      whiteSpace:
+                        type: tp-segmented-control-parameter
+                        value: normal
+                      letterSpacing:
+                        type: tp-segmented-control-parameter
+                        value: tighter
+                  - _id: 3b6a4019-6fbd-4968-b9b0-6a933537795e
+                    type: text
+                    parameters:
+                      tag:
+                        type: tp-segmented-control-parameter
+                        value: p
+                      size:
+                        type: tp-segmented-control-parameter
+                        value: Base
+                      text:
+                        type: text
+                        locales:
+                          en-CA: >-
+                            Recipe Type: ${#jptr:/Recipe by
+                            slug/entry/fields/recipeType/value/entry/fields/name/value}
+                          en-GB: >-
+                            Recipe Type: ${#jptr:/Recipe by
+                            slug/entry/fields/recipeType/value/entry/fields/name/value}
+                          en-NL: >-
+                            Recipe Type: ${#jptr:/Recipe by
+                            slug/entry/fields/recipeType/value/entry/fields/name/value}
+                          en-US: >-
+                            Recipe Type: ${#jptr:/Recipe by
+                            slug/entry/fields/recipeType/value/entry/fields/name/value}
+                          es-US: >-
+                            Tipo de receta: ${#jptr:/Recipe by
+                            slug/entry/fields/recipeType/value/entry/fields/name/value}
+                          fr-CA: >-
+                            Type de recette : ${#jptr:/Recipe by
+                            slug/entry/fields/recipeType/value/entry/fields/name/value}
+                          nl-NL: >-
+                            Recept Type: ${#jptr:/Recipe by
+                            slug/entry/fields/recipeType/value/entry/fields/name/value}
+                      color:
+                        type: tp-color-palette-parameter
+                        value: primary-content
+                      fontWeight:
+                        type: tp-segmented-control-parameter
+                        value: normal
+                      whiteSpace:
+                        type: tp-segmented-control-parameter
+                        value: normal
+                      letterSpacing:
+                        type: tp-segmented-control-parameter
+                        value: tighter
+                  - _id: 2968cbc0-d695-49e0-98b1-9f5ebda43ae0
+                    type: text
+                    parameters:
+                      tag:
+                        type: tp-segmented-control-parameter
+                        value: p
+                      size:
+                        type: tp-segmented-control-parameter
+                        value: Base
+                      text:
+                        type: text
+                        locales:
+                          en-CA: >-
+                            Yield: ${#jptr:/Recipe by
+                            slug/entry/fields/yield/value:fa=c}
+                          en-GB: >-
+                            Yield: ${#jptr:/Recipe by
+                            slug/entry/fields/yield/value:fa=c}
+                          en-NL: >-
+                            Yield: ${#jptr:/Recipe by
+                            slug/entry/fields/yield/value:fa=c}
+                          en-US: >-
+                            Yield: ${#jptr:/Recipe by
+                            slug/entry/fields/yield/value:fa=c}
+                          es-US: >-
+                            Rendimiento: ${#jptr:/Recipe by
+                            slug/entry/fields/yield/value:fa=c}
+                          fr-CA: >-
+                            Rendement : ${#jptr:/Recipe by
+                            slug/entry/fields/yield/value:fa=c}
+                          nl-NL: >-
+                            Opbrengst: ${#jptr:/Recipe by
+                            slug/entry/fields/yield/value:fa=c}
+                      color:
+                        type: tp-color-palette-parameter
+                        value: primary-content
+                      fontWeight:
+                        type: tp-segmented-control-parameter
+                        value: normal
+                      whiteSpace:
+                        type: tp-segmented-control-parameter
+                        value: normal
+                      letterSpacing:
+                        type: tp-segmented-control-parameter
+                        value: tighter
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-CA: Metadata
+                    en-GB: Metadata
+                    en-NL: Metadata
+                    en-US: Metadata
+                    es-US: Metadatos
+                    fr-CA: Métadonnées
+                    nl-NL: Metagegevens
+                marginTop:
+                  type: select
+                  value: Small
+                paddingTop:
+                  type: select
+                  value: None
+                marginBottom:
+                  type: select
+                  value: Small
+                paddingBottom:
+                  type: select
+                  value: None
+                backgroundColor:
+                  type: tp-color-palette-parameter
+                  value: secondary-content
+            - _id: 99c78a89-c467-46a5-b55b-46e9a028bacd
+              type: divider
+              parameters:
+                width:
+                  type: tp-slider-parameter
+                  value: 100%
+                alignment:
+                  type: tp-horizontal-align-parameter
+                  value: left
+                thickness:
+                  type: tp-slider-parameter
+                  value: 2px
+                colorStyle:
+                  type: tp-color-style-parameter
+                  value: accent
+            - _id: 3704d9b7-a385-4599-98aa-5c90d20582d0
+              type: imageGallery
+              parameters:
+                items:
+                  type: asset
+                  value: ${#jptr:/Recipe by slug/entry/fields/media/value:fa=c:fl=i}
+                title:
+                  type: text
+                  locales:
+                    en-CA: Step by Step
+                    en-GB: Step by Step
+                    en-NL: Step by Step
+                    en-US: Step by Step
+                    es-US: Paso a paso
+                    fr-CA: Pas à pas
+                    nl-NL: Stap voor stap
+                duration:
+                  type: select
+                  value: medium
+                marginTop:
+                  type: select
+                  value: None
+                paddingTop:
+                  type: select
+                  value: Small
+                titleStyle:
+                  type: tp-title-style-parameter
+                  value: h4
+                description:
+                  type: text
+                  locales:
+                    en-CA: Photos of key steps in Preparation
+                    en-GB: Photos of key steps in Preparation
+                    en-NL: Photos of key steps in Preparation
+                    en-US: Photos of key steps in Preparation
+                    es-US: Fotos de los pasos clave de la preparación
+                    fr-CA: Photos des étapes clés de la préparation
+                    nl-NL: Foto's van de belangrijkste stappen in de voorbereiding
+                marginBottom:
+                  type: select
+                  value: None
+                animationType:
+                  type: select
+                  value: flyIn
+                paddingBottom:
+                  type: select
+                  value: None
+                animationOrder:
+                  type: select
+                  value: oneByOne
+                backgroundType:
+                  type: tp-background-type-parameter
+                  value: Dark
+                animationPreview:
+                  type: tp-play-animation-parameter
+                  value: true
+            - _id: 15f0180b-4ada-4637-b8a6-26df9e9ad599
+              type: grid
+              slots:
+                grid-inner:
+                  - _id: 45d9971d-3fad-4a61-a04b-c211c5094e6a
+                    type: gridItem
+                    slots:
+                      inner:
+                        - _id: b5e2b1ca-61fa-4d66-afcb-1c98f58dd780
+                          type: text
+                          parameters:
+                            tag:
+                              type: tp-segmented-control-parameter
+                              value: p
+                            size:
+                              type: tp-segmented-control-parameter
+                              value: XL
+                            text:
+                              type: text
+                              locales:
+                                en-CA: Ingredients
+                                en-GB: Ingredients
+                                en-NL: Ingredients
+                                en-US: Ingredients
+                                es-US: Ingredientes
+                                fr-CA: Ingrédients
+                                nl-NL: Ingrediënten
+                            color:
+                              type: tp-color-palette-parameter
+                              value: primary-content
+                            fontWeight:
+                              type: tp-segmented-control-parameter
+                              value: bold
+                            whiteSpace:
+                              type: tp-segmented-control-parameter
+                              value: normal
+                            letterSpacing:
+                              type: tp-segmented-control-parameter
+                              value: ''
+                        - _id: 19caf5f8-66c6-45a1-8dfb-d3e511755f34
+                          type: $loop
+                          slots:
+                            body:
+                              - _id: 06275d3c-ef9d-44d7-ab4e-29aa8772c0ee
+                                type: container
+                                slots:
+                                  container-inner:
+                                    - _id: b66a5c03-dd2c-4fcb-8fa5-e4f9297625b8
+                                      type: text
+                                      parameters:
+                                        tag:
+                                          type: tp-segmented-control-parameter
+                                          value: p
+                                        size:
+                                          type: tp-segmented-control-parameter
+                                          value: ''
+                                        text:
+                                          type: text
+                                          locales:
+                                            en-CA: >-
+                                              ${#jptr:/Recipe by slug value Loop
+                                              Item/fields/name/value}
+                                            en-GB: >-
+                                              ${#jptr:/Recipe by slug value Loop
+                                              Item/fields/name/value}
+                                            en-NL: >-
+                                              ${#jptr:/Recipe by slug value Loop
+                                              Item/fields/name/value}
+                                            en-US: >-
+                                              ${#jptr:/Recipe by slug value Loop
+                                              Item/fields/name/value}
+                                            es-US: >-
+                                              ${#jptr:/Recipe by slug value Loop
+                                              Item/fields/name/value}
+                                            fr-CA: >-
+                                              ${#jptr:/Recipe by slug value Loop
+                                              Item/fields/name/value}
+                                            nl-NL: >-
+                                              ${#jptr:/Recipe by slug value Loop
+                                              Item/fields/name/value}
+                                        color:
+                                          type: tp-color-palette-parameter
+                                          value: primary-content
+                                        fontWeight:
+                                          type: tp-segmented-control-parameter
+                                          value: bold
+                                        whiteSpace:
+                                          type: tp-segmented-control-parameter
+                                          value: normal
+                                        letterSpacing:
+                                          type: tp-segmented-control-parameter
+                                          value: tighter
+                                    - _id: 3cc31b8b-52f4-435a-bf55-c9a44aaab21f
+                                      type: text
+                                      parameters:
+                                        tag:
+                                          type: tp-segmented-control-parameter
+                                          value: p
+                                        size:
+                                          type: tp-segmented-control-parameter
+                                          value: ''
+                                        text:
+                                          type: text
+                                          locales:
+                                            en-CA: >-
+                                              ${#jptr:/Recipe by slug value Loop
+                                              Item/fields/amount/value}${#jptr:/Recipe
+                                              by slug value Loop
+                                              Item/fields/unit/value}
+                                            en-GB: >-
+                                              ${#jptr:/Recipe by slug value Loop
+                                              Item/fields/amount/value}${#jptr:/Recipe
+                                              by slug value Loop
+                                              Item/fields/unit/value}
+                                            en-NL: >-
+                                              ${#jptr:/Recipe by slug value Loop
+                                              Item/fields/amount/value}${#jptr:/Recipe
+                                              by slug value Loop
+                                              Item/fields/unit/value}
+                                            en-US: >-
+                                              ${#jptr:/Recipe by slug value Loop
+                                              Item/fields/amount/value}${#jptr:/Recipe
+                                              by slug value Loop
+                                              Item/fields/unit/value}
+                                            es-US: >-
+                                              ${#jptr:/Recipe by slug value Loop
+                                              Item/fields/amount/value}${#jptr:/Recipe
+                                              by slug value Loop
+                                              Item/fields/unit/value}
+                                            fr-CA: >-
+                                              ${#jptr:/Recipe by slug value Loop
+                                              Item/fields/amount/value}${#jptr:/Recipe
+                                              by slug value Loop
+                                              Item/fields/unit/value}
+                                            nl-NL: >-
+                                              ${#jptr:/Recipe by slug value Loop
+                                              Item/fields/amount/value}${#jptr:/Recipe
+                                              by slug value Loop
+                                              Item/fields/unit/value}
+                                        color:
+                                          type: tp-color-palette-parameter
+                                          value: primary-content
+                                        fontWeight:
+                                          type: tp-segmented-control-parameter
+                                          value: normal
+                                        whiteSpace:
+                                          type: tp-segmented-control-parameter
+                                          value: normal
+                                        letterSpacing:
+                                          type: tp-segmented-control-parameter
+                                          value: tighter
+                                parameters:
+                                  title:
+                                    type: text
+                                    locales:
+                                      en-CA: >-
+                                        ${#jptr:/Recipe by slug value Loop
+                                        Item/fields/name/value}
+                                      en-GB: >-
+                                        ${#jptr:/Recipe by slug value Loop
+                                        Item/fields/name/value}
+                                      en-NL: >-
+                                        ${#jptr:/Recipe by slug value Loop
+                                        Item/fields/name/value}
+                                      en-US: >-
+                                        ${#jptr:/Recipe by slug value Loop
+                                        Item/fields/name/value}
+                                      es-US: >-
+                                        ${#jptr:/Recipe by slug value Loop
+                                        Item/fields/name/value}
+                                      fr-CA: >-
+                                        ${#jptr:/Recipe by slug value Loop
+                                        Item/fields/name/value}
+                                      nl-NL: >-
+                                        ${#jptr:/Recipe by slug value Loop
+                                        Item/fields/name/value}
+                                  marginTop:
+                                    type: select
+                                    value: Small
+                                  paddingTop:
+                                    type: select
+                                    value: None
+                                  marginBottom:
+                                    type: select
+                                    value: None
+                                  paddingBottom:
+                                    type: select
+                                    value: None
+                          _dataResources:
+                            Recipe by slug value Loop Item:
+                              type: sys-reserved-loop
+                              variables:
+                                connectedData: >-
+                                  #jptr:/Recipe by
+                                  slug/entry/fields/ingredients/value:fa=c
+                    parameters:
+                      title:
+                        type: text
+                        locales:
+                          en-CA: Ingredients - Left Column
+                          en-GB: Ingredients - Left Column
+                          en-NL: Ingredients - Left Column
+                          en-US: Ingredients - Left Column
+                          es-US: Ingredientes - Columna Izquierda
+                          fr-CA: Ingrédients - Colonne de gauche
+                          nl-NL: Ingrediënten - Linkerkolom
+                      rowSpan:
+                        type: tp-slider-parameter
+                        value: '1'
+                      rowStart:
+                        type: tp-slider-parameter
+                        value: None
+                      columnSpan:
+                        type: tp-slider-parameter
+                        value: '2'
+                      columnStart:
+                        type: tp-slider-parameter
+                        value: none
+                  - _id: e7b6d2e1-6ade-4a04-93d9-9f01e852b492
+                    type: gridItem
+                    slots:
+                      inner:
+                        - _id: ea620bde-76ec-4a74-9a1e-07e47c8d997c
+                          type: cardBlock
+                          _pattern: 1f70a2d2-e4ff-43d0-846f-5f8ffb2c773e
+                          _dataResources:
+                            Recipe Product Content:
+                              type: recipeBySlug
+                              variables:
+                                slug: ${recipe}
+                                locale: ${locale}
+                        - _id: 53eceb55-37c6-4282-901a-59004291b60e
+                          type: $loop
+                          slots:
+                            body:
+                              - _id: 575f2d7c-69cd-4055-9e67-5a98b73e25f1
+                                type: advancedContainer
+                                slots:
+                                  content:
+                                    - _id: d618154a-b481-46a8-8aa8-dabb6a65ab5e
+                                      type: text
+                                      parameters:
+                                        tag:
+                                          type: tp-segmented-control-parameter
+                                          value: p
+                                        size:
+                                          type: tp-segmented-control-parameter
+                                          value: XL
+                                        text:
+                                          type: text
+                                          locales:
+                                            en-CA: >-
+                                              ${#jptr:/Recipe by slug value Loop
+                                              Item/fields/name/value}
+                                            en-GB: >-
+                                              ${#jptr:/Recipe by slug value Loop
+                                              Item/fields/name/value}
+                                            en-NL: >-
+                                              ${#jptr:/Recipe by slug value Loop
+                                              Item/fields/name/value}
+                                            en-US: >-
+                                              ${#jptr:/Recipe by slug value Loop
+                                              Item/fields/name/value}
+                                            es-US: >-
+                                              ${#jptr:/Recipe by slug value Loop
+                                              Item/fields/name/value}
+                                            fr-CA: >-
+                                              ${#jptr:/Recipe by slug value Loop
+                                              Item/fields/name/value}
+                                            nl-NL: >-
+                                              ${#jptr:/Recipe by slug value Loop
+                                              Item/fields/name/value}
+                                        color:
+                                          type: tp-color-palette-parameter
+                                          value: primary-content
+                                        fontWeight:
+                                          type: tp-segmented-control-parameter
+                                          value: bold
+                                        whiteSpace:
+                                          type: tp-segmented-control-parameter
+                                          value: normal
+                                        letterSpacing:
+                                          type: tp-segmented-control-parameter
+                                          value: ''
+                                    - _id: 5304afac-9f9c-45bd-9f3e-8a48034d65a6
+                                      type: richText
+                                      parameters:
+                                        color:
+                                          type: tp-color-palette-parameter
+                                          value: primary-content
+                                        content:
+                                          type: richText
+                                          locales:
+                                            en-CA: >-
+                                              ${#jptr:/Recipe by slug value Loop
+                                              Item/fields/description/value:fa=c}
+                                            en-GB: >-
+                                              ${#jptr:/Recipe by slug value Loop
+                                              Item/fields/description/value:fa=c}
+                                            en-NL: >-
+                                              ${#jptr:/Recipe by slug value Loop
+                                              Item/fields/description/value:fa=c}
+                                            en-US: >-
+                                              ${#jptr:/Recipe by slug value Loop
+                                              Item/fields/description/value:fa=c}
+                                            es-US: >-
+                                              ${#jptr:/Recipe by slug value Loop
+                                              Item/fields/description/value:fa=c}
+                                            fr-CA: >-
+                                              ${#jptr:/Recipe by slug value Loop
+                                              Item/fields/description/value:fa=c}
+                                            nl-NL: >-
+                                              ${#jptr:/Recipe by slug value Loop
+                                              Item/fields/description/value:fa=c}
+                                parameters:
+                                  $viz:
+                                    type: $viz
+                                    value:
+                                      criteria:
+                                        clauses:
+                                          - op: '!empty'
+                                            rule: $dt
+                                            value: ''
+                                            source: >-
+                                              ${#jptr:/Recipe by slug value Loop
+                                              Item/fields/description/type}
+                                  title:
+                                    type: text
+                                    locales:
+                                      en-CA: >-
+                                        ${#jptr:/Recipe by slug value Loop
+                                        Item/fields/name/value}
+                                      en-GB: >-
+                                        ${#jptr:/Recipe by slug value Loop
+                                        Item/fields/name/value}
+                                      en-NL: >-
+                                        ${#jptr:/Recipe by slug value Loop
+                                        Item/fields/name/value}
+                                      en-US: >-
+                                        ${#jptr:/Recipe by slug value Loop
+                                        Item/fields/name/value}
+                                      es-US: >-
+                                        ${#jptr:/Recipe by slug value Loop
+                                        Item/fields/name/value}
+                                      fr-CA: >-
+                                        ${#jptr:/Recipe by slug value Loop
+                                        Item/fields/name/value}
+                                      nl-NL: >-
+                                        ${#jptr:/Recipe by slug value Loop
+                                        Item/fields/name/value}
+                                  backgroundColor:
+                                    type: tp-color-palette-parameter
+                                    value: secondary-content
+                              - _id: 8d4c9c77-e702-4fcc-967b-e7841f4ec39a
+                                type: $loop
+                                slots:
+                                  body:
+                                    - _id: b81d6f65-4168-45a4-bae9-8f4285c5d6b0
+                                      type: advancedContainer
+                                      slots:
+                                        content:
+                                          - _id: 0df92cea-52a0-495f-82e9-c405bc995b99
+                                            type: text
+                                            parameters:
+                                              tag:
+                                                type: tp-segmented-control-parameter
+                                                value: p
+                                              size:
+                                                type: tp-segmented-control-parameter
+                                                value: ''
+                                              text:
+                                                type: text
+                                                locales:
+                                                  en-CA: >-
+                                                    ${#jptr:/Recipe by slug value Loop Item
+                                                    value Loop Item/fields/name/value}
+                                                  en-GB: >-
+                                                    ${#jptr:/Recipe by slug value Loop Item
+                                                    value Loop Item/fields/name/value}
+                                                  en-NL: >-
+                                                    ${#jptr:/Recipe by slug value Loop Item
+                                                    value Loop Item/fields/name/value}
+                                                  en-US: >-
+                                                    ${#jptr:/Recipe by slug value Loop Item
+                                                    value Loop Item/fields/name/value}
+                                                  es-US: >-
+                                                    ${#jptr:/Recipe by slug value Loop Item
+                                                    value Loop Item/fields/name/value}
+                                                  fr-CA: >-
+                                                    ${#jptr:/Recipe by slug value Loop Item
+                                                    value Loop Item/fields/name/value}
+                                                  nl-NL: >-
+                                                    ${#jptr:/Recipe by slug value Loop Item
+                                                    value Loop Item/fields/name/value}
+                                              color:
+                                                type: tp-color-palette-parameter
+                                                value: primary-content
+                                              fontWeight:
+                                                type: tp-segmented-control-parameter
+                                                value: normal
+                                              whiteSpace:
+                                                type: tp-segmented-control-parameter
+                                                value: normal
+                                              letterSpacing:
+                                                type: tp-segmented-control-parameter
+                                                value: ''
+                                          - _id: d4fc6369-2c45-4dab-9242-7d947051a2db
+                                            type: richText
+                                            parameters:
+                                              color:
+                                                type: tp-color-palette-parameter
+                                                value: primary-content
+                                              content:
+                                                type: richText
+                                                locales:
+                                                  en-CA: >-
+                                                    ${#jptr:/Recipe by slug value Loop Item
+                                                    value Loop
+                                                    Item/fields/description/value}
+                                                  en-GB: >-
+                                                    ${#jptr:/Recipe by slug value Loop Item
+                                                    value Loop
+                                                    Item/fields/description/value}
+                                                  en-NL: >-
+                                                    ${#jptr:/Recipe by slug value Loop Item
+                                                    value Loop
+                                                    Item/fields/description/value}
+                                                  en-US: >-
+                                                    ${#jptr:/Recipe by slug value Loop Item
+                                                    value Loop
+                                                    Item/fields/description/value}
+                                                  es-US: >-
+                                                    ${#jptr:/Recipe by slug value Loop Item
+                                                    value Loop
+                                                    Item/fields/description/value}
+                                                  fr-CA: >-
+                                                    ${#jptr:/Recipe by slug value Loop Item
+                                                    value Loop
+                                                    Item/fields/description/value}
+                                                  nl-NL: >-
+                                                    ${#jptr:/Recipe by slug value Loop Item
+                                                    value Loop
+                                                    Item/fields/description/value}
+                                      parameters:
+                                        title:
+                                          type: text
+                                          locales:
+                                            en-CA: >-
+                                              ${#jptr:/Recipe by slug value Loop Item
+                                              value Loop Item/fields/name/value}
+                                            en-GB: >-
+                                              ${#jptr:/Recipe by slug value Loop Item
+                                              value Loop Item/fields/name/value}
+                                            en-NL: >-
+                                              ${#jptr:/Recipe by slug value Loop Item
+                                              value Loop Item/fields/name/value}
+                                            en-US: >-
+                                              ${#jptr:/Recipe by slug value Loop Item
+                                              value Loop Item/fields/name/value}
+                                            es-US: >-
+                                              ${#jptr:/Recipe by slug value Loop Item
+                                              value Loop Item/fields/name/value}
+                                            fr-CA: >-
+                                              ${#jptr:/Recipe by slug value Loop Item
+                                              value Loop Item/fields/name/value}
+                                            nl-NL: >-
+                                              ${#jptr:/Recipe by slug value Loop Item
+                                              value Loop Item/fields/name/value}
+                                        marginTop:
+                                          type: select
+                                          value: Small
+                                        marginBottom:
+                                          type: select
+                                          value: None
+                                        backgroundColor:
+                                          type: tp-color-palette-parameter
+                                          value: secondary-content
+                                _dataResources:
+                                  Recipe by slug value Loop Item value Loop Item:
+                                    type: sys-reserved-loop
+                                    variables:
+                                      connectedData: >-
+                                        #jptr:/Recipe by slug value Loop
+                                        Item/fields/steps/value:fa=c
+                          _dataResources:
+                            Recipe by slug value Loop Item:
+                              type: sys-reserved-loop
+                              variables:
+                                connectedData: >-
+                                  #jptr:/Recipe by
+                                  slug/entry/fields/instructions/value:fa=c
+                    parameters:
+                      title:
+                        type: text
+                        locales:
+                          en-CA: Instructions - Right Column
+                          en-GB: Instructions - Right Column
+                          en-NL: Instructions - Right Column
+                          en-US: Instructions - Right Column
+                          es-US: Instrucciones - Columna derecha
+                          fr-CA: Instructions - Colonne de droite
+                          nl-NL: Instructies - Rechterkolom
+                      rowSpan:
+                        type: tp-slider-parameter
+                        value: '1'
+                      rowStart:
+                        type: tp-slider-parameter
+                        value: None
+                      columnSpan:
+                        type: tp-slider-parameter
+                        value: '3'
+                      columnStart:
+                        type: tp-slider-parameter
+                        value: none
+              parameters:
+                gapX:
+                  type: tp-slider-parameter
+                  value: none
+                gapY:
+                  type: tp-slider-parameter
+                  value: none
+                title:
+                  type: text
+                  locales:
+                    en-CA: 2-column Recipe
+                    en-GB: 2-column Recipe
+                    en-NL: 2-column Recipe
+                    en-US: 2-column Recipe
+                    es-US: Receta de 2 columnas
+                    fr-CA: Recette à 2 colonnes
+                    nl-NL: Recept met 2 kolommen
+                marginTop:
+                  type: select
+                  value: Small
+                columnsCount:
+                  type: tp-slider-parameter
+                  value: '5'
+        parameters:
+          title:
+            type: text
+            locales:
+              en-CA: Recipe Details
+              en-GB: Recipe Details
+              en-NL: Recipe Details
+              en-US: Recipe Details
+              es-US: Detalles de la receta
+              fr-CA: Détails de la recette
+              nl-NL: Details van het recept
+          marginTop:
+            type: select
+            value: None
+          paddingTop:
+            type: select
+            value: None
+          marginBottom:
+            type: select
+            value: None
+          paddingBottom:
+            type: select
+            value: None
+          backgroundType:
+            type: tp-background-type-parameter
+            value: Dark
+      - _id: da5fe9e0-aaf4-4da8-a1be-7d40dfc0979b
+        type: container
+        variant: fluidContent
+        parameters:
+          title:
+            type: text
+            locales:
+              en-CA: Empty Space
+              en-GB: Empty Space
+              en-NL: Empty Space
+              en-US: Empty Space
+              es-US: Espacio vacío
+              fr-CA: Espace vide
+              nl-NL: Lege ruimte
+          marginTop:
+            type: select
+            value: None
+          paddingTop:
+            type: select
+            value: Small
+          marginBottom:
+            type: select
+            value: None
+          paddingBottom:
+            type: select
+            value: None
+          backgroundType:
+            type: tp-background-type-parameter
+            value: Dark
+  _dataResources:
+    Recipe by slug:
+      type: recipeBySlug
+      variables:
+        slug: ${recipe}
+        locale: ${locale}
+  _overrides:
+    ea620bde-76ec-4a74-9a1e-07e47c8d997c:
+      parameters:
+        $viz:
+          type: $viz
+          value:
+            criteria:
+              clauses:
+                - op: '!empty'
+                  rule: $dt
+                  value: ''
+                  source: ${#jptr:/Recipe by slug/entry/fields/relatedProducts/type}
+        title:
+          type: text
+          locales:
+            en-CA: Products you may need
+            en-GB: Products you may need
+            en-NL: Products you may need
+            es-US: Products you may need
+            fr-CA: Products you may need
+            nl-NL: Products you may need
+        textColorVariant:
+          type: select
+          value: Light
+    ea620bde-76ec-4a74-9a1e-07e47c8d997c|98ef4404-7adc-4d1b-bd62-e17bc229352b:
+      variant: backgroundImage
+      parameters:
+        badge:
+          type: text
+          locales:
+            en-CA: >-
+              ${#jptr:/Product Content results Loop
+              Item/entry/fields/category/value/0/entry/fields/title/value}
+            en-GB: >-
+              ${#jptr:/Product Content results Loop
+              Item/entry/fields/category/value/0/entry/fields/title/value}
+            es-US: >-
+              ${#jptr:/Product Content results Loop
+              Item/entry/fields/category/value/0/entry/fields/title/value}
+        title:
+          type: text
+          locales:
+            en-CA: >-
+              ${#jptr:/Product Content results Loop
+              Item/entry/fields/name/value}
+            en-GB: >-
+              ${#jptr:/Product Content results Loop
+              Item/entry/fields/name/value}
+            es-US: >-
+              ${#jptr:/Product Content results Loop
+              Item/entry/fields/name/value}
+        objectFit:
+          type: select
+          value: contain
+        buttonCopy:
+          type: text
+          locales:
+            en-CA: View
+            en-GB: View
+            en-NL: View
+            en-US: View
+            es-US: Vista
+            fr-CA: Voir
+            nl-NL: Bekijken
+        description:
+          type: text
+          locales:
+            en-CA: >-
+              ${#jptr:/Product Content results Loop
+              Item/entry/fields/shortDescription/value}
+            en-GB: >-
+              ${#jptr:/Product Content results Loop
+              Item/entry/fields/shortDescription/value}
+            es-US: >-
+              ${#jptr:/Product Content results Loop
+              Item/entry/fields/shortDescription/value}
+        overlayColor:
+          type: tp-color-style-parameter
+          value: base-300
+        overlayOpacity:
+          type: tp-slider-parameter
+          value: 40%
+        textColorVariant:
+          type: select
+          value: Light
+  _locales:
+    - en-US
+    - nl-NL
+    - fr-CA
+    - es-US
+    - en-CA
+    - en-GB
+    - en-NL
+created: '2024-11-04T20:15:51.409946+00:00'
+modified: '2024-11-04T20:15:51.409946+00:00'
+pattern: false
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+workflowStageId: 73608d81-f8b0-4ee3-897b-c976d2dc6670

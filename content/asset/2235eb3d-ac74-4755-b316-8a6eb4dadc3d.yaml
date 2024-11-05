@@ -8,7 +8,7 @@ asset:
       value: icon-header-logo_vjm8yy_rydeez.svg
     file:
       type: file
-      value: 7e0ce3e5-737d-4b97-a7d0-ba0c08155837
+      value: ea83df11-9185-480d-bcbd-1a0e66362d18
     mediaType:
       value: image/svg+xml
       type: text
@@ -17,7 +17,7 @@ asset:
         https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/U1_gttQiTjiGAyu2cgl4jQ-icon-header-logo_vjm8yy_rydeez.svg
       type: text
     size:
-      value: 5456
+      value: 5502
       type: number
     width:
       value: 196
@@ -26,5 +26,5 @@ asset:
       value: 47
       type: number
     custom: {}
-created: '2024-08-12T12:52:20.464728+00:00'
-modified: '2024-08-12T12:52:20.464728+00:00'
+created: '2024-11-04T20:00:55.984362+00:00'
+modified: '2024-11-04T20:05:54.175975+00:00'

@@ -20,7 +20,7 @@ composition:
               type: file
               value: 842fb496-61fc-40f5-ac19-21bf0162bdc5
             size:
-              value: 2288
+              value: 2324
               type: number
             title:
               type: text
@@ -1118,13 +1118,13 @@ composition:
                     value: 5825db43-46f7-4c67-90fe-9db22c886de4
                   url:
                     value: >-
-                      https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/3v1j-Ew1QJCNZJix1vGcmg-storybook_icon.svg
+                      https://img.uniform.global/p/g7bIwGklRHq1c0h6VQckpg/wdBHabOsQQypqq4eVOsBxw-storybook_icon.svg
                     type: text
                   file:
                     type: file
                     value: d1f9c55a-0ec6-43de-92e1-d5cd66239a2d
                   size:
-                    value: 7943
+                    value: 7952
                     type: number
                   title:
                     type: text
@@ -1158,13 +1158,13 @@ composition:
                     value: 3bbc89d6-e79d-4654-b467-381a3ba82c20
                   url:
                     value: >-
-                      https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/YqN7SVdbRpKJxKH8eoo41g-github_icon_black.svg
+                      https://img.uniform.global/p/g7bIwGklRHq1c0h6VQckpg/AS83jXZnSMqVbVbJIU12cA-github_icon_black.svg
                     type: text
                   file:
                     type: file
                     value: e791ba00-7af7-4241-a048-4896b10f5499
                   size:
-                    value: 1327
+                    value: 1330
                     type: number
                   title:
                     type: text
@@ -1192,8 +1192,8 @@ composition:
     - en-NL
     - fr-CA
     - nl-NL
-created: '2023-11-20T09:33:59.325552+00:00'
-modified: '2024-09-24T18:55:38.827533+00:00'
+created: '2024-11-04T20:14:27.498538+00:00'
+modified: '2024-11-04T20:14:27.498538+00:00'
 pattern: true
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/v1/preview-images/NewJavaDripTheme/Footer_preview_image

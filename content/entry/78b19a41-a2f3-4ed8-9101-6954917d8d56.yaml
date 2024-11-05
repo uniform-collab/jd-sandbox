@@ -1,5 +1,5 @@
-created: '2024-06-04T20:24:03.31021+00:00'
-modified: '2024-08-15T12:19:03.46847+00:00'
+created: '2024-11-04T20:10:12.731951+00:00'
+modified: '2024-11-04T20:10:12.731951+00:00'
 pattern: false
 workflowId: 784fa239-ae8a-4ab1-ba68-9806d0fe406a
 workflowStageId: 73608d81-f8b0-4ee3-897b-c976d2dc6670
@@ -8,7 +8,7 @@ entry:
   _name: Black Mountain Pour-Over Coffee Maker
   _slug: black-mountain-pour-over-coffee-maker-97
   _thumbnail: >-
-    https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/FAFCw6McTXWFNGsSlxHjQA-black-mountain-pour-over-coffee-maker-97-2_ehz3rr_agm9gl.jpg
+    https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/dgsyXSGATa22jVxsbBNrPQ-black-mountain-pour-over-coffee-maker-97-2_ehz3rr_agm9gl.jpg
   type: product
   fields:
     body:
@@ -128,9 +128,9 @@ entry:
               type: number
               locales:
                 en-US: '27.95'
+                es-US: '27.95'
                 fr-CA: '25.82'
                 nl-NL: '25.82'
-                es-US: '27.95'
             title:
               type: text
               locales:

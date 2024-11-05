@@ -1,0 +1,155 @@
+composition:
+  _name: Checkout
+  _id: 90ea578e-aa29-4fa7-8b2d-4b2b1473d036
+  _slug: checkout
+  type: page
+  parameters:
+    pageTitle:
+      type: text
+      locales:
+        en-CA: Checkout Page
+        en-GB: Checkout Page
+        en-NL: Checkout Page
+        en-US: Checkout Page
+        es-US: Página de pago
+        fr-CA: Page de paiement
+        nl-NL: Afrekenpagina
+  slots:
+    pageFooter:
+      - _id: bb230953-9da1-464c-ba49-a007c7a9f27b
+        type: footer
+        _pattern: 319639e9-4bac-4fb3-8f0b-19088c969fcb
+    pageHeader:
+      - _id: de378f0f-7959-4cd8-9a6a-4e489b3fac39
+        type: header
+        _pattern: e46c8336-acfd-43e8-ac59-8be8f4c33b7d
+    pageContent:
+      - _id: 57fd200f-027b-49dd-bf54-e2a5d8a7b06a
+        type: hero
+        variant: backgroundImage
+        parameters:
+          image:
+            type: asset
+            value:
+              - _id: e345f1ae-526a-455e-b940-69bd02da2e45
+                type: image
+                fields:
+                  id:
+                    type: text
+                    value: 257965d2-25e9-41fb-92b2-fc22ca5b10e2
+                  url:
+                    value: >-
+                      https://img.uniform.global/p/g7bIwGklRHq1c0h6VQckpg/BqBtmeFTT3mzKpNfVyM5RQ-cervello_smart_landing_hero4.jpg
+                    type: text
+                  file:
+                    type: file
+                    value: 086a6410-2dbc-4c2a-a4e8-ef55cec5de80
+                  size:
+                    value: 945417
+                    type: number
+                  title:
+                    type: text
+                    value: cervello_smart_landing_hero4.jpg
+                  width:
+                    value: 2600
+                    type: number
+                  height:
+                    value: 1300
+                    type: number
+                  mediaType:
+                    value: image/jpeg
+                    type: text
+                _source: uniform-assets
+          title:
+            type: text
+            locales:
+              en-CA: >-
+                Don't wait! Click the "Checkout" button and experience the
+                difference today.
+              en-GB: >-
+                Don't wait! Click the "Checkout" button and experience the
+                difference today.
+              en-NL: >-
+                Don't wait! Click the "Checkout" button and experience the
+                difference today.
+              en-US: >-
+                Don't wait! Click the "Checkout" button and experience the
+                difference today.
+              es-NL: >-
+                ¡No esperes! Haga clic en el botón "Pagar" y experimente la
+                diferencia hoy.
+              fr-CA: >-
+                N'attendez pas ! Cliquez sur le bouton "Checkout" et découvrez
+                la différence dès aujourd'hui.
+              nl-NL: >-
+                Wacht niet langer! Klik op de knop "Afrekenen" en ervaar vandaag
+                nog het verschil.
+          objectFit:
+            type: select
+            value: cover
+          textColor:
+            type: tp-color-palette-parameter
+            value: primary-content
+          paddingTop:
+            type: select
+            value: None
+          titleStyle:
+            type: tp-title-style-parameter
+            value: h1
+          eyebrowText:
+            type: text
+            locales:
+              en-CA: Ready to checkout?
+              en-GB: Ready to checkout?
+              en-NL: Ready to checkout?
+              en-US: Ready to checkout?
+              es-US: ¿Listo para pagar?
+              fr-CA: Prêt à passer à la caisse ?
+              nl-NL: Klaar om af te rekenen?
+          overlayColor:
+            type: tp-color-palette-parameter
+            value: primary
+          paddingBottom:
+            type: select
+            value: None
+          overlayOpacity:
+            type: tp-slider-parameter
+            value: 60%
+          containerVariant:
+            type: select
+            value: fluidContent
+      - _id: 55a2ad5a-1579-44bd-bc4d-19351dc86a65
+        type: breadcrumbs
+        parameters:
+          separator:
+            type: select
+            value: chevron
+          colorStyle:
+            type: tp-color-style-parameter
+            value: primary
+          displayRootNode:
+            type: checkbox
+            value: true
+          displayPlaceholderNodes:
+            type: checkbox
+            value: true
+      - _id: 5a80befa-5a2a-4797-8afd-d5426620806d
+        type: checkoutContent
+  _overrides:
+    de378f0f-7959-4cd8-9a6a-4e489b3fac39:
+      parameters:
+        syntheticGap:
+          type: tp-slider-parameter
+          value: Small
+  _locales:
+    - fr-CA
+    - en-US
+    - es-US
+    - nl-NL
+    - en-NL
+    - en-CA
+    - en-GB
+created: '2024-11-04T20:15:46.173173+00:00'
+modified: '2024-11-04T20:15:46.173173+00:00'
+pattern: false
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5

@@ -1,0 +1,90 @@
+composition:
+  _name: Standard Landing Page
+  _id: 207af42b-cd9a-47a2-9878-4f07e04856b0
+  type: landingPage
+  parameters:
+    pageTitle:
+      type: text
+      locales:
+        en-US: Landing page
+        fr-CA: Page d'atterrissage
+        nl-NL: Landingspagina
+  slots:
+    pageFooter:
+      - _id: a29bb215-58a2-4e5b-80e3-7045125bbb83
+        type: footer
+        _pattern: 319639e9-4bac-4fb3-8f0b-19088c969fcb
+    pageHeader:
+      - _id: 0b447e49-5f89-4367-8b44-ff6960dd4a93
+        type: header
+        _pattern: e46c8336-acfd-43e8-ac59-8be8f4c33b7d
+    pageContent:
+      - _id: fe9cbb9a-94ff-4358-bf36-5a158b244094
+        type: $slotSection
+        parameters:
+          max:
+            type: text
+            value: 1
+          min:
+            type: text
+            value: 1
+          name:
+            type: text
+            value: Hero
+          specific:
+            type: array
+            value:
+              - $p:ac6f9c69-0108-44b4-bf67-ef13c59ed67a
+              - $p:daaf620c-8067-496f-9894-d6dea651a3a3
+              - heroContainer
+          groupType:
+            type: text
+            value: specific
+        _overridability:
+          hideLockedParameters: true
+      - _id: 70967cc2-58b7-4dc5-9291-4bc7005c050d
+        type: $slotSection
+        parameters:
+          name:
+            type: text
+            value: Body Content
+        _overridability:
+          hideLockedParameters: true
+      - _id: 38b23cdc-37f0-49e6-b70a-2adf2106cbff
+        type: $personalization
+        slots:
+          pz:
+            - _id: 3215ce65-7463-466c-83f1-03fc895c003d
+              type: emailSignupForm
+              _pattern: 30e4b2d9-9999-4c59-ab1e-a8d83528d448
+        parameters:
+          trackingEventName:
+            type: text
+            value: CTA P13N
+        _overridability:
+          parameters:
+            $viz: 'yes'
+            count: 'yes'
+            matchFilter: 'yes'
+            trackingEventName: 'yes'
+          hideLockedParameters: true
+  _dataResources:
+    Hero Content:
+      type: hero
+      variables:
+        locale: ${locale}
+        entryId: b8d75c9a-4e2a-4c52-a46b-b7842e9d98a8
+      isPatternParameter: true
+      ignorePatternParameterDefault: false
+  _overridability:
+    hideLockedParameters: true
+  _locales:
+    - en-US
+    - nl-NL
+    - fr-CA
+created: '2024-11-04T20:13:48.118321+00:00'
+modified: '2024-11-04T20:13:48.118321+00:00'
+pattern: true
+categoryId: 31fcffb0-aead-4256-8e49-4d50cc28aa29
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+workflowStageId: 73608d81-f8b0-4ee3-897b-c976d2dc6670

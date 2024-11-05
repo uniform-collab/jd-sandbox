@@ -1,5 +1,5 @@
-created: '2023-11-20T09:34:26.706123+00:00'
-modified: '2024-09-24T18:55:38.827533+00:00'
+created: '2024-11-04T20:11:02.633117+00:00'
+modified: '2024-11-04T20:11:02.633117+00:00'
 pattern: false
 workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
 entry:
@@ -7,7 +7,7 @@ entry:
   _name: Try our International Beans
   _slug: try-our-international-beans
   _thumbnail: >-
-    https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/nRrspOoLQYqf16xNXp0rkQ-25_off.svg
+    https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/FVHkkZwQRJuehPPIrPlkvw-25_off.svg
   type: callToAction
   fields:
     image:
@@ -27,7 +27,7 @@ entry:
               type: file
               value: 0e619900-bdb3-4686-89e5-0034738df5ff
             size:
-              value: 3718
+              value: 3722
               type: number
             title:
               type: text

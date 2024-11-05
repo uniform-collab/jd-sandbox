@@ -1,5 +1,5 @@
-created: '2024-06-04T20:24:04.470894+00:00'
-modified: '2024-08-15T12:19:52.008196+00:00'
+created: '2024-11-04T20:10:47.343517+00:00'
+modified: '2024-11-04T20:10:47.343517+00:00'
 pattern: false
 workflowId: 784fa239-ae8a-4ab1-ba68-9806d0fe406a
 workflowStageId: 73608d81-f8b0-4ee3-897b-c976d2dc6670
@@ -8,7 +8,7 @@ entry:
   _name: Kosmic Coffee Stainless Steel Precision Brewer
   _slug: kosmic-coffee-stainless-steel-precision-brewer-116
   _thumbnail: >-
-    https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/nMlgUkMqRLumN3OuDH9prw-kosmic-coffee-stainless-steel-precision-brewer-116-2_eiuhbc_clvdgm.jpg
+    https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/EHBzqcD4SreVW2LBhuPy4Q-kosmic-coffee-stainless-steel-precision-brewer-116-2_eiuhbc_clvdgm.jpg
   type: product
   fields:
     body:
@@ -131,9 +131,9 @@ entry:
               type: number
               locales:
                 en-US: '299.99'
+                es-US: '299.99'
                 fr-CA: '277.09'
                 nl-NL: '277.09'
-                es-US: '299.99'
             title:
               type: text
               locales:

@@ -1,0 +1,355 @@
+composition:
+  _name: Articles
+  _id: acede6be-b28c-4097-aadb-fc457c61f555
+  _slug: articles
+  type: page
+  parameters:
+    pageTitle:
+      type: text
+      locales:
+        en-CA: Articles Page
+        en-GB: Articles Page
+        en-NL: Articles Page
+        en-US: Articles Page
+        es-US: Página de artículos
+        fr-CA: Page des articles
+        nl-NL: Artikelen Pagina
+  slots:
+    pageFooter:
+      - _id: 1347f7c8-72db-4e4d-b0b9-54aa9e3a4bc1
+        type: footer
+        _pattern: 319639e9-4bac-4fb3-8f0b-19088c969fcb
+    pageHeader:
+      - _id: 4a6029d3-4705-4a42-a8fb-062d26adfda4
+        type: header
+        _pattern: e46c8336-acfd-43e8-ac59-8be8f4c33b7d
+    pageContent:
+      - _id: 2a06af5c-f382-411b-9272-5552bf0acecd
+        type: hero
+        variant: backgroundImage
+        parameters:
+          image:
+            type: asset
+            value:
+              - _id: 3a689d72-248f-4e36-866b-9a553392f854
+                type: image
+                fields:
+                  id:
+                    type: text
+                    value: e329257c-be40-4d8c-b0a2-7bd7e68a274d
+                  url:
+                    value: >-
+                      https://img.uniform.global/p/g7bIwGklRHq1c0h6VQckpg/xV0sPdNATM644cGPy9VK7Q-hero_alt4.webp
+                    type: text
+                  file:
+                    type: file
+                    value: 5bf5370f-c653-44ca-ad0a-27ee74e73bdc
+                  size:
+                    value: 352516
+                    type: number
+                  title:
+                    type: text
+                    value: hero_alt4.webp
+                  width:
+                    value: 2600
+                    type: number
+                  height:
+                    value: 1300
+                    type: number
+                  mediaType:
+                    value: image/webp
+                    type: text
+                _source: uniform-assets
+          title:
+            type: text
+            locales:
+              en-CA: Curated articles on coffee making
+              en-GB: Curated articles on coffee making
+              en-NL: Curated articles on coffee making
+              en-US: Curated articles on coffee making
+              es-US: artículos seleccionados sobre la elaboración de café
+              fr-CA: Articles sur la préparation du café
+              nl-NL: Samengestelde artikelen over koffiezetten
+          objectFit:
+            type: select
+            value: cover
+          textColor:
+            type: tp-color-palette-parameter
+            value: primary-content
+          paddingTop:
+            type: select
+            value: None
+          titleStyle:
+            type: tp-title-style-parameter
+            value: h1
+          eyebrowText:
+            type: text
+            locales:
+              en-CA: learn from the best
+              en-GB: learn from the best
+              en-NL: learn from the best
+              en-US: learn from the best
+              es-US: aprende de los mejores
+              fr-CA: apprendre des meilleurs
+              nl-NL: leer van de besten
+          overlayColor:
+            type: tp-color-palette-parameter
+            value: primary
+          paddingBottom:
+            type: select
+            value: None
+          overlayOpacity:
+            type: tp-slider-parameter
+            value: 50%
+          containerVariant:
+            type: select
+            value: fluidContent
+      - _id: b186549c-aa81-4253-8a5e-f01f426d93b2
+        type: breadcrumbs
+        parameters:
+          separator:
+            type: select
+            value: chevron
+          colorStyle:
+            type: tp-color-style-parameter
+            value: primary
+          displayRootNode:
+            type: checkbox
+            value: true
+          displayPlaceholderNodes:
+            type: checkbox
+            value: true
+      - _id: c232065b-cb01-4a9f-bdc9-594b01177c69
+        type: container
+        slots:
+          container-inner:
+            - _id: 8724ba6e-0f1b-46cd-ac9d-918a2847b12b
+              type: uniformEntrySearchEngine
+              slots:
+                content:
+                  - _id: 74ae1a7e-90c9-4ab9-973a-c9e4d9d74f46
+                    type: searchBox
+                  - _id: 41f3576c-9643-4b06-aba4-23c0fcd2d8b6
+                    type: grid
+                    slots:
+                      grid-inner:
+                        - _id: ed494eae-d82e-43e1-86f1-6a5a55135ca5
+                          type: gridItem
+                          slots:
+                            inner:
+                              - _id: 9cf85579-1b2d-4563-a546-c1824dcb32cc
+                                type: entryFilterBox
+                                _pattern: 50e84fba-a7ea-49bb-b87a-3a5e67ab320a
+                          parameters:
+                            title:
+                              type: text
+                              locales:
+                                en-US: Left Section
+                            rowSpan:
+                              type: tp-slider-parameter
+                              value: '1'
+                            rowStart:
+                              type: tp-slider-parameter
+                              value: None
+                            columnSpan:
+                              type: tp-slider-parameter
+                              value: '1'
+                            columnStart:
+                              type: tp-slider-parameter
+                              value: none
+                        - _id: 138040ec-c5cc-4ada-9f92-afde403f9c0d
+                          type: gridItem
+                          slots:
+                            inner:
+                              - _id: 526f2e21-3022-4b36-81e3-d1b04c422994
+                                type: searchEntryResultList
+                                slots:
+                                  resultItem:
+                                    - _id: a3bbee3f-f6a4-4584-966f-280c7c4f338b
+                                      type: articleItem
+                                      variant: backgroundImage
+                                      parameters:
+                                        badgeStyle:
+                                          type: tp-badge-style-parameter
+                                          value: accent
+                                        buttonCopy:
+                                          type: text
+                                          locales:
+                                            en-CA: Read Article
+                                            en-GB: Read Article
+                                            en-NL: Read Article
+                                            en-US: Read Article
+                                            es-US: Leer artículo
+                                            fr-CA: Lire l’article
+                                            nl-NL: Lees artikel
+                                        buttonLink:
+                                          type: link
+                                          value:
+                                            path: /${locale}/articles/:article-slug
+                                            type: projectMapNode
+                                            nodeId: 9ccb607b-5e39-45c0-83f8-ed31fbaf61a1
+                                            projectMapId: 62588085-7894-4810-84b6-eaaf0cb5213c
+                                            dynamicInputValues:
+                                              locale: ${locale}
+                                        buttonStyle:
+                                          type: tp-button-style-parameter
+                                          value: secondary
+                                        overlayColor:
+                                          type: tp-color-style-parameter
+                                          value: primary
+                                        overlayOpacity:
+                                          type: tp-slider-parameter
+                                          value: 50%
+                                        textColorVariant:
+                                          type: select
+                                          value: Light
+                                        lineCountRestriction:
+                                          type: tp-slider-parameter
+                                          value: '2'
+                              - _id: 5ca8d1bf-5e38-4a59-97c0-d7c3dcee2cff
+                                type: spacer
+                                parameters:
+                                  thickness:
+                                    type: tp-slider-parameter
+                                    value: 20px
+                              - _id: 34ff58ff-591f-4a06-8b0a-4d9e49a1a2a2
+                                type: pagination
+                                parameters:
+                                  pageToDisplay:
+                                    type: number
+                                    value: '5'
+                          parameters:
+                            title:
+                              type: text
+                              locales:
+                                en-US: Right Section
+                            rowSpan:
+                              type: tp-slider-parameter
+                              value: '1'
+                            rowStart:
+                              type: tp-slider-parameter
+                              value: None
+                            columnSpan:
+                              type: tp-slider-parameter
+                              value: '3'
+                            columnStart:
+                              type: tp-slider-parameter
+                              value: none
+                    parameters:
+                      gapX:
+                        type: tp-slider-parameter
+                        value: small
+                      gapY:
+                        type: tp-slider-parameter
+                        value: small
+                      title:
+                        type: text
+                        locales:
+                          en-US: Uniform Search and Filter List
+                      marginTop:
+                        type: select
+                        value: Small
+                      columnsCount:
+                        type: tp-slider-parameter
+                        value: '4'
+                      marginBottom:
+                        type: select
+                        value: Small
+              parameters:
+                pageSize:
+                  type: number
+                  value: '50'
+                initialFilters:
+                  type: $block
+                  value:
+                    - _id: 70a9d3c6-2ad0-41e5-b09d-8a680238e7c9
+                      type: searchFilter
+                      fields:
+                        key:
+                          type: text
+                          value: type
+                        value:
+                          type: text
+                          value: article
+                        operator:
+                          type: select
+                          value: eq
+                        filterName:
+                          type: text
+                          value: Type
+                    - _id: 34b986ac-10a7-4ce6-a50b-085a2fa698f4
+                      type: searchFilter
+                      fields:
+                        key:
+                          type: text
+                          value: fields.source
+                        value:
+                          type: text
+                          value: >-
+                            9328ed16-f24d-4ad8-b94b-3475bbddd86d|81619ba1-f1b7-4b34-a044-33a3deba4c40|6563d379-e524-4ee5-8ede-5ad32423dc2a|63b16e63-c9a4-4167-ab66-c5c976160943|4d719df6-dbeb-40ca-80c6-57042ab40eb9
+                        operator:
+                          type: select
+                          value: in
+                        filterName:
+                          type: text
+                          value: Sources
+        parameters:
+          title:
+            type: text
+            locales:
+              en-CA: Articles
+              en-GB: Articles
+              en-NL: Articles
+              en-US: Articles
+              es-US: Artículos
+              fr-CA: Articles
+              nl-NL: Artikelen
+          paddingTop:
+            type: select
+            value: None
+          paddingBottom:
+            type: select
+            value: Medium
+  _dataResources:
+    Articles Contentful:
+      type: contentfulArticles
+      variables:
+        limit: '12'
+        order: ''
+        locale: en-US
+        filters: ''
+        keyword: ''
+        sortOrder: asc
+        sortFieldId: ''
+        contentTypeId: article
+        advancedFilters: '[]'
+    Articles Contentstack:
+      type: contentstackArticles
+      variables:
+        asc: ''
+        desc: ''
+        limit: '5'
+        query: '{ "title": { "$regex": "", "$options": "i" } }'
+        locale: ${locale}
+        keyword: ''
+        sortOrder: asc
+        sortFieldId: ''
+        content_type_uid: article
+  _overrides:
+    4a6029d3-4705-4a42-a8fb-062d26adfda4:
+      parameters:
+        syntheticGap:
+          type: tp-slider-parameter
+          value: Small
+  _locales:
+    - fr-CA
+    - en-US
+    - es-US
+    - nl-NL
+    - en-NL
+    - en-CA
+    - en-GB
+created: '2024-11-04T20:15:45.149217+00:00'
+modified: '2024-11-04T20:15:45.149217+00:00'
+pattern: false
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5

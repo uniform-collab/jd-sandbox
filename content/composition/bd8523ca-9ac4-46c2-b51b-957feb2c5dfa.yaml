@@ -1,0 +1,345 @@
+composition:
+  _name: Blog
+  _id: bd8523ca-9ac4-46c2-b51b-957feb2c5dfa
+  _slug: blog
+  type: page
+  parameters:
+    pageTitle:
+      type: text
+      locales:
+        en-CA: JavaDrip Blog
+        en-GB: JavaDrip Blog
+        en-NL: JavaDrip Blog
+        en-US: JavaDrip Blog
+        es-US: Blog JavaDrip
+        fr-CA: JavaDrip Blog
+        nl-NL: JavaDrip Bloggen
+  slots:
+    pageFooter:
+      - _id: f895c4bd-c88f-41d7-b6e2-b090f9c3dd41
+        type: footer
+        _pattern: 319639e9-4bac-4fb3-8f0b-19088c969fcb
+    pageHeader:
+      - _id: ea011c33-ee83-4a67-9840-50123867ec51
+        type: header
+        _pattern: e46c8336-acfd-43e8-ac59-8be8f4c33b7d
+    pageContent:
+      - _id: 59dbe308-a945-42dd-8a63-360e4eed61dc
+        type: hero
+        variant: backgroundImage
+        parameters:
+          image:
+            type: asset
+            value:
+              - _id: 2958de3c-53ff-4ecb-b77a-908e21cf5982
+                type: image
+                fields:
+                  id:
+                    type: text
+                    value: f80a13ae-f62f-4df4-92dd-dc3e74d8abaf
+                  url:
+                    value: >-
+                      https://img.uniform.global/p/g7bIwGklRHq1c0h6VQckpg/3hz8sSvKS3yVP3RjHzbBRw-coffee_shop_with_2_customers.avif
+                    type: text
+                  file:
+                    type: file
+                    value: f16a8d1e-41ff-4301-8c7e-6bdb90b45e83
+                  size:
+                    value: 64873
+                    type: number
+                  title:
+                    type: text
+                    value: coffee_shop_with_2_customers.avif
+                  width:
+                    value: 1024
+                    type: number
+                  height:
+                    value: 1024
+                    type: number
+                  mediaType:
+                    value: image/avif
+                    type: text
+                _source: uniform-assets
+          title:
+            type: text
+            locales:
+              en-CA: JavaDrip Blog
+              en-GB: JavaDrip Blog
+              en-NL: JavaDrip Blog
+              en-US: JavaDrip Blog
+              es-US: Blog JavaDrip
+              fr-CA: JavaDrip Blog
+              nl-NL: JavaDrip Bloggen
+          objectFit:
+            type: select
+            value: cover
+          textColor:
+            type: tp-color-palette-parameter
+            value: primary-content
+          paddingTop:
+            type: select
+            value: None
+          titleStyle:
+            type: tp-title-style-parameter
+            value: h1
+          description:
+            type: text
+            locales:
+              en-CA: TIPS FROM OUR EXPERTS
+              en-GB: TIPS FROM OUR EXPERTS
+              en-NL: TIPS FROM OUR EXPERTS
+              en-US: TIPS FROM OUR EXPERTS
+              es-US: CONSEJOS DE NUESTROS EXPERTOS
+              fr-CA: CONSEILS DE NOS EXPERTS
+              nl-NL: TIPS VAN ONZE EXPERTS
+          eyebrowText:
+            type: text
+            locales:
+              en-CA: WordPress Blog Reuse
+              en-GB: WordPress Blog Reuse
+              en-NL: WordPress Blog Reuse
+              en-US: WordPress Blog Reuse
+              es-US: Reutilización de blogs de WordPress
+              fr-CA: Réutilisation du blog WordPress
+              nl-NL: Hergebruik van WordPress-blogs
+          overlayColor:
+            type: tp-color-palette-parameter
+            value: primary
+          paddingBottom:
+            type: select
+            value: None
+          overlayOpacity:
+            type: tp-slider-parameter
+            value: 30%
+          containerVariant:
+            type: select
+            value: fluidContent
+      - _id: 6a353972-eecd-4565-ace2-637b90b52e2a
+        type: breadcrumbs
+        parameters:
+          separator:
+            type: select
+            value: chevron
+          colorStyle:
+            type: tp-color-style-parameter
+            value: primary
+          displayRootNode:
+            type: checkbox
+            value: true
+          displayPlaceholderNodes:
+            type: checkbox
+            value: true
+      - _id: dd54ba01-2c09-45c4-bec6-6806ebe96fa5
+        type: container
+        slots:
+          container-inner:
+            - _id: 829683f7-f9f9-4e49-9538-aa30feb66cb4
+              type: content
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-CA: Posts
+                    en-GB: Posts
+                    en-NL: Posts
+                    en-US: Posts
+                    es-US: Publicaciones
+                    fr-CA: Publications
+                    nl-NL: Berichten
+                titleStyle:
+                  type: tp-title-style-parameter
+                  value: h2
+            - _id: 735b01a5-bdaa-44ba-9141-3c97145e11e4
+              type: spacer
+              parameters:
+                thickness:
+                  type: tp-slider-parameter
+                  value: 50px
+            - _id: cd1b8ff6-6ad2-4a97-808a-1ebc47cfe33d
+              type: grid
+              slots:
+                grid-inner:
+                  - _id: a8c4f92b-3371-4474-a131-a854a12c5f88
+                    type: $loop
+                    slots:
+                      body:
+                        - _id: 9b151d9a-e25a-4b16-a241-5fdbad6b3839
+                          type: card
+                          variant: backgroundImage
+                          parameters:
+                            badge:
+                              type: text
+                              locales:
+                                en-CA: post
+                                en-GB: post
+                                en-NL: post
+                                en-US: post
+                                es-US: publicar
+                                fr-CA: poste
+                                nl-NL: post
+                            delay:
+                              type: select
+                              value: short
+                            image:
+                              type: asset
+                              value:
+                                - _id: 19c9e9c7-70e2-49d7-9360-f439370b07f6
+                                  type: image
+                                  fields:
+                                    url:
+                                      type: text
+                                      value: >-
+                                        ${#jptr:/JavaDrip Blog Posts Content
+                                        posts Loop Item/featured_image}
+                                  _source: custom-url
+                            title:
+                              type: text
+                              locales:
+                                en-CA: >-
+                                  ${#jptr:/JavaDrip Blog Posts Content posts
+                                  Loop Item/title}
+                                en-GB: >-
+                                  ${#jptr:/JavaDrip Blog Posts Content posts
+                                  Loop Item/title}
+                                en-NL: >-
+                                  ${#jptr:/JavaDrip Blog Posts Content posts
+                                  Loop Item/title}
+                                en-US: >-
+                                  ${#jptr:/JavaDrip Blog Posts Content posts
+                                  Loop Item/title}
+                                es-US: >-
+                                  ${#jptr:/JavaDrip Blog Posts Content posts
+                                  Loop Item/title}
+                                fr-CA: >-
+                                  ${#jptr:/JavaDrip Blog Posts Content posts
+                                  Loop Item/title}
+                                nl-NL: >-
+                                  ${#jptr:/JavaDrip Blog Posts Content posts
+                                  Loop Item/title}
+                            duration:
+                              type: select
+                              value: fast
+                            badgeStyle:
+                              type: tp-badge-style-parameter
+                              value: accent
+                            buttonCopy:
+                              type: text
+                              locales:
+                                en-CA: Read blog
+                                en-GB: Read blog
+                                en-NL: Read blog
+                                en-US: Read blog
+                                es-US: Leer blog
+                                fr-CA: Lire le blog
+                                nl-NL: Blog lezen
+                            buttonLink:
+                              type: link
+                              value:
+                                path: >-
+                                  /${locale}/about-us/blog/${#jptr:/JavaDrip
+                                  Blog Posts Content posts Loop Item/slug}
+                                type: projectMapNode
+                                nodeId: 912ab37c-6f37-4bd4-8011-bd7e80f99109
+                                projectMapId: 62588085-7894-4810-84b6-eaaf0cb5213c
+                                dynamicInputValues:
+                                  locale: ${locale}
+                                  javadrip-blog-post: >-
+                                    ${#jptr:/JavaDrip Blog Posts Content posts
+                                    Loop Item/slug}
+                            buttonStyle:
+                              type: tp-button-style-parameter
+                              value: accent
+                            overlayColor:
+                              type: tp-color-style-parameter
+                              value: primary
+                            animationType:
+                              type: select
+                              value: flyIn
+                            overlayOpacity:
+                              type: tp-slider-parameter
+                              value: 30%
+                            animationPreview:
+                              type: tp-play-animation-parameter
+                              value: true
+                            textColorVariant:
+                              type: select
+                              value: Light
+                            lineCountRestriction:
+                              type: tp-slider-parameter
+                              value: none
+                    _dataResources:
+                      JavaDrip Blog Posts Content posts Loop Item:
+                        type: sys-reserved-loop
+                        variables:
+                          connectedData: /JavaDrip Blog Posts Content/posts
+              parameters:
+                gapX:
+                  type: tp-slider-parameter
+                  value: medium
+                gapY:
+                  type: tp-slider-parameter
+                  value: medium
+                title:
+                  type: text
+                  locales:
+                    en-CA: Posts
+                    en-GB: Posts
+                    en-NL: Posts
+                    en-US: Posts
+                    es-US: Publicaciones
+                    fr-CA: Des postes
+                    nl-NL: Posts
+                marginTop:
+                  type: select
+                  value: None
+                paddingTop:
+                  type: select
+                  value: None
+                columnsCount:
+                  type: tp-slider-parameter
+                  value: '3'
+                marginBottom:
+                  type: select
+                  value: None
+                paddingBottom:
+                  type: select
+                  value: None
+        parameters:
+          title:
+            type: text
+            locales:
+              en-CA: Posts
+              en-GB: Posts
+              en-NL: Posts
+              en-US: Posts
+              es-US: Publicaciones
+              fr-CA: Publications
+              nl-NL: Berichten
+          paddingTop:
+            type: select
+            value: None
+          paddingBottom:
+            type: select
+            value: Medium
+  _dataResources:
+    JavaDrip Blog Posts Content:
+      type: javadripBlogPosts
+      variables: {}
+  _overrides:
+    ea011c33-ee83-4a67-9840-50123867ec51:
+      parameters:
+        syntheticGap:
+          type: tp-slider-parameter
+          value: Small
+  _locales:
+    - fr-CA
+    - en-US
+    - es-US
+    - nl-NL
+    - en-NL
+    - en-CA
+    - en-GB
+created: '2024-11-04T20:15:45.909303+00:00'
+modified: '2024-11-04T20:15:45.909303+00:00'
+pattern: false
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5

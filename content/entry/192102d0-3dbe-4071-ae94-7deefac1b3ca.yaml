@@ -1,5 +1,5 @@
-created: '2024-06-04T20:24:02.446389+00:00'
-modified: '2024-08-15T12:17:33.075084+00:00'
+created: '2024-11-04T20:10:29.505418+00:00'
+modified: '2024-11-04T20:10:29.505418+00:00'
 pattern: false
 workflowId: 784fa239-ae8a-4ab1-ba68-9806d0fe406a
 workflowStageId: 73608d81-f8b0-4ee3-897b-c976d2dc6670
@@ -8,7 +8,7 @@ entry:
   _name: Ember Luxury Ottoman Coffee & Espresso Set
   _slug: ember-luxury-ottoman-coffee-espresso-set-138
   _thumbnail: >-
-    https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/WYHS0UfLRNyOCo_paEZSXQ-ember-luxury-ottoman-coffee-espresso-set-138-1_ytrous_jpdoha.jpg
+    https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/kkcLUnl-R_KEo0ZiCpCwfg-ember-luxury-ottoman-coffee-espresso-set-138-1_ytrous_jpdoha.jpg
   type: product
   fields:
     body:
@@ -130,9 +130,9 @@ entry:
               type: number
               locales:
                 en-US: '49.9'
+                es-US: '49.9'
                 fr-CA: '46.09'
                 nl-NL: '46.09'
-                es-US: '49.9'
             title:
               type: text
               locales:

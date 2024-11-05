@@ -1,5 +1,5 @@
-created: '2023-11-20T09:34:28.545726+00:00'
-modified: '2024-09-24T18:55:38.827533+00:00'
+created: '2024-11-04T20:10:44.025429+00:00'
+modified: '2024-11-04T20:10:44.025429+00:00'
 pattern: false
 workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
 entry:
@@ -7,7 +7,7 @@ entry:
   _name: It's cold and snowing
   _slug: its-cold-and-snowing
   _thumbnail: >-
-    https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/lb4LWNaXR42S-kS4owcYbg-photo_15.png
+    https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/aYk6ySUzRuGc4j6mxEkAGg-photo_15.png
   type: hero
   fields:
     image:

@@ -1,5 +1,5 @@
-created: '2023-11-20T09:34:25.28076+00:00'
-modified: '2024-09-24T18:55:38.827533+00:00'
+created: '2024-11-04T20:10:32.958093+00:00'
+modified: '2024-11-04T20:10:32.958093+00:00'
 pattern: false
 workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
 entry:
@@ -7,7 +7,7 @@ entry:
   _name: Find the perfect cup without leaving your home.
   _slug: find-the-perfect-cup-without-leaving-your-home
   _thumbnail: >-
-    https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/XtFJTWR-QC2RUhHP-Y46uA-hero_3.webp
+    https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/_aeGIQGETaOispFE6759lw-hero_3.webp
   type: hero
   fields:
     image:

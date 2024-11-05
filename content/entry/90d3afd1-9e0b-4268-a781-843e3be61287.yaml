@@ -1,5 +1,5 @@
-created: '2024-06-04T20:23:53.827334+00:00'
-modified: '2024-08-15T12:19:42.895162+00:00'
+created: '2024-11-04T20:11:03.528729+00:00'
+modified: '2024-11-04T20:11:03.528729+00:00'
 pattern: false
 workflowId: 784fa239-ae8a-4ab1-ba68-9806d0fe406a
 workflowStageId: 73608d81-f8b0-4ee3-897b-c976d2dc6670
@@ -8,7 +8,7 @@ entry:
   _name: Water filter
   _slug: water-filter-143
   _thumbnail: >-
-    https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/GIG93T52RtyumqjPZTqvGQ-waterfilter__90850.1662555459.386.513_escu6x.jpg
+    https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/Utugb5ugSEW48J2tPfl1VQ-waterfilter__90850.1662555459.386.513_escu6x.jpg
   type: product
   fields:
     body:
@@ -66,9 +66,9 @@ entry:
               type: number
               locales:
                 en-US: '65'
+                es-US: '65'
                 fr-CA: '60.04'
                 nl-NL: '60.04'
-                es-US: '65'
             title:
               type: text
               locales:

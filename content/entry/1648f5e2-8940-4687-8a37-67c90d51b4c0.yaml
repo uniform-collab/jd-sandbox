@@ -1,5 +1,5 @@
-created: '2024-06-04T20:23:45.437181+00:00'
-modified: '2024-08-15T12:17:32.016504+00:00'
+created: '2024-11-04T20:10:13.013743+00:00'
+modified: '2024-11-04T20:10:13.013743+00:00'
 pattern: false
 workflowId: 784fa239-ae8a-4ab1-ba68-9806d0fe406a
 workflowStageId: 73608d81-f8b0-4ee3-897b-c976d2dc6670
@@ -8,7 +8,7 @@ entry:
   _name: Black Mountain Pour-Over Filtered Coffee Make
   _slug: black-mountain-pour-over-filtered-coffee-maker-93
   _thumbnail: >-
-    https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/AiHX5IUPR9iBCKZZNrQLlQ-black-mountain-pour-over-filtered-coffee-maker-93_mn709e_iii0ml.jpg
+    https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/rdPEJiq8RNGeSzTtRz6ohg-black-mountain-pour-over-filtered-coffee-maker-93_mn709e_iii0ml.jpg
   type: product
   fields:
     body:
@@ -128,9 +128,9 @@ entry:
               type: number
               locales:
                 en-US: '111.66'
+                es-US: '111.66'
                 fr-CA: '103.14'
                 nl-NL: '103.14'
-                es-US: '111.66'
             title:
               type: text
               locales:

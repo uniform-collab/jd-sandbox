@@ -1,0 +1,1031 @@
+composition:
+  _name: Custom Recipe Page
+  _id: 1c648e60-5186-4c72-9634-327a00607ed0
+  type: page
+  parameters:
+    pageTitle:
+      type: text
+      locales:
+        en-US: ${#jptr:/Recipe Content/entry/_name}
+  slots:
+    pageFooter:
+      - _id: 7927160c-ba21-457b-b0c1-e6ea4fb56eb9
+        type: footer
+        _pattern: 319639e9-4bac-4fb3-8f0b-19088c969fcb
+    pageHeader:
+      - _id: b1c77aff-7539-4797-bbed-3437f340cf3b
+        type: header
+        _pattern: e46c8336-acfd-43e8-ac59-8be8f4c33b7d
+    pageContent:
+      - _id: c0d238c8-bea9-4010-ae58-6e2cdbb7512b
+        type: hero
+        variant: backgroundImage
+        parameters:
+          image:
+            type: asset
+            value: ${#jptr:/Recipe Content/entry/fields/featuredImage/value}
+          title:
+            type: text
+            locales:
+              en-US: ${#jptr:/Recipe Content/entry/fields/name/value}
+              fr-CA: Titre de la page
+              nl-NL: Pagina Titel
+          objectFit:
+            type: select
+            value: none
+          textColor:
+            type: tp-color-palette-parameter
+            value: primary-content
+          paddingTop:
+            type: select
+            value: None
+          titleStyle:
+            type: tp-title-style-parameter
+            value: h2
+          description:
+            type: text
+            locales:
+              en-US: ${#jptr:/Recipe Content/entry/fields/overview/value}
+              fr-CA: Quelques descriptions de pages
+              nl-NL: Enkele paginabeschrijvingen
+          eyebrowText:
+            type: text
+            locales:
+              en-US: ${#jptr:/Recipe Content/entry/fields/subtitle/value}
+              fr-CA: texte du sourcil
+              nl-NL: wenkbrauw tekst
+          overlayColor:
+            type: tp-color-palette-parameter
+            value: primary
+          paddingBottom:
+            type: select
+            value: None
+          overlayOpacity:
+            type: tp-slider-parameter
+            value: 30%
+          containerVariant:
+            type: select
+            value: fluidContent
+        _overridability:
+          variants: true
+          parameters:
+            objectFit: 'yes'
+            textColor: 'yes'
+            titleStyle: 'yes'
+            description: 'yes'
+            eyebrowText: 'yes'
+            overlayColor: 'yes'
+            overlayOpacity: 'yes'
+            backgroundColor: 'yes'
+      - _id: 611afe75-65e9-4b49-8684-587e9fa41fc4
+        type: container
+        slots:
+          container-inner:
+            - _id: e9732046-1797-48a0-89f1-f70ed7f4fab5
+              type: breadcrumbs
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: ${#jptr:/Recipe Content/entry/_name}
+                separator:
+                  type: select
+                  value: chevron
+                colorStyle:
+                  type: tp-color-style-parameter
+                  value: accent
+                displayRootNode:
+                  type: checkbox
+                  value: true
+                displayPlaceholderNodes:
+                  type: checkbox
+                  value: true
+            - _id: 49f65728-a2fe-45db-af38-f5da2b079d44
+              type: richText
+              parameters:
+                color:
+                  type: tp-color-palette-parameter
+                  value: primary-content
+                content:
+                  type: richText
+                  locales:
+                    en-US: ${#jptr:/Recipe Content/entry/fields/description/value}
+              _overridability:
+                parameters:
+                  $viz: 'yes'
+                  color: 'yes'
+                hideLockedParameters: true
+            - _id: 775b83f5-13fa-4457-9d4b-1ff4609fbb8f
+              type: advancedContainer
+              slots:
+                content:
+                  - _id: 389d77d3-d736-4f5f-97e8-364120a62d37
+                    type: text
+                    parameters:
+                      tag:
+                        type: tp-segmented-control-parameter
+                        value: p
+                      $viz:
+                        type: $viz
+                        value:
+                          criteria:
+                            clauses:
+                              - op: '!empty'
+                                rule: $dt
+                                value: ''
+                                source: >-
+                                  ${#jptr:/Recipe
+                                  Content/entry/fields/publishDate/value}
+                      size:
+                        type: tp-segmented-control-parameter
+                        value: ''
+                      text:
+                        type: text
+                        locales:
+                          en-US: >-
+                            Published: ${#jptr:/Recipe
+                            Content/entry/fields/publishDate/value}
+                      color:
+                        type: tp-color-palette-parameter
+                        value: primary-content
+                      fontWeight:
+                        type: tp-segmented-control-parameter
+                        value: bold
+                      whiteSpace:
+                        type: tp-segmented-control-parameter
+                        value: normal
+                      letterSpacing:
+                        type: tp-segmented-control-parameter
+                        value: tighter
+                    _overridability:
+                      parameters:
+                        $viz: 'yes'
+                        size: 'yes'
+                        text: 'yes'
+                        color: 'yes'
+                        fontWeight: 'yes'
+                        letterSpacing: 'yes'
+                      hideLockedParameters: true
+                  - _id: c97844e4-396b-4df9-bc5f-f89d57cadf7d
+                    type: text
+                    parameters:
+                      tag:
+                        type: tp-segmented-control-parameter
+                        value: p
+                      size:
+                        type: tp-segmented-control-parameter
+                        value: ''
+                      text:
+                        type: text
+                        locales:
+                          en-US: >-
+                            Recipe Type: ${#jptr:/Recipe
+                            Content/entry/fields/recipeType/value/entry/_name}
+                      color:
+                        type: tp-color-palette-parameter
+                        value: primary-content
+                      fontWeight:
+                        type: tp-segmented-control-parameter
+                        value: bold
+                      whiteSpace:
+                        type: tp-segmented-control-parameter
+                        value: normal
+                      letterSpacing:
+                        type: tp-segmented-control-parameter
+                        value: tighter
+                    _overridability:
+                      parameters:
+                        $viz: 'yes'
+                        size: 'yes'
+                        text: 'yes'
+                        color: 'yes'
+                        fontWeight: 'yes'
+                        letterSpacing: 'yes'
+                      hideLockedParameters: true
+                  - _id: aae8840e-fc53-4c87-9d13-7f1cf4792598
+                    type: text
+                    parameters:
+                      tag:
+                        type: tp-segmented-control-parameter
+                        value: p
+                      size:
+                        type: tp-segmented-control-parameter
+                        value: ''
+                      text:
+                        type: text
+                        locales:
+                          en-US: >-
+                            Yield: ${#jptr:/Recipe
+                            Content/entry/fields/yield/value}
+                      color:
+                        type: tp-color-palette-parameter
+                        value: primary-content
+                      fontWeight:
+                        type: tp-segmented-control-parameter
+                        value: bold
+                      whiteSpace:
+                        type: tp-segmented-control-parameter
+                        value: normal
+                      letterSpacing:
+                        type: tp-segmented-control-parameter
+                        value: tighter
+                    _overridability:
+                      parameters:
+                        tag: 'no'
+                        $viz: 'yes'
+                        size: 'yes'
+                        text: 'yes'
+                        color: 'yes'
+                        fontWeight: 'yes'
+                        whiteSpace: 'no'
+                        letterSpacing: 'yes'
+                      hideLockedParameters: true
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: Metadata
+                marginTop:
+                  type: select
+                  value: Small
+                marginBottom:
+                  type: select
+                  value: Small
+                backgroundColor:
+                  type: tp-color-palette-parameter
+                  value: secondary-content
+              _overridability:
+                parameters:
+                  $viz: 'yes'
+                hideLockedParameters: true
+            - _id: 25931793-2c4c-4173-8abf-f632e674d88b
+              type: $slotSection
+              parameters:
+                name:
+                  type: text
+                  value: Overview
+                specific:
+                  type: array
+                  value:
+                    - advancedContainer
+                    - $p:59b4fb3d-9b40-4a99-bb40-c93c3ddbdd30
+                    - articleContent
+                    - $p:a7aa42e0-9225-4909-8fb1-9d1bac72848c
+                    - $p:fe2cba31-e7a3-49f4-8f95-6221b4dee99a
+                    - container
+                    - $p:c4c25933-d434-4838-9ab9-08f9c05295b6
+                    - $p:ac6f9c69-0108-44b4-bf67-ef13c59ed67a
+                    - $p:daaf620c-8067-496f-9894-d6dea651a3a3
+                    - $p:92f3a50f-098f-4448-88dd-4005e384559d
+                    - $p:6df8725b-6069-4d59-b1da-7ac6780b658f
+                    - $p:f80964a3-4000-4a5d-8d8d-1400b03bceb3
+                    - $p:733c3ec0-4eca-4e7a-bf35-532ccf918b66
+                    - richText
+                    - text
+                    - video
+                    - $personalization
+                groupType:
+                  type: text
+                  value: specific
+              _overridability:
+                hideLockedParameters: true
+            - _id: ef2995c7-ea0a-497d-ade2-fe0da04248e5
+              type: divider
+              parameters:
+                width:
+                  type: tp-slider-parameter
+                  value: 100%
+                alignment:
+                  type: tp-horizontal-align-parameter
+                  value: left
+                thickness:
+                  type: tp-slider-parameter
+                  value: 2px
+                colorStyle:
+                  type: tp-color-style-parameter
+                  value: accent
+              _overridability:
+                hideLockedParameters: true
+            - _id: 59fee363-c4b9-457a-bac4-f0309d23a331
+              type: imageGallery
+              parameters:
+                $viz:
+                  type: $viz
+                  value:
+                    criteria:
+                      clauses:
+                        - op: '!empty'
+                          rule: $dt
+                          value: ''
+                          source: ${#jptr:/Recipe Content/entry/fields/media/type}
+                items:
+                  type: asset
+                  value: ${#jptr:/Recipe Content/entry/fields/media/value}
+                title:
+                  type: text
+                  locales:
+                    en-US: Step by Step
+                duration:
+                  type: select
+                  value: medium
+                paddingTop:
+                  type: select
+                  value: Small
+                titleStyle:
+                  type: tp-title-style-parameter
+                  value: h4
+                description:
+                  type: text
+                  locales:
+                    en-US: Photos of key steps in Preparation
+                animationType:
+                  type: select
+                  value: flyIn
+                animationOrder:
+                  type: select
+                  value: oneByOne
+                backgroundType:
+                  type: tp-background-type-parameter
+                  value: Dark
+              _overridability:
+                parameters:
+                  title: 'yes'
+                  titleStyle: 'yes'
+                  description: 'yes'
+                hideLockedParameters: true
+            - _id: fccb1ca2-6009-4cb8-ba5b-b5950ed016fa
+              type: grid
+              slots:
+                grid-inner:
+                  - _id: c325d75f-e82a-44eb-8f3c-9fd4bae87f2b
+                    type: gridItem
+                    slots:
+                      inner:
+                        - _id: 6a651e60-be91-4897-b192-e4286abad4d6
+                          type: $slotSection
+                          parameters:
+                            name:
+                              type: text
+                              value: Left
+                            specific:
+                              type: array
+                              value:
+                                - advancedContainer
+                                - $p:59b4fb3d-9b40-4a99-bb40-c93c3ddbdd30
+                                - container
+                                - content
+                                - $p:c4c25933-d434-4838-9ab9-08f9c05295b6
+                                - $p:ac6f9c69-0108-44b4-bf67-ef13c59ed67a
+                                - $p:daaf620c-8067-496f-9894-d6dea651a3a3
+                                - image
+                                - $p:6df8725b-6069-4d59-b1da-7ac6780b658f
+                                - richText
+                                - text
+                                - video
+                                - $personalization
+                            groupType:
+                              type: text
+                              value: specific
+                          _overridability:
+                            hideLockedParameters: true
+                        - _id: 295bb950-a287-4601-99a7-3421b360bbd3
+                          type: text
+                          parameters:
+                            tag:
+                              type: tp-segmented-control-parameter
+                              value: p
+                            size:
+                              type: tp-segmented-control-parameter
+                              value: XL
+                            text:
+                              type: text
+                              locales:
+                                en-US: Ingredients
+                            color:
+                              type: tp-color-palette-parameter
+                              value: primary-content
+                            fontWeight:
+                              type: tp-segmented-control-parameter
+                              value: normal
+                            whiteSpace:
+                              type: tp-segmented-control-parameter
+                              value: normal
+                            letterSpacing:
+                              type: tp-segmented-control-parameter
+                              value: ''
+                          _overridability:
+                            hideLockedParameters: true
+                        - _id: 5bf28dc6-bd08-43af-b5da-3c38309e7798
+                          type: $loop
+                          slots:
+                            body:
+                              - _id: 147795e3-19cf-480e-8b8d-c68222a1c4ec
+                                type: container
+                                slots:
+                                  container-inner:
+                                    - _id: 5a746df0-a340-4717-9399-b8953c5f8473
+                                      type: text
+                                      parameters:
+                                        tag:
+                                          type: tp-segmented-control-parameter
+                                          value: p
+                                        size:
+                                          type: tp-segmented-control-parameter
+                                          value: ''
+                                        text:
+                                          type: text
+                                          locales:
+                                            en-US: >-
+                                              ${#jptr:/Ingredients
+                                              Loop/fields/name/value}
+                                        color:
+                                          type: tp-color-palette-parameter
+                                          value: primary-content
+                                        fontWeight:
+                                          type: tp-segmented-control-parameter
+                                          value: bold
+                                        whiteSpace:
+                                          type: tp-segmented-control-parameter
+                                          value: normal
+                                        letterSpacing:
+                                          type: tp-segmented-control-parameter
+                                          value: tighter
+                                      _overridability:
+                                        hideLockedParameters: true
+                                    - _id: 1716d4e4-281d-44f5-93df-021fdc172d8b
+                                      type: text
+                                      parameters:
+                                        tag:
+                                          type: tp-segmented-control-parameter
+                                          value: p
+                                        size:
+                                          type: tp-segmented-control-parameter
+                                          value: ''
+                                        text:
+                                          type: text
+                                          locales:
+                                            en-US: >-
+                                              ${#jptr:/Ingredients
+                                              Loop/fields/amount/value}${#jptr:/Ingredients
+                                              Loop/fields/unit/value}
+                                              ${#jptr:/Ingredients
+                                              Loop/fields/amountText/value}
+                                        color:
+                                          type: tp-color-palette-parameter
+                                          value: primary-content
+                                        fontWeight:
+                                          type: tp-segmented-control-parameter
+                                          value: normal
+                                        whiteSpace:
+                                          type: tp-segmented-control-parameter
+                                          value: normal
+                                        letterSpacing:
+                                          type: tp-segmented-control-parameter
+                                          value: tighter
+                                      _overridability:
+                                        hideLockedParameters: true
+                                parameters:
+                                  title:
+                                    type: text
+                                    locales:
+                                      en-US: >-
+                                        ${#jptr:/Ingredients
+                                        Loop/fields/name/value}
+                                  marginTop:
+                                    type: select
+                                    value: Small
+                                  paddingTop:
+                                    type: select
+                                    value: None
+                                  marginBottom:
+                                    type: select
+                                    value: None
+                                  paddingBottom:
+                                    type: select
+                                    value: None
+                                _overridability:
+                                  hideLockedParameters: true
+                          _dataResources:
+                            Ingredients Loop:
+                              type: sys-reserved-loop
+                              variables:
+                                connectedData: >-
+                                  #jptr:/Recipe
+                                  Content/entry/fields/ingredients/value:fa=c
+                          _overridability:
+                            hideLockedParameters: true
+                    parameters:
+                      title:
+                        type: text
+                        locales:
+                          en-US: Ingredients - Left Column
+                      rowSpan:
+                        type: tp-slider-parameter
+                        value: '1'
+                      rowStart:
+                        type: tp-slider-parameter
+                        value: None
+                      columnSpan:
+                        type: tp-slider-parameter
+                        value: '2'
+                      columnStart:
+                        type: tp-slider-parameter
+                        value: none
+                    _overridability:
+                      parameters:
+                        rowSpan: 'yes'
+                        rowStart: 'yes'
+                        columnSpan: 'yes'
+                        columnStart: 'yes'
+                      hideLockedParameters: true
+                  - _id: 3f191f55-2fd1-4182-88ee-9145f20e4ef4
+                    type: gridItem
+                    slots:
+                      inner:
+                        - _id: 79db46b9-c4c4-4bea-bd91-49035ef42f2b
+                          type: $slotSection
+                          parameters:
+                            name:
+                              type: text
+                              value: Right - Above
+                            specific:
+                              type: array
+                              value:
+                                - advancedContainer
+                                - $p:59b4fb3d-9b40-4a99-bb40-c93c3ddbdd30
+                                - container
+                                - content
+                                - $p:c4c25933-d434-4838-9ab9-08f9c05295b6
+                                - $p:ac6f9c69-0108-44b4-bf67-ef13c59ed67a
+                                - $p:daaf620c-8067-496f-9894-d6dea651a3a3
+                                - image
+                                - $p:6df8725b-6069-4d59-b1da-7ac6780b658f
+                                - richText
+                                - text
+                                - video
+                                - $personalization
+                            groupType:
+                              type: text
+                              value: specific
+                          _overridability:
+                            hideLockedParameters: true
+                        - _id: 08a9b57f-6bf5-4434-9fa5-50760b742de2
+                          type: cardBlock
+                          slots:
+                            cardBlockInner:
+                              - _id: 1b700338-6cb2-449d-b134-d0415f96d711
+                                type: $loop
+                                slots:
+                                  body:
+                                    - _id: b414377c-a939-4d72-bfc1-470743e07e6c
+                                      type: card
+                                      variant: backgroundImage
+                                      parameters:
+                                        image:
+                                          type: asset
+                                          value:
+                                            - _id: 1ec3f610-9084-4e04-8602-555845a1e317
+                                              type: image
+                                              fields:
+                                                url:
+                                                  type: text
+                                                  value: >-
+                                                    ${#jptr:/Related Products
+                                                    Loop/entry/fields/primaryImage/value/0/fields/url/value}
+                                              _source: custom-url
+                                        title:
+                                          type: text
+                                          locales:
+                                            en-US: >-
+                                              ${#jptr:/Related Products
+                                              Loop/entry/_name}
+                                        objectFit:
+                                          type: select
+                                          value: contain
+                                        buttonCopy:
+                                          type: text
+                                          locales:
+                                            en-US: View
+                                        buttonLink:
+                                          type: link
+                                          value:
+                                            path: >-
+                                              /${locale}/products/${#jptr:/Related
+                                              Products Loop/entry/_slug}
+                                            type: projectMapNode
+                                            nodeId: fb657541-0488-4c22-bce4-64c9cd71bdde
+                                            projectMapId: 62588085-7894-4810-84b6-eaaf0cb5213c
+                                            dynamicInputValues:
+                                              locale: ${locale}
+                                              product-slug: >-
+                                                ${#jptr:/Related Products
+                                                Loop/entry/_slug}
+                                        buttonStyle:
+                                          type: tp-button-style-parameter
+                                          value: accent
+                                        description:
+                                          type: text
+                                          locales:
+                                            en-US: >-
+                                              ${#jptr:/Related Products
+                                              Loop/entry/fields/shortDescription/value}
+                                        overlayColor:
+                                          type: tp-color-style-parameter
+                                          value: primary
+                                        overlayOpacity:
+                                          type: tp-slider-parameter
+                                          value: 40%
+                                        lineCountRestriction:
+                                          type: tp-slider-parameter
+                                          value: '3'
+                                      _overridability:
+                                        hideLockedParameters: true
+                                _dataResources:
+                                  Related Products Loop:
+                                    type: sys-reserved-loop
+                                    variables:
+                                      connectedData: >-
+                                        #jptr:/Recipe
+                                        Content/entry/fields/relatedProducts/value:fa=c
+                                _overridability:
+                                  hideLockedParameters: true
+                          variant: carousel
+                          parameters:
+                            $viz:
+                              type: $viz
+                              value:
+                                criteria:
+                                  clauses:
+                                    - op: '!empty'
+                                      rule: $dt
+                                      value: ''
+                                      source: >-
+                                        ${#jptr:/Recipe
+                                        Content/entry/fields/relatedProducts/type}
+                            title:
+                              type: text
+                              locales:
+                                en-US: Products you may need
+                            titleStyle:
+                              type: tp-title-style-parameter
+                              value: h4
+                            textColorVariant:
+                              type: select
+                              value: Light
+                          _overridability:
+                            hideLockedParameters: true
+                        - _id: 455fce45-8a15-4f02-8d05-f6e387319c18
+                          type: $loop
+                          slots:
+                            body:
+                              - _id: a3d0ba80-b764-4fc2-becd-3cfb719f5206
+                                type: advancedContainer
+                                slots:
+                                  content:
+                                    - _id: d4dbdef5-e8bd-41d7-85bc-979052058901
+                                      type: text
+                                      parameters:
+                                        tag:
+                                          type: tp-segmented-control-parameter
+                                          value: p
+                                        size:
+                                          type: tp-segmented-control-parameter
+                                          value: ''
+                                        text:
+                                          type: text
+                                          locales:
+                                            en-US: >-
+                                              ${#jptr:/Instructions
+                                              Loop/fields/name/value}
+                                        color:
+                                          type: tp-color-palette-parameter
+                                          value: primary-content
+                                        fontWeight:
+                                          type: tp-segmented-control-parameter
+                                          value: bold
+                                        whiteSpace:
+                                          type: tp-segmented-control-parameter
+                                          value: normal
+                                        letterSpacing:
+                                          type: tp-segmented-control-parameter
+                                          value: ''
+                                      _overridability:
+                                        hideLockedParameters: true
+                                    - _id: be9d4c54-ac24-4d3d-b0bc-9687d197d3d0
+                                      type: richText
+                                      parameters:
+                                        color:
+                                          type: tp-color-palette-parameter
+                                          value: primary-content
+                                        content:
+                                          type: richText
+                                          locales:
+                                            en-US: >-
+                                              ${#jptr:/Instructions
+                                              Loop/fields/description/value}
+                                      _overridability:
+                                        hideLockedParameters: true
+                                parameters:
+                                  $viz:
+                                    type: $viz
+                                    value:
+                                      criteria:
+                                        clauses:
+                                          - op: '!empty'
+                                            rule: $dt
+                                            value: ''
+                                            source: >-
+                                              ${#jptr:/Instructions
+                                              Loop/fields/description/type}
+                                  title:
+                                    type: text
+                                    locales:
+                                      en-US: >-
+                                        ${#jptr:/Instructions
+                                        Loop/fields/name/value}
+                                  marginTop:
+                                    type: select
+                                    value: Small
+                                  backgroundColor:
+                                    type: tp-color-palette-parameter
+                                    value: secondary-content
+                                _overridability:
+                                  hideLockedParameters: true
+                              - _id: 22fa74bf-c19c-4c3e-a279-69b1183be2e2
+                                type: $loop
+                                slots:
+                                  body:
+                                    - _id: 753d385b-3a0a-4bb6-bc1d-2067c96d692a
+                                      type: advancedContainer
+                                      slots:
+                                        content:
+                                          - _id: 2e16fa36-7800-4e37-9267-859220d406b9
+                                            type: text
+                                            parameters:
+                                              tag:
+                                                type: tp-segmented-control-parameter
+                                                value: p
+                                              size:
+                                                type: tp-segmented-control-parameter
+                                                value: ''
+                                              text:
+                                                type: text
+                                                locales:
+                                                  en-US: ${#jptr:/Steps Loop/fields/name/value}
+                                              color:
+                                                type: tp-color-palette-parameter
+                                                value: primary-content
+                                              fontWeight:
+                                                type: tp-segmented-control-parameter
+                                                value: bold
+                                              whiteSpace:
+                                                type: tp-segmented-control-parameter
+                                                value: normal
+                                              letterSpacing:
+                                                type: tp-segmented-control-parameter
+                                                value: tighter
+                                            _overridability:
+                                              hideLockedParameters: true
+                                          - _id: 092b295d-674b-4c04-9401-4b89a14c3d84
+                                            type: richText
+                                            parameters:
+                                              color:
+                                                type: tp-color-palette-parameter
+                                                value: primary-content
+                                              content:
+                                                type: richText
+                                                locales:
+                                                  en-US: >-
+                                                    ${#jptr:/Steps
+                                                    Loop/fields/description/value}
+                                            _overridability:
+                                              hideLockedParameters: true
+                                      parameters:
+                                        title:
+                                          type: text
+                                          locales:
+                                            en-US: ${#jptr:/Steps Loop/fields/name/value}
+                                        marginTop:
+                                          type: select
+                                          value: Small
+                                        marginBottom:
+                                          type: select
+                                          value: None
+                                        backgroundColor:
+                                          type: tp-color-palette-parameter
+                                          value: secondary-content
+                                      _overridability:
+                                        hideLockedParameters: true
+                                _dataResources:
+                                  Steps Loop:
+                                    type: sys-reserved-loop
+                                    variables:
+                                      connectedData: >-
+                                        #jptr:/Instructions
+                                        Loop/fields/steps/value:fa=c
+                                _overridability:
+                                  hideLockedParameters: true
+                          _dataResources:
+                            Instructions Loop:
+                              type: sys-reserved-loop
+                              variables:
+                                connectedData: >-
+                                  #jptr:/Recipe
+                                  Content/entry/fields/instructions/value:fa=c
+                          _overridability:
+                            hideLockedParameters: true
+                        - _id: f9383a73-568d-4b16-8987-ad878b24a97c
+                          type: $slotSection
+                          parameters:
+                            name:
+                              type: text
+                              value: Right - Below
+                            specific:
+                              type: array
+                              value:
+                                - advancedContainer
+                                - $p:59b4fb3d-9b40-4a99-bb40-c93c3ddbdd30
+                                - container
+                                - content
+                                - $p:c4c25933-d434-4838-9ab9-08f9c05295b6
+                                - $p:ac6f9c69-0108-44b4-bf67-ef13c59ed67a
+                                - $p:daaf620c-8067-496f-9894-d6dea651a3a3
+                                - image
+                                - $p:6df8725b-6069-4d59-b1da-7ac6780b658f
+                                - richText
+                                - text
+                                - video
+                                - $personalization
+                            groupType:
+                              type: text
+                              value: specific
+                          _overridability:
+                            hideLockedParameters: true
+                    parameters:
+                      title:
+                        type: text
+                        locales:
+                          en-US: Instructions - Right Column
+                      rowSpan:
+                        type: tp-slider-parameter
+                        value: '1'
+                      rowStart:
+                        type: tp-slider-parameter
+                        value: None
+                      columnSpan:
+                        type: tp-slider-parameter
+                        value: '3'
+                      columnStart:
+                        type: tp-slider-parameter
+                        value: none
+                    _overridability:
+                      parameters:
+                        rowSpan: 'yes'
+                        rowStart: 'yes'
+                        columnSpan: 'yes'
+                        columnStart: 'yes'
+                      hideLockedParameters: true
+              parameters:
+                gapX:
+                  type: tp-slider-parameter
+                  value: none
+                gapY:
+                  type: tp-slider-parameter
+                  value: none
+                title:
+                  type: text
+                  locales:
+                    en-US: 2-column Recipe
+                columnsCount:
+                  type: tp-slider-parameter
+                  value: '5'
+              _overridability:
+                parameters:
+                  gapX: 'yes'
+                  gapY: 'yes'
+                  columnsCount: 'yes'
+                hideLockedParameters: true
+        parameters:
+          title:
+            type: text
+            locales:
+              en-US: Recipe Details
+          marginTop:
+            type: select
+            value: None
+          paddingTop:
+            type: select
+            value: None
+          marginBottom:
+            type: select
+            value: None
+          paddingBottom:
+            type: select
+            value: None
+          backgroundType:
+            type: tp-background-type-parameter
+            value: Dark
+        _overridability:
+          parameters:
+            $viz: 'yes'
+            title: 'yes'
+      - _id: 2f052789-01f2-48e0-a369-0f0d70f29fa0
+        type: container
+        slots:
+          container-inner:
+            - _id: 1fd70b50-7f45-470e-beb1-fba4788d69cf
+              type: $slotSection
+              parameters:
+                name:
+                  type: text
+                  value: Bottom
+                specific:
+                  type: array
+                  value:
+                    - $p:83683088-0560-40f7-b8b8-18360fa76d24
+                    - advancedContainer
+                    - $p:59b4fb3d-9b40-4a99-bb40-c93c3ddbdd30
+                    - banner
+                    - $p:a7aa42e0-9225-4909-8fb1-9d1bac72848c
+                    - $p:9f1d715b-16aa-4f0f-807d-036beb0ff67f
+                    - $p:fe2cba31-e7a3-49f4-8f95-6221b4dee99a
+                    - carousel
+                    - container
+                    - content
+                    - $p:c4c25933-d434-4838-9ab9-08f9c05295b6
+                    - $p:ac6f9c69-0108-44b4-bf67-ef13c59ed67a
+                    - $p:daaf620c-8067-496f-9894-d6dea651a3a3
+                    - imageGallery
+                    - $p:4045561e-b985-49bc-8b73-8b5918952b8f
+                    - $p:6df8725b-6069-4d59-b1da-7ac6780b658f
+                    - $p:733c3ec0-4eca-4e7a-bf35-532ccf918b66
+                    - richText
+                    - text
+                    - video
+                    - $test
+                    - $personalization
+                groupType:
+                  type: text
+                  value: specific
+              _overridability:
+                hideLockedParameters: true
+        variant: fluidContent
+        parameters:
+          title:
+            type: text
+            locales:
+              en-US: Empty Space
+          marginTop:
+            type: select
+            value: None
+          paddingTop:
+            type: select
+            value: Small
+          marginBottom:
+            type: select
+            value: None
+          paddingBottom:
+            type: select
+            value: None
+          backgroundType:
+            type: tp-background-type-parameter
+            value: Dark
+        _overridability:
+          parameters:
+            $viz: 'yes'
+            title: 'yes'
+  _dataResources:
+    Recipe Content:
+      type: recipe
+      variables:
+        locale: ${locale}
+        entryId: a38bee0e-ab78-4bf9-928e-9596bef940f9
+      isPatternParameter: true
+      ignorePatternParameterDefault: false
+  _overridability:
+    parameters:
+      $viz: 'yes'
+      pageTitle: 'yes'
+      twitterCard: 'yes'
+      pageKeywords: 'yes'
+      twitterImage: 'yes'
+      twitterTitle: 'yes'
+      openGraphType: 'yes'
+      openGraphImage: 'yes'
+      openGraphTitle: 'yes'
+      twitterDescription: 'yes'
+      pageMetaDescription: 'yes'
+      openGraphDescription: 'yes'
+      overlayTitleToOgImage: 'yes'
+      overlayTitleToTwitterImage: 'yes'
+    hideLockedParameters: true
+  _locales:
+    - en-US
+    - nl-NL
+    - fr-CA
+created: '2024-11-04T20:13:47.77878+00:00'
+modified: '2024-11-04T20:13:47.77878+00:00'
+pattern: true
+categoryId: 31fcffb0-aead-4256-8e49-4d50cc28aa29
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+workflowStageId: f188fe82-9a74-4fdd-bbfb-a63837ba71d2

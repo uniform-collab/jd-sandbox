@@ -1,5 +1,5 @@
-created: '2024-06-04T20:23:51.085272+00:00'
-modified: '2024-08-15T12:18:42.468651+00:00'
+created: '2024-11-04T20:10:24.768927+00:00'
+modified: '2024-11-04T20:10:24.768927+00:00'
 pattern: false
 workflowId: 784fa239-ae8a-4ab1-ba68-9806d0fe406a
 workflowStageId: 73608d81-f8b0-4ee3-897b-c976d2dc6670
@@ -8,7 +8,7 @@ entry:
   _name: Coffee Removable Filter Holder for Specialty Coffee Maker
   _slug: coffee-removable-filter-holder-148
   _thumbnail: >-
-    https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/ZNinXpmJSmiqnDDQ8rt1pA-118kkwcp30_01_aawcfl.webp
+    https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/j4Wbk9sSSCeqGMIDLy6wBQ-118kkwcp30_01_aawcfl.webp
   type: product
   fields:
     body:
@@ -102,9 +102,9 @@ entry:
               type: number
               locales:
                 en-US: '12.95'
+                es-US: '12.95'
                 fr-CA: '11.96'
                 nl-NL: '11.96'
-                es-US: '12.95'
             title:
               type: text
               locales:

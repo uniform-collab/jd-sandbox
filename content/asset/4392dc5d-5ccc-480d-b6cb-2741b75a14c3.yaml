@@ -8,7 +8,7 @@ asset:
       value: diamond.svg
     file:
       type: file
-      value: e51911dc-cf5e-4629-ad50-7b3e41664c6b
+      value: 2fa59d26-8a35-406d-89de-72e1a6c327e0
     mediaType:
       value: image/svg+xml
       type: text
@@ -17,7 +17,7 @@ asset:
         https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/h8g3LW7QQVCnwjGqpK5Y-g-diamond.svg
       type: text
     size:
-      value: 535
+      value: 538
       type: number
     width:
       value: 60
@@ -26,5 +26,5 @@ asset:
       value: 54
       type: number
     custom: {}
-created: '2023-12-13T13:08:03.912079+00:00'
-modified: '2023-12-13T13:08:03.912079+00:00'
+created: '2024-11-04T20:01:01.19773+00:00'
+modified: '2024-11-04T20:06:22.244324+00:00'

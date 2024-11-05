@@ -1,0 +1,198 @@
+composition:
+  _name: JavaDrip Specialty Launch (master)
+  _id: 73e7fc0a-4983-4f93-bd05-cd3a7ee50e3c
+  _slug: JavaDrip-Specialty-Launch
+  type: landingPage
+  parameters:
+    pageTitle:
+      type: text
+      locales:
+        en-CA: Landing  Page
+        en-GB: Landing  Page
+        en-NL: Landing  Page
+        en-US: Landing  Page
+        es-US: Página de destino
+        fr-CA: Page d'atterrissage
+        nl-NL: Landingspagina
+  slots:
+    pageFooter:
+      - _id: 4763af16-95d1-454c-a225-94ba792861d4
+        type: footer
+        _pattern: 319639e9-4bac-4fb3-8f0b-19088c969fcb
+    pageHeader:
+      - _id: 9b2a9494-26de-4e4b-a6c1-d10a14d495a5
+        type: header
+        _pattern: e46c8336-acfd-43e8-ac59-8be8f4c33b7d
+    pageContent:
+      - _id: c7c8e4b8-51c5-4e08-bf48-b788a66c6f26
+        type: heroContainer
+        _pattern: daaf620c-8067-496f-9894-d6dea651a3a3
+        _dataResources:
+          Hero Content:
+            type: hero
+            variables:
+              locale: ${locale}
+              entryId: ea315933-36e4-4b8a-87b3-66aa1b3ae984
+      - _id: 2ed8da08-f177-41c7-97ba-9971572487d3
+        type: hero
+        _pattern: ac6f9c69-0108-44b4-bf67-ef13c59ed67a
+        _dataResources:
+          Feature Content:
+            type: productFeature
+            variables:
+              locale: ${locale}
+              entryId: f75ba25f-3154-4a20-9fd8-88184c12c145
+      - _id: bf46f518-66af-4495-bf9b-38958ec7b8a9
+        type: $personalization
+        slots:
+          pz:
+            - _id: 34a66e23-e2b4-4678-9c2b-b44cfe18f7f6
+              type: emailSignupForm
+              _pattern: 30e4b2d9-9999-4c59-ab1e-a8d83528d448
+              _dataResources:
+                Call To Action Content:
+                  type: callToAction
+                  variables:
+                    locale: ${locale}
+                    entryId: e7cfb2f1-afe4-431d-bbad-44232a9a7d1e
+        parameters:
+          trackingEventName:
+            type: text
+            value: 'Coupon '
+  _overrides:
+    2ed8da08-f177-41c7-97ba-9971572487d3:
+      parameters:
+        title:
+          type: text
+          locales:
+            en-CA: ${#jptr:/Feature Content/entry/fields/title/value}
+            en-GB: ${#jptr:/Feature Content/entry/fields/title/value}
+            en-NL: ${#jptr:/Feature Content/entry/fields/title/value}
+        description:
+          type: text
+          locales:
+            en-CA: >-
+              Start your day right with the JavaDrip coffee maker! It's a
+              must-have appliance for any kitchen, perfect for daily use.
+              Whether you prefer decaf or a strong brew, this coffee maker will
+              deliver. With the Specialty coffee maker, you can make delicious
+              coffeehouse-style drinks and iced coffee that never tastes
+              diluted. It's also versatile, brewing a single cup or a full
+              carafe using your favorite grounds, no pods needed.
+            en-GB: >-
+              Start your day right with the JavaDrip coffee maker! It's a
+              must-have appliance for any kitchen, perfect for daily use.
+              Whether you prefer decaf or a strong brew, this coffee maker will
+              deliver. With the Specialty coffee maker, you can make delicious
+              coffeehouse-style drinks and iced coffee that never tastes
+              diluted. It's also versatile, brewing a single cup or a full
+              carafe using your favorite grounds, no pods needed.
+            en-NL: >-
+              Start your day right with the JavaDrip coffee maker! It's a
+              must-have appliance for any kitchen, perfect for daily use.
+              Whether you prefer decaf or a strong brew, this coffee maker will
+              deliver. With the Specialty coffee maker, you can make delicious
+              coffeehouse-style drinks and iced coffee that never tastes
+              diluted. It's also versatile, brewing a single cup or a full
+              carafe using your favorite grounds, no pods needed.
+            en-US: >-
+              Start your day right with the JavaDrip coffee maker! It's a
+              must-have appliance for any kitchen, perfect for daily use.
+              Whether you prefer decaf or a strong brew, this coffee maker will
+              deliver. With the Specialty coffee maker, you can make delicious
+              coffeehouse-style drinks and iced coffee that never tastes
+              diluted. It's also versatile, brewing a single cup or a full
+              carafe using your favorite grounds, no pods needed.
+            es-US: >-
+              ¡Empiece bien el día con la cafetera JavaDrip! Es un
+              electrodoméstico imprescindible en cualquier cocina,  perfecto
+              para el uso diario. Ya sea que prefiera una bebida descafeinada o
+              fuerte, esta cafetera lo cumplirá.  Con la cafetera de
+              especialidad, puedes preparar deliciosas bebidas estilo cafetería
+              y café helado que  nunca sabe diluido. También es versátil, ya que
+              prepara una sola taza o una jarra llena con tu café molido 
+              favorito, sin necesidad de cápsulas.
+            fr-CA: >-
+              Commencez votre journée du bon pied avec la cafetière JavaDrip !
+              C'est un appareil indispensable à toute cuisine, parfait pour une
+              utilisation quotidienne. Que vous préfériez le café décaféiné ou
+              le café fort, cette cafetière vous comblera. Avec la cafetière
+              Specialty, vous pouvez préparer de délicieuses boissons de style
+              maison de café et du café glacé qui n'a jamais le goût d'être
+              dilué. Polyvalente, elle prépare une seule tasse ou une carafe
+              entière en utilisant votre café moulu préféré, sans dosettes.
+            nl-NL: >-
+              Begin je dag goed met het JavaDrip koffiezetapparaat! Het is een
+              onmisbaar apparaat voor elke keuken, perfect voor dagelijks
+              gebruik. Of je nu van decaf houdt of van een sterk brouwsel, dit
+              koffiezetapparaat levert alles. Met het speciale koffiezetapparaat
+              maak je heerlijke koffiehuisdrankjes en ijskoffie die nooit
+              verwaterd smaakt. Hij is ook veelzijdig: je kunt er een enkele kop
+              mee zetten of een volle karaf met je favoriete koffiedik, zonder
+              dat je pods nodig hebt.
+    34a66e23-e2b4-4678-9c2b-b44cfe18f7f6:
+      parameters:
+        buttonCopy:
+          type: text
+          locales:
+            en-CA: Get my free shipping
+            en-GB: Get my free shipping
+            en-NL: Get my free shipping
+            en-US: Get my free shipping
+            es-US: Obtenga mi envío gratis
+            fr-CA: Obtenir mes frais de port gratuits
+            nl-NL: Ontvang mijn gratis verzending
+    9b2a9494-26de-4e4b-a6c1-d10a14d495a5:
+      parameters:
+        syntheticGap:
+          type: tp-slider-parameter
+          value: None
+    c7c8e4b8-51c5-4e08-bf48-b788a66c6f26:
+      parameters:
+        video:
+          type: cloudinary-video
+          value:
+            - alt: ''
+              url: >-
+                https://res.cloudinary.com/uniform-demos/video/upload/v1700500657/coffee-marketing/Specialty_Animation_co3vth.mp4
+              uuid: 6078f0e2-7259-43dd-b9e7-a153f2b0099c
+              width: '1920'
+              format: mp4
+              height: '1080'
+              caption: ''
+              version: 1700500657
+              publicId: coffee-marketing/Specialty_Animation_co3vth
+              createdAt: '2023-11-20T17:17:37Z'
+              previewUrl: >-
+                https://res.cloudinary.com/uniform-demos/video/upload/q_auto,f_auto/coffee-marketing/Specialty_Animation_co3vth.mp4
+              resourceType: video
+              transformation: ''
+        duration:
+          type: select
+          value: medium
+        eyebrowText:
+          type: text
+          locales:
+            en-US: New javadrip product
+        animationType:
+          type: select
+          value: fadeIn
+        animationOrder:
+          type: select
+          value: oneByOne
+        animationPreview:
+          type: tp-play-animation-parameter
+          value: true
+  _locales:
+    - fr-CA
+    - en-US
+    - es-US
+    - nl-NL
+    - en-NL
+    - en-CA
+    - en-GB
+created: '2024-11-04T20:15:50.286608+00:00'
+modified: '2024-11-04T20:15:50.286608+00:00'
+pattern: false
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+workflowStageId: 73608d81-f8b0-4ee3-897b-c976d2dc6670

@@ -1,9 +1,0 @@
-id: e6e02a24-5ce1-4adb-b537-e952ee2ab804
-name: REI Example
-order: 500
-path: /:locale/about-us/rei-example
-type: composition
-pathSegment: rei-example
-data: {}
-compositionId: ad96cce5-863f-4ca5-8ff2-ffec0cc74cd3
-projectMapId: 62588085-7894-4810-84b6-eaaf0cb5213c

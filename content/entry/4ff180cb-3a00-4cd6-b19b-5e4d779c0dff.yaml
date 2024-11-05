@@ -1,5 +1,5 @@
-created: '2023-11-21T13:20:17.325971+00:00'
-modified: '2024-09-24T18:55:38.827533+00:00'
+created: '2024-11-04T20:10:05.365048+00:00'
+modified: '2024-11-04T20:10:05.365048+00:00'
 pattern: false
 workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
 entry:
@@ -7,7 +7,7 @@ entry:
   _name: 25% your next purchase
   _slug: 25percent-your-next-purchase
   _thumbnail: >-
-    https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/nRrspOoLQYqf16xNXp0rkQ-25_off.svg
+    https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/FVHkkZwQRJuehPPIrPlkvw-25_off.svg
   type: promotion
   fields:
     image:
@@ -27,7 +27,7 @@ entry:
               type: file
               value: 0e619900-bdb3-4686-89e5-0034738df5ff
             size:
-              value: 3718
+              value: 3722
               type: number
             title:
               type: text

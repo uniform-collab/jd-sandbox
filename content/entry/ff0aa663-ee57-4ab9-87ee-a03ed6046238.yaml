@@ -1,5 +1,5 @@
-created: '2024-06-04T20:24:02.087839+00:00'
-modified: '2024-08-15T12:21:34.111437+00:00'
+created: '2024-11-04T20:10:36.071411+00:00'
+modified: '2024-11-04T20:10:36.071411+00:00'
 pattern: false
 workflowId: 784fa239-ae8a-4ab1-ba68-9806d0fe406a
 workflowStageId: 73608d81-f8b0-4ee3-897b-c976d2dc6670
@@ -8,7 +8,7 @@ entry:
   _name: Glass Carafe & Brew-Through Lid
   _slug: glass-carafe-brew-through-lid-146
   _thumbnail: >-
-    https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/K-MaP3uET7ChEdMw_33i0A-s-l1200_gmegot.webp
+    https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/ATHB4RBlQ2Wg2e_b81Y03w-s-l1200_gmegot.webp
   type: product
   fields:
     body:
@@ -108,9 +108,9 @@ entry:
               type: number
               locales:
                 en-US: '24.95'
+                es-US: '24.95'
                 fr-CA: '23.05'
                 nl-NL: '23.05'
-                es-US: '24.95'
             title:
               type: text
               locales:

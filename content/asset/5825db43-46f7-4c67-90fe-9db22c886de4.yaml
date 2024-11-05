@@ -8,7 +8,7 @@ asset:
       value: storybook_icon.svg
     file:
       type: file
-      value: 98a16845-83e0-4fbd-b5fd-f811aa4862ad
+      value: 38f80a28-cdc9-4db2-bec3-9f73bec04cba
     mediaType:
       value: image/svg+xml
       type: text
@@ -17,7 +17,7 @@ asset:
         https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/lzWZnzjdThuxWLiUlnhCUg-storybook_icon.svg
       type: text
     size:
-      value: 7943
+      value: 7952
       type: number
     width:
       value: 38
@@ -26,5 +26,5 @@ asset:
       value: 38
       type: number
     custom: {}
-created: '2023-12-13T13:08:11.452152+00:00'
-modified: '2023-12-13T13:08:11.452152+00:00'
+created: '2024-11-04T20:01:01.887752+00:00'
+modified: '2024-11-04T20:06:35.139527+00:00'

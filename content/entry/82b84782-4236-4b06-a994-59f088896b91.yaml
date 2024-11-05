@@ -1,5 +1,5 @@
-created: '2024-06-04T20:24:03.611427+00:00'
-modified: '2024-08-15T12:19:08.796808+00:00'
+created: '2024-11-04T20:10:51.100987+00:00'
+modified: '2024-11-04T20:10:51.100987+00:00'
 pattern: false
 workflowId: 784fa239-ae8a-4ab1-ba68-9806d0fe406a
 workflowStageId: 73608d81-f8b0-4ee3-897b-c976d2dc6670
@@ -8,7 +8,7 @@ entry:
   _name: Organic Blend Coffee
   _slug: organic-blend-coffee-133
   _thumbnail: >-
-    https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/h4ZPqLDRRh2rIRiYzy4j-A-organic-blend-coffee-133-1_ws3k5y_cxow31.jpg
+    https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/32kvHVOfSeWjXY2k2YH8sQ-organic-blend-coffee-133-1_ws3k5y_cxow31.jpg
   type: product
   fields:
     body:
@@ -117,9 +117,9 @@ entry:
               type: number
               locales:
                 en-US: '12.99'
+                es-US: '12.99'
                 fr-CA: '12.00'
                 nl-NL: '12.00'
-                es-US: '12.99'
             title:
               type: text
               locales:

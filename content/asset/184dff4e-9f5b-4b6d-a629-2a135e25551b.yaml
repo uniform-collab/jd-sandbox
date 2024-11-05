@@ -8,7 +8,7 @@ asset:
       value: coffee_and_cake.avif
     file:
       type: file
-      value: cdbd0b7d-fd1f-4001-a9c7-a8b0ec4b0056
+      value: 0a8901a4-0fe5-418f-8d62-da976fe99f1b
     mediaType:
       value: image/avif
       type: text
@@ -19,6 +19,12 @@ asset:
     size:
       value: 59351
       type: number
+    width:
+      value: 1440
+      type: number
+    height:
+      value: 520
+      type: number
     custom: {}
-created: '2023-12-13T13:08:04.107995+00:00'
-modified: '2024-09-05T09:53:32.727546+00:00'
+created: '2024-11-04T20:00:55.410519+00:00'
+modified: '2024-11-04T20:05:43.781904+00:00'

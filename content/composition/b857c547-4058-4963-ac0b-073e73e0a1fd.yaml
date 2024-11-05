@@ -1,0 +1,162 @@
+composition:
+  _name: Cold Brew Chicory Coffee
+  _id: b857c547-4058-4963-ac0b-073e73e0a1fd
+  _slug: cold-brew-chicory-coffee
+  type: page
+  _dataResources:
+    Recipe Content:
+      type: recipe
+      variables:
+        locale: ${locale}
+        entryId: 316794bf-d437-4a9c-9c77-0aff2acdfc78
+  _overrides:
+    babda44d-b545-40d0-875e-62002cf688f8:
+      variant: carousel
+      parameters:
+        title:
+          type: text
+          locales:
+            en-US: Products
+        titleStyle:
+          type: tp-title-style-parameter
+          value: h4
+        description:
+          type: text
+          locales:
+            en-US: These products go great with this Recipe
+        textColorVariant:
+          type: select
+          value: Light
+    f6a4fd24-88de-40e9-a374-25ddf9df86b0:
+      variant: ''
+    b857c547-4058-4963-ac0b-073e73e0a1fd|1fd70b50-7f45-470e-beb1-fba4788d69cf:
+      slots:
+        $slotSectionItems:
+          - _id: f6a4fd24-88de-40e9-a374-25ddf9df86b0
+            type: container
+            variant: ''
+            _pattern: 6df8725b-6069-4d59-b1da-7ac6780b658f
+            _dataResources:
+              Product Content:
+                type: product-single
+                variables:
+                  locale: ${locale}
+                  entryId: df7a5d21-9a3c-49db-92d2-662b0fecce21
+            _overridability:
+              variants: true
+              parameters:
+                $viz: 'yes'
+                title: 'yes'
+                marginTop: 'yes'
+                paddingTop: 'yes'
+                marginBottom: 'yes'
+                paddingBottom: 'yes'
+                backgroundType: 'yes'
+              hideLockedParameters: true
+          - _id: d39056b8-9266-45bb-83b4-56f20b8e53c7
+            type: container
+            slots:
+              container-inner:
+                - _id: babda44d-b545-40d0-875e-62002cf688f8
+                  type: cardBlock
+                  variant: carousel
+                  _pattern: fe2cba31-e7a3-49f4-8f95-6221b4dee99a
+                  _dataResources:
+                    Products Content:
+                      type: products
+                      variables:
+                        locale: ${locale}
+                        entryIds: >-
+                          048d6d1e-b00b-4e80-a715-22d149233435,72b49ac2-bbf3-48a7-b522-0947483e9131,dd9a7e4d-56a3-4a0b-9679-345d19e6da49
+                  _overridability:
+                    variants: true
+                    parameters:
+                      title: 'yes'
+                      group_cta: 'yes'
+                      buttonCopy: 'yes'
+                      buttonLink: 'yes'
+                      titleStyle: 'yes'
+                      buttonStyle: 'yes'
+                      description: 'yes'
+                      group_content: 'yes'
+                      textColorVariant: 'yes'
+                      buttonAnimationType: 'yes'
+    b857c547-4058-4963-ac0b-073e73e0a1fd|3f191f55-2fd1-4182-88ee-9145f20e4ef4:
+      parameters:
+        columnSpan:
+          type: tp-slider-parameter
+          value: '4'
+    b857c547-4058-4963-ac0b-073e73e0a1fd|c0d238c8-bea9-4010-ae58-6e2cdbb7512b:
+      variant: imageLeft
+      parameters:
+        objectFit:
+          type: select
+          value: contain
+        backgroundColor:
+          type: tp-color-palette-parameter
+          value: primary
+    b857c547-4058-4963-ac0b-073e73e0a1fd|c325d75f-e82a-44eb-8f3c-9fd4bae87f2b:
+      parameters:
+        columnSpan:
+          type: tp-slider-parameter
+          value: '1'
+    f6a4fd24-88de-40e9-a374-25ddf9df86b0|af47a462-86ba-499a-a457-08b1c9f38cbb:
+      parameters:
+        badge:
+          type: text
+          locales:
+            en-US: Use the Easy Button
+        image:
+          type: asset
+          value:
+            - _id: 5c5b2f52-329b-4dd7-9d0c-34b8bfb57413
+              type: image
+              fields:
+                id:
+                  type: text
+                  value: 01f11ef2-2c95-4c6d-a39d-d90a491eb6cc
+                url:
+                  type: text
+                  value: >-
+                    https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/W5yxAtu-QS6kLO1E_RIFfA-JavaDrip_Specialty_5_qspevi_qtf01a.jpg
+                file:
+                  type: file
+                  value: 0478d493-e498-4bfa-be95-a65d1eaad42b
+                size:
+                  type: number
+                  value: 161810
+                title:
+                  type: text
+                  value: JavaDrip_Specialty_5_qspevi_qtf01a.jpg
+                width:
+                  type: number
+                  value: 1000
+                height:
+                  type: number
+                  value: 1000
+                mediaType:
+                  type: text
+                  value: image/jpeg
+              _source: uniform-assets
+        description:
+          type: text
+          locales:
+            en-US: >-
+              ${#jptr:/Product Content/entry/fields/shortDescription/value}
+
+
+              Use the Over Ice 'easy button' to make Iced Coffee on demand
+              instead having to plan ahead time.
+        overlayOpacity:
+          type: tp-slider-parameter
+          value: 60%
+  _locales:
+    - en-US
+    - nl-NL
+    - fr-CA
+  _pattern: 1c648e60-5186-4c72-9634-327a00607ed0
+created: '2024-11-04T20:15:47.613264+00:00'
+modified: '2024-11-04T20:15:47.613264+00:00'
+pattern: false
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+workflowStageId: 73608d81-f8b0-4ee3-897b-c976d2dc6670

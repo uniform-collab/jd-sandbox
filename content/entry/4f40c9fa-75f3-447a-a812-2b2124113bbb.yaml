@@ -1,5 +1,5 @@
-created: '2024-06-04T20:23:49.642423+00:00'
-modified: '2024-08-15T12:18:22.694091+00:00'
+created: '2024-11-04T20:10:27.576735+00:00'
+modified: '2024-11-04T20:10:27.576735+00:00'
 pattern: false
 workflowId: 784fa239-ae8a-4ab1-ba68-9806d0fe406a
 workflowStageId: 73608d81-f8b0-4ee3-897b-c976d2dc6670
@@ -8,7 +8,7 @@ entry:
   _name: Descaling tablets
   _slug: descaling-tablets-142
   _thumbnail: >-
-    https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/Htw0pdIuSo-nVPPDGb5ZiQ-descaling_tablets__24083.1662555428.386.513_plb7u6.jpg
+    https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/qqWufW5MR32nZbdf_gSQfA-descaling_tablets__24083.1662555428.386.513_plb7u6.jpg
   type: product
   fields:
     body:
@@ -66,9 +66,9 @@ entry:
               type: number
               locales:
                 en-US: '35'
+                es-US: '35'
                 fr-CA: '32.33'
                 nl-NL: '32.33'
-                es-US: '35'
             title:
               type: text
               locales:

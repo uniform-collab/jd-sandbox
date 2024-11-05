@@ -8,7 +8,7 @@ asset:
       value: JD.svg
     file:
       type: file
-      value: d0650d95-e94b-4280-9865-e417729256d9
+      value: b31af85e-a48b-4041-a096-e5984b9a9046
     mediaType:
       value: image/svg+xml
       type: text
@@ -17,7 +17,7 @@ asset:
         https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/LuTlPqk9SbW_NXzioLoPMg-JD.svg
       type: text
     size:
-      value: 8045
+      value: 8060
       type: number
     width:
       value: 60
@@ -26,5 +26,5 @@ asset:
       value: 57
       type: number
     custom: {}
-created: '2024-06-06T12:58:57.777949+00:00'
-modified: '2024-06-06T12:58:57.777949+00:00'
+created: '2024-11-04T20:01:03.768771+00:00'
+modified: '2024-11-04T20:06:36.450468+00:00'

@@ -1,5 +1,5 @@
-created: '2023-11-20T09:34:26.277379+00:00'
-modified: '2024-09-24T18:55:38.827533+00:00'
+created: '2024-11-04T20:10:08.236287+00:00'
+modified: '2024-11-04T20:10:08.236287+00:00'
 pattern: false
 workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
 entry:
@@ -7,7 +7,7 @@ entry:
   _name: AI-powered taste customization
   _slug: ai-powered-taste-customization
   _thumbnail: >-
-    https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/ezVrs3Z-QzeTvyLXVsrwzg-icon_equalizer.svg
+    https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/yFbuGy2tRK2PrDJG2b8eag-icon_equalizer.svg
   type: productFeature
   fields:
     image:
@@ -27,7 +27,7 @@ entry:
               type: file
               value: 98bc001e-6184-43d4-8cb4-5002f6c3902d
             size:
-              value: 3038
+              value: 3045
               type: number
             title:
               type: text

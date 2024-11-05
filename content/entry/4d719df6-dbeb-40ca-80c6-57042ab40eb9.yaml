@@ -1,5 +1,5 @@
-created: '2024-08-12T13:04:22.356205+00:00'
-modified: '2024-09-24T18:55:38.827533+00:00'
+created: '2024-11-04T20:10:46.319678+00:00'
+modified: '2024-11-04T20:10:46.319678+00:00'
 pattern: false
 workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
 entry:
@@ -7,7 +7,7 @@ entry:
   _name: Kontent.ai
   _slug: kontentai
   _thumbnail: >-
-    https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/41AI-O85TgS5Ftu6EeomqQ-Kontent.ai-Primary-Logo-Black-RGB.png
+    https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/kE6mfd9sRf-kaioANzLt5Q-Kontent.ai-Primary-Logo-Black-RGB.png
   type: contentSource
   fields:
     logo:

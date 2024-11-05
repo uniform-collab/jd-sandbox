@@ -1,5 +1,5 @@
-created: '2023-11-30T17:24:08.260049+00:00'
-modified: '2024-09-24T18:55:38.827533+00:00'
+created: '2024-11-04T20:10:33.157752+00:00'
+modified: '2024-11-04T20:10:33.157752+00:00'
 pattern: false
 workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
 entry:
@@ -7,7 +7,7 @@ entry:
   _name: Finish what you started!
   _slug: finish-what-you-started
   _thumbnail: >-
-    https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/uiOBn-6cSR-suibqH2T3Rg-ai_generated_image_for_image.jpg
+    https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/NiO4sIX_R_uBC_jnsGEWtA-ai_generated_image_for_image.jpg
   type: hero
   fields:
     image:

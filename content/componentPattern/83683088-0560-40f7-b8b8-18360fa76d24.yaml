@@ -107,10 +107,11 @@ composition:
     - en-NL
     - fr-CA
     - nl-NL
-created: '2023-12-11T14:29:55.547053+00:00'
-modified: '2024-09-24T18:55:38.827533+00:00'
+created: '2024-11-04T20:08:24.757062+00:00'
+modified: '2024-11-04T20:14:11.818624+00:00'
 pattern: true
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/v1/preview-images/NewJavaDripTheme/SalesDemo/Patterns/Accordion_preview_image
 categoryId: ea001653-1f96-4f07-9187-a1626a4965e5
 workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+workflowStageId: 73608d81-f8b0-4ee3-897b-c976d2dc6670

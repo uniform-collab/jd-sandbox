@@ -1,5 +1,5 @@
-created: '2024-06-04T20:24:04.749742+00:00'
-modified: '2024-08-15T12:20:50.782014+00:00'
+created: '2024-11-04T20:10:45.438977+00:00'
+modified: '2024-11-04T20:10:45.438977+00:00'
 pattern: false
 workflowId: 784fa239-ae8a-4ab1-ba68-9806d0fe406a
 workflowStageId: 73608d81-f8b0-4ee3-897b-c976d2dc6670
@@ -8,7 +8,7 @@ entry:
   _name: JavaDrip Specialty Coffee Maker
   _slug: javadrip-specialty-coffee-maker-141
   _thumbnail: >-
-    https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/UYuwtGYzRxK2-uFghQyb9A-JavaDrip_Specialty_1_ijla9c_ymbqor.jpg
+    https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/cpyTgdcDQrGyXThq5U0Qpw-JavaDrip_Specialty_1_ijla9c_ymbqor.jpg
   type: product
   fields:
     body:
@@ -128,9 +128,9 @@ entry:
               type: number
               locales:
                 en-US: '110'
+                es-US: '110'
                 fr-CA: '101.60'
                 nl-NL: '101.60'
-                es-US: '110'
             title:
               type: text
               locales:

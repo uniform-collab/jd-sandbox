@@ -1,0 +1,285 @@
+composition:
+  _name: VIP Page - Authorable Components
+  _id: b85512bc-312f-4571-9657-0712f8fa52fe
+  _slug: test
+  type: page
+  slots:
+    pageFooter:
+      - _id: 747d3c22-5ed8-43e3-a061-5d9fd7dda50f
+        type: footer
+        _pattern: 319639e9-4bac-4fb3-8f0b-19088c969fcb
+    pageHeader:
+      - _id: 43de97e6-98b8-4995-9165-28204a91131c
+        type: header
+        _pattern: e46c8336-acfd-43e8-ac59-8be8f4c33b7d
+    pageContent:
+      - _id: 94f72a79-64bc-466f-a7ec-b83b38aec0e4
+        type: grid
+        slots:
+          grid-inner:
+            - _id: 5335ce00-8e3a-4eaa-a2e4-b94a3d910119
+              type: gridItem
+              slots:
+                inner:
+                  - _id: fc399a0a-aa92-4d28-80cf-bb1bf1271269
+                    type: gridItem
+                    slots:
+                      inner:
+                        - _id: 2aca522c-9e87-4e3d-96e3-83742e3f8130
+                          type: image
+                          parameters:
+                            src:
+                              type: asset
+                              value:
+                                - _id: 25cd6a78-d1aa-420b-99fc-ccaba9404b38
+                                  type: image
+                                  fields:
+                                    id:
+                                      type: text
+                                      value: efe4f903-f195-4a48-9424-90a6d1893988
+                                    url:
+                                      value: >-
+                                        https://img.uniform.global/p/g7bIwGklRHq1c0h6VQckpg/ITRCDawEReCgXAGWGCfXPw-AI-generated-image-for-Icon
+                                      type: text
+                                    file:
+                                      type: file
+                                      value: 41ce575d-361c-425e-bdff-b5556fbfc180
+                                    size:
+                                      value: 1796130
+                                      type: number
+                                    title:
+                                      type: text
+                                      value: AI-generated-image-for-Icon
+                                    width:
+                                      value: 1024
+                                      type: number
+                                    height:
+                                      value: 1024
+                                      type: number
+                                    mediaType:
+                                      value: application/octet-stream
+                                      type: text
+                                  _source: uniform-assets
+                            objectFit:
+                              type: select
+                              value: contain
+                            borderWidth:
+                              type: tp-slider-parameter
+                              value: 3px
+                            borderRadius:
+                              type: tp-slider-parameter
+                              value: large
+                            overlayColor:
+                              type: tp-color-style-parameter
+                              value: base-300
+                            overlayOpacity:
+                              type: tp-slider-parameter
+                              value: 20%
+                    parameters:
+                      rowSpan:
+                        type: tp-slider-parameter
+                        value: '1'
+                      rowStart:
+                        type: tp-slider-parameter
+                        value: None
+                      columnSpan:
+                        type: tp-slider-parameter
+                        value: '1'
+                      columnStart:
+                        type: tp-slider-parameter
+                        value: none
+                  - _id: 749b8c22-5b28-4370-9a02-fb49b6a73499
+                    type: spacer
+                    parameters:
+                      thickness:
+                        type: tp-slider-parameter
+                        value: 20px
+                  - _id: d67eb6d3-8770-4b2b-bf65-8c7ab721444c
+                    type: gridItem
+                    slots:
+                      inner:
+                        - _id: 2ae3b8d1-e21c-4254-92f5-66250ec6a705
+                          type: navigationSection
+                          slots:
+                            links:
+                              - _id: 4fc3a90d-ae50-4e06-be3d-ce1b8a558927
+                                type: navigationLink
+                                variant: footer
+                                parameters:
+                                  link:
+                                    type: link
+                                    value:
+                                      path: /${locale}/about-us
+                                      type: projectMapNode
+                                      nodeId: 46d79867-b877-4ce7-9675-78fee55fc308
+                                      projectMapId: 62588085-7894-4810-84b6-eaaf0cb5213c
+                                      dynamicInputValues:
+                                        locale: ${locale}
+                                  color:
+                                    type: tp-color-palette-parameter
+                                    value: accent
+                                  title:
+                                    type: text
+                                    locales:
+                                      en-US: About Us
+                              - _id: 598f8205-7804-4522-bb64-68b94107ad8c
+                                type: spacer
+                                parameters:
+                                  thickness:
+                                    type: tp-slider-parameter
+                                    value: 10px
+                              - _id: 41259c7d-1a94-41f3-bc4c-922b4b333c0b
+                                type: navigationLink
+                                variant: footer
+                                parameters:
+                                  link:
+                                    type: link
+                                    value:
+                                      path: /${locale}/articles
+                                      type: projectMapNode
+                                      nodeId: a721ea42-834d-4fb2-84c7-644755bf84f1
+                                      projectMapId: 62588085-7894-4810-84b6-eaaf0cb5213c
+                                      dynamicInputValues:
+                                        locale: ${locale}
+                                  color:
+                                    type: tp-color-palette-parameter
+                                    value: primary
+                                  title:
+                                    type: text
+                                    locales:
+                                      en-US: Articles
+                              - _id: 65346c53-db86-4c50-883f-92fc22438141
+                                type: spacer
+                                parameters:
+                                  thickness:
+                                    type: tp-slider-parameter
+                                    value: 10px
+                              - _id: eeb81804-a01e-48e5-b667-b2f81527dd62
+                                type: navigationLink
+                                variant: footer
+                                parameters:
+                                  link:
+                                    type: link
+                                    value:
+                                      path: /${locale}/about-us/blog
+                                      type: projectMapNode
+                                      nodeId: 71e2e4f4-c59e-4ec4-99cd-a32d4f44c1a7
+                                      projectMapId: 62588085-7894-4810-84b6-eaaf0cb5213c
+                                      dynamicInputValues:
+                                        locale: ${locale}
+                                  color:
+                                    type: tp-color-palette-parameter
+                                    value: primary
+                                  title:
+                                    type: text
+                                    locales:
+                                      en-US: Blog
+                    parameters:
+                      rowSpan:
+                        type: tp-slider-parameter
+                        value: '1'
+                      rowStart:
+                        type: tp-slider-parameter
+                        value: None
+                      columnSpan:
+                        type: tp-slider-parameter
+                        value: '1'
+                      columnStart:
+                        type: tp-slider-parameter
+                        value: none
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: Left
+                rowSpan:
+                  type: tp-slider-parameter
+                  value: '1'
+                rowStart:
+                  type: tp-slider-parameter
+                  value: None
+                columnSpan:
+                  type: tp-slider-parameter
+                  value: '1'
+                columnStart:
+                  type: tp-slider-parameter
+                  value: none
+            - _id: 79636e4c-a154-459a-af58-8ac068aa318f
+              type: gridItem
+              slots:
+                inner:
+                  - _id: 79118f7d-c866-47a0-8bbf-635c2bdf70a8
+                    type: heroContainer
+                    parameters:
+                      title:
+                        type: text
+                        locales:
+                          en-US: New VIP Customer
+                      marginTop:
+                        type: select
+                        value: None
+                      paddingTop:
+                        type: select
+                        value: None
+                      titleStyle:
+                        type: tp-title-style-parameter
+                        value: h1
+                      description:
+                        type: text
+                        locales:
+                          en-US: >-
+                            We are happy to announce our new VIP Customer
+                            Program
+                      marginBottom:
+                        type: select
+                        value: None
+                      paddingBottom:
+                        type: select
+                        value: None
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: Right
+                rowSpan:
+                  type: tp-slider-parameter
+                  value: '1'
+                rowStart:
+                  type: tp-slider-parameter
+                  value: None
+                columnSpan:
+                  type: tp-slider-parameter
+                  value: '3'
+                columnStart:
+                  type: tp-slider-parameter
+                  value: '2'
+        parameters:
+          gapX:
+            type: tp-slider-parameter
+            value: none
+          gapY:
+            type: tp-slider-parameter
+            value: none
+          title:
+            type: text
+            locales:
+              en-US: Page Content
+          paddingTop:
+            type: select
+            value: Small
+          columnsCount:
+            type: tp-slider-parameter
+            value: '4'
+          backgroundType:
+            type: tp-background-type-parameter
+            value: Light
+  _dataResources: {}
+  _locales:
+    - en-US
+    - nl-NL
+    - fr-CA
+created: '2024-11-04T20:15:53.59066+00:00'
+modified: '2024-11-04T20:15:53.59066+00:00'
+pattern: false
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+workflowStageId: 73608d81-f8b0-4ee3-897b-c976d2dc6670

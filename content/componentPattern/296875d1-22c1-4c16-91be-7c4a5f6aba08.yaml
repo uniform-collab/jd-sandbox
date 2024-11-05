@@ -119,11 +119,12 @@ composition:
     - en-NL
     - fr-CA
     - nl-NL
-created: '2023-12-11T14:29:54.118898+00:00'
-modified: '2024-09-24T18:55:38.827533+00:00'
+created: '2024-11-04T20:08:23.040513+00:00'
+modified: '2024-11-04T20:14:25.774762+00:00'
 pattern: true
 description: Marketing Promotion in a hero layout
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/v1/preview-images/NewJavaDripTheme/SalesDemo/Patterns/Hero_promotion_preview_image
 categoryId: 04ee1e2d-be2f-412f-8ce5-d1d9dd56f27d
 workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+workflowStageId: 73608d81-f8b0-4ee3-897b-c976d2dc6670

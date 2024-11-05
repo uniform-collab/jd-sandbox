@@ -8,7 +8,7 @@ asset:
       value: Contentful
     file:
       type: file
-      value: 741298d3-b5bb-4893-8bc8-4867aecbe8b8
+      value: 32851b9f-8f4e-4e2a-9226-28bff4253f7c
     mediaType:
       value: image/svg+xml
       type: text
@@ -17,7 +17,7 @@ asset:
         https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/3Q7mmVMnR5SryxOcjU__Mg-Contentful_Logo_2.5_Dark.svg
       type: text
     size:
-      value: 5195
+      value: 5229
       type: number
     width:
       value: 700
@@ -26,5 +26,5 @@ asset:
       value: 149
       type: number
     custom: {}
-created: '2024-08-12T12:52:03.558798+00:00'
-modified: '2024-09-05T09:53:23.266149+00:00'
+created: '2024-11-04T20:00:53.705272+00:00'
+modified: '2024-11-04T20:05:38.725451+00:00'

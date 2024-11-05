@@ -1,5 +1,5 @@
-created: '2024-08-12T13:04:54.325863+00:00'
-modified: '2024-09-24T18:55:38.827533+00:00'
+created: '2024-11-04T20:10:26.685213+00:00'
+modified: '2024-11-04T20:10:26.685213+00:00'
 pattern: false
 workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
 entry:
@@ -7,7 +7,7 @@ entry:
   _name: Contentful
   _slug: contentful
   _thumbnail: >-
-    https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/3Q7mmVMnR5SryxOcjU__Mg-Contentful_Logo_2.5_Dark.svg
+    https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/TsNlx-TjRfyp3utUCIwGuQ-Contentful_Logo_2.5_Dark.svg
   type: contentSource
   fields:
     logo:
@@ -27,7 +27,7 @@ entry:
               type: file
               value: 312711e1-e0ab-4fa9-84e9-b1fdd0a6f7b0
             size:
-              value: 5195
+              value: 5229
               type: number
             title:
               type: text

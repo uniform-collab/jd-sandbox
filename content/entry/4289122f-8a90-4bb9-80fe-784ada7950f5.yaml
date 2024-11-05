@@ -1,5 +1,5 @@
-created: '2024-06-04T20:24:02.87254+00:00'
-modified: '2024-08-15T12:18:11.583239+00:00'
+created: '2024-11-04T20:10:46.853462+00:00'
+modified: '2024-11-04T20:10:46.853462+00:00'
 pattern: false
 workflowId: 784fa239-ae8a-4ab1-ba68-9806d0fe406a
 workflowStageId: 73608d81-f8b0-4ee3-897b-c976d2dc6670
@@ -8,7 +8,7 @@ entry:
   _name: Kosmic Coffee Barista Express Espresso Machine
   _slug: kosmic-coffee-barista-express-espresso-machine-115
   _thumbnail: >-
-    https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/-WLqwhYpTHmTHBa8T6sKFg-kosmic-coffee-barista-express-espresso-machine-115-2_csd2nz_jvaxqc.jpg
+    https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/FlotIOlRTDCdJY4vU4395w-kosmic-coffee-barista-express-espresso-machine-115-2_csd2nz_jvaxqc.jpg
   type: product
   fields:
     body:
@@ -124,9 +124,9 @@ entry:
               type: number
               locales:
                 en-US: '599.95'
+                es-US: '599.95'
                 fr-CA: '554.15'
                 nl-NL: '554.15'
-                es-US: '599.95'
             title:
               type: text
               locales:

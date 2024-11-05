@@ -1,5 +1,5 @@
-created: '2024-06-04T20:24:03.041416+00:00'
-modified: '2024-08-15T12:18:53.708757+00:00'
+created: '2024-11-04T20:10:50.038388+00:00'
+modified: '2024-11-04T20:10:50.038388+00:00'
 pattern: false
 workflowId: 784fa239-ae8a-4ab1-ba68-9806d0fe406a
 workflowStageId: 73608d81-f8b0-4ee3-897b-c976d2dc6670
@@ -8,7 +8,7 @@ entry:
   _name: Medium Roast Coffee
   _slug: medium-roast-coffee-81
   _thumbnail: >-
-    https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/ihWAgm-dSzWnzX0bK-SMAg-medium-roast-coffee-81-1_jvv1jh_vu6o73.jpg
+    https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/TmuNhYeHSX-TZGgQ7yA9-Q-medium-roast-coffee-81-1_jvv1jh_vu6o73.jpg
   type: product
   fields:
     body:
@@ -117,9 +117,9 @@ entry:
               type: number
               locales:
                 en-US: '12.99'
+                es-US: '12.99'
                 fr-CA: '12.00'
                 nl-NL: '12.00'
-                es-US: '12.99'
             title:
               type: text
               locales:

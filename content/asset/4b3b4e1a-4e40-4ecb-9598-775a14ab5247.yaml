@@ -8,7 +8,7 @@ asset:
       value: cup.svg
     file:
       type: file
-      value: c311aaff-a860-4e8d-85d4-384a6d0eaca1
+      value: b9f199b3-be1b-476f-879e-3281f551a988
     mediaType:
       value: image/svg+xml
       type: text
@@ -17,7 +17,7 @@ asset:
         https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/v8ub3Xs7SN-xEsiHB9A9mw-cup.svg
       type: text
     size:
-      value: 1213
+      value: 1221
       type: number
     width:
       value: 60
@@ -26,5 +26,5 @@ asset:
       value: 47
       type: number
     custom: {}
-created: '2023-12-13T13:08:04.691535+00:00'
-modified: '2023-12-13T13:08:04.691535+00:00'
+created: '2024-11-04T20:01:01.449539+00:00'
+modified: '2024-11-04T20:06:32.423351+00:00'

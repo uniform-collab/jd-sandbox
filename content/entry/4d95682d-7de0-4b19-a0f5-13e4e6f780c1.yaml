@@ -1,5 +1,5 @@
-created: '2024-06-04T20:23:49.561664+00:00'
-modified: '2024-08-15T12:18:21.080079+00:00'
+created: '2024-11-04T20:10:13.989592+00:00'
+modified: '2024-11-04T20:10:13.989592+00:00'
 pattern: false
 workflowId: 784fa239-ae8a-4ab1-ba68-9806d0fe406a
 workflowStageId: 73608d81-f8b0-4ee3-897b-c976d2dc6670
@@ -8,7 +8,7 @@ entry:
   _name: Breakfast Blend Coffee
   _slug: breakfast-blend-coffee-128
   _thumbnail: >-
-    https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/F-JPUDv-Squx_j82A96Ekw-breakfast-blend-coffee-128_oxayyg_txiagu.jpg
+    https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/Mck5TqW-QHm5XmRzuY3dQw-breakfast-blend-coffee-128_oxayyg_txiagu.jpg
   type: product
   fields:
     body:
@@ -122,9 +122,9 @@ entry:
               type: number
               locales:
                 en-US: '14.99'
+                es-US: '14.99'
                 fr-CA: '13.80'
                 nl-NL: '13.80'
-                es-US: '14.99'
             title:
               type: text
               locales:

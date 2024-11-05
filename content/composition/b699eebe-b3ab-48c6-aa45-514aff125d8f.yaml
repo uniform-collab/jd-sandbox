@@ -1,0 +1,116 @@
+composition:
+  _name: Profile
+  _id: b699eebe-b3ab-48c6-aa45-514aff125d8f
+  _slug: profile
+  type: page
+  parameters:
+    pageTitle:
+      type: text
+      locales:
+        en-CA: Profile Page
+        en-GB: Profile Page
+        en-NL: Profile Page
+        en-US: Profile Page
+        es-US: Página de perfil
+        fr-CA: Page de profil
+        nl-NL: Profiel pagina
+  slots:
+    pageFooter:
+      - _id: b2761163-2b1c-4ad2-837b-42323aa3456e
+        type: footer
+        _pattern: 319639e9-4bac-4fb3-8f0b-19088c969fcb
+    pageHeader:
+      - _id: 0501cbc2-0d13-44c3-a57e-2f4716c8bd83
+        type: header
+        _pattern: e46c8336-acfd-43e8-ac59-8be8f4c33b7d
+    pageContent:
+      - _id: d1c4bcfc-8d0d-41ed-9740-808a4f25de54
+        type: spacer
+        parameters:
+          thickness:
+            type: tp-slider-parameter
+            value: 10px
+      - _id: 3927e8d9-41d2-4fd4-bfe9-562a83170f20
+        type: breadcrumbs
+        parameters:
+          separator:
+            type: select
+            value: chevron
+          colorStyle:
+            type: tp-color-style-parameter
+            value: primary
+          displayRootNode:
+            type: checkbox
+            value: true
+          displayPlaceholderNodes:
+            type: checkbox
+            value: true
+      - _id: cb6fe7e5-94a9-44fc-a1b2-579027dca916
+        type: tabs
+        slots:
+          tabs:
+            - _id: 7d747a37-e063-4bb7-b4d1-8dddd5d9ea53
+              type: tab
+              slots:
+                content:
+                  - _id: 39c472ac-4487-45f0-94ec-29aa2374a66e
+                    type: userProfileContent
+                  - _id: e78f2e35-7de4-4884-9327-ac2c905ed70d
+                    type: segmentProfileContent
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-CA: CDP
+                    en-GB: CDP
+                    en-NL: CDP
+                    en-US: CDP
+                    es-US: CDP
+                    fr-CA: CDP
+                    nl-NL: CDP
+            - _id: bcebf75e-d663-44b7-bf14-bff467ae23fd
+              type: tab
+              slots:
+                content:
+                  - _id: 1320a943-00a3-4410-92f3-73045f00a103
+                    type: orderHistory
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-CA: Order History
+                    en-GB: Order History
+                    en-NL: Order History
+                    en-US: Order History
+                    es-US: Historial de pedidos
+                    fr-CA: Historique des commandes
+                    nl-NL: Bestelgeschiedenis
+        variant: bordered
+        parameters:
+          size:
+            type: tp-slider-parameter
+            value: large
+      - _id: c50d5250-6842-4691-b62f-5667ffd1a0df
+        type: spacer
+        parameters:
+          thickness:
+            type: tp-slider-parameter
+            value: 10px
+  _overrides:
+    0501cbc2-0d13-44c3-a57e-2f4716c8bd83:
+      parameters:
+        syntheticGap:
+          type: tp-slider-parameter
+          value: Small
+  _locales:
+    - fr-CA
+    - en-US
+    - es-US
+    - nl-NL
+    - en-NL
+    - en-CA
+    - en-GB
+created: '2024-11-04T20:15:51.183557+00:00'
+modified: '2024-11-04T20:15:51.183557+00:00'
+pattern: false
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5

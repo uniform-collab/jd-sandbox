@@ -1,0 +1,183 @@
+composition:
+  _name: JavaDrip Specialty Launch
+  _id: 40ac7476-417f-46f1-9e2e-adb5a73a7cc3
+  _slug: JavaDrip-Specialty-Launch
+  type: landingPage
+  parameters:
+    pageTitle:
+      type: text
+      locales:
+        en-US: Specialty Landing Page
+        fr-CA: Page d'atterrissage
+        nl-NL: Landingspagina
+  slots:
+    pageFooter:
+      - _id: 8df7442c-51f4-4318-a676-3abff3d1e114
+        type: footer
+        _pattern: 319639e9-4bac-4fb3-8f0b-19088c969fcb
+    pageHeader:
+      - _id: ebf9b80d-9252-431b-b430-25f64bfe6144
+        type: header
+        _pattern: e46c8336-acfd-43e8-ac59-8be8f4c33b7d
+    pageContent:
+      - _id: a029d648-4b5d-46b5-a19a-02be0831107d
+        type: heroContainer
+        _pattern: daaf620c-8067-496f-9894-d6dea651a3a3
+        _dataResources:
+          Hero Content:
+            type: hero
+            variables:
+              locale: ${locale}
+              entryId: ea315933-36e4-4b8a-87b3-66aa1b3ae984
+      - _id: 623f9e97-85a4-4038-b6ad-8846ef00a09d
+        type: advancedContainer
+        _pattern: c4c25933-d434-4838-9ab9-08f9c05295b6
+      - _id: 77ed71a1-914c-43f4-bb02-cdfd4613d45a
+        type: $personalization
+        slots:
+          pz:
+            - _id: 904f91c4-21ae-4628-b23f-b90333448510
+              type: hero
+              _pattern: 091a2288-5951-4c35-9be4-bc32966c20c0
+              _dataResources:
+                Promotion Content:
+                  type: promotion
+                  variables:
+                    locale: ${locale}
+                    entryId: cb066397-3425-4550-bf6a-0e6d6da00477
+            - _id: 3288fd95-ec88-4cc3-b511-a5f3309934b8
+              type: emailSignupForm
+              _pattern: 30e4b2d9-9999-4c59-ab1e-a8d83528d448
+              _dataResources:
+                Call To Action Content:
+                  type: callToAction
+                  variables:
+                    locale: ${locale}
+                    entryId: e7cfb2f1-afe4-431d-bbad-44232a9a7d1e
+        parameters:
+          trackingEventName:
+            type: text
+            value: CTA P13N
+  _overrides:
+    3288fd95-ec88-4cc3-b511-a5f3309934b8:
+      parameters:
+        buttonCopy:
+          type: text
+          locales:
+            en-US: Get my free shipping
+    904f91c4-21ae-4628-b23f-b90333448510:
+      parameters:
+        $pzCrit:
+          type: $pzCrit
+          value:
+            crit:
+              - l: registeredForNewsletter
+                r: 0
+                op: '>'
+            name: 'Hero: ${#jptr:/Promotion Content/entry/fields/title/value}'
+    a029d648-4b5d-46b5-a19a-02be0831107d:
+      parameters:
+        video:
+          type: cloudinary-video
+          value:
+            - alt: ''
+              url: >-
+                https://res.cloudinary.com/uniform-demos/video/upload/v1700500657/coffee-marketing/Specialty_Animation_co3vth.mp4
+              uuid: 762b2a59-06b7-443c-b48b-66274b3bcf33
+              width: '1920'
+              format: mp4
+              height: '1080'
+              caption: ''
+              version: 1700500657
+              publicId: coffee-marketing/Specialty_Animation_co3vth
+              createdAt: '2023-11-20T17:17:37Z'
+              previewUrl: >-
+                https://res.cloudinary.com/uniform-demos/video/upload/q_auto,f_auto/coffee-marketing/Specialty_Animation_co3vth.mp4
+              resourceType: video
+              transformation: ''
+        eyebrowText:
+          type: text
+          locales:
+            en-US: New Product Announcement
+    623f9e97-85a4-4038-b6ad-8846ef00a09d|4c9d9835-0625-49a3-90ca-4beffa675b07:
+      slots:
+        $slotSectionItems:
+          - _id: 7d081eb6-408b-471f-bd68-977d66f5ee6b
+            type: card
+            variant: backgroundImage
+            _pattern: 59b4fb3d-9b40-4a99-bb40-c93c3ddbdd30
+            _dataResources:
+              Article Content:
+                type: article
+                variables:
+                  locale: ${locale}
+                  search: ''
+                  entryId: bc35eb41-f1f5-49fa-a06f-8cbaf4dfd475
+                  contentTypes: article
+            _overridability:
+              hideLockedParameters: true
+    623f9e97-85a4-4038-b6ad-8846ef00a09d|6f19dbfb-cdaf-46de-b69c-5ac0c8b151e4:
+      parameters:
+        gapX:
+          type: tp-slider-parameter
+          value: none
+        gapY:
+          type: tp-slider-parameter
+          value: none
+        paddingTop:
+          type: select
+          value: Medium
+        columnsCount:
+          type: tp-slider-parameter
+          value: '4'
+        paddingBottom:
+          type: select
+          value: Medium
+        backgroundType:
+          type: tp-background-type-parameter
+          value: Dark
+    623f9e97-85a4-4038-b6ad-8846ef00a09d|75f73e1f-13a1-4b91-b498-0b850ee720d0:
+      parameters:
+        columnSpan:
+          type: tp-slider-parameter
+          value: '2'
+    623f9e97-85a4-4038-b6ad-8846ef00a09d|8be77924-d275-49df-ae6b-3c02ba3b18b2:
+      slots:
+        $slotSectionItems:
+          - _id: 5cbc6a0e-157b-4135-b658-90fecea81e4b
+            type: card
+            variant: backgroundImage
+            _pattern: 59b4fb3d-9b40-4a99-bb40-c93c3ddbdd30
+            _dataResources:
+              Article Content:
+                type: article
+                variables:
+                  locale: ${locale}
+                  search: ''
+                  entryId: 4695bb69-eb03-4a2b-8088-3f0036f274e6
+                  contentTypes: article
+            _overridability:
+              hideLockedParameters: true
+    623f9e97-85a4-4038-b6ad-8846ef00a09d|aa7f8a48-eecc-4a3b-ae7a-618be01eae9e:
+      parameters:
+        text:
+          type: text
+          locales:
+            en-US: Tips from our Experts
+    623f9e97-85a4-4038-b6ad-8846ef00a09d|b526f02c-80ba-49b9-8969-f02c81ffd1c1:
+      parameters:
+        columnSpan:
+          type: tp-slider-parameter
+          value: '2'
+        columnStart:
+          type: tp-slider-parameter
+          value: '3'
+  _locales:
+    - en-US
+    - nl-NL
+    - fr-CA
+created: '2024-11-04T20:15:49.989753+00:00'
+modified: '2024-11-04T20:15:49.989753+00:00'
+pattern: false
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+workflowStageId: 73608d81-f8b0-4ee3-897b-c976d2dc6670

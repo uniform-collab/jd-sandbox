@@ -8,7 +8,7 @@ asset:
       value: coffee_shop_interior.avif
     file:
       type: file
-      value: 853809c9-2796-4a5c-8d58-1e36d1a6284d
+      value: fd70eb65-4715-4313-a8c1-7aadd81c9f79
     mediaType:
       value: image/avif
       type: text
@@ -19,6 +19,12 @@ asset:
     size:
       value: 84099
       type: number
+    width:
+      value: 1024
+      type: number
+    height:
+      value: 1024
+      type: number
     custom: {}
-created: '2023-12-13T13:08:13.782283+00:00'
-modified: '2024-09-05T09:55:08.728787+00:00'
+created: '2024-11-04T20:01:13.328451+00:00'
+modified: '2024-11-04T20:07:34.972201+00:00'

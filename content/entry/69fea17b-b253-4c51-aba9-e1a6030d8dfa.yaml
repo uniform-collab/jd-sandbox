@@ -1,5 +1,5 @@
-created: '2024-06-04T20:24:03.254193+00:00'
-modified: '2024-08-15T12:18:46.398752+00:00'
+created: '2024-11-04T20:10:12.442233+00:00'
+modified: '2024-11-04T20:10:12.442233+00:00'
 pattern: false
 workflowId: 784fa239-ae8a-4ab1-ba68-9806d0fe406a
 workflowStageId: 73608d81-f8b0-4ee3-897b-c976d2dc6670
@@ -8,7 +8,7 @@ entry:
   _name: Black Mountain French Press Coffee Maker
   _slug: black-mountain-french-press-coffee-maker-126
   _thumbnail: >-
-    https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/91aOlssoR9mTRuKqNj_xrQ-black-mountain-french-press-coffee-maker-126-1_qzapz7_halnww.jpg
+    https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/mNg55cnHTtukjc8da2sccw-black-mountain-french-press-coffee-maker-126-1_qzapz7_halnww.jpg
   type: product
   fields:
     body:
@@ -130,9 +130,9 @@ entry:
               type: number
               locales:
                 en-US: '25.88'
+                es-US: '25.88'
                 fr-CA: '23.90'
                 nl-NL: '23.90'
-                es-US: '25.88'
             title:
               type: text
               locales:

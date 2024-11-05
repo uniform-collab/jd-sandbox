@@ -8,7 +8,7 @@ asset:
       value: jd_commerce_logo.svg
     file:
       type: file
-      value: 84d7f265-10f3-4084-8ff0-f66ca257b4bb
+      value: a4aeea36-70a2-42d4-bf1b-afe5af8f4c13
     mediaType:
       value: image/svg+xml
       type: text
@@ -17,7 +17,7 @@ asset:
         https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/srIJAs-bRdyBVffWZdtquA-jd_commerce_logo.svg
       type: text
     size:
-      value: 5214
+      value: 5228
       type: number
     width:
       value: 408
@@ -26,5 +26,5 @@ asset:
       value: 65
       type: number
     custom: {}
-created: '2023-12-13T13:08:04.064542+00:00'
-modified: '2023-12-13T13:08:04.064542+00:00'
+created: '2024-11-04T20:01:00.089058+00:00'
+modified: '2024-11-04T20:06:14.483833+00:00'

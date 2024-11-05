@@ -1,5 +1,5 @@
-created: '2024-06-04T20:24:03.462098+00:00'
-modified: '2024-08-15T12:20:01.171124+00:00'
+created: '2024-11-04T20:10:55.275272+00:00'
+modified: '2024-11-04T20:10:55.275272+00:00'
 pattern: false
 workflowId: 784fa239-ae8a-4ab1-ba68-9806d0fe406a
 workflowStageId: 73608d81-f8b0-4ee3-897b-c976d2dc6670
@@ -8,7 +8,7 @@ entry:
   _name: Royale iQ Espresso Machine
   _slug: royale-iq-espresso-machine-117
   _thumbnail: >-
-    https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/iEQNW7bmSS-XFziiziV_nw-royale-iq-espresso-machine-117-2_f7aoom_rfrbqh.jpg
+    https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/Jung2gs-TAKD4jtmxi-Jxw-royale-iq-espresso-machine-117-2_f7aoom_rfrbqh.jpg
   type: product
   fields:
     body:
@@ -137,9 +137,9 @@ entry:
               type: number
               locales:
                 en-US: '349.99'
+                es-US: '349.99'
                 fr-CA: '323.27'
                 nl-NL: '323.27'
-                es-US: '349.99'
             title:
               type: text
               locales:

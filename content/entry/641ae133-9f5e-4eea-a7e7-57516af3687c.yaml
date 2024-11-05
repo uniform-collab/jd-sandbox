@@ -1,5 +1,5 @@
-created: '2024-06-04T20:24:02.934586+00:00'
-modified: '2024-08-15T12:18:42.908328+00:00'
+created: '2024-11-04T20:10:11.839389+00:00'
+modified: '2024-11-04T20:10:11.839389+00:00'
 pattern: false
 workflowId: 784fa239-ae8a-4ab1-ba68-9806d0fe406a
 workflowStageId: 73608d81-f8b0-4ee3-897b-c976d2dc6670
@@ -8,7 +8,7 @@ entry:
   _name: Black Mountain Bistro Burr Coffee Grinder
   _slug: black-mountain-bistro-burr-coffee-grinder-114
   _thumbnail: >-
-    https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/9zpaqdxJRIyKySOtRMGcJg-black-mountain-bistro-burr-coffee-grinder-114-1_wtupfl_yyx2ts.jpg
+    https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/ou0oYYM2TBmi2lBdoGXdNA-black-mountain-bistro-burr-coffee-grinder-114-1_wtupfl_yyx2ts.jpg
   type: product
   fields:
     body:
@@ -143,9 +143,9 @@ entry:
               type: number
               locales:
                 en-US: '95.99'
+                es-US: '95.99'
                 fr-CA: '88.66'
                 nl-NL: '88.66'
-                es-US: '95.99'
             title:
               type: text
               locales:

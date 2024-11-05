@@ -8,7 +8,7 @@ asset:
       value: coffee_shop_with_2_customers.avif
     file:
       type: file
-      value: f16a8d1e-41ff-4301-8c7e-6bdb90b45e83
+      value: 97cf33f4-c9ad-49d1-9f1f-f954cff94b36
     mediaType:
       value: image/avif
       type: text
@@ -19,6 +19,12 @@ asset:
     size:
       value: 64873
       type: number
+    width:
+      value: 1024
+      type: number
+    height:
+      value: 1024
+      type: number
     custom: {}
-created: '2023-12-13T13:08:14.58716+00:00'
-modified: '2024-09-05T09:55:30.300181+00:00'
+created: '2024-11-04T20:01:17.153768+00:00'
+modified: '2024-11-04T20:07:54.337796+00:00'

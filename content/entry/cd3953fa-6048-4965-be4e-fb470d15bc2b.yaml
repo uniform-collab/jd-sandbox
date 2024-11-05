@@ -1,5 +1,5 @@
-created: '2024-06-04T20:24:04.3581+00:00'
-modified: '2024-08-15T12:20:28.677533+00:00'
+created: '2024-11-04T20:10:29.263829+00:00'
+modified: '2024-11-04T20:10:29.263829+00:00'
 pattern: false
 workflowId: 784fa239-ae8a-4ab1-ba68-9806d0fe406a
 workflowStageId: 73608d81-f8b0-4ee3-897b-c976d2dc6670
@@ -8,7 +8,7 @@ entry:
   _name: Ember Hammered Copper Pot
   _slug: ember-hammered-copper-pot-137
   _thumbnail: >-
-    https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/qCf0ALi0TWi9ydlPGFgVQg-ember-hammered-copper-pot-137-1_opkizg_dvuj5k.jpg
+    https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/ylEuIS8lT1y7AP4h25xW9g-ember-hammered-copper-pot-137-1_opkizg_dvuj5k.jpg
   type: product
   fields:
     body:
@@ -121,9 +121,9 @@ entry:
               type: number
               locales:
                 en-US: '34.8'
+                es-US: '34.8'
                 fr-CA: '32.14'
                 nl-NL: '32.14'
-                es-US: '34.8'
             title:
               type: text
               locales:

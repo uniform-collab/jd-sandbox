@@ -1,5 +1,5 @@
-created: '2024-06-04T20:24:02.669751+00:00'
-modified: '2024-08-15T12:17:51.898123+00:00'
+created: '2024-11-04T20:10:47.11832+00:00'
+modified: '2024-11-04T20:10:47.11832+00:00'
 pattern: false
 workflowId: 784fa239-ae8a-4ab1-ba68-9806d0fe406a
 workflowStageId: 73608d81-f8b0-4ee3-897b-c976d2dc6670
@@ -8,7 +8,7 @@ entry:
   _name: Kosmic Coffee Pour-Over Glass Coffeemaker
   _slug: kosmic-coffee-pour-over-glass-coffeemaker-120
   _thumbnail: >-
-    https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/f6UyOgLMRWi4030350u0TQ-kosmic-coffee-pour-over-glass-coffeemaker-120-1_dfhuqn_eyii5q.jpg
+    https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/NTZ0xLWuQQ-sgjiueA_ZbQ-kosmic-coffee-pour-over-glass-coffeemaker-120-1_dfhuqn_eyii5q.jpg
   type: product
   fields:
     body:
@@ -129,9 +129,9 @@ entry:
               type: number
               locales:
                 en-US: '299.99'
+                es-US: '299.99'
                 fr-CA: '277.09'
                 nl-NL: '277.09'
-                es-US: '299.99'
             title:
               type: text
               locales:

@@ -1,5 +1,5 @@
-created: '2024-06-04T20:23:54.845933+00:00'
-modified: '2024-08-15T12:19:54.309562+00:00'
+created: '2024-11-04T20:10:35.622615+00:00'
+modified: '2024-11-04T20:10:35.622615+00:00'
 pattern: false
 workflowId: 784fa239-ae8a-4ab1-ba68-9806d0fe406a
 workflowStageId: 73608d81-f8b0-4ee3-897b-c976d2dc6670
@@ -8,7 +8,7 @@ entry:
   _name: Frother Whisk
   _slug: frother-whisk-150
   _thumbnail: >-
-    https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/UMnJKptIQ12ENZ2o4QCOqg-fold-away-frother_fkxh99_ngusb4.jpg
+    https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/5_hXsY01SQ2-4riqDWYT3w-fold-away-frother_fkxh99_ngusb4.jpg
   type: product
   fields:
     body:
@@ -102,9 +102,9 @@ entry:
               type: number
               locales:
                 en-US: '9.95'
+                es-US: '9.95'
                 fr-CA: '9.19'
                 nl-NL: '9.19'
-                es-US: '9.95'
             title:
               type: text
               locales:

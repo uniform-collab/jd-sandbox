@@ -22,6 +22,10 @@ composition:
             type: text
             locales:
               en-US: ${#jptr:/Article by Slug Content/entry/fields/title/value}
+          author:
+            type: text
+            locales:
+              en-US: Peter
           article:
             type: json
             value: ${#jptr:/Article by Slug Content/entry}
@@ -82,10 +86,11 @@ composition:
     - en-NL
     - fr-CA
     - nl-NL
-created: '2024-08-12T12:54:31.375895+00:00'
-modified: '2024-09-24T18:55:38.827533+00:00'
+created: '2024-11-04T20:14:12.618212+00:00'
+modified: '2024-11-05T14:13:10.99093+00:00'
 pattern: true
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/v1701959176/preview-images/NewJavaDripTheme/SalesDemo/Patterns/Box_article_preview_image.jpg
 categoryId: 94a7a423-8c09-4264-8495-c562c17d811e
 workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+workflowStageId: 73608d81-f8b0-4ee3-897b-c976d2dc6670

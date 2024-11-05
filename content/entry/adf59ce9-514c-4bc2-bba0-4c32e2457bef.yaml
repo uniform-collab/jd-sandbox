@@ -1,5 +1,5 @@
-created: '2024-06-04T20:23:54.89655+00:00'
-modified: '2024-08-15T12:19:55.66742+00:00'
+created: '2024-11-04T20:10:24.506314+00:00'
+modified: '2024-11-04T20:10:24.506314+00:00'
 pattern: false
 workflowId: 784fa239-ae8a-4ab1-ba68-9806d0fe406a
 workflowStageId: 73608d81-f8b0-4ee3-897b-c976d2dc6670
@@ -8,7 +8,7 @@ entry:
   _name: Coffee Permanent Filter
   _slug: coffee-permanent-filter-147
   _thumbnail: >-
-    https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/9w4KsS95SmCbzbVL2OEMbw-125KKW400_01_am9fbv.webp
+    https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/7viEvQGITX6up-ZfmT2yTA-125KKW400_01_am9fbv.webp
   type: product
   fields:
     body:
@@ -104,9 +104,9 @@ entry:
               type: number
               locales:
                 en-US: '12.95'
+                es-US: '12.95'
                 fr-CA: '11.96'
                 nl-NL: '11.96'
-                es-US: '12.95'
             title:
               type: text
               locales:

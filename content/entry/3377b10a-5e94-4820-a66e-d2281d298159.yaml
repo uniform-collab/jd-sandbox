@@ -1,5 +1,5 @@
-created: '2023-11-20T09:34:25.842207+00:00'
-modified: '2024-09-24T18:55:38.827533+00:00'
+created: '2024-11-04T20:10:23.801835+00:00'
+modified: '2024-11-04T20:10:23.801835+00:00'
 pattern: false
 workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
 entry:
@@ -7,7 +7,7 @@ entry:
   _name: COFFEE MAKERS
   _slug: coffee-makers
   _thumbnail: >-
-    https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/sVxBfLPaRr6ALGdO6BYaAA-coffee_makers.webp
+    https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/sHeLUlxoQaCZi1aq4v-S4g-coffee_makers.webp
   type: hero
   fields:
     image:

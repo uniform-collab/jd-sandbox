@@ -8,7 +8,7 @@ asset:
       value: icon_equalizer.svg
     file:
       type: file
-      value: 74ca5869-7a88-4904-83ff-835e98dba534
+      value: 605eaf81-b8c9-4cd4-a3c4-ca9aea011a00
     mediaType:
       value: image/svg+xml
       type: text
@@ -17,7 +17,7 @@ asset:
         https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/ezVrs3Z-QzeTvyLXVsrwzg-icon_equalizer.svg
       type: text
     size:
-      value: 3038
+      value: 3045
       type: number
     width:
       value: 60
@@ -26,5 +26,5 @@ asset:
       value: 60
       type: number
     custom: {}
-created: '2023-12-13T13:08:07.662491+00:00'
-modified: '2023-12-13T13:08:07.662491+00:00'
+created: '2024-11-04T20:01:06.527752+00:00'
+modified: '2024-11-04T20:07:04.851758+00:00'

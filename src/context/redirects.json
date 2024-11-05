@@ -1,1 +1,7 @@
-[]
+[
+ {
+  "source": "/promotion-new",
+  "destination": "https://sales-demo-rc-1.vercel.app/JavaDrip-Specialty-Launch",
+  "permanent": true
+ }
+]

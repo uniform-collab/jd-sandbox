@@ -1,5 +1,5 @@
-created: '2024-06-04T20:24:04.63228+00:00'
-modified: '2024-08-15T12:21:32.191203+00:00'
+created: '2024-11-04T20:10:55.060568+00:00'
+modified: '2024-11-04T20:10:55.060568+00:00'
 pattern: false
 workflowId: 784fa239-ae8a-4ab1-ba68-9806d0fe406a
 workflowStageId: 73608d81-f8b0-4ee3-897b-c976d2dc6670
@@ -8,7 +8,7 @@ entry:
   _name: Royale Coffee Pour-Over Vintage Drip Coffeemaker
   _slug: royale-coffee-pour-over-vintage-drip-coffeemaker-88
   _thumbnail: >-
-    https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/hDJxsYq0T6y7CoJNsg75Sg-royale-coffee-pour-over-vintage-drip-coffeemaker-88-1_kyccyy_doemgq.jpg
+    https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/yWBVxPd8RbqGiyZ7gmD9QA-royale-coffee-pour-over-vintage-drip-coffeemaker-88-1_kyccyy_doemgq.jpg
   type: product
   fields:
     body:
@@ -129,9 +129,9 @@ entry:
               type: number
               locales:
                 en-US: '44.63'
+                es-US: '44.63'
                 fr-CA: '41.22'
                 nl-NL: '41.22'
-                es-US: '44.63'
             title:
               type: text
               locales:

@@ -1,5 +1,5 @@
-created: '2023-11-20T09:34:27.97758+00:00'
-modified: '2024-09-24T18:55:38.827533+00:00'
+created: '2024-11-04T20:10:53.104313+00:00'
+modified: '2024-11-04T20:10:53.104313+00:00'
 pattern: false
 workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
 entry:
@@ -7,7 +7,7 @@ entry:
   _name: Quantum heating technology
   _slug: quantum-heating-technology
   _thumbnail: >-
-    https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/v8ub3Xs7SN-xEsiHB9A9mw-cup.svg
+    https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/K6dZJQiTTbyVeM5WzZ62jw-cup.svg
   type: productFeature
   fields:
     image:
@@ -27,7 +27,7 @@ entry:
               type: file
               value: 925e6f14-91d2-47f0-96f8-fdda58948125
             size:
-              value: 1213
+              value: 1221
               type: number
             title:
               type: text

@@ -8,9 +8,9 @@ asset:
       value: AI-generated-image-for-Icon
     file:
       type: file
-      value: 41ce575d-361c-425e-bdff-b5556fbfc180
+      value: bdeedbfd-04da-4591-991b-719d091b656a
     mediaType:
-      value: image/png
+      value: application/octet-stream
       type: text
     url:
       value: >-
@@ -26,5 +26,5 @@ asset:
       value: 1024
       type: number
     custom: {}
-created: '2024-09-13T13:03:34.005287+00:00'
-modified: '2024-09-17T14:14:52.394045+00:00'
+created: '2024-11-04T20:01:21.048546+00:00'
+modified: '2024-11-04T20:07:52.458205+00:00'

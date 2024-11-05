@@ -1,5 +1,5 @@
-created: '2024-06-04T20:24:02.315936+00:00'
-modified: '2024-08-15T12:21:18.780859+00:00'
+created: '2024-11-04T20:10:41.115942+00:00'
+modified: '2024-11-04T20:10:41.115942+00:00'
 pattern: false
 workflowId: 784fa239-ae8a-4ab1-ba68-9806d0fe406a
 workflowStageId: 73608d81-f8b0-4ee3-897b-c976d2dc6670
@@ -8,7 +8,7 @@ entry:
   _name: Impresso Perk for simple perfection
   _slug: impresso-perk-119
   _thumbnail: >-
-    https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/E0Um3zmrSEqQ6KvupsFA1A-impresso-perk-119_mojbik_bt9lhn.jpg
+    https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/I11-XFLsTza6AziQpv5DyQ-impresso-perk-119_mojbik_bt9lhn.jpg
   type: product
   fields:
     body:
@@ -126,9 +126,9 @@ entry:
               type: number
               locales:
                 en-US: '79.66'
+                es-US: '79.66'
                 fr-CA: '73.58'
                 nl-NL: '73.58'
-                es-US: '79.66'
             title:
               type: text
               locales:

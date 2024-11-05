@@ -8,7 +8,7 @@ asset:
       value: commercial_espresso.avif
     file:
       type: file
-      value: bb7db696-bf7b-4556-af60-1789d66395c9
+      value: 034fab88-caf6-4026-b0c5-69cc5c3dce08
     mediaType:
       value: image/avif
       type: text
@@ -19,6 +19,12 @@ asset:
     size:
       value: 60497
       type: number
+    width:
+      value: 1024
+      type: number
+    height:
+      value: 1024
+      type: number
     custom: {}
-created: '2023-12-13T13:08:13.655614+00:00'
-modified: '2024-09-05T09:55:07.456195+00:00'
+created: '2024-11-04T20:01:14.194758+00:00'
+modified: '2024-11-04T20:07:33.700215+00:00'

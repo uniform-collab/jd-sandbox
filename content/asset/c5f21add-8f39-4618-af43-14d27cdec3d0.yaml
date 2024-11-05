@@ -8,7 +8,7 @@ asset:
       value: github_icon.svg
     file:
       type: file
-      value: 59eb252b-4f98-48c4-8254-c61755250be9
+      value: b597ef9b-f064-4cbb-b145-3d061f811d5a
     mediaType:
       value: image/svg+xml
       type: text
@@ -17,7 +17,7 @@ asset:
         https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/yya-xNZAQS6MdpKo8LX16g-github_icon.svg
       type: text
     size:
-      value: 1325
+      value: 1328
       type: number
     width:
       value: 35
@@ -26,5 +26,5 @@ asset:
       value: 34
       type: number
     custom: {}
-created: '2023-12-13T13:08:12.640843+00:00'
-modified: '2023-12-13T13:08:12.640843+00:00'
+created: '2024-11-04T20:01:12.310164+00:00'
+modified: '2024-11-04T20:07:32.279482+00:00'

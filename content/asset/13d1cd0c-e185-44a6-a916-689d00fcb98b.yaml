@@ -8,7 +8,7 @@ asset:
       value: cake_batter.avif
     file:
       type: file
-      value: a6fb4895-e971-4633-aff7-b08a1639bd4d
+      value: ca5fde6b-5eab-45d8-ba2f-e29539de0950
     mediaType:
       value: image/avif
       type: text
@@ -19,6 +19,12 @@ asset:
     size:
       value: 10225
       type: number
+    width:
+      value: 310
+      type: number
+    height:
+      value: 233
+      type: number
     custom: {}
-created: '2023-12-13T13:08:03.763282+00:00'
-modified: '2024-09-05T09:53:29.047655+00:00'
+created: '2024-11-04T20:00:55.252451+00:00'
+modified: '2024-11-04T20:05:42.171378+00:00'

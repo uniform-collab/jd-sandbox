@@ -1,5 +1,5 @@
-created: '2024-06-04T20:24:03.75143+00:00'
-modified: '2024-08-15T12:19:22.349565+00:00'
+created: '2024-11-04T20:10:29.712271+00:00'
+modified: '2024-11-04T20:10:29.712271+00:00'
 pattern: false
 workflowId: 784fa239-ae8a-4ab1-ba68-9806d0fe406a
 workflowStageId: 73608d81-f8b0-4ee3-897b-c976d2dc6670
@@ -8,7 +8,7 @@ entry:
   _name: Ember Turkish Arabic Hammered Copper Coffee Pot
   _slug: ember-turkish-arabic-hammered-copper-coffee-pot-136
   _thumbnail: >-
-    https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/DCwjlZlzTIKOz_AOdXZTTg-ember-turkish-arabic-hammered-copper-coffee-pot-136-1_y1b60j_emgynu.jpg
+    https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/5xWhsErzSwqwgCrzahqJtw-ember-turkish-arabic-hammered-copper-coffee-pot-136-1_y1b60j_emgynu.jpg
   type: product
   fields:
     body:
@@ -137,9 +137,9 @@ entry:
               type: number
               locales:
                 en-US: '26.8'
+                es-US: '26.8'
                 fr-CA: '24.75'
                 nl-NL: '24.75'
-                es-US: '26.8'
             title:
               type: text
               locales:

@@ -1,5 +1,5 @@
-created: '2023-11-21T13:20:17.000909+00:00'
-modified: '2024-09-24T18:55:38.827533+00:00'
+created: '2024-11-04T20:10:42.199111+00:00'
+modified: '2024-11-04T20:10:42.199111+00:00'
 pattern: false
 workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
 entry:
@@ -7,7 +7,7 @@ entry:
   _name: International Bean taster
   _slug: international-bean-taster
   _thumbnail: >-
-    https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/JTcdUqhDRSym4LBWliNxhw-bundle_deal.svg
+    https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/NVT0FBkqTgOSj7Cth0eZ2g-bundle_deal.svg
   type: promotion
   fields:
     image:
@@ -27,7 +27,7 @@ entry:
               type: file
               value: 9f40ecb8-2bac-40a5-9982-7ed4a88012a5
             size:
-              value: 3418
+              value: 3422
               type: number
             title:
               type: text

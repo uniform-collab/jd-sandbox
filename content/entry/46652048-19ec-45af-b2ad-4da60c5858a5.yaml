@@ -1,5 +1,5 @@
-created: '2023-11-20T09:34:26.456524+00:00'
-modified: '2024-09-24T18:55:38.827533+00:00'
+created: '2024-11-04T20:10:21.706374+00:00'
+modified: '2024-11-04T20:10:21.706374+00:00'
 pattern: false
 workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
 entry:
@@ -7,7 +7,7 @@ entry:
   _name: Cervello di Caffe Overview
   _slug: cervello-di-caffe-overview
   _thumbnail: >-
-    https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/fgUTlIFqQVuQwhxHSrGEXw-cervello_di_caffe_1.jpg
+    https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/7swaxer1RKK1VDxQl4i5rQ-cervello_di_caffe_1.jpg
   type: productFeature
   fields:
     image:

@@ -1,0 +1,1373 @@
+composition:
+  _name: Home
+  _id: 987b4aa7-769b-4118-a9e0-b374451b102b
+  _slug: /
+  type: page
+  parameters:
+    pageTitle:
+      type: text
+      locales:
+        en-CA: Home Page
+        en-GB: Home Page
+        en-NL: Home | JavaDrip
+        en-US: Home Page
+        es-US: Página de inicio
+        fr-CA: Page d'accueil
+        nl-NL: Startpagina
+  slots:
+    pageFooter:
+      - _id: 14be8abf-2cdf-4f00-b788-ef63e05c3a0f
+        type: footer
+        _pattern: 319639e9-4bac-4fb3-8f0b-19088c969fcb
+    pageHeader:
+      - _id: 4322cc34-6a4c-4585-a0ea-4f526b98c2f4
+        type: header
+        _pattern: e46c8336-acfd-43e8-ac59-8be8f4c33b7d
+    pageContent:
+      - _id: 612324ab-44d8-4ac5-bc6b-1aa38bb226bb
+        type: $personalization
+        slots:
+          pz:
+            - _id: 4cd6186d-6014-484b-bfaf-62088ef6d84c
+              type: hero
+              variant: backgroundImage
+              parameters:
+                image:
+                  type: asset
+                  value:
+                    - _id: f9fc0ddf-c2fb-4723-91d8-20cedbc98699
+                      type: image
+                      fields:
+                        id:
+                          type: text
+                          value: 081a91e1-ba9d-4809-afb6-34e15f5acaac
+                        url:
+                          value: >-
+                            https://img.uniform.global/p/g7bIwGklRHq1c0h6VQckpg/e_Ts6bd3SP2JjyqBmhdEdQ-cervello_smart_landing_hero.png
+                          type: text
+                        file:
+                          type: file
+                          value: 93accf7b-0fa9-4bed-a97d-fab142d6f657
+                        size:
+                          value: 456876
+                          type: number
+                        title:
+                          type: text
+                          value: cervello_smart_landing_hero.png
+                        width:
+                          value: 1024
+                          type: number
+                        height:
+                          value: 512
+                          type: number
+                        mediaType:
+                          value: image/png
+                          type: text
+                      _source: uniform-assets
+                title:
+                  type: text
+                  locales:
+                    en-CA: EspressoGPT is here
+                    en-GB: EspressoGPT is here
+                    en-NL: EspressoGPT is here
+                    en-US: EspressoGPT is here
+                    es-US: EspressoGPT ya está aquí
+                    fr-CA: EspressoGPT est ici
+                    nl-NL: EspressoGPT is hier
+                $pzCrit:
+                  type: $pzCrit
+                  value:
+                    crit:
+                      - l: int_espressoGPT
+                        op: +
+                    name: bigspender
+                objectFit:
+                  type: select
+                  value: cover
+                textColor:
+                  type: tp-color-palette-parameter
+                  value: primary-content
+                paddingTop:
+                  type: select
+                  value: None
+                titleStyle:
+                  type: tp-title-style-parameter
+                  value: h1
+                description:
+                  type: text
+                  locales:
+                    en-CA: >-
+                      this machine is able to detect your coffee needs and
+                      adjust to your taste and habits.
+                    en-GB: >-
+                      this machine is able to detect your coffee needs and
+                      adjust to your taste and habits.
+                    en-NL: >-
+                      this machine is able to detect your coffee needs and
+                      adjust to your taste and habits.
+                    en-US: >-
+                      this machine is able to detect your coffee needs and
+                      adjust to your taste and habits.
+                    es-US: >-
+                      esta máquina es capaz de detectar sus necesidades de café
+                      y ajústate a tus gustos y hábitos.
+                    fr-CA: >-
+                      Cette machine détecte vos besoins en café et s'adapte à
+                      vos goûts et habitudes.
+                    nl-NL: >-
+                      Deze machine kan jouw koffiebehoeften detecteren en zich
+                      aanpassen aan jouw smaak en gewoonten.
+                eyebrowText:
+                  type: text
+                  locales:
+                    en-CA: smartest coffee machine in the world
+                    en-GB: smartest coffee machine in the world
+                    en-NL: smartest coffee machine in the world
+                    en-US: smartest coffee machine in the world
+                    es-US: la cafetera más inteligente del mundo
+                    fr-CA: La machine à café la plus intelligente du monde
+                    nl-NL: Slimste koffiemachine ter wereld
+                overlayColor:
+                  type: tp-color-palette-parameter
+                  value: primary
+                paddingBottom:
+                  type: select
+                  value: None
+                overlayOpacity:
+                  type: tp-slider-parameter
+                  value: 50%
+                containerVariant:
+                  type: select
+                  value: fluidContent
+                primaryButtonCopy:
+                  type: text
+                  locales:
+                    en-CA: See it in action!
+                    en-GB: See it in action!
+                    en-NL: See it in action!
+                    en-US: See it in action!
+                    es-US: ¡Véalo en acción!
+                    fr-CA: Regardez-le en action!
+                    nl-NL: Bekijk het in actie!
+                primaryButtonLink:
+                  type: link
+                  value:
+                    path: /${locale}/products/espresso-gpt-145
+                    type: projectMapNode
+                    nodeId: fb657541-0488-4c22-bce4-64c9cd71bdde
+                    projectMapId: 62588085-7894-4810-84b6-eaaf0cb5213c
+                    dynamicInputValues:
+                      locale: ${locale}
+                      product-slug: espresso-gpt-145
+                primaryButtonStyle:
+                  type: tp-button-style-parameter
+                  value: secondary
+            - _id: ae4ec7cb-e27f-4822-b3f2-d4cb83002997
+              type: hero
+              variant: imageLeft
+              parameters:
+                image:
+                  type: asset
+                  value:
+                    - _id: 0843aeaf-7b5c-49f8-ae9e-b12a6b0855af
+                      type: image
+                      fields:
+                        id:
+                          type: text
+                          value: ceba8361-cad0-42dc-99d0-6f83e8ab7cc0
+                        url:
+                          value: >-
+                            https://img.uniform.global/p/g7bIwGklRHq1c0h6VQckpg/YtSTjurQTpiIY_Ft2RDJqw-grinding_article.jpg
+                          type: text
+                        file:
+                          type: file
+                          value: dd295f5a-b3ba-4cc1-9acb-633e37e9ba9f
+                        size:
+                          value: 205856
+                          type: number
+                        title:
+                          type: text
+                          value: grinding_article.jpg
+                        width:
+                          value: 686
+                          type: number
+                        height:
+                          value: 338
+                          type: number
+                        mediaType:
+                          value: image/jpeg
+                          type: text
+                      _source: uniform-assets
+                title:
+                  type: text
+                  locales:
+                    en-CA: So... you want some beans?
+                    en-GB: So... you want some beans?
+                    en-NL: So... you want some beans?
+                    en-US: So... you want some beans?
+                    es-US: Entonces... ¿quieres algunos frijoles?
+                    fr-CA: Alors ... tu veux des haricots?
+                    nl-NL: Dus ... wil je wat bonen?
+                $pzCrit:
+                  type: $pzCrit
+                  value:
+                    op: '|'
+                    crit:
+                      - l: coffeeBeansInterest
+                        r: 0
+                        op: '>'
+                      - l: int_b
+                        r: 0
+                        op: ^
+                    name: beans-interest
+                marginTop:
+                  type: select
+                  value: None
+                objectFit:
+                  type: select
+                  value: cover
+                textColor:
+                  type: tp-color-palette-parameter
+                  value: primary-content
+                paddingTop:
+                  type: select
+                  value: Small
+                titleStyle:
+                  type: tp-title-style-parameter
+                  value: h1
+                description:
+                  type: text
+                  locales:
+                    en-CA: We got awesome beans
+                    en-GB: We got awesome beans
+                    en-NL: So... you want some beans?
+                    en-US: We got awesome beans
+                    es-US: Tenemos frijoles increíbles
+                    fr-CA: Nous avons des haricots géniaux
+                    nl-NL: We hebben geweldige bonen
+                marginBottom:
+                  type: select
+                  value: None
+                overlayColor:
+                  type: tp-color-palette-parameter
+                  value: primary
+                paddingBottom:
+                  type: select
+                  value: Medium
+                overlayOpacity:
+                  type: tp-slider-parameter
+                  value: 60%
+                backgroundColor:
+                  type: tp-color-palette-parameter
+                  value: primary
+                containerVariant:
+                  type: select
+                  value: fluidContent
+                primaryButtonCopy:
+                  type: text
+                  locales:
+                    en-CA: See all beans
+                    en-GB: See all beans
+                    en-NL: See all beans
+                    en-US: See all beans
+                    es-US: Ver todos los frijoles
+                    fr-CA: Voir tous les haricots
+                    nl-NL: Bekijk alle bonen
+                primaryButtonLink:
+                  type: link
+                  value:
+                    path: /${locale}/external/beans
+                    type: projectMapNode
+                    nodeId: 159b02be-f6b3-4752-8fc7-9689b67236b2
+                    projectMapId: 62588085-7894-4810-84b6-eaaf0cb5213c
+                    dynamicInputValues:
+                      locale: ${locale}
+                primaryButtonStyle:
+                  type: tp-button-style-parameter
+                  value: accent
+              _overridability:
+                variants: true
+                parameters:
+                  delay: 'yes'
+                  image: 'yes'
+                  title: 'yes'
+                  video: 'yes'
+                  duration: 'yes'
+                  marginTop: 'yes'
+                  objectFit: 'yes'
+                  textColor: 'yes'
+                  fullHeight: 'yes'
+                  paddingTop: 'yes'
+                  titleStyle: 'yes'
+                  description: 'yes'
+                  eyebrowText: 'yes'
+                  marginBottom: 'yes'
+                  overlayColor: 'yes'
+                  animationType: 'yes'
+                  group_content: 'yes'
+                  paddingBottom: 'yes'
+                  animationOrder: 'yes'
+                  backgroundType: 'yes'
+                  overlayOpacity: 'yes'
+                  backgroundColor: 'yes'
+                  animationPreview: 'yes'
+                  containerVariant: 'yes'
+                  group_primaryCta: 'yes'
+                  primaryButtonCopy: 'yes'
+                  primaryButtonLink: 'yes'
+                  group_secondaryCta: 'yes'
+                  primaryButtonStyle: 'yes'
+                  group_imageSettings: 'yes'
+                  secondaryButtonCopy: 'yes'
+                  secondaryButtonLink: 'yes'
+                  secondaryButtonStyle: 'yes'
+                  primaryButtonAnimationType: 'yes'
+                  secondaryButtonAnimationType: 'yes'
+            - _id: 280ea423-4882-4b5f-ba29-6d8e3767e507
+              type: hero
+              variant: imageRight
+              parameters:
+                image:
+                  type: asset
+                  value:
+                    - _id: ee192b53-c5c9-4a82-ab19-27ca10cf5b53
+                      type: image
+                      fields:
+                        id:
+                          type: text
+                          value: f46648cc-31ec-40b2-90ee-c7843a29e046
+                        url:
+                          value: >-
+                            https://img.uniform.global/p/g7bIwGklRHq1c0h6VQckpg/9BvINvBqSsO-RhWGMuXAIA-espressoGPT_hero_3.jpg
+                          type: text
+                        file:
+                          type: file
+                          value: ba310dc8-a915-4dbf-830b-774a074d2749
+                        size:
+                          value: 6168022
+                          type: number
+                        title:
+                          type: text
+                          value: espressoGPT_hero_3.jpg
+                        width:
+                          value: 2731
+                          type: number
+                        height:
+                          value: 4096
+                          type: number
+                        mediaType:
+                          value: image/jpeg
+                          type: text
+                      _source: uniform-assets
+                title:
+                  type: text
+                  locales:
+                    en-CA: Become a world-class barista
+                    en-GB: Become a world-class barista
+                    en-NL: Become a world-class barista
+                    en-US: Become a world-class barista
+                    es-US: Conviértete en una barista de clase mundial
+                    fr-CA: Devenir un barista de classe mondiale
+                    nl-NL: Word een barista van wereldklasse
+                $pzCrit:
+                  type: $pzCrit
+                  value:
+                    op: '|'
+                    crit:
+                      - l: coffeeMakersInterest
+                        r: 0
+                        op: '>'
+                      - l: int_c
+                        r: 0
+                        op: ^
+                    name: machines-interest
+                marginTop:
+                  type: select
+                  value: None
+                objectFit:
+                  type: select
+                  value: cover
+                textColor:
+                  type: tp-color-palette-parameter
+                  value: primary-content
+                paddingTop:
+                  type: select
+                  value: Small
+                titleStyle:
+                  type: tp-title-style-parameter
+                  value: h1
+                description:
+                  type: text
+                  locales:
+                    en-CA: >-
+                      our excellent coffee machines turn any newb into a an
+                      experienced barista.
+                    en-GB: >-
+                      our excellent coffee machines turn any newb into a an
+                      experienced barista.
+                    en-NL: >-
+                      our excellent coffee machines turn any newb into a an
+                      experienced barista.
+                    en-US: >-
+                      our excellent coffee machines turn any newb into a an
+                      experienced barista.
+                    es-US: >-
+                      Nuestras excelentes máquinas de café convierten a
+                      cualquier novato en un experto. barista experimentado.
+                    fr-CA: >-
+                      Nos excellentes machines à café transforment tout nouveau
+                      en un barista expérimenté.
+                    nl-NL: >-
+                      Onze uitstekende koffiemachines veranderen van alle newb
+                      in een ervaren barista.
+                eyebrowText:
+                  type: text
+                  locales:
+                    en-CA: PERSONALIZED DUE TO YOUR INTEREST IN COFFEE MACHINES
+                    en-GB: PERSONALIZED DUE TO YOUR INTEREST IN COFFEE MACHINES
+                    en-NL: PERSONALIZED DUE TO YOUR INTEREST IN COFFEE MACHINES
+                    en-US: PERSONALIZED DUE TO YOUR INTEREST IN COFFEE MACHINES
+                    es-US: PERSONALIZADO DEBIDO A SU INTERÉS EN LAS MÁQUINAS DE CAFÉ
+                    fr-CA: PERSONALIZED DUE TO YOUR INTEREST IN COFFEE MACHINES
+                    nl-NL: GEPERSONALISEERD VANWEGE UW INTERESSE IN KOFFIEMACHINES
+                marginBottom:
+                  type: select
+                  value: None
+                overlayColor:
+                  type: tp-color-palette-parameter
+                  value: primary
+                paddingBottom:
+                  type: select
+                  value: Medium
+                overlayOpacity:
+                  type: tp-slider-parameter
+                  value: 60%
+                backgroundColor:
+                  type: tp-color-palette-parameter
+                  value: primary
+                containerVariant:
+                  type: select
+                  value: fluidContent
+                primaryButtonCopy:
+                  type: text
+                  locales:
+                    en-CA: See all coffee makers
+                    en-GB: See all coffee makers
+                    en-NL: See all coffee makers
+                    en-US: See all coffee makers
+                    es-US: Ver todas las cafeteras
+                    fr-CA: Voir toutes les cafetières
+                    nl-NL: Alle koffiezetapparaten bekijken
+                primaryButtonLink:
+                  type: link
+                  value:
+                    path: /${locale}/external/coffee-makers
+                    type: projectMapNode
+                    nodeId: ea684346-109c-4b11-82a5-2a982d2dd795
+                    projectMapId: 62588085-7894-4810-84b6-eaaf0cb5213c
+                    dynamicInputValues:
+                      locale: ${locale}
+                primaryButtonStyle:
+                  type: tp-button-style-parameter
+                  value: accent
+              _overridability:
+                variants: true
+                parameters:
+                  delay: 'yes'
+                  image: 'yes'
+                  title: 'yes'
+                  video: 'yes'
+                  duration: 'yes'
+                  marginTop: 'yes'
+                  objectFit: 'yes'
+                  textColor: 'yes'
+                  fullHeight: 'yes'
+                  paddingTop: 'yes'
+                  titleStyle: 'yes'
+                  description: 'yes'
+                  eyebrowText: 'yes'
+                  marginBottom: 'yes'
+                  overlayColor: 'yes'
+                  animationType: 'yes'
+                  group_content: 'yes'
+                  paddingBottom: 'yes'
+                  animationOrder: 'yes'
+                  backgroundType: 'yes'
+                  overlayOpacity: 'yes'
+                  backgroundColor: 'yes'
+                  animationPreview: 'yes'
+                  containerVariant: 'yes'
+                  group_primaryCta: 'yes'
+                  primaryButtonCopy: 'yes'
+                  primaryButtonLink: 'yes'
+                  group_secondaryCta: 'yes'
+                  primaryButtonStyle: 'yes'
+                  group_imageSettings: 'yes'
+                  secondaryButtonCopy: 'yes'
+                  secondaryButtonLink: 'yes'
+                  secondaryButtonStyle: 'yes'
+                  primaryButtonAnimationType: 'yes'
+                  secondaryButtonAnimationType: 'yes'
+            - _id: cebabef6-4ee1-47e6-b804-95946ec6c1d3
+              type: hero
+              variant: backgroundImage
+              parameters:
+                image:
+                  type: asset
+                  value:
+                    - _id: de8f3a86-18a0-46c4-b6a0-14ea42d56ed3
+                      type: image
+                      fields:
+                        id:
+                          type: text
+                          value: 0cf4ba92-4a18-4dd2-9175-f4615b4eff98
+                        url:
+                          value: >-
+                            https://img.uniform.global/p/g7bIwGklRHq1c0h6VQckpg/Lg842w23S6-DUAXdGEkfyA-hero_15.png
+                          type: text
+                        file:
+                          type: file
+                          value: e271089e-3f63-456a-a907-ed77719a2186
+                        size:
+                          value: 2064940
+                          type: number
+                        title:
+                          type: text
+                          value: hero_15.png
+                        width:
+                          value: 3000
+                          type: number
+                        height:
+                          value: 2000
+                          type: number
+                        mediaType:
+                          value: image/png
+                          type: text
+                      _source: uniform-assets
+                title:
+                  type: text
+                  locales:
+                    en-CA: Hello, stranger!
+                    en-GB: Hello, stranger!
+                    en-NL: Hello, stranger!
+                    en-US: Hello, stranger!
+                    es-US: ¡Hola, extraño!
+                    fr-CA: Bonjour étranger!
+                    nl-NL: Hallo onbekende!
+                $pzCrit:
+                  type: $pzCrit
+                  value:
+                    crit: []
+                    name: default
+                marginTop:
+                  type: select
+                  value: None
+                objectFit:
+                  type: select
+                  value: cover
+                textColor:
+                  type: tp-color-palette-parameter
+                  value: primary-content
+                paddingTop:
+                  type: select
+                  value: None
+                titleStyle:
+                  type: tp-title-style-parameter
+                  value: h1
+                description:
+                  type: text
+                  locales:
+                    en-CA: we got awesome coffee beans and amazing coffee machine
+                    en-GB: we got awesome coffee beans and amazing coffee machine
+                    en-NL: we got awesome coffee beans and amazing coffee machine
+                    en-US: we got awesome coffee beans and amazing coffee machine
+                    es-US: >-
+                      tenemos increíbles granos de café y una increíble máquina
+                      de café
+                    fr-CA: >-
+                      Nous avons des grains de café géniaux et une machine à
+                      café incroyable
+                    nl-NL: >-
+                      We hebben geweldige koffiebonen en een geweldige
+                      koffiemachine
+                eyebrowText:
+                  type: text
+                  locales:
+                    en-CA: welcome to javadrip
+                    en-GB: welcome to javadrip
+                    en-NL: welcome to javadrip
+                    en-US: welcome to javadrip
+                    es-US: bienvenido a javadrip
+                    fr-CA: bienvenue à javadrip
+                    nl-NL: welkom bij javadrip
+                marginBottom:
+                  type: select
+                  value: None
+                overlayColor:
+                  type: tp-color-palette-parameter
+                  value: primary
+                paddingBottom:
+                  type: select
+                  value: None
+                overlayOpacity:
+                  type: tp-slider-parameter
+                  value: 60%
+                containerVariant:
+                  type: select
+                  value: fluidContent
+                primaryButtonCopy:
+                  type: text
+                  locales:
+                    en-CA: Shop beans
+                    en-GB: Shop beans
+                    en-NL: Shop beans
+                    en-US: Shop beans
+                    es-US: Comprar frijoles
+                    fr-CA: Magasin de haricots
+                    nl-NL: Bonen kopen
+                primaryButtonLink:
+                  type: link
+                  value:
+                    path: /${locale}/external/beans
+                    type: projectMapNode
+                    nodeId: 159b02be-f6b3-4752-8fc7-9689b67236b2
+                    projectMapId: 62588085-7894-4810-84b6-eaaf0cb5213c
+                    dynamicInputValues:
+                      locale: ${locale}
+                secondaryButtonCopy:
+                  type: text
+                  locales:
+                    en-CA: Shop machines
+                    en-GB: Shop machines
+                    en-NL: Shop machines
+                    en-US: Shop machines
+                    es-US: máquinas de taller
+                    fr-CA: Machines d'atelier
+                    nl-NL: Winkelmachines
+                secondaryButtonLink:
+                  type: link
+                  value:
+                    path: /${locale}/external/coffee-makers
+                    type: projectMapNode
+                    nodeId: ea684346-109c-4b11-82a5-2a982d2dd795
+                    projectMapId: 62588085-7894-4810-84b6-eaaf0cb5213c
+                    dynamicInputValues:
+                      locale: ${locale}
+                secondaryButtonStyle:
+                  type: tp-button-style-parameter
+                  value: secondary
+              _overridability:
+                variants: true
+                parameters:
+                  delay: 'yes'
+                  image: 'yes'
+                  title: 'yes'
+                  video: 'yes'
+                  duration: 'yes'
+                  marginTop: 'yes'
+                  objectFit: 'yes'
+                  textColor: 'yes'
+                  fullHeight: 'yes'
+                  paddingTop: 'yes'
+                  titleStyle: 'yes'
+                  description: 'yes'
+                  eyebrowText: 'yes'
+                  marginBottom: 'yes'
+                  overlayColor: 'yes'
+                  animationType: 'yes'
+                  group_content: 'yes'
+                  paddingBottom: 'yes'
+                  animationOrder: 'yes'
+                  backgroundType: 'yes'
+                  overlayOpacity: 'yes'
+                  backgroundColor: 'yes'
+                  animationPreview: 'yes'
+                  containerVariant: 'yes'
+                  group_primaryCta: 'yes'
+                  primaryButtonCopy: 'yes'
+                  primaryButtonLink: 'yes'
+                  group_secondaryCta: 'yes'
+                  primaryButtonStyle: 'yes'
+                  group_imageSettings: 'yes'
+                  secondaryButtonCopy: 'yes'
+                  secondaryButtonLink: 'yes'
+                  secondaryButtonStyle: 'yes'
+                  primaryButtonAnimationType: 'yes'
+                  secondaryButtonAnimationType: 'yes'
+        parameters:
+          count:
+            type: number
+            value: '1'
+          trackingEventName:
+            type: text
+            value: Home Hero
+      - _id: 062e3fe2-c89c-427c-8048-53560eb94829
+        type: $test
+        slots:
+          test:
+            - _id: e1a443c0-9669-49c9-8020-4b1306219b0d
+              type: hero
+              variant: imageLeft
+              parameters:
+                image:
+                  type: asset
+                  value:
+                    - _id: 2f396a4d-7c63-4c17-bc44-1531943283ae
+                      type: image
+                      fields:
+                        id:
+                          type: text
+                          value: ad12f8c7-7c06-4625-aed6-f73bdfe04b4d
+                        url:
+                          value: >-
+                            https://img.uniform.global/p/g7bIwGklRHq1c0h6VQckpg/Q6PvyPsOQ1eTo2ObEZxQZQ-kosmic-coffee-barista-express-espresso-machine-115-1_zlep8k_zw4fb0.jpg
+                          type: text
+                        file:
+                          type: file
+                          value: 39c4aa67-5e43-45d5-951e-b2cb9364b2ee
+                        size:
+                          value: 267928
+                          type: number
+                        title:
+                          type: text
+                          value: >-
+                            kosmic-coffee-barista-express-espresso-machine-115-1_zlep8k_zw4fb0.jpg
+                        width:
+                          value: 1280
+                          type: number
+                        height:
+                          value: 1280
+                          type: number
+                        mediaType:
+                          value: image/jpeg
+                          type: text
+                      _source: uniform-assets
+                title:
+                  type: text
+                  locales:
+                    en-CA: Cervello di Caffe®
+                    en-GB: Cervello di Caffe®
+                    en-NL: Cervello di Caffe®
+                    en-US: Cervello di Caffe®
+                    es-US: Cervello di Caffe®
+                    fr-CA: Cervello di Caffe®
+                    nl-NL: Cervello di Caffe®
+                $tstVrnt:
+                  type: testVariant
+                  value:
+                    id: variant-a
+                    testDistribution: 50
+                objectFit:
+                  type: select
+                  value: cover
+                paddingTop:
+                  type: select
+                  value: Small
+                titleStyle:
+                  type: tp-title-style-parameter
+                  value: h2
+                description:
+                  type: text
+                  locales:
+                    en-CA: >-
+                      Now you can bring that exceptional style to your
+                      countertops thanks to elegant and innovative espresso
+                      machines that are as intelligent as they are beautiful.
+                    en-GB: >-
+                      Now you can bring that exceptional style to your
+                      countertops thanks to elegant and innovative espresso
+                      machines that are as intelligent as they are beautiful.
+                    en-NL: >-
+                      Now you can bring that exceptional style to your
+                      countertops thanks to elegant and innovative espresso
+                      machines that are as intelligent as they are beautiful.
+                    en-US: >-
+                      Now you can bring that exceptional style to your
+                      countertops thanks to elegant and innovative espresso
+                      machines that are as intelligent as they are beautiful.
+                    es-US: >-
+                      Ahora puedes traer ese estilo excepcional a tu encimeras
+                      gracias al elegante e innovador espresso Máquinas que son
+                      tan inteligentes como hermosas.
+                    fr-CA: >-
+                      Vous pouvez désormais apporter ce style exceptionnel à vos
+                      comptoirs grâce à des machines à expresso élégantes et
+                      innovantes, aussi intelligentes que belles.
+                    nl-NL: >-
+                      Nu kunt u die uitzonderlijke stijl naar uw werkbladen
+                      brengen dankzij elegante en innovatieve espressomachines
+                      die even intelligent als mooi zijn.
+                eyebrowText:
+                  type: text
+                  locales:
+                    en-US: variant A
+                    es-US: variant A
+                    fr-CA: variant A
+                    nl-NL: variant A
+                paddingBottom:
+                  type: select
+                  value: Small
+                primaryButtonCopy:
+                  type: text
+                  locales:
+                    en-CA: Learn more
+                    en-GB: Learn more
+                    en-NL: Learn more
+                    en-US: Learn more
+                    es-US: Más información
+                    fr-CA: Apprendre encore plus
+                    nl-NL: Kom meer te weten
+                primaryButtonLink:
+                  type: link
+                  value:
+                    path: /${locale}/products/cervello-di-caffe-140
+                    type: projectMapNode
+                    nodeId: fb657541-0488-4c22-bce4-64c9cd71bdde
+                    projectMapId: 62588085-7894-4810-84b6-eaaf0cb5213c
+                    dynamicInputValues:
+                      locale: ${locale}
+                      product-slug: cervello-di-caffe-140
+                primaryButtonStyle:
+                  type: tp-button-style-parameter
+                  value: link
+            - _id: 0cfdeaf2-fe5b-4a56-bc59-224db269a8a7
+              type: hero
+              variant: imageRight
+              parameters:
+                image:
+                  type: asset
+                  value:
+                    - _id: 7a9101a0-2eb8-447b-b8e0-5139c3c08637
+                      type: image
+                      fields:
+                        id:
+                          type: text
+                          value: 9ff4022d-62a7-4e28-9160-d3291c079ce4
+                        url:
+                          value: >-
+                            https://img.uniform.global/p/g7bIwGklRHq1c0h6VQckpg/74peXiRuRViKeYt7-WpUcQ-kosmic-coffee-barista-express-espresso-machine-115-2_csd2nz_jvaxqc.jpg
+                          type: text
+                        file:
+                          type: file
+                          value: b5c40c3e-907d-4c56-9dad-8c2ce8b6c24e
+                        size:
+                          value: 150093
+                          type: number
+                        title:
+                          type: text
+                          value: >-
+                            kosmic-coffee-barista-express-espresso-machine-115-2_csd2nz_jvaxqc.jpg
+                        width:
+                          value: 1280
+                          type: number
+                        height:
+                          value: 1280
+                          type: number
+                        mediaType:
+                          value: image/jpeg
+                          type: text
+                      _source: uniform-assets
+                title:
+                  type: text
+                  locales:
+                    en-CA: Kosmic Coffee Barista at your service
+                    en-GB: Kosmic Coffee Barista at your service
+                    en-NL: Kosmic Coffee Barista at your service
+                    en-US: Kosmic Coffee Barista at your service
+                    es-US: Kosmic Coffee Barista a su servicio
+                    fr-CA: Kosmic Coffee Barista à votre service
+                    nl-NL: Kosmic Coffee Barista tot uw dienst
+                $tstVrnt:
+                  type: testVariant
+                  value:
+                    id: variant-b
+                    testDistribution: 50
+                marginTop:
+                  type: select
+                  value: Small
+                objectFit:
+                  type: select
+                  value: cover
+                titleStyle:
+                  type: tp-title-style-parameter
+                  value: h2
+                description:
+                  type: text
+                  locales:
+                    en-CA: >-
+                      Integrated precision conical burr grinder grinds on demand
+                      to deliver the right amount of freshly ground coffee
+                      directly into the portafilter for your preferred taste
+                      with any roast of bean
+                    en-GB: >-
+                      Integrated precision conical burr grinder grinds on demand
+                      to deliver the right amount of freshly ground coffee
+                      directly into the portafilter for your preferred taste
+                      with any roast of bean
+                    en-NL: >-
+                      Integrated precision conical burr grinder grinds on demand
+                      to deliver the right amount of freshly ground coffee
+                      directly into the portafilter for your preferred taste
+                      with any roast of bean
+                    en-US: >-
+                      Integrated precision conical burr grinder grinds on demand
+                      to deliver the right amount of freshly ground coffee
+                      directly into the portafilter for your preferred taste
+                      with any roast of bean
+                    es-US: >-
+                      La amoladora de fresas cónicas de precisión integrada
+                      muele según demanda para entregar la cantidad correcta de
+                      café recién molido directamente en el portafiltro para su
+                      gusto preferido con cualquier asado de frijol
+                    fr-CA: >-
+                      Le moulin à meules coniques de précision intégré moud à la
+                      demande pour fournir la bonne quantité de café fraîchement
+                      moulu directement dans le porte-filtre pour votre goût
+                      préféré avec n'importe quelle torréfaction de grains.
+                    nl-NL: >-
+                      Geïntegreerde precieze conische maalmolen maalt op verzoek
+                      om de juiste hoeveelheid versgemalen koffie rechtstreeks
+                      in het portafilter te leveren voor uw favoriete smaak bij
+                      elke branding van bonen
+                eyebrowText:
+                  type: text
+                  locales:
+                    en-CA: variant B
+                    en-GB: variant B
+                    en-NL: variant B
+                    en-US: variant B
+                    es-US: variant B
+                    fr-CA: variant B
+                    nl-NL: variant B
+                marginBottom:
+                  type: select
+                  value: Small
+                primaryButtonCopy:
+                  type: text
+                  locales:
+                    en-CA: Learn more
+                    en-GB: Learn more
+                    en-NL: Learn more
+                    en-US: Learn more
+                    es-US: Más información
+                    fr-CA: Apprendre encore plus
+                    nl-NL: Kom meer te weten
+                primaryButtonLink:
+                  type: link
+                  value:
+                    path: >-
+                      /${locale}/products/kosmic-coffee-barista-express-espresso-machine-115
+                    type: projectMapNode
+                    nodeId: fb657541-0488-4c22-bce4-64c9cd71bdde
+                    projectMapId: 62588085-7894-4810-84b6-eaaf0cb5213c
+                    dynamicInputValues:
+                      locale: ${locale}
+                      product-slug: kosmic-coffee-barista-express-espresso-machine-115
+                primaryButtonStyle:
+                  type: tp-button-style-parameter
+                  value: link
+        parameters:
+          test:
+            type: testSelect
+            value: homeFeaturedProduct
+      - _id: 6e1ee6bf-0c6c-4a20-b073-c19e77bf4b3d
+        type: container
+        slots:
+          container-inner:
+            - _id: b2a389f4-d706-42f6-a378-5f7b943bc276
+              type: productBundle
+              _pattern: 4045561e-b985-49bc-8b73-8b5918952b8f
+              _dataResources:
+                Product Bundle Content:
+                  type: productBundle
+                  variables:
+                    locale: ${locale}
+                    entryId: 68349071-2d06-479f-bd1e-f491ec411fc5
+        parameters:
+          title:
+            type: text
+            locales:
+              en-US: Product Bundle
+          paddingTop:
+            type: select
+            value: Small
+          paddingBottom:
+            type: select
+            value: Small
+          backgroundType:
+            type: tp-background-type-parameter
+            value: Dark
+      - _id: 2ec31db1-a17c-4c76-bd6b-986b41e0d72d
+        type: $personalization
+        slots:
+          pz:
+            - _id: 5e561602-4698-4dab-acc7-69ee645797e8
+              type: container
+              slots:
+                container-inner:
+                  - _id: 5fc75bbd-c99d-4997-a3c5-73fe3ae9ff2b
+                    type: cardBlock
+                    _pattern: fe2cba31-e7a3-49f4-8f95-6221b4dee99a
+                    _dataResources:
+                      Products Content:
+                        type: products
+                        variables:
+                          locale: ${locale}
+                          entryIds: >-
+                            c7e72a37-47db-4202-800d-09540a4b9181,c2fe7f3a-9b46-4e6e-bb11-b38fde7852ba,df7a5d21-9a3c-49db-92d2-662b0fecce21,4289122f-8a90-4bb9-80fe-784ada7950f5,b5760778-6966-4fd6-911f-40f081e2a26d,a555a586-ef6b-4ae2-978b-af3590ec8060,3f39a936-39c8-403a-8982-39b8996098c9
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: Our smart coffee machines
+                $pzCrit:
+                  type: $pzCrit
+                  value:
+                    op: '|'
+                    crit:
+                      - l: coffeeMakersInterest
+                        op: +
+                      - l: int_c
+                        r: 0
+                        op: ^
+                    name: 'Card Block: Our smart coffee machines'
+                paddingBottom:
+                  type: select
+                  value: None
+            - _id: 8f9a90e7-ae91-41e4-8737-5ed227667e79
+              type: container
+              slots:
+                container-inner:
+                  - _id: 55247258-f249-4d0e-ae6d-2e44e18c3b49
+                    type: cardBlock
+                    _pattern: fe2cba31-e7a3-49f4-8f95-6221b4dee99a
+                    _dataResources:
+                      Products Content:
+                        type: products
+                        variables:
+                          locale: ${locale}
+                          entryIds: >-
+                            72b49ac2-bbf3-48a7-b522-0947483e9131,ef55e1ae-ad12-46d9-b296-90d5484136f0,3b15349b-aac2-4a0f-9d62-a30fc016a704,4d95682d-7de0-4b19-a0f5-13e4e6f780c1,82b84782-4236-4b06-a994-59f088896b91,dd9a7e4d-56a3-4a0b-9679-345d19e6da49
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-CA: JavaDrip coffee beans
+                    en-GB: JavaDrip coffee beans
+                    en-NL: JavaDrip coffee beans
+                    en-US: JavaDrip coffee beans
+                    es-US: granos de café JavaDrip
+                    fr-CA: Café en grains JavaDrip
+                    nl-NL: JavaDrip-koffiebonen
+                $pzCrit:
+                  type: $pzCrit
+                  value:
+                    op: '|'
+                    crit:
+                      - l: coffeeBeansInterest
+                        r: 0
+                        op: ^
+                      - l: int_b
+                        r: 0
+                        op: ^
+                    name: 'Container: Our smart coffee beans'
+                paddingTop:
+                  type: select
+                  value: Medium
+                paddingBottom:
+                  type: select
+                  value: Medium
+                backgroundType:
+                  type: tp-background-type-parameter
+                  value: Dark
+            - _id: 5bd97c57-9af6-40f7-b564-7ba8e1be0090
+              type: container
+              slots:
+                container-inner:
+                  - _id: 6dd5a176-ef55-4981-8c02-a1a0614122a7
+                    type: cardBlock
+                    _pattern: fe2cba31-e7a3-49f4-8f95-6221b4dee99a
+                    _dataResources:
+                      Products Content:
+                        type: products
+                        variables:
+                          locale: ${locale}
+                          entryIds: >-
+                            72b49ac2-bbf3-48a7-b522-0947483e9131,78b19a41-a2f3-4ed8-9101-6954917d8d56,82b84782-4236-4b06-a994-59f088896b91,c7e72a37-47db-4202-800d-09540a4b9181,c2fe7f3a-9b46-4e6e-bb11-b38fde7852ba,8ad35da9-07b6-4532-8e13-47ab158e30ef,df7a5d21-9a3c-49db-92d2-662b0fecce21
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-CA: Default
+                    en-GB: Default
+                    en-NL: Default
+                    en-US: Default
+                    es-US: Predeterminado
+                    fr-CA: Défaut
+                    nl-NL: Standaard
+                paddingTop:
+                  type: select
+                  value: Medium
+                paddingBottom:
+                  type: select
+                  value: Medium
+                backgroundType:
+                  type: tp-background-type-parameter
+                  value: Dark
+        parameters:
+          trackingEventName:
+            type: text
+            value: Home Product Gallery
+  _dataResources:
+    Hero Content:
+      type: hero
+      variables:
+        locale: ${locale}
+        entryId: 70bbe9fa-16ce-4e55-aaa0-432e114be106
+  _overrides:
+    4322cc34-6a4c-4585-a0ea-4f526b98c2f4:
+      parameters:
+        syntheticGap:
+          type: tp-slider-parameter
+          value: None
+    55247258-f249-4d0e-ae6d-2e44e18c3b49:
+      parameters:
+        title:
+          type: text
+          locales:
+            en-CA: JavaDrip coffee beans
+            en-GB: JavaDrip coffee beans
+            en-NL: JavaDrip coffee beans
+            en-US: JavaDrip coffee beans
+            es-US: granos de café JavaDrip
+            fr-CA: Café en grains JavaDrip
+            nl-NL: JavaDrip-koffiebonen
+        buttonCopy:
+          type: text
+          locales:
+            en-CA: See more
+            en-GB: See more
+            en-NL: See more
+            en-US: See more
+            es-US: Ver más
+            fr-CA: Voir plus
+            nl-NL: Zie meer
+        buttonLink:
+          type: link
+          value: null
+        buttonStyle:
+          type: tp-button-style-parameter
+          value: accent
+        textColorVariant:
+          type: select
+          value: Light
+    5fc75bbd-c99d-4997-a3c5-73fe3ae9ff2b:
+      parameters:
+        title:
+          type: text
+          locales:
+            en-CA: Our smart coffee machines
+            en-GB: Our smart coffee machines
+            en-NL: Our smart coffee machines
+            en-US: Our smart coffee machines
+            es-US: Nuestras cafeteras inteligentes
+            fr-CA: Nos machines à café intelligentes
+            nl-NL: Onze slimme koffiemachines
+        $pzCrit:
+          type: $pzCrit
+          value: null
+        buttonCopy:
+          type: text
+          locales:
+            en-CA: See more
+            en-GB: See more
+            en-NL: See more
+            en-US: See more
+            es-US: Ver más
+            fr-CA: Voir plus
+            nl-NL: Zie meer
+        buttonLink:
+          type: link
+          value: null
+        buttonStyle:
+          type: tp-button-style-parameter
+          value: link
+        description:
+          type: text
+          locales:
+            en-CA: Coffee machines that learn to optimize for your taste buds
+            en-GB: Coffee machines that learn to optimize for your taste buds
+            en-NL: Coffee machines that learn to optimize for your taste buds
+            en-US: Coffee machines that learn to optimize for your taste buds
+            es-US: Máquinas de café que aprenden a optimizarse para su paladar
+            fr-CA: >-
+              Des machines à café qui apprennent à s'adapter à vos papilles
+              gustatives
+            nl-NL: >-
+              Koffiemachines die leren om te optimaliseren voor jouw
+              smaakpapillen
+    6dd5a176-ef55-4981-8c02-a1a0614122a7:
+      variant: carousel
+      parameters:
+        title:
+          type: text
+          locales:
+            en-CA: Our smart coffee beans
+            en-GB: Our smart coffee beans
+            en-NL: Our smart coffee beans
+            en-US: We got beans, we got machines
+            es-US: Tenemos frijoles, tenemos máquinas
+            fr-CA: Nos grains de café intelligents
+            nl-NL: Onze slimme koffiebonen
+        buttonCopy:
+          type: text
+          locales:
+            en-CA: See more
+            en-GB: See more
+            en-NL: See more
+            en-US: See more
+            es-US: Ver más
+            fr-CA: Voir plus
+            nl-NL: Bekijk meer
+        buttonLink:
+          type: link
+          value:
+            path: /:locale/beans
+            type: projectMapNode
+            nodeId: 159b02be-f6b3-4752-8fc7-9689b67236b2
+            projectMapId: 62588085-7894-4810-84b6-eaaf0cb5213c
+            dynamicInputValues:
+              locale: ${locale}
+        buttonStyle:
+          type: tp-button-style-parameter
+          value: accent
+        textColorVariant:
+          type: select
+          value: Light
+    b2a389f4-d706-42f6-a378-5f7b943bc276:
+      parameters:
+        title:
+          type: text
+          locales:
+            en-US: Purchase Together for a Discount
+        buttonStyle:
+          type: tp-button-style-parameter
+          value: secondary
+        hideDescription:
+          type: checkbox
+          value: null
+        primaryTextColor:
+          type: tp-color-palette-parameter
+          value: primary-content
+        secondaryTextColor:
+          type: tp-color-palette-parameter
+          value: secondary
+    55247258-f249-4d0e-ae6d-2e44e18c3b49|98ef4404-7adc-4d1b-bd62-e17bc229352b:
+      parameters:
+        buttonCopy:
+          type: text
+          locales:
+            en-CA: more
+            en-GB: more
+            en-NL: more
+            en-US: See Details
+            es-US: Ver detalles
+            fr-CA: plus
+            nl-NL: meer
+        buttonLink:
+          type: link
+          value:
+            path: /:locale/products/:product-slug
+            type: projectMapNode
+            nodeId: fb657541-0488-4c22-bce4-64c9cd71bdde
+            projectMapId: 62588085-7894-4810-84b6-eaaf0cb5213c
+            dynamicInputValues:
+              locale: ${locale}
+              product-slug: ${#jptr:/Product Content results Loop Item/entry/_slug}
+        buttonStyle:
+          type: tp-button-style-parameter
+          value: accent
+    5fc75bbd-c99d-4997-a3c5-73fe3ae9ff2b|98ef4404-7adc-4d1b-bd62-e17bc229352b:
+      parameters:
+        buttonLink:
+          type: link
+          value:
+            path: /:locale/products/:product-slug
+            type: projectMapNode
+            nodeId: fb657541-0488-4c22-bce4-64c9cd71bdde
+            projectMapId: 62588085-7894-4810-84b6-eaaf0cb5213c
+            dynamicInputValues:
+              locale: ${locale}
+              product-slug: ${#jptr:/Product Content results Loop Item/entry/_slug}
+        buttonStyle:
+          type: tp-button-style-parameter
+          value: link
+        textColorVariant:
+          type: select
+          value: Dark
+    6dd5a176-ef55-4981-8c02-a1a0614122a7|98ef4404-7adc-4d1b-bd62-e17bc229352b:
+      variant: ''
+      parameters:
+        badge:
+          type: text
+          locales:
+            en-CA: >-
+              ${#jptr:/Product Content results Loop
+              Item/entry/fields/category/value/0/entry/fields/title/value}
+            en-GB: >-
+              ${#jptr:/Product Content results Loop
+              Item/entry/fields/category/value/0/entry/fields/title/value}
+            en-NL: >-
+              ${#jptr:/Product Content results Loop
+              Item/entry/fields/category/value/0/entry/fields/title/value}
+            en-US: >-
+              ${#jptr:/Product Content results Loop
+              Item/entry/fields/category/value/0/entry/fields/title/value}
+            es-US: >-
+              ${#jptr:/Product Content results Loop
+              Item/entry/fields/category/value/0/entry/fields/title/value}
+            fr-CA: >-
+              ${#jptr:/Product Content results Loop
+              Item/entry/fields/category/value/0/entry/fields/title/value}
+            nl-NL: >-
+              ${#jptr:/Product Content results Loop
+              Item/entry/fields/category/value/0/entry/fields/title/value}
+        buttonCopy:
+          type: text
+          locales:
+            en-CA: more
+            en-GB: more
+            en-NL: more
+            en-US: See Details
+            es-US: Ver detalles
+            fr-CA: plus
+            nl-NL: meer
+        buttonLink:
+          type: link
+          value:
+            path: /:locale/products/:product-slug
+            type: projectMapNode
+            nodeId: fb657541-0488-4c22-bce4-64c9cd71bdde
+            projectMapId: 62588085-7894-4810-84b6-eaaf0cb5213c
+            dynamicInputValues:
+              locale: ${locale}
+              product-slug: ${#jptr:/Product Content results Loop Item/entry/_slug}
+        buttonStyle:
+          type: tp-button-style-parameter
+          value: accent
+        lineCountRestriction:
+          type: tp-slider-parameter
+          value: '3'
+  _locales:
+    - fr-CA
+    - en-US
+    - es-US
+    - nl-NL
+    - en-NL
+    - en-CA
+    - en-GB
+created: '2024-11-04T20:15:48.616961+00:00'
+modified: '2024-11-04T20:15:48.616961+00:00'
+pattern: false
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+workflowStageId: 73608d81-f8b0-4ee3-897b-c976d2dc6670

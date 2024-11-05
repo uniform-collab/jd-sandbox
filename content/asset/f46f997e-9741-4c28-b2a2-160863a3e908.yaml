@@ -8,9 +8,9 @@ asset:
       value: AI-generated-image-for-Logo
     file:
       type: file
-      value: 4bd6f5cf-a4a4-46d9-8d39-bb20731e44c5
+      value: ed6be97e-204c-4fe7-b4c7-b798665bfaae
     mediaType:
-      value: image/png
+      value: application/octet-stream
       type: text
     url:
       value: >-
@@ -26,5 +26,5 @@ asset:
       value: 1024
       type: number
     custom: {}
-created: '2024-09-18T15:57:18.239601+00:00'
-modified: '2024-09-18T15:57:18.239601+00:00'
+created: '2024-11-04T20:01:16.989101+00:00'
+modified: '2024-11-04T20:07:53.591455+00:00'

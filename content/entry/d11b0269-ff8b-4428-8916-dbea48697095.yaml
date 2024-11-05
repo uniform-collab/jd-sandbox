@@ -1,5 +1,5 @@
-created: '2024-06-04T20:24:04.181282+00:00'
-modified: '2024-08-15T12:20:30.912323+00:00'
+created: '2024-11-04T20:10:54.285553+00:00'
+modified: '2024-11-04T20:10:54.285553+00:00'
 pattern: false
 workflowId: 784fa239-ae8a-4ab1-ba68-9806d0fe406a
 workflowStageId: 73608d81-f8b0-4ee3-897b-c976d2dc6670
@@ -8,7 +8,7 @@ entry:
   _name: Royale Boulder Camping French Press
   _slug: royale-boulder-camping-french-press-122
   _thumbnail: >-
-    https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/joae8NdxSU29GSeNBbjD0Q-royale-boulder-camping-french-press-122-1_xheeel_ykryly.jpg
+    https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/SRjP2T7GTeaxYFRBmjb5DQ-royale-boulder-camping-french-press-122-1_xheeel_ykryly.jpg
   type: product
   fields:
     body:
@@ -147,9 +147,9 @@ entry:
               type: number
               locales:
                 en-US: '49.95'
+                es-US: '49.95'
                 fr-CA: '46.14'
                 nl-NL: '46.14'
-                es-US: '49.95'
             title:
               type: text
               locales:

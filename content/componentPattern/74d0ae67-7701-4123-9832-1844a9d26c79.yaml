@@ -227,10 +227,11 @@ composition:
     - en-NL
     - fr-CA
     - nl-NL
-created: '2024-09-05T09:55:50.292556+00:00'
-modified: '2024-09-24T18:55:38.827533+00:00'
+created: '2024-11-04T20:08:24.730011+00:00'
+modified: '2024-11-04T20:14:27.114686+00:00'
 pattern: true
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/v1/preview-images/NewJavaDripTheme/Algolia/Instant_search_default_pattern_preview_image
 categoryId: ad5aebd7-ae43-4cb3-a2a7-8425ad0e2f44
 workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+workflowStageId: 73608d81-f8b0-4ee3-897b-c976d2dc6670

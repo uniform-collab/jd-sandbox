@@ -1,5 +1,5 @@
-created: '2024-06-04T20:24:03.108813+00:00'
-modified: '2024-08-15T12:19:02.203961+00:00'
+created: '2024-11-04T20:10:43.129308+00:00'
+modified: '2024-11-04T20:10:43.129308+00:00'
 pattern: false
 workflowId: 784fa239-ae8a-4ab1-ba68-9806d0fe406a
 workflowStageId: 73608d81-f8b0-4ee3-897b-c976d2dc6670
@@ -8,7 +8,7 @@ entry:
   _name: Irish Blend Coffee
   _slug: irish-blend-coffee-132
   _thumbnail: >-
-    https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/TTMAzH41SiKjGrqlWRi5Kg-irish-blend-coffee-132-1_mnjpvu_q0ryef.jpg
+    https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/m7OioFLsQJupP6hC-sGWjA-irish-blend-coffee-132-1_mnjpvu_q0ryef.jpg
   type: product
   fields:
     body:
@@ -115,9 +115,9 @@ entry:
               type: number
               locales:
                 en-US: '12.99'
+                es-US: '12.99'
                 fr-CA: '12.00'
                 nl-NL: '12.00'
-                es-US: '12.99'
             title:
               type: text
               locales:

@@ -1,0 +1,109 @@
+composition:
+  _name: Tab-test
+  _id: ca08fbc9-00eb-4e87-82be-89e957bd4f97
+  _slug: tab-test
+  type: page
+  slots:
+    pageFooter:
+      - _id: d926f7f6-db9a-48de-aaef-a17556cbf0a9
+        type: footer
+        _pattern: 319639e9-4bac-4fb3-8f0b-19088c969fcb
+    pageHeader:
+      - _id: b04bddfa-945a-4e6f-b4b9-54f6373ce487
+        type: header
+        _pattern: e46c8336-acfd-43e8-ac59-8be8f4c33b7d
+    pageContent:
+      - _id: f79207a2-9668-4c2a-80c0-06144ca1f2b8
+        type: breadcrumbs
+        parameters:
+          separator:
+            type: select
+            value: chevron
+          colorStyle:
+            type: tp-color-style-parameter
+            value: primary
+          displayRootNode:
+            type: checkbox
+            value: true
+          displayPlaceholderNodes:
+            type: checkbox
+            value: true
+      - _id: 83da440a-db23-45e1-8b12-f397c8ad7aa2
+        type: tabs
+        slots:
+          tabs:
+            - _id: 1ae40821-1014-4f12-b8e1-062e4409ebc8
+              type: tab
+              slots:
+                content:
+                  - _id: 824c5a55-0d06-413d-8997-e27d636c72d6
+                    type: cardBlock
+                    _pattern: 73927098-7731-4ab9-a1dd-1f9a76f55c5a
+                    _dataResources:
+                      Espresso Coffee Makers:
+                        type: productsQuery
+                        variables:
+                          limit: '5'
+                          locale: ${locale}
+                          search: ${topic}
+                          filters: >-
+                            {"type[eq]":"product","fields.category[eq]":"808f8deb-d021-440a-b1f8-5dff444d35bb","fields.category[neq]":"09b62b8c-1d09-443b-bba5-95fadbf37f80"}
+                          contentTypes: product
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: Espresso
+            - _id: e692b64a-a6ea-4419-aad2-1ba09851b343
+              type: tab
+              slots:
+                content:
+                  - _id: 222d3fe0-25e6-4350-84be-fd3f09e08448
+                    type: cardBlock
+                    _pattern: 73927098-7731-4ab9-a1dd-1f9a76f55c5a
+                    _dataResources:
+                      Espresso Coffee Makers:
+                        type: productsQuery
+                        variables:
+                          limit: '5'
+                          locale: ${locale}
+                          search: ${topic}
+                          filters: >-
+                            {"type[eq]":"product","fields.category[eq]":"4fb71159-ddac-4bca-9004-0405ed43c2d8"}
+                          contentTypes: product
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: Accessories
+        parameters:
+          size:
+            type: tp-slider-parameter
+            value: tiny
+  _overrides:
+    222d3fe0-25e6-4350-84be-fd3f09e08448:
+      parameters:
+        title:
+          type: text
+          locales:
+            en-US: Accessories
+        titleStyle:
+          type: tp-title-style-parameter
+          value: h4
+    824c5a55-0d06-413d-8997-e27d636c72d6:
+      parameters:
+        title:
+          type: text
+          locales:
+            en-US: Espresso Coffee Makers
+        titleStyle:
+          type: tp-title-style-parameter
+          value: h4
+  _locales:
+    - en-US
+    - nl-NL
+    - fr-CA
+created: '2024-11-04T20:15:52.898982+00:00'
+modified: '2024-11-04T20:15:52.898982+00:00'
+pattern: false
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5

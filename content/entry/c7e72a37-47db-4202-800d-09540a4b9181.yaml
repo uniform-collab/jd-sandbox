@@ -1,5 +1,5 @@
-created: '2024-06-04T20:24:04.749377+00:00'
-modified: '2024-08-15T12:20:23.423541+00:00'
+created: '2024-11-04T20:10:30.989604+00:00'
+modified: '2024-11-04T20:10:30.989604+00:00'
 pattern: false
 workflowId: 784fa239-ae8a-4ab1-ba68-9806d0fe406a
 workflowStageId: 73608d81-f8b0-4ee3-897b-c976d2dc6670
@@ -8,7 +8,7 @@ entry:
   _name: EspressoGPT
   _slug: espresso-gpt-145
   _thumbnail: >-
-    https://canary-img.uniform.global/p/QspsgNg2QoGBBJYOHzVeSA/ZqFy-toiSHaH5mbXgVQWyQ-EspressoGPT_image_1.jpg
+    https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/qL3F2o8ORii6hkjdfOOWcw-EspressoGPT_image_1.jpg
   type: product
   fields:
     body:
@@ -115,9 +115,9 @@ entry:
               type: number
               locales:
                 en-US: '1899.95'
+                es-US: '1899.95'
                 fr-CA: '1754.90'
                 nl-NL: '1754.90'
-                es-US: '1899.95'
             title:
               type: text
               locales:

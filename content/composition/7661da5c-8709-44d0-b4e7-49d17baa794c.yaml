@@ -1,0 +1,328 @@
+composition:
+  _name: About Us
+  _id: 7661da5c-8709-44d0-b4e7-49d17baa794c
+  _slug: about-us
+  type: page
+  parameters:
+    pageTitle:
+      type: text
+      locales:
+        en-CA: About JavaDrip
+        en-GB: About JavaDrip
+        en-NL: About JavaDrip
+        en-US: About JavaDrip
+        es-US: Acerca de JavaDrip
+        fr-CA: À propos de JavaDrip
+        nl-NL: Over JavaDrip
+  slots:
+    pageFooter:
+      - _id: 008855c0-ef78-45e8-a633-0165c87fa184
+        type: footer
+        _pattern: 319639e9-4bac-4fb3-8f0b-19088c969fcb
+    pageHeader:
+      - _id: 89fd04ff-4fe6-41b1-9ee0-6851de4da54f
+        type: header
+        _pattern: e46c8336-acfd-43e8-ac59-8be8f4c33b7d
+    pageContent:
+      - _id: f42991e3-aa5f-40ab-b3de-94d38cc21a18
+        type: $test
+        slots:
+          test:
+            - _id: b2d851fc-0802-4949-a8df-ad641b20495f
+              type: hero
+              variant: backgroundImage
+              parameters:
+                image:
+                  type: asset
+                  value:
+                    - _id: bbff5e6d-5b17-4481-b092-529abef0f926
+                      type: image
+                      fields:
+                        id:
+                          type: text
+                          value: 0cbc63ef-29ea-454e-a5f8-5426c41a7c06
+                        url:
+                          value: >-
+                            https://img.uniform.global/p/g7bIwGklRHq1c0h6VQckpg/x-Q3rmkhSZKwTPxoMo1ANg-three_cups.jpg
+                          type: text
+                        file:
+                          type: file
+                          value: 56e8cac4-0f43-4593-b486-e29024ff5917
+                        size:
+                          value: 5356855
+                          type: number
+                        title:
+                          type: text
+                          value: three_cups.jpg
+                        width:
+                          value: 4480
+                          type: number
+                        height:
+                          value: 6720
+                          type: number
+                        mediaType:
+                          value: image/jpeg
+                          type: text
+                      _source: uniform-assets
+                title:
+                  type: text
+                  locales:
+                    en-CA: ${#jptr:/Blog Content/entry/fields/title/value}
+                    en-GB: ${#jptr:/Blog Content/entry/fields/title/value}
+                    en-NL: ${#jptr:/Blog Content/entry/fields/title/value}
+                    en-US: ${#jptr:/Blog Content/entry/fields/title/value}
+                    es-US: ${#jptr:/Blog Content/entry/fields/title/value}
+                    fr-CA: ${#jptr:/Blog Content/entry/fields/title/value}
+                    nl-NL: ${#jptr:/Blog Content/entry/fields/title/value}
+                $tstVrnt:
+                  type: testVariant
+                  value: {}
+                objectFit:
+                  type: select
+                  value: cover
+                textColor:
+                  type: tp-color-palette-parameter
+                  value: primary-content
+                paddingTop:
+                  type: select
+                  value: None
+                titleStyle:
+                  type: tp-title-style-parameter
+                  value: h1
+                description:
+                  type: text
+                  locales:
+                    en-CA: >-
+                      We accelerate how teams collaborate, innovate, and build
+                      digital experiences
+                    en-GB: >-
+                      We accelerate how teams collaborate, innovate, and build
+                      digital experiences
+                    en-NL: >-
+                      We accelerate how teams collaborate, innovate, and build
+                      digital experiences
+                    en-US: >-
+                      We accelerate how teams collaborate, innovate, and build
+                      digital experiences
+                    es-US: >-
+                      Aceleramos la forma en que los equipos colaboran, innovan
+                      y construyen experiencias digitales
+                    fr-CA: >-
+                      Nous accélérons la façon dont les équipes collaborent,
+                      innovent et créent des expériences numériques.
+                    nl-NL: >-
+                      Wij versnellen hoe teams samenwerken, innoveren en
+                      digitale ervaringen bouwen
+                eyebrowText:
+                  type: text
+                  locales:
+                    en-CA: Uniform
+                    en-GB: Uniform
+                    en-NL: Uniform
+                    en-US: Uniform
+                    es-US: Uniform
+                    fr-CA: Uniform
+                    nl-NL: Uniform
+                overlayColor:
+                  type: tp-color-palette-parameter
+                  value: primary
+                paddingBottom:
+                  type: select
+                  value: None
+                overlayOpacity:
+                  type: tp-slider-parameter
+                  value: 60%
+                containerVariant:
+                  type: select
+                  value: fluidContent
+            - _id: 48f3250c-1e88-4c82-b479-6e6bc204c148
+              type: hero
+              variant: backgroundImage
+              parameters:
+                image:
+                  type: asset
+                  value:
+                    - _id: 74d8a958-4f07-4497-9f36-ed5a0e719e4c
+                      type: image
+                      fields:
+                        id:
+                          type: text
+                          value: 7d2fb8ee-2692-46c2-be0c-178696298f8d
+                        url:
+                          value: >-
+                            https://img.uniform.global/p/g7bIwGklRHq1c0h6VQckpg/xIIy47bjS1GqzZ205gOzhg-beans_heart.jpg
+                          type: text
+                        file:
+                          type: file
+                          value: ef8ad12e-6d0f-40a2-b96d-fce1cecf7cb8
+                        size:
+                          value: 1836620
+                          type: number
+                        title:
+                          type: text
+                          value: beans_heart.jpg
+                        width:
+                          value: 4608
+                          type: number
+                        height:
+                          value: 3072
+                          type: number
+                        mediaType:
+                          value: image/jpeg
+                          type: text
+                      _source: uniform-assets
+                title:
+                  type: text
+                  locales:
+                    en-CA: ${#jptr:/Blog Content/entry/fields/title/value}
+                    en-GB: ${#jptr:/Blog Content/entry/fields/title/value}
+                    en-NL: ${#jptr:/Blog Content/entry/fields/title/value}
+                    en-US: ${#jptr:/Blog Content/entry/fields/title/value}
+                    es-US: ${#jptr:/Blog Content/entry/fields/title/value}
+                    fr-CA: ${#jptr:/Blog Content/entry/fields/title/value}
+                    nl-NL: ${#jptr:/Blog Content/entry/fields/title/value}
+                $tstVrnt:
+                  type: testVariant
+                  value: {}
+                marginTop:
+                  type: select
+                  value: None
+                objectFit:
+                  type: select
+                  value: cover
+                textColor:
+                  type: tp-color-palette-parameter
+                  value: primary-content
+                paddingTop:
+                  type: select
+                  value: None
+                titleStyle:
+                  type: tp-title-style-parameter
+                  value: h1
+                description:
+                  type: text
+                  locales:
+                    en-CA: >-
+                      The home of coffee obsessives. We are a boutique coffee
+                      company obsessed with the perfect cup of coffee
+                    en-GB: >-
+                      The home of coffee obsessives. We are a boutique coffee
+                      company obsessed with the perfect cup of coffee
+                    en-NL: >-
+                      The home of coffee obsessives. We are a boutique coffee
+                      company obsessed with the perfect cup of coffee
+                    en-US: >-
+                      The home of coffee obsessives. We are a boutique coffee
+                      company obsessed with the perfect cup of coffee
+                    es-US: >-
+                      El hogar de los obsesivos del café. Somos un cafe boutique
+                      empresa obsesionada con la taza de café perfecta
+                    fr-CA: >-
+                      La maison des obsédés du café. Nous sommes une boutique de
+                      café obsédée par la tasse de café parfaite.
+                    nl-NL: >-
+                      De thuisbasis van koffie-obsessives. Wij zijn een
+                      koffiebedrijf dat geobsedeerd is door het perfecte kopje
+                      koffie
+                eyebrowText:
+                  type: text
+                  locales:
+                    en-CA: JavaDrip
+                    en-GB: JavaDrip
+                    en-NL: JavaDrip
+                    en-US: JavaDrip
+                    es-US: JavaDrip
+                    fr-CA: JavaDrip
+                    nl-NL: JavaDrip
+                marginBottom:
+                  type: select
+                  value: None
+                overlayColor:
+                  type: tp-color-palette-parameter
+                  value: primary
+                paddingBottom:
+                  type: select
+                  value: None
+                overlayOpacity:
+                  type: tp-slider-parameter
+                  value: 60%
+                containerVariant:
+                  type: select
+                  value: fluidContent
+        parameters:
+          test:
+            type: testSelect
+            value: aboutUsHero
+      - _id: 40440110-1640-40d3-9546-5fdb8e70aada
+        type: breadcrumbs
+        parameters:
+          colorStyle:
+            type: tp-color-style-parameter
+            value: primary
+          displayRootNode:
+            type: checkbox
+            value: true
+      - _id: b735f84b-a5c0-488f-8498-96a6e6bbd6b5
+        type: container
+        slots:
+          container-inner:
+            - _id: ee37f745-054d-4051-a43e-4e3f8e5443a1
+              type: richText
+              parameters:
+                content:
+                  type: richText
+                  locales:
+                    en-CA: ${#jptr:/Blog Content/entry/fields/content/value}
+                    en-GB: ${#jptr:/Blog Content/entry/fields/content/value}
+                    en-NL: ${#jptr:/Blog Content/entry/fields/content/value}
+                    en-US: ${#jptr:/Blog Content/entry/fields/content/value}
+                    es-US: ${#jptr:/Blog Content/entry/fields/content/value}
+                    fr-CA: ${#jptr:/Blog Content/entry/fields/content/value}
+                    nl-NL: ${#jptr:/Blog Content/entry/fields/content/value}
+        parameters:
+          title:
+            type: text
+            locales:
+              en-CA: Content
+              en-GB: Content
+              en-NL: Content
+              en-US: Content
+              es-US: Contenido
+              fr-CA: Contenu
+              nl-NL: Inhoud
+          marginTop:
+            type: select
+            value: None
+          paddingTop:
+            type: select
+            value: None
+          marginBottom:
+            type: select
+            value: None
+          paddingBottom:
+            type: select
+            value: Small
+  _dataResources:
+    Blog Content:
+      type: blog
+      variables:
+        locale: ${locale}
+        entryId: 396833a9-0930-44d6-8297-45c035b73d91
+  _overrides:
+    89fd04ff-4fe6-41b1-9ee0-6851de4da54f:
+      parameters:
+        syntheticGap:
+          type: tp-slider-parameter
+          value: Small
+  _locales:
+    - fr-CA
+    - en-US
+    - es-US
+    - nl-NL
+    - en-NL
+    - en-CA
+    - en-GB
+created: '2024-11-04T20:15:44.345196+00:00'
+modified: '2024-11-04T20:15:44.345196+00:00'
+pattern: false
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5

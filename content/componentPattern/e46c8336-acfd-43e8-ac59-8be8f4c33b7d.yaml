@@ -20,7 +20,7 @@ composition:
               type: file
               value: b8ccc399-5bc3-4057-a27e-e57d1dea2b08
             size:
-              value: 5214
+              value: 5228
               type: number
             title:
               type: text
@@ -345,7 +345,7 @@ composition:
                                             value: fb0316e0-29ff-4cf3-bf3e-5ffcbeaadb3f
                                           url:
                                             value: >-
-                                              https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/WTg_DdGjQfG48pyHqiArsw-javaDrip_specialty_primary.jpg
+                                              https://img.uniform.global/p/g7bIwGklRHq1c0h6VQckpg/3qmjN1UKStKATHIGjprz8g-javaDrip_specialty_primary.jpg
                                             type: text
                                           file:
                                             type: file
@@ -469,7 +469,7 @@ composition:
                                             value: f0f51fb5-4ade-4c8c-8770-72cb84c10771
                                           url:
                                             value: >-
-                                              https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/Er9RhyyiSuac7m6SoZVOQw-simple_coffee_header_image.jpg
+                                              https://img.uniform.global/p/g7bIwGklRHq1c0h6VQckpg/DHqmuYtWSW2-S_b6aaF07g-simple_coffee_header_image.jpg
                                             type: text
                                           file:
                                             type: file
@@ -705,7 +705,7 @@ composition:
                           type: file
                           value: 90843180-84d2-4750-9ea5-424b5fd008c9
                         size:
-                          value: 8045
+                          value: 8060
                           type: number
                         title:
                           type: text
@@ -760,13 +760,13 @@ composition:
                           value: e3876415-f919-470f-874e-51cb68117e56
                         url:
                           value: >-
-                            https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/YalbbZzvT1m9ZBTQo8LgxQ-icon_flower.svg
+                            https://img.uniform.global/p/g7bIwGklRHq1c0h6VQckpg/QJRzAInPRd2xoC7yDBOWVQ-icon_flower.svg
                           type: text
                         file:
                           type: file
                           value: d3e2820c-4a27-46d3-97e3-75fd8010d97c
                         size:
-                          value: 2629
+                          value: 2635
                           type: number
                         title:
                           type: text
@@ -881,13 +881,13 @@ composition:
                           value: 4b3b4e1a-4e40-4ecb-9598-775a14ab5247
                         url:
                           value: >-
-                            https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/K6dZJQiTTbyVeM5WzZ62jw-cup.svg
+                            https://img.uniform.global/p/g7bIwGklRHq1c0h6VQckpg/SC8rYWf-Q0eZVmitqX4djA-cup.svg
                           type: text
                         file:
                           type: file
                           value: cd3f8f81-9aff-40c6-955f-53fa62446cb1
                         size:
-                          value: 1213
+                          value: 1221
                           type: number
                         title:
                           type: text
@@ -981,8 +981,8 @@ composition:
     - en-NL
     - fr-CA
     - nl-NL
-created: '2023-11-20T09:34:02.558738+00:00'
-modified: '2024-09-30T21:09:15.479776+00:00'
+created: '2024-11-04T20:14:27.707414+00:00'
+modified: '2024-11-04T20:14:27.707414+00:00'
 pattern: true
 categoryId: 1bf9504a-07c4-4873-bbca-f235a6da182b
 workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5

@@ -259,10 +259,11 @@ composition:
     - en-NL
     - fr-CA
     - nl-NL
-created: '2024-02-26T13:21:31.047305+00:00'
-modified: '2024-09-24T18:55:38.827533+00:00'
+created: '2024-11-04T20:08:23.560237+00:00'
+modified: '2024-11-04T20:14:31.115237+00:00'
 pattern: true
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/v1/preview-images/NewJavaDripTheme/SalesDemo/Patterns/Reviews_preview_image
 categoryId: 2da8c924-14d5-470b-9fe4-1e56521551e5
 workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+workflowStageId: 73608d81-f8b0-4ee3-897b-c976d2dc6670
