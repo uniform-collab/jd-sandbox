@@ -1,0 +1,61 @@
+created: '2024-11-05T16:13:28.632749+00:00'
+modified: '2024-11-05T16:13:45.149966+00:00'
+pattern: false
+entry:
+  _id: 91c4532a-919a-492e-8496-2f4d1b32e98e
+  _name: The future of the perfect brew
+  _slug: the-future-of-the-perfect-brew
+  _thumbnail: >-
+    https://img.uniform.global/p/g7bIwGklRHq1c0h6VQckpg/9BvINvBqSsO-RhWGMuXAIA-espressoGPT_hero_3.jpg
+  type: callToAction
+  fields:
+    image:
+      type: asset
+      value:
+        - _id: 0834946a-454a-4031-913a-c87c049fc62c
+          type: image
+          fields:
+            id:
+              type: text
+              value: f46648cc-31ec-40b2-90ee-c7843a29e046
+            url:
+              value: >-
+                https://img.uniform.global/p/g7bIwGklRHq1c0h6VQckpg/9BvINvBqSsO-RhWGMuXAIA-espressoGPT_hero_3.jpg
+              type: text
+            file:
+              type: file
+              value: be296f9b-a810-4081-aa14-d0811872890f
+            size:
+              value: 6168022
+              type: number
+            title:
+              type: text
+              value: espressoGPT_hero_3.jpg
+            width:
+              value: 2731
+              type: number
+            height:
+              value: 4096
+              type: number
+            mediaType:
+              value: image/jpeg
+              type: text
+          _source: uniform-assets
+    title:
+      type: text
+      locales:
+        en-US: The future of the perfect brew
+    description:
+      type: text
+      locales:
+        en-US: >-
+          When we speak of the 'perfect coffee bean', it's more than just a
+          catchphrase. To us, it embodies a journey of passion, precision, and
+          perseverance.
+
+
+          EspressoGPT is not just a product but a testament to our ethos. It
+          represents our unwavering commitment to delivering our best to a
+          global community of coffee lovers.
+  _locales:
+    - en-US

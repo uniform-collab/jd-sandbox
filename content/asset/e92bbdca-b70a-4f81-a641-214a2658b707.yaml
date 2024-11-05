@@ -1,14 +1,17 @@
 asset:
   type: image
   _id: e92bbdca-b70a-4f81-a641-214a2658b707
-  _name: ''
+  _name: Image-2.webp
   fields:
     title:
       type: text
-      value: Image-2.webp
+      value: Coffee Makers
+    description:
+      type: text
+      value: Square icon
     file:
       type: file
-      value: be289f5e-173c-4d0a-a8dd-38896c8c0e90
+      value: d1bbc0ea-89e7-4e43-86a9-9ab272ae860a
     mediaType:
       value: image/webp
       type: text
@@ -26,5 +29,5 @@ asset:
       value: 1024
       type: number
     custom: {}
-created: '2024-08-06T07:16:55.136669+00:00'
-modified: '2024-08-06T07:16:55.136669+00:00'
+created: '2024-11-04T20:01:15.457415+00:00'
+modified: '2024-11-05T17:04:14.443252+00:00'

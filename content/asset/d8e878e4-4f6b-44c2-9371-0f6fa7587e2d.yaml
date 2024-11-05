@@ -1,14 +1,17 @@
 asset:
   type: image
   _id: d8e878e4-4f6b-44c2-9371-0f6fa7587e2d
-  _name: ''
+  _name: Image-5.webp
   fields:
     title:
       type: text
-      value: Image-5.webp
+      value: Kosmic Coffee
+    description:
+      type: text
+      value: square icon
     file:
       type: file
-      value: e27f771e-8de7-4198-93fa-07ddc1a300f5
+      value: 07d10075-f1df-46a1-b94e-b348714550ac
     mediaType:
       value: image/webp
       type: text
@@ -26,5 +29,5 @@ asset:
       value: 1024
       type: number
     custom: {}
-created: '2024-08-01T11:39:05.020453+00:00'
-modified: '2024-08-01T11:39:05.020453+00:00'
+created: '2024-11-04T20:01:14.039374+00:00'
+modified: '2024-11-05T17:05:19.90722+00:00'

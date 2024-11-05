@@ -1,14 +1,17 @@
 asset:
   type: image
   _id: e8063016-7bcf-4ac4-b604-efb9fb507f95
-  _name: ''
+  _name: Image.webp
   fields:
     title:
       type: text
-      value: Image.webp
+      value: Coffee Makers
+    description:
+      type: text
+      value: Square badge
     file:
       type: file
-      value: 9918ecb0-eb49-42b3-8657-a150fa0a976c
+      value: 8834c0db-867d-4960-9d78-a889af49f4f9
     mediaType:
       value: image/webp
       type: text
@@ -26,5 +29,5 @@ asset:
       value: 1024
       type: number
     custom: {}
-created: '2024-08-06T07:07:57.159118+00:00'
-modified: '2024-08-06T07:07:57.159118+00:00'
+created: '2024-11-04T20:01:16.274101+00:00'
+modified: '2024-11-05T17:03:40.755498+00:00'

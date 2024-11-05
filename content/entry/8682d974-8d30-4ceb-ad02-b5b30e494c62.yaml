@@ -1,19 +1,18 @@
-created: '2024-11-04T20:10:32.958093+00:00'
-modified: '2024-11-04T20:10:32.958093+00:00'
+created: '2024-11-05T16:21:08.027818+00:00'
+modified: '2024-11-05T16:21:26.797943+00:00'
 pattern: false
-workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
 entry:
-  _id: 1fc896fa-8a97-4108-aea4-33550ab8c26b
+  _id: 8682d974-8d30-4ceb-ad02-b5b30e494c62
   _name: Find the perfect cup without leaving your home.
   _slug: find-the-perfect-cup-without-leaving-your-home
   _thumbnail: >-
-    https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/_aeGIQGETaOispFE6759lw-hero_3.webp
-  type: hero
+    https://img.uniform.global/p/g7bIwGklRHq1c0h6VQckpg/BaeQ2V-zTZilZgbCpZojqw-hero_3.webp
+  type: callToAction
   fields:
     image:
       type: asset
       value:
-        - _id: 61304db3-f4ef-4c7e-8804-dc878811c4e8
+        - _id: 8d16cc42-d534-4ccb-a1cf-6d7b193f2438
           type: image
           fields:
             id:
@@ -21,11 +20,11 @@ entry:
               value: f088c2d9-47a2-483c-9eec-4a63b0a85fcd
             url:
               value: >-
-                https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/XtFJTWR-QC2RUhHP-Y46uA-hero_3.webp
+                https://img.uniform.global/p/g7bIwGklRHq1c0h6VQckpg/BaeQ2V-zTZilZgbCpZojqw-hero_3.webp
               type: text
             file:
               type: file
-              value: f8d04e3f-5d44-446d-85d4-ae4614df5bcd
+              value: 38ace8fa-1d27-4666-9f4c-a386c67ff46a
             size:
               value: 85290
               type: number
@@ -46,11 +45,5 @@ entry:
       type: text
       locales:
         en-US: Find the perfect cup without leaving your home.
-        es-US: Encuentra la taza perfecta sin salir de tu casa.
-        fr-CA: Trouvez la tasse parfaite sans quitter votre maison.
-        nl-NL: Vind de perfecte beker zonder uw huis te verlaten.
   _locales:
     - en-US
-    - es-US
-    - fr-CA
-    - nl-NL

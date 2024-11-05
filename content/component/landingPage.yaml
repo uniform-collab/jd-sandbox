@@ -189,6 +189,7 @@ slots:
       - text
       - $p:59b4fb3d-9b40-4a99-bb40-c93c3ddbdd30
       - $p:4ccb985b-797c-404b-85d8-497344a0d8c5
+      - $p:94b9de9a-5e2f-490b-9908-ed359fbba43d
     allowAllComponents: false
     inheritAllowedComponents: false
     patternsInAllowedComponents: true
@@ -214,16 +215,12 @@ defaults:
             syntheticGap: 'yes'
     pageContent:
       - type: heroContainer
+        variant: backgroundImage
         _pattern: daaf620c-8067-496f-9894-d6dea651a3a3
-        _dataResources:
-          Hero Content:
-            type: hero
-            variables:
-              locale: ${locale}
-              entryId: b8d75c9a-4e2a-4c52-a46b-b7842e9d98a8
         _overridability:
           variants: true
           parameters:
+            $viz: 'yes'
             delay: 'yes'
             image: 'yes'
             title: 'yes'
@@ -240,25 +237,13 @@ defaults:
             marginBottom: 'yes'
             overlayColor: 'yes'
             animationType: 'yes'
-            group_content: 'yes'
             paddingBottom: 'yes'
             animationOrder: 'yes'
-            backgroundType: 'yes'
             overlayOpacity: 'yes'
             backgroundColor: 'yes'
             animationPreview: 'yes'
             containerVariant: 'yes'
-            group_primaryCta: 'yes'
-            primaryButtonCopy: 'yes'
-            primaryButtonLink: 'yes'
-            group_secondaryCta: 'yes'
-            primaryButtonStyle: 'yes'
-            group_imageSettings: 'yes'
-            secondaryButtonCopy: 'yes'
-            secondaryButtonLink: 'yes'
-            secondaryButtonStyle: 'yes'
-            primaryButtonAnimationType: 'yes'
-            secondaryButtonAnimationType: 'yes'
+          hideLockedParameters: true
       - type: $personalization
         slots:
           pz:
@@ -300,6 +285,6 @@ defaults:
         nl-NL: Landingspagina
 titleParameter: pageTitle
 canBeComposition: true
-created: '2024-09-05T09:55:43.081587+00:00'
-updated: '2024-09-24T21:14:22.589397+00:00'
+created: '2024-11-04T20:06:14.617045+00:00'
+updated: '2024-11-05T17:17:40.394975+00:00'
 workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5

@@ -1,14 +1,17 @@
 asset:
   type: image
   _id: db25ef3c-46f0-40e6-b674-ed23c3e405d6
-  _name: ''
+  _name: Image-10.webp
   fields:
     title:
       type: text
-      value: Image-10.webp
+      value: Coffee Bean
+    description:
+      type: text
+      value: square icon
     file:
       type: file
-      value: 48a897b5-afb5-4f1a-b1dc-2968d4f94dfe
+      value: e2f0cba1-274e-4cbf-9ccd-7c0976f4fe37
     mediaType:
       value: image/webp
       type: text
@@ -26,5 +29,5 @@ asset:
       value: 1024
       type: number
     custom: {}
-created: '2024-08-06T08:27:23.402315+00:00'
-modified: '2024-08-06T08:27:23.402315+00:00'
+created: '2024-11-04T20:01:21.7584+00:00'
+modified: '2024-11-05T17:04:30.347323+00:00'

@@ -1,19 +1,18 @@
-created: '2024-11-04T20:10:23.801835+00:00'
-modified: '2024-11-04T20:10:23.801835+00:00'
+created: '2024-11-05T16:23:56.56584+00:00'
+modified: '2024-11-05T16:24:26.699116+00:00'
 pattern: false
-workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
 entry:
-  _id: 3377b10a-5e94-4820-a66e-d2281d298159
+  _id: 86c8fc51-2a4e-494f-b333-6c8c8b4f4824
   _name: COFFEE MAKERS
   _slug: coffee-makers
   _thumbnail: >-
-    https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/sHeLUlxoQaCZi1aq4v-S4g-coffee_makers.webp
-  type: hero
+    https://img.uniform.global/p/g7bIwGklRHq1c0h6VQckpg/cyiHTZ_QQOCiRIsm0PcWMg-coffee_makers.webp
+  type: callToAction
   fields:
     image:
       type: asset
       value:
-        - _id: 835a743c-bbdf-478c-8d74-96b74bf82cc7
+        - _id: c02ab99e-64b7-44f8-a4ff-cc5d034656f6
           type: image
           fields:
             id:
@@ -21,11 +20,11 @@ entry:
               value: ac4fa323-1338-49f2-96a3-548e53c06d39
             url:
               value: >-
-                https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/sVxBfLPaRr6ALGdO6BYaAA-coffee_makers.webp
+                https://img.uniform.global/p/g7bIwGklRHq1c0h6VQckpg/cyiHTZ_QQOCiRIsm0PcWMg-coffee_makers.webp
               type: text
             file:
               type: file
-              value: 1695afa2-f62a-4cf5-b186-be4a5d482d2b
+              value: 909b8689-e01c-4f00-a4a0-c62dc400ba0d
             size:
               value: 64522
               type: number
@@ -46,11 +45,5 @@ entry:
       type: text
       locales:
         en-US: COFFEE MAKERS
-        es-US: Cafeteras
-        fr-CA: CAFETIÈRES
-        nl-NL: KOFFIE MAKERS
   _locales:
     - en-US
-    - es-US
-    - fr-CA
-    - nl-NL

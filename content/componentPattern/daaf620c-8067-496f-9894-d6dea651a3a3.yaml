@@ -76,10 +76,10 @@ composition:
           hideLockedParameters: true
   _dataResources:
     Hero Content:
-      type: hero
+      type: callToAction
       variables:
         locale: ${locale}
-        entryId: c90d4a53-3237-4bd1-9790-045fe632ee0e
+        entryId: 93413738-0cfe-4c82-99e8-e1b73d01553e
       isPatternParameter: true
       ignorePatternParameterDefault: false
   _overridability:
@@ -111,10 +111,11 @@ composition:
     hideLockedParameters: true
   _locales:
     - en-US
-created: '2024-09-05T08:09:05.00646+00:00'
-modified: '2024-09-24T18:55:38.827533+00:00'
+created: '2024-11-04T20:14:24.394941+00:00'
+modified: '2024-11-05T16:30:09.902143+00:00'
 pattern: true
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/v1/preview-images/NewJavaDripTheme/SalesDemo/Patterns/Hero_preview_image
 categoryId: ea001653-1f96-4f07-9187-a1626a4965e5
 workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+workflowStageId: 73608d81-f8b0-4ee3-897b-c976d2dc6670

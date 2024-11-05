@@ -13,36 +13,7 @@ entry:
     logo:
       type: asset
       locales:
-        en-US:
-          - _id: ee5b5967-7380-4aa8-83c4-eca0c29a529b
-            type: image
-            fields:
-              id:
-                type: text
-                value: 81156e40-025d-486d-9606-5d4aa17cf9d4
-              url:
-                value: >-
-                  https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/MljFb0lqTQCQmgZS5iJWtg-AI-generated-image-for-Logo
-                type: text
-              file:
-                type: file
-                value: 61b8d803-ca52-4634-b538-d7ff25d7d3e0
-              size:
-                value: 1858341
-                type: number
-              title:
-                type: text
-                value: AI-generated-image-for-Logo
-              width:
-                value: 1024
-                type: number
-              height:
-                value: 1024
-                type: number
-              mediaType:
-                value: application/octet-stream
-                type: text
-            _source: uniform-assets
+        en-US: []
     title:
       type: text
       locales:

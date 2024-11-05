@@ -1,0 +1,53 @@
+created: '2024-11-05T16:18:27.535126+00:00'
+modified: '2024-11-05T16:18:56.755655+00:00'
+pattern: false
+entry:
+  _id: db53748e-76f5-4f8d-8e78-b30dba18ad38
+  _name: Introducing the Espresso GPT, a groundbreaking new Coffee
+  _slug: introducing-the-espresso-gpt-a-groundbreaking-new-coffee
+  _thumbnail: >-
+    https://img.uniform.global/p/g7bIwGklRHq1c0h6VQckpg/5-fIGg8-Q1CvdNmThL-BsA-espressoGPT_image.png
+  type: callToAction
+  fields:
+    image:
+      type: asset
+      value:
+        - _id: 8901990d-f909-483e-a40f-5ad873764768
+          type: image
+          fields:
+            id:
+              type: text
+              value: 1b176a0b-03d3-40f2-8d9d-96d28adc8504
+            url:
+              value: >-
+                https://img.uniform.global/p/g7bIwGklRHq1c0h6VQckpg/5-fIGg8-Q1CvdNmThL-BsA-espressoGPT_image.png
+              type: text
+            file:
+              type: file
+              value: 96d67ed9-9624-497f-a970-1b4cdfa2020d
+            size:
+              value: 449290
+              type: number
+            title:
+              type: text
+              value: espressoGPT_image.png
+            width:
+              value: 1400
+              type: number
+            height:
+              value: 681
+              type: number
+            mediaType:
+              value: image/png
+              type: text
+          _source: uniform-assets
+    title:
+      type: text
+      locales:
+        en-US: Introducing the Espresso GPT, a groundbreaking new Coffee Maker
+    description:
+      type: text
+      locales:
+        en-US: Introducing the Espresso GPT, a groundbreaking new Coffee Maker
+  _locales:
+    - en-US

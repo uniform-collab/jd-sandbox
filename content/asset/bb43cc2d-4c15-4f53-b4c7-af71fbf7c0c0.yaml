@@ -1,14 +1,14 @@
 asset:
   type: image
   _id: bb43cc2d-4c15-4f53-b4c7-af71fbf7c0c0
-  _name: ''
+  _name: 125KKW400_01_am9fbv.webp
   fields:
     title:
       type: text
-      value: 125KKW400_01_am9fbv.webp
+      value: Specialty Filter
     file:
       type: file
-      value: 2d71a3e3-4242-4dd3-922c-b5f07e1ac07c
+      value: 520b665d-d025-48b7-9c7f-48880290cf5f
     mediaType:
       value: image/webp
       type: text
@@ -26,5 +26,5 @@ asset:
       value: 600
       type: number
     custom: {}
-created: '2024-02-01T09:45:22.353317+00:00'
-modified: '2024-02-01T09:45:22.353317+00:00'
+created: '2024-11-04T20:01:12.896789+00:00'
+modified: '2024-11-05T17:06:05.144892+00:00'

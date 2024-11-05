@@ -1,14 +1,17 @@
 asset:
   type: image
   _id: b0f03a35-48b6-46b7-bac0-e5cbb8a6030d
-  _name: ''
+  _name: Image-3.webp
   fields:
     title:
       type: text
-      value: Image-3.webp
+      value: Cervello Di Caffee
+    description:
+      type: text
+      value: square icon
     file:
       type: file
-      value: 53daca24-2ced-4ef8-a571-76d7d8c5362c
+      value: c6916395-1318-4177-a2fe-ad027d0a99d4
     mediaType:
       value: image/webp
       type: text
@@ -26,5 +29,5 @@ asset:
       value: 1024
       type: number
     custom: {}
-created: '2024-08-01T11:23:46.654659+00:00'
-modified: '2024-08-01T11:23:46.654659+00:00'
+created: '2024-11-04T20:01:11.189387+00:00'
+modified: '2024-11-05T17:06:52.814612+00:00'

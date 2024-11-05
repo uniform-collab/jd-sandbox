@@ -1118,12 +1118,7 @@ composition:
           trackingEventName:
             type: text
             value: Home Product Gallery
-  _dataResources:
-    Hero Content:
-      type: hero
-      variables:
-        locale: ${locale}
-        entryId: 70bbe9fa-16ce-4e55-aaa0-432e114be106
+  _dataResources: {}
   _overrides:
     4322cc34-6a4c-4585-a0ea-4f526b98c2f4:
       parameters:
@@ -1367,7 +1362,7 @@ composition:
     - en-CA
     - en-GB
 created: '2024-11-04T20:15:48.616961+00:00'
-modified: '2024-11-04T20:15:48.616961+00:00'
+modified: '2024-11-05T16:59:08.237517+00:00'
 pattern: false
 workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
 workflowStageId: 73608d81-f8b0-4ee3-897b-c976d2dc6670

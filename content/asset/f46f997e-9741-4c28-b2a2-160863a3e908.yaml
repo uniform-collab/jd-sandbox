@@ -1,11 +1,14 @@
 asset:
   type: image
   _id: f46f997e-9741-4c28-b2a2-160863a3e908
-  _name: ''
+  _name: AI-generated-image-for-Logo
   fields:
     title:
       type: text
-      value: AI-generated-image-for-Logo
+      value: 'International Coffee '
+    description:
+      type: text
+      value: icon
     file:
       type: file
       value: ed6be97e-204c-4fe7-b4c7-b798665bfaae
@@ -27,4 +30,4 @@ asset:
       type: number
     custom: {}
 created: '2024-11-04T20:01:16.989101+00:00'
-modified: '2024-11-04T20:07:53.591455+00:00'
+modified: '2024-11-05T17:02:00.477733+00:00'

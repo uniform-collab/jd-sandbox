@@ -68,14 +68,7 @@ composition:
             matchFilter: 'yes'
             trackingEventName: 'yes'
           hideLockedParameters: true
-  _dataResources:
-    Hero Content:
-      type: hero
-      variables:
-        locale: ${locale}
-        entryId: b8d75c9a-4e2a-4c52-a46b-b7842e9d98a8
-      isPatternParameter: true
-      ignorePatternParameterDefault: false
+  _dataResources: {}
   _overridability:
     hideLockedParameters: true
   _locales:
@@ -83,7 +76,7 @@ composition:
     - nl-NL
     - fr-CA
 created: '2024-11-04T20:13:48.118321+00:00'
-modified: '2024-11-04T20:13:48.118321+00:00'
+modified: '2024-11-05T16:57:11.966709+00:00'
 pattern: true
 categoryId: 31fcffb0-aead-4256-8e49-4d50cc28aa29
 workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5

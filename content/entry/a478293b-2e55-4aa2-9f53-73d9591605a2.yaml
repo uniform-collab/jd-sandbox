@@ -1,5 +1,5 @@
-created: '2024-08-12T13:05:44.067602+00:00'
-modified: '2024-09-24T18:55:38.827533+00:00'
+created: '2024-11-04T20:10:53.8159+00:00'
+modified: '2024-11-04T20:10:53.8159+00:00'
 pattern: false
 workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
 entry:
@@ -30,7 +30,7 @@ entry:
                 type: number
               title:
                 type: text
-                value: Image-10.webp
+                value: Coffee Bean
               width:
                 value: 1024
                 type: number
@@ -40,6 +40,9 @@ entry:
               mediaType:
                 value: image/webp
                 type: text
+              description:
+                type: text
+                value: square icon
             _source: uniform-assets
     title:
       type: text

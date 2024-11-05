@@ -5,7 +5,10 @@ asset:
   fields:
     title:
       type: text
-      value: AI-generated-image-for-Icon
+      value: VIP Customer
+    description:
+      type: text
+      value: icon
     file:
       type: file
       value: bdeedbfd-04da-4591-991b-719d091b656a
@@ -27,4 +30,4 @@ asset:
       type: number
     custom: {}
 created: '2024-11-04T20:01:21.048546+00:00'
-modified: '2024-11-04T20:07:52.458205+00:00'
+modified: '2024-11-05T17:02:11.442685+00:00'

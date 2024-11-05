@@ -1,14 +1,14 @@
 asset:
   type: image
   _id: 5bef0d2d-bab7-454d-a186-2dd88c253230
-  _name: ''
+  _name: s-l1200_gmegot.webp
   fields:
     title:
       type: text
-      value: s-l1200_gmegot.webp
+      value: Specialty Glass Pot
     file:
       type: file
-      value: a4e2bf13-ea23-4dbf-bd57-42a8d1d26fd5
+      value: 78e3c498-4729-4b8a-8c73-d3d2c820f82b
     mediaType:
       value: image/webp
       type: text
@@ -26,5 +26,5 @@ asset:
       value: 467
       type: number
     custom: {}
-created: '2024-02-01T10:07:47.684191+00:00'
-modified: '2024-02-01T10:07:47.684191+00:00'
+created: '2024-11-04T20:01:12.191341+00:00'
+modified: '2024-11-05T17:06:25.230429+00:00'

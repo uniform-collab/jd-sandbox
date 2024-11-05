@@ -1,0 +1,53 @@
+created: '2024-11-05T16:27:47.886771+00:00'
+modified: '2024-11-05T16:28:06.044476+00:00'
+pattern: false
+entry:
+  _id: b5653ca3-188d-4c0f-9d02-12c7407e8764
+  _name: Announcing the JavaDrip Specialty Coffee Maker!!!
+  _slug: announcing-the-javadrip-specialty-coffee-maker
+  _thumbnail: >-
+    https://img.uniform.global/p/g7bIwGklRHq1c0h6VQckpg/3qmjN1UKStKATHIGjprz8g-javaDrip_specialty_primary.jpg
+  type: callToAction
+  fields:
+    image:
+      type: asset
+      value:
+        - _id: f6d4dcc1-5361-4820-933e-d03781c897eb
+          type: image
+          fields:
+            id:
+              type: text
+              value: fb0316e0-29ff-4cf3-bf3e-5ffcbeaadb3f
+            url:
+              value: >-
+                https://img.uniform.global/p/g7bIwGklRHq1c0h6VQckpg/3qmjN1UKStKATHIGjprz8g-javaDrip_specialty_primary.jpg
+              type: text
+            file:
+              type: file
+              value: 4884ae7a-83c1-4e12-80bd-f8fbca37b8bb
+            size:
+              value: 112636
+              type: number
+            title:
+              type: text
+              value: javaDrip_specialty_primary.jpg
+            width:
+              value: 1000
+              type: number
+            height:
+              value: 1000
+              type: number
+            mediaType:
+              value: image/jpeg
+              type: text
+          _source: uniform-assets
+    title:
+      type: text
+      locales:
+        en-US: Announcing the JavaDrip Specialty Coffee Maker!!!
+    description:
+      type: text
+      locales:
+        en-US: Our first feature packed machine that won't break your budget
+  _locales:
+    - en-US

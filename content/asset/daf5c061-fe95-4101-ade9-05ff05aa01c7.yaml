@@ -1,14 +1,17 @@
 asset:
   type: image
   _id: daf5c061-fe95-4101-ade9-05ff05aa01c7
-  _name: ''
+  _name: Image-8.png
   fields:
     title:
       type: text
-      value: Image-8.png
+      value: Accessories
+    description:
+      type: text
+      value: square icon
     file:
       type: file
-      value: 53b5fa3d-62de-456b-9930-37b220f9955a
+      value: a0ce2d7c-c477-45ff-bce8-b20f80ac0a3e
     mediaType:
       value: image/png
       type: text
@@ -26,5 +29,5 @@ asset:
       value: 1024
       type: number
     custom: {}
-created: '2024-08-06T09:11:40.852775+00:00'
-modified: '2024-08-06T09:11:40.852775+00:00'
+created: '2024-11-04T20:01:14.259063+00:00'
+modified: '2024-11-05T17:04:56.980639+00:00'

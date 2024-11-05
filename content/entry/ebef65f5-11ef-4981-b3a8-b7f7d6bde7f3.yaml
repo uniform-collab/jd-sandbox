@@ -32,7 +32,7 @@ entry:
                 type: number
               title:
                 type: text
-                value: Image-5.webp
+                value: Coffee Beans
               width:
                 value: 1024
                 type: number
@@ -42,6 +42,9 @@ entry:
               mediaType:
                 value: image/webp
                 type: text
+              description:
+                type: text
+                value: global beans badge
             _source: uniform-assets
     title:
       type: text

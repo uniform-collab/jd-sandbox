@@ -1,19 +1,18 @@
-created: '2024-11-04T20:10:26.442611+00:00'
-modified: '2024-11-04T20:10:26.442611+00:00'
+created: '2024-11-05T16:22:54.357369+00:00'
+modified: '2024-11-05T16:23:10.657973+00:00'
 pattern: false
-workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
 entry:
-  _id: 5926ece1-e4d6-4f17-a078-64999d2a6a75
+  _id: 86a05720-914a-4881-8f4b-11562ba689a3
   _name: Contact us for details
   _slug: contact-us-for-details
   _thumbnail: >-
-    https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/nu2ESSEyQeyS_d2y35WBYQ-hero_2.webp
-  type: hero
+    https://img.uniform.global/p/g7bIwGklRHq1c0h6VQckpg/aRLFVICdTfalU0P-AE0TSA-hero_2.webp
+  type: callToAction
   fields:
     image:
       type: asset
       value:
-        - _id: 840c6b2c-b935-4b73-a988-d706deddbfec
+        - _id: 5cb46063-801d-4dd1-8b88-e9f7e0693e3b
           type: image
           fields:
             id:
@@ -21,11 +20,11 @@ entry:
               value: 80df1378-4862-4467-8f8f-553b1a925417
             url:
               value: >-
-                https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/_CIW0vD8QlO-e3GTlBI45g-hero_2.webp
+                https://img.uniform.global/p/g7bIwGklRHq1c0h6VQckpg/aRLFVICdTfalU0P-AE0TSA-hero_2.webp
               type: text
             file:
               type: file
-              value: 6e7983a2-f401-4e2b-ad04-56077f522f8c
+              value: 97a519a3-039f-402c-8449-ec4c5432e481
             size:
               value: 119344
               type: number
@@ -46,18 +45,9 @@ entry:
       type: text
       locales:
         en-US: Contact us for details
-        es-US: Contacta con nosotras para más detalles
-        fr-CA: Contactez-nous pour plus de détails
-        nl-NL: Neem contact met ons op voor details
     description:
       type: text
       locales:
         en-US: If you want see more
-        es-US: Si quieres ver más
-        fr-CA: Si vous voulez en voir plus
-        nl-NL: Als je meer wilt zien
   _locales:
     - en-US
-    - es-US
-    - fr-CA
-    - nl-NL

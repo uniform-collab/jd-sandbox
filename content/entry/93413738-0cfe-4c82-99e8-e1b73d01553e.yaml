@@ -1,19 +1,18 @@
-created: '2024-11-04T20:10:29.98158+00:00'
-modified: '2024-11-04T20:10:29.98158+00:00'
+created: '2024-11-05T16:22:16.61155+00:00'
+modified: '2024-11-05T16:22:38.479852+00:00'
 pattern: false
-workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
 entry:
-  _id: c90d4a53-3237-4bd1-9790-045fe632ee0e
+  _id: 93413738-0cfe-4c82-99e8-e1b73d01553e
   _name: Engineering goes better...
   _slug: engineering-goes-better
   _thumbnail: >-
-    https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/rLDZ01mKRIatYT4OQCn5pw-photo-162.png
-  type: hero
+    https://img.uniform.global/p/g7bIwGklRHq1c0h6VQckpg/STxEYp32RVKBDV9T3u-i3g-photo-162.png
+  type: callToAction
   fields:
     image:
       type: asset
       value:
-        - _id: 22ab0c3d-d7fa-4f2f-a7d6-0bab53c43435
+        - _id: f68054a4-3ada-41bc-8429-8e1f516117cc
           type: image
           fields:
             id:
@@ -21,11 +20,11 @@ entry:
               value: 6ea51630-fcaf-48bc-b06e-53606fd4993f
             url:
               value: >-
-                https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/NeTAhe0VSVuMDLABGmhmkA-photo-162.png
+                https://img.uniform.global/p/g7bIwGklRHq1c0h6VQckpg/STxEYp32RVKBDV9T3u-i3g-photo-162.png
               type: text
             file:
               type: file
-              value: db74da01-d6d9-4ffc-ad3b-f0409fece768
+              value: fae3f68b-d4f2-4c9f-9293-16d0453c7371
             size:
               value: 8951223
               type: number
@@ -46,18 +45,9 @@ entry:
       type: text
       locales:
         en-US: Engineering goes better...
-        es-US: La ingeniería va mejor ...
-        fr-CA: L'ingénierie va mieux ...
-        nl-NL: Engineering gaat beter ...
     description:
       type: text
       locales:
         en-US: with Turkish Coffee
-        es-US: con café turco
-        fr-CA: avec du café turc
-        nl-NL: met Turkse koffie
   _locales:
     - en-US
-    - es-US
-    - fr-CA
-    - nl-NL

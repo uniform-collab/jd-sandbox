@@ -1,14 +1,17 @@
 asset:
   type: image
   _id: d17ff204-fc51-4a29-9f8b-8db5eb1dad46
-  _name: ''
+  _name: Image-5.webp
   fields:
     title:
       type: text
-      value: Image-5.webp
+      value: Specialty Bundle
+    description:
+      type: text
+      value: square icon
     file:
       type: file
-      value: 30bcebd8-b432-4895-b86a-6d919ebb2100
+      value: 14a4d0d4-c423-4d0f-a0dc-b24bb52da300
     mediaType:
       value: image/webp
       type: text
@@ -26,5 +29,5 @@ asset:
       value: 1024
       type: number
     custom: {}
-created: '2024-08-27T10:59:43.313988+00:00'
-modified: '2024-08-27T10:59:43.313988+00:00'
+created: '2024-11-04T20:01:13.504105+00:00'
+modified: '2024-11-05T17:05:40.056683+00:00'

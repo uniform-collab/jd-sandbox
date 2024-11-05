@@ -1,0 +1,65 @@
+created: '2024-11-05T16:15:25.644266+00:00'
+modified: '2024-11-05T16:16:04.188809+00:00'
+pattern: false
+entry:
+  _id: a728a866-8299-4b54-9714-1c0f19141fe7
+  _name: The drip on display
+  _slug: the-drip-on-display
+  _thumbnail: >-
+    https://img.uniform.global/p/g7bIwGklRHq1c0h6VQckpg/ZB76GdhBQTeO-G2VLLEXIg-espressoGPT_hero_2.jpg
+  type: productFeature
+  fields:
+    image:
+      type: asset
+      value:
+        - _id: a2bad70f-855a-4167-bbf7-d4268f799c4d
+          type: image
+          fields:
+            id:
+              type: text
+              value: a13dd5cb-a03f-4e22-9214-954af5f1618f
+            url:
+              value: >-
+                https://img.uniform.global/p/g7bIwGklRHq1c0h6VQckpg/ZB76GdhBQTeO-G2VLLEXIg-espressoGPT_hero_2.jpg
+              type: text
+            file:
+              type: file
+              value: 6202cd51-0748-4fdc-a85c-fc3753e7a92a
+            size:
+              value: 235654
+              type: number
+            title:
+              type: text
+              value: espressoGPT_hero_2.jpg
+            width:
+              value: 2048
+              type: number
+            height:
+              value: 1423
+              type: number
+            mediaType:
+              value: image/jpeg
+              type: text
+          _source: uniform-assets
+    title:
+      type: text
+      locales:
+        en-US: The drip on display
+    product:
+      type: contentReference
+      value: ${#jptr:/ref-a728a866-8299-4b54-9714-1c0f19141fe7-product/entries/0}
+    description:
+      type: text
+      locales:
+        en-US: >-
+          Crystal-clear clarity, ensuring users can easily select their desired
+          settings and monitor the brewing process in real-time. Its intuitive
+          interface and vibrant visuals elevate the user experience.
+  _dataResources:
+    ref-a728a866-8299-4b54-9714-1c0f19141fe7-product:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: c7e72a37-47db-4202-800d-09540a4b9181
+  _locales:
+    - en-US

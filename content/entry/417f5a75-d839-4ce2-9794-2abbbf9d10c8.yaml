@@ -1,19 +1,18 @@
-created: '2024-11-04T20:10:32.75197+00:00'
-modified: '2024-11-04T20:10:32.75197+00:00'
+created: '2024-11-05T16:21:47.197579+00:00'
+modified: '2024-11-05T16:22:08.748288+00:00'
 pattern: false
-workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
 entry:
-  _id: 8a7e717d-3b57-4fb4-b926-ea086c8e7de7
+  _id: 417f5a75-d839-4ce2-9794-2abbbf9d10c8
   _name: Finally - the perfect barista coffee without leaving home.
   _slug: finally-the-perfect-barista-coffee-without-leaving-home
   _thumbnail: >-
-    https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/xW5NiNVyTG6D77hS-ytTDg-hero_4.webp
-  type: hero
+    https://img.uniform.global/p/g7bIwGklRHq1c0h6VQckpg/Vk2wQbNPRLqLp9QmyisS_g-hero_4.webp
+  type: callToAction
   fields:
     image:
       type: asset
       value:
-        - _id: 597b01d6-156d-46c2-b20f-ca71468271ce
+        - _id: 5b88d5e4-5dd3-407f-a96f-678645307a1e
           type: image
           fields:
             id:
@@ -21,11 +20,11 @@ entry:
               value: cbe60c39-8397-41cf-a64a-b163f85e3ae4
             url:
               value: >-
-                https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/S6mo1qn0Tx6MCktsLcBEew-hero_4.webp
+                https://img.uniform.global/p/g7bIwGklRHq1c0h6VQckpg/Vk2wQbNPRLqLp9QmyisS_g-hero_4.webp
               type: text
             file:
               type: file
-              value: b53195a6-3598-4ac3-8720-aa8a7c5aab71
+              value: 5a02f474-a793-4c02-a141-ea86c975efc9
             size:
               value: 100478
               type: number
@@ -46,11 +45,5 @@ entry:
       type: text
       locales:
         en-US: Finally - the perfect barista coffee without leaving home.
-        es-US: Finalmente, el café barista perfecto sin salir de casa.
-        fr-CA: Enfin - le café Barista parfait sans quitter la maison.
-        nl-NL: Eindelijk - de perfecte barista -koffie zonder het huis te verlaten.
   _locales:
     - en-US
-    - es-US
-    - fr-CA
-    - nl-NL

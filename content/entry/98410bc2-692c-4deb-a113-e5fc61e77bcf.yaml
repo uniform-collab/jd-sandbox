@@ -1,19 +1,18 @@
-created: '2024-11-04T20:10:24.053783+00:00'
-modified: '2024-11-04T20:10:24.053783+00:00'
+created: '2024-11-05T16:23:22.837209+00:00'
+modified: '2024-11-05T16:23:45.536868+00:00'
 pattern: false
-workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
 entry:
-  _id: f8fa3c15-c0a7-4d54-a578-e38dddb39bf7
+  _id: 98410bc2-692c-4deb-a113-e5fc61e77bcf
   _name: Coffee makers for all your brewing needs
   _slug: coffee-makers-for-all-your-brewing-needs
   _thumbnail: >-
-    https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/ekkpIfHlSPiV2Syf-zOz0w-hero_coffee_makers.webp
-  type: hero
+    https://img.uniform.global/p/g7bIwGklRHq1c0h6VQckpg/D8wJxGv9SbOqbDqa3w3ASA-hero_coffee_makers.webp
+  type: callToAction
   fields:
     image:
       type: asset
       value:
-        - _id: 909b3754-a866-44bd-829a-35093e883e9a
+        - _id: 0800e35a-bc27-407e-92d9-8de3c9eac4f1
           type: image
           fields:
             id:
@@ -21,11 +20,11 @@ entry:
               value: 0851fb0a-c616-469b-8871-3d28a2efbe06
             url:
               value: >-
-                https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/bWGVkDEiRYW0-kDS7rnNyA-hero_coffee_makers.webp
+                https://img.uniform.global/p/g7bIwGklRHq1c0h6VQckpg/D8wJxGv9SbOqbDqa3w3ASA-hero_coffee_makers.webp
               type: text
             file:
               type: file
-              value: 79457321-b881-4c8d-9be5-109b4dbc4bdc
+              value: 45f9dc32-cc03-44b5-a0d9-7bfb255d6dd6
             size:
               value: 68680
               type: number
@@ -46,11 +45,5 @@ entry:
       type: text
       locales:
         en-US: Coffee makers for all your brewing needs
-        es-US: Cafeteros para todas sus necesidades de elaboración de cerveza
-        fr-CA: Cafetières pour tous vos besoins de brassage
-        nl-NL: Koffiezetapparaten voor al uw brouwbehoeften
   _locales:
-    - nl-NL
     - en-US
-    - fr-CA
-    - es-US

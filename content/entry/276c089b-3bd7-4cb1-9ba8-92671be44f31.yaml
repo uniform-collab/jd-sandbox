@@ -1,19 +1,18 @@
-created: '2024-11-04T20:10:09.181539+00:00'
-modified: '2024-11-04T20:10:09.181539+00:00'
+created: '2024-11-05T16:26:41.98566+00:00'
+modified: '2024-11-05T16:27:07.65511+00:00'
 pattern: false
-workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
 entry:
-  _id: 16050275-c45a-4555-92f9-c6d4604e6351
+  _id: 276c089b-3bd7-4cb1-9ba8-92671be44f31
   _name: Articles for all your brewing needs
   _slug: articles-for-all-your-brewing-needs
   _thumbnail: >-
-    https://img.uniform.global/p/f5BOhfXGRdKSc-J4EfsMCg/nGVillq-Re6oA0bOeN4nMA-hero_1.png
-  type: hero
+    https://img.uniform.global/p/g7bIwGklRHq1c0h6VQckpg/RVZDOpR6Soigswg3I5d2Jg-hero_1.png
+  type: callToAction
   fields:
     image:
       type: asset
       value:
-        - _id: 2d18061d-d7ec-4ce4-b03c-4dae439567ee
+        - _id: eb9c5c27-b3c9-4d83-bfa5-fb514860e054
           type: image
           fields:
             id:
@@ -21,11 +20,11 @@ entry:
               value: 68c015b8-8932-48a4-9b2f-56fc978d43ac
             url:
               value: >-
-                https://canary-img.uniform.global/p/dwsfSKzGTaunBLyd20SnWA/7I4uj5fHTMihLmFyH9-K2A-hero_1.png
+                https://img.uniform.global/p/g7bIwGklRHq1c0h6VQckpg/RVZDOpR6Soigswg3I5d2Jg-hero_1.png
               type: text
             file:
               type: file
-              value: cdd93828-6905-4ff5-929d-2cde68782fff
+              value: c8c41bb1-0377-417a-ae9a-d1ecaa71c501
             size:
               value: 1515655
               type: number
@@ -46,11 +45,5 @@ entry:
       type: text
       locales:
         en-US: Articles for all your brewing needs
-        es-US: Artículos para todas sus necesidades de elaboración de cerveza
-        fr-CA: Articles pour tous vos besoins de brassage
-        nl-NL: Artikelen voor al uw brouwbehoeften
   _locales:
     - en-US
-    - es-US
-    - fr-CA
-    - nl-NL

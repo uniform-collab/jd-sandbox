@@ -1,14 +1,17 @@
 asset:
   type: image
   _id: 77db7d53-2139-42b0-991a-75d92afbd473
-  _name: ''
+  _name: ai_generated_image_for_image.jpg
   fields:
     title:
       type: text
-      value: ai_generated_image_for_image.jpg
+      value: Shopping Basket
+    description:
+      type: text
+      value: Basket with packages
     file:
       type: file
-      value: 159c5c46-5b66-4f77-a136-85f40d73ea54
+      value: 033a7dee-601d-4870-9b98-6aaf74002d66
     mediaType:
       value: image/jpeg
       type: text
@@ -26,5 +29,5 @@ asset:
       value: 1024
       type: number
     custom: {}
-created: '2023-12-12T18:13:22.332403+00:00'
-modified: '2023-12-12T18:13:22.332403+00:00'
+created: '2024-11-04T20:01:05.308374+00:00'
+modified: '2024-11-05T17:03:00.634229+00:00'

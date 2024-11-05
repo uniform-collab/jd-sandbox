@@ -61,7 +61,7 @@ composition:
                           type: number
                         title:
                           type: text
-                          value: AI-generated-image-for-Icon
+                          value: VIP Customer
                         width:
                           value: 1024
                           type: number
@@ -71,6 +71,9 @@ composition:
                         mediaType:
                           value: application/octet-stream
                           type: text
+                        description:
+                          type: text
+                          value: icon
                       _source: uniform-assets
                 objectFit:
                   type: select

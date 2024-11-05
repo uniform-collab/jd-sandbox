@@ -1,5 +1,5 @@
-created: '2024-08-12T13:06:54.415572+00:00'
-modified: '2024-09-24T18:55:38.827533+00:00'
+created: '2024-11-04T20:10:46.576069+00:00'
+modified: '2024-11-04T20:10:46.576069+00:00'
 pattern: false
 workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
 entry:
@@ -30,7 +30,7 @@ entry:
                 type: number
               title:
                 type: text
-                value: Image-5.webp
+                value: Kosmic Coffee
               width:
                 value: 1024
                 type: number
@@ -40,6 +40,9 @@ entry:
               mediaType:
                 value: image/webp
                 type: text
+              description:
+                type: text
+                value: square icon
             _source: uniform-assets
         es-US:
           - _id: e2327063-7d58-451b-afec-09e1b145ad67
@@ -60,7 +63,7 @@ entry:
                 type: number
               title:
                 type: text
-                value: Image-5.webp
+                value: Kosmic Coffee
               width:
                 value: 1024
                 type: number
@@ -70,6 +73,9 @@ entry:
               mediaType:
                 value: image/webp
                 type: text
+              description:
+                type: text
+                value: square icon
             _source: uniform-assets
         fr-CA:
           - _id: e2327063-7d58-451b-afec-09e1b145ad67
@@ -90,7 +96,7 @@ entry:
                 type: number
               title:
                 type: text
-                value: Image-5.webp
+                value: Kosmic Coffee
               width:
                 value: 1024
                 type: number
@@ -100,6 +106,9 @@ entry:
               mediaType:
                 value: image/webp
                 type: text
+              description:
+                type: text
+                value: square icon
             _source: uniform-assets
         nl-NL:
           - _id: e2327063-7d58-451b-afec-09e1b145ad67
@@ -120,7 +129,7 @@ entry:
                 type: number
               title:
                 type: text
-                value: Image-5.webp
+                value: Kosmic Coffee
               width:
                 value: 1024
                 type: number
@@ -130,6 +139,9 @@ entry:
               mediaType:
                 value: image/webp
                 type: text
+              description:
+                type: text
+                value: square icon
             _source: uniform-assets
     title:
       type: text

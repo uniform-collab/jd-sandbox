@@ -1,14 +1,17 @@
 asset:
   type: image
   _id: e5745ed7-2f97-494b-be7f-e00dab5e95a7
-  _name: ''
+  _name: Image-5.webp
   fields:
     title:
       type: text
-      value: Image-5.webp
+      value: Coffee Beans
+    description:
+      type: text
+      value: global beans badge
     file:
       type: file
-      value: be7c59ac-11b1-472d-aabc-5906e8e7b4ae
+      value: 2bd44d83-3440-4ccb-84e7-4ab6b20fe86c
     mediaType:
       value: image/webp
       type: text
@@ -26,5 +29,5 @@ asset:
       value: 1024
       type: number
     custom: {}
-created: '2024-08-20T10:28:59.805686+00:00'
-modified: '2024-08-20T10:28:59.805686+00:00'
+created: '2024-11-04T20:01:15.910736+00:00'
+modified: '2024-11-05T17:03:58.844964+00:00'

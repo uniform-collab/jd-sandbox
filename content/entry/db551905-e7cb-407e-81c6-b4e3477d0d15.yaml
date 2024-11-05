@@ -1,0 +1,56 @@
+created: '2024-11-05T16:11:31.784391+00:00'
+modified: '2024-11-05T16:11:55.937117+00:00'
+pattern: false
+entry:
+  _id: db551905-e7cb-407e-81c6-b4e3477d0d15
+  _name: Where future technologies meet timeless taste
+  _slug: where-future-technologies-meet-timeless-taste
+  _thumbnail: >-
+    https://img.uniform.global/p/g7bIwGklRHq1c0h6VQckpg/CZy7RazRRzGoALvzBhPm2Q-hero_alt_5.png
+  type: callToAction
+  fields:
+    image:
+      type: asset
+      value:
+        - _id: 4997f641-db9c-415f-b0b3-b9c2fbf85dea
+          type: image
+          fields:
+            id:
+              type: text
+              value: 1240d461-04ed-4a53-8958-5c471d4e0b51
+            url:
+              value: >-
+                https://img.uniform.global/p/g7bIwGklRHq1c0h6VQckpg/CZy7RazRRzGoALvzBhPm2Q-hero_alt_5.png
+              type: text
+            file:
+              type: file
+              value: 7c416640-c7f7-413c-8dc8-c206eb149646
+            size:
+              value: 5638561
+              type: number
+            title:
+              type: text
+              value: hero_alt_5.png
+            width:
+              value: 3206
+              type: number
+            height:
+              value: 1802
+              type: number
+            mediaType:
+              value: image/png
+              type: text
+          _source: uniform-assets
+    title:
+      type: text
+      locales:
+        en-US: Where future technologies meet timeless taste
+    description:
+      type: text
+      locales:
+        en-US: >-
+          When we speak of the 'perfect coffee bean', it's more than just a
+          catchphrase. To us, it embodies a journey of passion, precision, and
+          perseverance.
+  _locales:
+    - en-US

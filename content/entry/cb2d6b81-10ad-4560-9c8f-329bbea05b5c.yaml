@@ -1,0 +1,49 @@
+created: '2024-11-05T16:24:29.701389+00:00'
+modified: '2024-11-05T16:24:50.805343+00:00'
+pattern: false
+entry:
+  _id: cb2d6b81-10ad-4560-9c8f-329bbea05b5c
+  _name: COFFEE BEANS
+  _slug: coffee-beans
+  _thumbnail: >-
+    https://img.uniform.global/p/g7bIwGklRHq1c0h6VQckpg/PDqoBnVtSoeeBUB0tuF17w-hero_beans.webp
+  type: callToAction
+  fields:
+    image:
+      type: asset
+      value:
+        - _id: 8a07e17c-8c6d-4eda-b8dd-3c13f7c2f294
+          type: image
+          fields:
+            id:
+              type: text
+              value: d90e05c0-2824-475a-bfb7-adb58a0e2dd3
+            url:
+              value: >-
+                https://img.uniform.global/p/g7bIwGklRHq1c0h6VQckpg/PDqoBnVtSoeeBUB0tuF17w-hero_beans.webp
+              type: text
+            file:
+              type: file
+              value: 7a7478a1-68be-4aba-afa1-7886dae558c8
+            size:
+              value: 667596
+              type: number
+            title:
+              type: text
+              value: hero_beans.webp
+            width:
+              value: 2600
+              type: number
+            height:
+              value: 1300
+              type: number
+            mediaType:
+              value: image/webp
+              type: text
+          _source: uniform-assets
+    title:
+      type: text
+      locales:
+        en-US: COFFEE BEANS
+  _locales:
+    - en-US

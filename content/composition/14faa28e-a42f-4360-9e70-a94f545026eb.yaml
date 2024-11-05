@@ -1,0 +1,56 @@
+composition:
+  _name: JavaDrip Specialty Launch
+  _id: 14faa28e-a42f-4360-9e70-a94f545026eb
+  _slug: JavaDrip-Specialty-Launch
+  type: landingPage
+  parameters:
+    pageTitle:
+      type: text
+      locales:
+        en-US: Landing page
+  slots:
+    pageFooter:
+      - _id: f4c5f526-5dbd-48d6-8bda-a655dfee08bd
+        type: footer
+        _pattern: 319639e9-4bac-4fb3-8f0b-19088c969fcb
+    pageHeader:
+      - _id: 46051758-e2f9-4f91-85e2-7de7e539fc93
+        type: header
+        _pattern: e46c8336-acfd-43e8-ac59-8be8f4c33b7d
+    pageContent:
+      - _id: 2130adb6-7c25-468b-bf72-893e386e740c
+        type: heroContainer
+        _pattern: daaf620c-8067-496f-9894-d6dea651a3a3
+        _dataResources:
+          Hero Content:
+            type: callToAction
+            variables:
+              locale: ${locale}
+              entryId: b5653ca3-188d-4c0f-9d02-12c7407e8764
+      - _id: febea7d2-9f4c-4e39-b0b2-555cc9af0b9d
+        type: hero
+        _pattern: 94b9de9a-5e2f-490b-9908-ed359fbba43d
+        _dataResources:
+          Feature Content:
+            type: product-single
+            variables:
+              locale: ${locale}
+              entryId: df7a5d21-9a3c-49db-92d2-662b0fecce21
+      - _id: f5f6cc47-5b88-44ab-a7d3-cccf52317e42
+        type: $personalization
+        slots:
+          pz:
+            - _id: 9951c122-1298-4053-9462-114e4a1b63a7
+              type: emailSignupForm
+              _pattern: 30e4b2d9-9999-4c59-ab1e-a8d83528d448
+        parameters:
+          trackingEventName:
+            type: text
+            value: CTA P13N
+  _locales:
+    - en-US
+created: '2024-11-05T17:18:05.393756+00:00'
+modified: '2024-11-05T17:18:38.833555+00:00'
+pattern: false
+workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+workflowStageId: 73608d81-f8b0-4ee3-897b-c976d2dc6670

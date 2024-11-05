@@ -30,15 +30,15 @@ composition:
         type: header
         _pattern: e46c8336-acfd-43e8-ac59-8be8f4c33b7d
     pageContent:
-      - _id: f97064aa-f6e6-43cf-8c5c-96688d8864df
+      - _id: 32a443b1-1262-4dc7-836a-960b3503ef61
         type: heroContainer
         _pattern: daaf620c-8067-496f-9894-d6dea651a3a3
         _dataResources:
           Hero Content:
-            type: hero
+            type: callToAction
             variables:
               locale: ${locale}
-              entryId: f8fa3c15-c0a7-4d54-a578-e38dddb39bf7
+              entryId: 98410bc2-692c-4deb-a113-e5fc61e77bcf
       - _id: 2a22f973-7656-482e-8e10-1cf65ef964b5
         type: breadcrumbs
         parameters:
@@ -302,12 +302,7 @@ composition:
             type: tp-slider-parameter
             value: 10px
   _overrides:
-    e8f0fb84-33c2-4de0-aa1d-a60b3c2249af:
-      parameters:
-        syntheticGap:
-          type: tp-slider-parameter
-          value: Small
-    f97064aa-f6e6-43cf-8c5c-96688d8864df:
+    32a443b1-1262-4dc7-836a-960b3503ef61:
       parameters:
         video:
           type: cloudinary-video
@@ -315,7 +310,7 @@ composition:
             - alt: ''
               url: >-
                 https://res.cloudinary.com/uniform-demos/video/upload/v1693387616/videos/pexels-mizuno-rojas.mp4
-              uuid: 7e3c1e05-db83-46b6-ac85-99bd4c2fb282
+              uuid: fa3b0321-b2b3-4c2e-8519-aa58ee3356bc
               width: '1920'
               format: mp4
               height: '1080'
@@ -327,18 +322,11 @@ composition:
                 https://res.cloudinary.com/uniform-demos/video/upload/q_auto,f_auto/videos/pexels-mizuno-rojas.mp4
               resourceType: video
               transformation: ''
-        duration:
-          type: select
-          value: medium
-        animationType:
-          type: select
-          value: fadeIn
-        animationOrder:
-          type: select
-          value: oneByOne
-        animationPreview:
-          type: tp-play-animation-parameter
-          value: true
+    e8f0fb84-33c2-4de0-aa1d-a60b3c2249af:
+      parameters:
+        syntheticGap:
+          type: tp-slider-parameter
+          value: Small
   _locales:
     - fr-CA
     - en-US
@@ -347,7 +335,8 @@ composition:
     - en-NL
     - en-CA
     - en-GB
-created: '2024-09-05T09:56:05.105891+00:00'
-modified: '2024-09-24T18:55:38.827533+00:00'
+created: '2024-11-04T20:15:46.723961+00:00'
+modified: '2024-11-05T16:43:01.300859+00:00'
 pattern: false
 workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+workflowStageId: 73608d81-f8b0-4ee3-897b-c976d2dc6670

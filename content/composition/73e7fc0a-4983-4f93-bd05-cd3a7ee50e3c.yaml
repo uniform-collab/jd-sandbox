@@ -33,15 +33,15 @@ composition:
             variables:
               locale: ${locale}
               entryId: ea315933-36e4-4b8a-87b3-66aa1b3ae984
-      - _id: 2ed8da08-f177-41c7-97ba-9971572487d3
+      - _id: 3186cdcc-c4de-4466-8e88-8fcd0790b966
         type: hero
-        _pattern: ac6f9c69-0108-44b4-bf67-ef13c59ed67a
+        _pattern: 94b9de9a-5e2f-490b-9908-ed359fbba43d
         _dataResources:
           Feature Content:
-            type: productFeature
+            type: product-single
             variables:
               locale: ${locale}
-              entryId: f75ba25f-3154-4a20-9fd8-88184c12c145
+              entryId: df7a5d21-9a3c-49db-92d2-662b0fecce21
       - _id: bf46f518-66af-4495-bf9b-38958ec7b8a9
         type: $personalization
         slots:
@@ -60,76 +60,6 @@ composition:
             type: text
             value: 'Coupon '
   _overrides:
-    2ed8da08-f177-41c7-97ba-9971572487d3:
-      parameters:
-        title:
-          type: text
-          locales:
-            en-CA: ${#jptr:/Feature Content/entry/fields/title/value}
-            en-GB: ${#jptr:/Feature Content/entry/fields/title/value}
-            en-NL: ${#jptr:/Feature Content/entry/fields/title/value}
-        description:
-          type: text
-          locales:
-            en-CA: >-
-              Start your day right with the JavaDrip coffee maker! It's a
-              must-have appliance for any kitchen, perfect for daily use.
-              Whether you prefer decaf or a strong brew, this coffee maker will
-              deliver. With the Specialty coffee maker, you can make delicious
-              coffeehouse-style drinks and iced coffee that never tastes
-              diluted. It's also versatile, brewing a single cup or a full
-              carafe using your favorite grounds, no pods needed.
-            en-GB: >-
-              Start your day right with the JavaDrip coffee maker! It's a
-              must-have appliance for any kitchen, perfect for daily use.
-              Whether you prefer decaf or a strong brew, this coffee maker will
-              deliver. With the Specialty coffee maker, you can make delicious
-              coffeehouse-style drinks and iced coffee that never tastes
-              diluted. It's also versatile, brewing a single cup or a full
-              carafe using your favorite grounds, no pods needed.
-            en-NL: >-
-              Start your day right with the JavaDrip coffee maker! It's a
-              must-have appliance for any kitchen, perfect for daily use.
-              Whether you prefer decaf or a strong brew, this coffee maker will
-              deliver. With the Specialty coffee maker, you can make delicious
-              coffeehouse-style drinks and iced coffee that never tastes
-              diluted. It's also versatile, brewing a single cup or a full
-              carafe using your favorite grounds, no pods needed.
-            en-US: >-
-              Start your day right with the JavaDrip coffee maker! It's a
-              must-have appliance for any kitchen, perfect for daily use.
-              Whether you prefer decaf or a strong brew, this coffee maker will
-              deliver. With the Specialty coffee maker, you can make delicious
-              coffeehouse-style drinks and iced coffee that never tastes
-              diluted. It's also versatile, brewing a single cup or a full
-              carafe using your favorite grounds, no pods needed.
-            es-US: >-
-              ¡Empiece bien el día con la cafetera JavaDrip! Es un
-              electrodoméstico imprescindible en cualquier cocina,  perfecto
-              para el uso diario. Ya sea que prefiera una bebida descafeinada o
-              fuerte, esta cafetera lo cumplirá.  Con la cafetera de
-              especialidad, puedes preparar deliciosas bebidas estilo cafetería
-              y café helado que  nunca sabe diluido. También es versátil, ya que
-              prepara una sola taza o una jarra llena con tu café molido 
-              favorito, sin necesidad de cápsulas.
-            fr-CA: >-
-              Commencez votre journée du bon pied avec la cafetière JavaDrip !
-              C'est un appareil indispensable à toute cuisine, parfait pour une
-              utilisation quotidienne. Que vous préfériez le café décaféiné ou
-              le café fort, cette cafetière vous comblera. Avec la cafetière
-              Specialty, vous pouvez préparer de délicieuses boissons de style
-              maison de café et du café glacé qui n'a jamais le goût d'être
-              dilué. Polyvalente, elle prépare une seule tasse ou une carafe
-              entière en utilisant votre café moulu préféré, sans dosettes.
-            nl-NL: >-
-              Begin je dag goed met het JavaDrip koffiezetapparaat! Het is een
-              onmisbaar apparaat voor elke keuken, perfect voor dagelijks
-              gebruik. Of je nu van decaf houdt of van een sterk brouwsel, dit
-              koffiezetapparaat levert alles. Met het speciale koffiezetapparaat
-              maak je heerlijke koffiehuisdrankjes en ijskoffie die nooit
-              verwaterd smaakt. Hij is ook veelzijdig: je kunt er een enkele kop
-              mee zetten of een volle karaf met je favoriete koffiedik, zonder
-              dat je pods nodig hebt.
     34a66e23-e2b4-4678-9c2b-b44cfe18f7f6:
       parameters:
         buttonCopy:
@@ -192,7 +122,7 @@ composition:
     - en-CA
     - en-GB
 created: '2024-11-04T20:15:50.286608+00:00'
-modified: '2024-11-04T20:15:50.286608+00:00'
+modified: '2024-11-05T16:08:03.115823+00:00'
 pattern: false
 workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
 workflowStageId: 73608d81-f8b0-4ee3-897b-c976d2dc6670

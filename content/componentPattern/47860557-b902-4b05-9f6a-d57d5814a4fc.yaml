@@ -164,7 +164,7 @@ composition:
       type: anyContent
       variables:
         locale: ${locale}
-        entryId: bc35eb41-f1f5-49fa-a06f-8cbaf4dfd475
+        entryId: 05de3a02-f649-4ba1-b52b-ee23c1d27065
         entryIds: c8a997fc-4410-44eb-856f-dd4e559fedbd
       isPatternParameter: true
       ignorePatternParameterDefault: true
@@ -181,8 +181,8 @@ composition:
     hideLockedParameters: true
   _locales:
     - en-US
-created: '2024-10-10T19:02:16.805487+00:00'
-modified: '2024-10-10T19:45:43.128292+00:00'
+created: '2024-11-04T20:14:16.482339+00:00'
+modified: '2024-11-05T16:58:33.511126+00:00'
 pattern: true
 description: Single Product content card inside a container
 previewImageUrl: >-

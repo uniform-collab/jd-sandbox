@@ -67,15 +67,13 @@ composition:
     primaryButtonLink:
       type: link
       value:
-        path: >-
-          /${locale}/products/${#jptr:/Feature
-          Content/entry/fields/product/value/entry/_slug}
+        path: /en-US/products/${#jptr:/Feature Content/entry/_slug}
         type: projectMapNode
         nodeId: fb657541-0488-4c22-bce4-64c9cd71bdde
         projectMapId: 62588085-7894-4810-84b6-eaaf0cb5213c
         dynamicInputValues:
-          locale: ${locale}
-          product-slug: ${#jptr:/Feature Content/entry/fields/product/value/entry/_slug}
+          locale: en-US
+          product-slug: ${#jptr:/Feature Content/entry/_slug}
     primaryButtonStyle:
       type: tp-button-style-parameter
       value: secondary
@@ -130,8 +128,8 @@ composition:
     - en-NL
     - fr-CA
     - nl-NL
-created: '2024-10-15T14:28:24.296272+00:00'
-modified: '2024-10-15T15:36:05.791664+00:00'
+created: '2024-11-04T20:14:30.723873+00:00'
+modified: '2024-11-05T17:13:41.225808+00:00'
 pattern: true
 description: Product information in a hero layout
 previewImageUrl: >-

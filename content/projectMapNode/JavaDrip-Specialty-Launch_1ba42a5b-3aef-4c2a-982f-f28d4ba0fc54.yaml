@@ -2,7 +2,8 @@ id: 1ba42a5b-3aef-4c2a-982f-f28d4ba0fc54
 name: JavaDrip Specialty Launch
 order: -100
 path: /:locale/JavaDrip-Specialty-Launch
-type: placeholder
+type: composition
 pathSegment: JavaDrip-Specialty-Launch
 data: {}
+compositionId: 14faa28e-a42f-4360-9e70-a94f545026eb
 projectMapId: 62588085-7894-4810-84b6-eaaf0cb5213c

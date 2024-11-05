@@ -24,14 +24,14 @@ composition:
         type: header
         _pattern: e46c8336-acfd-43e8-ac59-8be8f4c33b7d
     pageContent:
-      - _id: 2a06af5c-f382-411b-9272-5552bf0acecd
-        type: hero
+      - _id: 3192bcc4-4c58-4e5f-bbba-bbb42aa75e2c
+        type: heroContainer
         variant: backgroundImage
         parameters:
           image:
             type: asset
             value:
-              - _id: 3a689d72-248f-4e36-866b-9a553392f854
+              - _id: 47d51aaa-d992-46f6-bcb2-a7b389033197
                 type: image
                 fields:
                   id:
@@ -43,7 +43,7 @@ composition:
                     type: text
                   file:
                     type: file
-                    value: 5bf5370f-c653-44ca-ad0a-27ee74e73bdc
+                    value: 7bcbd9d2-fedc-44ce-842d-ba8be02a21d9
                   size:
                     value: 352516
                     type: number
@@ -63,13 +63,28 @@ composition:
           title:
             type: text
             locales:
-              en-CA: Curated articles on coffee making
-              en-GB: Curated articles on coffee making
-              en-NL: Curated articles on coffee making
               en-US: Curated articles on coffee making
-              es-US: artículos seleccionados sobre la elaboración de café
-              fr-CA: Articles sur la préparation du café
-              nl-NL: Samengestelde artikelen over koffiezetten
+          video:
+            type: cloudinary-video
+            value:
+              - alt: ''
+                url: >-
+                  https://res.cloudinary.com/uniform-demos/video/upload/v1693552449/videos/pexels-kelly-lacy-6770222_2160p_rwyc2x.mp4
+                uuid: b4a0f503-1e4c-419c-890f-58a58c93bf18
+                width: '3840'
+                format: mp4
+                height: '2160'
+                caption: ''
+                version: 1693552449
+                publicId: videos/pexels-kelly-lacy-6770222_2160p_rwyc2x
+                createdAt: '2023-09-01T07:14:09Z'
+                previewUrl: >-
+                  https://res.cloudinary.com/uniform-demos/video/upload/q_auto,f_auto/videos/pexels-kelly-lacy-6770222_2160p_rwyc2x.mp4
+                resourceType: video
+                transformation: ''
+          marginTop:
+            type: select
+            value: None
           objectFit:
             type: select
             value: cover
@@ -85,13 +100,10 @@ composition:
           eyebrowText:
             type: text
             locales:
-              en-CA: learn from the best
-              en-GB: learn from the best
-              en-NL: learn from the best
               en-US: learn from the best
-              es-US: aprende de los mejores
-              fr-CA: apprendre des meilleurs
-              nl-NL: leer van de besten
+          marginBottom:
+            type: select
+            value: None
           overlayColor:
             type: tp-color-palette-parameter
             value: primary
@@ -350,6 +362,7 @@ composition:
     - en-CA
     - en-GB
 created: '2024-11-04T20:15:45.149217+00:00'
-modified: '2024-11-04T20:15:45.149217+00:00'
+modified: '2024-11-05T16:47:15.497486+00:00'
 pattern: false
 workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+workflowStageId: 73608d81-f8b0-4ee3-897b-c976d2dc6670

@@ -30,15 +30,15 @@ composition:
         type: header
         _pattern: e46c8336-acfd-43e8-ac59-8be8f4c33b7d
     pageContent:
-      - _id: ab77b711-c8f1-4fd5-9056-1f32e806a122
+      - _id: 37d0618b-fae7-41be-8189-3ecdfa31f660
         type: heroContainer
         _pattern: daaf620c-8067-496f-9894-d6dea651a3a3
         _dataResources:
           Hero Content:
-            type: hero
+            type: callToAction
             variables:
               locale: ${locale}
-              entryId: 527ba1e6-c9df-4a2a-b942-b463e37d657c
+              entryId: 47d60f9e-738f-4e96-9b62-405444c2314b
       - _id: 87355915-a0a9-4c82-8fec-dbc14b9b864b
         type: breadcrumbs
         parameters:
@@ -298,20 +298,6 @@ composition:
         syntheticGap:
           type: tp-slider-parameter
           value: Small
-    ab77b711-c8f1-4fd5-9056-1f32e806a122:
-      parameters:
-        duration:
-          type: select
-          value: medium
-        animationType:
-          type: select
-          value: fadeIn
-        animationOrder:
-          type: select
-          value: oneByOne
-        animationPreview:
-          type: tp-play-animation-parameter
-          value: true
   _locales:
     - fr-CA
     - en-US
@@ -320,7 +306,8 @@ composition:
     - en-NL
     - en-CA
     - en-GB
-created: '2024-09-05T09:56:22.820516+00:00'
-modified: '2024-09-24T18:55:38.827533+00:00'
+created: '2024-11-04T20:15:45.466369+00:00'
+modified: '2024-11-05T16:39:21.71143+00:00'
 pattern: false
 workflowId: ceb6adfe-cdbd-4277-854e-61d31230eff5
+workflowStageId: 73608d81-f8b0-4ee3-897b-c976d2dc6670
